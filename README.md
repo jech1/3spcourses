@@ -1,2 +1,3 @@
 # 3spcourses
-Idea for 3SP CourseWork. 
+
+This will be an idea to display courses for the STEM Student Scholar (3SP) Program at Bergen Community College
