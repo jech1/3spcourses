@@ -108,7 +108,9 @@ export default function Home() {
               height={150}
               className="mx-auto mb-8"
             />
-            <h1 className="text-4xl font-bold mb-4">Welcome to EduPlatform</h1>
+            <h1 className="text-4xl font-bold mb-4">
+              Welcome to 3SP Courses !
+            </h1>
             <p className="text-xl max-w-2xl mx-auto mb-8">
               Empower your future with our cutting-edge online courses. Learn,
               grow, and succeed in the world of technology.
