@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import AnimatedImageCarousel from "../components/AnimatedImageCarousel";
 import { Button } from "../components/ui/button";
 import {
   Card,
@@ -15,72 +16,74 @@ import {
 const courses = [
   {
     id: 1,
-    name: "Introduction to Web Development",
+    name: "Scientific Writing & Grant Proposal",
     description:
-      "Learn the basics of HTML, CSS, and JavaScript to build modern websites.",
-    image: "/placeholder.svg?height=100&width=200",
+      "This certification is designed to enhance your capabilities as a writer.",
+    image: "/writinglogo3SP.png?height=200&width=400",
+    
+  
   },
   {
     id: 2,
-    name: "React Fundamentals",
+    name: "Research Methods & Analytics",
     description:
-      "Master the basics of React and build interactive user interfaces.",
-    image: "/placeholder.svg?height=100&width=200",
+      "Master the basics of research from finding credible sources to having professional citations.",
+    image: "/researchlogo3sp.png?height=100&width=200",
   },
   {
     id: 3,
-    name: "Node.js Backend Development",
+    name: "Microcontroller & Circuit Design",
     description:
-      "Learn to build scalable server-side applications with Node.js and Express.",
-    image: "/placeholder.svg?height=100&width=200",
+      "Learn to build reliable prototypes with coding in c++, designing circuits, and soldering components.",
+    image: "/3spcircuitlogo.png?height=100&width=200",
   },
   {
     id: 4,
-    name: "Database Design and SQL",
+    name: "C++ Coding",
     description:
-      "Understand relational database concepts and write efficient SQL queries.",
-    image: "/placeholder.svg?height=100&width=200",
+      "Understand programming concepts and write efficient code using one of the most utilized languages worldwide.",
+    image: "/3spc++logo.png?height=100&width=200",
   },
   {
     id: 5,
-    name: "DevOps and Deployment",
+    name: "3D Modeling CAD",
     description:
-      "Learn the principles of DevOps and how to deploy applications to the cloud.",
-    image: "/placeholder.svg?height=100&width=200",
+      "Learn the principles of CAD and how to develop your own models through onshape.",
+    image: "/3spCADlogo.png?height=100&width=200",
   },
   {
     id: 6,
-    name: "Mobile App Development with React Native",
+    name: "Caffine Extraction",
     description: "Build cross-platform mobile apps using React Native.",
-    image: "/placeholder.svg?height=100&width=200",
+    image: "/3spCaffinelogo.png?height=100&width=200",
   },
 ];
 
 const certificates = [
   {
     id: 1,
-    image: "/placeholder.svg?height=300&width=400",
-    alt: "Web Development Certificate",
+    image: "/ScientificWritingB.png?height=300&width=400",
+    alt: "",
   },
   {
     id: 2,
-    image: "/placeholder.svg?height=300&width=400",
-    alt: "React Certificate",
+    image: "/ScientificWritingB.png?height=300&width=400",
+    alt: "",
   },
   {
     id: 3,
-    image: "/placeholder.svg?height=300&width=400",
-    alt: "Node.js Certificate",
+    image: "/ScientificWritingB.png?height=300&width=400",
+    alt: "",
   },
   {
     id: 4,
-    image: "/placeholder.svg?height=300&width=400",
-    alt: "SQL Certificate",
+    image: "/ScientificWritingB.png?height=300&width=400",
+    alt: "",
   },
   {
     id: 5,
-    image: "/placeholder.svg?height=300&width=400",
-    alt: "DevOps Certificate",
+    image: "/ScientificWritingB.png?height=300&width=400",
+    alt: "",
   },
 ];
 
@@ -102,10 +105,10 @@ export default function Home() {
         <section className="bg-gradient-to-b from-[#11001C] to-white text-white py-20">
           <div className="container mx-auto px-4 text-center">
             <Image
-              src="/placeholder.svg?height=150&width=300"
+              src="/3SPLogo (4).png"
               alt="EduPlatform Logo"
-              width={300}
-              height={150}
+              width={400}
+              height={250}
               className="mx-auto mb-8"
             />
             <h1 className="text-4xl font-bold mb-4">
@@ -158,11 +161,20 @@ export default function Home() {
           </div>
         </section>
 
+            {/* Certificates Section */}
+            <div>
+              
+                <AnimatedImageCarousel />
+
+            </div>
+        
+
+
         {/* Certificates Section */}
         <section className="py-16 bg-gray-100">
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold mb-8 text-center text-[#11001C]">
-              Our Certificates
+              Our Badges
             </h2>
             <div className="relative w-full max-w-2xl mx-auto h-[300px] overflow-hidden rounded-lg shadow-lg">
               {certificates.map((cert, index) => (
