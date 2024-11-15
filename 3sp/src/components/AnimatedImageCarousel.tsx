@@ -5,12 +5,12 @@ import { motion, useAnimationFrame, useMotionValue } from 'framer-motion'
 import Image from 'next/image'
 
 const images = [
-  { src: '/Scientific Writing Badge (1).png?height=400&width=500', alt: 'Image 1' },
-  { src: '/circuitbadge.png?height=400&width=500', alt: 'Image 2' },
-  { src: '/researchbadge.png?height=400&width=500', alt: 'Image 3' },
-  { src: '/CADbadge (1).png?height=400&width=500', alt: 'Image 4' },
-  { src: '/c++badge.png?height=400&width=500', alt: 'Image 5' },
-  { src: '/caffeinebadge.png?height=400&width=500', alt: 'Image 6' },
+  { src: '/Scientific Writing Badge (1).png?height=500&width=500', alt: 'Image 1' },
+  { src: '/circuitbadge.png?height=500&width=500', alt: 'Image 2' },
+  { src: '/researchbadge.png?height=500&width=500', alt: 'Image 3' },
+  { src: '/CADbadge (1).png?height=500&width=500', alt: 'Image 4' },
+  { src: '/c++badge.png?height=500&width=500', alt: 'Image 5' },
+  { src: '/caffeinebadge.png?height=500&width=500', alt: 'Image 6' },
 ]
 
 export default function AnimatedImageCarousel() {
@@ -25,7 +25,7 @@ export default function AnimatedImageCarousel() {
       if (xValue <= -containerWidth) {
         x.set(0)
       } else {
-        x.set(xValue - 1) // Adjust this value to change the speed
+        x.set(xValue - 2) // Adjust this value to change the speed
       }
     }
   })
