@@ -1,6 +1,5 @@
 "use client";
 
-import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import AnimatedImageCarousel from "../components/AnimatedImageCarousel";
@@ -16,15 +15,15 @@ import {
 const courses = [
   {
     id: 1,
+    slug: "WritingOverview",
     name: "Scientific Writing & Grant Proposal",
     description:
       "This certification is designed to enhance your capabilities as a writer.",
     image: "/writinglogo3SP.png?height=200&width=400",
-    
-  
   },
   {
     id: 2,
+    slug: "ResearchOverview",
     name: "Research Methods & Analytics",
     description:
       "Master the basics of research from finding credible sources to having professional citations.",
@@ -32,6 +31,7 @@ const courses = [
   },
   {
     id: 3,
+    slug: "CircuitOverview",
     name: "Microcontroller & Circuit Design",
     description:
       "Learn to build reliable prototypes with coding in c++, designing circuits, and soldering components.",
@@ -39,6 +39,7 @@ const courses = [
   },
   {
     id: 4,
+    slug: "CppOverview",
     name: "C++ Coding",
     description:
       "Understand programming concepts and write efficient code using one of the most utilized languages worldwide.",
@@ -46,6 +47,7 @@ const courses = [
   },
   {
     id: 5,
+    slug: "CADOverview",
     name: "3D Modeling CAD",
     description:
       "Learn the principles of CAD and how to develop your own models through onshape.",
@@ -53,53 +55,25 @@ const courses = [
   },
   {
     id: 6,
-    name: "Caffine Extraction",
-    description: "Build cross-platform mobile apps using React Native.",
+    slug: "caffeineOverview",
+    name: "Caffeine Extraction",
+    description: "Master the fundamentals of research in a lab by Extracting Caffeine.",
     image: "/3spCaffinelogo.png?height=100&width=200",
   },
 ];
 
-const certificates = [
-  {
-    id: 1,
-    image: "/ScientificWritingB.png?height=300&width=400",
-    alt: "",
-  },
-  {
-    id: 2,
-    image: "/ScientificWritingB.png?height=300&width=400",
-    alt: "",
-  },
-  {
-    id: 3,
-    image: "/ScientificWritingB.png?height=300&width=400",
-    alt: "",
-  },
-  {
-    id: 4,
-    image: "/ScientificWritingB.png?height=300&width=400",
-    alt: "",
-  },
-  {
-    id: 5,
-    image: "/ScientificWritingB.png?height=300&width=400",
-    alt: "",
-  },
-];
-
 export default function Home() {
-  const [currentCertificate, setCurrentCertificate] = useState(0);
-
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setCurrentCertificate((prev) => (prev + 1) % certificates.length);
-    }, 2000);
-
-    return () => clearInterval(timer);
-  }, []);
-
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="min-h-screen flex flex-col">
+      <header className="bg-[#11001C] text-white py-4 px-6 flex justify-between items-center shadow-md">
+        <Link href="/" className="text-2xl font-bold">
+          3SP Course Platform
+        </Link>
+        <Button className="bg-white text-[#11001C] hover:bg-gray-200 px-6 py-2 rounded-md">
+          Login
+        </Button>
+      </header>
+
       <main className="flex-grow">
         {/* Hero Section */}
         <section className="bg-gradient-to-b from-[#11001C] to-white text-white py-20">
@@ -111,9 +85,7 @@ export default function Home() {
               height={300}
               className="mx-auto mb-8"
             />
-            <h1 className="text-4xl font-bold mb-4">
-              Welcome to 3SP Courses !
-            </h1>
+            <h1 className="text-4xl font-bold mb-4">Welcome to 3SP Courses!</h1>
             <p className="text-xl max-w-2xl mx-auto mb-8">
               Empower your future with our cutting-edge online courses. Learn,
               grow, and succeed in the world of technology.
@@ -149,7 +121,7 @@ export default function Home() {
                   <CardContent>
                     <CardDescription>{course.description}</CardDescription>
                     <Link
-                      href={`/courses/${course.id}`}
+                      href={`/${course.slug}`}
                       className="mt-4 inline-block"
                     >
                       <Button variant="outline">View Course</Button>
@@ -161,44 +133,36 @@ export default function Home() {
           </div>
         </section>
 
-            {/* Certificates Section */}
-            <div style={{ marginTop: '120px', marginBottom: '120px' }}>
+        {/* Animated Image Carousel Section */}
+        <div style={{ marginTop: "120px", marginBottom: "0px" }}>
+          <AnimatedImageCarousel />
+        </div>
 
-                <AnimatedImageCarousel />
-
-            </div >
-        
-
-
-        {/* Certificates Section */}
-        <section className="py-16 bg-gray-100">
-          <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold mb-8 text-center text-[#11001C]">
-              Our Badges
-            </h2>
-            <div className="relative w-full max-w-2xl mx-auto h-[300px] overflow-hidden rounded-lg shadow-lg">
-              {certificates.map((cert, index) => (
-                <div
-                  key={cert.id}
-                  className={`absolute top-0 left-0 w-full h-full transition-opacity duration-1000 ${
-                    index === currentCertificate ? "opacity-100" : "opacity-0"
-                  }`}
-                  aria-hidden={index !== currentCertificate}
-                >
-                  <Image
-                    src={cert.image}
-                    alt={cert.alt}
-                    layout="fill"
-                    objectFit="cover"
-                  />
-                </div>
-              ))}
+        {/* Footer Section */}
+        <footer className="bg-gray-100 text-gray-600 py-12">
+          <div className="container mx-auto px-4 grid gap-8 md:grid-cols-2">
+            <div>
+              <h3 className="text-lg font-semibold mb-4">Resources</h3>
+              <ul className="space-y-2">
+                <li><Link href="#" className="hover:underline">Student Handbook</Link></li>
+                <li><Link href="#" className="hover:underline">Course Materials</Link></li>
+                <li><Link href="#" className="hover:underline">Learning Tips</Link></li>
+                <li><Link href="#" className="hover:underline">FAQ</Link></li>
+                <li><Link href="#" className="hover:underline">Admin</Link></li>
+              </ul>
             </div>
-            <p className="text-center mt-4 text-gray-600">
-              Slide {currentCertificate + 1} of {certificates.length}
-            </p>
+            <div>
+              <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
+              <ul className="space-y-2">
+                <li>Email: <a href="mailto:info@courseplatform.com" className="hover:underline">info@courseplatform.com</a></li>
+                <li>Phone: +1 (123) 456-7890</li>
+                <li>Website: <a href="https://www.courseplatform.com" className="hover:underline">www.courseplatform.com</a></li>
+                <li>Made by: Jordan Rodriguez & Jacob Echeverry</li>
+                <li>Contact Makers: <a href="https://www.courseplatform.com" className="hover:underline">www.courseplatform.com</a></li>
+              </ul>
+            </div>
           </div>
-        </section>
+        </footer>
       </main>
     </div>
   );
