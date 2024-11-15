@@ -107,8 +107,8 @@ export default function Home() {
             <Image
               src="/3SPLogo (4).png"
               alt="EduPlatform Logo"
-              width={400}
-              height={250}
+              width={300}
+              height={300}
               className="mx-auto mb-8"
             />
             <h1 className="text-4xl font-bold mb-4">
@@ -140,8 +140,8 @@ export default function Home() {
                     <Image
                       src={course.image}
                       alt={`${course.name} illustration`}
-                      width={100}
-                      height={100}
+                      width={150}
+                      height={150}
                       className="rounded-md object-cover"
                     />
                     <CardTitle>{course.name}</CardTitle>
@@ -162,11 +162,11 @@ export default function Home() {
         </section>
 
             {/* Certificates Section */}
-            <div>
-              
+            <div style={{ marginTop: '120px', marginBottom: '120px' }}>
+
                 <AnimatedImageCarousel />
 
-            </div>
+            </div >
         
 
 

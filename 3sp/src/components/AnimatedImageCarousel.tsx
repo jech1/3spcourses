@@ -5,12 +5,12 @@ import { motion, useAnimationFrame, useMotionValue } from 'framer-motion'
 import Image from 'next/image'
 
 const images = [
-  { src: '/ScientificWritingB.png?height=400&width=500', alt: 'Image 1' },
-  { src: '/ScientificWritingB.png?height=400&width=500', alt: 'Image 2' },
-  { src: '/ScientificWritingB.png?height=400&width=500', alt: 'Image 3' },
-  { src: '/ScientificWritingB.png?height=400&width=500', alt: 'Image 4' },
-  { src: '/ScientificWritingB.png?height=400&width=500', alt: 'Image 5' },
-  { src: '/ScientificWritingB.png?height=400&width=500', alt: 'Image 6' },
+  { src: '/Scientific Writing Badge (1).png?height=400&width=500', alt: 'Image 1' },
+  { src: '/circuitbadge.png?height=400&width=500', alt: 'Image 2' },
+  { src: '/researchbadge.png?height=400&width=500', alt: 'Image 3' },
+  { src: '/CADbadge (1).png?height=400&width=500', alt: 'Image 4' },
+  { src: '/c++badge.png?height=400&width=500', alt: 'Image 5' },
+  { src: '/caffeinebadge.png?height=400&width=500', alt: 'Image 6' },
 ]
 
 export default function AnimatedImageCarousel() {
@@ -39,7 +39,11 @@ export default function AnimatedImageCarousel() {
   }, [])
 
   return (
-    <div className="w-full overflow-hidden bg-gray-100 p-4">
+    <div className="w-full overflow-hidden bg-gray-100 p-40">
+      <h2 className="text-3xl font-bold mb-20 text-center text-[#11001C]">
+            Awarded Badges
+      </h2>
+      
       <motion.div
         ref={containerRef}
         className="flex space-x-4"
