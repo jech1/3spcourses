@@ -78,11 +78,6 @@ function AnimatedImageCarousel() {
 export default function EnhancedCourseOverviewComponent() {
   return (
     <div className="min-h-screen flex flex-col">
-      <header className="bg-black text-primary-foreground py-4 px-6 flex justify-between items-center">
-        <h1 className="text-2xl font-bold">3SP Course Platform</h1>
-        <Button variant="secondary">Login</Button>
-      </header>
-
       <main className="flex-grow">
         <div className="container mx-auto px-4 py-12 space-y-36 mt-20">
           <section className="text-center space-y-4">
