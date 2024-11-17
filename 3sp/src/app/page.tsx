@@ -66,15 +66,6 @@ const courses = [
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col">
-      <header className="bg-[#11001C] text-white py-4 px-6 flex justify-between items-center shadow-md">
-        <Link href="/" className="text-2xl font-bold">
-          3SP Course Platform
-        </Link>
-        <Button className="bg-white text-[#11001C] hover:bg-gray-200 px-6 py-2 rounded-md">
-          Login
-        </Button>
-      </header>
-
       <main className="flex-grow">
         {/* Hero Section */}
         <section className="bg-gradient-to-b from-[#11001C] to-white text-white py-20">
