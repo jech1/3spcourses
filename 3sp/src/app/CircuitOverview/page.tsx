@@ -3,7 +3,7 @@
 import { useRef, useEffect } from "react";
 import { motion, useAnimationFrame, useMotionValue } from "framer-motion";
 import Image from "next/image";
-import Link from "next/link";
+//import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -244,75 +244,6 @@ export default function EnhancedCourseOverviewComponent() {
           <AnimatedImageCarousel />
         </section>
       </main>
-
-      <footer className="bg-gray-100 text-gray-600 py-12">
-        <div className="container mx-auto px-4 grid gap-8 md:grid-cols-2">
-          <div>
-            <h3 className="text-lg font-semibold mb-4">Resources</h3>
-            <ul className="space-y-2">
-              <li>
-                <Link href="#" className="hover:underline">
-                  Student Handbook
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="hover:underline">
-                  Course Materials
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="hover:underline">
-                  Learning Tips
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="hover:underline">
-                  FAQ
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="hover:underline">
-                  Admin
-                </Link>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
-            <ul className="space-y-2">
-              <li>
-                Email:{" "}
-                <a
-                  href="mailto:info@courseplatform.com"
-                  className="hover:underline"
-                >
-                  info@courseplatform.com
-                </a>
-              </li>
-              <li>Phone: +1 (123) 456-7890</li>
-              <li>
-                Website:{" "}
-                <a
-                  href="https://www.courseplatform.com"
-                  className="hover:underline"
-                >
-                  www.courseplatform.com
-                </a>
-              </li>
-              <li>Made by: Jordan Rodriguez & Jacob Echeverry</li>
-              <li>
-                Contact Makers:{" "}
-                <a
-                  href="https://www.courseplatform.com"
-                  className="hover:underline"
-                >
-                  www.courseplatform.com
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 }
