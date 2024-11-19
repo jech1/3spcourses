@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <div className="min-h-screen flex flex-col">
-          <header className="bg-[#11001C] text-white py-4 px-6 flex justify-between items-center shadow-md">
+          <header className="bg-[#632a88] text-white py-4 px-6 flex justify-between items-center shadow-md">
             <Link href="/" className="text-2xl font-bold">
               3SP Course Platform
             </Link>

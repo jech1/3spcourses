@@ -68,7 +68,7 @@ export default function Home() {
     <div className="min-h-screen flex flex-col">
       <main className="flex-grow">
         {/* Hero Section */}
-        <section className="bg-gradient-to-b from-[#11001C] to-white text-white py-20">
+        <section className="bg-gradient-to-b from-[#632a88] to-white text-white py-20">
           <div className="container mx-auto px-4 text-center">
             <Image
               src="/3SPLogo (4).png"
