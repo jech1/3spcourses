@@ -102,10 +102,7 @@ export default function EnhancedCourseOverviewComponent() {
             </CardHeader>
             <CardContent>
               <p className="mb-4">
-                This comprehensive course will introduce you to the core
-                technologies used in modern web development. Youll learn HTML,
-                CSS, and JavaScript, as well as best practices for creating
-                responsive and accessible websites.
+              This course provides a practical introduction to Computer-Aided Design (CAD) and 3D modeling, teaching students to design, modify, and visualize objects for various applications. From mastering essential CAD tools to creating complex 3D models, students will gain hands-on experience to bring their ideas to life.
               </p>
               <ul className="list-disc pl-5 space-y-2">
                 <li>Duration: 8 weeks</li>
@@ -120,101 +117,77 @@ export default function EnhancedCourseOverviewComponent() {
             <Accordion type="single" collapsible className="w-full">
               <AccordionItem value="week1">
                 <AccordionTrigger>
-                  Week 1: Introduction to HTML
+                  Week 1: Introduction to CAD and Software Setup{" "}
                 </AccordionTrigger>
                 <AccordionContent>
                   <ul className="list-disc pl-5 space-y-2">
-                    <li>Understanding the structure of web pages</li>
-                    <li>Basic HTML tags and elements</li>
-                    <li>Creating your first HTML document</li>
-                    <li>HTML5 semantic elements</li>
+                    <li>Chapter 1: Introduction</li>
+                    <li>Chapter 1: Setting up the CAD environment in onshape
+                    </li>
+                    <li>Chapter 1: Overview of the CAD interface and tools</li>
+                    <li>Chapter 1: Understanding design principles and sketching basics</li>
+                    <li>Chapter 1: Creating simple 2D sketches and extrusions</li>
+                    <li>Chapter 1: Summary </li>
+                    <li>Chapter 1: Quiz </li>
                   </ul>
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="week2">
-                <AccordionTrigger>Week 2: Styling with CSS</AccordionTrigger>
+                <AccordionTrigger>
+                  Week 2: Mastering Basic 3D Modeling Techniques{" "}
+                </AccordionTrigger>
                 <AccordionContent>
                   <ul className="list-disc pl-5 space-y-2">
-                    <li>Introduction to CSS</li>
-                    <li>Selectors and properties</li>
-                    <li>Box model and layout</li>
-                    <li>Responsive design principles</li>
+                    <li>Chapter 2: Introduction</li>
+                    <li>Chapter 2: Working with primitives like cubes, spheres, and cylinders</li>
+                    <li>Chapter 2: Modifying shapes using extrude, revolve, and loft tools</li>
+                    <li>Chapter 2: Combining and subtracting shapes (Boolean operations)</li>
+                    <li>Chapter 2: Building simple 3D objects with precision</li>
+                    <li>Chapter 2: Summary </li>
+                    <li>Chapter 2: Quiz </li>
                   </ul>
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="week3">
-                <AccordionTrigger>Week 3: JavaScript Basics</AccordionTrigger>
+                <AccordionTrigger>
+                  Week 3: Rendering and Visualization{" "}
+                </AccordionTrigger>
                 <AccordionContent>
                   <ul className="list-disc pl-5 space-y-2">
-                    <li>Introduction to programming with JavaScript</li>
-                    <li>Variables, data types, and operators</li>
-                    <li>Control structures and functions</li>
-                    <li>DOM manipulation</li>
+                    <li>Chapter 3: Introduction</li>
+                    <li>Chapter 3: Applying materials and textures to models</li>
+                    <li>Chapter 3: Setting up lighting and creating realistic renders</li>
+                    <li>Chapter 3: Exporting high-quality images and animations</li>
+                    <li>Chapter 3: Summary </li>
+                    <li>Chapter 3: Quiz </li>
                   </ul>
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="week4">
-                <AccordionTrigger>
-                  Week 4: Advanced HTML and CSS
-                </AccordionTrigger>
+                <AccordionTrigger>Week 4: 3D Printing and Prototyping </AccordionTrigger>
                 <AccordionContent>
                   <ul className="list-disc pl-5 space-y-2">
-                    <li>Forms and input validation</li>
-                    <li>CSS flexbox and grid</li>
-                    <li>CSS animations and transitions</li>
-                    <li>Accessibility best practices</li>
+                    <li>Chapter 4: Introduction</li>
+                    <li>Chapter 4: Preparing models for 3D printing with slicing software</li>
+                    <li>Chapter 4: Troubleshooting and refining designs for printability</li>
+                    <li>Chapter 4: Understanding real-world applications of prototypes</li>
+                    <li>Chapter 4: Summary </li>
+                    <li>Chapter 4: Quiz </li>
                   </ul>
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="week5">
                 <AccordionTrigger>
-                  Week 5: JavaScript and the DOM
+                  Week 5: Final Project{" "}
                 </AccordionTrigger>
                 <AccordionContent>
                   <ul className="list-disc pl-5 space-y-2">
-                    <li>Event handling</li>
-                    <li>AJAX and fetch API</li>
-                    <li>Working with JSON</li>
-                    <li>Local storage and session storage</li>
-                  </ul>
-                </AccordionContent>
-              </AccordionItem>
-              <AccordionItem value="week6">
-                <AccordionTrigger>
-                  Week 6: Responsive Web Design
-                </AccordionTrigger>
-                <AccordionContent>
-                  <ul className="list-disc pl-5 space-y-2">
-                    <li>Mobile-first design approach</li>
-                    <li>Media queries and breakpoints</li>
-                    <li>Responsive images and typography</li>
-                    <li>Testing and debugging responsive layouts</li>
-                  </ul>
-                </AccordionContent>
-              </AccordionItem>
-              <AccordionItem value="week7">
-                <AccordionTrigger>
-                  Week 7: Web Performance and Optimization
-                </AccordionTrigger>
-                <AccordionContent>
-                  <ul className="list-disc pl-5 space-y-2">
-                    <li>Performance metrics and tools</li>
-                    <li>Optimizing images and assets</li>
-                    <li>Minification and compression techniques</li>
-                    <li>Caching strategies</li>
-                  </ul>
-                </AccordionContent>
-              </AccordionItem>
-              <AccordionItem value="week8">
-                <AccordionTrigger>
-                  Week 8: Final Project and Review
-                </AccordionTrigger>
-                <AccordionContent>
-                  <ul className="list-disc pl-5 space-y-2">
-                    <li>Building a complete website from scratch</li>
-                    <li>Implementing responsive design</li>
-                    <li>Adding interactivity with JavaScript</li>
-                    <li>Course review and next steps</li>
+                    <li>Chapter 5: Introduction</li>
+                    <li>Chapter 5: Developing a complete design from concept to final render</li>
+                    <li>Chapter 5: Incorporating advanced modeling techniques</li>
+                    <li>Chapter 5: Presenting and documenting the design process</li>
+                    <li>Chapter 5: Summary </li>
+                    <li>Chapter 5: Quiz </li>
                   </ul>
                 </AccordionContent>
               </AccordionItem>
