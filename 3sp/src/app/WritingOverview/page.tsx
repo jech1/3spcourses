@@ -98,15 +98,12 @@ export default function EnhancedCourseOverviewComponent() {
             </CardHeader>
             <CardContent>
               <p className="mb-4">
-                This comprehensive course will introduce you to the core
-                technologies used in modern web development. Youll learn HTML,
-                CSS, and JavaScript, as well as best practices for creating
-                responsive and accessible websites.
+              This comprehensive course will teach you the principles of scientific communication. Youll master grant proposals, research papers, and presentation skills essential for academic and professional success.
               </p>
               <ul className="list-disc pl-5 space-y-2">
                 <li>Duration: 8 weeks</li>
-                <li>Difficulty: Beginner to Intermediate</li>
-                <li>Prerequisites: Basic computer skills</li>
+                <li>Difficulty: Intermediate</li>
+                <li>Prerequisites: Basic writing skills</li>
               </ul>
             </CardContent>
           </Card>
@@ -116,101 +113,101 @@ export default function EnhancedCourseOverviewComponent() {
             <Accordion type="single" collapsible className="w-full">
               <AccordionItem value="week1">
                 <AccordionTrigger>
-                  Week 1: Introduction to HTML
+                  Week 1: Introduction to Scientific Writing{" "}
                 </AccordionTrigger>
                 <AccordionContent>
                   <ul className="list-disc pl-5 space-y-2">
-                    <li>Understanding the structure of web pages</li>
-                    <li>Basic HTML tags and elements</li>
-                    <li>Creating your first HTML document</li>
-                    <li>HTML5 semantic elements</li>
+                    <li>Chapter 1: Introduction</li>
+                    <li>Chapter 1: Understanding the purpose of scientific writing</li>
+                    <li>Chapter 1: Key components of a research paper</li>
+                    <li>Chapter 1: Differences between academic and general writing styles</li>
+                    <li>Chapter 1: Planning and organizing your writing</li>
+                    <li>Chapter 1: Summary </li>
+                    <li>Chapter 1: Quiz </li>
                   </ul>
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="week2">
-                <AccordionTrigger>Week 2: Styling with CSS</AccordionTrigger>
+                <AccordionTrigger>
+                  Week 2: Crafting Research Questions and Hypotheses{" "}
+                </AccordionTrigger>
                 <AccordionContent>
                   <ul className="list-disc pl-5 space-y-2">
-                    <li>Introduction to CSS</li>
-                    <li>Selectors and properties</li>
-                    <li>Box model and layout</li>
-                    <li>Responsive design principles</li>
+                    <li>Chapter 2: Introduction</li>
+                    <li>Chapter 2: Identifying research gaps and formulating questions</li>
+                    <li>Chapter 2: Writing clear and testable hypotheses</li>
+                    <li>Chapter 2: Responsive design principles</li>
+                    <li>Chapter 2: Summary </li>
+                    <li>Chapter 2: Quiz </li>
                   </ul>
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="week3">
-                <AccordionTrigger>Week 3: JavaScript Basics</AccordionTrigger>
+                <AccordionTrigger>
+                  Week 3: Literature Review and Citation Management{" "}
+                </AccordionTrigger>
                 <AccordionContent>
                   <ul className="list-disc pl-5 space-y-2">
-                    <li>Introduction to programming with JavaScript</li>
-                    <li>Variables, data types, and operators</li>
-                    <li>Control structures and functions</li>
-                    <li>DOM manipulation</li>
+                    <li>Chapter 3: Introduction</li>
+                    <li>Chapter 3: Conducting a thorough literature review</li>
+                    <li>Chapter 3: Summarizing and synthesizing sources</li>
+                    <li>Chapter 3: Proper citation techniques and avoiding plagiarism</li>
+                    <li>Chapter 3: Summary </li>
+                    <li>Chapter 3: Quiz </li>
                   </ul>
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="week4">
-                <AccordionTrigger>
-                  Week 4: Advanced HTML and CSS
-                </AccordionTrigger>
+                <AccordionTrigger>Week 4: Writing Methods and Results Sections </AccordionTrigger>
                 <AccordionContent>
                   <ul className="list-disc pl-5 space-y-2">
-                    <li>Forms and input validation</li>
-                    <li>CSS flexbox and grid</li>
-                    <li>CSS animations and transitions</li>
-                    <li>Accessibility best practices</li>
+                    <li>Chapter 4: Introduction</li>
+                    <li>Chapter 4: Describing methodologies clearly and concisely</li>
+                    <li>Chapter 4: Writing an accurate results section</li>
+                    <li>Chapter 4: Summary </li>
+                    <li>Chapter 4: Quiz </li>
                   </ul>
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="week5">
                 <AccordionTrigger>
-                  Week 5: JavaScript and the DOM
+                  Week 5: Crafting a Strong Discussion Section{" "}
                 </AccordionTrigger>
                 <AccordionContent>
                   <ul className="list-disc pl-5 space-y-2">
-                    <li>Event handling</li>
-                    <li>AJAX and fetch API</li>
-                    <li>Working with JSON</li>
-                    <li>Local storage and session storage</li>
+                    <li>Chapter 5: Introduction</li>
+                    <li>Chapter 5: Interpreting and analyzing results</li>
+                    <li>Chapter 5: Linking findings to existing literature</li>
+                    <li>Chapter 5: Addressing study limitations</li>
+                    <li>Chapter 5: Proposing future research directions</li>
+                    <li>Chapter 5: Summary </li>
+                    <li>Chapter 5: Quiz </li>
                   </ul>
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="week6">
-                <AccordionTrigger>
-                  Week 6: Responsive Web Design
-                </AccordionTrigger>
+                <AccordionTrigger>Week 6: Grant Proposal Writing </AccordionTrigger>
                 <AccordionContent>
                   <ul className="list-disc pl-5 space-y-2">
-                    <li>Mobile-first design approach</li>
-                    <li>Media queries and breakpoints</li>
-                    <li>Responsive images and typography</li>
-                    <li>Testing and debugging responsive layouts</li>
+                    <li>Chapter 6: Introduction</li>
+                    <li>Chapter 6: Understanding the structure of a grant proposal</li>
+                    <li>Chapter 6: Writing compelling abstracts and objectives</li>
+                    <li>Chapter 6: Summary </li>
+                    <li>Chapter 6: Quiz </li>
                   </ul>
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="week7">
-                <AccordionTrigger>
-                  Week 7: Web Performance and Optimization
-                </AccordionTrigger>
+                <AccordionTrigger>Week 7: Revising, Editing, and Peer Review </AccordionTrigger>
                 <AccordionContent>
                   <ul className="list-disc pl-5 space-y-2">
-                    <li>Performance metrics and tools</li>
-                    <li>Optimizing images and assets</li>
-                    <li>Minification and compression techniques</li>
-                    <li>Caching strategies</li>
-                  </ul>
-                </AccordionContent>
-              </AccordionItem>
-              <AccordionItem value="week8">
-                <AccordionTrigger>
-                  Week 8: Final Project and Review
-                </AccordionTrigger>
-                <AccordionContent>
-                  <ul className="list-disc pl-5 space-y-2">
-                    <li>Building a complete website from scratch</li>
-                    <li>Implementing responsive design</li>
-                    <li>Adding interactivity with JavaScript</li>
-                    <li>Course review and next steps</li>
+                    <li>Chapter 7: Introduction</li>
+                    <li>Chapter 7: Strategies for self-editing and revising</li>
+                    <li>Chapter 7: Enhancing clarity and readability in writing</li>
+                    <li>Chapter 7: Responding to reviewer feedback professionally</li>
+                    <li>Chapter 7: Finalizing and submitting your paper or proposal</li>
+                    <li>Chapter 7: Summary </li>
+                    <li>Chapter 7: Quiz </li>
                   </ul>
                 </AccordionContent>
               </AccordionItem>

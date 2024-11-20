@@ -97,15 +97,14 @@ export default function EnhancedCourseOverviewComponent() {
             </CardHeader>
             <CardContent>
               <p className="mb-4">
-                This comprehensive course will introduce you to the core
-                technologies used in modern web development. Youll learn HTML,
-                CSS, and JavaScript, as well as best practices for creating
-                responsive and accessible websites.
+              This course introduces students to the fundamentals of C++ programming, emphasizing practical applications and real-world problem-solving. Starting with setting up the development environment, the course progresses through essential programming concepts, arrays, functions, modular programming, and hardware interaction, culminating in a final project that integrates all learned skills.
+
+
               </p>
               <ul className="list-disc pl-5 space-y-2">
                 <li>Duration: 8 weeks</li>
-                <li>Difficulty: Beginner to Intermediate</li>
-                <li>Prerequisites: Basic computer skills</li>
+                <li>Difficulty: Beginner to Asscociate </li>
+                <li>Prerequisites: Basic coding skills</li>
               </ul>
             </CardContent>
           </Card>
@@ -115,101 +114,106 @@ export default function EnhancedCourseOverviewComponent() {
             <Accordion type="single" collapsible className="w-full">
               <AccordionItem value="week1">
                 <AccordionTrigger>
-                  Week 1: Introduction to HTML
+                  Week 1: Introduction to C++ and Development Environment{" "}
                 </AccordionTrigger>
                 <AccordionContent>
                   <ul className="list-disc pl-5 space-y-2">
-                    <li>Understanding the structure of web pages</li>
-                    <li>Basic HTML tags and elements</li>
-                    <li>Creating your first HTML document</li>
-                    <li>HTML5 semantic elements</li>
+                    <li>Chapter 1: Introduction</li>
+                    <li>Chapter 1: Setting up Visual Studio Code and configuring the environment</li>
+                    <li>Chapter 1: Introduction to the terminal and basic commands</li>
+                    <li>Chapter 1: Understanding variables, data types, and constants</li>
+                    <li>Chapter 1: Producing outputs and handling user input</li>
+                    <li>Chapter 1: Summary </li>
+                    <li>Chapter 1: Quiz </li>
                   </ul>
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="week2">
-                <AccordionTrigger>Week 2: Styling with CSS</AccordionTrigger>
+                <AccordionTrigger>
+                  Week 2: Working with Arrays{" "}
+                </AccordionTrigger>
                 <AccordionContent>
                   <ul className="list-disc pl-5 space-y-2">
-                    <li>Introduction to CSS</li>
-                    <li>Selectors and properties</li>
-                    <li>Box model and layout</li>
-                    <li>Responsive design principles</li>
+                    <li>Chapter 2: Introduction</li>
+                    <li>Chapter 2: Introduction to arrays and their importance</li>
+                    <li>Chapter 2: Declaring, initializing, and accessing arrays</li>
+                    <li>Chapter 2: Multi-dimensional arrays and their applications</li>
+                    <li>Chapter 2: Common array operations like searching and sorting</li>
+                    <li>Chapter 2: Summary </li>
+                    <li>Chapter 2: Quiz </li>
                   </ul>
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="week3">
-                <AccordionTrigger>Week 3: JavaScript Basics</AccordionTrigger>
+                <AccordionTrigger>
+                  Week 3: Functions and Modular Programming{" "}
+                </AccordionTrigger>
                 <AccordionContent>
                   <ul className="list-disc pl-5 space-y-2">
-                    <li>Introduction to programming with JavaScript</li>
-                    <li>Variables, data types, and operators</li>
-                    <li>Control structures and functions</li>
-                    <li>DOM manipulation</li>
+                    <li>Chapter 3: Introduction</li>
+                    <li>Chapter 3: Defining and calling functions</li>
+                    <li>Chapter 3: Function arguments, return types, and scope</li>
+                    <li>Chapter 3: Breaking programs into modules for better organization</li>
+                    <li>Chapter 3: Benefits of modular programming for scalability</li>
+                    <li>Chapter 3: Summary </li>
+                    <li>Chapter 3: Quiz </li>
                   </ul>
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="week4">
-                <AccordionTrigger>
-                  Week 4: Advanced HTML and CSS
-                </AccordionTrigger>
+                <AccordionTrigger>Week 4: Integrating Concepts: Arrays, Functions, and Logic</AccordionTrigger>
                 <AccordionContent>
                   <ul className="list-disc pl-5 space-y-2">
-                    <li>Forms and input validation</li>
-                    <li>CSS flexbox and grid</li>
-                    <li>CSS animations and transitions</li>
-                    <li>Accessibility best practices</li>
+                    <li>Chapter 4: Introduction</li>
+                    <li>Chapter 4: Combining arrays with functions to solve complex problems</li>
+                    <li>Chapter 4: Building small modular projects using all covered concepts</li>
+                    <li>Chapter 4: Debugging and refining code for efficiency</li>
+                    <li>Chapter 4: Summary </li>
+                    <li>Chapter 4: Quiz </li>
                   </ul>
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="week5">
                 <AccordionTrigger>
-                  Week 5: JavaScript and the DOM
+                  Week 5: Programming with Arduino and Microcontrollers{" "}
                 </AccordionTrigger>
                 <AccordionContent>
                   <ul className="list-disc pl-5 space-y-2">
-                    <li>Event handling</li>
-                    <li>AJAX and fetch API</li>
-                    <li>Working with JSON</li>
-                    <li>Local storage and session storage</li>
+                    <li>Chapter 5: Introduction</li>
+                    <li>Chapter 5: Introduction to Arduino IDE and basic hardware setup</li>
+                    <li>Chapter 5: Writing and uploading C++ programs to microcontrollers</li>
+                    <li>Chapter 5: Reading input from sensors and controlling output devices</li>
+                    <li>Chapter 5: Exploring practical applications with hardware integration</li>
+                    <li>Chapter 5: Summary </li>
+                    <li>Chapter 5: Quiz </li>
                   </ul>
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="week6">
-                <AccordionTrigger>
-                  Week 6: Responsive Web Design
-                </AccordionTrigger>
+                <AccordionTrigger>Week 6: File Handling in C++ </AccordionTrigger>
                 <AccordionContent>
                   <ul className="list-disc pl-5 space-y-2">
-                    <li>Mobile-first design approach</li>
-                    <li>Media queries and breakpoints</li>
-                    <li>Responsive images and typography</li>
-                    <li>Testing and debugging responsive layouts</li>
+                    <li>Chapter 6: Introduction</li>
+                    <li>Chapter 6: Reading from and writing to files</li>
+                    <li>Chapter 6: Using file streams for data storage and retrieval</li>
+                    <li>Chapter 6: Error handling in file operations</li>
+                    <li>Chapter 6: Building programs that save and load data</li>
+                    <li>Chapter 6: Summary </li>
+                    <li>Chapter 6: Quiz </li>
                   </ul>
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="week7">
-                <AccordionTrigger>
-                  Week 7: Web Performance and Optimization
-                </AccordionTrigger>
+                <AccordionTrigger>Week 7: Final Project </AccordionTrigger>
                 <AccordionContent>
                   <ul className="list-disc pl-5 space-y-2">
-                    <li>Performance metrics and tools</li>
-                    <li>Optimizing images and assets</li>
-                    <li>Minification and compression techniques</li>
-                    <li>Caching strategies</li>
-                  </ul>
-                </AccordionContent>
-              </AccordionItem>
-              <AccordionItem value="week8">
-                <AccordionTrigger>
-                  Week 8: Final Project and Review
-                </AccordionTrigger>
-                <AccordionContent>
-                  <ul className="list-disc pl-5 space-y-2">
-                    <li>Building a complete website from scratch</li>
-                    <li>Implementing responsive design</li>
-                    <li>Adding interactivity with JavaScript</li>
-                    <li>Course review and next steps</li>
+                    <li>Chapter 7: Introduction</li>
+                    <li>Chapter 7: Designing and implementing a comprehensive program that combines all concepts</li>
+                    <li>Chapter 7: Integrating hardware (optional for those with access to microcontrollers)</li>
+                    <li>Chapter 7: Debugging, testing, and presenting the final project</li>
+                    <li>Chapter 6: Best practices for future learning and advanced topics</li>
+                    <li>Chapter 7: Summary </li>
+                    <li>Chapter 7: Quiz </li>
                   </ul>
                 </AccordionContent>
               </AccordionItem>

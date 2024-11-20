@@ -37,14 +37,19 @@ export default function RootLayout({
               <h3 className="text-lg font-semibold mb-4">Resources</h3>
               <ul className="space-y-2">
                 <li>
-                  <Link href="#" className="hover:underline">
-                    Student Handbook
+                  <Link href="https://bergen.edu/" className="hover:underline">
+                    Place Holder
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="hover:underline">
-                    Course Materials
-                  </Link>
+                    <Link
+                      href="CoursesPathways.png"
+                      className="hover:underline"
+                      target="_blank"
+                      rel="noopener noreferrer" >
+                      Badges Pathways
+                    </Link>
+
                 </li>
                 <li>
                   <Link href="#" className="hover:underline">
@@ -69,30 +74,30 @@ export default function RootLayout({
                 <li>
                   Email:{" "}
                   <a
-                    href="mailto:info@courseplatform.com"
+                    href="mailto:jrodriguez154929@me.bergen.edu"
                     className="hover:underline"
                   >
-                    info@courseplatform.com
+                    3spSupport@bergen.edu (press link to email)
                   </a>
                 </li>
-                <li>Phone: +1 (123) 456-7890</li>
+                <li>Phone: +1 (201) 879-1277</li>
                 <li>
                   Website:{" "}
                   <a
-                    href="https://www.courseplatform.com"
+                    href="https://www.bergen.edu"
                     className="hover:underline"
                   >
-                    www.courseplatform.com
+                    www.bergen.edu
                   </a>
                 </li>
                 <li>Made by: Jordan Rodriguez & Jacob Echeverry</li>
                 <li>
-                  Contact Makers:{" "}
+                  Contact Makers:{" "} 
                   <a
                     href="https://www.courseplatform.com"
                     className="hover:underline"
                   >
-                    www.courseplatform.com
+                    www.JMR-JE.com
                   </a>
                 </li>
               </ul>
