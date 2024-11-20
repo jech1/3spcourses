@@ -24,9 +24,11 @@ export default function RootLayout({
             <Link href="/" className="text-2xl font-bold">
               3SP Course Platform
             </Link>
-            <Button className="bg-white text-[#11001C] hover:bg-gray-200 px-6 py-2 rounded-md">
-              Login
-            </Button>
+            <Link href="/Login">
+              <Button className="bg-white text-[#11001C] hover:bg-gray-200 px-6 py-2 rounded-md">
+                Login
+              </Button>
+            </Link>
           </header>
           {children}
         </div>
@@ -42,14 +44,14 @@ export default function RootLayout({
                   </Link>
                 </li>
                 <li>
-                    <Link
-                      href="CoursesPathways.png"
-                      className="hover:underline"
-                      target="_blank"
-                      rel="noopener noreferrer" >
-                      Badges Pathways
-                    </Link>
-
+                  <Link
+                    href="CoursesPathways.png"
+                    className="hover:underline"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Badges Pathways
+                  </Link>
                 </li>
                 <li>
                   <Link href="#" className="hover:underline">
@@ -83,16 +85,13 @@ export default function RootLayout({
                 <li>Phone: +1 (201) 879-1277</li>
                 <li>
                   Website:{" "}
-                  <a
-                    href="https://www.bergen.edu"
-                    className="hover:underline"
-                  >
+                  <a href="https://www.bergen.edu" className="hover:underline">
                     www.bergen.edu
                   </a>
                 </li>
                 <li>Made by: Jordan Rodriguez & Jacob Echeverry</li>
                 <li>
-                  Contact Makers:{" "} 
+                  Contact Makers:{" "}
                   <a
                     href="https://www.courseplatform.com"
                     className="hover:underline"
