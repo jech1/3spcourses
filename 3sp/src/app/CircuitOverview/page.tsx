@@ -1,54 +1,64 @@
-'use client'
+"use client";
 
-import { useRef, useEffect } from 'react'
-import { motion, useAnimationFrame, useMotionValue } from 'framer-motion'
-import Image from 'next/image'
-import Link from 'next/link'
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
+import { useRef, useEffect } from "react";
+import { motion, useAnimationFrame, useMotionValue } from "framer-motion";
+import Image from "next/image";
+//import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 
 const images = [
-  { src: '/Scientific Writing Badge (1).png?height=500&width=500', alt: 'Image 1' },
-  { src: '/circuitbadge.png?height=500&width=500', alt: 'Image 2' },
-  { src: '/researchbadge.png?height=500&width=500', alt: 'Image 3' },
-  { src: '/CADbadge (1).png?height=500&width=500', alt: 'Image 4' },
-  { src: '/c++badge.png?height=500&width=500', alt: 'Image 5' },
-  { src: '/caffeinebadge.png?height=500&width=500', alt: 'Image 6' },
-]
+  {
+    src: "/Scientific Writing Badge (1).png?height=500&width=500",
+    alt: "Image 1",
+  },
+  { src: "/circuitbadge.png?height=500&width=500", alt: "Image 2" },
+  { src: "/researchbadge.png?height=500&width=500", alt: "Image 3" },
+  { src: "/CADbadge (1).png?height=500&width=500", alt: "Image 4" },
+  { src: "/c++badge.png?height=500&width=500", alt: "Image 5" },
+  { src: "/caffeinebadge.png?height=500&width=500", alt: "Image 6" },
+];
 
 function AnimatedImageCarousel() {
-  const containerRef = useRef<HTMLDivElement>(null)
-  const x = useMotionValue(0)
+  const containerRef = useRef<HTMLDivElement>(null);
+  const x = useMotionValue(0);
 
   useAnimationFrame(() => {
     if (containerRef.current) {
-      const xValue = x.get()
-      const containerWidth = containerRef.current.scrollWidth / 2
-      
+      const xValue = x.get();
+      const containerWidth = containerRef.current.scrollWidth / 2;
+
       if (xValue <= -containerWidth) {
-        x.set(0)
+        x.set(0);
       } else {
-        x.set(xValue - 2) // Adjust this value to change the speed
+        x.set(xValue - 2); // Adjust this value to change the speed
       }
     }
-  })
+  });
 
   useEffect(() => {
-    const container = containerRef.current
+    const container = containerRef.current;
     if (container) {
-      const clonedItems = container.innerHTML
-      container.innerHTML += clonedItems
+      const clonedItems = container.innerHTML;
+      container.innerHTML += clonedItems;
     }
-  }, [])
+  }, []);
 
   return (
     <div className="w-full overflow-hidden p-40">
-      <motion.div
-        ref={containerRef}
-        className="flex space-x-4"
-        style={{ x }}
-      >
+      <motion.div ref={containerRef} className="flex space-x-4" style={{ x }}>
         {images.concat(images).map((image, index) => (
           <div key={index} className="flex-shrink-0">
             <Image
@@ -62,41 +72,41 @@ function AnimatedImageCarousel() {
         ))}
       </motion.div>
     </div>
-  )
+  );
 }
 
 export default function EnhancedCourseOverviewComponent() {
   return (
     <div className="min-h-screen flex flex-col">
-      <header className="bg-black text-primary-foreground py-4 px-6 flex justify-between items-center">
-        <h1 className="text-2xl font-bold">3SP Course Platform</h1>
-        <Button variant="secondary">Login</Button>
-      </header>
-
       <main className="flex-grow">
         <div className="container mx-auto px-4 py-12 space-y-36 mt-20 ">
           <section className="text-center space-y-4">
-            <h1 className="text-4xl font-bold">Microcontroller & Circuit Design</h1>
+            <h1 className="text-4xl font-bold">
+              Microcontroller & Circuit Design
+            </h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Learn to build reliable prototypes with coding in c++, designing circuits, and soldering components.
+              Learn to build reliable prototypes with coding in c++, designing
+              circuits, and soldering components.
             </p>
           </section>
-          
+
           <Card className="mb-8">
             <CardHeader>
               <CardTitle>Course Overview</CardTitle>
-              <CardDescription>Learn the fundamentals of Electronics</CardDescription>
+              <CardDescription>
+                Learn the fundamentals of Electronics
+              </CardDescription>
             </CardHeader>
             <CardContent>
               <p className="mb-4">
-                This comprehensive course will introduce you to the core technologies used in modern web development. 
-                Youll learn HTML, CSS, and JavaScript, as well as best practices for creating responsive and 
-                accessible websites.
+              This course introduces students to microcontroller programming and circuit design principles. Covering software setup, hardware components, and advanced circuitry, students will develop hands-on skills to create functional prototypes and systems.
+
+
               </p>
               <ul className="list-disc pl-5 space-y-2">
                 <li>Duration: 8 weeks</li>
                 <li>Difficulty: Beginner to Intermediate</li>
-                <li>Prerequisites: Basic computer skills</li>
+                <li>Prerequisites: Basic electronic skills</li>
               </ul>
             </CardContent>
           </Card>
@@ -105,39 +115,45 @@ export default function EnhancedCourseOverviewComponent() {
             <h2 className="text-3xl font-semibold">Course Syllabus</h2>
             <Accordion type="single" collapsible className="w-full">
               <AccordionItem value="week1">
-                <AccordionTrigger>Week 1: Introduction; software downloads and online resources </AccordionTrigger>
+                <AccordionTrigger>
+                  Week 1: Introduction; software downloads and online resources{" "}
+                </AccordionTrigger>
                 <AccordionContent>
                   <ul className="list-disc pl-5 space-y-2">
                     <li>Chapter 1: Introduction</li>
-                    <li>Chapter 1: Downloading Arduino IDE</li>
-                    <li>Chapter 1: Understtanding the Arduino IDE Platform</li>
-                    <li>Chapter 1: Communities & Resources</li>
+                    <li>Chapter 1: Setting up Arduino IDE and understanding its interface</li>
+                    <li>Chapter 1: Exploring online resources and communities for support</li>
+                    <li>Chapter 1: Familiarizing with hardware setup and connectivity basics</li>
                     <li>Chapter 1: Summary </li>
                     <li>Chapter 1: Quiz </li>
                   </ul>
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="week2">
-                <AccordionTrigger>Week 2: Electrical Components </AccordionTrigger>
+                <AccordionTrigger>
+                  Week 2: Electrical Components{" "}
+                </AccordionTrigger>
                 <AccordionContent>
                   <ul className="list-disc pl-5 space-y-2">
                     <li>Chapter 2: Introduction</li>
-                    <li>Chapter 2: Selectors and properties</li>
-                    <li>Chapter 2: Box model and layout</li>
-                    <li>Chapter 2: Responsive design principles</li>
+                    <li>Chapter 2: Identifying and understanding resistors, capacitors, and diodes</li>
+                    <li>Chapter 2: Safely using breadboards and power supplies in circuits</li>
+                    <li>Chapter 2: Basic troubleshooting techniques for faulty components</li>
                     <li>Chapter 2: Summary </li>
                     <li>Chapter 2: Quiz </li>
                   </ul>
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="week3">
-                <AccordionTrigger>Week 3: Programing A Microcontroller </AccordionTrigger>
+                <AccordionTrigger>
+                  Week 3: Programing A Microcontroller{" "}
+                </AccordionTrigger>
                 <AccordionContent>
                   <ul className="list-disc pl-5 space-y-2">
                     <li>Chapter 3: Introduction</li>
-                    <li>Chapter 3: Variables, data types, and operators</li>
-                    <li>Chapter 3: Control structures and functions</li>
-                    <li>Chapter 3: DOM manipulation</li>
+                    <li>Chapter 3: Writing and uploading simple C++ programs to microcontrollers</li>
+                    <li>Chapter 3: Understanding data types, variables, and logic control structures</li>
+                    <li>Chapter 3: Using functions to organize code for complex operations</li>
                     <li>Chapter 3: Summary </li>
                     <li>Chapter 3: Quiz </li>
                   </ul>
@@ -148,22 +164,24 @@ export default function EnhancedCourseOverviewComponent() {
                 <AccordionContent>
                   <ul className="list-disc pl-5 space-y-2">
                     <li>Chapter 4: Introduction</li>
-                    <li>Chapter 4: CSS flexbox and grid</li>
-                    <li>Chapter 4: CSS animations and transitions</li>
-                    <li>Chapter 4: Accessibility best practices</li>
+                    <li>Chapter 4: Building basic circuits with LEDs, resistors, and switches</li>
+                    <li>Chapter 4: Understanding voltage, current, and resistance relationships</li>
+                    <li>Chapter 4: Safely testing circuits with a multimeter</li>
                     <li>Chapter 4: Summary </li>
                     <li>Chapter 4: Quiz </li>
                   </ul>
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="week5">
-                <AccordionTrigger>Week 5: Advanced Circuit Schematics </AccordionTrigger>
+                <AccordionTrigger>
+                  Week 5: Advanced Circuit Schematics{" "}
+                </AccordionTrigger>
                 <AccordionContent>
                   <ul className="list-disc pl-5 space-y-2">
                     <li>Chapter 5: Introduction</li>
-                    <li>Chapter 5: AJAX and fetch API</li>
-                    <li>Chapter 5: Working with JSON</li>
-                    <li>Chapter 5: Local storage and session storage</li>
+                    <li>Chapter 5: Designing and analyzing complex circuit diagrams</li>
+                    <li>Chapter 5: Creating PCB layouts for advanced projects</li>
+                    <li>Chapter 5: Integrating sensors and actuators for interactive systems</li>
                     <li>Chapter 5: Summary </li>
                     <li>Chapter 5: Quiz </li>
                   </ul>
@@ -174,35 +192,38 @@ export default function EnhancedCourseOverviewComponent() {
                 <AccordionContent>
                   <ul className="list-disc pl-5 space-y-2">
                     <li>Chapter 6: Introduction</li>
-                    <li>Chapter 6: Media queries and breakpoints</li>
-                    <li>Chapter 6: Responsive images and typography</li>
-                    <li>Chapter 6: Testing and debugging responsive layouts</li>
+                    <li>Chapter 6: Using software tools for PCB design and simulation</li>
+                    <li>Chapter 6: Testing and refining circuits on breadboards</li>
+                    <li>Chapter 6: Exploring best practices for prototype assembly</li>
                     <li>Chapter 6: Summary </li>
                     <li>Chapter 6: Quiz </li>
                   </ul>
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="week7">
-                <AccordionTrigger>Week 7: Combining </AccordionTrigger>
+                <AccordionTrigger>Week 7: Combining Hardware and Software</AccordionTrigger>
                 <AccordionContent>
                   <ul className="list-disc pl-5 space-y-2">
                     <li>Chapter 7: Introduction</li>
-                    <li>Chapter 7: Optimizing images and assets</li>
-                    <li>Chapter 7: Minification and compression techniques</li>
-                    <li>Chapter 7: Caching strategies</li>
+                    <li>Chapter 7: Integrating sensors and actuators with microcontroller code</li>
+                    <li>Chapter 7: Synchronizing hardware functionality with software logic</li>
+                    <li>Chapter 7: Debugging issues in integrated systems</li>
                     <li>Chapter 7: Summary </li>
                     <li>Chapter 7: Quiz </li>
                   </ul>
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="week8">
-                <AccordionTrigger>Week 8: Final Project and Review</AccordionTrigger>
+                <AccordionTrigger>
+                  Week 8: Final Project and Review
+                </AccordionTrigger>
                 <AccordionContent>
                   <ul className="list-disc pl-5 space-y-2">
                     <li>Chapter 8: Introduction</li>
-                    <li>Chapter 8: Implementing responsive design</li>
-                    <li>Chapter 8: Adding interactivity with JavaScript</li>
-                    <li>Chapter 8: Course review and next steps</li>
+                    <li>Chapter 8: Developing a comprehensive project that combines all skills learned</li>
+                    <li>Chapter 8: Presenting the project with a focus on design and functionality
+                    </li>
+                    <li>Chapter 8: Reviewing key concepts and discussing next steps for further learning</li>
                     <li>Chapter 8: Summary </li>
                     <li>Chapter 8: Quiz </li>
                   </ul>
@@ -212,42 +233,17 @@ export default function EnhancedCourseOverviewComponent() {
           </section>
 
           <div className="text-center">
-            <Button size="lg" >Take Course</Button>
+            <Button size="lg">Take Course</Button>
           </div>
         </div>
 
-        <section className="bg-gray-100 py-12">          
-            <h2 className="text-3xl font-bold mt-20 mb-1 text-center text-[#11001C]">
-              Awarded Badges
-            </h2>
-            <AnimatedImageCarousel />
+        <section className="bg-gray-100 py-12">
+          <h2 className="text-3xl font-bold mt-20 mb-1 text-center text-[#11001C]">
+            Awarded Badges
+          </h2>
+          <AnimatedImageCarousel />
         </section>
       </main>
-
-      <footer className="bg-gray-100 text-gray-600 py-12">
-        <div className="container mx-auto px-4 grid gap-8 md:grid-cols-2">
-          <div>
-            <h3 className="text-lg font-semibold mb-4">Resources</h3>
-            <ul className="space-y-2">
-              <li><Link href="#" className="hover:underline">Student Handbook</Link></li>
-              <li><Link href="#" className="hover:underline">Course Materials</Link></li>
-              <li><Link href="#" className="hover:underline">Learning Tips</Link></li>
-              <li><Link href="#" className="hover:underline">FAQ</Link></li>
-              <li><Link href="#" className="hover:underline">Admin</Link></li>
-            </ul>
-          </div>
-          <div>
-            <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
-            <ul className="space-y-2">
-              <li>Email: <a href="mailto:info@courseplatform.com" className="hover:underline">info@courseplatform.com</a></li>
-              <li>Phone: +1 (123) 456-7890</li>
-              <li>Website: <a href="https://www.courseplatform.com" className="hover:underline">www.courseplatform.com</a></li>
-              <li>Made by: Jordan Rodriguez & Jacob Echeverry</li>
-              <li>Contact Makers: <a href="https://www.courseplatform.com" className="hover:underline">www.courseplatform.com</a></li>
-            </ul>
-          </div>
-        </div>
-      </footer>
     </div>
-  )
+  );
 }

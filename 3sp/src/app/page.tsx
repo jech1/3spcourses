@@ -66,18 +66,9 @@ const courses = [
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col">
-      <header className="bg-[#11001C] text-white py-4 px-6 flex justify-between items-center shadow-md">
-        <Link href="/" className="text-2xl font-bold">
-          3SP Course Platform
-        </Link>
-        <Button className="bg-white text-[#11001C] hover:bg-gray-200 px-6 py-2 rounded-md">
-          Login
-        </Button>
-      </header>
-
       <main className="flex-grow">
         {/* Hero Section */}
-        <section className="bg-gradient-to-b from-[#11001C] to-white text-white py-20">
+        <section className="bg-gradient-to-b from-[#632a88] to-white text-white py-20">
           <div className="container mx-auto px-4 text-center">
             <Image
               src="/3SPLogo (4).png"
@@ -89,7 +80,8 @@ export default function Home() {
             <h1 className="text-4xl font-bold mb-4">Welcome to 3SP Courses!</h1>
             <p className="text-xl max-w-2xl mx-auto mb-8">
               Empower your future with our cutting-edge online courses. Learn,
-              grow, and succeed in the world of technology.
+              grow, and succeed in the world of technology as a Stem Student
+              Scholar.
             </p>
             <Button
               size="lg"
@@ -138,76 +130,6 @@ export default function Home() {
         <div style={{ marginTop: "120px", marginBottom: "0px" }}>
           <AnimatedImageCarousel />
         </div>
-
-        {/* Footer Section */}
-        <footer className="bg-gray-100 text-gray-600 py-12">
-          <div className="container mx-auto px-4 grid gap-8 md:grid-cols-2">
-            <div>
-              <h3 className="text-lg font-semibold mb-4">Resources</h3>
-              <ul className="space-y-2">
-                <li>
-                  <Link href="#" className="hover:underline">
-                    Student Handbook
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="hover:underline">
-                    Course Materials
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="hover:underline">
-                    Learning Tips
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="hover:underline">
-                    FAQ
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="hover:underline">
-                    Admin
-                  </Link>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
-              <ul className="space-y-2">
-                <li>
-                  Email:{" "}
-                  <a
-                    href="mailto:info@courseplatform.com"
-                    className="hover:underline"
-                  >
-                    info@courseplatform.com
-                  </a>
-                </li>
-                <li>Phone: +1 (123) 456-7890</li>
-                <li>
-                  Website:{" "}
-                  <a
-                    href="https://www.courseplatform.com"
-                    className="hover:underline"
-                  >
-                    www.courseplatform.com
-                  </a>
-                </li>
-                <li>Made by: Jordan Rodriguez & Jacob Echeverry</li>
-                <li>
-                  Contact Makers:{" "}
-                  <a
-                    href="https://www.courseplatform.com"
-                    className="hover:underline"
-                  >
-                    www.courseplatform.com
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </footer>
       </main>
     </div>
   );
