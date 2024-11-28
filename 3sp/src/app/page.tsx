@@ -114,7 +114,7 @@ export default function Home() {
                   <CardContent>
                     <CardDescription>{course.description}</CardDescription>
                     <Link
-                      href={`/${course.slug}`}
+                      href={`/CourseOverviews/${course.slug}`}
                       className="mt-4 inline-block"
                     >
                       <Button variant="outline">View Course</Button>
