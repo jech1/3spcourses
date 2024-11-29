@@ -82,15 +82,22 @@ export default function EnhancedCourseOverviewComponent() {
   return (
     <div className="min-h-screen flex flex-col">
       <main className="flex-grow">
-        <div className="container mx-auto px-4 py-12 space-y-36 mt-20">
-          <section className="text-center space-y-4">
-            <h1 className="text-4xl font-bold">C++ Coding</h1>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+        <div className="relative">
+          <div 
+            className="absolute inset-x-0 top-0 h-96 bg-gradient-to-b from-[#632a88] to-white"
+            style={{ zIndex: -1 }}
+          ></div>
+          <div className="container mx-auto px-4 py-12 space-y-36 mt-0">
+            <section className="text-center space-y-4">
+              <h1 className="text-4xl font-bold text-white">
+              C++ Coding
+              </h1>
+              <p className="text-xl text-white max-w-2xl mx-auto">
               Understand programming concepts and write efficient code using one
               of the most utilized languages worldwide.
-            </p>
-          </section>
-
+              </p>
+            </section>
+          
           <Card className="mb-8">
             <CardHeader>
               <CardTitle>Course Overview</CardTitle>
@@ -226,6 +233,7 @@ export default function EnhancedCourseOverviewComponent() {
               Take Course
             </Button>
           </div>
+        </div>
         </div>
 
         <section className="bg-gray-100 py-12">

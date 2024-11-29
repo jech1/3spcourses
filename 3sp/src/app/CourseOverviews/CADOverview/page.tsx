@@ -82,20 +82,22 @@ export default function EnhancedCourseOverviewComponent() {
 
   return (
     <div className="min-h-screen flex flex-col">
-      {/* <header className="bg-black text-primary-foreground py-4 px-6 flex justify-between items-center">
-        <h1 className="text-2xl font-bold">3SP Course Platform</h1>
-        <Button variant="secondary">Login</Button>
-      </header> */}
-
       <main className="flex-grow">
-        <div className="container mx-auto px-4 py-12 space-y-36 mt-20">
-          <section className="text-center space-y-4">
-            <h1 className="text-4xl font-bold">3D Modeling CAD</h1>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+        <div className="relative">
+          <div 
+            className="absolute inset-x-0 top-0 h-96 bg-gradient-to-b from-[#632a88] to-white"
+            style={{ zIndex: -1 }}
+          ></div>
+          <div className="container mx-auto px-4 py-12 space-y-36 mt-0">
+            <section className="text-center space-y-4">
+              <h1 className="text-4xl font-bold text-white">
+              3D Modeling & CAD
+              </h1>
+              <p className="text-xl text-white max-w-2xl mx-auto">
               Learn the principles of CAD and how to develop your own models
               through onshape
-            </p>
-          </section>
+              </p>
+            </section>
 
           <Card className="mb-8">
             <CardHeader>
@@ -203,6 +205,7 @@ export default function EnhancedCourseOverviewComponent() {
               Take Course
             </Button>
           </div>
+        </div>
         </div>
 
         <section className="bg-gray-100 py-12">
