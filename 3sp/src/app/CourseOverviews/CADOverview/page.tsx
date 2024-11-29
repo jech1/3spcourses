@@ -4,6 +4,7 @@ import { useRef, useEffect } from "react";
 import { motion, useAnimationFrame, useMotionValue } from "framer-motion";
 import Image from "next/image";
 //import Link from "next/link";
+import { useRouter } from "next/navigation"; // Ensure useRouter is imported
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -76,15 +77,23 @@ function AnimatedImageCarousel() {
 }
 
 export default function EnhancedCourseOverviewComponent() {
+
+  const router = useRouter(); // Initialize the router here
+
   return (
     <div className="min-h-screen flex flex-col">
+      {/* <header className="bg-black text-primary-foreground py-4 px-6 flex justify-between items-center">
+        <h1 className="text-2xl font-bold">3SP Course Platform</h1>
+        <Button variant="secondary">Login</Button>
+      </header> */}
+
       <main className="flex-grow">
         <div className="container mx-auto px-4 py-12 space-y-36 mt-20">
           <section className="text-center space-y-4">
-            <h1 className="text-4xl font-bold">C++ Coding</h1>
+            <h1 className="text-4xl font-bold">3D Modeling CAD</h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Understand programming concepts and write efficient code using one
-              of the most utilized languages worldwide.
+              Learn the principles of CAD and how to develop your own models
+              through onshape
             </p>
           </section>
 
@@ -92,19 +101,17 @@ export default function EnhancedCourseOverviewComponent() {
             <CardHeader>
               <CardTitle>Course Overview</CardTitle>
               <CardDescription>
-                Learn the fundamentals of Programming
+                Learn the fundamentals of Computer Aided Design
               </CardDescription>
             </CardHeader>
             <CardContent>
               <p className="mb-4">
-              This course introduces students to the fundamentals of C++ programming, emphasizing practical applications and real-world problem-solving. Starting with setting up the development environment, the course progresses through essential programming concepts, arrays, functions, modular programming, and hardware interaction, culminating in a final project that integrates all learned skills.
-
-
+              This course provides a practical introduction to Computer-Aided Design (CAD) and 3D modeling, teaching students to design, modify, and visualize objects for various applications. From mastering essential CAD tools to creating complex 3D models, students will gain hands-on experience to bring their ideas to life.
               </p>
               <ul className="list-disc pl-5 space-y-2">
                 <li>Duration: 8 weeks</li>
-                <li>Difficulty: Beginner to Asscociate </li>
-                <li>Prerequisites: Basic coding skills</li>
+                <li>Difficulty: Beginner to Intermediate</li>
+                <li>Prerequisites: Basic computer skills</li>
               </ul>
             </CardContent>
           </Card>
@@ -114,15 +121,16 @@ export default function EnhancedCourseOverviewComponent() {
             <Accordion type="single" collapsible className="w-full">
               <AccordionItem value="week1">
                 <AccordionTrigger>
-                  Week 1: Introduction to C++ and Development Environment{" "}
+                  Week 1: Introduction to CAD and Software Setup{" "}
                 </AccordionTrigger>
                 <AccordionContent>
                   <ul className="list-disc pl-5 space-y-2">
                     <li>Chapter 1: Introduction</li>
-                    <li>Chapter 1: Setting up Visual Studio Code and configuring the environment</li>
-                    <li>Chapter 1: Introduction to the terminal and basic commands</li>
-                    <li>Chapter 1: Understanding variables, data types, and constants</li>
-                    <li>Chapter 1: Producing outputs and handling user input</li>
+                    <li>Chapter 1: Setting up the CAD environment in onshape
+                    </li>
+                    <li>Chapter 1: Overview of the CAD interface and tools</li>
+                    <li>Chapter 1: Understanding design principles and sketching basics</li>
+                    <li>Chapter 1: Creating simple 2D sketches and extrusions</li>
                     <li>Chapter 1: Summary </li>
                     <li>Chapter 1: Quiz </li>
                   </ul>
@@ -130,15 +138,15 @@ export default function EnhancedCourseOverviewComponent() {
               </AccordionItem>
               <AccordionItem value="week2">
                 <AccordionTrigger>
-                  Week 2: Working with Arrays{" "}
+                  Week 2: Mastering Basic 3D Modeling Techniques{" "}
                 </AccordionTrigger>
                 <AccordionContent>
                   <ul className="list-disc pl-5 space-y-2">
                     <li>Chapter 2: Introduction</li>
-                    <li>Chapter 2: Introduction to arrays and their importance</li>
-                    <li>Chapter 2: Declaring, initializing, and accessing arrays</li>
-                    <li>Chapter 2: Multi-dimensional arrays and their applications</li>
-                    <li>Chapter 2: Common array operations like searching and sorting</li>
+                    <li>Chapter 2: Working with primitives like cubes, spheres, and cylinders</li>
+                    <li>Chapter 2: Modifying shapes using extrude, revolve, and loft tools</li>
+                    <li>Chapter 2: Combining and subtracting shapes (Boolean operations)</li>
+                    <li>Chapter 2: Building simple 3D objects with precision</li>
                     <li>Chapter 2: Summary </li>
                     <li>Chapter 2: Quiz </li>
                   </ul>
@@ -146,28 +154,27 @@ export default function EnhancedCourseOverviewComponent() {
               </AccordionItem>
               <AccordionItem value="week3">
                 <AccordionTrigger>
-                  Week 3: Functions and Modular Programming{" "}
+                  Week 3: Rendering and Visualization{" "}
                 </AccordionTrigger>
                 <AccordionContent>
                   <ul className="list-disc pl-5 space-y-2">
                     <li>Chapter 3: Introduction</li>
-                    <li>Chapter 3: Defining and calling functions</li>
-                    <li>Chapter 3: Function arguments, return types, and scope</li>
-                    <li>Chapter 3: Breaking programs into modules for better organization</li>
-                    <li>Chapter 3: Benefits of modular programming for scalability</li>
+                    <li>Chapter 3: Applying materials and textures to models</li>
+                    <li>Chapter 3: Setting up lighting and creating realistic renders</li>
+                    <li>Chapter 3: Exporting high-quality images and animations</li>
                     <li>Chapter 3: Summary </li>
                     <li>Chapter 3: Quiz </li>
                   </ul>
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="week4">
-                <AccordionTrigger>Week 4: Integrating Concepts: Arrays, Functions, and Logic</AccordionTrigger>
+                <AccordionTrigger>Week 4: 3D Printing and Prototyping </AccordionTrigger>
                 <AccordionContent>
                   <ul className="list-disc pl-5 space-y-2">
                     <li>Chapter 4: Introduction</li>
-                    <li>Chapter 4: Combining arrays with functions to solve complex problems</li>
-                    <li>Chapter 4: Building small modular projects using all covered concepts</li>
-                    <li>Chapter 4: Debugging and refining code for efficiency</li>
+                    <li>Chapter 4: Preparing models for 3D printing with slicing software</li>
+                    <li>Chapter 4: Troubleshooting and refining designs for printability</li>
+                    <li>Chapter 4: Understanding real-world applications of prototypes</li>
                     <li>Chapter 4: Summary </li>
                     <li>Chapter 4: Quiz </li>
                   </ul>
@@ -175,45 +182,16 @@ export default function EnhancedCourseOverviewComponent() {
               </AccordionItem>
               <AccordionItem value="week5">
                 <AccordionTrigger>
-                  Week 5: Programming with Arduino and Microcontrollers{" "}
+                  Week 5: Final Project{" "}
                 </AccordionTrigger>
                 <AccordionContent>
                   <ul className="list-disc pl-5 space-y-2">
                     <li>Chapter 5: Introduction</li>
-                    <li>Chapter 5: Introduction to Arduino IDE and basic hardware setup</li>
-                    <li>Chapter 5: Writing and uploading C++ programs to microcontrollers</li>
-                    <li>Chapter 5: Reading input from sensors and controlling output devices</li>
-                    <li>Chapter 5: Exploring practical applications with hardware integration</li>
+                    <li>Chapter 5: Developing a complete design from concept to final render</li>
+                    <li>Chapter 5: Incorporating advanced modeling techniques</li>
+                    <li>Chapter 5: Presenting and documenting the design process</li>
                     <li>Chapter 5: Summary </li>
                     <li>Chapter 5: Quiz </li>
-                  </ul>
-                </AccordionContent>
-              </AccordionItem>
-              <AccordionItem value="week6">
-                <AccordionTrigger>Week 6: File Handling in C++ </AccordionTrigger>
-                <AccordionContent>
-                  <ul className="list-disc pl-5 space-y-2">
-                    <li>Chapter 6: Introduction</li>
-                    <li>Chapter 6: Reading from and writing to files</li>
-                    <li>Chapter 6: Using file streams for data storage and retrieval</li>
-                    <li>Chapter 6: Error handling in file operations</li>
-                    <li>Chapter 6: Building programs that save and load data</li>
-                    <li>Chapter 6: Summary </li>
-                    <li>Chapter 6: Quiz </li>
-                  </ul>
-                </AccordionContent>
-              </AccordionItem>
-              <AccordionItem value="week7">
-                <AccordionTrigger>Week 7: Final Project </AccordionTrigger>
-                <AccordionContent>
-                  <ul className="list-disc pl-5 space-y-2">
-                    <li>Chapter 7: Introduction</li>
-                    <li>Chapter 7: Designing and implementing a comprehensive program that combines all concepts</li>
-                    <li>Chapter 7: Integrating hardware (optional for those with access to microcontrollers)</li>
-                    <li>Chapter 7: Debugging, testing, and presenting the final project</li>
-                    <li>Chapter 6: Best practices for future learning and advanced topics</li>
-                    <li>Chapter 7: Summary </li>
-                    <li>Chapter 7: Quiz </li>
                   </ul>
                 </AccordionContent>
               </AccordionItem>
@@ -221,7 +199,9 @@ export default function EnhancedCourseOverviewComponent() {
           </section>
 
           <div className="text-center">
-            <Button size="lg">Take Course</Button>
+            <Button size="lg" onClick={() => router.push("/Courses/CADCourse")}>
+              Take Course
+            </Button>
           </div>
         </div>
 

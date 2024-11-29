@@ -4,6 +4,7 @@ import { useRef, useEffect } from "react";
 import { motion, useAnimationFrame, useMotionValue } from "framer-motion";
 import Image from "next/image";
 //import Link from "next/link";
+import { useRouter } from "next/navigation"; // Ensure useRouter is imported
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -76,35 +77,35 @@ function AnimatedImageCarousel() {
 }
 
 export default function EnhancedCourseOverviewComponent() {
+  const router = useRouter(); // Initialize the router here
+
   return (
     <div className="min-h-screen flex flex-col">
       <main className="flex-grow">
         <div className="container mx-auto px-4 py-12 space-y-36 mt-20">
           <section className="text-center space-y-4">
-            <h1 className="text-4xl font-bold">Caffeine Extraction</h1>
+            <h1 className="text-4xl font-bold">C++ Coding</h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Master the fundamentals of research
+              Understand programming concepts and write efficient code using one
+              of the most utilized languages worldwide.
             </p>
           </section>
 
           <Card className="mb-8">
             <CardHeader>
-              <CardTitle>3SP Course Overview</CardTitle>
+              <CardTitle>Course Overview</CardTitle>
               <CardDescription>
-                Master the fundamentals of research in a lab by Extracting
-                Caffeine.
+                Learn the fundamentals of Programming
               </CardDescription>
             </CardHeader>
             <CardContent>
               <p className="mb-4">
-              This course emphasizes the science and lab safety practices involved in caffeine extraction. Students will learn how to safely handle chemicals, perform extractions, and analyze the purity of caffeine, preparing them for both academic and industrial applications.
-
-
+                This course introduces students to the fundamentals of C++ programming, emphasizing practical applications and real-world problem-solving. Starting with setting up the development environment, the course progresses through essential programming concepts, arrays, functions, modular programming, and hardware interaction, culminating in a final project that integrates all learned skills.
               </p>
               <ul className="list-disc pl-5 space-y-2">
                 <li>Duration: 8 weeks</li>
-                <li>Difficulty: Beginner to Intermediate</li>
-                <li>Prerequisites: Basic computer skills</li>
+                <li>Difficulty: Beginner to Associate </li>
+                <li>Prerequisites: Basic coding skills</li>
               </ul>
             </CardContent>
           </Card>
@@ -114,13 +115,15 @@ export default function EnhancedCourseOverviewComponent() {
             <Accordion type="single" collapsible className="w-full">
               <AccordionItem value="week1">
                 <AccordionTrigger>
-                  Week 1: Introduction to Caffeine and Lab Safety{" "}
+                  Week 1: Introduction to C++ and Development Environment{" "}
                 </AccordionTrigger>
                 <AccordionContent>
                   <ul className="list-disc pl-5 space-y-2">
                     <li>Chapter 1: Introduction</li>
-                    <li>Chapter 1: Understanding the properties of caffeine and its natural sources</li>
-                    <li>Chapter 1: Introduction to lab safety protocols and proper equipment handling</li>
+                    <li>Chapter 1: Setting up Visual Studio Code and configuring the environment</li>
+                    <li>Chapter 1: Introduction to the terminal and basic commands</li>
+                    <li>Chapter 1: Understanding variables, data types, and constants</li>
+                    <li>Chapter 1: Producing outputs and handling user input</li>
                     <li>Chapter 1: Summary </li>
                     <li>Chapter 1: Quiz </li>
                   </ul>
@@ -128,15 +131,15 @@ export default function EnhancedCourseOverviewComponent() {
               </AccordionItem>
               <AccordionItem value="week2">
                 <AccordionTrigger>
-                  Week 2: Solvent-Based Extraction Techniques{" "}
+                  Week 2: Working with Arrays{" "}
                 </AccordionTrigger>
                 <AccordionContent>
                   <ul className="list-disc pl-5 space-y-2">
                     <li>Chapter 2: Introduction</li>
-                    <li>Chapter 2: Selecting and handling solvents safely in the lab
-                    </li>
-                    <li>Chapter 2: Step-by-step caffeine extraction using liquid-liquid methods</li>
-                    <li>Chapter 2: Importance of using fume hoods and personal protective equipment</li>
+                    <li>Chapter 2: Introduction to arrays and their importance</li>
+                    <li>Chapter 2: Declaring, initializing, and accessing arrays</li>
+                    <li>Chapter 2: Multi-dimensional arrays and their applications</li>
+                    <li>Chapter 2: Common array operations like searching and sorting</li>
                     <li>Chapter 2: Summary </li>
                     <li>Chapter 2: Quiz </li>
                   </ul>
@@ -144,25 +147,28 @@ export default function EnhancedCourseOverviewComponent() {
               </AccordionItem>
               <AccordionItem value="week3">
                 <AccordionTrigger>
-                  Week 3: Purification and Waste Management{" "}
+                  Week 3: Functions and Modular Programming{" "}
                 </AccordionTrigger>
                 <AccordionContent>
                   <ul className="list-disc pl-5 space-y-2">
                     <li>Chapter 3: Introduction</li>
-                    <li>Chapter 3: Safely separating impurities from extracted caffeine</li>
-                    <li>Chapter 3: Proper disposal of chemical waste in accordance with safety guidelines</li>
+                    <li>Chapter 3: Defining and calling functions</li>
+                    <li>Chapter 3: Function arguments, return types, and scope</li>
+                    <li>Chapter 3: Breaking programs into modules for better organization</li>
+                    <li>Chapter 3: Benefits of modular programming for scalability</li>
                     <li>Chapter 3: Summary </li>
                     <li>Chapter 3: Quiz </li>
                   </ul>
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="week4">
-                <AccordionTrigger>Week 4: Analytical Techniques and Lab Accuracy </AccordionTrigger>
+                <AccordionTrigger>Week 4: Integrating Concepts: Arrays, Functions, and Logic</AccordionTrigger>
                 <AccordionContent>
                   <ul className="list-disc pl-5 space-y-2">
                     <li>Chapter 4: Introduction</li>
-                    <li>Chapter 4: Using chromatography and spectroscopy to analyze caffeine purity</li>
-                    <li>Chapter 4: Maintaining precision and accuracy in lab measurements</li>
+                    <li>Chapter 4: Combining arrays with functions to solve complex problems</li>
+                    <li>Chapter 4: Building small modular projects using all covered concepts</li>
+                    <li>Chapter 4: Debugging and refining code for efficiency</li>
                     <li>Chapter 4: Summary </li>
                     <li>Chapter 4: Quiz </li>
                   </ul>
@@ -170,17 +176,45 @@ export default function EnhancedCourseOverviewComponent() {
               </AccordionItem>
               <AccordionItem value="week5">
                 <AccordionTrigger>
-                  Week 5: Final Extraction Project and Safety Assessment{" "}
+                  Week 5: Programming with Arduino and Microcontrollers{" "}
                 </AccordionTrigger>
                 <AccordionContent>
                   <ul className="list-disc pl-5 space-y-2">
                     <li>Chapter 5: Introduction</li>
-                    <li>Chapter 5: Designing and performing a comprehensive caffeine extraction project
-                    </li>
-                    <li>Chapter 5: Reviewing and applying all safety protocols in the final procedure</li>
-                    <li>Chapter 5: Presenting results with an emphasis on safety compliance</li>
+                    <li>Chapter 5: Introduction to Arduino IDE and basic hardware setup</li>
+                    <li>Chapter 5: Writing and uploading C++ programs to microcontrollers</li>
+                    <li>Chapter 5: Reading input from sensors and controlling output devices</li>
+                    <li>Chapter 5: Exploring practical applications with hardware integration</li>
                     <li>Chapter 5: Summary </li>
                     <li>Chapter 5: Quiz </li>
+                  </ul>
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="week6">
+                <AccordionTrigger>Week 6: File Handling in C++ </AccordionTrigger>
+                <AccordionContent>
+                  <ul className="list-disc pl-5 space-y-2">
+                    <li>Chapter 6: Introduction</li>
+                    <li>Chapter 6: Reading from and writing to files</li>
+                    <li>Chapter 6: Using file streams for data storage and retrieval</li>
+                    <li>Chapter 6: Error handling in file operations</li>
+                    <li>Chapter 6: Building programs that save and load data</li>
+                    <li>Chapter 6: Summary </li>
+                    <li>Chapter 6: Quiz </li>
+                  </ul>
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="week7">
+                <AccordionTrigger>Week 7: Final Project </AccordionTrigger>
+                <AccordionContent>
+                  <ul className="list-disc pl-5 space-y-2">
+                    <li>Chapter 7: Introduction</li>
+                    <li>Chapter 7: Designing and implementing a comprehensive program that combines all concepts</li>
+                    <li>Chapter 7: Integrating hardware (optional for those with access to microcontrollers)</li>
+                    <li>Chapter 7: Debugging, testing, and presenting the final project</li>
+                    <li>Chapter 6: Best practices for future learning and advanced topics</li>
+                    <li>Chapter 7: Summary </li>
+                    <li>Chapter 7: Quiz </li>
                   </ul>
                 </AccordionContent>
               </AccordionItem>
@@ -188,7 +222,9 @@ export default function EnhancedCourseOverviewComponent() {
           </section>
 
           <div className="text-center">
-            <Button size="lg">Take Course</Button>
+            <Button size="lg" onClick={() => router.push("/Courses/CppCourse")}>
+              Take Course
+            </Button>
           </div>
         </div>
 
