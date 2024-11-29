@@ -52,9 +52,9 @@ export default function LoginPage() {
         <CardHeader className="space-y-1">
           <div className="flex justify-center mb-4">
             <Image
-              src="/3SPLogo (4).png"
+              src="/3splogowbg (1).png"
               alt="3SP Logo"
-              width={100}
+              width={125}
               height={100}
             />
           </div>
