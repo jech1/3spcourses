@@ -28,6 +28,9 @@ export default function CourseLayout({
           {/* Sticky Header for Writing Course Page */}
           <header className="bg-white text-black py-4 px-6 flex justify-between items-center shadow-md sticky top-0 z-50">
             {/* Home Button with Image */}
+
+            {/* We can make this a stagnant component so we can take this out of every file */}
+            {/* Make this go back home to user page */}
             <Link href="/" className="flex items-center">
               <Image
                 src="/3splogowbg (1).png" // Adjusted image path
