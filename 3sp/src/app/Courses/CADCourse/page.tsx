@@ -1,10 +1,10 @@
-"use client"
+"use client";
 
-import { useState, useEffect, useCallback } from 'react'
-import { Button } from "@/components/ui/button"
-import { ChevronLeft, ChevronRight, Play } from 'lucide-react'
-import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
-import { Label } from "@/components/ui/label"
+import { useState, useEffect, useCallback } from "react";
+import { Button } from "@/components/ui/button";
+import { ChevronLeft, ChevronRight, Play } from "lucide-react";
+import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
+import { Label } from "@/components/ui/label";
 //import Image from 'next/image'
 
 // Define TypeScript interfaces
@@ -60,7 +60,7 @@ const courseData: CourseData = {
               <img src="/3dmodelingcad_logo.png" alt="3D Modeling CAD Course Structure Diagram" width="500" height="300" />
             </div>
           `,
-          videoUrl: "https://example.com/week1-introduction"
+          videoUrl: "https://example.com/week1-introduction",
         },
         {
           title: "Setting up Onshape and Understanding the Interface",
@@ -80,7 +80,7 @@ const courseData: CourseData = {
               <li>Utilizing view controls for better model visualization.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week1-setting-up-onshape"
+          videoUrl: "https://example.com/week1-setting-up-onshape",
         },
         {
           title: "Exploring Online Resources and Communities",
@@ -100,7 +100,7 @@ const courseData: CourseData = {
               <li>Collaborating on projects with peers.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week1-online-resources"
+          videoUrl: "https://example.com/week1-online-resources",
         },
         {
           title: "Familiarizing with Hardware Setup and Connectivity Basics",
@@ -120,7 +120,7 @@ const courseData: CourseData = {
               <li>Power supply considerations and safety measures.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week1-hardware-setup"
+          videoUrl: "https://example.com/week1-hardware-setup",
         },
         {
           title: "Summary",
@@ -134,7 +134,7 @@ const courseData: CourseData = {
             </ul>
             <p class="mt-4">These foundational skills are essential as you advance to more complex CAD and circuit design concepts in the coming weeks.</p>
           `,
-          videoUrl: "https://example.com/week1-summary"
+          videoUrl: "https://example.com/week1-summary",
         },
         {
           title: "Quiz",
@@ -144,16 +144,17 @@ const courseData: CourseData = {
           `,
           videoUrl: "https://example.com/week1-quiz",
           quiz: {
-            question: "What is the primary purpose of using a breadboard in circuit design?",
+            question:
+              "What is the primary purpose of using a breadboard in circuit design?",
             options: [
               "To permanently solder components.",
               "To prototype and test circuits without soldering.",
               "To increase the power supply.",
-              "To store electronic components."
+              "To store electronic components.",
             ],
-            correctAnswer: 1
-          }
-        }
+            correctAnswer: 1,
+          },
+        },
       ],
     },
     // Week 2
@@ -172,10 +173,11 @@ const courseData: CourseData = {
               <li>Learn basic troubleshooting techniques for faulty components.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week2-intro"
+          videoUrl: "https://example.com/week2-intro",
         },
         {
-          title: "Identifying and Understanding Resistors, Capacitors, and Diodes",
+          title:
+            "Identifying and Understanding Resistors, Capacitors, and Diodes",
           content: `
             <h2 class="text-2xl font-bold">Key Passive Components</h2>
             <p class="mt-4">Learn about resistors, capacitors, and diodes—fundamental components in electronic circuits.</p>
@@ -198,7 +200,7 @@ const courseData: CourseData = {
               <li>Applications: Rectification, voltage regulation, and signal demodulation.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week2-components"
+          videoUrl: "https://example.com/week2-components",
         },
         {
           title: "Safely Using Breadboards and Power Supplies in Circuits",
@@ -218,7 +220,7 @@ const courseData: CourseData = {
               <li>Safety Measures: Avoiding overvoltage, current overloads, and proper grounding.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week2-safely-using-breadboards"
+          videoUrl: "https://example.com/week2-safely-using-breadboards",
         },
         {
           title: "Basic Troubleshooting Techniques for Faulty Components",
@@ -246,7 +248,7 @@ const courseData: CourseData = {
               <li>Diode Testing: Confirm the directionality and functionality of diodes.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week2-troubleshooting"
+          videoUrl: "https://example.com/week2-troubleshooting",
         },
         {
           title: "Summary",
@@ -260,7 +262,7 @@ const courseData: CourseData = {
             </ul>
             <p class="mt-4">Mastering these components and safety practices is crucial for building effective and dependable electronic prototypes.</p>
           `,
-          videoUrl: "https://example.com/week2-summary"
+          videoUrl: "https://example.com/week2-summary",
         },
         {
           title: "Quiz",
@@ -270,16 +272,17 @@ const courseData: CourseData = {
           `,
           videoUrl: "https://example.com/week2-quiz",
           quiz: {
-            question: "What is the primary function of a resistor in a circuit?",
+            question:
+              "What is the primary function of a resistor in a circuit?",
             options: [
               "To store electrical energy",
               "To allow current to flow in one direction",
               "To limit current flow and divide voltages",
-              "To amplify signals"
+              "To amplify signals",
             ],
-            correctAnswer: 2
-          }
-        }
+            correctAnswer: 2,
+          },
+        },
       ],
     },
     // Week 3
@@ -298,10 +301,11 @@ const courseData: CourseData = {
               <li>Use functions to organize code for complex operations.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week3-intro"
+          videoUrl: "https://example.com/week3-intro",
         },
         {
-          title: "Writing and Uploading Simple C++ Programs to Microcontrollers",
+          title:
+            "Writing and Uploading Simple C++ Programs to Microcontrollers",
           content: `
             <h2 class="text-2xl font-bold">Creating Your First Microcontroller Program</h2>
             <p class="mt-4">Learn the step-by-step process of writing and uploading C++ code to a microcontroller to perform basic tasks.</p>
@@ -330,10 +334,11 @@ const courseData: CourseData = {
     }
             </pre>
           `,
-          videoUrl: "https://example.com/week3-uploading-programs"
+          videoUrl: "https://example.com/week3-uploading-programs",
         },
         {
-          title: "Understanding Data Types, Variables, and Logic Control Structures",
+          title:
+            "Understanding Data Types, Variables, and Logic Control Structures",
           content: `
             <h2 class="text-2xl font-bold">Fundamental Programming Concepts</h2>
             <p class="mt-4">Deepen your understanding of data types, variables, and logic control structures essential for effective programming.</p>
@@ -358,7 +363,7 @@ const courseData: CourseData = {
               <li><strong>Logical Operators:</strong> AND (&&), OR (||), NOT (!).</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week3-data-types-variables"
+          videoUrl: "https://example.com/week3-data-types-variables",
         },
         {
           title: "Using Functions to Organize Code for Complex Operations",
@@ -393,7 +398,7 @@ const courseData: CourseData = {
               <li>Facilitates debugging and testing.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week3-functions"
+          videoUrl: "https://example.com/week3-functions",
         },
         {
           title: "Summary",
@@ -407,7 +412,7 @@ const courseData: CourseData = {
             </ul>
             <p class="mt-4">These skills are essential for developing interactive and functional prototypes using microcontrollers.</p>
           `,
-          videoUrl: "https://example.com/week3-summary"
+          videoUrl: "https://example.com/week3-summary",
         },
         {
           title: "Quiz",
@@ -417,16 +422,17 @@ const courseData: CourseData = {
           `,
           videoUrl: "https://example.com/week3-quiz",
           quiz: {
-            question: "What is the primary benefit of using functions in your code?",
+            question:
+              "What is the primary benefit of using functions in your code?",
             options: [
               "Increases the execution time of programs",
               "Promotes code reusability and organization",
               "Reduces the number of variables needed",
-              "Eliminates the need for debugging"
+              "Eliminates the need for debugging",
             ],
-            correctAnswer: 1
-          }
-        }
+            correctAnswer: 1,
+          },
+        },
       ],
     },
     // Week 4
@@ -445,7 +451,7 @@ const courseData: CourseData = {
               <li>Safely test circuits using a multimeter.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week4-intro"
+          videoUrl: "https://example.com/week4-intro",
         },
         {
           title: "Building Basic Circuits with LEDs, Resistors, and Switches",
@@ -472,7 +478,7 @@ const courseData: CourseData = {
               <li>Power the circuit and test the switch functionality.</li>
             </ol>
           `,
-          videoUrl: "https://example.com/week4-building-basic-circuits"
+          videoUrl: "https://example.com/week4-building-basic-circuits",
         },
         {
           title: "Understanding Voltage, Current, and Resistance Relationships",
@@ -501,7 +507,7 @@ const courseData: CourseData = {
     R = 350Ω
             </pre>
           `,
-          videoUrl: "https://example.com/week4-ohms-law"
+          videoUrl: "https://example.com/week4-ohms-law",
         },
         {
           title: "Safely Testing Circuits with a Multimeter",
@@ -533,7 +539,7 @@ const courseData: CourseData = {
               <li>Comparing measured resistance with expected values for component verification.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week4-testing-circuits"
+          videoUrl: "https://example.com/week4-testing-circuits",
         },
         {
           title: "Summary",
@@ -547,7 +553,7 @@ const courseData: CourseData = {
             </ul>
             <p class="mt-4">These foundational skills are crucial for designing and troubleshooting more complex electronic systems in the upcoming weeks.</p>
           `,
-          videoUrl: "https://example.com/week4-summary"
+          videoUrl: "https://example.com/week4-summary",
         },
         {
           title: "Quiz",
@@ -557,16 +563,12 @@ const courseData: CourseData = {
           `,
           videoUrl: "https://example.com/week4-quiz",
           quiz: {
-            question: "According to Ohm's Law, how do you calculate resistance?",
-            options: [
-              "R = V × I",
-              "R = V / I",
-              "R = I / V",
-              "R = V + I"
-            ],
-            correctAnswer: 1
-          }
-        }
+            question:
+              "According to Ohm's Law, how do you calculate resistance?",
+            options: ["R = V × I", "R = V / I", "R = I / V", "R = V + I"],
+            correctAnswer: 1,
+          },
+        },
       ],
     },
     // Week 5
@@ -585,7 +587,7 @@ const courseData: CourseData = {
               <li>Integrate sensors and actuators for interactive systems.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week5-intro"
+          videoUrl: "https://example.com/week5-intro",
         },
         {
           title: "Designing and Analyzing Complex Circuit Diagrams",
@@ -607,7 +609,7 @@ const courseData: CourseData = {
             <h3 class="text-xl font-semibold mt-6">Example:</h3>
             <p class="mt-4">"Design a temperature monitoring system using a microcontroller, temperature sensor, and display module, ensuring proper connections and data flow."</p>
           `,
-          videoUrl: "https://example.com/week5-designing-schematics"
+          videoUrl: "https://example.com/week5-designing-schematics",
         },
         {
           title: "Creating PCB Layouts for Advanced Projects",
@@ -635,7 +637,7 @@ const courseData: CourseData = {
               <li>Utilizing online resources and tutorials for advanced PCB techniques.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week5-pcb-layouts"
+          videoUrl: "https://example.com/week5-pcb-layouts",
         },
         {
           title: "Integrating Sensors and Actuators for Interactive Systems",
@@ -661,7 +663,7 @@ const courseData: CourseData = {
               <li>Testing and refining interactive prototypes for reliability.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week5-integrating-sensors-actuators"
+          videoUrl: "https://example.com/week5-integrating-sensors-actuators",
         },
         {
           title: "Summary",
@@ -675,7 +677,7 @@ const courseData: CourseData = {
             </ul>
             <p class="mt-4">These advanced skills are essential for developing sophisticated prototypes and preparing for real-world applications in circuit design.</p>
           `,
-          videoUrl: "https://example.com/week5-summary"
+          videoUrl: "https://example.com/week5-summary",
         },
         {
           title: "Quiz",
@@ -685,16 +687,17 @@ const courseData: CourseData = {
           `,
           videoUrl: "https://example.com/week5-quiz",
           quiz: {
-            question: "What is the purpose of creating Gerber files in PCB design?",
+            question:
+              "What is the purpose of creating Gerber files in PCB design?",
             options: [
               "To simulate the circuit behavior.",
               "To program the microcontroller.",
               "To fabricate the physical PCB.",
-              "To visualize the 3D model."
+              "To visualize the 3D model.",
             ],
-            correctAnswer: 2
-          }
-        }
+            correctAnswer: 2,
+          },
+        },
       ],
     },
     // Week 6
@@ -713,7 +716,7 @@ const courseData: CourseData = {
               <li>Explore best practices for prototype assembly.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week6-intro"
+          videoUrl: "https://example.com/week6-intro",
         },
         {
           title: "Using Software Tools for PCB Design and Simulation",
@@ -740,7 +743,7 @@ const courseData: CourseData = {
               <li>Iterating designs based on simulation feedback.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week6-pcb-design-simulation"
+          videoUrl: "https://example.com/week6-pcb-design-simulation",
         },
         {
           title: "Testing and Refining Circuits on Breadboards",
@@ -762,7 +765,7 @@ const courseData: CourseData = {
             <h3 class="text-xl font-semibold mt-6">Iterative Development:</h3>
             <p class="mt-2">Adopt an iterative approach to gradually improve your circuit designs based on testing outcomes and performance goals.</p>
           `,
-          videoUrl: "https://example.com/week6-testing-refining"
+          videoUrl: "https://example.com/week6-testing-refining",
         },
         {
           title: "Exploring Best Practices for Prototype Assembly",
@@ -788,7 +791,7 @@ const courseData: CourseData = {
               <li>Handling components and tools safely to prevent injuries.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week6-best-practices"
+          videoUrl: "https://example.com/week6-best-practices",
         },
         {
           title: "Summary",
@@ -802,7 +805,7 @@ const courseData: CourseData = {
             </ul>
             <p class="mt-4">These advanced circuit design skills are crucial for developing sophisticated and dependable electronic systems in your final projects.</p>
           `,
-          videoUrl: "https://example.com/week6-summary"
+          videoUrl: "https://example.com/week6-summary",
         },
         {
           title: "Quiz",
@@ -812,16 +815,17 @@ const courseData: CourseData = {
           `,
           videoUrl: "https://example.com/week6-quiz",
           quiz: {
-            question: "What is the primary purpose of running a design rule check (DRC) in PCB design software?",
+            question:
+              "What is the primary purpose of running a design rule check (DRC) in PCB design software?",
             options: [
               "To simulate circuit behavior",
               "To verify component functionality",
               "To ensure manufacturability and prevent design errors",
-              "To calculate power consumption"
+              "To calculate power consumption",
             ],
-            correctAnswer: 2
-          }
-        }
+            correctAnswer: 2,
+          },
+        },
       ],
     },
     // Week 7
@@ -840,7 +844,7 @@ const courseData: CourseData = {
               <li>Debug issues in integrated systems.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week7-intro"
+          videoUrl: "https://example.com/week7-intro",
         },
         {
           title: "Integrating Sensors and Actuators with Microcontroller Code",
@@ -881,7 +885,7 @@ const courseData: CourseData = {
     }
             </pre>
           `,
-          videoUrl: "https://example.com/week7-integrating-sensors-actuators"
+          videoUrl: "https://example.com/week7-integrating-sensors-actuators",
         },
         {
           title: "Synchronizing Hardware Functionality with Software Logic",
@@ -897,7 +901,7 @@ const courseData: CourseData = {
             <h3 class="text-xl font-semibold mt-6">Example Scenario:</h3>
             <p class="mt-2">"Design a system where pressing a button triggers an LED to flash a specific pattern, synchronized with sensor readings."</p>
           `,
-          videoUrl: "https://example.com/week7-synchronizing-hardware-software"
+          videoUrl: "https://example.com/week7-synchronizing-hardware-software",
         },
         {
           title: "Debugging Issues in Integrated Systems",
@@ -924,7 +928,7 @@ const courseData: CourseData = {
               <li>Serial Monitor in Arduino IDE for logging outputs.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week7-debugging"
+          videoUrl: "https://example.com/week7-debugging",
         },
         {
           title: "Summary",
@@ -938,7 +942,7 @@ const courseData: CourseData = {
             </ul>
             <p class="mt-4">These skills are vital for creating interactive and reliable prototypes, setting the stage for your final project in the upcoming week.</p>
           `,
-          videoUrl: "https://example.com/week7-summary"
+          videoUrl: "https://example.com/week7-summary",
         },
         {
           title: "Quiz",
@@ -948,16 +952,17 @@ const courseData: CourseData = {
           `,
           videoUrl: "https://example.com/week7-quiz",
           quiz: {
-            question: "Which tool can be used to monitor real-time data from a microcontroller during debugging?",
+            question:
+              "Which tool can be used to monitor real-time data from a microcontroller during debugging?",
             options: [
               "Multimeter",
               "Oscilloscope",
               "Serial Monitor",
-              "Soldering Iron"
+              "Soldering Iron",
             ],
-            correctAnswer: 2
-          }
-        }
+            correctAnswer: 2,
+          },
+        },
       ],
     },
     // Week 8
@@ -976,10 +981,11 @@ const courseData: CourseData = {
               <li>Present and document your project effectively.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week8-intro"
+          videoUrl: "https://example.com/week8-intro",
         },
         {
-          title: "Developing a Comprehensive Project That Combines All Skills Learned",
+          title:
+            "Developing a Comprehensive Project That Combines All Skills Learned",
           content: `
             <h2 class="text-2xl font-bold">Project Planning and Design</h2>
             <p class="mt-4">Start by conceptualizing your project, outlining its objectives, and designing the necessary components using CAD and circuit schematics.</p>
@@ -998,7 +1004,7 @@ const courseData: CourseData = {
               <li>Interactive LED Display</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week8-project-development"
+          videoUrl: "https://example.com/week8-project-development",
         },
         {
           title: "Integrating Advanced Modeling Techniques",
@@ -1018,7 +1024,7 @@ const courseData: CourseData = {
               <li>Enhancing aesthetic appeal and usability.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week8-advanced-modeling"
+          videoUrl: "https://example.com/week8-advanced-modeling",
         },
         {
           title: "Presenting and Documenting the Design Process",
@@ -1046,7 +1052,7 @@ const courseData: CourseData = {
               <li>Results, conclusions, and future improvements.</li>
             </ol>
           `,
-          videoUrl: "https://example.com/week8-presentation-documentation"
+          videoUrl: "https://example.com/week8-presentation-documentation",
         },
         {
           title: "Summary",
@@ -1060,7 +1066,7 @@ const courseData: CourseData = {
             </ul>
             <p class="mt-4">Congratulations on completing the **Microcontroller & Circuit Design** course! Continue building on these skills to explore more advanced topics and real-world applications in electronics and design.</p>
           `,
-          videoUrl: "https://example.com/week8-summary"
+          videoUrl: "https://example.com/week8-summary",
         },
         {
           title: "Quiz",
@@ -1070,221 +1076,240 @@ const courseData: CourseData = {
           `,
           videoUrl: "https://example.com/week8-quiz",
           quiz: {
-            question: "What is the primary benefit of using parametric modeling in CAD designs?",
+            question:
+              "What is the primary benefit of using parametric modeling in CAD designs?",
             options: [
               "Increased material usage",
               "Ability to adjust design parameters easily",
               "Simplified circuit integration",
-              "Enhanced soldering techniques"
+              "Enhanced soldering techniques",
             ],
-            correctAnswer: 1
-          }
-        }
-      ],
-    }
-]
-}   
-    
-    // The rest of the code remains the same as previously provided
-    // The code below is necessary for the component to function correctly
-    
-    export default function CoursePage() {
-        const [currentWeek, setCurrentWeek] = useState<number>(0)
-        const [currentChapter, setCurrentChapter] = useState<number>(0)
-        const [progress, setProgress] = useState<Progress>(() => {
-          if (typeof window !== 'undefined') {
-            const savedProgress = localStorage.getItem('courseProgress')
-            return savedProgress ? (JSON.parse(savedProgress) as Progress) : { week: 0, chapter: 0, completed: [] }
-          }
-          return { week: 0, chapter: 0, completed: [] }
-        })
-        const [quizAnswer, setQuizAnswer] = useState<number | null>(null)
-        const [showQuizResult, setShowQuizResult] = useState(false)
-      
-        // Memoize updateProgress to ensure it has a stable reference
-        const updateProgress = useCallback((week: number, chapter: number) => {
-          setProgress((prev) => {
-            const newCompleted = [...prev.completed]
-            const key = `${week}-${chapter}`
-            if (!newCompleted.includes(key)) {
-              newCompleted.push(key)
-            }
-            const newProgress: Progress = { week, chapter, completed: newCompleted }
-            if (typeof window !== 'undefined') {
-              localStorage.setItem('courseProgress', JSON.stringify(newProgress))
-            }
-            return newProgress
-          })
-        }, [])
-      
-        // Include updateProgress in the dependency array
-        const navigateToChapter = useCallback(
-          (weekIndex: number, chapterIndex: number) => {
-            const week = courseData.weeks[weekIndex]
-            if (week && week.chapters[chapterIndex]) {
-              setCurrentWeek(weekIndex)
-              setCurrentChapter(chapterIndex)
-              updateProgress(weekIndex, chapterIndex)
-              setQuizAnswer(null)
-              setShowQuizResult(false)
-            }
+            correctAnswer: 1,
           },
-          [updateProgress]
-        )
-      
-        useEffect(() => {
-          navigateToChapter(progress.week, progress.chapter)
-        }, [navigateToChapter, progress.week, progress.chapter])
-      
-        const previousChapter = () => {
-          if (currentChapter > 0) {
-            navigateToChapter(currentWeek, currentChapter - 1)
-          } else if (currentWeek > 0) {
-            const previousWeekIndex = currentWeek - 1
-            const previousWeek = courseData.weeks[previousWeekIndex]
-            if (previousWeek) {
-              const previousWeekLastChapterIndex = previousWeek.chapters.length - 1
-              navigateToChapter(previousWeekIndex, previousWeekLastChapterIndex)
-            }
-          }
-        }
-      
-        const nextChapter = () => {
-          const currentWeekData = courseData.weeks[currentWeek]
-          if (currentWeekData && currentChapter < currentWeekData.chapters.length - 1) {
-            navigateToChapter(currentWeek, currentChapter + 1)
-          } else if (currentWeek < courseData.weeks.length - 1) {
-            navigateToChapter(currentWeek + 1, 0)
-          }
-        }
-      
-        const calculateOverallProgress = () => {
-          const totalChapters = courseData.weeks.reduce((acc, week) => acc + week.chapters.length, 0)
-          return (progress.completed.length / totalChapters) * 100
-        }
-      
-        const handleQuizSubmit = () => {
-          setShowQuizResult(true)
-        }
-      
-        // Determine if Next and Previous buttons should be disabled
-        const isFirstChapter = currentWeek === 0 && currentChapter === 0
-        const isLastChapter =
-          currentWeek === courseData.weeks.length - 1 &&
-          currentChapter === courseData.weeks[currentWeek].chapters.length - 1
-      
-        return (
-          <div className="flex flex-col min-h-screen">
-            {/* Progress Bar */}
-            <div className="bg-gray-200 h-2">
-              <div
-                className="bg-blue-500 h-full transition-all duration-300"
-                style={{ width: `${calculateOverallProgress()}%` }}
-              />
-            </div>
-            {/* Main Content Area */}
-            <div className="flex-grow">
-              <div className="p-6">
-                <h1 className="text-4xl font-extrabold mb-6">{courseData.title}</h1>
-                <h2 className="text-3xl font-bold mb-4">
-                  {courseData.weeks[currentWeek]?.title}
-                </h2>
-                <h3 className="text-2xl font-semibold mb-4">
-                  {courseData.weeks[currentWeek]?.chapters[currentChapter]?.title}
-                </h3>
-                <Button
-                  variant="outline"
-                  className="mb-6"
-                  onClick={() =>
-                    window.open(
-                      courseData.weeks[currentWeek]?.chapters[currentChapter]?.videoUrl ?? '',
-                      '_blank'
-                    )
-                  }
-                >
-                  <Play className="h-4 w-4 mr-2" /> Watch Video
-                </Button>
-                <div
-                  className="prose max-w-none"
-                  dangerouslySetInnerHTML={{
-                    __html:
-                      courseData.weeks[currentWeek]?.chapters[currentChapter]?.content ?? '',
-                  }}
-                />
-                {courseData.weeks[currentWeek]?.chapters[currentChapter]?.quiz && (
-                  <div className="mt-8 p-6 border border-gray-300 rounded-lg">
-                    <h4 className="text-xl font-semibold mb-4">Quiz</h4>
-                    <p className="mb-4">
-                      {courseData.weeks[currentWeek]?.chapters[currentChapter]?.quiz?.question}
-                    </p>
-                    <RadioGroup
-                      value={quizAnswer?.toString() ?? ''}
-                      onValueChange={(value) => setQuizAnswer(parseInt(value))}
-                    >
-                      {courseData.weeks[currentWeek]?.chapters[currentChapter]?.quiz?.options.map(
-                        (option, index) => (
-                          <div key={index} className="flex items-center space-x-2 mb-2">
-                            <RadioGroupItem
-                              value={index.toString()}
-                              id={`option-${index}`}
-                              className="border border-gray-400 rounded-full w-4 h-4 flex items-center justify-center"
-                            >
-                              <div
-                                className={`w-2 h-2 rounded-full ${
-                                  quizAnswer === index ? 'bg-blue-600' : 'bg-transparent'
-                                }`}
-                              />
-                            </RadioGroupItem>
-                            <Label htmlFor={`option-${index}`}>{option}</Label>
-                          </div>
-                        )
-                      )}
-                    </RadioGroup>
-                    <Button onClick={handleQuizSubmit} className="mt-6" disabled={quizAnswer === null}>
-                      Submit Answer
-                    </Button>
-                    {showQuizResult && (
-                      <p
-                        className={`mt-4 ${
-                          quizAnswer ===
-                          courseData.weeks[currentWeek]?.chapters[currentChapter]?.quiz?.correctAnswer
-                            ? 'text-green-600'
-                            : 'text-red-600'
-                        }`}
-                      >
-                        {quizAnswer ===
-                        courseData.weeks[currentWeek]?.chapters[currentChapter]?.quiz?.correctAnswer
-                          ? 'Correct!'
-                          : `Incorrect. The correct answer is: ${
-                              courseData.weeks[currentWeek]?.chapters[currentChapter]?.quiz?.options[
-                                courseData.weeks[currentWeek]?.chapters[currentChapter]?.quiz
-                                  ?.correctAnswer ?? 0
-                              ]
-                            }`}
-                      </p>
-                    )}
-                  </div>
-                )}
-              </div>
-            </div>
-            {/* Navigation Buttons at the Bottom */}
-            <div className="p-4 bg-gray-100 flex justify-between items-center">
-              <Button
-                variant="ghost"
-                onClick={previousChapter}
-                disabled={isFirstChapter}
-              >
-                <ChevronLeft className="h-4 w-4 mr-2" /> Previous
-              </Button>
-              <Button
-                variant="ghost"
-                onClick={nextChapter}
-                disabled={isLastChapter}
-              >
-                Next <ChevronRight className="h-4 w-4 ml-2" />
-              </Button>
-            </div>
-          </div>
-        )
+        },
+      ],
+    },
+  ],
+};
+
+// The rest of the code remains the same as previously provided
+// The code below is necessary for the component to function correctly
+
+export default function CoursePage() {
+  const [currentWeek, setCurrentWeek] = useState<number>(0);
+  const [currentChapter, setCurrentChapter] = useState<number>(0);
+  const [progress, setProgress] = useState<Progress>(() => {
+    if (typeof window !== "undefined") {
+      const savedProgress = localStorage.getItem("courseProgress");
+      return savedProgress
+        ? (JSON.parse(savedProgress) as Progress)
+        : { week: 0, chapter: 0, completed: [] };
+    }
+    return { week: 0, chapter: 0, completed: [] };
+  });
+  const [quizAnswer, setQuizAnswer] = useState<number | null>(null);
+  const [showQuizResult, setShowQuizResult] = useState(false);
+
+  // Memoize updateProgress to ensure it has a stable reference
+  const updateProgress = useCallback((week: number, chapter: number) => {
+    setProgress((prev) => {
+      const newCompleted = [...prev.completed];
+      const key = `${week}-${chapter}`;
+      if (!newCompleted.includes(key)) {
+        newCompleted.push(key);
       }
-      
+      const newProgress: Progress = { week, chapter, completed: newCompleted };
+      if (typeof window !== "undefined") {
+        localStorage.setItem("courseProgress", JSON.stringify(newProgress));
+      }
+      return newProgress;
+    });
+  }, []);
+
+  // Include updateProgress in the dependency array
+  const navigateToChapter = useCallback(
+    (weekIndex: number, chapterIndex: number) => {
+      const week = courseData.weeks[weekIndex];
+      if (week && week.chapters[chapterIndex]) {
+        setCurrentWeek(weekIndex);
+        setCurrentChapter(chapterIndex);
+        updateProgress(weekIndex, chapterIndex);
+        setQuizAnswer(null);
+        setShowQuizResult(false);
+      }
+    },
+    [updateProgress]
+  );
+
+  useEffect(() => {
+    navigateToChapter(progress.week, progress.chapter);
+  }, [navigateToChapter, progress.week, progress.chapter]);
+
+  const previousChapter = () => {
+    if (currentChapter > 0) {
+      navigateToChapter(currentWeek, currentChapter - 1);
+    } else if (currentWeek > 0) {
+      const previousWeekIndex = currentWeek - 1;
+      const previousWeek = courseData.weeks[previousWeekIndex];
+      if (previousWeek) {
+        const previousWeekLastChapterIndex = previousWeek.chapters.length - 1;
+        navigateToChapter(previousWeekIndex, previousWeekLastChapterIndex);
+      }
+    }
+  };
+
+  const nextChapter = () => {
+    const currentWeekData = courseData.weeks[currentWeek];
+    if (
+      currentWeekData &&
+      currentChapter < currentWeekData.chapters.length - 1
+    ) {
+      navigateToChapter(currentWeek, currentChapter + 1);
+    } else if (currentWeek < courseData.weeks.length - 1) {
+      navigateToChapter(currentWeek + 1, 0);
+    }
+  };
+
+  const calculateOverallProgress = () => {
+    const totalChapters = courseData.weeks.reduce(
+      (acc, week) => acc + week.chapters.length,
+      0
+    );
+    return (progress.completed.length / totalChapters) * 100;
+  };
+
+  const handleQuizSubmit = () => {
+    setShowQuizResult(true);
+  };
+
+  // Determine if Next and Previous buttons should be disabled
+  const isFirstChapter = currentWeek === 0 && currentChapter === 0;
+  const isLastChapter =
+    currentWeek === courseData.weeks.length - 1 &&
+    currentChapter === courseData.weeks[currentWeek].chapters.length - 1;
+
+  return (
+    <div className="flex flex-col min-h-screen">
+      {/* Progress Bar */}
+      <div className="bg-gray-200 h-2">
+        <div
+          className="bg-blue-500 h-full transition-all duration-300"
+          style={{ width: `${calculateOverallProgress()}%` }}
+        />
+      </div>
+      {/* Main Content Area */}
+      <div className="flex-grow">
+        <div className="p-6">
+          <h1 className="text-4xl font-extrabold mb-6">{courseData.title}</h1>
+          <h2 className="text-3xl font-bold mb-4">
+            {courseData.weeks[currentWeek]?.title}
+          </h2>
+          <h3 className="text-2xl font-semibold mb-4">
+            {courseData.weeks[currentWeek]?.chapters[currentChapter]?.title}
+          </h3>
+          <Button
+            variant="outline"
+            className="mb-6"
+            onClick={() =>
+              window.open(
+                courseData.weeks[currentWeek]?.chapters[currentChapter]
+                  ?.videoUrl ?? "",
+                "_blank"
+              )
+            }
+          >
+            <Play className="h-4 w-4 mr-2" /> Watch Video
+          </Button>
+          <div
+            className="prose max-w-none"
+            dangerouslySetInnerHTML={{
+              __html:
+                courseData.weeks[currentWeek]?.chapters[currentChapter]
+                  ?.content ?? "",
+            }}
+          />
+          {courseData.weeks[currentWeek]?.chapters[currentChapter]?.quiz && (
+            <div className="mt-8 p-6 border border-gray-300 rounded-lg">
+              <h4 className="text-xl font-semibold mb-4">Quiz</h4>
+              <p className="mb-4">
+                {
+                  courseData.weeks[currentWeek]?.chapters[currentChapter]?.quiz
+                    ?.question
+                }
+              </p>
+              <RadioGroup
+                value={quizAnswer?.toString() ?? ""}
+                onValueChange={(value) => setQuizAnswer(parseInt(value))}
+              >
+                {courseData.weeks[currentWeek]?.chapters[
+                  currentChapter
+                ]?.quiz?.options.map((option, index) => (
+                  <div key={index} className="flex items-center space-x-2 mb-2">
+                    <RadioGroupItem
+                      value={index.toString()}
+                      id={`option-${index}`}
+                      className="border border-gray-400 rounded-full w-4 h-4 flex items-center justify-center"
+                    >
+                      <div
+                        className={`w-2 h-2 rounded-full ${
+                          quizAnswer === index
+                            ? "bg-blue-600"
+                            : "bg-transparent"
+                        }`}
+                      />
+                    </RadioGroupItem>
+                    <Label htmlFor={`option-${index}`}>{option}</Label>
+                  </div>
+                ))}
+              </RadioGroup>
+              <Button
+                onClick={handleQuizSubmit}
+                className="mt-6"
+                disabled={quizAnswer === null}
+              >
+                Submit Answer
+              </Button>
+              {showQuizResult && (
+                <p
+                  className={`mt-4 ${
+                    quizAnswer ===
+                    courseData.weeks[currentWeek]?.chapters[currentChapter]
+                      ?.quiz?.correctAnswer
+                      ? "text-green-600"
+                      : "text-red-600"
+                  }`}
+                >
+                  {quizAnswer ===
+                  courseData.weeks[currentWeek]?.chapters[currentChapter]?.quiz
+                    ?.correctAnswer
+                    ? "Correct!"
+                    : `Incorrect. The correct answer is: ${
+                        courseData.weeks[currentWeek]?.chapters[currentChapter]
+                          ?.quiz?.options[
+                          courseData.weeks[currentWeek]?.chapters[
+                            currentChapter
+                          ]?.quiz?.correctAnswer ?? 0
+                        ]
+                      }`}
+                </p>
+              )}
+            </div>
+          )}
+        </div>
+      </div>
+      {/* Navigation Buttons at the Bottom */}
+      <div className="p-4 bg-gray-100 flex justify-between items-center">
+        <Button
+          variant="ghost"
+          onClick={previousChapter}
+          disabled={isFirstChapter}
+        >
+          <ChevronLeft className="h-4 w-4 mr-2" /> Previous
+        </Button>
+        <Button variant="ghost" onClick={nextChapter} disabled={isLastChapter}>
+          Next <ChevronRight className="h-4 w-4 ml-2" />
+        </Button>
+      </div>
+    </div>
+  );
+}

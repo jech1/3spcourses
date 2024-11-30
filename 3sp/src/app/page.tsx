@@ -83,12 +83,19 @@ export default function Home() {
               grow, and succeed in the world of technology as a Stem Student
               Scholar.
             </p>
-            <Button
-              size="lg"
-              className="bg-white text-[#11001C] hover:bg-gray-100"
+            <a
+              href="CoursesPathways.png"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline"
             >
-              Explore Pathways
-            </Button>
+              <Button
+                size="lg"
+                className="bg-white text-[#11001C] hover:bg-gray-100"
+              >
+                Explore Pathways
+              </Button>
+            </a>
           </div>
         </section>
 
