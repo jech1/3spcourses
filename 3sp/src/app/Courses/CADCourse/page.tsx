@@ -1248,7 +1248,9 @@ export default function CoursePage() {
                     <RadioGroupItem
                       value={index.toString()}
                       id={`option-${index}`}
-                      className="border border-gray-400 rounded-full w-4 h-4 flex items-center justify-center"
+                      // This is where we put the style for the outline of the quiz 
+                      // Make this reusable ?
+                      className="border border-gray-400 rounded-full w-4 h-4 flex items-center justify-center outline outline-1 outline-gray-100"
                     >
                       <div
                         className={`w-2 h-2 rounded-full ${
