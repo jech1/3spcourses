@@ -39,11 +39,6 @@ export default function RootLayout({
               <h3 className="text-lg font-semibold mb-4">Resources</h3>
               <ul className="space-y-2">
                 <li>
-                  <Link href="https://bergen.edu/" className="hover:underline">
-                    Place Holder
-                  </Link>
-                </li>
-                <li>
                   <Link
                     href="CoursesPathways.png"
                     className="hover:underline"
@@ -51,11 +46,6 @@ export default function RootLayout({
                     rel="noopener noreferrer"
                   >
                     Badges Pathways
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="hover:underline">
-                    Learning Tips
                   </Link>
                 </li>
                 <li>
