@@ -1,10 +1,10 @@
-"use client"
+"use client";
 
-import { useState, useEffect, useCallback } from 'react'
-import { Button } from "@/components/ui/button"
-import { ChevronLeft, ChevronRight, Play } from 'lucide-react'
-import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
-import { Label } from "@/components/ui/label"
+import { useState, useEffect, useCallback } from "react";
+import { Button } from "@/components/ui/button";
+import { ChevronLeft, ChevronRight, Play } from "lucide-react";
+import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
+import { Label } from "@/components/ui/label";
 //import Image from 'next/image'
 
 // Define TypeScript interfaces
@@ -59,10 +59,11 @@ const courseData: CourseData = {
               <img src="/caffeineextraction_logo.png" alt="Caffeine Extraction Course Structure Diagram" width="500" height="300" />
             </div>
           `,
-          videoUrl: "https://example.com/week1-introduction"
+          videoUrl: "https://example.com/week1-introduction",
         },
         {
-          title: "Understanding the Properties of Caffeine and Its Natural Sources",
+          title:
+            "Understanding the Properties of Caffeine and Its Natural Sources",
           content: `
             <h2 class="text-2xl font-bold">Caffeine: An Overview</h2>
             <p class="mt-4">Explore the chemical properties of caffeine, its natural occurrence, and its significance in various industries.</p>
@@ -83,10 +84,11 @@ const courseData: CourseData = {
               <li>Cosmetics</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week1-properties-caffeine"
+          videoUrl: "https://example.com/week1-properties-caffeine",
         },
         {
-          title: "Introduction to Lab Safety Protocols and Proper Equipment Handling",
+          title:
+            "Introduction to Lab Safety Protocols and Proper Equipment Handling",
           content: `
             <h2 class="text-2xl font-bold">Ensuring Safety in the Lab</h2>
             <p class="mt-4">Learn essential lab safety practices to protect yourself and maintain a safe working environment.</p>
@@ -110,7 +112,7 @@ const courseData: CourseData = {
               <li>Maintenance and cleaning of equipment</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week1-lab-safety"
+          videoUrl: "https://example.com/week1-lab-safety",
         },
         {
           title: "Summary",
@@ -123,7 +125,7 @@ const courseData: CourseData = {
             </ul>
             <p class="mt-4">These foundational concepts are crucial as you begin your journey into the science of caffeine extraction.</p>
           `,
-          videoUrl: "https://example.com/week1-summary"
+          videoUrl: "https://example.com/week1-summary",
         },
         {
           title: "Quiz",
@@ -133,16 +135,12 @@ const courseData: CourseData = {
           `,
           videoUrl: "https://example.com/week1-quiz",
           quiz: {
-            question: "Which of the following is NOT a natural source of caffeine?",
-            options: [
-              "Coffee beans",
-              "Tea leaves",
-              "Cacao pods",
-              "Sugar cane"
-            ],
-            correctAnswer: 3
-          }
-        }
+            question:
+              "Which of the following is NOT a natural source of caffeine?",
+            options: ["Coffee beans", "Tea leaves", "Cacao pods", "Sugar cane"],
+            correctAnswer: 3,
+          },
+        },
       ],
     },
     // Week 2
@@ -161,7 +159,7 @@ const courseData: CourseData = {
               <li>Importance of using fume hoods and personal protective equipment.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week2-intro"
+          videoUrl: "https://example.com/week2-intro",
         },
         {
           title: "Selecting and Handling Solvents Safely in the Lab",
@@ -189,7 +187,7 @@ const courseData: CourseData = {
               <li>Ethanol</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week2-selecting-solvents"
+          videoUrl: "https://example.com/week2-selecting-solvents",
         },
         {
           title: "Step-by-Step Caffeine Extraction Using Liquid-Liquid Methods",
@@ -211,10 +209,11 @@ const courseData: CourseData = {
               <li>Optimizing solvent-to-material ratios for maximum yield.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week2-liquid-liquid-extraction"
+          videoUrl: "https://example.com/week2-liquid-liquid-extraction",
         },
         {
-          title: "Importance of Using Fume Hoods and Personal Protective Equipment",
+          title:
+            "Importance of Using Fume Hoods and Personal Protective Equipment",
           content: `
             <h2 class="text-2xl font-bold">Enhancing Safety During Extraction</h2>
             <p class="mt-4">Understand the critical role of fume hoods and PPE in maintaining a safe laboratory environment during solvent-based extractions.</p>
@@ -238,7 +237,7 @@ const courseData: CourseData = {
               <li>Minimize open container exposure to reduce vapor release.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week2-fume-hood-ppe"
+          videoUrl: "https://example.com/week2-fume-hood-ppe",
         },
         {
           title: "Summary",
@@ -252,7 +251,7 @@ const courseData: CourseData = {
             </ul>
             <p class="mt-4">These techniques are fundamental for effective and safe caffeine extraction, laying the groundwork for more advanced topics in the coming weeks.</p>
           `,
-          videoUrl: "https://example.com/week2-summary"
+          videoUrl: "https://example.com/week2-summary",
         },
         {
           title: "Quiz",
@@ -262,16 +261,17 @@ const courseData: CourseData = {
           `,
           videoUrl: "https://example.com/week2-quiz",
           quiz: {
-            question: "What is the primary purpose of using a fume hood during solvent-based extraction?",
+            question:
+              "What is the primary purpose of using a fume hood during solvent-based extraction?",
             options: [
               "To increase the temperature of the solvent",
               "To ventilate hazardous fumes away from the user",
               "To provide additional lighting",
-              "To store excess solvents safely"
+              "To store excess solvents safely",
             ],
-            correctAnswer: 1
-          }
-        }
+            correctAnswer: 1,
+          },
+        },
       ],
     },
     // Week 3
@@ -289,7 +289,7 @@ const courseData: CourseData = {
               <li>Proper disposal of chemical waste in accordance with safety guidelines.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week3-intro"
+          videoUrl: "https://example.com/week3-intro",
         },
         {
           title: "Safely Separating Impurities from Extracted Caffeine",
@@ -317,10 +317,11 @@ const courseData: CourseData = {
               <li>Documenting the purification process for reproducibility.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week3-purification-techniques"
+          videoUrl: "https://example.com/week3-purification-techniques",
         },
         {
-          title: "Proper Disposal of Chemical Waste in Accordance with Safety Guidelines",
+          title:
+            "Proper Disposal of Chemical Waste in Accordance with Safety Guidelines",
           content: `
             <h2 class="text-2xl font-bold">Responsible Waste Management</h2>
             <p class="mt-4">Understand the protocols for disposing of chemical waste safely to protect the environment and maintain lab safety.</p>
@@ -343,7 +344,7 @@ const courseData: CourseData = {
               <li>Storing waste in designated areas away from active experiments.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week3-waste-management"
+          videoUrl: "https://example.com/week3-waste-management",
         },
         {
           title: "Summary",
@@ -356,7 +357,7 @@ const courseData: CourseData = {
             </ul>
             <p class="mt-4">These skills are essential for maintaining the integrity of your research and ensuring a safe laboratory environment.</p>
           `,
-          videoUrl: "https://example.com/week3-summary"
+          videoUrl: "https://example.com/week3-summary",
         },
         {
           title: "Quiz",
@@ -366,16 +367,17 @@ const courseData: CourseData = {
           `,
           videoUrl: "https://example.com/week3-quiz",
           quiz: {
-            question: "Which purification technique involves dissolving a solid in a solvent and then allowing it to recrystallize?",
+            question:
+              "Which purification technique involves dissolving a solid in a solvent and then allowing it to recrystallize?",
             options: [
               "Filtration",
               "Distillation",
               "Crystallization",
-              "Evaporation"
+              "Evaporation",
             ],
-            correctAnswer: 2
-          }
-        }
+            correctAnswer: 2,
+          },
+        },
       ],
     },
     // Week 4
@@ -393,10 +395,11 @@ const courseData: CourseData = {
               <li>Maintaining precision and accuracy in lab measurements.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week4-intro"
+          videoUrl: "https://example.com/week4-intro",
         },
         {
-          title: "Using Chromatography and Spectroscopy to Analyze Caffeine Purity",
+          title:
+            "Using Chromatography and Spectroscopy to Analyze Caffeine Purity",
           content: `
             <h2 class="text-2xl font-bold">Advanced Analytical Methods</h2>
             <p class="mt-4">Learn how to employ chromatography and spectroscopy techniques to determine the purity and concentration of caffeine.</p>
@@ -420,7 +423,7 @@ const courseData: CourseData = {
               <li>Interpret the results to determine caffeine purity.</li>
             </ol>
           `,
-          videoUrl: "https://example.com/week4-chromatography-spectroscopy"
+          videoUrl: "https://example.com/week4-chromatography-spectroscopy",
         },
         {
           title: "Maintaining Precision and Accuracy in Lab Measurements",
@@ -451,7 +454,7 @@ const courseData: CourseData = {
               <li>Implementing quality control checks during experiments.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week4-precision-accuracy"
+          videoUrl: "https://example.com/week4-precision-accuracy",
         },
         {
           title: "Summary",
@@ -464,7 +467,7 @@ const courseData: CourseData = {
             </ul>
             <p class="mt-4">Mastering these analytical methods and measurement techniques ensures the reliability and validity of your caffeine extraction results.</p>
           `,
-          videoUrl: "https://example.com/week4-summary"
+          videoUrl: "https://example.com/week4-summary",
         },
         {
           title: "Quiz",
@@ -474,16 +477,17 @@ const courseData: CourseData = {
           `,
           videoUrl: "https://example.com/week4-quiz",
           quiz: {
-            question: "What is the primary difference between precision and accuracy in lab measurements?",
+            question:
+              "What is the primary difference between precision and accuracy in lab measurements?",
             options: [
               "Precision refers to the closeness to the true value, while accuracy refers to consistency.",
               "Precision refers to consistency of measurements, while accuracy refers to the closeness to the true value.",
               "Precision is about speed of measurement, while accuracy is about cost.",
-              "Precision and accuracy are interchangeable terms."
+              "Precision and accuracy are interchangeable terms.",
             ],
-            correctAnswer: 1
-          }
-        }
+            correctAnswer: 1,
+          },
+        },
       ],
     },
     // Week 5
@@ -502,10 +506,11 @@ const courseData: CourseData = {
               <li>Presenting results with an emphasis on safety compliance.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week5-intro"
+          videoUrl: "https://example.com/week5-intro",
         },
         {
-          title: "Designing and Performing a Comprehensive Caffeine Extraction Project",
+          title:
+            "Designing and Performing a Comprehensive Caffeine Extraction Project",
           content: `
             <h2 class="text-2xl font-bold">Project Planning and Execution</h2>
             <p class="mt-4">Plan and execute a detailed caffeine extraction project that integrates all the techniques and safety measures learned throughout the course.</p>
@@ -524,10 +529,11 @@ const courseData: CourseData = {
               <li>Maintaining lab safety throughout the project.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week5-project-design"
+          videoUrl: "https://example.com/week5-project-design",
         },
         {
-          title: "Reviewing and Applying All Safety Protocols in the Final Procedure",
+          title:
+            "Reviewing and Applying All Safety Protocols in the Final Procedure",
           content: `
             <h2 class="text-2xl font-bold">Comprehensive Safety Implementation</h2>
             <p class="mt-4">Ensure that all safety protocols are rigorously followed during the final extraction project to prevent accidents and maintain a safe lab environment.</p>
@@ -544,7 +550,7 @@ const courseData: CourseData = {
               <li>Monitoring the project for adherence to safety guidelines.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week5-safety-review"
+          videoUrl: "https://example.com/week5-safety-review",
         },
         {
           title: "Presenting Results with an Emphasis on Safety Compliance",
@@ -564,7 +570,7 @@ const courseData: CourseData = {
               <li>Documenting safety procedures and any incidents encountered.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week5-presentation"
+          videoUrl: "https://example.com/week5-presentation",
         },
         {
           title: "Summary",
@@ -578,7 +584,7 @@ const courseData: CourseData = {
             </ul>
             <p class="mt-4">Congratulations on completing the **Caffeine Extraction** course! Your hands-on experience and adherence to safety standards prepare you for both academic and industrial research applications.</p>
           `,
-          videoUrl: "https://example.com/week5-summary"
+          videoUrl: "https://example.com/week5-summary",
         },
         {
           title: "Quiz",
@@ -588,222 +594,241 @@ const courseData: CourseData = {
           `,
           videoUrl: "https://example.com/week5-quiz",
           quiz: {
-            question: "Why is it important to use a fume hood during solvent-based extraction projects?",
+            question:
+              "Why is it important to use a fume hood during solvent-based extraction projects?",
             options: [
               "To increase the speed of evaporation",
               "To protect the environment from chemical spills",
               "To ventilate hazardous fumes and protect the user from inhalation",
-              "To enhance the purity of the extracted caffeine"
+              "To enhance the purity of the extracted caffeine",
             ],
-            correctAnswer: 2
-          }
-        }
+            correctAnswer: 2,
+          },
+        },
       ],
     },
     // Weeks 6-8 can be added here following the same structure if provided
-  ]
-}
+  ],
+};
 
 // The rest of the code remains the same as previously provided
 // The code below is necessary for the component to function correctly
 
 export default function CoursePage() {
-    const [currentWeek, setCurrentWeek] = useState<number>(0)
-    const [currentChapter, setCurrentChapter] = useState<number>(0)
-    const [progress, setProgress] = useState<Progress>(() => {
-      if (typeof window !== 'undefined') {
-        const savedProgress = localStorage.getItem('courseProgress')
-        return savedProgress ? (JSON.parse(savedProgress) as Progress) : { week: 0, chapter: 0, completed: [] }
-      }
-      return { week: 0, chapter: 0, completed: [] }
-    })
-    const [quizAnswer, setQuizAnswer] = useState<number | null>(null)
-    const [showQuizResult, setShowQuizResult] = useState(false)
-  
-    // Memoize updateProgress to ensure it has a stable reference
-    const updateProgress = useCallback((week: number, chapter: number) => {
-      setProgress((prev) => {
-        const newCompleted = [...prev.completed]
-        const key = `${week}-${chapter}`
-        if (!newCompleted.includes(key)) {
-          newCompleted.push(key)
-        }
-        const newProgress: Progress = { week, chapter, completed: newCompleted }
-        if (typeof window !== 'undefined') {
-          localStorage.setItem('courseProgress', JSON.stringify(newProgress))
-        }
-        return newProgress
-      })
-    }, [])
-  
-    // Include updateProgress in the dependency array
-    const navigateToChapter = useCallback(
-      (weekIndex: number, chapterIndex: number) => {
-        const week = courseData.weeks[weekIndex]
-        if (week && week.chapters[chapterIndex]) {
-          setCurrentWeek(weekIndex)
-          setCurrentChapter(chapterIndex)
-          updateProgress(weekIndex, chapterIndex)
-          setQuizAnswer(null)
-          setShowQuizResult(false)
-        }
-      },
-      [updateProgress]
-    )
-  
-    useEffect(() => {
-      navigateToChapter(progress.week, progress.chapter)
-    }, [navigateToChapter, progress.week, progress.chapter])
-  
-    const previousChapter = () => {
-      if (currentChapter > 0) {
-        navigateToChapter(currentWeek, currentChapter - 1)
-      } else if (currentWeek > 0) {
-        const previousWeekIndex = currentWeek - 1
-        const previousWeek = courseData.weeks[previousWeekIndex]
-        if (previousWeek) {
-          const previousWeekLastChapterIndex = previousWeek.chapters.length - 1
-          navigateToChapter(previousWeekIndex, previousWeekLastChapterIndex)
-        }
-      }
+  const [currentWeek, setCurrentWeek] = useState<number>(0);
+  const [currentChapter, setCurrentChapter] = useState<number>(0);
+  const [progress, setProgress] = useState<Progress>(() => {
+    if (typeof window !== "undefined") {
+      const savedProgress = localStorage.getItem("courseProgress");
+      return savedProgress
+        ? (JSON.parse(savedProgress) as Progress)
+        : { week: 0, chapter: 0, completed: [] };
     }
-  
-    const nextChapter = () => {
-      const currentWeekData = courseData.weeks[currentWeek]
-      if (currentWeekData && currentChapter < currentWeekData.chapters.length - 1) {
-        navigateToChapter(currentWeek, currentChapter + 1)
-      } else if (currentWeek < courseData.weeks.length - 1) {
-        navigateToChapter(currentWeek + 1, 0)
+    return { week: 0, chapter: 0, completed: [] };
+  });
+  const [quizAnswer, setQuizAnswer] = useState<number | null>(null);
+  const [showQuizResult, setShowQuizResult] = useState(false);
+
+  // Memoize updateProgress to ensure it has a stable reference
+  const updateProgress = useCallback((week: number, chapter: number) => {
+    setProgress((prev) => {
+      const newCompleted = [...prev.completed];
+      const key = `${week}-${chapter}`;
+      if (!newCompleted.includes(key)) {
+        newCompleted.push(key);
+      }
+      const newProgress: Progress = { week, chapter, completed: newCompleted };
+      if (typeof window !== "undefined") {
+        localStorage.setItem("courseProgress", JSON.stringify(newProgress));
+      }
+      return newProgress;
+    });
+  }, []);
+
+  // Include updateProgress in the dependency array
+  const navigateToChapter = useCallback(
+    (weekIndex: number, chapterIndex: number) => {
+      const week = courseData.weeks[weekIndex];
+      if (week && week.chapters[chapterIndex]) {
+        setCurrentWeek(weekIndex);
+        setCurrentChapter(chapterIndex);
+        updateProgress(weekIndex, chapterIndex);
+        setQuizAnswer(null);
+        setShowQuizResult(false);
+      }
+    },
+    [updateProgress]
+  );
+
+  useEffect(() => {
+    navigateToChapter(progress.week, progress.chapter);
+  }, [navigateToChapter, progress.week, progress.chapter]);
+
+  const previousChapter = () => {
+    if (currentChapter > 0) {
+      navigateToChapter(currentWeek, currentChapter - 1);
+    } else if (currentWeek > 0) {
+      const previousWeekIndex = currentWeek - 1;
+      const previousWeek = courseData.weeks[previousWeekIndex];
+      if (previousWeek) {
+        const previousWeekLastChapterIndex = previousWeek.chapters.length - 1;
+        navigateToChapter(previousWeekIndex, previousWeekLastChapterIndex);
       }
     }
-  
-    const calculateOverallProgress = () => {
-      const totalChapters = courseData.weeks.reduce((acc, week) => acc + week.chapters.length, 0)
-      return (progress.completed.length / totalChapters) * 100
+  };
+
+  const nextChapter = () => {
+    const currentWeekData = courseData.weeks[currentWeek];
+    if (
+      currentWeekData &&
+      currentChapter < currentWeekData.chapters.length - 1
+    ) {
+      navigateToChapter(currentWeek, currentChapter + 1);
+    } else if (currentWeek < courseData.weeks.length - 1) {
+      navigateToChapter(currentWeek + 1, 0);
     }
-  
-    const handleQuizSubmit = () => {
-      setShowQuizResult(true)
-    }
-  
-    // Determine if Next and Previous buttons should be disabled
-    const isFirstChapter = currentWeek === 0 && currentChapter === 0
-    const isLastChapter =
-      currentWeek === courseData.weeks.length - 1 &&
-      currentChapter === courseData.weeks[currentWeek].chapters.length - 1
-  
-    return (
-      <div className="flex flex-col min-h-screen">
-        {/* Progress Bar */}
-        <div className="bg-gray-200 h-2">
+  };
+
+  const calculateOverallProgress = () => {
+    const totalChapters = courseData.weeks.reduce(
+      (acc, week) => acc + week.chapters.length,
+      0
+    );
+    return (progress.completed.length / totalChapters) * 100;
+  };
+
+  const handleQuizSubmit = () => {
+    setShowQuizResult(true);
+  };
+
+  // Determine if Next and Previous buttons should be disabled
+  const isFirstChapter = currentWeek === 0 && currentChapter === 0;
+  const isLastChapter =
+    currentWeek === courseData.weeks.length - 1 &&
+    currentChapter === courseData.weeks[currentWeek].chapters.length - 1;
+
+  return (
+    <div className="flex flex-col min-h-screen">
+      {/* Progress Bar */}
+      <div className="bg-gray-200 h-2">
+        <div
+          className="bg-blue-500 h-full transition-all duration-300"
+          style={{ width: `${calculateOverallProgress()}%` }}
+        />
+      </div>
+      {/* Main Content Area */}
+      <div className="flex-grow">
+        <div className="p-6">
+          <h1 className="text-4xl font-extrabold mb-6">{courseData.title}</h1>
+          <h2 className="text-3xl font-bold mb-4">
+            {courseData.weeks[currentWeek]?.title}
+          </h2>
+          <h3 className="text-2xl font-semibold mb-4">
+            {courseData.weeks[currentWeek]?.chapters[currentChapter]?.title}
+          </h3>
+          <Button
+            variant="outline"
+            className="mb-6"
+            onClick={() =>
+              window.open(
+                courseData.weeks[currentWeek]?.chapters[currentChapter]
+                  ?.videoUrl ?? "",
+                "_blank"
+              )
+            }
+          >
+            <Play className="h-4 w-4 mr-2" /> Watch Video
+          </Button>
           <div
-            className="bg-blue-500 h-full transition-all duration-300"
-            style={{ width: `${calculateOverallProgress()}%` }}
+            className="prose max-w-none"
+            dangerouslySetInnerHTML={{
+              __html:
+                courseData.weeks[currentWeek]?.chapters[currentChapter]
+                  ?.content ?? "",
+            }}
           />
-        </div>
-        {/* Main Content Area */}
-        <div className="flex-grow">
-          <div className="p-6">
-            <h1 className="text-4xl font-extrabold mb-6">{courseData.title}</h1>
-            <h2 className="text-3xl font-bold mb-4">
-              {courseData.weeks[currentWeek]?.title}
-            </h2>
-            <h3 className="text-2xl font-semibold mb-4">
-              {courseData.weeks[currentWeek]?.chapters[currentChapter]?.title}
-            </h3>
-            <Button
-              variant="outline"
-              className="mb-6"
-              onClick={() =>
-                window.open(
-                  courseData.weeks[currentWeek]?.chapters[currentChapter]?.videoUrl ?? '',
-                  '_blank'
-                )
-              }
-            >
-              <Play className="h-4 w-4 mr-2" /> Watch Video
-            </Button>
-            <div
-              className="prose max-w-none"
-              dangerouslySetInnerHTML={{
-                __html:
-                  courseData.weeks[currentWeek]?.chapters[currentChapter]?.content ?? '',
-              }}
-            />
-            {courseData.weeks[currentWeek]?.chapters[currentChapter]?.quiz && (
-              <div className="mt-8 p-6 border border-gray-300 rounded-lg">
-                <h4 className="text-xl font-semibold mb-4">Quiz</h4>
-                <p className="mb-4">
-                  {courseData.weeks[currentWeek]?.chapters[currentChapter]?.quiz?.question}
-                </p>
-                <RadioGroup
-                  value={quizAnswer?.toString() ?? ''}
-                  onValueChange={(value) => setQuizAnswer(parseInt(value))}
-                >
-                  {courseData.weeks[currentWeek]?.chapters[currentChapter]?.quiz?.options.map(
-                    (option, index) => (
-                      <div key={index} className="flex items-center space-x-2 mb-2">
-                        <RadioGroupItem
-                          value={index.toString()}
-                          id={`option-${index}`}
-                          className="border border-gray-400 rounded-full w-4 h-4 flex items-center justify-center"
-                        >
-                          <div
-                            className={`w-2 h-2 rounded-full ${
-                              quizAnswer === index ? 'bg-blue-600' : 'bg-transparent'
-                            }`}
-                          />
-                        </RadioGroupItem>
-                        <Label htmlFor={`option-${index}`}>{option}</Label>
-                      </div>
-                    )
-                  )}
-                </RadioGroup>
-                <Button onClick={handleQuizSubmit} className="mt-6" disabled={quizAnswer === null}>
-                  Submit Answer
-                </Button>
-                {showQuizResult && (
-                  <p
-                    className={`mt-4 ${
-                      quizAnswer ===
-                      courseData.weeks[currentWeek]?.chapters[currentChapter]?.quiz?.correctAnswer
-                        ? 'text-green-600'
-                        : 'text-red-600'
-                    }`}
-                  >
-                    {quizAnswer ===
-                    courseData.weeks[currentWeek]?.chapters[currentChapter]?.quiz?.correctAnswer
-                      ? 'Correct!'
-                      : `Incorrect. The correct answer is: ${
-                          courseData.weeks[currentWeek]?.chapters[currentChapter]?.quiz?.options[
-                            courseData.weeks[currentWeek]?.chapters[currentChapter]?.quiz
-                              ?.correctAnswer ?? 0
-                          ]
+          {courseData.weeks[currentWeek]?.chapters[currentChapter]?.quiz && (
+            <div className="mt-8 p-6 border border-gray-300 rounded-lg">
+              <h4 className="text-xl font-semibold mb-4">Quiz</h4>
+              <p className="mb-4">
+                {
+                  courseData.weeks[currentWeek]?.chapters[currentChapter]?.quiz
+                    ?.question
+                }
+              </p>
+              <RadioGroup
+                value={quizAnswer?.toString() ?? ""}
+                onValueChange={(value) => setQuizAnswer(parseInt(value))}
+              >
+                {courseData.weeks[currentWeek]?.chapters[
+                  currentChapter
+                ]?.quiz?.options.map((option, index) => (
+                  <div key={index} className="flex items-center space-x-2 mb-2">
+                    <RadioGroupItem
+                      value={index.toString()}
+                      id={`option-${index}`}
+                      className="border border-gray-400 rounded-full w-4 h-4 flex items-center justify-center"
+                    >
+                      <div
+                        className={`w-2 h-2 rounded-full ${
+                          quizAnswer === index
+                            ? "bg-blue-600"
+                            : "bg-transparent"
                         }`}
-                  </p>
-                )}
-              </div>
-            )}
-          </div>
-        </div>
-        {/* Navigation Buttons at the Bottom */}
-        <div className="p-4 bg-gray-100 flex justify-between items-center">
-          <Button
-            variant="ghost"
-            onClick={previousChapter}
-            disabled={isFirstChapter}
-          >
-            <ChevronLeft className="h-4 w-4 mr-2" /> Previous
-          </Button>
-          <Button
-            variant="ghost"
-            onClick={nextChapter}
-            disabled={isLastChapter}
-          >
-            Next <ChevronRight className="h-4 w-4 ml-2" />
-          </Button>
+                      />
+                    </RadioGroupItem>
+                    <Label htmlFor={`option-${index}`}>{option}</Label>
+                  </div>
+                ))}
+              </RadioGroup>
+              <Button
+                onClick={handleQuizSubmit}
+                className="mt-6"
+                disabled={quizAnswer === null}
+              >
+                Submit Answer
+              </Button>
+              {showQuizResult && (
+                <p
+                  className={`mt-4 ${
+                    quizAnswer ===
+                    courseData.weeks[currentWeek]?.chapters[currentChapter]
+                      ?.quiz?.correctAnswer
+                      ? "text-green-600"
+                      : "text-red-600"
+                  }`}
+                >
+                  {quizAnswer ===
+                  courseData.weeks[currentWeek]?.chapters[currentChapter]?.quiz
+                    ?.correctAnswer
+                    ? "Correct!"
+                    : `Incorrect. The correct answer is: ${
+                        courseData.weeks[currentWeek]?.chapters[currentChapter]
+                          ?.quiz?.options[
+                          courseData.weeks[currentWeek]?.chapters[
+                            currentChapter
+                          ]?.quiz?.correctAnswer ?? 0
+                        ]
+                      }`}
+                </p>
+              )}
+            </div>
+          )}
         </div>
       </div>
-    )
-  }
-  
+      {/* Navigation Buttons at the Bottom */}
+      <div className="p-4 bg-gray-100 flex justify-between items-center">
+        <Button
+          variant="ghost"
+          onClick={previousChapter}
+          disabled={isFirstChapter}
+        >
+          <ChevronLeft className="h-4 w-4 mr-2" /> Previous
+        </Button>
+        <Button variant="ghost" onClick={nextChapter} disabled={isLastChapter}>
+          Next <ChevronRight className="h-4 w-4 ml-2" />
+        </Button>
+      </div>
+    </div>
+  );
+}
