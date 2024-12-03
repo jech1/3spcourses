@@ -1,44 +1,10 @@
-"use client"
+"use client";
 
-import { useState, useEffect, useCallback } from 'react'
-import { Button } from "@/components/ui/button"
-import { ChevronLeft, ChevronRight, Play } from 'lucide-react'
-import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
-import { Label } from "@/components/ui/label"
-//import Image from 'next/image'
-
-// Define TypeScript interfaces
-interface CourseData {
-  title: string;
-  weeks: Week[];
-}
-
-interface Week {
-  title: string;
-  chapters: Chapter[];
-}
-
-interface Chapter {
-  title: string;
-  content: string;
-  videoUrl: string;
-  quiz?: Quiz;
-}
-
-interface Quiz {
-  question: string;
-  options: string[];
-  correctAnswer: number;
-}
-
-interface Progress {
-  week: number;
-  chapter: number;
-  completed: string[];
-}
+import CoursePage from "../../../../components/CoursePage";
+import { CourseData } from "../../../../types/courseTypes";
 
 // Complete course data with all weeks and chapters
-const courseData: CourseData = {
+const ResearchCourseData: CourseData = {
   title: "Research Methods & Analytics",
   weeks: [
     // Week 1
@@ -64,7 +30,7 @@ const courseData: CourseData = {
               <img src="/researchlogo3sp.png" alt="Course structure diagram" width="500" height="300" />
             </div>
           `,
-          videoUrl: "https://example.com/week1-intro"
+          videoUrl: "https://example.com/week1-intro",
         },
         {
           title: "Understanding the Purpose of Research Methods",
@@ -84,7 +50,7 @@ const courseData: CourseData = {
               <li><strong>Applied Research:</strong> Seeks to solve practical problems.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week1-purpose"
+          videoUrl: "https://example.com/week1-purpose",
         },
         {
           title: "Key Concepts: Reliability, Validity, and Ethics",
@@ -109,7 +75,7 @@ const courseData: CourseData = {
               <li><strong>Integrity:</strong> Maintaining honesty and transparency in conducting and reporting research.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week1-key-concepts"
+          videoUrl: "https://example.com/week1-key-concepts",
         },
         {
           title: "Summary",
@@ -123,7 +89,7 @@ const courseData: CourseData = {
             </ul>
             <p class="mt-4">These foundational concepts will support your understanding as we delve deeper into specific research methodologies in the coming weeks.</p>
           `,
-          videoUrl: "https://example.com/week1-summary"
+          videoUrl: "https://example.com/week1-summary",
         },
         {
           title: "Quiz",
@@ -133,16 +99,17 @@ const courseData: CourseData = {
           `,
           videoUrl: "https://example.com/week1-quiz",
           quiz: {
-            question: "Which of the following best describes validity in research?",
+            question:
+              "Which of the following best describes validity in research?",
             options: [
               "The consistency of a measurement tool.",
               "The extent to which a tool measures what it is intended to measure.",
               "The ethical considerations in conducting research.",
-              "The ability to replicate study results."
+              "The ability to replicate study results.",
             ],
-            correctAnswer: 1
-          }
-        }
+            correctAnswer: 1,
+          },
+        },
       ],
     },
     // Week 2
@@ -161,7 +128,7 @@ const courseData: CourseData = {
               <li>Develop testable hypotheses.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week2-intro"
+          videoUrl: "https://example.com/week2-intro",
         },
         {
           title: "Identifying Research Gaps and Formulating Questions",
@@ -193,7 +160,7 @@ const courseData: CourseData = {
               <li>Consider the feasibility of researching the question.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week2-identifying-gaps"
+          videoUrl: "https://example.com/week2-identifying-gaps",
         },
         {
           title: "Writing Clear and Testable Hypotheses",
@@ -235,7 +202,7 @@ const courseData: CourseData = {
               <li>Ensure your hypothesis is grounded in theory or existing literature.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week2-writing-hypotheses"
+          videoUrl: "https://example.com/week2-writing-hypotheses",
         },
         {
           title: "Responsive Design Principles",
@@ -243,7 +210,7 @@ const courseData: CourseData = {
             <h2 class="text-2xl font-bold">Note: This Chapter May Be Misplaced</h2>
             <p class="mt-4">It seems there might be an error in the chapter listing. "Responsive Design Principles" typically pertains to web design, which may not align with the context of research methods. If this chapter is intended, please provide additional details or confirm its inclusion.</p>
           `,
-          videoUrl: "https://example.com/week2-responsive-design"
+          videoUrl: "https://example.com/week2-responsive-design",
         },
         {
           title: "Summary",
@@ -257,7 +224,7 @@ const courseData: CourseData = {
             </ul>
             <p class="mt-4">These skills are essential for designing a solid research study and contributing meaningful knowledge to your field.</p>
           `,
-          videoUrl: "https://example.com/week2-summary"
+          videoUrl: "https://example.com/week2-summary",
         },
         {
           title: "Quiz",
@@ -267,17 +234,18 @@ const courseData: CourseData = {
           `,
           videoUrl: "https://example.com/week2-quiz",
           quiz: {
-            question: "Which of the following is a characteristic of a good research question?",
+            question:
+              "Which of the following is a characteristic of a good research question?",
             options: [
               "It is broad and general.",
               "It is specific and measurable.",
               "It is based on personal opinion.",
-              "It cannot be tested."
+              "It cannot be tested.",
             ],
-            correctAnswer: 1
-          }
-        }
-      ]
+            correctAnswer: 1,
+          },
+        },
+      ],
     },
     // Week 3
     {
@@ -295,7 +263,7 @@ const courseData: CourseData = {
               <li>Explore data collection and analysis techniques.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week3-intro"
+          videoUrl: "https://example.com/week3-intro",
         },
         {
           title: "Experimental Design and Control",
@@ -322,7 +290,7 @@ const courseData: CourseData = {
             <h3 class="text-xl font-semibold mt-6">Example:</h3>
             <p class="mt-4">"To determine the effect of study environment on productivity, participants will be randomly assigned to either a quiet study room (IV) or a noisy study room (IV). Productivity (DV) will be measured by the number of tasks completed."</p>
           `,
-          videoUrl: "https://example.com/week3-experimental-design"
+          videoUrl: "https://example.com/week3-experimental-design",
         },
         {
           title: "Survey Design and Measurement",
@@ -350,7 +318,7 @@ const courseData: CourseData = {
             <h3 class="text-xl font-semibold mt-6">Example Survey Question:</h3>
             <p class="mt-4">"On a scale of 1 to 5, how satisfied are you with your current study environment?"</p>
           `,
-          videoUrl: "https://example.com/week3-survey-design"
+          videoUrl: "https://example.com/week3-survey-design",
         },
         {
           title: "Data Collection and Analysis Techniques",
@@ -380,7 +348,7 @@ const courseData: CourseData = {
             <h3 class="text-xl font-semibold mt-6">Example:</h3>
             <p class="mt-4">"A Pearson correlation coefficient will be calculated to determine the relationship between study hours (IV) and exam scores (DV). An ANOVA will be conducted to compare exam scores across different study environment groups."</p>
           `,
-          videoUrl: "https://example.com/week3-data-analysis"
+          videoUrl: "https://example.com/week3-data-analysis",
         },
         {
           title: "Summary",
@@ -395,7 +363,7 @@ const courseData: CourseData = {
             </ul>
             <p class="mt-4">These concepts are essential for conducting rigorous and reliable quantitative research studies.</p>
           `,
-          videoUrl: "https://example.com/week3-summary"
+          videoUrl: "https://example.com/week3-summary",
         },
         {
           title: "Quiz",
@@ -405,17 +373,18 @@ const courseData: CourseData = {
           `,
           videoUrl: "https://example.com/week3-quiz",
           quiz: {
-            question: "Which statistical method is used to assess the relationship between two continuous variables?",
+            question:
+              "Which statistical method is used to assess the relationship between two continuous variables?",
             options: [
               "ANOVA",
               "Chi-Square Test",
               "Pearson Correlation",
-              "T-Test"
+              "T-Test",
             ],
-            correctAnswer: 2
-          }
-        }
-      ]
+            correctAnswer: 2,
+          },
+        },
+      ],
     },
     // Week 4
     {
@@ -433,7 +402,7 @@ const courseData: CourseData = {
               <li>Explore data collection and analysis techniques specific to qualitative methods.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week4-intro"
+          videoUrl: "https://example.com/week4-intro",
         },
         {
           title: "Case Study and Ethnography Approaches",
@@ -467,7 +436,7 @@ const courseData: CourseData = {
               <li>Difficulties in generalizing findings.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week4-case-study-ethnography"
+          videoUrl: "https://example.com/week4-case-study-ethnography",
         },
         {
           title: "Interview and Focus Group Techniques",
@@ -501,7 +470,7 @@ const courseData: CourseData = {
               <li>Probe deeper when necessary to gain comprehensive insights.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week4-interview-focus-groups"
+          videoUrl: "https://example.com/week4-interview-focus-groups",
         },
         {
           title: "Analyzing Qualitative Data: Thematic Analysis",
@@ -530,7 +499,7 @@ const courseData: CourseData = {
               <li>Maintain a balance between identifying patterns and honoring individual experiences.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week4-thematic-analysis"
+          videoUrl: "https://example.com/week4-thematic-analysis",
         },
         {
           title: "Summary",
@@ -545,7 +514,7 @@ const courseData: CourseData = {
             </ul>
             <p class="mt-4">These methodologies provide deep insights and understanding of complex phenomena in various contexts.</p>
           `,
-          videoUrl: "https://example.com/week4-summary"
+          videoUrl: "https://example.com/week4-summary",
         },
         {
           title: "Quiz",
@@ -555,17 +524,18 @@ const courseData: CourseData = {
           `,
           videoUrl: "https://example.com/week4-quiz",
           quiz: {
-            question: "Which qualitative research design involves immersive observation of a culture or group?",
+            question:
+              "Which qualitative research design involves immersive observation of a culture or group?",
             options: [
               "Case Study",
               "Ethnography",
               "Grounded Theory",
-              "Phenomenology"
+              "Phenomenology",
             ],
-            correctAnswer: 1
-          }
-        }
-      ]
+            correctAnswer: 1,
+          },
+        },
+      ],
     },
     // Week 5
     {
@@ -583,7 +553,7 @@ const courseData: CourseData = {
               <li>Explore strategies for integrating quantitative and qualitative data.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week5-intro"
+          videoUrl: "https://example.com/week5-intro",
         },
         {
           title: "Types of Mixed-Methods Designs",
@@ -613,7 +583,7 @@ const courseData: CourseData = {
             <h3 class="text-xl font-semibold mt-6">Example:</h3>
             <p class="mt-4">"A convergent parallel design will be used to collect survey data and conduct focus groups simultaneously to understand the impact of remote work on employee productivity."</p>
           `,
-          videoUrl: "https://example.com/week5-mixed-methods-designs"
+          videoUrl: "https://example.com/week5-mixed-methods-designs",
         },
         {
           title: "Integrating Quantitative and Qualitative Data",
@@ -635,7 +605,7 @@ const courseData: CourseData = {
             <h3 class="text-xl font-semibold mt-6">Example:</h3>
             <p class="mt-4">"The survey results indicated a positive correlation between remote work and job satisfaction. Focus group discussions revealed that flexible schedules and reduced commute times were key factors contributing to this satisfaction."</p>
           `,
-          videoUrl: "https://example.com/week5-data-integration"
+          videoUrl: "https://example.com/week5-data-integration",
         },
         {
           title: "Benefits and Limitations of Mixed-Methods Research",
@@ -663,7 +633,7 @@ const courseData: CourseData = {
             <h3 class="text-xl font-semibold mt-6">Example:</h3>
             <p class="mt-4">"To evaluate the effectiveness of a new teaching method, quantitative data from test scores will be complemented with qualitative feedback from student interviews."</p>
           `,
-          videoUrl: "https://example.com/week5-benefits-limitations"
+          videoUrl: "https://example.com/week5-benefits-limitations",
         },
         {
           title: "Summary",
@@ -678,7 +648,7 @@ const courseData: CourseData = {
             </ul>
             <p class="mt-4">Mastering mixed-methods approaches allows for a more nuanced and comprehensive exploration of research questions.</p>
           `,
-          videoUrl: "https://example.com/week5-summary"
+          videoUrl: "https://example.com/week5-summary",
         },
         {
           title: "Quiz",
@@ -688,17 +658,18 @@ const courseData: CourseData = {
           `,
           videoUrl: "https://example.com/week5-quiz",
           quiz: {
-            question: "Which mixed-methods design involves collecting qualitative data after quantitative data to explain the quantitative findings?",
+            question:
+              "Which mixed-methods design involves collecting qualitative data after quantitative data to explain the quantitative findings?",
             options: [
               "Convergent Parallel Design",
               "Explanatory Sequential Design",
               "Exploratory Sequential Design",
-              "Embedded Design"
+              "Embedded Design",
             ],
-            correctAnswer: 1
-          }
-        }
-      ]
+            correctAnswer: 1,
+          },
+        },
+      ],
     },
     // Week 6
     {
@@ -716,10 +687,11 @@ const courseData: CourseData = {
               <li>Explore statistical and analytical techniques for data analysis.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week6-intro"
+          videoUrl: "https://example.com/week6-intro",
         },
         {
-          title: "Data Collection Methods: Surveys, Interviews, and Observations",
+          title:
+            "Data Collection Methods: Surveys, Interviews, and Observations",
           content: `
             <h2 class="text-2xl font-bold">Choosing the Right Method</h2>
             <p class="mt-4">Selecting appropriate data collection methods is essential to address your research questions effectively.</p>
@@ -750,7 +722,7 @@ const courseData: CourseData = {
             <h3 class="text-xl font-semibold mt-6">Example:</h3>
             <p class="mt-4">"A survey will be distributed to 500 university students to assess their study habits and academic performance. Additionally, in-depth interviews will be conducted with 20 students to explore the challenges they face."</p>
           `,
-          videoUrl: "https://example.com/week6-data-collection-methods"
+          videoUrl: "https://example.com/week6-data-collection-methods",
         },
         {
           title: "Data Management and Organization",
@@ -778,7 +750,7 @@ const courseData: CourseData = {
             <h3 class="text-xl font-semibold mt-6">Example:</h3>
             <p class="mt-4">"All survey responses will be stored in encrypted files on a secure server with access restricted to the research team. Backup copies will be maintained daily to prevent data loss."</p>
           `,
-          videoUrl: "https://example.com/week6-data-management"
+          videoUrl: "https://example.com/week6-data-management",
         },
         {
           title: "Statistical Analysis Techniques",
@@ -807,7 +779,7 @@ const courseData: CourseData = {
             <h3 class="text-xl font-semibold mt-6">Example:</h3>
             <p class="mt-4">"A multiple regression analysis will be conducted to determine the impact of study time, attendance, and extracurricular activities on academic performance."</p>
           `,
-          videoUrl: "https://example.com/week6-statistical-analysis"
+          videoUrl: "https://example.com/week6-statistical-analysis",
         },
         {
           title: "Summary",
@@ -821,7 +793,7 @@ const courseData: CourseData = {
             </ul>
             <p class="mt-4">Mastering these areas ensures that your research data is both robust and insightful, laying the groundwork for meaningful findings.</p>
           `,
-          videoUrl: "https://example.com/week6-summary"
+          videoUrl: "https://example.com/week6-summary",
         },
         {
           title: "Quiz",
@@ -831,17 +803,18 @@ const courseData: CourseData = {
           `,
           videoUrl: "https://example.com/week6-quiz",
           quiz: {
-            question: "Which statistical test is used to compare the means of three or more groups?",
+            question:
+              "Which statistical test is used to compare the means of three or more groups?",
             options: [
               "T-Test",
               "ANOVA",
               "Chi-Square Test",
-              "Pearson Correlation"
+              "Pearson Correlation",
             ],
-            correctAnswer: 1
-          }
-        }
-      ]
+            correctAnswer: 1,
+          },
+        },
+      ],
     },
     // Week 7
     {
@@ -859,7 +832,7 @@ const courseData: CourseData = {
               <li>Explore strategies for effective oral presentations.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week7-intro"
+          videoUrl: "https://example.com/week7-intro",
         },
         {
           title: "Structuring Research Reports and Academic Papers",
@@ -902,7 +875,7 @@ const courseData: CourseData = {
               <li>Data analysis procedures</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week7-structuring-reports"
+          videoUrl: "https://example.com/week7-structuring-reports",
         },
         {
           title: "Presenting Data and Findings Effectively",
@@ -931,7 +904,7 @@ const courseData: CourseData = {
             <h3 class="text-xl font-semibold mt-6">Example:</h3>
             <p class="mt-4">"Figure 2 illustrates the positive correlation between study hours and exam scores, indicating that increased study time is associated with higher academic performance."</p>
           `,
-          videoUrl: "https://example.com/week7-presenting-data"
+          videoUrl: "https://example.com/week7-presenting-data",
         },
         {
           title: "Effective Oral and Poster Presentations",
@@ -962,7 +935,7 @@ const courseData: CourseData = {
             <h3 class="text-xl font-semibold mt-6">Example:</h3>
             <p class="mt-4">"During your oral presentation, begin with a brief introduction to your research question, followed by an overview of your methodology. Use slides to display key graphs and data points, and conclude by discussing the implications of your findings."</p>
           `,
-          videoUrl: "https://example.com/week7-presentation"
+          videoUrl: "https://example.com/week7-presentation",
         },
         {
           title: "Summary",
@@ -976,7 +949,7 @@ const courseData: CourseData = {
             </ul>
             <p class="mt-4">Mastering these skills ensures that your research is communicated effectively, enhancing its impact and reach within the academic community.</p>
           `,
-          videoUrl: "https://example.com/week7-summary"
+          videoUrl: "https://example.com/week7-summary",
         },
         {
           title: "Quiz",
@@ -986,221 +959,25 @@ const courseData: CourseData = {
           `,
           videoUrl: "https://example.com/week7-quiz",
           quiz: {
-            question: "Which of the following is NOT a key component of an effective oral presentation?",
+            question:
+              "Which of the following is NOT a key component of an effective oral presentation?",
             options: [
               "Clear and concise language",
               "Engaging visual aids",
               "Reading directly from your slides",
-              "Maintaining eye contact with the audience"
+              "Maintaining eye contact with the audience",
             ],
-            correctAnswer: 2
-          }
-        }
-      ]
-    }
-  ]
-}
+            correctAnswer: 2,
+          },
+        },
+      ],
+    },
+  ],
+};
 
 // The rest of the code remains the same as previously provided
 // The code below is necessary for the component to function correctly
 
-export default function CoursePage() {
-    const [currentWeek, setCurrentWeek] = useState<number>(0)
-    const [currentChapter, setCurrentChapter] = useState<number>(0)
-    const [progress, setProgress] = useState<Progress>(() => {
-      if (typeof window !== 'undefined') {
-        const savedProgress = localStorage.getItem('courseProgress')
-        return savedProgress ? (JSON.parse(savedProgress) as Progress) : { week: 0, chapter: 0, completed: [] }
-      }
-      return { week: 0, chapter: 0, completed: [] }
-    })
-    const [quizAnswer, setQuizAnswer] = useState<number | null>(null)
-    const [showQuizResult, setShowQuizResult] = useState(false)
-  
-    // Memoize updateProgress to ensure it has a stable reference
-    const updateProgress = useCallback((week: number, chapter: number) => {
-      setProgress((prev) => {
-        const newCompleted = [...prev.completed]
-        const key = `${week}-${chapter}`
-        if (!newCompleted.includes(key)) {
-          newCompleted.push(key)
-        }
-        const newProgress: Progress = { week, chapter, completed: newCompleted }
-        if (typeof window !== 'undefined') {
-          localStorage.setItem('courseProgress', JSON.stringify(newProgress))
-        }
-        return newProgress
-      })
-    }, [])
-  
-    // Include updateProgress in the dependency array
-    const navigateToChapter = useCallback(
-      (weekIndex: number, chapterIndex: number) => {
-        const week = courseData.weeks[weekIndex]
-        if (week && week.chapters[chapterIndex]) {
-          setCurrentWeek(weekIndex)
-          setCurrentChapter(chapterIndex)
-          updateProgress(weekIndex, chapterIndex)
-          setQuizAnswer(null)
-          setShowQuizResult(false)
-        }
-      },
-      [updateProgress]
-    )
-  
-    useEffect(() => {
-      navigateToChapter(progress.week, progress.chapter)
-    }, [navigateToChapter, progress.week, progress.chapter])
-  
-    const previousChapter = () => {
-      if (currentChapter > 0) {
-        navigateToChapter(currentWeek, currentChapter - 1)
-      } else if (currentWeek > 0) {
-        const previousWeekIndex = currentWeek - 1
-        const previousWeek = courseData.weeks[previousWeekIndex]
-        if (previousWeek) {
-          const previousWeekLastChapterIndex = previousWeek.chapters.length - 1
-          navigateToChapter(previousWeekIndex, previousWeekLastChapterIndex)
-        }
-      }
-    }
-  
-    const nextChapter = () => {
-      const currentWeekData = courseData.weeks[currentWeek]
-      if (currentWeekData && currentChapter < currentWeekData.chapters.length - 1) {
-        navigateToChapter(currentWeek, currentChapter + 1)
-      } else if (currentWeek < courseData.weeks.length - 1) {
-        navigateToChapter(currentWeek + 1, 0)
-      }
-    }
-  
-    const calculateOverallProgress = () => {
-      const totalChapters = courseData.weeks.reduce((acc, week) => acc + week.chapters.length, 0)
-      return (progress.completed.length / totalChapters) * 100
-    }
-  
-    const handleQuizSubmit = () => {
-      setShowQuizResult(true)
-    }
-  
-    // Determine if Next and Previous buttons should be disabled
-    const isFirstChapter = currentWeek === 0 && currentChapter === 0
-    const isLastChapter =
-      currentWeek === courseData.weeks.length - 1 &&
-      currentChapter === courseData.weeks[currentWeek].chapters.length - 1
-  
-    return (
-      <div className="flex flex-col min-h-screen">
-        {/* Progress Bar */}
-        <div className="bg-gray-200 h-2">
-          <div
-            className="bg-blue-500 h-full transition-all duration-300"
-            style={{ width: `${calculateOverallProgress()}%` }}
-          />
-        </div>
-        {/* Main Content Area */}
-        <div className="flex-grow">
-          <div className="p-6">
-            <h1 className="text-4xl font-extrabold mb-6">{courseData.title}</h1>
-            <h2 className="text-3xl font-bold mb-4">
-              {courseData.weeks[currentWeek]?.title}
-            </h2>
-            <h3 className="text-2xl font-semibold mb-4">
-              {courseData.weeks[currentWeek]?.chapters[currentChapter]?.title}
-            </h3>
-            <Button
-              variant="outline"
-              className="mb-6"
-              onClick={() =>
-                window.open(
-                  courseData.weeks[currentWeek]?.chapters[currentChapter]?.videoUrl ?? '',
-                  '_blank'
-                )
-              }
-            >
-              <Play className="h-4 w-4 mr-2" /> Watch Video
-            </Button>
-            <div
-              className="prose max-w-none"
-              dangerouslySetInnerHTML={{
-                __html:
-                  courseData.weeks[currentWeek]?.chapters[currentChapter]?.content ?? '',
-              }}
-            />
-            {courseData.weeks[currentWeek]?.chapters[currentChapter]?.quiz && (
-              <div className="mt-8 p-6 border border-gray-300 rounded-lg">
-                <h4 className="text-xl font-semibold mb-4">Quiz</h4>
-                <p className="mb-4">
-                  {courseData.weeks[currentWeek]?.chapters[currentChapter]?.quiz?.question}
-                </p>
-                <RadioGroup
-                  value={quizAnswer?.toString() ?? ''}
-                  onValueChange={(value) => setQuizAnswer(parseInt(value))}
-                >
-                  {courseData.weeks[currentWeek]?.chapters[currentChapter]?.quiz?.options.map(
-                    (option, index) => (
-                      <div key={index} className="flex items-center space-x-2 mb-2">
-                        <RadioGroupItem
-                          value={index.toString()}
-                          id={`option-${index}`}
-                          className="border border-gray-400 rounded-full w-4 h-4 flex items-center justify-center"
-                        >
-                          <div
-                            className={`w-2 h-2 rounded-full ${
-                              quizAnswer === index ? 'bg-blue-600' : 'bg-transparent'
-                            }`}
-                          />
-                        </RadioGroupItem>
-                        <Label htmlFor={`option-${index}`}>{option}</Label>
-                      </div>
-                    )
-                  )}
-                </RadioGroup>
-                <Button onClick={handleQuizSubmit} className="mt-6" disabled={quizAnswer === null}>
-                  Submit Answer
-                </Button>
-                {showQuizResult && (
-                  <p
-                    className={`mt-4 ${
-                      quizAnswer ===
-                      courseData.weeks[currentWeek]?.chapters[currentChapter]?.quiz?.correctAnswer
-                        ? 'text-green-600'
-                        : 'text-red-600'
-                    }`}
-                  >
-                    {quizAnswer ===
-                    courseData.weeks[currentWeek]?.chapters[currentChapter]?.quiz?.correctAnswer
-                      ? 'Correct!'
-                      : `Incorrect. The correct answer is: ${
-                          courseData.weeks[currentWeek]?.chapters[currentChapter]?.quiz?.options[
-                            courseData.weeks[currentWeek]?.chapters[currentChapter]?.quiz
-                              ?.correctAnswer ?? 0
-                          ]
-                        }`}
-                  </p>
-                )}
-              </div>
-            )}
-          </div>
-        </div>
-        {/* Navigation Buttons at the Bottom */}
-        <div className="p-4 bg-gray-100 flex justify-between items-center">
-          <Button
-            variant="ghost"
-            onClick={previousChapter}
-            disabled={isFirstChapter}
-          >
-            <ChevronLeft className="h-4 w-4 mr-2" /> Previous
-          </Button>
-          <Button
-            variant="ghost"
-            onClick={nextChapter}
-            disabled={isLastChapter}
-          >
-            Next <ChevronRight className="h-4 w-4 ml-2" />
-          </Button>
-        </div>
-      </div>
-    )
-  }
-  
+export default function ResearchCoursePage() {
+  return <CoursePage courseData={ResearchCourseData} />;
+}

@@ -1,44 +1,10 @@
-"use client"
+"use client";
 
-import { useState, useEffect, useCallback } from 'react'
-import { Button } from "@/components/ui/button"
-import { ChevronLeft, ChevronRight, Play } from 'lucide-react'
-import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
-import { Label } from "@/components/ui/label"
-//import Image from 'next/image'
-
-// Define TypeScript interfaces
-interface CourseData {
-  title: string;
-  weeks: Week[];
-}
-
-interface Week {
-  title: string;
-  chapters: Chapter[];
-}
-
-interface Chapter {
-  title: string;
-  content: string;
-  videoUrl: string;
-  quiz?: Quiz;
-}
-
-interface Quiz {
-  question: string;
-  options: string[];
-  correctAnswer: number;
-}
-
-interface Progress {
-  week: number;
-  chapter: number;
-  completed: string[];
-}
+import CoursePage from "../../../../components/CoursePage";
+import { CourseData } from "../../../../types/courseTypes";
 
 // Complete course data with all weeks and chapters
-const courseData: CourseData = {
+const CircuitCourseData: CourseData = {
   title: "Microcontroller & Circuit Design",
   weeks: [
     // Week 1
@@ -58,10 +24,11 @@ const courseData: CourseData = {
               <li>Familiarize yourself with hardware setup and connectivity basics.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week1-chapter1-video"
+          videoUrl: "https://example.com/week1-chapter1-video",
         },
         {
-          title: "Chapter 2: Setting up Arduino IDE and Understanding Its Interface",
+          title:
+            "Chapter 2: Setting up Arduino IDE and Understanding Its Interface",
           content: `
             <h2 class="text-2xl font-bold">Arduino IDE Setup</h2>
             <p class="mt-4">The Arduino Integrated Development Environment (IDE) is a crucial tool for programming microcontrollers. This chapter guides you through the installation and navigation of the Arduino IDE.</p>
@@ -87,10 +54,11 @@ const courseData: CourseData = {
               <li>Utilize the built-in examples to get started quickly.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week1-chapter2-video"
+          videoUrl: "https://example.com/week1-chapter2-video",
         },
         {
-          title: "Chapter 3: Exploring Online Resources and Communities for Support",
+          title:
+            "Chapter 3: Exploring Online Resources and Communities for Support",
           content: `
             <h2 class="text-2xl font-bold">Leveraging Online Resources</h2>
             <p class="mt-4">Engaging with online communities and utilizing available resources can significantly enhance your learning experience. This chapter introduces you to valuable platforms and tools.</p>
@@ -109,10 +77,11 @@ const courseData: CourseData = {
               <li>Stay updated with the latest tutorials and advancements.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week1-chapter3-video"
+          videoUrl: "https://example.com/week1-chapter3-video",
         },
         {
-          title: "Chapter 4: Familiarizing with Hardware Setup and Connectivity Basics",
+          title:
+            "Chapter 4: Familiarizing with Hardware Setup and Connectivity Basics",
           content: `
             <h2 class="text-2xl font-bold">Hardware Setup Essentials</h2>
             <p class="mt-4">A proper hardware setup is vital for successful circuit design and microcontroller programming. This chapter covers the basics of hardware connectivity.</p>
@@ -136,7 +105,7 @@ const courseData: CourseData = {
               <li>Use appropriate resistors to protect sensitive components.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week1-chapter4-video"
+          videoUrl: "https://example.com/week1-chapter4-video",
         },
         {
           title: "Chapter 5: Summary",
@@ -151,7 +120,7 @@ const courseData: CourseData = {
             </ul>
             <p class="mt-4">These topics lay the groundwork for the upcoming weeks, where we'll delve deeper into electrical components, microcontroller programming, and advanced circuit design.</p>
           `,
-          videoUrl: "https://example.com/week1-chapter5-video"
+          videoUrl: "https://example.com/week1-chapter5-video",
         },
         {
           title: "Chapter 6: Quiz",
@@ -166,11 +135,11 @@ const courseData: CourseData = {
               "Designing circuit boards",
               "Programming microcontrollers",
               "Soldering components",
-              "Testing electrical signals"
+              "Testing electrical signals",
             ],
-            correctAnswer: 1
-          }
-        }
+            correctAnswer: 1,
+          },
+        },
       ],
     },
     // Week 2
@@ -189,10 +158,11 @@ const courseData: CourseData = {
               <li>Develop basic troubleshooting techniques for faulty components.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week2-chapter1-video"
+          videoUrl: "https://example.com/week2-chapter1-video",
         },
         {
-          title: "Chapter 2: Identifying and Understanding Resistors, Capacitors, and Diodes",
+          title:
+            "Chapter 2: Identifying and Understanding Resistors, Capacitors, and Diodes",
           content: `
             <h2 class="text-2xl font-bold">Core Electronic Components</h2>
             <p class="mt-4">Resistors, capacitors, and diodes are fundamental components in electronic circuits. Understanding their functions and characteristics is crucial for effective circuit design.</p>
@@ -217,10 +187,11 @@ const courseData: CourseData = {
               <li>Applications: Rectification, voltage regulation, and signal demodulation.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week2-chapter2-video"
+          videoUrl: "https://example.com/week2-chapter2-video",
         },
         {
-          title: "Chapter 3: Safely Using Breadboards and Power Supplies in Circuits",
+          title:
+            "Chapter 3: Safely Using Breadboards and Power Supplies in Circuits",
           content: `
             <h2 class="text-2xl font-bold">Breadboards and Power Management</h2>
             <p class="mt-4">Proper usage of breadboards and power supplies ensures safe and efficient circuit construction.</p>
@@ -243,10 +214,11 @@ const courseData: CourseData = {
               <li>Use insulated tools to prevent accidental shorts.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week2-chapter3-video"
+          videoUrl: "https://example.com/week2-chapter3-video",
         },
         {
-          title: "Chapter 4: Basic Troubleshooting Techniques for Faulty Components",
+          title:
+            "Chapter 4: Basic Troubleshooting Techniques for Faulty Components",
           content: `
             <h2 class="text-2xl font-bold">Diagnosing Circuit Issues</h2>
             <p class="mt-4">Troubleshooting is a critical skill in circuit design, enabling you to identify and fix issues effectively.</p>
@@ -272,7 +244,7 @@ const courseData: CourseData = {
               <li><strong>Oscilloscope:</strong> Advanced tool for observing signal waveforms.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week2-chapter4-video"
+          videoUrl: "https://example.com/week2-chapter4-video",
         },
         {
           title: "Chapter 5: Summary",
@@ -286,7 +258,7 @@ const courseData: CourseData = {
             </ul>
             <p class="mt-4">These foundational skills are essential as we advance to more complex topics in microcontroller programming and advanced circuitry.</p>
           `,
-          videoUrl: "https://example.com/week2-chapter5-video"
+          videoUrl: "https://example.com/week2-chapter5-video",
         },
         {
           title: "Chapter 6: Quiz",
@@ -296,16 +268,17 @@ const courseData: CourseData = {
           `,
           videoUrl: "https://example.com/week2-chapter6-video",
           quiz: {
-            question: "What is the primary function of a resistor in a circuit?",
+            question:
+              "What is the primary function of a resistor in a circuit?",
             options: [
               "Store electrical energy",
               "Allow current to flow in one direction",
               "Limit current flow",
-              "Amplify signals"
+              "Amplify signals",
             ],
-            correctAnswer: 2
-          }
-        }
+            correctAnswer: 2,
+          },
+        },
       ],
     },
     // Week 3
@@ -325,10 +298,11 @@ const courseData: CourseData = {
               <li>Use functions to organize and modularize code.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week3-chapter1-video"
+          videoUrl: "https://example.com/week3-chapter1-video",
         },
         {
-          title: "Chapter 2: Writing and Uploading Simple C++ Programs to Microcontrollers",
+          title:
+            "Chapter 2: Writing and Uploading Simple C++ Programs to Microcontrollers",
           content: `
             <h2 class="text-2xl font-bold">Getting Started with C++ Programming</h2>
             <p class="mt-4">In this chapter, you'll learn how to write basic C++ programs and upload them to your microcontroller using the Arduino IDE.</p>
@@ -363,10 +337,11 @@ const courseData: CourseData = {
               <li>Verify that the microcontroller board is functioning properly.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week3-chapter2-video"
+          videoUrl: "https://example.com/week3-chapter2-video",
         },
         {
-          title: "Chapter 3: Understanding Data Types, Variables, and Logic Control Structures",
+          title:
+            "Chapter 3: Understanding Data Types, Variables, and Logic Control Structures",
           content: `
             <h2 class="text-2xl font-bold">Core Programming Concepts</h2>
             <p class="mt-4">This chapter delves into the fundamental aspects of C++ programming, including data types, variables, and control structures that dictate the flow of your programs.</p>
@@ -435,10 +410,11 @@ const courseData: CourseData = {
             </pre>
             <p class="mt-4">This program reads a value from analog pin A0 and prints a message based on whether the value exceeds the threshold.</p>
           `,
-          videoUrl: "https://example.com/week3-chapter3-video"
+          videoUrl: "https://example.com/week3-chapter3-video",
         },
         {
-          title: "Chapter 4: Using Functions to Organize Code for Complex Operations",
+          title:
+            "Chapter 4: Using Functions to Organize Code for Complex Operations",
           content: `
             <h2 class="text-2xl font-bold">Modular Programming with Functions</h2>
             <p class="mt-4">Functions help in organizing code into reusable blocks, making programs more manageable and scalable.</p>
@@ -503,7 +479,7 @@ const courseData: CourseData = {
             </pre>
             <p class="mt-4">In this example, functions are used to initialize, turn on, and turn off the LED, making the code more organized and reusable.</p>
           `,
-          videoUrl: "https://example.com/week3-chapter4-video"
+          videoUrl: "https://example.com/week3-chapter4-video",
         },
         {
           title: "Chapter 5: Summary",
@@ -518,7 +494,7 @@ const courseData: CourseData = {
             </ul>
             <p class="mt-4">These programming fundamentals are essential for developing more advanced microcontroller applications in the coming weeks.</p>
           `,
-          videoUrl: "https://example.com/week3-chapter5-video"
+          videoUrl: "https://example.com/week3-chapter5-video",
         },
         {
           title: "Chapter 6: Quiz",
@@ -533,11 +509,11 @@ const courseData: CourseData = {
               "To store data values",
               "To perform specific tasks and promote code reusability",
               "To control the flow of the program",
-              "To define data types"
+              "To define data types",
             ],
-            correctAnswer: 1
-          }
-        }
+            correctAnswer: 1,
+          },
+        },
       ],
     },
     // Week 4
@@ -556,10 +532,11 @@ const courseData: CourseData = {
               <li>Safely test circuits using a multimeter.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week4-chapter1-video"
+          videoUrl: "https://example.com/week4-chapter1-video",
         },
         {
-          title: "Chapter 2: Building Basic Circuits with LEDs, Resistors, and Switches",
+          title:
+            "Chapter 2: Building Basic Circuits with LEDs, Resistors, and Switches",
           content: `
             <h2 class="text-2xl font-bold">Hands-On Circuit Construction</h2>
             <p class="mt-4">Learn how to assemble basic circuits that incorporate LEDs, resistors, and switches. This practical exercise reinforces your understanding of component functions and circuit behavior.</p>
@@ -591,10 +568,11 @@ const courseData: CourseData = {
               <li>Double-check connections to avoid short circuits.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week4-chapter2-video"
+          videoUrl: "https://example.com/week4-chapter2-video",
         },
         {
-          title: "Chapter 3: Understanding Voltage, Current, and Resistance Relationships",
+          title:
+            "Chapter 3: Understanding Voltage, Current, and Resistance Relationships",
           content: `
             <h2 class="text-2xl font-bold">Ohm's Law and Electrical Fundamentals</h2>
             <p class="mt-4">A solid understanding of voltage, current, and resistance is essential for designing and analyzing circuits. This chapter covers Ohm's Law and how these parameters interrelate.</p>
@@ -638,7 +616,7 @@ const courseData: CourseData = {
     </pre>
             <p class="mt-4">Ensure your power supply provides at least 4.4V to achieve the desired current flow.</p>
           `,
-          videoUrl: "https://example.com/week4-chapter3-video"
+          videoUrl: "https://example.com/week4-chapter3-video",
         },
         {
           title: "Chapter 4: Safely Testing Circuits with a Multimeter",
@@ -683,7 +661,7 @@ const courseData: CourseData = {
               <li>Familiarize yourself with your multimeter's manual and features.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week4-chapter4-video"
+          videoUrl: "https://example.com/week4-chapter4-video",
         },
         {
           title: "Chapter 5: Summary",
@@ -697,7 +675,7 @@ const courseData: CourseData = {
             </ul>
             <p class="mt-4">These skills are foundational for more advanced circuit designs and microcontroller integrations in the upcoming weeks.</p>
           `,
-          videoUrl: "https://example.com/week4-chapter5-video"
+          videoUrl: "https://example.com/week4-chapter5-video",
         },
         {
           title: "Chapter 6: Quiz",
@@ -712,11 +690,11 @@ const courseData: CourseData = {
               "Voltage equals current multiplied by resistance.",
               "Current equals voltage divided by power.",
               "Resistance equals voltage divided by current.",
-              "Power equals voltage times current."
+              "Power equals voltage times current.",
             ],
-            correctAnswer: 0
-          }
-        }
+            correctAnswer: 0,
+          },
+        },
       ],
     },
     // Week 5
@@ -735,7 +713,7 @@ const courseData: CourseData = {
               <li>Integrate sensors and actuators into your systems for enhanced functionality.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week5-chapter1-video"
+          videoUrl: "https://example.com/week5-chapter1-video",
         },
         {
           title: "Chapter 2: Designing and Analyzing Complex Circuit Diagrams",
@@ -767,7 +745,7 @@ const courseData: CourseData = {
             </pre>
             <p class="mt-4">This schematic represents a system where a sensor detects environmental data, which is amplified and then used to control an actuator.</p>
           `,
-          videoUrl: "https://example.com/week5-chapter2-video"
+          videoUrl: "https://example.com/week5-chapter2-video",
         },
         {
           title: "Chapter 3: Creating PCB Layouts for Advanced Projects",
@@ -792,10 +770,11 @@ const courseData: CourseData = {
             <h3 class="text-xl font-semibold mt-6">Example PCB Layout:</h3>
             <p class="mt-4">An example PCB layout for a temperature monitoring system includes sensor connections, microcontroller placement, and actuator interfaces, all organized for optimal performance.</p>
           `,
-          videoUrl: "https://example.com/week5-chapter3-video"
+          videoUrl: "https://example.com/week5-chapter3-video",
         },
         {
-          title: "Chapter 4: Integrating Sensors and Actuators for Interactive Systems",
+          title:
+            "Chapter 4: Integrating Sensors and Actuators for Interactive Systems",
           content: `
             <h2 class="text-2xl font-bold">Enhancing Functionality with Sensors and Actuators</h2>
             <p class="mt-4">Sensors and actuators enable your systems to interact with the environment. This chapter explores their integration into your circuits.</p>
@@ -823,7 +802,7 @@ const courseData: CourseData = {
             <h3 class="text-xl font-semibold mt-6">Example Project:</h3>
             <p class="mt-4">A basic environmental monitoring system that reads temperature and light levels, then activates LEDs and buzzers based on predefined thresholds.</p>
           `,
-          videoUrl: "https://example.com/week5-chapter4-video"
+          videoUrl: "https://example.com/week5-chapter4-video",
         },
         {
           title: "Chapter 5: Summary",
@@ -837,7 +816,7 @@ const courseData: CourseData = {
             </ul>
             <p class="mt-4">These advanced skills are pivotal for developing sophisticated prototypes and transitioning from breadboard-based circuits to permanent PCB designs.</p>
           `,
-          videoUrl: "https://example.com/week5-chapter5-video"
+          videoUrl: "https://example.com/week5-chapter5-video",
         },
         {
           title: "Chapter 6: Quiz",
@@ -852,11 +831,11 @@ const courseData: CourseData = {
               "To perform software debugging",
               "To create a permanent and organized circuit",
               "To program microcontrollers",
-              "To test electrical components"
+              "To test electrical components",
             ],
-            correctAnswer: 1
-          }
-        }
+            correctAnswer: 1,
+          },
+        },
       ],
     },
     // Week 6
@@ -875,10 +854,11 @@ const courseData: CourseData = {
               <li>Adopt best practices for assembling reliable prototypes.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week6-chapter1-video"
+          videoUrl: "https://example.com/week6-chapter1-video",
         },
         {
-          title: "Chapter 2: Using Software Tools for PCB Design and Simulation",
+          title:
+            "Chapter 2: Using Software Tools for PCB Design and Simulation",
           content: `
             <h2 class="text-2xl font-bold">Advanced PCB Design and Simulation</h2>
             <p class="mt-4">Leveraging software tools like KiCad and Eagle enhances your ability to design intricate PCBs and simulate their behavior before physical implementation.</p>
@@ -910,7 +890,7 @@ const courseData: CourseData = {
               <li>Review and validate designs through simulation before manufacturing.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week6-chapter2-video"
+          videoUrl: "https://example.com/week6-chapter2-video",
         },
         {
           title: "Chapter 3: Testing and Refining Circuits on Breadboards",
@@ -941,7 +921,7 @@ const courseData: CourseData = {
             <h3 class="text-xl font-semibold mt-6">Example:</h3>
             <p class="mt-4">Building a temperature monitoring system on a breadboard involves connecting the temperature sensor, microcontroller, and display module. Test each component individually before integrating them into the complete system.</p>
           `,
-          videoUrl: "https://example.com/week6-chapter3-video"
+          videoUrl: "https://example.com/week6-chapter3-video",
         },
         {
           title: "Chapter 4: Exploring Best Practices for Prototype Assembly",
@@ -973,7 +953,7 @@ const courseData: CourseData = {
             <h3 class="text-xl font-semibold mt-6">Example Assembly:</h3>
             <p class="mt-4">Assembling a prototype for an automated plant watering system involves organizing the sensor connections, microcontroller setup, and actuator controls systematically on the breadboard or PCB.</p>
           `,
-          videoUrl: "https://example.com/week6-chapter4-video"
+          videoUrl: "https://example.com/week6-chapter4-video",
         },
         {
           title: "Chapter 5: Summary",
@@ -987,7 +967,7 @@ const courseData: CourseData = {
             </ul>
             <p class="mt-4">These advanced design and assembly skills are critical for developing sophisticated electronic systems and transitioning from prototype to production-ready designs.</p>
           `,
-          videoUrl: "https://example.com/week6-chapter5-video"
+          videoUrl: "https://example.com/week6-chapter5-video",
         },
         {
           title: "Chapter 6: Quiz",
@@ -997,16 +977,17 @@ const courseData: CourseData = {
           `,
           videoUrl: "https://example.com/week6-chapter6-video",
           quiz: {
-            question: "What is the primary purpose of simulation tools in PCB design?",
+            question:
+              "What is the primary purpose of simulation tools in PCB design?",
             options: [
               "To manufacture the PCB",
               "To visualize the physical layout",
               "To predict circuit behavior and identify potential issues before fabrication",
-              "To solder components accurately"
+              "To solder components accurately",
             ],
-            correctAnswer: 2
-          }
-        }
+            correctAnswer: 2,
+          },
+        },
       ],
     },
     // Week 7
@@ -1025,10 +1006,11 @@ const courseData: CourseData = {
               <li>Develop debugging techniques for integrated systems.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week7-chapter1-video"
+          videoUrl: "https://example.com/week7-chapter1-video",
         },
         {
-          title: "Chapter 2: Integrating Sensors and Actuators with Microcontroller Code",
+          title:
+            "Chapter 2: Integrating Sensors and Actuators with Microcontroller Code",
           content: `
             <h2 class="text-2xl font-bold">Enhancing System Interactivity</h2>
             <p class="mt-4">Integrating sensors and actuators with your microcontroller allows your system to interact with the environment and perform specific actions based on input data.</p>
@@ -1067,10 +1049,11 @@ const courseData: CourseData = {
             </pre>
             <p class="mt-4">In this example, the LED turns on when the ambient light level is below a certain threshold, demonstrating the integration of a light sensor with microcontroller code.</p>
           `,
-          videoUrl: "https://example.com/week7-chapter2-video"
+          videoUrl: "https://example.com/week7-chapter2-video",
         },
         {
-          title: "Chapter 3: Synchronizing Hardware Functionality with Software Logic",
+          title:
+            "Chapter 3: Synchronizing Hardware Functionality with Software Logic",
           content: `
             <h2 class="text-2xl font-bold">Coordinating Hardware and Software</h2>
             <p class="mt-4">Effective synchronization between hardware components and software logic ensures seamless operation and responsiveness in your systems.</p>
@@ -1116,7 +1099,7 @@ const courseData: CourseData = {
             </pre>
             <p class="mt-4">This program turns the LED on when motion is detected by the sensor and turns it off when no motion is detected, showcasing synchronized hardware and software functionality.</p>
           `,
-          videoUrl: "https://example.com/week7-chapter3-video"
+          videoUrl: "https://example.com/week7-chapter3-video",
         },
         {
           title: "Chapter 4: Debugging Issues in Integrated Systems",
@@ -1147,7 +1130,7 @@ const courseData: CourseData = {
               <li>Replace faulty components if necessary.</li>
             </ol>
           `,
-          videoUrl: "https://example.com/week7-chapter4-video"
+          videoUrl: "https://example.com/week7-chapter4-video",
         },
         {
           title: "Chapter 5: Summary",
@@ -1161,7 +1144,7 @@ const courseData: CourseData = {
             </ul>
             <p class="mt-4">These skills are essential for creating sophisticated and responsive electronic projects, bridging the gap between hardware design and software programming.</p>
           `,
-          videoUrl: "https://example.com/week7-chapter5-video"
+          videoUrl: "https://example.com/week7-chapter5-video",
         },
         {
           title: "Chapter 6: Quiz",
@@ -1171,16 +1154,17 @@ const courseData: CourseData = {
           `,
           videoUrl: "https://example.com/week7-chapter6-video",
           quiz: {
-            question: "Which debugging technique involves outputting messages to monitor sensor values?",
+            question:
+              "Which debugging technique involves outputting messages to monitor sensor values?",
             options: [
               "LED Indicators",
               "Serial Monitoring",
               "Isolate Components",
-              "Use Breakpoints"
+              "Use Breakpoints",
             ],
-            correctAnswer: 1
-          }
-        }
+            correctAnswer: 1,
+          },
+        },
       ],
     },
     // Week 8
@@ -1208,7 +1192,7 @@ const courseData: CourseData = {
               <li>Prepare a presentation or demonstration of your project, highlighting its design, functionality, and challenges overcome.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week8-chapter1-video"
+          videoUrl: "https://example.com/week8-chapter1-video",
         },
         {
           title: "Chapter 2: Developing a Comprehensive Project",
@@ -1244,10 +1228,11 @@ const courseData: CourseData = {
               <li>Prepare documentation detailing the project development process.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week8-chapter2-video"
+          videoUrl: "https://example.com/week8-chapter2-video",
         },
         {
-          title: "Chapter 3: Presenting the Project with a Focus on Design and Functionality",
+          title:
+            "Chapter 3: Presenting the Project with a Focus on Design and Functionality",
           content: `
             <h2 class="text-2xl font-bold">Showcasing Your Work</h2>
             <p class="mt-4">Effectively presenting your final project highlights your understanding and application of microcontroller programming and circuit design principles.</p>
@@ -1278,10 +1263,11 @@ const courseData: CourseData = {
               <li>Q&A: Open the floor for questions and discussions.</li>
             </ol>
           `,
-          videoUrl: "https://example.com/week8-chapter3-video"
+          videoUrl: "https://example.com/week8-chapter3-video",
         },
         {
-          title: "Chapter 4: Reviewing Key Concepts and Discussing Next Steps for Further Learning",
+          title:
+            "Chapter 4: Reviewing Key Concepts and Discussing Next Steps for Further Learning",
           content: `
             <h2 class="text-2xl font-bold">Course Review and Future Directions</h2>
             <p class="mt-4">As we conclude the course, it's important to review the key concepts learned and explore avenues for further development in microcontroller programming and circuit design.</p>
@@ -1313,7 +1299,7 @@ const courseData: CourseData = {
             <h3 class="text-xl font-semibold mt-6">Final Thoughts:</h3>
             <p class="mt-4">Congratulations on completing the Microcontroller & Circuit Design course! Continue experimenting, building, and innovating to advance your skills and contribute to exciting technological developments.</p>
           `,
-          videoUrl: "https://example.com/week8-chapter4-video"
+          videoUrl: "https://example.com/week8-chapter4-video",
         },
         {
           title: "Chapter 5: Summary",
@@ -1327,7 +1313,7 @@ const courseData: CourseData = {
             </ul>
             <p class="mt-4">Completing the final project demonstrates your proficiency in microcontroller programming and circuit design, preparing you for more advanced challenges in electronics and embedded systems.</p>
           `,
-          videoUrl: "https://example.com/week8-chapter5-video"
+          videoUrl: "https://example.com/week8-chapter5-video",
         },
         {
           title: "Chapter 6: Quiz",
@@ -1337,222 +1323,26 @@ const courseData: CourseData = {
           `,
           videoUrl: "https://example.com/week8-chapter6-video",
           quiz: {
-            question: "Which of the following best describes the purpose of integrating sensors and actuators in a microcontroller-based system?",
+            question:
+              "Which of the following best describes the purpose of integrating sensors and actuators in a microcontroller-based system?",
             options: [
               "To increase the system's power consumption",
               "To enable the system to interact with its environment",
               "To simplify the circuit design",
-              "To reduce the number of components needed"
+              "To reduce the number of components needed",
             ],
-            correctAnswer: 1
-          }
-        }
+            correctAnswer: 1,
+          },
+        },
       ],
-    }
+    },
     // You can add more weeks following the same structure if necessary
-  ]
-}
+  ],
+};
 
 // The rest of the code remains the same as previously provided
 // The code below is necessary for the component to function correctly
 
-export default function CoursePage() {
-    const [currentWeek, setCurrentWeek] = useState<number>(0)
-    const [currentChapter, setCurrentChapter] = useState<number>(0)
-    const [progress, setProgress] = useState<Progress>(() => {
-      if (typeof window !== 'undefined') {
-        const savedProgress = localStorage.getItem('courseProgress')
-        return savedProgress ? (JSON.parse(savedProgress) as Progress) : { week: 0, chapter: 0, completed: [] }
-      }
-      return { week: 0, chapter: 0, completed: [] }
-    })
-    const [quizAnswer, setQuizAnswer] = useState<number | null>(null)
-    const [showQuizResult, setShowQuizResult] = useState(false)
-  
-    // Memoize updateProgress to ensure it has a stable reference
-    const updateProgress = useCallback((week: number, chapter: number) => {
-      setProgress((prev) => {
-        const newCompleted = [...prev.completed]
-        const key = `${week}-${chapter}`
-        if (!newCompleted.includes(key)) {
-          newCompleted.push(key)
-        }
-        const newProgress: Progress = { week, chapter, completed: newCompleted }
-        if (typeof window !== 'undefined') {
-          localStorage.setItem('courseProgress', JSON.stringify(newProgress))
-        }
-        return newProgress
-      })
-    }, [])
-  
-    // Include updateProgress in the dependency array
-    const navigateToChapter = useCallback(
-      (weekIndex: number, chapterIndex: number) => {
-        const week = courseData.weeks[weekIndex]
-        if (week && week.chapters[chapterIndex]) {
-          setCurrentWeek(weekIndex)
-          setCurrentChapter(chapterIndex)
-          updateProgress(weekIndex, chapterIndex)
-          setQuizAnswer(null)
-          setShowQuizResult(false)
-        }
-      },
-      [updateProgress]
-    )
-  
-    useEffect(() => {
-      navigateToChapter(progress.week, progress.chapter)
-    }, [navigateToChapter, progress.week, progress.chapter])
-  
-    const previousChapter = () => {
-      if (currentChapter > 0) {
-        navigateToChapter(currentWeek, currentChapter - 1)
-      } else if (currentWeek > 0) {
-        const previousWeekIndex = currentWeek - 1
-        const previousWeek = courseData.weeks[previousWeekIndex]
-        if (previousWeek) {
-          const previousWeekLastChapterIndex = previousWeek.chapters.length - 1
-          navigateToChapter(previousWeekIndex, previousWeekLastChapterIndex)
-        }
-      }
-    }
-  
-    const nextChapter = () => {
-      const currentWeekData = courseData.weeks[currentWeek]
-      if (currentWeekData && currentChapter < currentWeekData.chapters.length - 1) {
-        navigateToChapter(currentWeek, currentChapter + 1)
-      } else if (currentWeek < courseData.weeks.length - 1) {
-        navigateToChapter(currentWeek + 1, 0)
-      }
-    }
-  
-    const calculateOverallProgress = () => {
-      const totalChapters = courseData.weeks.reduce((acc, week) => acc + week.chapters.length, 0)
-      return (progress.completed.length / totalChapters) * 100
-    }
-  
-    const handleQuizSubmit = () => {
-      setShowQuizResult(true)
-    }
-  
-    // Determine if Next and Previous buttons should be disabled
-    const isFirstChapter = currentWeek === 0 && currentChapter === 0
-    const isLastChapter =
-      currentWeek === courseData.weeks.length - 1 &&
-      currentChapter === courseData.weeks[currentWeek].chapters.length - 1
-  
-    return (
-      <div className="flex flex-col min-h-screen">
-        {/* Progress Bar */}
-        <div className="bg-gray-200 h-2">
-          <div
-            className="bg-blue-500 h-full transition-all duration-300"
-            style={{ width: `${calculateOverallProgress()}%` }}
-          />
-        </div>
-        {/* Main Content Area */}
-        <div className="flex-grow">
-          <div className="p-6">
-            <h1 className="text-4xl font-extrabold mb-6">{courseData.title}</h1>
-            <h2 className="text-3xl font-bold mb-4">
-              {courseData.weeks[currentWeek]?.title}
-            </h2>
-            <h3 className="text-2xl font-semibold mb-4">
-              {courseData.weeks[currentWeek]?.chapters[currentChapter]?.title}
-            </h3>
-            <Button
-              variant="outline"
-              className="mb-6"
-              onClick={() =>
-                window.open(
-                  courseData.weeks[currentWeek]?.chapters[currentChapter]?.videoUrl ?? '',
-                  '_blank'
-                )
-              }
-            >
-              <Play className="h-4 w-4 mr-2" /> Watch Video
-            </Button>
-            <div
-              className="prose max-w-none"
-              dangerouslySetInnerHTML={{
-                __html:
-                  courseData.weeks[currentWeek]?.chapters[currentChapter]?.content ?? '',
-              }}
-            />
-            {courseData.weeks[currentWeek]?.chapters[currentChapter]?.quiz && (
-              <div className="mt-8 p-6 border border-gray-300 rounded-lg">
-                <h4 className="text-xl font-semibold mb-4">Quiz</h4>
-                <p className="mb-4">
-                  {courseData.weeks[currentWeek]?.chapters[currentChapter]?.quiz?.question}
-                </p>
-                <RadioGroup
-                  value={quizAnswer?.toString() ?? ''}
-                  onValueChange={(value) => setQuizAnswer(parseInt(value))}
-                >
-                  {courseData.weeks[currentWeek]?.chapters[currentChapter]?.quiz?.options.map(
-                    (option, index) => (
-                      <div key={index} className="flex items-center space-x-2 mb-2">
-                        <RadioGroupItem
-                          value={index.toString()}
-                          id={`option-${index}`}
-                          className="border border-gray-400 rounded-full w-4 h-4 flex items-center justify-center"
-                        >
-                          <div
-                            className={`w-2 h-2 rounded-full ${
-                              quizAnswer === index ? 'bg-blue-600' : 'bg-transparent'
-                            }`}
-                          />
-                        </RadioGroupItem>
-                        <Label htmlFor={`option-${index}`}>{option}</Label>
-                      </div>
-                    )
-                  )}
-                </RadioGroup>
-                <Button onClick={handleQuizSubmit} className="mt-6" disabled={quizAnswer === null}>
-                  Submit Answer
-                </Button>
-                {showQuizResult && (
-                  <p
-                    className={`mt-4 ${
-                      quizAnswer ===
-                      courseData.weeks[currentWeek]?.chapters[currentChapter]?.quiz?.correctAnswer
-                        ? 'text-green-600'
-                        : 'text-red-600'
-                    }`}
-                  >
-                    {quizAnswer ===
-                    courseData.weeks[currentWeek]?.chapters[currentChapter]?.quiz?.correctAnswer
-                      ? 'Correct!'
-                      : `Incorrect. The correct answer is: ${
-                          courseData.weeks[currentWeek]?.chapters[currentChapter]?.quiz?.options[
-                            courseData.weeks[currentWeek]?.chapters[currentChapter]?.quiz
-                              ?.correctAnswer ?? 0
-                          ]
-                        }`}
-                  </p>
-                )}
-              </div>
-            )}
-          </div>
-        </div>
-        {/* Navigation Buttons at the Bottom */}
-        <div className="p-4 bg-gray-100 flex justify-between items-center">
-          <Button
-            variant="ghost"
-            onClick={previousChapter}
-            disabled={isFirstChapter}
-          >
-            <ChevronLeft className="h-4 w-4 mr-2" /> Previous
-          </Button>
-          <Button
-            variant="ghost"
-            onClick={nextChapter}
-            disabled={isLastChapter}
-          >
-            Next <ChevronRight className="h-4 w-4 ml-2" />
-          </Button>
-        </div>
-      </div>
-    )
-  }
-  
+export default function CircuitCoursePage() {
+  return <CoursePage courseData={CircuitCourseData} />;
+}

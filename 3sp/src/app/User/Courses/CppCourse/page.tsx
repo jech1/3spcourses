@@ -1,44 +1,10 @@
-"use client"
+"use client";
 
-import { useState, useEffect, useCallback } from 'react'
-import { Button } from "@/components/ui/button"
-import { ChevronLeft, ChevronRight, Play } from 'lucide-react'
-import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
-import { Label } from "@/components/ui/label"
-//import Image from 'next/image'
-
-// Define TypeScript interfaces
-interface CourseData {
-  title: string;
-  weeks: Week[];
-}
-
-interface Week {
-  title: string;
-  chapters: Chapter[];
-}
-
-interface Chapter {
-  title: string;
-  content: string;
-  videoUrl: string;
-  quiz?: Quiz;
-}
-
-interface Quiz {
-  question: string;
-  options: string[];
-  correctAnswer: number;
-}
-
-interface Progress {
-  week: number;
-  chapter: number;
-  completed: string[];
-}
+import CoursePage from "../../../../components/CoursePage";
+import { CourseData } from "../../../../types/courseTypes";
 
 // Complete course data with all weeks and chapters
-const courseData: CourseData = {
+const CppCourseData: CourseData = {
   title: "C++ Coding",
   weeks: [
     // Week 1
@@ -61,10 +27,11 @@ const courseData: CourseData = {
               <li><strong>Week 7:</strong> Final Project</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week1-intro"
+          videoUrl: "https://example.com/week1-intro",
         },
         {
-          title: "Setting up Visual Studio Code and Configuring the Environment",
+          title:
+            "Setting up Visual Studio Code and Configuring the Environment",
           content: `
             <h2 class="text-2xl font-bold">Configuring Your Development Environment</h2>
             <p class="mt-4">Before writing any code, it's essential to set up your development environment properly. This chapter will guide you through installing and configuring Visual Studio Code for C++ development.</p>
@@ -80,7 +47,7 @@ const courseData: CourseData = {
     // tasks.json
             </pre>
           `,
-          videoUrl: "https://example.com/week1-setup-vscode"
+          videoUrl: "https://example.com/week1-setup-vscode",
         },
         {
           title: "Introduction to the Terminal and Basic Commands",
@@ -110,7 +77,7 @@ const courseData: CourseData = {
     g++ main.cpp -o main
             </pre>
           `,
-          videoUrl: "https://example.com/week1-terminal-commands"
+          videoUrl: "https://example.com/week1-terminal-commands",
         },
         {
           title: "Understanding Variables, Data Types, and Constants",
@@ -140,7 +107,7 @@ const courseData: CourseData = {
     const int MAX_USERS = 100;
             </pre>
           `,
-          videoUrl: "https://example.com/week1-variables-data-types"
+          videoUrl: "https://example.com/week1-variables-data-types",
         },
         {
           title: "Producing Outputs and Handling User Input",
@@ -189,7 +156,7 @@ const courseData: CourseData = {
     }
             </pre>
           `,
-          videoUrl: "https://example.com/week1-io"
+          videoUrl: "https://example.com/week1-io",
         },
         {
           title: "Summary",
@@ -205,7 +172,7 @@ const courseData: CourseData = {
             </ul>
             <p class="mt-4">These foundational concepts are crucial as we move forward to more complex programming topics in the upcoming weeks.</p>
           `,
-          videoUrl: "https://example.com/week1-summary"
+          videoUrl: "https://example.com/week1-summary",
         },
         {
           title: "Quiz",
@@ -220,11 +187,11 @@ const courseData: CourseData = {
               "To declare a variable that can be modified.",
               "To declare a constant whose value cannot be changed.",
               "To create a new data type.",
-              "To include external libraries."
+              "To include external libraries.",
             ],
-            correctAnswer: 1
-          }
-        }
+            correctAnswer: 1,
+          },
+        },
       ],
     },
     // Week 2
@@ -244,7 +211,7 @@ const courseData: CourseData = {
               <li>Perform common array operations like searching and sorting.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week2-intro"
+          videoUrl: "https://example.com/week2-intro",
         },
         {
           title: "Introduction to Arrays and Their Importance",
@@ -261,7 +228,7 @@ const courseData: CourseData = {
             <h3 class="text-xl font-semibold mt-6">Example Scenario:</h3>
             <p class="mt-2">Storing the grades of students in a class allows you to perform operations like calculating the average grade or identifying the highest and lowest scores.</p>
           `,
-          videoUrl: "https://example.com/week2-intro-arrays"
+          videoUrl: "https://example.com/week2-intro-arrays",
         },
         {
           title: "Declaring, Initializing, and Accessing Arrays",
@@ -304,7 +271,7 @@ int main() {
 }
             </pre>
           `,
-          videoUrl: "https://example.com/week2-declaring-initializing"
+          videoUrl: "https://example.com/week2-declaring-initializing",
         },
         {
           title: "Multi-Dimensional Arrays and Their Applications",
@@ -337,7 +304,7 @@ std::cout &lt;&lt; "Element at (0,1): " &lt;&lt; matrix[0][1] &lt;&lt; std::endl
               <li>Managing multi-dimensional game boards or grids.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week2-multi-dimensional-arrays"
+          videoUrl: "https://example.com/week2-multi-dimensional-arrays",
         },
         {
           title: "Common Array Operations: Searching and Sorting",
@@ -442,7 +409,7 @@ int main() {
 }
             </pre>
           `,
-          videoUrl: "https://example.com/week2-searching-sorting"
+          videoUrl: "https://example.com/week2-searching-sorting",
         },
         {
           title: "Summary",
@@ -457,7 +424,7 @@ int main() {
             </ul>
             <p class="mt-4">Mastering arrays is essential for handling collections of data efficiently and lays the groundwork for more advanced programming concepts.</p>
           `,
-          videoUrl: "https://example.com/week2-summary"
+          videoUrl: "https://example.com/week2-summary",
         },
         {
           title: "Quiz",
@@ -467,16 +434,17 @@ int main() {
           `,
           videoUrl: "https://example.com/week2-quiz",
           quiz: {
-            question: "How do you declare a two-dimensional array of integers with 3 rows and 4 columns in C++?",
+            question:
+              "How do you declare a two-dimensional array of integers with 3 rows and 4 columns in C++?",
             options: [
               "int array[3][4];",
               "int array(3,4);",
               "int array{3,4};",
-              "int array{3}[4];"
+              "int array{3}[4];",
             ],
-            correctAnswer: 0
-          }
-        }
+            correctAnswer: 0,
+          },
+        },
       ],
     },
     // Week 3
@@ -496,7 +464,7 @@ int main() {
               <li>Implement modular programming for better code organization.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week3-intro"
+          videoUrl: "https://example.com/week3-intro",
         },
         {
           title: "Defining and Calling Functions",
@@ -543,7 +511,7 @@ int multiply(int x, int y) {
 }
             </pre>
           `,
-          videoUrl: "https://example.com/week3-defining-calling-functions"
+          videoUrl: "https://example.com/week3-defining-calling-functions",
         },
         {
           title: "Function Arguments, Return Types, and Scope",
@@ -588,7 +556,7 @@ int main() {
 }
             </pre>
           `,
-          videoUrl: "https://example.com/week3-arguments-return-scope"
+          videoUrl: "https://example.com/week3-arguments-return-scope",
         },
         {
           title: "Breaking Programs into Modules for Better Organization",
@@ -633,7 +601,7 @@ int main() {
 }
             </pre>
           `,
-          videoUrl: "https://example.com/week3-modular-programming"
+          videoUrl: "https://example.com/week3-modular-programming",
         },
         {
           title: "Benefits of Modular Programming for Scalability",
@@ -650,7 +618,7 @@ int main() {
             <h3 class="text-xl font-semibold mt-6">Example Scenario:</h3>
             <p class="mt-2">In a large-scale application like an e-commerce platform, different modules can handle user authentication, product management, order processing, and payment integration independently.</p>
           `,
-          videoUrl: "https://example.com/week3-benefits-scalability"
+          videoUrl: "https://example.com/week3-benefits-scalability",
         },
         {
           title: "Summary",
@@ -665,7 +633,7 @@ int main() {
             </ul>
             <p class="mt-4">Mastering functions and modular programming is essential for writing clean, efficient, and maintainable C++ code.</p>
           `,
-          videoUrl: "https://example.com/week3-summary"
+          videoUrl: "https://example.com/week3-summary",
         },
         {
           title: "Quiz",
@@ -680,11 +648,11 @@ int main() {
               "Increases the size of the codebase.",
               "Makes code harder to read.",
               "Enhances code organization and reusability.",
-              "Reduces the number of functions in a program."
+              "Reduces the number of functions in a program.",
             ],
-            correctAnswer: 2
-          }
-        }
+            correctAnswer: 2,
+          },
+        },
       ],
     },
     // Week 4
@@ -703,7 +671,7 @@ int main() {
               <li>Enhance debugging skills to refine and optimize code.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week4-intro"
+          videoUrl: "https://example.com/week4-intro",
         },
         {
           title: "Combining Arrays with Functions to Solve Complex Problems",
@@ -751,7 +719,7 @@ int main() {
 }
             </pre>
           `,
-          videoUrl: "https://example.com/week4-combining-arrays-functions"
+          videoUrl: "https://example.com/week4-combining-arrays-functions",
         },
         {
           title: "Building Small Modular Projects Using All Covered Concepts",
@@ -854,7 +822,7 @@ int findMin(int grades[], int size) {
 }
             </pre>
           `,
-          videoUrl: "https://example.com/week4-integrating-concepts"
+          videoUrl: "https://example.com/week4-integrating-concepts",
         },
         {
           title: "Debugging and Refining Code for Efficiency",
@@ -907,7 +875,7 @@ int binarySearch(int arr[], int size, int target) {
 }
             </pre>
           `,
-          videoUrl: "https://example.com/week4-debugging-refining"
+          videoUrl: "https://example.com/week4-debugging-refining",
         },
         {
           title: "Summary",
@@ -922,7 +890,7 @@ int binarySearch(int arr[], int size, int target) {
             </ul>
             <p class="mt-4">Integrating these concepts allows you to write more organized, efficient, and maintainable C++ programs.</p>
           `,
-          videoUrl: "https://example.com/week4-summary"
+          videoUrl: "https://example.com/week4-summary",
         },
         {
           title: "Quiz",
@@ -937,11 +905,11 @@ int binarySearch(int arr[], int size, int target) {
               "They increase the size of the codebase.",
               "They make code less readable.",
               "They promote code reusability and better organization.",
-              "They prevent the use of variables."
+              "They prevent the use of variables.",
             ],
-            correctAnswer: 2
-          }
-        }
+            correctAnswer: 2,
+          },
+        },
       ],
     },
     // Week 5
@@ -961,7 +929,7 @@ int binarySearch(int arr[], int size, int target) {
               <li>Interact with sensors and control output devices.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week5-intro"
+          videoUrl: "https://example.com/week5-intro",
         },
         {
           title: "Introduction to Arduino IDE and Basic Hardware Setup",
@@ -985,7 +953,7 @@ int binarySearch(int arr[], int size, int target) {
             <h3 class="text-xl font-semibold mt-6">Example Setup:</h3>
             <p class="mt-2">Connect an LED to the Arduino board using a resistor and jumper wires. This setup will be used in the upcoming programming exercises.</p>
           `,
-          videoUrl: "https://example.com/week5-arduino-ide-setup"
+          videoUrl: "https://example.com/week5-arduino-ide-setup",
         },
         {
           title: "Writing and Uploading C++ Programs to Microcontrollers",
@@ -1029,7 +997,7 @@ void loop() {
 }
             </pre>
           `,
-          videoUrl: "https://example.com/week5-writing-uploading"
+          videoUrl: "https://example.com/week5-writing-uploading",
         },
         {
           title: "Reading Input from Sensors and Controlling Output Devices",
@@ -1098,7 +1066,7 @@ void loop() {
 }
             </pre>
           `,
-          videoUrl: "https://example.com/week5-reading-controlling"
+          videoUrl: "https://example.com/week5-reading-controlling",
         },
         {
           title: "Exploring Practical Applications with Hardware Integration",
@@ -1138,7 +1106,7 @@ void loop() {
             </pre>
             <p class="mt-4">This system uses a moisture sensor to detect dry soil and activates a water pump to hydrate the plant automatically.</p>
           `,
-          videoUrl: "https://example.com/week5-practical-applications"
+          videoUrl: "https://example.com/week5-practical-applications",
         },
         {
           title: "Summary",
@@ -1153,7 +1121,7 @@ void loop() {
             </ul>
             <p class="mt-4">These skills are essential for creating interactive and functional hardware projects, bridging the gap between software and electronics.</p>
           `,
-          videoUrl: "https://example.com/week5-summary"
+          videoUrl: "https://example.com/week5-summary",
         },
         {
           title: "Quiz",
@@ -1163,16 +1131,17 @@ void loop() {
           `,
           videoUrl: "https://example.com/week5-quiz",
           quiz: {
-            question: "Which function is used to initialize a pin as an output in Arduino?",
+            question:
+              "Which function is used to initialize a pin as an output in Arduino?",
             options: [
               "digitalWrite()",
               "pinMode()",
               "analogRead()",
-              "digitalRead()"
+              "digitalRead()",
             ],
-            correctAnswer: 1
-          }
-        }
+            correctAnswer: 1,
+          },
+        },
       ],
     },
     // Week 6
@@ -1192,7 +1161,7 @@ void loop() {
               <li>Create programs that save and load data efficiently.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week6-intro"
+          videoUrl: "https://example.com/week6-intro",
         },
         {
           title: "Reading from and Writing to Files",
@@ -1238,7 +1207,7 @@ int main() {
 }
             </pre>
           `,
-          videoUrl: "https://example.com/week6-reading-writing-files"
+          videoUrl: "https://example.com/week6-reading-writing-files",
         },
         {
           title: "Using File Streams for Data Storage and Retrieval",
@@ -1310,7 +1279,7 @@ int main() {
 }
             </pre>
           `,
-          videoUrl: "https://example.com/week6-file-streams"
+          videoUrl: "https://example.com/week6-file-streams",
         },
         {
           title: "Error Handling in File Operations",
@@ -1365,7 +1334,7 @@ int main() {
 }
             </pre>
           `,
-          videoUrl: "https://example.com/week6-error-handling"
+          videoUrl: "https://example.com/week6-error-handling",
         },
         {
           title: "Building Programs That Save and Load Data",
@@ -1408,7 +1377,7 @@ int main() {
 }
             </pre>
           `,
-          videoUrl: "https://example.com/week6-save-load-data"
+          videoUrl: "https://example.com/week6-save-load-data",
         },
         {
           title: "Summary",
@@ -1423,7 +1392,7 @@ int main() {
             </ul>
             <p class="mt-4">Mastering file handling is crucial for developing applications that require data persistence, such as configuration settings, user data, and logs.</p>
           `,
-          videoUrl: "https://example.com/week6-summary"
+          videoUrl: "https://example.com/week6-summary",
         },
         {
           title: "Quiz",
@@ -1438,11 +1407,11 @@ int main() {
               "std::cin",
               "std::cout",
               "std::ifstream::read",
-              "std::ofstream::write"
+              "std::ofstream::write",
             ],
-            correctAnswer: 2
-          }
-        }
+            correctAnswer: 2,
+          },
+        },
       ],
     },
     // Week 7
@@ -1463,7 +1432,7 @@ int main() {
               <li>Prepare to present your project, highlighting key features and design choices.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week7-intro"
+          videoUrl: "https://example.com/week7-intro",
         },
         {
           title: "Designing and Implementing a Comprehensive Program",
@@ -1486,10 +1455,11 @@ int main() {
               <li><strong>Sensor Data Logger (Optional Hardware Integration):</strong> Collect data from sensors via Arduino and store it using C++ programs.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week7-design-implement-project"
+          videoUrl: "https://example.com/week7-design-implement-project",
         },
         {
-          title: "Integrating Hardware (Optional for Those with Access to Microcontrollers)",
+          title:
+            "Integrating Hardware (Optional for Those with Access to Microcontrollers)",
           content: `
             <h2 class="text-2xl font-bold">Enhancing Projects with Hardware</h2>
             <p class="mt-4">If you have access to Arduino or other microcontrollers, integrating hardware components can add functionality and interactivity to your projects.</p>
@@ -1524,7 +1494,7 @@ int main() {
             </pre>
             <p class="mt-2">In a real-world scenario, you would replace the placeholders with actual sensor readings and actuator controls using Arduino libraries.</p>
           `,
-          videoUrl: "https://example.com/week7-integrating-hardware"
+          videoUrl: "https://example.com/week7-integrating-hardware",
         },
         {
           title: "Debugging, Testing, and Presenting the Final Project",
@@ -1561,7 +1531,7 @@ int main() {
               <li><strong>Conclusion:</strong> Summarize the project's achievements and potential future enhancements.</li>
             </ol>
           `,
-          videoUrl: "https://example.com/week7-debugging-testing-presentation"
+          videoUrl: "https://example.com/week7-debugging-testing-presentation",
         },
         {
           title: "Best Practices for Future Learning and Advanced Topics",
@@ -1603,7 +1573,7 @@ int main() {
               <li>Build complex projects that integrate multiple advanced concepts.</li>
             </ol>
           `,
-          videoUrl: "https://example.com/week7-best-practices"
+          videoUrl: "https://example.com/week7-best-practices",
         },
         {
           title: "Summary",
@@ -1619,7 +1589,7 @@ int main() {
             </ul>
             <p class="mt-4">Completing the final project showcases your ability to apply all the concepts learned throughout the course, preparing you for more advanced programming challenges.</p>
           `,
-          videoUrl: "https://example.com/week7-summary"
+          videoUrl: "https://example.com/week7-summary",
         },
         {
           title: "Quiz",
@@ -1629,219 +1599,23 @@ int main() {
           `,
           videoUrl: "https://example.com/week7-final-quiz",
           quiz: {
-            question: "Which of the following is a benefit of using modular programming?",
+            question:
+              "Which of the following is a benefit of using modular programming?",
             options: [
               "Increased code duplication.",
               "Improved code organization and reusability.",
               "Difficulty in debugging.",
-              "Reduced code readability."
+              "Reduced code readability.",
             ],
-            correctAnswer: 1
-          }
-        }
-      ],
-    }
-  ]
-}
-    // The rest of the code remains the same as previously provided
-    // The code below is necessary for the component to function correctly
-    export default function CoursePage() {
-        const [currentWeek, setCurrentWeek] = useState<number>(0)
-        const [currentChapter, setCurrentChapter] = useState<number>(0)
-        const [progress, setProgress] = useState<Progress>(() => {
-          if (typeof window !== 'undefined') {
-            const savedProgress = localStorage.getItem('courseProgress')
-            return savedProgress ? (JSON.parse(savedProgress) as Progress) : { week: 0, chapter: 0, completed: [] }
-          }
-          return { week: 0, chapter: 0, completed: [] }
-        })
-        const [quizAnswer, setQuizAnswer] = useState<number | null>(null)
-        const [showQuizResult, setShowQuizResult] = useState(false)
-      
-        // Memoize updateProgress to ensure it has a stable reference
-        const updateProgress = useCallback((week: number, chapter: number) => {
-          setProgress((prev) => {
-            const newCompleted = [...prev.completed]
-            const key = `${week}-${chapter}`
-            if (!newCompleted.includes(key)) {
-              newCompleted.push(key)
-            }
-            const newProgress: Progress = { week, chapter, completed: newCompleted }
-            if (typeof window !== 'undefined') {
-              localStorage.setItem('courseProgress', JSON.stringify(newProgress))
-            }
-            return newProgress
-          })
-        }, [])
-      
-        // Include updateProgress in the dependency array
-        const navigateToChapter = useCallback(
-          (weekIndex: number, chapterIndex: number) => {
-            const week = courseData.weeks[weekIndex]
-            if (week && week.chapters[chapterIndex]) {
-              setCurrentWeek(weekIndex)
-              setCurrentChapter(chapterIndex)
-              updateProgress(weekIndex, chapterIndex)
-              setQuizAnswer(null)
-              setShowQuizResult(false)
-            }
+            correctAnswer: 1,
           },
-          [updateProgress]
-        )
-      
-        useEffect(() => {
-          navigateToChapter(progress.week, progress.chapter)
-        }, [navigateToChapter, progress.week, progress.chapter])
-      
-        const previousChapter = () => {
-          if (currentChapter > 0) {
-            navigateToChapter(currentWeek, currentChapter - 1)
-          } else if (currentWeek > 0) {
-            const previousWeekIndex = currentWeek - 1
-            const previousWeek = courseData.weeks[previousWeekIndex]
-            if (previousWeek) {
-              const previousWeekLastChapterIndex = previousWeek.chapters.length - 1
-              navigateToChapter(previousWeekIndex, previousWeekLastChapterIndex)
-            }
-          }
-        }
-      
-        const nextChapter = () => {
-          const currentWeekData = courseData.weeks[currentWeek]
-          if (currentWeekData && currentChapter < currentWeekData.chapters.length - 1) {
-            navigateToChapter(currentWeek, currentChapter + 1)
-          } else if (currentWeek < courseData.weeks.length - 1) {
-            navigateToChapter(currentWeek + 1, 0)
-          }
-        }
-      
-        const calculateOverallProgress = () => {
-          const totalChapters = courseData.weeks.reduce((acc, week) => acc + week.chapters.length, 0)
-          return (progress.completed.length / totalChapters) * 100
-        }
-      
-        const handleQuizSubmit = () => {
-          setShowQuizResult(true)
-        }
-      
-        // Determine if Next and Previous buttons should be disabled
-        const isFirstChapter = currentWeek === 0 && currentChapter === 0
-        const isLastChapter =
-          currentWeek === courseData.weeks.length - 1 &&
-          currentChapter === courseData.weeks[currentWeek].chapters.length - 1
-      
-        return (
-          <div className="flex flex-col min-h-screen">
-            {/* Progress Bar */}
-            <div className="bg-gray-200 h-2">
-              <div
-                className="bg-blue-500 h-full transition-all duration-300"
-                style={{ width: `${calculateOverallProgress()}%` }}
-              />
-            </div>
-            {/* Main Content Area */}
-            <div className="flex-grow">
-              <div className="p-6">
-                <h1 className="text-4xl font-extrabold mb-6">{courseData.title}</h1>
-                <h2 className="text-3xl font-bold mb-4">
-                  {courseData.weeks[currentWeek]?.title}
-                </h2>
-                <h3 className="text-2xl font-semibold mb-4">
-                  {courseData.weeks[currentWeek]?.chapters[currentChapter]?.title}
-                </h3>
-                <Button
-                  variant="outline"
-                  className="mb-6"
-                  onClick={() =>
-                    window.open(
-                      courseData.weeks[currentWeek]?.chapters[currentChapter]?.videoUrl ?? '',
-                      '_blank'
-                    )
-                  }
-                >
-                  <Play className="h-4 w-4 mr-2" /> Watch Video
-                </Button>
-                <div
-                  className="prose max-w-none"
-                  dangerouslySetInnerHTML={{
-                    __html:
-                      courseData.weeks[currentWeek]?.chapters[currentChapter]?.content ?? '',
-                  }}
-                />
-                {courseData.weeks[currentWeek]?.chapters[currentChapter]?.quiz && (
-                  <div className="mt-8 p-6 border border-gray-300 rounded-lg">
-                    <h4 className="text-xl font-semibold mb-4">Quiz</h4>
-                    <p className="mb-4">
-                      {courseData.weeks[currentWeek]?.chapters[currentChapter]?.quiz?.question}
-                    </p>
-                    <RadioGroup
-                      value={quizAnswer?.toString() ?? ''}
-                      onValueChange={(value) => setQuizAnswer(parseInt(value))}
-                    >
-                      {courseData.weeks[currentWeek]?.chapters[currentChapter]?.quiz?.options.map(
-                        (option, index) => (
-                          <div key={index} className="flex items-center space-x-2 mb-2">
-                            <RadioGroupItem
-                              value={index.toString()}
-                              id={`option-${index}`}
-                              className="border border-gray-400 rounded-full w-4 h-4 flex items-center justify-center"
-                            >
-                              <div
-                                className={`w-2 h-2 rounded-full ${
-                                  quizAnswer === index ? 'bg-blue-600' : 'bg-transparent'
-                                }`}
-                              />
-                            </RadioGroupItem>
-                            <Label htmlFor={`option-${index}`}>{option}</Label>
-                          </div>
-                        )
-                      )}
-                    </RadioGroup>
-                    <Button onClick={handleQuizSubmit} className="mt-6" disabled={quizAnswer === null}>
-                      Submit Answer
-                    </Button>
-                    {showQuizResult && (
-                      <p
-                        className={`mt-4 ${
-                          quizAnswer ===
-                          courseData.weeks[currentWeek]?.chapters[currentChapter]?.quiz?.correctAnswer
-                            ? 'text-green-600'
-                            : 'text-red-600'
-                        }`}
-                      >
-                        {quizAnswer ===
-                        courseData.weeks[currentWeek]?.chapters[currentChapter]?.quiz?.correctAnswer
-                          ? 'Correct!'
-                          : `Incorrect. The correct answer is: ${
-                              courseData.weeks[currentWeek]?.chapters[currentChapter]?.quiz?.options[
-                                courseData.weeks[currentWeek]?.chapters[currentChapter]?.quiz
-                                  ?.correctAnswer ?? 0
-                              ]
-                            }`}
-                      </p>
-                    )}
-                  </div>
-                )}
-              </div>
-            </div>
-            {/* Navigation Buttons at the Bottom */}
-            <div className="p-4 bg-gray-100 flex justify-between items-center">
-              <Button
-                variant="ghost"
-                onClick={previousChapter}
-                disabled={isFirstChapter}
-              >
-                <ChevronLeft className="h-4 w-4 mr-2" /> Previous
-              </Button>
-              <Button
-                variant="ghost"
-                onClick={nextChapter}
-                disabled={isLastChapter}
-              >
-                Next <ChevronRight className="h-4 w-4 ml-2" />
-              </Button>
-            </div>
-          </div>
-        )
-      }
-      
+        },
+      ],
+    },
+  ],
+};
+// The rest of the code remains the same as previously provided
+// The code below is necessary for the component to function correctly
+export default function CppCoursePage() {
+  return <CoursePage courseData={CppCourseData} />;
+}
