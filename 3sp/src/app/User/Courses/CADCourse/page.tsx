@@ -3,8 +3,8 @@
 //import { useState, useEffect, useCallback } from "react";
 //import { Button } from "@/components/ui/button";
 //import { Play } from "lucide-react";
-import CoursePage from "../../../../components/CoursePage";
-import { CourseData } from "../../../../types/courseTypes";
+import CoursePage from "../../Components/CoursePage";
+import { CourseData } from "../../types/courseTypes";
 
 //import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 // import { Label } from "@/components/ui/label";

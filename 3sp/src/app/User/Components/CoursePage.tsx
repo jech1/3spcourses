@@ -1,4 +1,4 @@
-import { useCourseLogic } from "../app/hooks/useCourseLogic";
+import { useCourseLogic } from "../hooks/useCourseLogic";
 import ProgressBar from "./progressBar";
 import Quiz from "./Quiz";
 import NavigationButtons from "./NavigationButtons";

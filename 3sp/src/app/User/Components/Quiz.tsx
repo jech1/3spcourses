@@ -2,8 +2,8 @@
 
 import { Label } from "@radix-ui/react-label";
 import { RadioGroup, RadioGroupItem } from "@radix-ui/react-radio-group";
-import { Button } from "./ui/button";
-import type { Quiz } from "@/types/courseTypes";
+import { Button } from "../../../components/ui/button";
+import type { Quiz } from "@/app/User/types/courseTypes";
 
 // This code is a component that can be reused.
 const Quiz = ({

@@ -1,4 +1,4 @@
-import { CourseData } from "@/types/courseTypes";
+import { CourseData } from "@/app/User/types/courseTypes";
 import { useState, useEffect, useCallback } from "react";
 
 // This is a custom hook that will be used to manage the course progress and navigation.

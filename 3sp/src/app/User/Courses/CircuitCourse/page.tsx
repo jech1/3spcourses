@@ -1,7 +1,7 @@
 "use client";
 
-import CoursePage from "../../../../components/CoursePage";
-import { CourseData } from "../../../../types/courseTypes";
+import CoursePage from "../../Components/CoursePage";
+import { CourseData } from "../../types/courseTypes";
 
 // Complete course data with all weeks and chapters
 const CircuitCourseData: CourseData = {

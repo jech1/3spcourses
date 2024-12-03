@@ -1,5 +1,6 @@
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import { Button } from "./ui/button";
+import { Button } from "../../../components/ui/button";
+
 // This is a reusavle component that can be used in multiple places as a Navigation Button
 const NavigationButtons = ({
   isFirstChapter,

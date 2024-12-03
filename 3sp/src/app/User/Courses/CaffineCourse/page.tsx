@@ -6,8 +6,8 @@
 // import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 // import { Label } from "@/components/ui/label";
 // //import Image from 'next/image'
-import CoursePage from "../../../../components/CoursePage";
-import { CourseData } from "../../../../types/courseTypes";
+import CoursePage from "../../Components/CoursePage";
+import { CourseData } from "../../types/courseTypes";
 
 // Complete course data with all weeks and chapters
 const CaffCourseData: CourseData = {
