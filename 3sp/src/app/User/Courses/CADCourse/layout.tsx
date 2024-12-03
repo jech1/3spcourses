@@ -1,7 +1,7 @@
 "use client";
 
 import { Inter } from "next/font/google";
-import "../../global.css"; // Adjust the path if necessary
+import "../../../global.css"; // Adjust the path if necessary
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import Image from "next/image";
