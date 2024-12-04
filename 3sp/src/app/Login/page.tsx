@@ -18,37 +18,60 @@ import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { ExclamationTriangleIcon } from "@radix-ui/react-icons";
 
 export default function LoginPage() {
-  const [isLogin, setIsLogin] = useState(true);
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
-  const [confirmPassword, setConfirmPassword] = useState("");
-  const [error, setError] = useState("");
+  const [formState, setFormState] = useState({
+    email: "",
+    password: "",
+    confirmPassword: "",
+    error: "",
+  });
+  const [isLogin, setIsLogin] = useState(true); // Toggle between login and registration
   const router = useRouter();
 
+  // Handle input changes for all fields
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const { id, value } = e.target;
+    setFormState((prev) => ({ ...prev, [id]: value }));
+  };
+
+  // Form submission logic
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    setError("");
+    setFormState((prev) => ({ ...prev, error: "" }));
+
     if (isLogin) {
-      // Handle login logic here
-      setError("Invalid email or password. Please try again.");
+      // Simulate login logic
+      if (
+        formState.email === "user@example.com" &&
+        formState.password === "password"
+      ) {
+        router.push("/User/Dashboard"); // Redirect to dashboard on successful login
+      } else {
+        setFormState((prev) => ({
+          ...prev,
+          error: "Invalid email or password. Please try again.",
+        }));
+      }
     } else {
-      // Handle registration logic here
-      if (password !== confirmPassword) {
-        setError("Passwords do not match.");
+      // Simulate registration logic
+      if (formState.password !== formState.confirmPassword) {
+        setFormState((prev) => ({ ...prev, error: "Passwords do not match." }));
         return;
       }
-      setError("Registration failed. Please try again.");
+      // Simulate successful registration
+      router.push("/User/Dashboard");
     }
   };
 
+  // Toggle between login and registration forms
   const toggleForm = () => {
     setIsLogin(!isLogin);
-    setError("");
+    setFormState({ email: "", password: "", confirmPassword: "", error: "" });
   };
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-[#632a88] to-white flex items-center justify-center px-4 sm:px-6 lg:px-8">
       <Card className="w-full max-w-md">
+        {/* Header */}
         <CardHeader className="space-y-1">
           <div className="flex justify-center mb-4">
             <Image
@@ -59,8 +82,6 @@ export default function LoginPage() {
             />
           </div>
           <CardTitle className="text-2xl font-bold text-center">
-            {/* Ternary operator to display different text based on isLogin state */}
-            {/* if they need to create account , it will display Create an Account */}
             {isLogin ? "Login to 3SP Courses" : "Create an Account"}
           </CardTitle>
           <CardDescription className="text-center">
@@ -69,49 +90,40 @@ export default function LoginPage() {
               : "Sign up to start learning with 3SP Courses"}
           </CardDescription>
         </CardHeader>
+
+        {/* Form */}
         <CardContent>
           <form onSubmit={handleSubmit}>
             <div className="space-y-4">
-              <div className="space-y-2">
-                <Label htmlFor="email">Email</Label>
-                <Input
-                  id="email"
-                  type="email"
-                  placeholder="your@email.com"
-                  required
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                />
-              </div>
-              <div className="space-y-2">
-                <Label htmlFor="password">Password</Label>
-                <Input
-                  id="password"
-                  type="password"
-                  required
-                  value={password}
-                  onChange={(e) => setPassword(e.target.value)}
-                />
-              </div>
-              {/* Add confirm password field if user is registering */}
+              <FormField
+                id="email"
+                label="Email"
+                type="email"
+                value={formState.email}
+                onChange={handleChange}
+              />
+              <FormField
+                id="password"
+                label="Password"
+                type="password"
+                value={formState.password}
+                onChange={handleChange}
+              />
               {!isLogin && (
-                <div className="space-y-2">
-                  <Label htmlFor="confirmPassword">Confirm Password</Label>
-                  <Input
-                    id="confirmPassword"
-                    type="password"
-                    required
-                    value={confirmPassword}
-                    onChange={(e) => setConfirmPassword(e.target.value)}
-                  />
-                </div>
+                <FormField
+                  id="confirmPassword"
+                  label="Confirm Password"
+                  type="password"
+                  value={formState.confirmPassword}
+                  onChange={handleChange}
+                />
               )}
             </div>
-            {error && (
+            {formState.error && (
               <Alert variant="destructive" className="mt-4">
                 <ExclamationTriangleIcon className="h-4 w-4" />
                 <AlertTitle>Error</AlertTitle>
-                <AlertDescription>{error}</AlertDescription>
+                <AlertDescription>{formState.error}</AlertDescription>
               </Alert>
             )}
             <Button
@@ -122,6 +134,8 @@ export default function LoginPage() {
             </Button>
           </form>
         </CardContent>
+
+        {/* Footer */}
         <CardFooter className="flex flex-col items-center space-y-2">
           <Button variant="link" onClick={toggleForm}>
             {isLogin
@@ -133,6 +147,28 @@ export default function LoginPage() {
           </Button>
         </CardFooter>
       </Card>
+    </div>
+  );
+}
+
+// Reusable form field component
+function FormField({
+  id,
+  label,
+  type,
+  value,
+  onChange,
+}: {
+  id: string;
+  label: string;
+  type: string;
+  value: string;
+  onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
+}) {
+  return (
+    <div className="space-y-2">
+      <Label htmlFor={id}>{label}</Label>
+      <Input id={id} type={type} required value={value} onChange={onChange} />
     </div>
   );
 }
