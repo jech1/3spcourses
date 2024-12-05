@@ -9,20 +9,23 @@ export const authOptions: NextAuthOptions = {
       clientSecret: process.env.GOOGLE_CLIENT_SECRET!,
     }),
   ],
+  pages: {
+    signIn: "/login", // redirecting to custom login page
+  },
   // callbacks are used to modify the session object
   callbacks: {
     async signIn({ profile }) {
       // Allow only @bergen.edu emails
       if (profile?.email?.endsWith("@me.bergen.edu")) {
-        return true; // Allow login
+        return true; // allow login
       }
-      return false; // Reject other emails
+      return false; // reject other emails
     },
     async session({ session, token }) {
       // Attach user ID to the session object
       session.user = {
         ...session.user,
-        id: token.id as string, // Retrieve ID from the token
+        id: token.id as string, // retrieve ID from the token
       };
       return session;
     },
