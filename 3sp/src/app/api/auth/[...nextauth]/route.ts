@@ -10,7 +10,8 @@ export const authOptions: NextAuthOptions = {
     }),
   ],
   pages: {
-    signIn: "/login", // redirecting to custom login page
+    signIn: "/Login", // redirecting to custom login page
+    error: "/Login", // redirecting to custom error page
   },
   // callbacks are used to modify the session object
   callbacks: {
@@ -22,7 +23,7 @@ export const authOptions: NextAuthOptions = {
       return false; // reject other emails
     },
     async session({ session, token }) {
-      // Attach user ID to the session object
+      // attach user ID to the session object
       session.user = {
         ...session.user,
         id: token.id as string, // retrieve ID from the token
@@ -30,7 +31,7 @@ export const authOptions: NextAuthOptions = {
       return session;
     },
     async jwt({ token, account }) {
-      // Attach account or profile info to the token if available
+      // attach account or profile info to the token if available
       if (account) {
         token.id = account.providerAccountId; // Use providerAccountId as the ID
       }
