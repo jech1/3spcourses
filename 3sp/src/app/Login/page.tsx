@@ -44,7 +44,7 @@ export default function LoginPage() {
             <div className="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative mb-6">
               <strong className="font-bold">Access Denied: </strong>
               <span className="block sm:inline">
-                You must log in with an @bergen.edu email address.
+                You must log in with an @me.bergen.edu email address.
               </span>
             </div>
           )}
