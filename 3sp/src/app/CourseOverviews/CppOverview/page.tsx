@@ -130,24 +130,21 @@ export default function EnhancedCourseOverviewComponent() {
                   </AccordionTrigger>
                   <AccordionContent>
                     <ul className="list-disc pl-5 space-y-2">
-                      <li>Chapter 1: Introduction</li>
+                      <li>1.1 Introduction</li>
                       <li>
-                        Chapter 1: Setting up Visual Studio Code and configuring
-                        the environment
+                        1.2 Setting up Visual Studio Code and configuring the
+                        environment
                       </li>
                       <li>
-                        Chapter 1: Introduction to the terminal and basic
-                        commands
+                        1.3 Introduction to the terminal and basic commands
                       </li>
                       <li>
-                        Chapter 1: Understanding variables, data types, and
+                        1.4 Understanding variables, data types, and
                         constants
                       </li>
-                      <li>
-                        Chapter 1: Producing outputs and handling user input
-                      </li>
-                      <li>Chapter 1: Summary </li>
-                      <li>Chapter 1: Quiz </li>
+                      <li>1.5 Producing outputs and handling user input</li>
+                      <li>1.6 Summary</li>
+                      <li>1.7 Quiz</li>
                     </ul>
                   </AccordionContent>
                 </AccordionItem>
@@ -157,23 +154,19 @@ export default function EnhancedCourseOverviewComponent() {
                   </AccordionTrigger>
                   <AccordionContent>
                     <ul className="list-disc pl-5 space-y-2">
-                      <li>Chapter 2: Introduction</li>
+                      <li>2.1 Introduction</li>
                       <li>
-                        Chapter 2: Introduction to arrays and their importance
+                        2.2 Introduction to arrays and their importance
                       </li>
                       <li>
-                        Chapter 2: Declaring, initializing, and accessing arrays
+                        2.3 Declaring, initializing, and accessing arrays
                       </li>
                       <li>
-                        Chapter 2: Multi-dimensional arrays and their
-                        applications
+                        2.4 Multi-dimensional arrays and their applications
                       </li>
-                      <li>
-                        Chapter 2: Common array operations like searching and
-                        sorting
-                      </li>
-                      <li>Chapter 2: Summary </li>
-                      <li>Chapter 2: Quiz </li>
+                      <li>2.5 Common array operations like searching and sorting</li>
+                      <li>2.6 Summary</li>
+                      <li>2.7 Quiz</li>
                     </ul>
                   </AccordionContent>
                 </AccordionItem>
@@ -183,21 +176,19 @@ export default function EnhancedCourseOverviewComponent() {
                   </AccordionTrigger>
                   <AccordionContent>
                     <ul className="list-disc pl-5 space-y-2">
-                      <li>Chapter 3: Introduction</li>
-                      <li>Chapter 3: Defining and calling functions</li>
+                      <li>3.1 Introduction</li>
+                      <li>3.2 Defining and calling functions</li>
                       <li>
-                        Chapter 3: Function arguments, return types, and scope
+                        3.3 Function arguments, return types, and scope
                       </li>
                       <li>
-                        Chapter 3: Breaking programs into modules for better
-                        organization
+                        3.4 Breaking programs into modules for better organization
                       </li>
                       <li>
-                        Chapter 3: Benefits of modular programming for
-                        scalability
+                        3.5 Benefits of modular programming for scalability
                       </li>
-                      <li>Chapter 3: Summary </li>
-                      <li>Chapter 3: Quiz </li>
+                      <li>3.6 Summary</li>
+                      <li>3.7 Quiz</li>
                     </ul>
                   </AccordionContent>
                 </AccordionItem>
@@ -207,20 +198,18 @@ export default function EnhancedCourseOverviewComponent() {
                   </AccordionTrigger>
                   <AccordionContent>
                     <ul className="list-disc pl-5 space-y-2">
-                      <li>Chapter 4: Introduction</li>
+                      <li>4.1 Introduction</li>
                       <li>
-                        Chapter 4: Combining arrays with functions to solve
-                        complex problems
+                        4.2 Combining arrays with functions to solve complex problems
                       </li>
                       <li>
-                        Chapter 4: Building small modular projects using all
-                        covered concepts
+                        4.3 Building small modular projects using all covered concepts
                       </li>
                       <li>
-                        Chapter 4: Debugging and refining code for efficiency
+                        4.4 Debugging and refining code for efficiency
                       </li>
-                      <li>Chapter 4: Summary </li>
-                      <li>Chapter 4: Quiz </li>
+                      <li>4.5 Summary</li>
+                      <li>4.6 Quiz</li>
                     </ul>
                   </AccordionContent>
                 </AccordionItem>
@@ -230,25 +219,21 @@ export default function EnhancedCourseOverviewComponent() {
                   </AccordionTrigger>
                   <AccordionContent>
                     <ul className="list-disc pl-5 space-y-2">
-                      <li>Chapter 5: Introduction</li>
+                      <li>5.1 Introduction</li>
                       <li>
-                        Chapter 5: Introduction to Arduino IDE and basic
-                        hardware setup
+                        5.2 Introduction to Arduino IDE and basic hardware setup
                       </li>
                       <li>
-                        Chapter 5: Writing and uploading C++ programs to
-                        microcontrollers
+                        5.3 Writing and uploading C++ programs to microcontrollers
                       </li>
                       <li>
-                        Chapter 5: Reading input from sensors and controlling
-                        output devices
+                        5.4 Reading input from sensors and controlling output devices
                       </li>
                       <li>
-                        Chapter 5: Exploring practical applications with
-                        hardware integration
+                        5.5 Exploring practical applications with hardware integration
                       </li>
-                      <li>Chapter 5: Summary </li>
-                      <li>Chapter 5: Quiz </li>
+                      <li>5.6 Summary</li>
+                      <li>5.7 Quiz</li>
                     </ul>
                   </AccordionContent>
                 </AccordionItem>
@@ -258,18 +243,17 @@ export default function EnhancedCourseOverviewComponent() {
                   </AccordionTrigger>
                   <AccordionContent>
                     <ul className="list-disc pl-5 space-y-2">
-                      <li>Chapter 6: Introduction</li>
-                      <li>Chapter 6: Reading from and writing to files</li>
+                      <li>6.1 Introduction</li>
+                      <li>6.2 Reading from and writing to files</li>
                       <li>
-                        Chapter 6: Using file streams for data storage and
-                        retrieval
+                        6.3 Using file streams for data storage and retrieval
                       </li>
-                      <li>Chapter 6: Error handling in file operations</li>
+                      <li>6.4 Error handling in file operations</li>
                       <li>
-                        Chapter 6: Building programs that save and load data
+                        6.5 Building programs that save and load data
                       </li>
-                      <li>Chapter 6: Summary </li>
-                      <li>Chapter 6: Quiz </li>
+                      <li>6.6 Summary</li>
+                      <li>6.7 Quiz</li>
                     </ul>
                   </AccordionContent>
                 </AccordionItem>
@@ -277,25 +261,21 @@ export default function EnhancedCourseOverviewComponent() {
                   <AccordionTrigger>Week 7: Final Project </AccordionTrigger>
                   <AccordionContent>
                     <ul className="list-disc pl-5 space-y-2">
-                      <li>Chapter 7: Introduction</li>
+                      <li>7.1 Introduction</li>
                       <li>
-                        Chapter 7: Designing and implementing a comprehensive
-                        program that combines all concepts
+                        7.2 Designing and implementing a comprehensive program that combines all concepts
                       </li>
                       <li>
-                        Chapter 7: Integrating hardware (optional for those with
-                        access to microcontrollers)
+                        7.3 Integrating hardware (optional for those with access to microcontrollers)
                       </li>
                       <li>
-                        Chapter 7: Debugging, testing, and presenting the final
-                        project
+                        7.4 Debugging, testing, and presenting the final project
                       </li>
                       <li>
-                        Chapter 6: Best practices for future learning and
-                        advanced topics
+                        7.5 Best practices for future learning and advanced topics
                       </li>
-                      <li>Chapter 7: Summary </li>
-                      <li>Chapter 7: Quiz </li>
+                      <li>7.6 Summary</li>
+                      <li>7.7 Quiz</li>
                     </ul>
                   </AccordionContent>
                 </AccordionItem>

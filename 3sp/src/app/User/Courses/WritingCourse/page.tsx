@@ -11,7 +11,7 @@ const WritingCourseData: CourseData = {
       title: "Week 1: Introduction to Scientific Writing",
       chapters: [
         {
-          title: "Introduction",
+          title: "Chapter 1.1: Introduction",
           content: `
               <h2 class="text-2xl font-bold">Welcome to Scientific Writing & Grant Proposal</h2>
               <p class="mt-4">Scientific writing is a crucial skill for researchers, academics, and professionals in various scientific fields. This course will guide you through the intricacies of effective scientific communication, from crafting research papers to writing compelling grant proposals.</p>
@@ -29,10 +29,9 @@ const WritingCourseData: CourseData = {
                 <img src="/researchlogo3sp.png" alt="Course structure diagram" width="500" height="300" />
               </div>
             `,
-          videoUrl: "https://example.com/week1-intro",
         },
         {
-          title: "Understanding the Purpose of Scientific Writing",
+          title: "Chapter 1.2: Understanding the Purpose of Scientific Writing",
           content: `
               <h2 class="text-2xl font-bold">The Purpose of Scientific Writing</h2>
               <p class="mt-4">Scientific writing serves multiple crucial purposes in the academic and research world:</p>
@@ -51,10 +50,9 @@ const WritingCourseData: CourseData = {
               </ul>
               <p class="mt-4">Throughout this course, we'll delve deeper into each of these characteristics and learn how to apply them effectively in your writing.</p>
             `,
-          videoUrl: "https://example.com/week1-purpose",
         },
         {
-          title: "Key Components of a Research Paper",
+          title: "Chapter 1.3: Key Components of a Research Paper",
           content: `
               <h2 class="text-2xl font-bold">Understanding the Structure</h2>
               <p class="mt-4">A typical scientific research paper follows a standardized structure, often referred to as IMRaD:</p>
@@ -107,10 +105,9 @@ const WritingCourseData: CourseData = {
                 </tbody>
               </table>
             `,
-          videoUrl: "https://example.com/week1-key-components",
         },
         {
-          title: "Differences Between Academic and General Writing Styles",
+          title: "Chapter 1.4: Differences Between Academic and General Writing Styles",
           content: `
               <h2 class="text-2xl font-bold">Academic vs. General Writing</h2>
               <p class="mt-4">Academic writing differs from general writing in several key ways:</p>
@@ -164,10 +161,9 @@ const WritingCourseData: CourseData = {
               <h3 class="text-xl font-semibold mt-6">Summary:</h3>
               <p class="mt-4">Recognizing these differences helps in adopting the appropriate style for your scientific writing.</p>
             `,
-          videoUrl: "https://example.com/week1-academic-vs-general",
         },
         {
-          title: "Planning and Organizing Your Writing",
+          title: "Chapter 1.5: Planning and Organizing Your Writing",
           content: `
               <h2 class="text-2xl font-bold">Effective Planning Strategies</h2>
               <p class="mt-4">Proper planning and organization are essential for coherent and impactful scientific writing. Here are some steps to guide you:</p>
@@ -243,10 +239,9 @@ const WritingCourseData: CourseData = {
               <h3 class="text-xl font-semibold mt-6">Summary:</h3>
               <p class="mt-4">Effective planning and organization streamline the writing process and enhance the clarity of your scientific paper.</p>
             `,
-          videoUrl: "https://example.com/week1-planning",
         },
         {
-          title: "Summary",
+          title: "Chapter 1.6: Summary",
           content: `
               <h2 class="text-2xl font-bold">Week 1 Summary: Introduction to Scientific Writing</h2>
               <p class="mt-4">This week, we've covered the fundamentals of scientific writing:</p>
@@ -258,15 +253,13 @@ const WritingCourseData: CourseData = {
               </ul>
               <p class="mt-4">These foundational concepts will support your progress throughout the course as we delve deeper into each aspect of scientific writing.</p>
             `,
-          videoUrl: "https://example.com/week1-summary",
         },
         {
-          title: "Quiz",
+          title: "Chapter 1.7: Quiz",
           content: `
               <h2 class="text-2xl font-bold">Test Your Understanding</h2>
               <p class="mt-4">Assess your grasp of the key concepts from this week.</p>
             `,
-          videoUrl: "https://example.com/week1-quiz",
           quiz: {
             question:
               "Which section of a research paper is typically NOT part of the IMRaD structure?",
@@ -280,7 +273,7 @@ const WritingCourseData: CourseData = {
       title: "Week 2: Crafting Research Questions and Hypotheses",
       chapters: [
         {
-          title: "Introduction",
+          title: "Chapter 2.1: Introduction",
           content: `
               <h2 class="text-2xl font-bold">The Foundation of Scientific Inquiry</h2>
               <p class="mt-4">Research questions and hypotheses are central to the scientific method. They define the focus of your study and guide your research design and analysis.</p>
@@ -291,10 +284,9 @@ const WritingCourseData: CourseData = {
                 <li>Develop testable hypotheses.</li>
               </ul>
             `,
-          videoUrl: "https://example.com/week2-intro",
         },
         {
-          title: "Identifying Research Gaps and Formulating Questions",
+          title: "Chapter 2.2: Identifying Research Gaps and Formulating Questions",
           content: `
               <h2 class="text-2xl font-bold">Finding Your Research Niche</h2>
               <p class="mt-4">Identifying research gaps involves reviewing existing literature to find areas that are under-explored or contentious. Here's how to proceed:</p>
@@ -323,10 +315,9 @@ const WritingCourseData: CourseData = {
                 <li>Consider the feasibility of researching the question.</li>
               </ul>
             `,
-          videoUrl: "https://example.com/week2-identifying-gaps",
         },
         {
-          title: "Writing Clear and Testable Hypotheses",
+          title: "Chapter 2.3: Writing Clear and Testable Hypotheses",
           content: `
               <h2 class="text-2xl font-bold">Formulating Your Hypotheses</h2>
               <p class="mt-4">A hypothesis is a tentative explanation or prediction that can be tested through research. Here's how to write effective hypotheses:</p>
@@ -365,18 +356,9 @@ const WritingCourseData: CourseData = {
                 <li>Ensure your hypothesis is grounded in theory or existing literature.</li>
               </ul>
             `,
-          videoUrl: "https://example.com/week2-writing-hypotheses",
         },
         {
-          title: "Responsive Design Principles",
-          content: `
-              <h2 class="text-2xl font-bold">Note: This Chapter May Be Misplaced</h2>
-              <p class="mt-4">It seems there might be an error in the chapter listing. "Responsive Design Principles" typically pertains to web design, which may not align with the context of scientific writing. If this chapter is intended, please provide additional details or confirm its inclusion.</p>
-            `,
-          videoUrl: "https://example.com/week2-responsive-design",
-        },
-        {
-          title: "Summary",
+          title: "Chapter 2.4: Summary",
           content: `
               <h2 class="text-2xl font-bold">Week 2 Summary: Crafting Research Questions and Hypotheses</h2>
               <p class="mt-4">This week, we've focused on:</p>
@@ -387,15 +369,13 @@ const WritingCourseData: CourseData = {
               </ul>
               <p class="mt-4">These skills are essential for designing a solid research study and contributing meaningful knowledge to your field.</p>
             `,
-          videoUrl: "https://example.com/week2-summary",
         },
         {
-          title: "Quiz",
+          title: "Chapter 2.5: Quiz",
           content: `
               <h2 class="text-2xl font-bold">Test Your Understanding</h2>
               <p class="mt-4">Assess your grasp of the key concepts from this week.</p>
             `,
-          videoUrl: "https://example.com/week2-quiz",
           quiz: {
             question:
               "Which of the following is a characteristic of a good research question?",
@@ -408,13 +388,21 @@ const WritingCourseData: CourseData = {
             correctAnswer: 1,
           },
         },
+        // Remove the misplaced chapter if necessary
+        // {
+        //   title: "Chapter 2.6: Responsive Design Principles",
+        //   content: `
+        //       <h2 class="text-2xl font-bold">Note: This Chapter May Be Misplaced</h2>
+        //       <p class="mt-4">It seems there might be an error in the chapter listing. "Responsive Design Principles" typically pertains to web design, which may not align with the context of scientific writing. If this chapter is intended, please provide additional details or confirm its inclusion.</p>
+        //     `,
+        // },
       ],
     },
     {
       title: "Week 3: Literature Review and Citation Management",
       chapters: [
         {
-          title: "Introduction",
+          title: "Chapter 3.1: Introduction",
           content: `
               <h2 class="text-2xl font-bold">The Importance of Literature Review and Citation Management</h2>
               <p class="mt-4">A well-conducted literature review is the foundation of any research project. It helps you understand the current state of knowledge, identify gaps, and position your research within the existing body of work.</p>
@@ -426,10 +414,9 @@ const WritingCourseData: CourseData = {
                 <li>Develop skills in citation management to avoid plagiarism.</li>
               </ul>
             `,
-          videoUrl: "https://example.com/week3-intro",
         },
         {
-          title: "Conducting a Thorough Literature Review",
+          title: "Chapter 3.2: Conducting a Thorough Literature Review",
           content: `
               <h2 class="text-2xl font-bold">Steps to an Effective Literature Review</h2>
               <p class="mt-4">A comprehensive literature review involves several key steps:</p>
@@ -464,10 +451,9 @@ const WritingCourseData: CourseData = {
                 <li>Regularly update your literature review as new studies are published.</li>
               </ul>
             `,
-          videoUrl: "https://example.com/week3-literature-review",
         },
         {
-          title: "Summarizing and Synthesizing Sources",
+          title: "Chapter 3.3: Summarizing and Synthesizing Sources",
           content: `
               <h2 class="text-2xl font-bold">From Individual Studies to a Cohesive Narrative</h2>
               <p class="mt-4">Summarizing and synthesizing are essential skills for creating a literature review that offers value to your readers.</p>
@@ -496,10 +482,9 @@ const WritingCourseData: CourseData = {
                 <li>Ensure that your synthesis supports your research question.</li>
               </ul>
             `,
-          videoUrl: "https://example.com/week3-summarizing-synthesizing",
         },
         {
-          title: "Proper Citation Techniques and Avoiding Plagiarism",
+          title: "Chapter 3.4: Proper Citation Techniques and Avoiding Plagiarism",
           content: `
               <h2 class="text-2xl font-bold">Ethical Writing Practices</h2>
               <p class="mt-4">Proper citation is crucial to acknowledge others' work and avoid plagiarism.</p>
@@ -531,10 +516,9 @@ const WritingCourseData: CourseData = {
                 <li>Always check with your institution's guidelines.</li>
               </ul>
             `,
-          videoUrl: "https://example.com/week3-citation",
         },
         {
-          title: "Summary",
+          title: "Chapter 3.5: Summary",
           content: `
               <h2 class="text-2xl font-bold">Week 3 Summary: Literature Review and Citation Management</h2>
               <p class="mt-4">This week, you've learned:</p>
@@ -546,15 +530,13 @@ const WritingCourseData: CourseData = {
               </ul>
               <p class="mt-4">These skills will help you build a solid foundation for your research and ensure that your work is ethically sound.</p>
             `,
-          videoUrl: "https://example.com/week3-summary",
         },
         {
-          title: "Quiz",
+          title: "Chapter 3.6: Quiz",
           content: `
               <h2 class="text-2xl font-bold">Test Your Understanding</h2>
               <p class="mt-4">Assess your grasp of the key concepts from this week.</p>
             `,
-          videoUrl: "https://example.com/week3-quiz",
           quiz: {
             question:
               "Which of the following practices helps you avoid plagiarism?",
@@ -574,7 +556,7 @@ const WritingCourseData: CourseData = {
       title: "Week 4: Writing Methods and Results Sections",
       chapters: [
         {
-          title: "Introduction",
+          title: "Chapter 4.1: Introduction",
           content: `
               <h2 class="text-2xl font-bold">Presenting Your Research Process and Findings</h2>
               <p class="mt-4">The Methods and Results sections are critical components of your research paper, providing transparency and credibility to your study.</p>
@@ -585,10 +567,9 @@ const WritingCourseData: CourseData = {
                 <li>Recognize the importance of reproducibility in research.</li>
               </ul>
             `,
-          videoUrl: "https://example.com/week4-intro",
         },
         {
-          title: "Describing Methodologies Clearly and Concisely",
+          title: "Chapter 4.2: Describing Methodologies Clearly and Concisely",
           content: `
               <h2 class="text-2xl font-bold">Crafting the Methods Section</h2>
               <p class="mt-4">The Methods section should provide enough detail for another researcher to replicate your study.</p>
@@ -608,10 +589,9 @@ const WritingCourseData: CourseData = {
               <h3 class="text-xl font-semibold mt-6">Example Excerpt:</h3>
               <p class="mt-4">"A total of 200 participants were recruited from the university. Participants completed a survey consisting of 50 questions assessing their study habits. Data were analyzed using SPSS version 25."</p>
             `,
-          videoUrl: "https://example.com/week4-methods-writing",
         },
         {
-          title: "Writing an Accurate Results Section",
+          title: "Chapter 4.3: Writing an Accurate Results Section",
           content: `
               <h2 class="text-2xl font-bold">Presenting Your Findings</h2>
               <p class="mt-4">The Results section should report your findings without interpretation.</p>
@@ -630,10 +610,9 @@ const WritingCourseData: CourseData = {
               <h3 class="text-xl font-semibold mt-6">Example Excerpt:</h3>
               <p class="mt-4">"The analysis revealed a significant correlation between study time and exam scores (r = 0.65, p &lt; 0.01). Participants who studied more than 10 hours per week scored, on average, 15% higher than those who studied less."</p>
             `,
-          videoUrl: "https://example.com/week4-results-writing",
         },
         {
-          title: "Summary",
+          title: "Chapter 4.4: Summary",
           content: `
               <h2 class="text-2xl font-bold">Week 4 Summary: Writing Methods and Results Sections</h2>
               <p class="mt-4">This week, you've learned how to:</p>
@@ -644,15 +623,13 @@ const WritingCourseData: CourseData = {
               </ul>
               <p class="mt-4">Mastering these sections enhances the credibility and reliability of your research.</p>
             `,
-          videoUrl: "https://example.com/week4-summary",
         },
         {
-          title: "Quiz",
+          title: "Chapter 4.5: Quiz",
           content: `
               <h2 class="text-2xl font-bold">Test Your Understanding</h2>
               <p class="mt-4">Assess your grasp of the key concepts from this week.</p>
             `,
-          videoUrl: "https://example.com/week4-quiz",
           quiz: {
             question:
               "Which of the following should NOT be included in the Results section?",
@@ -672,7 +649,7 @@ const WritingCourseData: CourseData = {
       title: "Week 5: Crafting a Strong Discussion Section",
       chapters: [
         {
-          title: "Introduction",
+          title: "Chapter 5.1: Introduction",
           content: `
               <h2 class="text-2xl font-bold">Interpreting Your Findings</h2>
               <p class="mt-4">The Discussion section is where you interpret your results, discuss their implications, and place them in the context of existing research.</p>
@@ -683,10 +660,9 @@ const WritingCourseData: CourseData = {
                 <li>Recognize how to acknowledge limitations and suggest future research.</li>
               </ul>
             `,
-          videoUrl: "https://example.com/week5-intro",
         },
         {
-          title: "Interpreting Results and Drawing Conclusions",
+          title: "Chapter 5.2: Interpreting Results and Drawing Conclusions",
           content: `
               <h2 class="text-2xl font-bold">Making Sense of Your Data</h2>
               <p class="mt-4">In this chapter, we'll explore how to interpret your results effectively.</p>
@@ -706,10 +682,9 @@ const WritingCourseData: CourseData = {
               <h3 class="text-xl font-semibold mt-6">Example Excerpt:</h3>
               <p class="mt-4">"Our findings suggest that increased screen time is significantly associated with reduced sleep quality among teenagers, supporting the hypothesis and aligning with Smith's (2020) study on digital media impact."</p>
             `,
-          videoUrl: "https://example.com/week5-interpreting-results",
         },
         {
-          title: "Discussing Implications and Limitations",
+          title: "Chapter 5.3: Discussing Implications and Limitations",
           content: `
               <h2 class="text-2xl font-bold">Acknowledging the Bigger Picture</h2>
               <p class="mt-4">Discussing the implications and limitations provides context and credibility to your research.</p>
@@ -733,10 +708,9 @@ const WritingCourseData: CourseData = {
               <h3 class="text-xl font-semibold mt-6">Example Excerpt:</h3>
               <p class="mt-4">"While our study provides valuable insights into adolescent sleep patterns, the reliance on self-reported data may introduce bias. Future research could employ objective sleep tracking to validate these findings."</p>
             `,
-          videoUrl: "https://example.com/week5-implications-limitations",
         },
         {
-          title: "Suggesting Areas for Future Research",
+          title: "Chapter 5.4: Suggesting Areas for Future Research",
           content: `
               <h2 class="text-2xl font-bold">Looking Ahead</h2>
               <p class="mt-4">Suggesting future research areas demonstrates the ongoing relevance of your topic.</p>
@@ -754,10 +728,9 @@ const WritingCourseData: CourseData = {
               <h3 class="text-xl font-semibold mt-6">Example Excerpt:</h3>
               <p class="mt-4">"Future studies should explore the impact of specific types of social media content on sleep quality, as well as potential moderating factors such as physical activity levels."</p>
             `,
-          videoUrl: "https://example.com/week5-future-research",
         },
         {
-          title: "Summary",
+          title: "Chapter 5.5: Summary",
           content: `
               <h2 class="text-2xl font-bold">Week 5 Summary: Crafting a Strong Discussion Section</h2>
               <p class="mt-4">This week, we've focused on:</p>
@@ -769,15 +742,13 @@ const WritingCourseData: CourseData = {
               </ul>
               <p class="mt-4">A well-crafted Discussion section strengthens the overall impact of your research paper.</p>
             `,
-          videoUrl: "https://example.com/week5-summary",
         },
         {
-          title: "Quiz",
+          title: "Chapter 5.6: Quiz",
           content: `
               <h2 class="text-2xl font-bold">Test Your Understanding</h2>
               <p class="mt-4">Assess your grasp of the key concepts from this week.</p>
             `,
-          videoUrl: "https://example.com/week5-quiz",
           quiz: {
             question:
               "Which of the following should NOT be included in the Discussion section?",
@@ -797,7 +768,7 @@ const WritingCourseData: CourseData = {
       title: "Week 6: Grant Proposal Writing",
       chapters: [
         {
-          title: "Introduction",
+          title: "Chapter 6.1: Introduction",
           content: `
               <h2 class="text-2xl font-bold">Securing Funding for Your Research</h2>
               <p class="mt-4">Writing a compelling grant proposal is essential for obtaining funding. This week, we'll explore how to craft proposals that stand out to funding agencies.</p>
@@ -808,10 +779,9 @@ const WritingCourseData: CourseData = {
                 <li>Develop skills to articulate the significance and feasibility of your research.</li>
               </ul>
             `,
-          videoUrl: "https://example.com/week6-intro",
         },
         {
-          title: "Understanding Funding Agencies and Requirements",
+          title: "Chapter 6.2: Understanding Funding Agencies and Requirements",
           content: `
               <h2 class="text-2xl font-bold">Aligning with Funder Priorities</h2>
               <p class="mt-4">Different funding agencies have specific missions and priorities. Understanding these is crucial to tailor your proposal effectively.</p>
@@ -833,10 +803,9 @@ const WritingCourseData: CourseData = {
                 <li>Use terminology that resonates with the agency's mission.</li>
               </ul>
             `,
-          videoUrl: "https://example.com/week6-funding-agencies",
         },
         {
-          title: "Components of a Successful Grant Proposal",
+          title: "Chapter 6.3: Components of a Successful Grant Proposal",
           content: `
               <h2 class="text-2xl font-bold">Building Blocks of Your Proposal</h2>
               <p class="mt-4">A typical grant proposal includes several key components:</p>
@@ -875,10 +844,9 @@ const WritingCourseData: CourseData = {
                 <li>Cite all sources used in your proposal.</li>
               </ul>
             `,
-          videoUrl: "https://example.com/week6-proposal-components",
         },
         {
-          title: "Writing Persuasively and Effectively",
+          title: "Chapter 6.4: Writing Persuasively and Effectively",
           content: `
               <h2 class="text-2xl font-bold">Convincing Funders of Your Project's Merit</h2>
               <p class="mt-4">Your writing style plays a significant role in persuading funders to support your project.</p>
@@ -898,10 +866,9 @@ const WritingCourseData: CourseData = {
               <h3 class="text-xl font-semibold mt-6">Example Phraseology:</h3>
               <p class="mt-4">"This project addresses a critical need in the field of public health by developing a scalable intervention that can reduce the incidence of disease X among vulnerable populations."</p>
             `,
-          videoUrl: "https://example.com/week6-persuasive-writing",
         },
         {
-          title: "Summary",
+          title: "Chapter 6.5: Summary",
           content: `
               <h2 class="text-2xl font-bold">Week 6 Summary: Grant Proposal Writing</h2>
               <p class="mt-4">This week, we've explored:</p>
@@ -912,15 +879,13 @@ const WritingCourseData: CourseData = {
               </ul>
               <p class="mt-4">Applying these principles increases your chances of securing funding for your research.</p>
             `,
-          videoUrl: "https://example.com/week6-summary",
         },
         {
-          title: "Quiz",
+          title: "Chapter 6.6: Quiz",
           content: `
               <h2 class="text-2xl font-bold">Test Your Understanding</h2>
               <p class="mt-4">Assess your grasp of the key concepts from this week.</p>
             `,
-          videoUrl: "https://example.com/week6-quiz",
           quiz: {
             question:
               "Which of the following is NOT typically a component of a grant proposal?",
@@ -935,13 +900,12 @@ const WritingCourseData: CourseData = {
         },
       ],
     },
-
     // Week 7
     {
       title: "Week 7: Revising, Editing, and Peer Review",
       chapters: [
         {
-          title: "Introduction",
+          title: "Chapter 7.1: Introduction",
           content: `
               <h2 class="text-2xl font-bold">Refining Your Work for Publication</h2>
               <p class="mt-4">The final week focuses on the crucial steps of revising, editing, and understanding the peer review process. These steps are essential to ensure your work is polished and ready for publication.</p>
@@ -952,10 +916,9 @@ const WritingCourseData: CourseData = {
                 <li>Develop skills to respond constructively to feedback.</li>
               </ul>
             `,
-          videoUrl: "https://example.com/week7-intro",
         },
         {
-          title: "Effective Revising and Editing Techniques",
+          title: "Chapter 7.2: Effective Revising and Editing Techniques",
           content: `
               <h2 class="text-2xl font-bold">Polishing Your Manuscript</h2>
               <p class="mt-4">Revising and editing are iterative processes that enhance the clarity, coherence, and overall quality of your manuscript.</p>
@@ -986,10 +949,9 @@ const WritingCourseData: CourseData = {
                 <li>Is the abstract concise and informative?</li>
               </ul>
             `,
-          videoUrl: "https://example.com/week7-revising-editing",
         },
         {
-          title: "Understanding the Peer Review Process",
+          title: "Chapter 7.3: Understanding the Peer Review Process",
           content: `
               <h2 class="text-2xl font-bold">Navigating Peer Review</h2>
               <p class="mt-4">Peer review is a fundamental part of scholarly publishing, ensuring the quality and integrity of academic work.</p>
@@ -1019,10 +981,9 @@ const WritingCourseData: CourseData = {
                 <li>Be prepared for multiple rounds of revision.</li>
               </ul>
             `,
-          videoUrl: "https://example.com/week7-peer-review",
         },
         {
-          title: "Responding to Feedback and Revisions",
+          title: "Chapter 7.4: Responding to Feedback and Revisions",
           content: `
               <h2 class="text-2xl font-bold">Embracing Constructive Criticism</h2>
               <p class="mt-4">Responding effectively to reviewers' comments is crucial for the success of your manuscript.</p>
@@ -1049,10 +1010,9 @@ const WritingCourseData: CourseData = {
                 <li>Keep track of all changes for transparency.</li>
               </ul>
             `,
-          videoUrl: "https://example.com/week7-responding-feedback",
         },
         {
-          title: "Summary",
+          title: "Chapter 7.5: Summary",
           content: `
               <h2 class="text-2xl font-bold">Week 7 Summary: Revising, Editing, and Peer Review</h2>
               <p class="mt-4">In this final week, we've covered:</p>
@@ -1063,15 +1023,13 @@ const WritingCourseData: CourseData = {
               </ul>
               <p class="mt-4">Mastering these skills ensures that your research is presented in the best possible light and increases the likelihood of publication success.</p>
             `,
-          videoUrl: "https://example.com/week7-summary",
         },
         {
-          title: "Final Quiz",
+          title: "Chapter 7.6: Final Quiz",
           content: `
               <h2 class="text-2xl font-bold">Final Assessment</h2>
               <p class="mt-4">Test your comprehensive understanding of the concepts covered throughout the course.</p>
             `,
-          videoUrl: "https://example.com/week7-quiz",
           quiz: {
             question:
               "Which of the following is the most appropriate way to respond to a reviewer's criticism you disagree with?",
@@ -1086,9 +1044,139 @@ const WritingCourseData: CourseData = {
         },
       ],
     },
-    // You can now close the courseData object if it's the last week
+    {
+      title: "Final Week: Research and Grant Proposal Assignments",
+      chapters: [
+        {
+          title: "Chapter 8.1: Introduction to Final Assignments",
+          content: `
+            <h2 class="text-2xl font-bold">Introduction to Final Assignments</h2>
+            <p class="mt-4">As we conclude the course, you'll engage in two major assignments: the first draft of your grant proposal and the final paper. These assignments are designed to synthesize your learning and demonstrate your ability to conduct and present scientific research effectively.</p>
+            <h3 class="text-xl font-semibold mt-6">Assignment Overview:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li><strong>First Draft of Grant Proposal:</strong> Develop a comprehensive grant proposal outlining your experimental idea.</li>
+              <li><strong>Final Paper:</strong> Refine and submit the final version of your grant proposal.</li>
+            </ul>
+            <p class="mt-4">Both assignments will be assessed based on their adherence to scientific standards, clarity, originality, and overall quality.</p>
+          `,
+        },
+        {
+          title: "Chapter 8.2: First Draft of Grant Proposal Assignment",
+          content: `
+            <h2 class="text-2xl font-bold">First Draft of Grant Proposal</h2>
+            <p class="mt-4">This assignment requires you to submit the first draft of your grant proposal. The draft will be evaluated to provide feedback that will help you improve your final submission.</p>
+            <h3 class="text-xl font-semibold mt-6">Assignment Components:</h3>
+            <ol class="list-decimal list-inside mt-2">
+              <li>
+                <strong>Research and Grant Proposal</strong> (Total: <strong>125 Points</strong>)
+                <ul class="list-disc list-inside mt-2">
+                  <li><strong>Research and Grant Proposal Paper:</strong> 100 Points</li>
+                  <li><strong>Peer Review:</strong> 25 Points</li>
+                </ul>
+              </li>
+            </ol>
+            <h3 class="text-xl font-semibold mt-6">Grading Criteria:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li><strong>Literature Review (30 Points):</strong> Comprehensive review of at least 10 recent scientific studies relevant to your topic. Demonstrates understanding and logical extension of existing knowledge.</li>
+              <li><strong>Experimental Design (40 Points):</strong> Detailed and precise description of your proposed experiments. Includes methodology, controls, variables, and data collection plans.</li>
+              <li><strong>Possible Outcomes (20 Points):</strong> Clear outline of potential results and their implications. Discusses how each outcome supports or refutes your hypotheses.</li>
+              <li><strong>Formatting and Citations (15 Points):</strong> Proper APA or Chicago citation style. Clear and professional formatting, free of grammatical and typographical errors.</li>
+              <li><strong>Peer Review Participation (25 Points):</strong> Constructive feedback provided to at least two peers. Demonstrates engagement and understanding of grant proposal standards.</li>
+            </ul>
+            <h3 class="text-xl font-semibold mt-6">Submission Guidelines:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li><strong>Due Date:</strong> November 21, 2024 (004) or November 22, 2024 (005) by 11:59 PM.</li>
+              <li><strong>Format:</strong> Microsoft Word or PDF.</li>
+              <li><strong>Submission:</strong> Upload to Canvas and submit a printed copy to the instructor.</li>
+              <li><strong>Late Submissions:</strong> No late submissions will be accepted. A zero will be assigned for late papers.</li>
+            </ul>
+            <h3 class="text-xl font-semibold mt-6">Important Notes:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li>Ensure your paper is free from plagiarism. Properly cite all sources.</li>
+              <li>Only group leaders should submit the grant proposals. Individual submissions will not be graded.</li>
+              <li>Maintain high standards of grammar and spelling. Papers with significant errors may receive a failing grade.</li>
+            </ul>
+          `,
+        },
+        {
+          title: "Chapter 8.3: Final Paper",
+          content: `
+            <h2 class="text-2xl font-bold">Final Paper</h2>
+            <p class="mt-4">The final paper is a polished version of your grant proposal, incorporating feedback received from the first draft and peer reviews. This submission should reflect a high level of professionalism and scientific rigor.</p>
+            <h3 class="text-xl font-semibold mt-6">Assignment Components:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li><strong>Final Grant Proposal:</strong> 125 Points</li>
+            </ul>
+            <h3 class="text-xl font-semibold mt-6">Grading Criteria:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li><strong>Enhanced Literature Review (30 Points):</strong> Incorporates additional studies and addresses feedback from the first draft.</li>
+              <li><strong>Refined Experimental Design (40 Points):</strong> Improved clarity and detail based on initial feedback. Demonstrates feasibility and robustness.</li>
+              <li><strong>Comprehensive Possible Outcomes (20 Points):</strong> Thorough discussion of potential results and their implications.</li>
+              <li><strong>Formatting and Citations (15 Points):</strong> Adheres strictly to APA or Chicago style. Free from grammatical and typographical errors.</li>
+            </ul>
+            <h3 class="text-xl font-semibold mt-6">Submission Guidelines:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li><strong>Due Date:</strong> December 17, 2024 by 11:59 PM.</li>
+              <li><strong>Format:</strong> Microsoft Word or PDF.</li>
+              <li><strong>Submission:</strong> Upload to Canvas and submit a printed copy to the instructor.</li>
+              <li><strong>Late Submissions:</strong> No late submissions will be accepted. A zero will be assigned for late papers.</li>
+            </ul>
+            <h3 class="text-xl font-semibold mt-6">Important Notes:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li>Ensure your final paper addresses all feedback from the first draft and peer reviews.</li>
+              <li>Only group leaders should submit the final grant proposals. Individual submissions will not be graded.</li>
+              <li>Maintain impeccable standards of grammar and spelling. Papers with significant errors may receive a failing grade.</li>
+            </ul>
+          `,
+        },
+        {
+          title: "Chapter 8.4: Submissions",
+          content: `
+            <h2 class="text-2xl font-bold">Submissions</h2>
+            <p class="mt-4">All final assignments must adhere to the following submission guidelines to ensure proper grading and feedback.</p>
+            <h3 class="text-xl font-semibold mt-6">Submission Steps:</h3>
+            <ol class="list-decimal list-inside mt-2">
+              <li><strong>Digital Submission:</strong> Upload your final paper as a Microsoft Word document or PDF to Canvas by the specified due date.</li>
+              <li><strong>Printed Submission:</strong> Bring a printed copy of your final paper to class on December 17, 2024.</li>
+              <li><strong>Drop-Off Location:</strong> Submit the printed copy at the STEM Center located on the BCC Paramus Campus.</li>
+            </ol>
+            <h3 class="text-xl font-semibold mt-6">Important Guidelines:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li>Only group leaders are responsible for submitting the grant proposals. Ensure that your group's submission is complete and accurate.</li>
+              <li>Papers must be neatly printed and free from any markings that could impede readability.</li>
+              <li>Ensure that both digital and printed copies are identical and properly formatted.</li>
+              <li>Late submissions will not be accepted under any circumstances.</li>
+            </ul>
+            <h3 class="text-xl font-semibold mt-6">Technical Requirements:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li>Save your document in Microsoft Word (.docx) or PDF format to preserve formatting.</li>
+              <li>Double-check all citations and references for accuracy and consistency.</li>
+              <li>Use the university's approved citation style (APA or Chicago) throughout your paper.</li>
+            </ul>
+          `,
+        },
+        {
+          title: "Chapter 8.5: Final Remarks",
+          content: `
+            <h2 class="text-2xl font-bold">Final Remarks</h2>
+            <p class="mt-4">Congratulations on reaching the end of the Scientific Writing & Grant Proposal course! Your dedication and hard work have culminated in the development of comprehensive grant proposals that showcase your ability to conduct and present scientific research.</p>
+            <h3 class="text-xl font-semibold mt-6">Final Assignments:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li><strong>First Draft of Grant Proposal:</strong> Submitted by November 21/22, 2024.</li>
+              <li><strong>Final Grant Proposal:</strong> Submitted by December 17, 2024.</li>
+            </ul>
+            <h3 class="text-xl font-semibold mt-6">Feedback and Evaluation:</h3>
+            <p class="mt-4">You will receive detailed feedback on both drafts to help you improve your scientific writing and proposal development skills. Take this feedback seriously to enhance your final submission.</p>
+            <h3 class="text-xl font-semibold mt-6">Looking Forward:</h3>
+            <p class="mt-4">The skills you've developed in this course are essential for your academic and professional journey. Whether you're pursuing further studies, engaging in research, or entering the professional world, effective scientific writing and grant proposal skills will be invaluable.</p>
+            <h3 class="text-xl font-semibold mt-6">Stay Connected:</h3>
+            <p class="mt-4">Feel free to reach out with any questions or for further guidance as you continue to develop your research projects. Best of luck in all your future endeavors!</p>
+          `,
+        },
+      ],
+    },
   ],
-};
+};// You can now close the courseData object if it's the last week
 
 // The rest of the code remains the same as previously provided
 // The code below is necessary for the component to function correctly

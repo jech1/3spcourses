@@ -12,7 +12,7 @@ const CppCourseData: CourseData = {
       title: "Week 1: Introduction to C++ and Development Environment",
       chapters: [
         {
-          title: "Introduction",
+          title: "1.1 Introduction",
           content: `
             <h2 class="text-2xl font-bold">Welcome to C++ Coding</h2>
             <p class="mt-4">C++ is a versatile programming language widely used in various domains such as software development, game development, and systems programming. This course will guide you through the fundamentals of C++, enabling you to write efficient and effective code.</p>
@@ -30,8 +30,7 @@ const CppCourseData: CourseData = {
           videoUrl: "https://example.com/week1-intro",
         },
         {
-          title:
-            "Setting up Visual Studio Code and Configuring the Environment",
+          title: "1.2 Setting up Visual Studio Code and Configuring the Environment",
           content: `
             <h2 class="text-2xl font-bold">Configuring Your Development Environment</h2>
             <p class="mt-4">Before writing any code, it's essential to set up your development environment properly. This chapter will guide you through installing and configuring Visual Studio Code for C++ development.</p>
@@ -50,7 +49,7 @@ const CppCourseData: CourseData = {
           videoUrl: "https://example.com/week1-setup-vscode",
         },
         {
-          title: "Introduction to the Terminal and Basic Commands",
+          title: "1.3 Introduction to the Terminal and Basic Commands",
           content: `
             <h2 class="text-2xl font-bold">Navigating the Terminal</h2>
             <p class="mt-4">The terminal is a powerful tool for interacting with your operating system. This chapter covers basic terminal commands essential for C++ development.</p>
@@ -80,7 +79,7 @@ const CppCourseData: CourseData = {
           videoUrl: "https://example.com/week1-terminal-commands",
         },
         {
-          title: "Understanding Variables, Data Types, and Constants",
+          title: "1.4 Understanding Variables, Data Types, and Constants",
           content: `
             <h2 class="text-2xl font-bold">Core Programming Concepts</h2>
             <p class="mt-4">Variables, data types, and constants are fundamental to programming. This chapter explores their definitions and uses in C++.</p>
@@ -110,7 +109,7 @@ const CppCourseData: CourseData = {
           videoUrl: "https://example.com/week1-variables-data-types",
         },
         {
-          title: "Producing Outputs and Handling User Input",
+          title: "1.5 Producing Outputs and Handling User Input",
           content: `
             <h2 class="text-2xl font-bold">Interacting with Users</h2>
             <p class="mt-4">Outputting information and accepting user input are essential for interactive programs. This chapter covers the use of <code>std::cout</code> and <code>std::cin</code>.</p>
@@ -159,7 +158,7 @@ const CppCourseData: CourseData = {
           videoUrl: "https://example.com/week1-io",
         },
         {
-          title: "Summary",
+          title: "1.6 Summary",
           content: `
             <h2 class="text-2xl font-bold">Week 1 Summary: Introduction to C++ and Development Environment</h2>
             <p class="mt-4">In this week, we've covered:</p>
@@ -172,15 +171,15 @@ const CppCourseData: CourseData = {
             </ul>
             <p class="mt-4">These foundational concepts are crucial as we move forward to more complex programming topics in the upcoming weeks.</p>
           `,
-          videoUrl: "https://example.com/week1-summary",
+          // Removed videoUrl from Summary
         },
         {
-          title: "Quiz",
+          title: "1.7 Quiz",
           content: `
             <h2 class="text-2xl font-bold">Test Your Understanding</h2>
             <p class="mt-4">Assess your grasp of the key concepts from this week.</p>
           `,
-          videoUrl: "https://example.com/week1-quiz",
+          // Removed videoUrl from Quiz
           quiz: {
             question: "What is the purpose of the 'const' keyword in C++?",
             options: [
@@ -199,7 +198,7 @@ const CppCourseData: CourseData = {
       title: "Week 2: Working with Arrays",
       chapters: [
         {
-          title: "Introduction",
+          title: "2.1 Introduction",
           content: `
             <h2 class="text-2xl font-bold">Understanding Arrays in C++</h2>
             <p class="mt-4">Arrays are fundamental data structures that allow you to store multiple elements of the same type in contiguous memory locations. This week, we'll explore the basics of arrays, their declaration, initialization, and common operations.</p>
@@ -214,7 +213,7 @@ const CppCourseData: CourseData = {
           videoUrl: "https://example.com/week2-intro",
         },
         {
-          title: "Introduction to Arrays and Their Importance",
+          title: "2.2 Introduction to Arrays and Their Importance",
           content: `
             <h2 class="text-2xl font-bold">Why Use Arrays?</h2>
             <p class="mt-4">Arrays provide a way to store and manage collections of data efficiently. They are essential for handling large datasets and performing repetitive tasks.</p>
@@ -231,71 +230,71 @@ const CppCourseData: CourseData = {
           videoUrl: "https://example.com/week2-intro-arrays",
         },
         {
-          title: "Declaring, Initializing, and Accessing Arrays",
+          title: "2.3 Declaring, Initializing, and Accessing Arrays",
           content: `
             <h2 class="text-2xl font-bold">Basics of Array Operations</h2>
             <p class="mt-4">This chapter covers how to declare, initialize, and access elements within arrays in C++.</p>
             <h3 class="text-xl font-semibold mt-6">Declaring Arrays:</h3>
             <pre class="bg-gray-100 p-4 rounded">
-// Syntax
-dataType arrayName[arraySize];
-
-// Example
-int scores[5];
+    // Syntax
+    dataType arrayName[arraySize];
+    
+    // Example
+    int scores[5];
             </pre>
             <h3 class="text-xl font-semibold mt-6">Initializing Arrays:</h3>
             <pre class="bg-gray-100 p-4 rounded">
-// Partial Initialization
-int numbers[5] = {1, 2, 3};
-
-// Complete Initialization
-double temperatures[3] = {98.6, 99.1, 100.2};
+    // Partial Initialization
+    int numbers[5] = {1, 2, 3};
+    
+    // Complete Initialization
+    double temperatures[3] = {98.6, 99.1, 100.2};
             </pre>
             <h3 class="text-xl font-semibold mt-6">Accessing Array Elements:</h3>
             <pre class="bg-gray-100 p-4 rounded">
-// Accessing elements using indices (0-based)
-scores[0] = 85;
-scores[1] = 90;
-std::cout &lt;&lt; "First score: " &lt;&lt; scores[0] &lt;&lt; std::endl;
+    // Accessing elements using indices (0-based)
+    scores[0] = 85;
+    scores[1] = 90;
+    std::cout &lt;&lt; "First score: " &lt;&lt; scores[0] &lt;&lt; std::endl;
             </pre>
             <h3 class="text-xl font-semibold mt-6">Iterating Over Arrays:</h3>
             <pre class="bg-gray-100 p-4 rounded">
-#include &lt;iostream&gt;
-
-int main() {
-    int scores[5] = {85, 90, 75, 88, 92};
-    for (int i = 0; i &lt; 5; i++) {
-        std::cout &lt;&lt; "Score " &lt;&lt; i+1 &lt;&lt; ": " &lt;&lt; scores[i] &lt;&lt; std::endl;
+    #include &lt;iostream&gt;
+    
+    int main() {
+        int scores[5] = {85, 90, 75, 88, 92};
+        for (int i = 0; i &lt; 5; i++) {
+            std::cout &lt;&lt; "Score " &lt;&lt; i+1 &lt;&lt; ": " &lt;&lt; scores[i] &lt;&lt; std::endl;
+        }
+        return 0;
     }
-    return 0;
-}
             </pre>
           `,
           videoUrl: "https://example.com/week2-declaring-initializing",
         },
         {
-          title: "Multi-Dimensional Arrays and Their Applications",
+          title: "2.4 Multi-Dimensional Arrays and Their Applications",
           content: `
             <h2 class="text-2xl font-bold">Expanding to Multiple Dimensions</h2>
             <p class="mt-4">Multi-dimensional arrays allow you to store data in more complex structures, such as matrices or tables.</p>
             <h3 class="text-xl font-semibold mt-6">Declaring Multi-Dimensional Arrays:</h3>
             <pre class="bg-gray-100 p-4 rounded">
-// 2D Array Declaration
-int matrix[3][3];
-
-// 3D Array Declaration
-double tensor[2][3][4];
+    // 2D Array Declaration
+    int matrix[3][3];
+    
+    // 3D Array Declaration
+    double tensor[2][3][4];
             </pre>
             <h3 class="text-xl font-semibold mt-6">Initializing Multi-Dimensional Arrays:</h3>
             <pre class="bg-gray-100 p-4 rounded">
-// 2D Array Initialization
-int matrix[2][3] = {
-    {1, 2, 3},
-    {4, 5, 6}
-};
-
-// Accessing Elements
-std::cout &lt;&lt; "Element at (0,1): " &lt;&lt; matrix[0][1] &lt;&lt; std::endl;
+    // 2D Array Initialization
+    int matrix[2][3] = {
+        {1, 2, 3},
+        {4, 5, 6}
+    };
+    
+    // Accessing Elements
+    std::cout &lt;&lt; "Element at (0,1): " &lt;&lt; matrix[0][1] &lt;&lt; std::endl;
             </pre>
             <h3 class="text-xl font-semibold mt-6">Applications:</h3>
             <ul class="list-disc list-inside mt-2">
@@ -307,112 +306,112 @@ std::cout &lt;&lt; "Element at (0,1): " &lt;&lt; matrix[0][1] &lt;&lt; std::endl
           videoUrl: "https://example.com/week2-multi-dimensional-arrays",
         },
         {
-          title: "Common Array Operations: Searching and Sorting",
+          title: "2.5 Common Array Operations: Searching and Sorting",
           content: `
             <h2 class="text-2xl font-bold">Manipulating Arrays</h2>
             <p class="mt-4">Arrays are often manipulated through operations like searching for specific elements and sorting them in a particular order.</p>
             <h3 class="text-xl font-semibold mt-6">Searching an Array:</h3>
             <pre class="bg-gray-100 p-4 rounded">
-#include &lt;iostream&gt;
-
-int main() {
-    int numbers[5] = {10, 20, 30, 40, 50};
-    int target = 30;
-    bool found = false;
-
-    for (int i = 0; i &lt; 5; i++) {
-        if (numbers[i] == target) {
-            std::cout &lt;&lt; "Element " &lt;&lt; target &lt;&lt; " found at index " &lt;&lt; i &lt;&lt; std::endl;
-            found = true;
-            break;
+    #include &lt;iostream&gt;
+    
+    int main() {
+        int numbers[5] = {10, 20, 30, 40, 50};
+        int target = 30;
+        bool found = false;
+    
+        for (int i = 0; i &lt; 5; i++) {
+            if (numbers[i] == target) {
+                std::cout &lt;&lt; "Element " &lt;&lt; target &lt;&lt; " found at index " &lt;&lt; i &lt;&lt; std::endl;
+                found = true;
+                break;
+            }
         }
+    
+        if (!found) {
+            std::cout &lt;&lt; "Element " &lt;&lt; target &lt;&lt; " not found." &lt;&lt; std::endl;
+        }
+    
+        return 0;
     }
-
-    if (!found) {
-        std::cout &lt;&lt; "Element " &lt;&lt; target &lt;&lt; " not found." &lt;&lt; std::endl;
-    }
-
-    return 0;
-}
             </pre>
             <h3 class="text-xl font-semibold mt-6">Sorting an Array (Bubble Sort):</h3>
             <pre class="bg-gray-100 p-4 rounded">
-#include &lt;iostream&gt;
-
-int main() {
-    int numbers[5] = {50, 20, 40, 10, 30};
-    int n = 5;
-
-    // Bubble Sort Algorithm
-    for (int i = 0; i &lt; n-1; i++) {
-        for (int j = 0; j &lt; n-i-1; j++) {
-            if (numbers[j] &gt; numbers[j+1]) {
-                // Swap
-                int temp = numbers[j];
-                numbers[j] = numbers[j+1];
-                numbers[j+1] = temp;
+    #include &lt;iostream&gt;
+    
+    int main() {
+        int numbers[5] = {50, 20, 40, 10, 30};
+        int n = 5;
+    
+        // Bubble Sort Algorithm
+        for (int i = 0; i &lt; n-1; i++) {
+            for (int j = 0; j &lt; n-i-1; j++) {
+                if (numbers[j] &gt; numbers[j+1]) {
+                    // Swap
+                    int temp = numbers[j];
+                    numbers[j] = numbers[j+1];
+                    numbers[j+1] = temp;
+                }
             }
         }
+    
+        // Display sorted array
+        std::cout &lt;&lt; "Sorted Array: ";
+        for (int i = 0; i &lt; n; i++) {
+            std::cout &lt;&lt; numbers[i] &lt;&lt; " ";
+        }
+        std::cout &lt;&lt; std::endl;
+    
+        return 0;
     }
-
-    // Display sorted array
-    std::cout &lt;&lt; "Sorted Array: ";
-    for (int i = 0; i &lt; n; i++) {
-        std::cout &lt;&lt; numbers[i] &lt;&lt; " ";
-    }
-    std::cout &lt;&lt; std::endl;
-
-    return 0;
-}
             </pre>
             <h3 class="text-xl font-semibold mt-6">Example Usage:</h3>
             <pre class="bg-gray-100 p-4 rounded">
-#include &lt;iostream&gt;
-
-int main() {
-    int grades[5] = {88, 75, 92, 67, 85};
-    int searchGrade = 92;
-    bool found = false;
-
-    // Searching for a grade
-    for (int i = 0; i &lt; 5; i++) {
-        if (grades[i] == searchGrade) {
-            std::cout &lt;&lt; "Grade " &lt;&lt; searchGrade &lt;&lt; " found at index " &lt;&lt; i &lt;&lt; std::endl;
-            found = true;
-            break;
-        }
-    }
-
-    if (!found) {
-        std::cout &lt;&lt; "Grade " &lt;&lt; searchGrade &lt;&lt; " not found." &lt;&lt; std::endl;
-    }
-
-    // Sorting grades
-    for (int i = 0; i &lt; 4; i++) {
-        for (int j = 0; j &lt; 4-i; j++) {
-            if (grades[j] &gt; grades[j+1]) {
-                int temp = grades[j];
-                grades[j] = grades[j+1];
-                grades[j+1] = temp;
+    #include &lt;iostream&gt;
+    
+    int main() {
+        int grades[5] = {88, 75, 92, 67, 85};
+        int searchGrade = 92;
+        bool found = false;
+    
+        // Searching for a grade
+        for (int i = 0; i &lt; 5; i++) {
+            if (grades[i] == searchGrade) {
+                std::cout &lt;&lt; "Grade " &lt;&lt; searchGrade &lt;&lt; " found at index " &lt;&lt; i &lt;&lt; std::endl;
+                found = true;
+                break;
             }
         }
+    
+        if (!found) {
+            std::cout &lt;&lt; "Grade " &lt;&lt; searchGrade &lt;&lt; " not found." &lt;&lt; std::endl;
+        }
+    
+        // Sorting grades
+        for (int i = 0; i &lt; 4; i++) {
+            for (int j = 0; j &lt; 4-i; j++) {
+                if (grades[j] &gt; grades[j+1]) {
+                    int temp = grades[j];
+                    grades[j] = grades[j+1];
+                    grades[j+1] = temp;
+                }
+            }
+        }
+    
+        // Display sorted grades
+        std::cout &lt;&lt; "Sorted Grades: ";
+        for (int i = 0; i &lt; 5; i++) {
+            std::cout &lt;&lt; grades[i] &lt;&lt; " ";
+        }
+        std::cout &lt;&lt; std::endl;
+    
+        return 0;
     }
-
-    // Display sorted grades
-    std::cout &lt;&lt; "Sorted Grades: ";
-    for (int i = 0; i &lt; 5; i++) {
-        std::cout &lt;&lt; grades[i] &lt;&lt; " ";
-    }
-    std::cout &lt;&lt; std::endl;
-
-    return 0;
-}
             </pre>
           `,
           videoUrl: "https://example.com/week2-searching-sorting",
         },
         {
-          title: "Summary",
+          title: "2.6 Summary",
           content: `
             <h2 class="text-2xl font-bold">Week 2 Summary: Working with Arrays</h2>
             <p class="mt-4">This week, we've delved into:</p>
@@ -424,15 +423,15 @@ int main() {
             </ul>
             <p class="mt-4">Mastering arrays is essential for handling collections of data efficiently and lays the groundwork for more advanced programming concepts.</p>
           `,
-          videoUrl: "https://example.com/week2-summary",
+          // Removed videoUrl from Summary
         },
         {
-          title: "Quiz",
+          title: "2.7 Quiz",
           content: `
             <h2 class="text-2xl font-bold">Test Your Understanding</h2>
             <p class="mt-4">Assess your grasp of the key concepts from this week.</p>
           `,
-          videoUrl: "https://example.com/week2-quiz",
+          // Removed videoUrl from Quiz
           quiz: {
             question:
               "How do you declare a two-dimensional array of integers with 3 rows and 4 columns in C++?",
@@ -452,7 +451,7 @@ int main() {
       title: "Week 3: Functions and Modular Programming",
       chapters: [
         {
-          title: "Introduction",
+          title: "3.1 Introduction",
           content: `
             <h2 class="text-2xl font-bold">Enhancing Code with Functions</h2>
             <p class="mt-4">Functions are reusable blocks of code that perform specific tasks. They help in organizing code, making it more readable, and promoting reusability.</p>
@@ -467,54 +466,54 @@ int main() {
           videoUrl: "https://example.com/week3-intro",
         },
         {
-          title: "Defining and Calling Functions",
+          title: "3.2 Defining and Calling Functions",
           content: `
             <h2 class="text-2xl font-bold">Creating Reusable Code Blocks</h2>
             <p class="mt-4">Functions allow you to encapsulate code for specific tasks, making your programs more organized and easier to manage.</p>
             <h3 class="text-xl font-semibold mt-6">Function Declaration (Prototype):</h3>
             <pre class="bg-gray-100 p-4 rounded">
-// Syntax
-returnType functionName(parameterList);
-
-// Example
-int add(int a, int b);
+    // Syntax
+    returnType functionName(parameterList);
+    
+    // Example
+    int add(int a, int b);
             </pre>
             <h3 class="text-xl font-semibold mt-6">Function Definition:</h3>
             <pre class="bg-gray-100 p-4 rounded">
-// Function Definition
-int add(int a, int b) {
-    return a + b;
-}
+    // Function Definition
+    int add(int a, int b) {
+        return a + b;
+    }
             </pre>
             <h3 class="text-xl font-semibold mt-6">Function Call:</h3>
             <pre class="bg-gray-100 p-4 rounded">
-// Function Call
-int result = add(5, 3);
+    // Function Call
+    int result = add(5, 3);
             </pre>
             <h3 class="text-xl font-semibold mt-6">Example Program:</h3>
             <pre class="bg-gray-100 p-4 rounded">
-#include &lt;iostream&gt;
-
-// Function Declaration
-int multiply(int x, int y);
-
-int main() {
-    int a = 4, b = 5;
-    int product = multiply(a, b); // Function Call
-    std::cout &lt;&lt; "Product: " &lt;&lt; product &lt;&lt; std::endl;
-    return 0;
-}
-
-// Function Definition
-int multiply(int x, int y) {
-    return x * y;
-}
+    #include &lt;iostream&gt;
+    
+    // Function Declaration
+    int multiply(int x, int y);
+    
+    int main() {
+        int a = 4, b = 5;
+        int product = multiply(a, b); // Function Call
+        std::cout &lt;&lt; "Product: " &lt;&lt; product &lt;&lt; std::endl;
+        return 0;
+    }
+    
+    // Function Definition
+    int multiply(int x, int y) {
+        return x * y;
+    }
             </pre>
           `,
           videoUrl: "https://example.com/week3-defining-calling-functions",
         },
         {
-          title: "Function Arguments, Return Types, and Scope",
+          title: "3.3 Function Arguments, Return Types, and Scope",
           content: `
             <h2 class="text-2xl font-bold">Advanced Function Concepts</h2>
             <p class="mt-4">Understanding how to pass arguments, specify return types, and manage variable scope within functions is crucial for writing effective C++ programs.</p>
@@ -538,28 +537,28 @@ int multiply(int x, int y) {
             </ul>
             <h3 class="text-xl font-semibold mt-6">Example Program:</h3>
             <pre class="bg-gray-100 p-4 rounded">
-#include &lt;iostream&gt;
-
-// Function to swap two integers using pass by reference
-void swap(int &a, int &b) {
-    int temp = a;
-    a = b;
-    b = temp;
-}
-
-int main() {
-    int x = 10, y = 20;
-    std::cout &lt;&lt; "Before swap: x = " &lt;&lt; x &lt;&lt; ", y = " &lt;&lt; y &lt;&lt; std::endl;
-    swap(x, y); // Function Call
-    std::cout &lt;&lt; "After swap: x = " &lt;&lt; x &lt;&lt; ", y = " &lt;&lt; y &lt;&lt; std::endl;
-    return 0;
-}
+    #include &lt;iostream&gt;
+    
+    // Function to swap two integers using pass by reference
+    void swap(int &a, int &b) {
+        int temp = a;
+        a = b;
+        b = temp;
+    }
+    
+    int main() {
+        int x = 10, y = 20;
+        std::cout &lt;&lt; "Before swap: x = " &lt;&lt; x &lt;&lt; ", y = " &lt;&lt; y &lt;&lt; std::endl;
+        swap(x, y); // Function Call
+        std::cout &lt;&lt; "After swap: x = " &lt;&lt; x &lt;&lt; ", y = " &lt;&lt; y &lt;&lt; std::endl;
+        return 0;
+    }
             </pre>
           `,
           videoUrl: "https://example.com/week3-arguments-return-scope",
         },
         {
-          title: "Breaking Programs into Modules for Better Organization",
+          title: "3.4 Breaking Programs into Modules for Better Organization",
           content: `
             <h2 class="text-2xl font-bold">Modular Programming in C++</h2>
             <p class="mt-4">Modular programming involves dividing a program into separate modules or functions, each responsible for a specific task. This approach enhances code readability, maintainability, and reusability.</p>
@@ -572,39 +571,39 @@ int main() {
             </ul>
             <h3 class="text-xl font-semibold mt-6">Implementing Modular Programs:</h3>
             <pre class="bg-gray-100 p-4 rounded">
-#include &lt;iostream&gt;
-
-// Function to calculate the area of a rectangle
-double calculateArea(double length, double width) {
-    return length * width;
-}
-
-// Function to calculate the perimeter of a rectangle
-double calculatePerimeter(double length, double width) {
-    return 2 * (length + width);
-}
-
-int main() {
-    double len, wid;
-    std::cout &lt;&lt; "Enter length: ";
-    std::cin &gt;&gt; len;
-    std::cout &lt;&lt; "Enter width: ";
-    std::cin &gt;&gt; wid;
+    #include &lt;iostream&gt;
     
-    double area = calculateArea(len, wid);
-    double perimeter = calculatePerimeter(len, wid);
+    // Function to calculate the area of a rectangle
+    double calculateArea(double length, double width) {
+        return length * width;
+    }
     
-    std::cout &lt;&lt; "Area: " &lt;&lt; area &lt;&lt; std::endl;
-    std::cout &lt;&lt; "Perimeter: " &lt;&lt; perimeter &lt;&lt; std::endl;
+    // Function to calculate the perimeter of a rectangle
+    double calculatePerimeter(double length, double width) {
+        return 2 * (length + width);
+    }
     
-    return 0;
-}
+    int main() {
+        double len, wid;
+        std::cout &lt;&lt; "Enter length: ";
+        std::cin &gt;&gt; len;
+        std::cout &lt;&lt; "Enter width: ";
+        std::cin &gt;&gt; wid;
+        
+        double area = calculateArea(len, wid);
+        double perimeter = calculatePerimeter(len, wid);
+        
+        std::cout &lt;&lt; "Area: " &lt;&lt; area &lt;&lt; std::endl;
+        std::cout &lt;&lt; "Perimeter: " &lt;&lt; perimeter &lt;&lt; std::endl;
+        
+        return 0;
+    }
             </pre>
           `,
           videoUrl: "https://example.com/week3-modular-programming",
         },
         {
-          title: "Benefits of Modular Programming for Scalability",
+          title: "3.5 Benefits of Modular Programming for Scalability",
           content: `
             <h2 class="text-2xl font-bold">Scalable Codebases</h2>
             <p class="mt-4">As projects grow in complexity, modular programming becomes essential for maintaining scalability and manageability.</p>
@@ -621,7 +620,7 @@ int main() {
           videoUrl: "https://example.com/week3-benefits-scalability",
         },
         {
-          title: "Summary",
+          title: "3.6 Summary",
           content: `
             <h2 class="text-2xl font-bold">Week 3 Summary: Functions and Modular Programming</h2>
             <p class="mt-4">This week, we've covered:</p>
@@ -633,15 +632,15 @@ int main() {
             </ul>
             <p class="mt-4">Mastering functions and modular programming is essential for writing clean, efficient, and maintainable C++ code.</p>
           `,
-          videoUrl: "https://example.com/week3-summary",
+          // Removed videoUrl from Summary
         },
         {
-          title: "Quiz",
+          title: "3.7 Quiz",
           content: `
             <h2 class="text-2xl font-bold">Test Your Understanding</h2>
             <p class="mt-4">Assess your grasp of the key concepts from this week.</p>
           `,
-          videoUrl: "https://example.com/week3-quiz",
+          // Removed videoUrl from Quiz
           quiz: {
             question: "What is the primary benefit of modular programming?",
             options: [
@@ -660,7 +659,7 @@ int main() {
       title: "Week 4: Integrating Concepts: Arrays, Functions, and Logic",
       chapters: [
         {
-          title: "Introduction",
+          title: "4.1 Introduction",
           content: `
             <h2 class="text-2xl font-bold">Bringing It All Together</h2>
             <p class="mt-4">This week focuses on integrating arrays, functions, and logical operations to solve more complex programming problems.</p>
@@ -674,55 +673,55 @@ int main() {
           videoUrl: "https://example.com/week4-intro",
         },
         {
-          title: "Combining Arrays with Functions to Solve Complex Problems",
+          title: "4.2 Combining Arrays with Functions to Solve Complex Problems",
           content: `
             <h2 class="text-2xl font-bold">Advanced Data Manipulation</h2>
             <p class="mt-4">By combining arrays with functions, you can create more efficient and organized code for handling complex data processing tasks.</p>
             <h3 class="text-xl font-semibold mt-6">Example: Calculating Average Grades</h3>
             <pre class="bg-gray-100 p-4 rounded">
-#include &lt;iostream&gt;
-
-double calculateAverage(int grades[], int size) {
-    int sum = 0;
-    for (int i = 0; i &lt; size; i++) {
-        sum += grades[i];
+    #include &lt;iostream&gt;
+    
+    double calculateAverage(int grades[], int size) {
+        int sum = 0;
+        for (int i = 0; i &lt; size; i++) {
+            sum += grades[i];
+        }
+        return static_cast<double>(sum) / size;
     }
-    return static_cast<double>(sum) / size;
-}
-
-int main() {
-    int studentGrades[5] = {85, 90, 78, 92, 88};
-    double average = calculateAverage(studentGrades, 5);
-    std::cout &lt;&lt; "Average Grade: " &lt;&lt; average &lt;&lt; std::endl;
-    return 0;
-}
+    
+    int main() {
+        int studentGrades[5] = {85, 90, 78, 92, 88};
+        double average = calculateAverage(studentGrades, 5);
+        std::cout &lt;&lt; "Average Grade: " &lt;&lt; average &lt;&lt; std::endl;
+        return 0;
+    }
             </pre>
             <h3 class="text-xl font-semibold mt-6">Example: Finding the Maximum Value in an Array</h3>
             <pre class="bg-gray-100 p-4 rounded">
-#include &lt;iostream&gt;
-
-int findMax(int numbers[], int size) {
-    int max = numbers[0];
-    for (int i = 1; i &lt; size; i++) {
-        if (numbers[i] &gt; max) {
-            max = numbers[i];
+    #include &lt;iostream&gt;
+    
+    int findMax(int numbers[], int size) {
+        int max = numbers[0];
+        for (int i = 1; i &lt; size; i++) {
+            if (numbers[i] &gt; max) {
+                max = numbers[i];
+            }
         }
+        return max;
     }
-    return max;
-}
-
-int main() {
-    int data[6] = {12, 45, 7, 89, 34, 56};
-    int maximum = findMax(data, 6);
-    std::cout &lt;&lt; "Maximum Value: " &lt;&lt; maximum &lt;&lt; std::endl;
-    return 0;
-}
+    
+    int main() {
+        int data[6] = {12, 45, 7, 89, 34, 56};
+        int maximum = findMax(data, 6);
+        std::cout &lt;&lt; "Maximum Value: " &lt;&lt; maximum &lt;&lt; std::endl;
+        return 0;
+    }
             </pre>
           `,
           videoUrl: "https://example.com/week4-combining-arrays-functions",
         },
         {
-          title: "Building Small Modular Projects Using All Covered Concepts",
+          title: "4.3 Building Small Modular Projects Using All Covered Concepts",
           content: `
             <h2 class="text-2xl font-bold">Hands-On Project Development</h2>
             <p class="mt-4">Applying the concepts learned so far, this chapter guides you through building small projects that integrate arrays, functions, and logical operations.</p>
@@ -737,95 +736,95 @@ int main() {
             </ul>
             <h3 class="text-xl font-semibold mt-6">Example Code:</h3>
             <pre class="bg-gray-100 p-4 rounded">
-#include &lt;iostream&gt;
-
-// Function declarations
-void inputGrades(int grades[], int size);
-double calculateAverage(int grades[], int size);
-int findMax(int grades[], int size);
-int findMin(int grades[], int size);
-
-int main() {
-    const int numStudents = 5;
-    int grades[numStudents];
-    int choice;
-
-    do {
-        std::cout &lt;&lt; "\nStudent Grade Management System" &lt;&lt; std::endl;
-        std::cout &lt;&lt; "1. Input Grades" &lt;&lt; std::endl;
-        std::cout &lt;&lt; "2. Calculate Average" &lt;&lt; std::endl;
-        std::cout &lt;&lt; "3. Find Maximum Grade" &lt;&lt; std::endl;
-        std::cout &lt;&lt; "4. Find Minimum Grade" &lt;&lt; std::endl;
-        std::cout &lt;&lt; "5. Exit" &lt;&lt; std::endl;
-        std::cout &lt;&lt; "Enter your choice: ";
-        std::cin &gt;&gt; choice;
-
-        switch(choice) {
-            case 1:
-                inputGrades(grades, numStudents);
-                break;
-            case 2:
-                std::cout &lt;&lt; "Average Grade: " &lt;&lt; calculateAverage(grades, numStudents) &lt;&lt; std::endl;
-                break;
-            case 3:
-                std::cout &lt;&lt; "Maximum Grade: " &lt;&lt; findMax(grades, numStudents) &lt;&lt; std::endl;
-                break;
-            case 4:
-                std::cout &lt;&lt; "Minimum Grade: " &lt;&lt; findMin(grades, numStudents) &lt;&lt; std::endl;
-                break;
-            case 5:
-                std::cout &lt;&lt; "Exiting program." &lt;&lt; std::endl;
-                break;
-            default:
-                std::cout &lt;&lt; "Invalid choice. Please try again." &lt;&lt; std::endl;
-        }
-    } while(choice != 5);
-
-    return 0;
-}
-
-// Function definitions
-void inputGrades(int grades[], int size) {
-    std::cout &lt;&lt; "Enter " &lt;&lt; size &lt;&lt; " student grades:" &lt;&lt; std::endl;
-    for(int i = 0; i &lt; size; i++) {
-        std::cout &lt;&lt; "Grade " &lt;&lt; i+1 &lt;&lt; ": ";
-        std::cin &gt;&gt; grades[i];
+    #include &lt;iostream&gt;
+    
+    // Function declarations
+    void inputGrades(int grades[], int size);
+    double calculateAverage(int grades[], int size);
+    int findMax(int grades[], int size);
+    int findMin(int grades[], int size);
+    
+    int main() {
+        const int numStudents = 5;
+        int grades[numStudents];
+        int choice;
+    
+        do {
+            std::cout &lt;&lt; "\nStudent Grade Management System" &lt;&lt; std::endl;
+            std::cout &lt;&lt; "1. Input Grades" &lt;&lt; std::endl;
+            std::cout &lt;&lt; "2. Calculate Average" &lt;&lt; std::endl;
+            std::cout &lt;&lt; "3. Find Maximum Grade" &lt;&lt; std::endl;
+            std::cout &lt;&lt; "4. Find Minimum Grade" &lt;&lt; std::endl;
+            std::cout &lt;&lt; "5. Exit" &lt;&lt; std::endl;
+            std::cout &lt;&lt; "Enter your choice: ";
+            std::cin &gt;&gt; choice;
+    
+            switch(choice) {
+                case 1:
+                    inputGrades(grades, numStudents);
+                    break;
+                case 2:
+                    std::cout &lt;&lt; "Average Grade: " &lt;&lt; calculateAverage(grades, numStudents) &lt;&lt; std::endl;
+                    break;
+                case 3:
+                    std::cout &lt;&lt; "Maximum Grade: " &lt;&lt; findMax(grades, numStudents) &lt;&lt; std::endl;
+                    break;
+                case 4:
+                    std::cout &lt;&lt; "Minimum Grade: " &lt;&lt; findMin(grades, numStudents) &lt;&lt; std::endl;
+                    break;
+                case 5:
+                    std::cout &lt;&lt; "Exiting program." &lt;&lt; std::endl;
+                    break;
+                default:
+                    std::cout &lt;&lt; "Invalid choice. Please try again." &lt;&lt; std::endl;
+            }
+        } while(choice != 5);
+    
+        return 0;
     }
-}
-
-double calculateAverage(int grades[], int size) {
-    int sum = 0;
-    for(int i = 0; i &lt; size; i++) {
-        sum += grades[i];
-    }
-    return static_cast<double>(sum) / size;
-}
-
-int findMax(int grades[], int size) {
-    int max = grades[0];
-    for(int i = 1; i &lt; size; i++) {
-        if(grades[i] &gt; max) {
-            max = grades[i];
+    
+    // Function definitions
+    void inputGrades(int grades[], int size) {
+        std::cout &lt;&lt; "Enter " &lt;&lt; size &lt;&lt; " student grades:" &lt;&lt; std::endl;
+        for(int i = 0; i &lt; size; i++) {
+            std::cout &lt;&lt; "Grade " &lt;&lt; i+1 &lt;&lt; ": ";
+            std::cin &gt;&gt; grades[i];
         }
     }
-    return max;
-}
-
-int findMin(int grades[], int size) {
-    int min = grades[0];
-    for(int i = 1; i &lt; size; i++) {
-        if(grades[i] &lt; min) {
-            min = grades[i];
+    
+    double calculateAverage(int grades[], int size) {
+        int sum = 0;
+        for(int i = 0; i &lt; size; i++) {
+            sum += grades[i];
         }
+        return static_cast<double>(sum) / size;
     }
-    return min;
-}
+    
+    int findMax(int grades[], int size) {
+        int max = grades[0];
+        for(int i = 1; i &lt; size; i++) {
+            if(grades[i] &lt; max) {
+                max = grades[i];
+            }
+        }
+        return max;
+    }
+    
+    int findMin(int grades[], int size) {
+        int min = grades[0];
+        for(int i = 1; i &lt; size; i++) {
+            if(grades[i] &lt; min) {
+                min = grades[i];
+            }
+        }
+        return min;
+    }
             </pre>
           `,
           videoUrl: "https://example.com/week4-integrating-concepts",
         },
         {
-          title: "Debugging and Refining Code for Efficiency",
+          title: "4.4 Debugging and Refining Code for Efficiency",
           content: `
             <h2 class="text-2xl font-bold">Enhancing Code Performance</h2>
             <p class="mt-4">Debugging is the process of identifying and resolving errors or bugs in your code. Refining code involves optimizing it for better performance and readability.</p>
@@ -845,40 +844,40 @@ int findMin(int grades[], int size) {
             </ul>
             <h3 class="text-xl font-semibold mt-6">Example: Optimizing a Search Function</h3>
             <pre class="bg-gray-100 p-4 rounded">
-// Inefficient Search Function
-int search(int arr[], int size, int target) {
-    for(int i = 0; i &lt; size; i++) {
-        if(arr[i] == target) {
-            return i;
+    // Inefficient Search Function
+    int search(int arr[], int size, int target) {
+        for(int i = 0; i &lt; size; i++) {
+            if(arr[i] == target) {
+                return i;
+            }
         }
+        return -1;
     }
-    return -1;
-}
-
-// Optimized Search Function using Binary Search (Requires Sorted Array)
-#include &lt;algorithm&gt;
-
-int binarySearch(int arr[], int size, int target) {
-    int left = 0, right = size - 1;
-    while(left &lt;= right) {
-        int mid = left + (right - left) / 2;
-        if(arr[mid] == target) {
-            return mid;
+    
+    // Optimized Search Function using Binary Search (Requires Sorted Array)
+    #include &lt;algorithm&gt;
+    
+    int binarySearch(int arr[], int size, int target) {
+        int left = 0, right = size - 1;
+        while(left &lt;= right) {
+            int mid = left + (right - left) / 2;
+            if(arr[mid] == target) {
+                return mid;
+            }
+            if(arr[mid] &lt; target) {
+                left = mid + 1;
+            } else {
+                right = mid - 1;
+            }
         }
-        if(arr[mid] &lt; target) {
-            left = mid + 1;
-        } else {
-            right = mid - 1;
-        }
+        return -1;
     }
-    return -1;
-}
             </pre>
           `,
           videoUrl: "https://example.com/week4-debugging-refining",
         },
         {
-          title: "Summary",
+          title: "4.5 Summary",
           content: `
             <h2 class="text-2xl font-bold">Week 4 Summary: Integrating Concepts: Arrays, Functions, and Logic</h2>
             <p class="mt-4">This week, we've covered:</p>
@@ -890,15 +889,15 @@ int binarySearch(int arr[], int size, int target) {
             </ul>
             <p class="mt-4">Integrating these concepts allows you to write more organized, efficient, and maintainable C++ programs.</p>
           `,
-          videoUrl: "https://example.com/week4-summary",
+          // Removed videoUrl from Summary
         },
         {
-          title: "Quiz",
+          title: "4.6 Quiz",
           content: `
             <h2 class="text-2xl font-bold">Test Your Understanding</h2>
             <p class="mt-4">Assess your grasp of the key concepts from this week.</p>
           `,
-          videoUrl: "https://example.com/week4-quiz",
+          // Removed videoUrl from Quiz
           quiz: {
             question: "What is the main advantage of using functions in C++?",
             options: [
@@ -917,7 +916,7 @@ int binarySearch(int arr[], int size, int target) {
       title: "Week 5: Programming with Arduino and Microcontrollers",
       chapters: [
         {
-          title: "Introduction",
+          title: "5.1 Introduction",
           content: `
             <h2 class="text-2xl font-bold">Integrating Hardware with C++</h2>
             <p class="mt-4">This week, we'll explore how to bridge the gap between software and hardware by programming microcontrollers using C++. You'll learn to interact with sensors and actuators, laying the groundwork for creating interactive and functional projects.</p>
@@ -932,7 +931,7 @@ int binarySearch(int arr[], int size, int target) {
           videoUrl: "https://example.com/week5-intro",
         },
         {
-          title: "Introduction to Arduino IDE and Basic Hardware Setup",
+          title: "5.2 Introduction to Arduino IDE and Basic Hardware Setup",
           content: `
             <h2 class="text-2xl font-bold">Getting Started with Arduino</h2>
             <p class="mt-4">Arduino is a popular open-source platform for building electronics projects. This chapter introduces the Arduino Integrated Development Environment (IDE) and guides you through the basic hardware setup.</p>
@@ -956,24 +955,24 @@ int binarySearch(int arr[], int size, int target) {
           videoUrl: "https://example.com/week5-arduino-ide-setup",
         },
         {
-          title: "Writing and Uploading C++ Programs to Microcontrollers",
+          title: "5.3 Writing and Uploading C++ Programs to Microcontrollers",
           content: `
             <h2 class="text-2xl font-bold">Programming the Arduino</h2>
             <p class="mt-4">Learn how to write C++ programs (sketches) for Arduino and upload them to the microcontroller to control hardware components.</p>
             <h3 class="text-xl font-semibold mt-6">Basic Sketch Structure:</h3>
             <pre class="bg-gray-100 p-4 rounded">
-// Arduino Sketch Example
-void setup() {
-    // Initialize digital pin 13 as an output.
-    pinMode(13, OUTPUT);
-}
-
-void loop() {
-    digitalWrite(13, HIGH);   // Turn the LED on (HIGH is the voltage level)
-    delay(1000);              // Wait for a second
-    digitalWrite(13, LOW);    // Turn the LED off by making the voltage LOW
-    delay(1000);              // Wait for a second
-}
+    // Arduino Sketch Example
+    void setup() {
+        // Initialize digital pin 13 as an output.
+        pinMode(13, OUTPUT);
+    }
+    
+    void loop() {
+        digitalWrite(13, HIGH);   // Turn the LED on (HIGH is the voltage level)
+        delay(1000);              // Wait for a second
+        digitalWrite(13, LOW);    // Turn the LED off by making the voltage LOW
+        delay(1000);              // Wait for a second
+    }
             </pre>
             <h3 class="text-xl font-semibold mt-6">Uploading the Sketch:</h3>
             <ul class="list-disc list-inside mt-2">
@@ -984,92 +983,92 @@ void loop() {
             </ul>
             <h3 class="text-xl font-semibold mt-6">Example: Blinking an LED</h3>
             <pre class="bg-gray-100 p-4 rounded">
-// Blink LED Connected to Pin 9
-void setup() {
-    pinMode(9, OUTPUT);
-}
-
-void loop() {
-    digitalWrite(9, HIGH);
-    delay(500); // Wait for 500 milliseconds
-    digitalWrite(9, LOW);
-    delay(500);
-}
+    // Blink LED Connected to Pin 9
+    void setup() {
+        pinMode(9, OUTPUT);
+    }
+    
+    void loop() {
+        digitalWrite(9, HIGH);
+        delay(500); // Wait for 500 milliseconds
+        digitalWrite(9, LOW);
+        delay(500);
+    }
             </pre>
           `,
           videoUrl: "https://example.com/week5-writing-uploading",
         },
         {
-          title: "Reading Input from Sensors and Controlling Output Devices",
+          title: "5.4 Reading Input from Sensors and Controlling Output Devices",
           content: `
             <h2 class="text-2xl font-bold">Interacting with Hardware</h2>
             <p class="mt-4">This chapter explores how to read data from sensors and control output devices like LEDs and motors using C++ programs on microcontrollers.</p>
             <h3 class="text-xl font-semibold mt-6">Reading Sensor Data:</h3>
             <pre class="bg-gray-100 p-4 rounded">
-// Example: Reading from a Temperature Sensor
-int tempPin = A0; // Analog pin connected to the sensor
-int temperature;
-
-void setup() {
-    Serial.begin(9600); // Initialize serial communication
-}
-
-void loop() {
-    temperature = analogRead(tempPin); // Read sensor value
-    Serial.println(temperature); // Print value to Serial Monitor
-    delay(1000); // Wait for a second
-}
+    // Example: Reading from a Temperature Sensor
+    int tempPin = A0; // Analog pin connected to the sensor
+    int temperature;
+    
+    void setup() {
+        Serial.begin(9600); // Initialize serial communication
+    }
+    
+    void loop() {
+        temperature = analogRead(tempPin); // Read sensor value
+        Serial.println(temperature); // Print value to Serial Monitor
+        delay(1000); // Wait for a second
+    }
             </pre>
             <h3 class="text-xl font-semibold mt-6">Controlling Output Devices:</h3>
             <pre class="bg-gray-100 p-4 rounded">
-// Example: Controlling a Servo Motor
-#include &lt;Servo.h&gt;
-
-Servo myServo;
-
-void setup() {
-    myServo.attach(9); // Attach servo to pin 9
-}
-
-void loop() {
-    myServo.write(0);   // Move servo to 0 degrees
-    delay(1000);
-    myServo.write(90);  // Move servo to 90 degrees
-    delay(1000);
-    myServo.write(180); // Move servo to 180 degrees
-    delay(1000);
-}
+    // Example: Controlling a Servo Motor
+    #include &lt;Servo.h&gt;
+    
+    Servo myServo;
+    
+    void setup() {
+        myServo.attach(9); // Attach servo to pin 9
+    }
+    
+    void loop() {
+        myServo.write(0);   // Move servo to 0 degrees
+        delay(1000);
+        myServo.write(90);  // Move servo to 90 degrees
+        delay(1000);
+        myServo.write(180); // Move servo to 180 degrees
+        delay(1000);
+    }
             </pre>
             <h3 class="text-xl font-semibold mt-6">Example Project: Light Sensor Controlled LED</h3>
             <pre class="bg-gray-100 p-4 rounded">
-#include &lt;iostream&gt;
-
-int lightSensor = A1; // Analog pin for light sensor
-int ledPin = 13;      // Digital pin for LED
-
-void setup() {
-    pinMode(ledPin, OUTPUT);
-    Serial.begin(9600);
-}
-
-void loop() {
-    int lightLevel = analogRead(lightSensor);
-    Serial.println(lightLevel);
+    #include &lt;iostream&gt;
     
-    if(lightLevel &lt; 500) { // Threshold for low light
-        digitalWrite(ledPin, HIGH); // Turn LED on
-    } else {
-        digitalWrite(ledPin, LOW);  // Turn LED off
+    int lightSensor = A1; // Analog pin for light sensor
+    int ledPin = 13;      // Digital pin for LED
+    
+    void setup() {
+        pinMode(ledPin, OUTPUT);
+        Serial.begin(9600);
     }
     
-    delay(500);
-}
+    void loop() {
+        int lightLevel = analogRead(lightSensor);
+        Serial.println(lightLevel);
+        
+        if(lightLevel &lt; 500) { // Threshold for low light
+            digitalWrite(ledPin, HIGH); // Turn LED on
+        } else {
+            digitalWrite(ledPin, LOW);  // Turn LED off
+        }
+        
+        delay(500);
+    }
             </pre>
           `,
           videoUrl: "https://example.com/week5-reading-controlling",
         },
         {
-          title: "Exploring Practical Applications with Hardware Integration",
+          title: "5.5 Exploring Practical Applications with Hardware Integration",
           content: `
             <h2 class="text-2xl font-bold">Real-World Applications</h2>
             <p class="mt-4">Integrating hardware components with C++ programming opens up a wide range of practical applications, from simple LED projects to complex automated systems.</p>
@@ -1082,34 +1081,39 @@ void loop() {
             </ul>
             <h3 class="text-xl font-semibold mt-6">Example: Automated Plant Watering System</h3>
             <pre class="bg-gray-100 p-4 rounded">
-// Automated Plant Watering System
-int moistureSensor = A2;
-int pumpPin = 8;
-
-void setup() {
-    pinMode(pumpPin, OUTPUT);
-    Serial.begin(9600);
-}
-
-void loop() {
-    int moistureLevel = analogRead(moistureSensor);
-    Serial.println(moistureLevel);
+    #include &lt;iostream&gt;
+    #include &lt;fstream&gt;
     
-    if(moistureLevel &lt; 400) { // Threshold for dry soil
-        digitalWrite(pumpPin, HIGH); // Turn pump on
-        delay(5000); // Water for 5 seconds
-        digitalWrite(pumpPin, LOW);  // Turn pump off
+    int main() {
+        // Automated Plant Watering System
+        int moistureSensor = A2;
+        int pumpPin = 8;
+        
+        void setup() {
+            pinMode(pumpPin, OUTPUT);
+            Serial.begin(9600);
+        }
+        
+        void loop() {
+            int moistureLevel = analogRead(moistureSensor);
+            Serial.println(moistureLevel);
+            
+            if(moistureLevel &lt; 400) { // Threshold for dry soil
+                digitalWrite(pumpPin, HIGH); // Turn pump on
+                delay(5000); // Water for 5 seconds
+                digitalWrite(pumpPin, LOW);  // Turn pump off
+            }
+            
+            delay(1000);
+        }
     }
-    
-    delay(1000);
-}
             </pre>
-            <p class="mt-4">This system uses a moisture sensor to detect dry soil and activates a water pump to hydrate the plant automatically.</p>
+            <p class="mt-2">This system uses a moisture sensor to detect dry soil and activates a water pump to hydrate the plant automatically.</p>
           `,
           videoUrl: "https://example.com/week5-practical-applications",
         },
         {
-          title: "Summary",
+          title: "5.6 Summary",
           content: `
             <h2 class="text-2xl font-bold">Week 5 Summary: Programming with Arduino and Microcontrollers</h2>
             <p class="mt-4">This week, we've explored:</p>
@@ -1121,15 +1125,15 @@ void loop() {
             </ul>
             <p class="mt-4">These skills are essential for creating interactive and functional hardware projects, bridging the gap between software and electronics.</p>
           `,
-          videoUrl: "https://example.com/week5-summary",
+          // Removed videoUrl from Summary
         },
         {
-          title: "Quiz",
+          title: "5.7 Quiz",
           content: `
-            <h2 class="text-2xl font-bold">Test Your Understanding</h2>
-            <p class="mt-4">Assess your grasp of the key concepts from this week.</p>
+            <h2 class="text-2xl font-bold">Quiz</h2>
+            <p class="mt-4">Assess your understanding of the key concepts from this week.</p>
           `,
-          videoUrl: "https://example.com/week5-quiz",
+          // Removed videoUrl from Quiz
           quiz: {
             question:
               "Which function is used to initialize a pin as an output in Arduino?",
@@ -1149,7 +1153,7 @@ void loop() {
       title: "Week 6: File Handling in C++",
       chapters: [
         {
-          title: "Introduction",
+          title: "6.1 Introduction",
           content: `
             <h2 class="text-2xl font-bold">Managing Data with File Operations</h2>
             <p class="mt-4">File handling allows your programs to read from and write to files, enabling data storage and retrieval for persistent information management.</p>
@@ -1164,53 +1168,53 @@ void loop() {
           videoUrl: "https://example.com/week6-intro",
         },
         {
-          title: "Reading from and Writing to Files",
+          title: "6.2 Reading from and Writing to Files",
           content: `
             <h2 class="text-2xl font-bold">Basic File Operations</h2>
             <p class="mt-4">C++ provides file stream classes to handle file operations. This chapter covers how to read from and write to files.</p>
             <h3 class="text-xl font-semibold mt-6">Writing to a File:</h3>
             <pre class="bg-gray-100 p-4 rounded">
-#include &lt;iostream&gt;
-#include &lt;fstream&gt;
-
-int main() {
-    std::ofstream outFile("output.txt"); // Create and open a text file
-    if(outFile.is_open()) {
-        outFile &lt;&lt; "Hello, World!" &lt;&lt; std::endl;
-        outFile &lt;&lt; "Writing to a file in C++." &lt;&lt; std::endl;
-        outFile.close(); // Close the file
-        std::cout &lt;&lt; "Data written to output.txt successfully." &lt;&lt; std::endl;
-    } else {
-        std::cout &lt;&lt; "Unable to open file." &lt;&lt; std::endl;
+    #include &lt;iostream&gt;
+    #include &lt;fstream&gt;
+    
+    int main() {
+        std::ofstream outFile("output.txt"); // Create and open a text file
+        if(outFile.is_open()) {
+            outFile &lt;&lt; "Hello, World!" &lt;&lt; std::endl;
+            outFile &lt;&lt; "Writing to a file in C++." &lt;&lt; std::endl;
+            outFile.close(); // Close the file
+            std::cout &lt;&lt; "Data written to output.txt successfully." &lt;&lt; std::endl;
+        } else {
+            std::cout &lt;&lt; "Unable to open file." &lt;&lt; std::endl;
+        }
+        return 0;
     }
-    return 0;
-}
             </pre>
             <h3 class="text-xl font-semibold mt-6">Reading from a File:</h3>
             <pre class="bg-gray-100 p-4 rounded">
-#include &lt;iostream&gt;
-#include &lt;fstream&gt;
-#include &lt;string&gt;
-
-int main() {
-    std::ifstream inFile("output.txt"); // Open the text file
-    std::string line;
-    if(inFile.is_open()) {
-        while(getline(inFile, line)) { // Read data from file line by line
-            std::cout &lt;&lt; line &lt;&lt; std::endl;
+    #include &lt;iostream&gt;
+    #include &lt;fstream&gt;
+    #include &lt;string&gt;
+    
+    int main() {
+        std::ifstream inFile("output.txt"); // Open the text file
+        std::string line;
+        if(inFile.is_open()) {
+            while(getline(inFile, line)) { // Read data from file line by line
+                std::cout &lt;&lt; line &lt;&lt; std::endl;
+            }
+            inFile.close(); // Close the file
+        } else {
+            std::cout &lt;&lt; "Unable to open file." &lt;&lt; std::endl;
         }
-        inFile.close(); // Close the file
-    } else {
-        std::cout &lt;&lt; "Unable to open file." &lt;&lt; std::endl;
+        return 0;
     }
-    return 0;
-}
             </pre>
           `,
           videoUrl: "https://example.com/week6-reading-writing-files",
         },
         {
-          title: "Using File Streams for Data Storage and Retrieval",
+          title: "6.3 Using File Streams for Data Storage and Retrieval",
           content: `
             <h2 class="text-2xl font-bold">Advanced File Stream Usage</h2>
             <p class="mt-4">File streams provide a flexible way to handle various types of data storage and retrieval operations in C++.</p>
@@ -1223,66 +1227,66 @@ int main() {
             </ul>
             <h3 class="text-xl font-semibold mt-6">Example: Appending Data to a File</h3>
             <pre class="bg-gray-100 p-4 rounded">
-#include &lt;iostream&gt;
-#include &lt;fstream&gt;
-#include &lt;string&gt;
-
-int main() {
-    std::ofstream outFile("log.txt", std::ios::app); // Open file in append mode
-    if(outFile.is_open()) {
-        std::string logEntry = "User logged in at 10:00 AM.";
-        outFile &lt;&lt; logEntry &lt;&lt; std::endl;
-        outFile.close();
-        std::cout &lt;&lt; "Log entry added successfully." &lt;&lt; std::endl;
-    } else {
-        std::cout &lt;&lt; "Unable to open file." &lt;&lt; std::endl;
+    #include &lt;iostream&gt;
+    #include &lt;fstream&gt;
+    #include &lt;string&gt;
+    
+    int main() {
+        std::ofstream outFile("log.txt", std::ios::app); // Open file in append mode
+        if(outFile.is_open()) {
+            std::string logEntry = "User logged in at 10:00 AM.";
+            outFile &lt;&lt; logEntry &lt;&lt; std::endl;
+            outFile.close();
+            std::cout &lt;&lt; "Log entry added successfully." &lt;&lt; std::endl;
+        } else {
+            std::cout &lt;&lt; "Unable to open file." &lt;&lt; std::endl;
+        }
+        return 0;
     }
-    return 0;
-}
             </pre>
             <h3 class="text-xl font-semibold mt-6">Reading and Writing Binary Files:</h3>
             <pre class="bg-gray-100 p-4 rounded">
-#include &lt;iostream&gt;
-#include &lt;fstream&gt;
-
-struct Data {
-    int id;
-    double value;
-};
-
-int main() {
-    Data dataWrite = {1, 99.99};
-
-    // Writing binary data to a file
-    std::ofstream outFile("data.bin", std::ios::binary);
-    if(outFile.is_open()) {
-        outFile.write(reinterpret_cast<char*>(&dataWrite), sizeof(Data));
-        outFile.close();
-        std::cout &lt;&lt; "Binary data written successfully." &lt;&lt; std::endl;
-    } else {
-        std::cout &lt;&lt; "Unable to open file." &lt;&lt; std::endl;
+    #include &lt;iostream&gt;
+    #include &lt;fstream&gt;
+    
+    struct Data {
+        int id;
+        double value;
+    };
+    
+    int main() {
+        Data dataWrite = {1, 99.99};
+    
+        // Writing binary data to a file
+        std::ofstream outFile("data.bin", std::ios::binary);
+        if(outFile.is_open()) {
+            outFile.write(reinterpret_cast<char*>(&dataWrite), sizeof(Data));
+            outFile.close();
+            std::cout &lt;&lt; "Binary data written successfully." &lt;&lt; std::endl;
+        } else {
+            std::cout &lt;&lt; "Unable to open file." &lt;&lt; std::endl;
+        }
+    
+        Data dataRead;
+    
+        // Reading binary data from a file
+        std::ifstream inFile("data.bin", std::ios::binary);
+        if(inFile.is_open()) {
+            inFile.read(reinterpret_cast<char*>(&dataRead), sizeof(Data));
+            inFile.close();
+            std::cout &lt;&lt; "ID: " &lt;&lt; dataRead.id &lt;&lt; ", Value: " &lt;&lt; dataRead.value &lt;&lt; std::endl;
+        } else {
+            std::cout &lt;&lt; "Unable to open file." &lt;&lt; std::endl;
+        }
+    
+        return 0;
     }
-
-    Data dataRead;
-
-    // Reading binary data from a file
-    std::ifstream inFile("data.bin", std::ios::binary);
-    if(inFile.is_open()) {
-        inFile.read(reinterpret_cast<char*>(&dataRead), sizeof(Data));
-        inFile.close();
-        std::cout &lt;&lt; "ID: " &lt;&lt; dataRead.id &lt;&lt; ", Value: " &lt;&lt; dataRead.value &lt;&lt; std::endl;
-    } else {
-        std::cout &lt;&lt; "Unable to open file." &lt;&lt; std::endl;
-    }
-
-    return 0;
-}
             </pre>
           `,
           videoUrl: "https://example.com/week6-file-streams",
         },
         {
-          title: "Error Handling in File Operations",
+          title: "6.4 Error Handling in File Operations",
           content: `
             <h2 class="text-2xl font-bold">Ensuring Robust File Operations</h2>
             <p class="mt-4">Error handling is crucial when performing file operations to ensure that your program can gracefully handle unexpected issues like missing files or read/write errors.</p>
@@ -1295,92 +1299,92 @@ int main() {
             </ul>
             <h3 class="text-xl font-semibold mt-6">Implementing Error Handling:</h3>
             <pre class="bg-gray-100 p-4 rounded">
-#include &lt;iostream&gt;
-#include &lt;fstream&gt;
-
-int main() {
-    std::ifstream inFile("nonexistent.txt");
-    if(!inFile) {
-        std::cerr &lt;&lt; "Error: Unable to open file for reading." &lt;&lt; std::endl;
-        return 1;
+    #include &lt;iostream&gt;
+    #include &lt;fstream&gt;
+    
+    int main() {
+        std::ifstream inFile("nonexistent.txt");
+        if(!inFile) {
+            std::cerr &lt;&lt; "Error: Unable to open file for reading." &lt;&lt; std::endl;
+            return 1;
+        }
+    
+        // Proceed with file operations
+        inFile.close();
+        return 0;
     }
-
-    // Proceed with file operations
-    inFile.close();
-    return 0;
-}
             </pre>
             <h3 class="text-xl font-semibold mt-6">Using try-catch Blocks:</h3>
             <pre class="bg-gray-100 p-4 rounded">
-#include &lt;iostream&gt;
-#include &lt;fstream&gt;
-#include &lt;exception&gt;
-
-int main() {
-    try {
-        std::ifstream inFile("data.txt");
-        if(!inFile.is_open()) {
-            throw std::runtime_error("Unable to open file.");
+    #include &lt;iostream&gt;
+    #include &lt;fstream&gt;
+    #include &lt;exception&gt;
+    
+    int main() {
+        try {
+            std::ifstream inFile("data.txt");
+            if(!inFile.is_open()) {
+                throw std::runtime_error("Unable to open file.");
+            }
+    
+            // File operations
+            inFile.close();
         }
-
-        // File operations
-        inFile.close();
+        catch(const std::exception &e) {
+            std::cerr &lt;&lt; "Exception: " &lt;&lt; e.what() &lt;&lt; std::endl;
+        }
+    
+        return 0;
     }
-    catch(const std::exception &e) {
-        std::cerr &lt;&lt; "Exception: " &lt;&lt; e.what() &lt;&lt; std::endl;
-    }
-
-    return 0;
-}
             </pre>
           `,
           videoUrl: "https://example.com/week6-error-handling",
         },
         {
-          title: "Building Programs That Save and Load Data",
+          title: "6.5 Building Programs That Save and Load Data",
           content: `
             <h2 class="text-2xl font-bold">Persistent Data Management</h2>
             <p class="mt-4">Creating programs that can save data to files and load data from files is essential for applications that require data persistence.</p>
             <h3 class="text-xl font-semibold mt-6">Example: Saving User Preferences</h3>
             <pre class="bg-gray-100 p-4 rounded">
-#include &lt;iostream&gt;
-#include &lt;fstream&gt;
-#include &lt;string&gt;
-
-int main() {
-    std::ofstream outFile("preferences.txt");
-    if(outFile.is_open()) {
-        std::string theme = "Dark";
-        int fontSize = 14;
-        outFile &lt;&lt; theme &lt;&lt; std::endl;
-        outFile &lt;&lt; fontSize &lt;&lt; std::endl;
-        outFile.close();
-        std::cout &lt;&lt; "Preferences saved successfully." &lt;&lt; std::endl;
-    } else {
-        std::cout &lt;&lt; "Unable to save preferences." &lt;&lt; std::endl;
+    #include &lt;iostream&gt;
+    #include &lt;fstream&gt;
+    #include &lt;string&gt;
+    
+    int main() {
+        std::ofstream outFile("preferences.txt");
+        if(outFile.is_open()) {
+            std::string theme = "Dark";
+            int fontSize = 14;
+            outFile &lt;&lt; theme &lt;&lt; std::endl;
+            outFile &lt;&lt; fontSize &lt;&lt; std::endl;
+            outFile.close();
+            std::cout &lt;&lt; "Preferences saved successfully." &lt;&lt; std::endl;
+        } else {
+            std::cout &lt;&lt; "Unable to save preferences." &lt;&lt; std::endl;
+        }
+    
+        // Loading preferences
+        std::ifstream inFile("preferences.txt");
+        if(inFile.is_open()) {
+            std::string loadedTheme;
+            int loadedFontSize;
+            std::getline(inFile, loadedTheme);
+            inFile &gt;&gt; loadedFontSize;
+            inFile.close();
+            std::cout &lt;&lt; "Loaded Theme: " &lt;&lt; loadedTheme &lt;&lt; ", Font Size: " &lt;&lt; loadedFontSize &lt;&lt; std::endl;
+        } else {
+            std::cout &lt;&lt; "Unable to load preferences." &lt;&lt; std::endl;
+        }
+    
+        return 0;
     }
-
-    // Loading preferences
-    std::ifstream inFile("preferences.txt");
-    if(inFile.is_open()) {
-        std::string loadedTheme;
-        int loadedFontSize;
-        std::getline(inFile, loadedTheme);
-        inFile &gt;&gt; loadedFontSize;
-        inFile.close();
-        std::cout &lt;&lt; "Loaded Theme: " &lt;&lt; loadedTheme &lt;&lt; ", Font Size: " &lt;&lt; loadedFontSize &lt;&lt; std::endl;
-    } else {
-        std::cout &lt;&lt; "Unable to load preferences." &lt;&lt; std::endl;
-    }
-
-    return 0;
-}
             </pre>
           `,
           videoUrl: "https://example.com/week6-save-load-data",
         },
         {
-          title: "Summary",
+          title: "6.6 Summary",
           content: `
             <h2 class="text-2xl font-bold">Week 6 Summary: File Handling in C++</h2>
             <p class="mt-4">This week, we've explored:</p>
@@ -1392,15 +1396,15 @@ int main() {
             </ul>
             <p class="mt-4">Mastering file handling is crucial for developing applications that require data persistence, such as configuration settings, user data, and logs.</p>
           `,
-          videoUrl: "https://example.com/week6-summary",
+          // Removed videoUrl from Summary
         },
         {
-          title: "Quiz",
+          title: "6.7 Quiz",
           content: `
-            <h2 class="text-2xl font-bold">Test Your Understanding</h2>
-            <p class="mt-4">Assess your grasp of the key concepts from this week.</p>
+            <h2 class="text-2xl font-bold">Quiz</h2>
+            <p class="mt-4">Assess your understanding of the key concepts from this week.</p>
           `,
-          videoUrl: "https://example.com/week6-quiz",
+          // Removed videoUrl from Quiz
           quiz: {
             question: "Which function is used to read data from a file in C++?",
             options: [
@@ -1419,7 +1423,7 @@ int main() {
       title: "Week 7: Final Project",
       chapters: [
         {
-          title: "Introduction",
+          title: "7.1 Introduction",
           content: `
             <h2 class="text-2xl font-bold">Developing Your Comprehensive Project</h2>
             <p class="mt-4">The final project is an opportunity to apply all the concepts you've learned throughout the course. You'll design and implement a comprehensive C++ program that integrates arrays, functions, file handling, and, optionally, hardware interaction with Arduino.</p>
@@ -1435,7 +1439,7 @@ int main() {
           videoUrl: "https://example.com/week7-intro",
         },
         {
-          title: "Designing and Implementing a Comprehensive Program",
+          title: "7.2 Designing and Implementing a Comprehensive Program",
           content: `
             <h2 class="text-2xl font-bold">Project Planning and Execution</h2>
             <p class="mt-4">Effective project development involves careful planning and systematic execution. This chapter guides you through the steps of designing and implementing your final project.</p>
@@ -1458,8 +1462,7 @@ int main() {
           videoUrl: "https://example.com/week7-design-implement-project",
         },
         {
-          title:
-            "Integrating Hardware (Optional for Those with Access to Microcontrollers)",
+          title: "7.3 Integrating Hardware (Optional for Those with Access to Microcontrollers)",
           content: `
             <h2 class="text-2xl font-bold">Enhancing Projects with Hardware</h2>
             <p class="mt-4">If you have access to Arduino or other microcontrollers, integrating hardware components can add functionality and interactivity to your projects.</p>
@@ -1472,32 +1475,39 @@ int main() {
             </ul>
             <h3 class="text-xl font-semibold mt-6">Example: Temperature-Controlled Fan</h3>
             <pre class="bg-gray-100 p-4 rounded">
-#include &lt;iostream&gt;
-#include &lt;fstream&gt;
-
-int main() {
-    // This is a placeholder for hardware integration
-    // Example: Read temperature from a sensor and control a fan accordingly
-    // Actual implementation would require Arduino-specific libraries and hardware setup
-
-    std::cout &lt;&lt; "Temperature-Controlled Fan System" &lt;&lt; std::endl;
-    // Read temperature
-    double temperature = 0.0;
-    // Control fan based on temperature
-    if(temperature &gt; 30.0) {
-        std::cout &lt;&lt; "Temperature is high. Turning fan on." &lt;&lt; std::endl;
-    } else {
-        std::cout &lt;&lt; "Temperature is normal. Turning fan off." &lt;&lt; std::endl;
+    #include &lt;iostream&gt;
+    #include &lt;fstream&gt;
+    
+    int main() {
+        // Automated Plant Watering System
+        int moistureSensor = A2;
+        int pumpPin = 8;
+        
+        void setup() {
+            pinMode(pumpPin, OUTPUT);
+            Serial.begin(9600);
+        }
+        
+        void loop() {
+            int moistureLevel = analogRead(moistureSensor);
+            Serial.println(moistureLevel);
+            
+            if(moistureLevel &lt; 400) { // Threshold for dry soil
+                digitalWrite(pumpPin, HIGH); // Turn pump on
+                delay(5000); // Water for 5 seconds
+                digitalWrite(pumpPin, LOW);  // Turn pump off
+            }
+            
+            delay(1000);
+        }
     }
-    return 0;
-}
             </pre>
             <p class="mt-2">In a real-world scenario, you would replace the placeholders with actual sensor readings and actuator controls using Arduino libraries.</p>
           `,
           videoUrl: "https://example.com/week7-integrating-hardware",
         },
         {
-          title: "Debugging, Testing, and Presenting the Final Project",
+          title: "7.4 Debugging, Testing, and Presenting the Final Project",
           content: `
             <h2 class="text-2xl font-bold">Finalizing Your Project</h2>
             <p class="mt-4">Once your project is implemented, it's crucial to thoroughly test and debug it to ensure it functions as intended. This chapter also covers best practices for presenting your final project.</p>
@@ -1534,7 +1544,7 @@ int main() {
           videoUrl: "https://example.com/week7-debugging-testing-presentation",
         },
         {
-          title: "Best Practices for Future Learning and Advanced Topics",
+          title: "7.5 Best Practices for Future Learning and Advanced Topics",
           content: `
             <h2 class="text-2xl font-bold">Continuing Your C++ Journey</h2>
             <p class="mt-4">As you complete this course, it's important to continue building your C++ skills and explore more advanced topics to enhance your programming expertise.</p>
@@ -1576,7 +1586,7 @@ int main() {
           videoUrl: "https://example.com/week7-best-practices",
         },
         {
-          title: "Summary",
+          title: "7.6 Summary",
           content: `
             <h2 class="text-2xl font-bold">Week 7 Summary: Final Project</h2>
             <p class="mt-4">In this final week, we've covered:</p>
@@ -1589,15 +1599,15 @@ int main() {
             </ul>
             <p class="mt-4">Completing the final project showcases your ability to apply all the concepts learned throughout the course, preparing you for more advanced programming challenges.</p>
           `,
-          videoUrl: "https://example.com/week7-summary",
+          // Removed videoUrl from Summary
         },
         {
-          title: "Quiz",
+          title: "7.7 Quiz",
           content: `
             <h2 class="text-2xl font-bold">Final Assessment</h2>
             <p class="mt-4">Test your comprehensive understanding of the concepts covered throughout the course.</p>
           `,
-          videoUrl: "https://example.com/week7-final-quiz",
+          // Removed videoUrl from Quiz
           quiz: {
             question:
               "Which of the following is a benefit of using modular programming?",
@@ -1614,8 +1624,10 @@ int main() {
     },
   ],
 };
+
 // The rest of the code remains the same as previously provided
 // The code below is necessary for the component to function correctly
+
 export default function CppCoursePage() {
   return <CoursePage courseData={CppCourseData} />;
 }

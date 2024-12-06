@@ -23,13 +23,13 @@ import {
 const images = [
   {
     src: "/Scientific Writing Badge (1).png?height=500&width=500",
-    alt: "Image 1",
+    alt: "Scientific Writing Badge",
   },
-  { src: "/circuitbadge.png?height=500&width=500", alt: "Image 2" },
-  { src: "/researchbadge.png?height=500&width=500", alt: "Image 3" },
-  { src: "/CADbadge (1).png?height=500&width=500", alt: "Image 4" },
-  { src: "/c++badge.png?height=500&width=500", alt: "Image 5" },
-  { src: "/caffeinebadge.png?height=500&width=500", alt: "Image 6" },
+  { src: "/circuitbadge.png?height=500&width=500", alt: "Circuit Design Badge" },
+  { src: "/researchbadge.png?height=500&width=500", alt: "Research Badge" },
+  { src: "/CADbadge (1).png?height=500&width=500", alt: "CAD Design Badge" },
+  { src: "/c++badge.png?height=500&width=500", alt: "C++ Programming Badge" },
+  { src: "/caffeinebadge.png?height=500&width=500", alt: "Caffeine Badge" },
 ];
 
 function AnimatedImageCarousel() {
@@ -94,7 +94,7 @@ export default function EnhancedCourseOverviewComponent() {
               </h1>
               <p className="text-xl text-white max-w-2xl mx-auto">
                 Learn the principles of CAD and how to develop your own models
-                through onshape
+                through Onshape.
               </p>
             </section>
 
@@ -102,7 +102,7 @@ export default function EnhancedCourseOverviewComponent() {
               <CardHeader>
                 <CardTitle>Course Overview</CardTitle>
                 <CardDescription>
-                  Learn the fundamentals of Computer Aided Design
+                  Learn the fundamentals of Computer-Aided Design
                 </CardDescription>
               </CardHeader>
               <CardContent>
@@ -125,121 +125,207 @@ export default function EnhancedCourseOverviewComponent() {
             <section className="space-y-6">
               <h2 className="text-3xl font-semibold">Course Syllabus</h2>
               <Accordion type="single" collapsible className="w-full">
+                {/* Week 1 */}
                 <AccordionItem value="week1">
                   <AccordionTrigger>
-                    Week 1: Introduction to CAD and Software Setup{" "}
+                    Week 1: Introduction to CAD and Software Setup
                   </AccordionTrigger>
                   <AccordionContent>
                     <ul className="list-disc pl-5 space-y-2">
-                      <li>Chapter 1: Introduction</li>
+                      <li>Chapter 1.1: Introduction</li>
                       <li>
-                        Chapter 1: Setting up the CAD environment in onshape
+                        Chapter 1.2: Setting up the CAD environment in Onshape
                       </li>
                       <li>
-                        Chapter 1: Overview of the CAD interface and tools
+                        Chapter 1.3: Overview of the CAD interface and tools
                       </li>
                       <li>
-                        Chapter 1: Understanding design principles and sketching
+                        Chapter 1.4: Understanding design principles and sketching
                         basics
                       </li>
                       <li>
-                        Chapter 1: Creating simple 2D sketches and extrusions
+                        Chapter 1.5: Creating simple 2D sketches and extrusions
                       </li>
-                      <li>Chapter 1: Summary </li>
-                      <li>Chapter 1: Quiz </li>
+                      <li>Chapter 1.6: Summary </li>
+                      <li>Chapter 1.7: Quiz </li>
                     </ul>
                   </AccordionContent>
                 </AccordionItem>
+
+                {/* Week 2 */}
                 <AccordionItem value="week2">
                   <AccordionTrigger>
-                    Week 2: Mastering Basic 3D Modeling Techniques{" "}
+                    Week 2: Mastering Basic 3D Modeling Techniques
                   </AccordionTrigger>
                   <AccordionContent>
                     <ul className="list-disc pl-5 space-y-2">
-                      <li>Chapter 2: Introduction</li>
+                      <li>Chapter 2.1: Introduction</li>
                       <li>
-                        Chapter 2: Working with primitives like cubes, spheres,
+                        Chapter 2.2: Working with primitives like cubes, spheres,
                         and cylinders
                       </li>
                       <li>
-                        Chapter 2: Modifying shapes using extrude, revolve, and
+                        Chapter 2.3: Modifying shapes using extrude, revolve, and
                         loft tools
                       </li>
                       <li>
-                        Chapter 2: Combining and subtracting shapes (Boolean
+                        Chapter 2.4: Combining and subtracting shapes (Boolean
                         operations)
                       </li>
                       <li>
-                        Chapter 2: Building simple 3D objects with precision
+                        Chapter 2.5: Building simple 3D objects with precision
                       </li>
-                      <li>Chapter 2: Summary </li>
-                      <li>Chapter 2: Quiz </li>
+                      <li>Chapter 2.6: Summary </li>
+                      <li>Chapter 2.7: Quiz </li>
                     </ul>
                   </AccordionContent>
                 </AccordionItem>
+
+                {/* Week 3 */}
                 <AccordionItem value="week3">
                   <AccordionTrigger>
-                    Week 3: Rendering and Visualization{" "}
+                    Week 3: Rendering and Visualization
                   </AccordionTrigger>
                   <AccordionContent>
                     <ul className="list-disc pl-5 space-y-2">
-                      <li>Chapter 3: Introduction</li>
+                      <li>Chapter 3.1: Introduction</li>
                       <li>
-                        Chapter 3: Applying materials and textures to models
+                        Chapter 3.2: Applying materials and textures to models
                       </li>
                       <li>
-                        Chapter 3: Setting up lighting and creating realistic
+                        Chapter 3.3: Setting up lighting and creating realistic
                         renders
                       </li>
                       <li>
-                        Chapter 3: Exporting high-quality images and animations
+                        Chapter 3.4: Exporting high-quality images and animations
                       </li>
-                      <li>Chapter 3: Summary </li>
-                      <li>Chapter 3: Quiz </li>
+                      <li>Chapter 3.5: Summary </li>
+                      <li>Chapter 3.6: Quiz </li>
                     </ul>
                   </AccordionContent>
                 </AccordionItem>
+
+                {/* Week 4 */}
                 <AccordionItem value="week4">
                   <AccordionTrigger>
-                    Week 4: 3D Printing and Prototyping{" "}
+                    Week 4: 3D Printing and Prototyping
                   </AccordionTrigger>
                   <AccordionContent>
                     <ul className="list-disc pl-5 space-y-2">
-                      <li>Chapter 4: Introduction</li>
+                      <li>Chapter 4.1: Introduction</li>
                       <li>
-                        Chapter 4: Preparing models for 3D printing with slicing
+                        Chapter 4.2: Preparing models for 3D printing with slicing
                         software
                       </li>
                       <li>
-                        Chapter 4: Troubleshooting and refining designs for
+                        Chapter 4.3: Troubleshooting and refining designs for
                         printability
                       </li>
                       <li>
-                        Chapter 4: Understanding real-world applications of
+                        Chapter 4.4: Understanding real-world applications of
                         prototypes
                       </li>
-                      <li>Chapter 4: Summary </li>
-                      <li>Chapter 4: Quiz </li>
+                      <li>Chapter 4.5: Summary </li>
+                      <li>Chapter 4.6: Quiz </li>
                     </ul>
                   </AccordionContent>
                 </AccordionItem>
+
+                {/* Week 5 */}
                 <AccordionItem value="week5">
-                  <AccordionTrigger>Week 5: Final Project </AccordionTrigger>
+                  <AccordionTrigger>Week 5: Final Project</AccordionTrigger>
                   <AccordionContent>
                     <ul className="list-disc pl-5 space-y-2">
-                      <li>Chapter 5: Introduction</li>
+                      <li>Chapter 5.1: Introduction</li>
                       <li>
-                        Chapter 5: Developing a complete design from concept to
+                        Chapter 5.2: Developing a complete design from concept to
                         final render
                       </li>
                       <li>
-                        Chapter 5: Incorporating advanced modeling techniques
+                        Chapter 5.3: Incorporating advanced modeling techniques
                       </li>
                       <li>
-                        Chapter 5: Presenting and documenting the design process
+                        Chapter 5.4: Presenting and documenting the design process
                       </li>
-                      <li>Chapter 5: Summary </li>
-                      <li>Chapter 5: Quiz </li>
+                      <li>Chapter 5.5: Summary </li>
+                      <li>Chapter 5.6: Quiz </li>
+                    </ul>
+                  </AccordionContent>
+                </AccordionItem>
+
+                {/* Week 6 */}
+                <AccordionItem value="week6">
+                  <AccordionTrigger>
+                    Week 6: Electrical Components and Safety
+                  </AccordionTrigger>
+                  <AccordionContent>
+                    <ul className="list-disc pl-5 space-y-2">
+                      <li>Chapter 6.1: Introduction</li>
+                      <li>
+                        Chapter 6.2: Identifying and Understanding Resistors,
+                        Capacitors, and Diodes
+                      </li>
+                      <li>
+                        Chapter 6.3: Safely Using Breadboards and Power Supplies
+                        in Circuits
+                      </li>
+                      <li>
+                        Chapter 6.4: Basic Troubleshooting Techniques for Faulty
+                        Components
+                      </li>
+                      <li>Chapter 6.5: Summary </li>
+                      <li>Chapter 6.6: Quiz </li>
+                    </ul>
+                  </AccordionContent>
+                </AccordionItem>
+
+                {/* Week 7 */}
+                <AccordionItem value="week7">
+                  <AccordionTrigger>
+                    Week 7: Programming a Microcontroller
+                  </AccordionTrigger>
+                  <AccordionContent>
+                    <ul className="list-disc pl-5 space-y-2">
+                      <li>Chapter 7.1: Introduction</li>
+                      <li>
+                        Chapter 7.2: Writing and Uploading Simple C++ Programs to
+                        Microcontrollers
+                      </li>
+                      <li>
+                        Chapter 7.3: Understanding Data Types, Variables, and
+                        Logic Control Structures
+                      </li>
+                      <li>
+                        Chapter 7.4: Using Functions to Organize Code for Complex
+                        Operations
+                      </li>
+                      <li>Chapter 7.5: Summary </li>
+                      <li>Chapter 7.6: Quiz </li>
+                    </ul>
+                  </AccordionContent>
+                </AccordionItem>
+
+                {/* Week 8 */}
+                <AccordionItem value="week8">
+                  <AccordionTrigger>
+                    Week 8: Combining Hardware and Software
+                  </AccordionTrigger>
+                  <AccordionContent>
+                    <ul className="list-disc pl-5 space-y-2">
+                      <li>Chapter 8.1: Introduction</li>
+                      <li>
+                        Chapter 8.2: Integrating Sensors and Actuators with
+                        Microcontroller Code
+                      </li>
+                      <li>
+                        Chapter 8.3: Synchronizing Hardware Functionality with
+                        Software Logic
+                      </li>
+                      <li>
+                        Chapter 8.4: Debugging Issues in Integrated Systems
+                      </li>
+                      <li>Chapter 8.5: Summary </li>
+                      <li>Chapter 8.6: Quiz </li>
                     </ul>
                   </AccordionContent>
                 </AccordionItem>

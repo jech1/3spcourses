@@ -12,7 +12,7 @@ const ResearchCourseData: CourseData = {
       title: "Week 1: Introduction to Research Methods",
       chapters: [
         {
-          title: "Introduction",
+          title: "Chapter 1.1: Introduction",
           content: `
             <h2 class="text-2xl font-bold">Welcome to Research Methods & Analytics</h2>
             <p class="mt-4">Research methods are the backbone of any scientific inquiry. This week, we'll explore the fundamental concepts that underpin effective research practices.</p>
@@ -33,7 +33,7 @@ const ResearchCourseData: CourseData = {
           videoUrl: "https://example.com/week1-intro",
         },
         {
-          title: "Understanding the Purpose of Research Methods",
+          title: "Chapter 1.2: Understanding the Purpose of Research Methods",
           content: `
             <h2 class="text-2xl font-bold">The Purpose of Research Methods</h2>
             <p class="mt-4">Research methods are essential for systematically investigating questions and generating reliable knowledge. They provide a structured approach to collecting and analyzing data.</p>
@@ -53,7 +53,7 @@ const ResearchCourseData: CourseData = {
           videoUrl: "https://example.com/week1-purpose",
         },
         {
-          title: "Key Concepts: Reliability, Validity, and Ethics",
+          title: "Chapter 1.3: Key Concepts: Reliability, Validity, and Ethics",
           content: `
             <h2 class="text-2xl font-bold">Essential Research Concepts</h2>
             <p class="mt-4">Understanding reliability, validity, and ethics is crucial for conducting robust and ethical research.</p>
@@ -78,7 +78,7 @@ const ResearchCourseData: CourseData = {
           videoUrl: "https://example.com/week1-key-concepts",
         },
         {
-          title: "Summary",
+          title: "Chapter 1.4: Summary",
           content: `
             <h2 class="text-2xl font-bold">Week 1 Summary: Introduction to Research Methods</h2>
             <p class="mt-4">In this week, we've covered:</p>
@@ -89,15 +89,15 @@ const ResearchCourseData: CourseData = {
             </ul>
             <p class="mt-4">These foundational concepts will support your understanding as we delve deeper into specific research methodologies in the coming weeks.</p>
           `,
-          videoUrl: "https://example.com/week1-summary",
+          // videoUrl removed
         },
         {
-          title: "Quiz",
+          title: "Chapter 1.5: Quiz",
           content: `
             <h2 class="text-2xl font-bold">Test Your Understanding</h2>
             <p class="mt-4">Assess your grasp of the key concepts from this week.</p>
           `,
-          videoUrl: "https://example.com/week1-quiz",
+          // videoUrl removed
           quiz: {
             question:
               "Which of the following best describes validity in research?",
@@ -117,7 +117,7 @@ const ResearchCourseData: CourseData = {
       title: "Week 2: Formulating Research Questions and Hypotheses",
       chapters: [
         {
-          title: "Introduction",
+          title: "Chapter 2.1: Introduction",
           content: `
             <h2 class="text-2xl font-bold">The Foundation of Scientific Inquiry</h2>
             <p class="mt-4">Research questions and hypotheses are central to the scientific method. They define the focus of your study and guide your research design and analysis.</p>
@@ -131,7 +131,7 @@ const ResearchCourseData: CourseData = {
           videoUrl: "https://example.com/week2-intro",
         },
         {
-          title: "Identifying Research Gaps and Formulating Questions",
+          title: "Chapter 2.2: Identifying Research Gaps and Formulating Questions",
           content: `
             <h2 class="text-2xl font-bold">Finding Your Research Niche</h2>
             <p class="mt-4">Identifying research gaps involves reviewing existing literature to find areas that are under-explored or contentious. Here's how to proceed:</p>
@@ -163,7 +163,7 @@ const ResearchCourseData: CourseData = {
           videoUrl: "https://example.com/week2-identifying-gaps",
         },
         {
-          title: "Writing Clear and Testable Hypotheses",
+          title: "Chapter 2.3: Writing Clear and Testable Hypotheses",
           content: `
             <h2 class="text-2xl font-bold">Formulating Your Hypotheses</h2>
             <p class="mt-4">A hypothesis is a tentative explanation or prediction that can be tested through research. Here's how to write effective hypotheses:</p>
@@ -205,7 +205,7 @@ const ResearchCourseData: CourseData = {
           videoUrl: "https://example.com/week2-writing-hypotheses",
         },
         {
-          title: "Responsive Design Principles",
+          title: "Chapter 2.4: Responsive Design Principles",
           content: `
             <h2 class="text-2xl font-bold">Note: This Chapter May Be Misplaced</h2>
             <p class="mt-4">It seems there might be an error in the chapter listing. "Responsive Design Principles" typically pertains to web design, which may not align with the context of research methods. If this chapter is intended, please provide additional details or confirm its inclusion.</p>
@@ -213,7 +213,7 @@ const ResearchCourseData: CourseData = {
           videoUrl: "https://example.com/week2-responsive-design",
         },
         {
-          title: "Summary",
+          title: "Chapter 2.5: Summary",
           content: `
             <h2 class="text-2xl font-bold">Week 2 Summary: Formulating Research Questions and Hypotheses</h2>
             <p class="mt-4">This week, we've focused on:</p>
@@ -224,15 +224,15 @@ const ResearchCourseData: CourseData = {
             </ul>
             <p class="mt-4">These skills are essential for designing a solid research study and contributing meaningful knowledge to your field.</p>
           `,
-          videoUrl: "https://example.com/week2-summary",
+          // videoUrl removed
         },
         {
-          title: "Quiz",
+          title: "Chapter 2.6: Quiz",
           content: `
             <h2 class="text-2xl font-bold">Test Your Understanding</h2>
             <p class="mt-4">Assess your grasp of the key concepts from this week.</p>
           `,
-          videoUrl: "https://example.com/week2-quiz",
+          // videoUrl removed
           quiz: {
             question:
               "Which of the following is a characteristic of a good research question?",
@@ -252,7 +252,7 @@ const ResearchCourseData: CourseData = {
       title: "Week 3: Quantitative Research Methods",
       chapters: [
         {
-          title: "Introduction",
+          title: "Chapter 3.1: Introduction",
           content: `
             <h2 class="text-2xl font-bold">Exploring Quantitative Research</h2>
             <p class="mt-4">Quantitative research involves the collection and analysis of numerical data to identify patterns, relationships, and trends.</p>
@@ -266,7 +266,7 @@ const ResearchCourseData: CourseData = {
           videoUrl: "https://example.com/week3-intro",
         },
         {
-          title: "Experimental Design and Control",
+          title: "Chapter 3.2: Experimental Design and Control",
           content: `
             <h2 class="text-2xl font-bold">Structuring Your Experiments</h2>
             <p class="mt-4">Experimental design is crucial for establishing cause-and-effect relationships in quantitative research.</p>
@@ -293,7 +293,7 @@ const ResearchCourseData: CourseData = {
           videoUrl: "https://example.com/week3-experimental-design",
         },
         {
-          title: "Survey Design and Measurement",
+          title: "Chapter 3.3: Survey Design and Measurement",
           content: `
             <h2 class="text-2xl font-bold">Creating Effective Surveys</h2>
             <p class="mt-4">Surveys are a common tool in quantitative research for collecting data from participants.</p>
@@ -321,7 +321,7 @@ const ResearchCourseData: CourseData = {
           videoUrl: "https://example.com/week3-survey-design",
         },
         {
-          title: "Data Collection and Analysis Techniques",
+          title: "Chapter 3.4: Data Collection and Analysis Techniques",
           content: `
             <h2 class="text-2xl font-bold">Gathering and Interpreting Data</h2>
             <p class="mt-4">Effective data collection and analysis are critical for producing meaningful research findings.</p>
@@ -346,12 +346,12 @@ const ResearchCourseData: CourseData = {
               <li>Ensure proficiency in the chosen tool to perform accurate analyses.</li>
             </ul>
             <h3 class="text-xl font-semibold mt-6">Example:</h3>
-            <p class="mt-4">"A Pearson correlation coefficient will be calculated to determine the relationship between study hours (IV) and exam scores (DV). An ANOVA will be conducted to compare exam scores across different study environment groups."</p>
+            <p class="mt-4">"A multiple regression analysis will be conducted to determine the impact of study time, attendance, and extracurricular activities on academic performance."</p>
           `,
           videoUrl: "https://example.com/week3-data-analysis",
         },
         {
-          title: "Summary",
+          title: "Chapter 3.5: Summary",
           content: `
             <h2 class="text-2xl font-bold">Week 3 Summary: Quantitative Research Methods</h2>
             <p class="mt-4">This week, you've explored:</p>
@@ -363,15 +363,15 @@ const ResearchCourseData: CourseData = {
             </ul>
             <p class="mt-4">These concepts are essential for conducting rigorous and reliable quantitative research studies.</p>
           `,
-          videoUrl: "https://example.com/week3-summary",
+          // videoUrl removed
         },
         {
-          title: "Quiz",
+          title: "Chapter 3.6: Quiz",
           content: `
             <h2 class="text-2xl font-bold">Test Your Understanding</h2>
             <p class="mt-4">Assess your grasp of the key concepts from this week.</p>
           `,
-          videoUrl: "https://example.com/week3-quiz",
+          // videoUrl removed
           quiz: {
             question:
               "Which statistical method is used to assess the relationship between two continuous variables?",
@@ -391,7 +391,7 @@ const ResearchCourseData: CourseData = {
       title: "Week 4: Qualitative Research Methods",
       chapters: [
         {
-          title: "Introduction",
+          title: "Chapter 4.1: Introduction",
           content: `
             <h2 class="text-2xl font-bold">Diving into Qualitative Research</h2>
             <p class="mt-4">Qualitative research focuses on understanding phenomena from a subjective, contextual, and in-depth perspective.</p>
@@ -405,7 +405,7 @@ const ResearchCourseData: CourseData = {
           videoUrl: "https://example.com/week4-intro",
         },
         {
-          title: "Case Study and Ethnography Approaches",
+          title: "Chapter 4.2: Case Study and Ethnography Approaches",
           content: `
             <h2 class="text-2xl font-bold">In-Depth Exploration of Contextual Phenomena</h2>
             <p class="mt-4">Case studies and ethnographies are qualitative research designs that provide comprehensive insights into specific contexts or groups.</p>
@@ -439,7 +439,7 @@ const ResearchCourseData: CourseData = {
           videoUrl: "https://example.com/week4-case-study-ethnography",
         },
         {
-          title: "Interview and Focus Group Techniques",
+          title: "Chapter 4.3: Interview and Focus Group Techniques",
           content: `
             <h2 class="text-2xl font-bold">Gathering In-Depth Perspectives</h2>
             <p class="mt-4">Interviews and focus groups are primary data collection methods in qualitative research that provide deep insights into participants' thoughts and experiences.</p>
@@ -473,7 +473,7 @@ const ResearchCourseData: CourseData = {
           videoUrl: "https://example.com/week4-interview-focus-groups",
         },
         {
-          title: "Analyzing Qualitative Data: Thematic Analysis",
+          title: "Chapter 4.4: Analyzing Qualitative Data: Thematic Analysis",
           content: `
             <h2 class="text-2xl font-bold">Identifying Patterns and Themes</h2>
             <p class="mt-4">Thematic analysis is a method for identifying, analyzing, and reporting patterns (themes) within qualitative data.</p>
@@ -502,7 +502,7 @@ const ResearchCourseData: CourseData = {
           videoUrl: "https://example.com/week4-thematic-analysis",
         },
         {
-          title: "Summary",
+          title: "Chapter 4.5: Summary",
           content: `
             <h2 class="text-2xl font-bold">Week 4 Summary: Qualitative Research Methods</h2>
             <p class="mt-4">This week, you've explored:</p>
@@ -514,15 +514,15 @@ const ResearchCourseData: CourseData = {
             </ul>
             <p class="mt-4">These methodologies provide deep insights and understanding of complex phenomena in various contexts.</p>
           `,
-          videoUrl: "https://example.com/week4-summary",
+          // videoUrl removed
         },
         {
-          title: "Quiz",
+          title: "Chapter 4.6: Quiz",
           content: `
             <h2 class="text-2xl font-bold">Test Your Understanding</h2>
             <p class="mt-4">Assess your grasp of the key concepts from this week.</p>
           `,
-          videoUrl: "https://example.com/week4-quiz",
+          // videoUrl removed
           quiz: {
             question:
               "Which qualitative research design involves immersive observation of a culture or group?",
@@ -542,7 +542,7 @@ const ResearchCourseData: CourseData = {
       title: "Week 5: Mixed-Methods Research",
       chapters: [
         {
-          title: "Introduction",
+          title: "Chapter 5.1: Introduction",
           content: `
             <h2 class="text-2xl font-bold">Integrating Quantitative and Qualitative Approaches</h2>
             <p class="mt-4">Mixed-methods research combines quantitative and qualitative approaches to provide a comprehensive understanding of research problems.</p>
@@ -556,7 +556,7 @@ const ResearchCourseData: CourseData = {
           videoUrl: "https://example.com/week5-intro",
         },
         {
-          title: "Types of Mixed-Methods Designs",
+          title: "Chapter 5.2: Types of Mixed-Methods Designs",
           content: `
             <h2 class="text-2xl font-bold">Structuring Your Research Approach</h2>
             <p class="mt-4">Mixed-methods research can be structured in various ways to best address the research questions.</p>
@@ -586,7 +586,7 @@ const ResearchCourseData: CourseData = {
           videoUrl: "https://example.com/week5-mixed-methods-designs",
         },
         {
-          title: "Integrating Quantitative and Qualitative Data",
+          title: "Chapter 5.3: Integrating Quantitative and Qualitative Data",
           content: `
             <h2 class="text-2xl font-bold">Merging Data for Comprehensive Insights</h2>
             <p class="mt-4">Integration is a critical step in mixed-methods research, ensuring that quantitative and qualitative data complement each other.</p>
@@ -608,7 +608,7 @@ const ResearchCourseData: CourseData = {
           videoUrl: "https://example.com/week5-data-integration",
         },
         {
-          title: "Benefits and Limitations of Mixed-Methods Research",
+          title: "Chapter 5.4: Benefits and Limitations of Mixed-Methods Research",
           content: `
             <h2 class="text-2xl font-bold">Evaluating the Approach</h2>
             <p class="mt-4">While mixed-methods research offers comprehensive insights, it's essential to understand its advantages and potential drawbacks.</p>
@@ -636,7 +636,7 @@ const ResearchCourseData: CourseData = {
           videoUrl: "https://example.com/week5-benefits-limitations",
         },
         {
-          title: "Summary",
+          title: "Chapter 5.5: Summary",
           content: `
             <h2 class="text-2xl font-bold">Week 5 Summary: Mixed-Methods Research</h2>
             <p class="mt-4">This week, you've learned about:</p>
@@ -648,15 +648,15 @@ const ResearchCourseData: CourseData = {
             </ul>
             <p class="mt-4">Mastering mixed-methods approaches allows for a more nuanced and comprehensive exploration of research questions.</p>
           `,
-          videoUrl: "https://example.com/week5-summary",
+          // videoUrl removed
         },
         {
-          title: "Quiz",
+          title: "Chapter 5.6: Quiz",
           content: `
             <h2 class="text-2xl font-bold">Test Your Understanding</h2>
             <p class="mt-4">Assess your grasp of the key concepts from this week.</p>
           `,
-          videoUrl: "https://example.com/week5-quiz",
+          // videoUrl removed
           quiz: {
             question:
               "Which mixed-methods design involves collecting qualitative data after quantitative data to explain the quantitative findings?",
@@ -676,7 +676,7 @@ const ResearchCourseData: CourseData = {
       title: "Week 6: Data Collection and Analysis",
       chapters: [
         {
-          title: "Introduction",
+          title: "Chapter 6.1: Introduction",
           content: `
             <h2 class="text-2xl font-bold">Gathering and Analyzing Research Data</h2>
             <p class="mt-4">Effective data collection and analysis are pivotal for generating valid and reliable research findings.</p>
@@ -691,7 +691,7 @@ const ResearchCourseData: CourseData = {
         },
         {
           title:
-            "Data Collection Methods: Surveys, Interviews, and Observations",
+            "Chapter 6.2: Data Collection Methods: Surveys, Interviews, and Observations",
           content: `
             <h2 class="text-2xl font-bold">Choosing the Right Method</h2>
             <p class="mt-4">Selecting appropriate data collection methods is essential to address your research questions effectively.</p>
@@ -725,7 +725,7 @@ const ResearchCourseData: CourseData = {
           videoUrl: "https://example.com/week6-data-collection-methods",
         },
         {
-          title: "Data Management and Organization",
+          title: "Chapter 6.3: Data Management and Organization",
           content: `
             <h2 class="text-2xl font-bold">Keeping Your Data Organized</h2>
             <p class="mt-4">Proper data management ensures that your data remains accessible, secure, and ready for analysis.</p>
@@ -753,7 +753,7 @@ const ResearchCourseData: CourseData = {
           videoUrl: "https://example.com/week6-data-management",
         },
         {
-          title: "Statistical Analysis Techniques",
+          title: "Chapter 6.4: Statistical Analysis Techniques",
           content: `
             <h2 class="text-2xl font-bold">Analyzing Your Data Effectively</h2>
             <p class="mt-4">Selecting appropriate statistical techniques is crucial for accurately interpreting your quantitative data.</p>
@@ -782,7 +782,7 @@ const ResearchCourseData: CourseData = {
           videoUrl: "https://example.com/week6-statistical-analysis",
         },
         {
-          title: "Summary",
+          title: "Chapter 6.5: Summary",
           content: `
             <h2 class="text-2xl font-bold">Week 6 Summary: Data Collection and Analysis</h2>
             <p class="mt-4">This week, you've delved into:</p>
@@ -793,15 +793,15 @@ const ResearchCourseData: CourseData = {
             </ul>
             <p class="mt-4">Mastering these areas ensures that your research data is both robust and insightful, laying the groundwork for meaningful findings.</p>
           `,
-          videoUrl: "https://example.com/week6-summary",
+          // videoUrl removed
         },
         {
-          title: "Quiz",
+          title: "Chapter 6.6: Quiz",
           content: `
             <h2 class="text-2xl font-bold">Test Your Understanding</h2>
             <p class="mt-4">Assess your grasp of the key concepts from this week.</p>
           `,
-          videoUrl: "https://example.com/week6-quiz",
+          // videoUrl removed
           quiz: {
             question:
               "Which statistical test is used to compare the means of three or more groups?",
@@ -821,7 +821,7 @@ const ResearchCourseData: CourseData = {
       title: "Week 7: Reporting and Presenting Research Findings",
       chapters: [
         {
-          title: "Introduction",
+          title: "Chapter 7.1: Introduction",
           content: `
             <h2 class="text-2xl font-bold">Communicating Your Research Effectively</h2>
             <p class="mt-4">Reporting and presenting research findings is the final step in the research process, ensuring that your work contributes to the broader academic community.</p>
@@ -835,7 +835,7 @@ const ResearchCourseData: CourseData = {
           videoUrl: "https://example.com/week7-intro",
         },
         {
-          title: "Structuring Research Reports and Academic Papers",
+          title: "Chapter 7.2: Structuring Research Reports and Academic Papers",
           content: `
             <h2 class="text-2xl font-bold">Organizing Your Written Work</h2>
             <p class="mt-4">A well-structured research report or academic paper enhances readability and ensures that your arguments are presented logically.</p>
@@ -878,7 +878,7 @@ const ResearchCourseData: CourseData = {
           videoUrl: "https://example.com/week7-structuring-reports",
         },
         {
-          title: "Presenting Data and Findings Effectively",
+          title: "Chapter 7.3: Presenting Data and Findings Effectively",
           content: `
             <h2 class="text-2xl font-bold">Visualizing Your Results</h2>
             <p class="mt-4">Effective presentation of data enhances the clarity and impact of your findings.</p>
@@ -907,7 +907,7 @@ const ResearchCourseData: CourseData = {
           videoUrl: "https://example.com/week7-presenting-data",
         },
         {
-          title: "Effective Oral and Poster Presentations",
+          title: "Chapter 7.4: Effective Oral and Poster Presentations",
           content: `
             <h2 class="text-2xl font-bold">Communicating Research Visually and Verbally</h2>
             <p class="mt-4">Oral and poster presentations are essential for sharing your research with the academic community.</p>
@@ -938,7 +938,7 @@ const ResearchCourseData: CourseData = {
           videoUrl: "https://example.com/week7-presentation",
         },
         {
-          title: "Summary",
+          title: "Chapter 7.5: Summary",
           content: `
             <h2 class="text-2xl font-bold">Week 7 Summary: Reporting and Presenting Research Findings</h2>
             <p class="mt-4">In this final week, you've covered:</p>
@@ -949,15 +949,15 @@ const ResearchCourseData: CourseData = {
             </ul>
             <p class="mt-4">Mastering these skills ensures that your research is communicated effectively, enhancing its impact and reach within the academic community.</p>
           `,
-          videoUrl: "https://example.com/week7-summary",
+          // videoUrl removed
         },
         {
-          title: "Quiz",
+          title: "Chapter 7.6: Quiz",
           content: `
             <h2 class="text-2xl font-bold">Test Your Understanding</h2>
             <p class="mt-4">Assess your comprehensive understanding of the concepts covered throughout the course.</p>
           `,
-          videoUrl: "https://example.com/week7-quiz",
+          // videoUrl removed
           quiz: {
             question:
               "Which of the following is NOT a key component of an effective oral presentation?",
