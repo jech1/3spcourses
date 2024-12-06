@@ -23,13 +23,13 @@ import {
 const images = [
   {
     src: "/Scientific Writing Badge (1).png?height=500&width=500",
-    alt: "Image 1",
+    alt: "Scientific Writing Badge",
   },
-  { src: "/circuitbadge.png?height=500&width=500", alt: "Image 2" },
-  { src: "/researchbadge.png?height=500&width=500", alt: "Image 3" },
-  { src: "/CADbadge (1).png?height=500&width=500", alt: "Image 4" },
-  { src: "/c++badge.png?height=500&width=500", alt: "Image 5" },
-  { src: "/caffeinebadge.png?height=500&width=500", alt: "Image 6" },
+  { src: "/circuitbadge.png?height=500&width=500", alt: "Circuit Design Badge" },
+  { src: "/researchbadge.png?height=500&width=500", alt: "Research Badge" },
+  { src: "/CADbadge (1).png?height=500&width=500", alt: "CAD Design Badge" },
+  { src: "/c++badge.png?height=500&width=500", alt: "C++ Programming Badge" },
+  { src: "/caffeinebadge.png?height=500&width=500", alt: "Caffeine Badge" },
 ];
 
 function AnimatedImageCarousel() {
@@ -93,7 +93,7 @@ export default function EnhancedCourseOverviewComponent() {
                 Microcontroller & Circuit Design
               </h1>
               <p className="text-xl text-white max-w-2xl mx-auto">
-                Learn to build reliable prototypes with coding in c++, designing
+                Learn to build reliable prototypes with coding in C++, designing
                 circuits, and soldering components.
               </p>
             </section>
@@ -126,139 +126,142 @@ export default function EnhancedCourseOverviewComponent() {
               <Accordion type="single" collapsible className="w-full">
                 <AccordionItem value="week1">
                   <AccordionTrigger>
-                    Week 1: Introduction; software downloads and online
-                    resources{" "}
+                    Week 1: Introduction, Software Setup, and Online Resources
                   </AccordionTrigger>
                   <AccordionContent>
                     <ul className="list-disc pl-5 space-y-2">
-                      <li>Chapter 1: Introduction</li>
+                      <li>Chapter 1.1: Introduction</li>
                       <li>
-                        Chapter 1: Setting up Arduino IDE and understanding its
-                        interface
+                        Chapter 1.2: Setting up Arduino IDE and Understanding Its
+                        Interface
                       </li>
                       <li>
-                        Chapter 1: Exploring online resources and communities
-                        for support
+                        Chapter 1.3: Exploring Online Resources and Communities
+                        for Support
                       </li>
                       <li>
-                        Chapter 1: Familiarizing with hardware setup and
-                        connectivity basics
+                        Chapter 1.4: Familiarizing with Hardware Setup and
+                        Connectivity Basics
                       </li>
-                      <li>Chapter 1: Summary </li>
-                      <li>Chapter 1: Quiz </li>
+                      <li>Chapter 1.5: Summary</li>
+                      <li>Chapter 1.6: Quiz</li>
                     </ul>
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="week2">
                   <AccordionTrigger>
-                    Week 2: Electrical Components{" "}
+                    Week 2: Electrical Components and Safety
                   </AccordionTrigger>
                   <AccordionContent>
                     <ul className="list-disc pl-5 space-y-2">
-                      <li>Chapter 2: Introduction</li>
+                      <li>Chapter 2.1: Introduction</li>
                       <li>
-                        Chapter 2: Identifying and understanding resistors,
-                        capacitors, and diodes
+                        Chapter 2.2: Identifying and Understanding Resistors,
+                        Capacitors, and Diodes
                       </li>
                       <li>
-                        Chapter 2: Safely using breadboards and power supplies
-                        in circuits
+                        Chapter 2.3: Safely Using Breadboards and Power Supplies
+                        in Circuits
                       </li>
                       <li>
-                        Chapter 2: Basic troubleshooting techniques for faulty
-                        components
+                        Chapter 2.4: Basic Troubleshooting Techniques for Faulty
+                        Components
                       </li>
-                      <li>Chapter 2: Summary </li>
-                      <li>Chapter 2: Quiz </li>
+                      <li>Chapter 2.5: Summary</li>
+                      <li>Chapter 2.6: Quiz</li>
                     </ul>
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="week3">
                   <AccordionTrigger>
-                    Week 3: Programing A Microcontroller{" "}
+                    Week 3: Programming a Microcontroller
                   </AccordionTrigger>
                   <AccordionContent>
                     <ul className="list-disc pl-5 space-y-2">
-                      <li>Chapter 3: Introduction</li>
+                      <li>Chapter 3.1: Introduction</li>
                       <li>
-                        Chapter 3: Writing and uploading simple C++ programs to
-                        microcontrollers
+                        Chapter 3.2: Writing and Uploading Simple C++ Programs to
+                        Microcontrollers
                       </li>
                       <li>
-                        Chapter 3: Understanding data types, variables, and
-                        logic control structures
+                        Chapter 3.3: Understanding Data Types, Variables, and
+                        Logic Control Structures
                       </li>
                       <li>
-                        Chapter 3: Using functions to organize code for complex
-                        operations
+                        Chapter 3.4: Using Functions to Organize Code for Complex
+                        Operations
                       </li>
-                      <li>Chapter 3: Summary </li>
-                      <li>Chapter 3: Quiz </li>
+                      <li>Chapter 3.5: Summary</li>
+                      <li>Chapter 3.6: Quiz</li>
                     </ul>
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="week4">
-                  <AccordionTrigger>Week 4: Circuit Basics </AccordionTrigger>
+                  <AccordionTrigger>
+                    Week 4: Circuit Basics and Testing
+                  </AccordionTrigger>
                   <AccordionContent>
                     <ul className="list-disc pl-5 space-y-2">
-                      <li>Chapter 4: Introduction</li>
+                      <li>Chapter 4.1: Introduction</li>
                       <li>
-                        Chapter 4: Building basic circuits with LEDs, resistors,
-                        and switches
+                        Chapter 4.2: Building Basic Circuits with LEDs,
+                        Resistors, and Switches
                       </li>
                       <li>
-                        Chapter 4: Understanding voltage, current, and
-                        resistance relationships
+                        Chapter 4.3: Understanding Voltage, Current, and
+                        Resistance Relationships
                       </li>
                       <li>
-                        Chapter 4: Safely testing circuits with a multimeter
+                        Chapter 4.4: Safely Testing Circuits with a Multimeter
                       </li>
-                      <li>Chapter 4: Summary </li>
-                      <li>Chapter 4: Quiz </li>
+                      <li>Chapter 4.5: Summary</li>
+                      <li>Chapter 4.6: Quiz</li>
                     </ul>
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="week5">
                   <AccordionTrigger>
-                    Week 5: Advanced Circuit Schematics{" "}
+                    Week 5: Advanced Circuit Schematics
                   </AccordionTrigger>
                   <AccordionContent>
                     <ul className="list-disc pl-5 space-y-2">
-                      <li>Chapter 5: Introduction</li>
+                      <li>Chapter 5.1: Introduction</li>
                       <li>
-                        Chapter 5: Designing and analyzing complex circuit
-                        diagrams
+                        Chapter 5.2: Designing and Analyzing Complex Circuit
+                        Diagrams
                       </li>
                       <li>
-                        Chapter 5: Creating PCB layouts for advanced projects
+                        Chapter 5.3: Creating PCB Layouts for Advanced Projects
                       </li>
                       <li>
-                        Chapter 5: Integrating sensors and actuators for
-                        interactive systems
+                        Chapter 5.4: Integrating Sensors and Actuators for
+                        Interactive Systems
                       </li>
-                      <li>Chapter 5: Summary </li>
-                      <li>Chapter 5: Quiz </li>
+                      <li>Chapter 5.5: Summary</li>
+                      <li>Chapter 5.6: Quiz</li>
                     </ul>
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="week6">
-                  <AccordionTrigger>Week 6: Circuit Designs </AccordionTrigger>
+                  <AccordionTrigger>
+                    Week 6: Circuit Designs and Prototyping
+                  </AccordionTrigger>
                   <AccordionContent>
                     <ul className="list-disc pl-5 space-y-2">
-                      <li>Chapter 6: Introduction</li>
+                      <li>Chapter 6.1: Introduction</li>
                       <li>
-                        Chapter 6: Using software tools for PCB design and
-                        simulation
+                        Chapter 6.2: Using Software Tools for PCB Design and
+                        Simulation
                       </li>
                       <li>
-                        Chapter 6: Testing and refining circuits on breadboards
+                        Chapter 6.3: Testing and Refining Circuits on Breadboards
                       </li>
                       <li>
-                        Chapter 6: Exploring best practices for prototype
-                        assembly
+                        Chapter 6.4: Exploring Best Practices for Prototype
+                        Assembly
                       </li>
-                      <li>Chapter 6: Summary </li>
-                      <li>Chapter 6: Quiz </li>
+                      <li>Chapter 6.5: Summary</li>
+                      <li>Chapter 6.6: Quiz</li>
                     </ul>
                   </AccordionContent>
                 </AccordionItem>
@@ -268,18 +271,20 @@ export default function EnhancedCourseOverviewComponent() {
                   </AccordionTrigger>
                   <AccordionContent>
                     <ul className="list-disc pl-5 space-y-2">
-                      <li>Chapter 7: Introduction</li>
+                      <li>Chapter 7.1: Introduction</li>
                       <li>
-                        Chapter 7: Integrating sensors and actuators with
-                        microcontroller code
+                        Chapter 7.2: Integrating Sensors and Actuators with
+                        Microcontroller Code
                       </li>
                       <li>
-                        Chapter 7: Synchronizing hardware functionality with
-                        software logic
+                        Chapter 7.3: Synchronizing Hardware Functionality with
+                        Software Logic
                       </li>
-                      <li>Chapter 7: Debugging issues in integrated systems</li>
-                      <li>Chapter 7: Summary </li>
-                      <li>Chapter 7: Quiz </li>
+                      <li>
+                        Chapter 7.4: Debugging Issues in Integrated Systems
+                      </li>
+                      <li>Chapter 7.5: Summary</li>
+                      <li>Chapter 7.6: Quiz</li>
                     </ul>
                   </AccordionContent>
                 </AccordionItem>
@@ -289,21 +294,20 @@ export default function EnhancedCourseOverviewComponent() {
                   </AccordionTrigger>
                   <AccordionContent>
                     <ul className="list-disc pl-5 space-y-2">
-                      <li>Chapter 8: Introduction</li>
+                      <li>Chapter 8.1: Introduction</li>
                       <li>
-                        Chapter 8: Developing a comprehensive project that
-                        combines all skills learned
+                        Chapter 8.2: Developing a Comprehensive Project
                       </li>
                       <li>
-                        Chapter 8: Presenting the project with a focus on design
-                        and functionality
+                        Chapter 8.3: Presenting the Project with a Focus on Design
+                        and Functionality
                       </li>
                       <li>
-                        Chapter 8: Reviewing key concepts and discussing next
-                        steps for further learning
+                        Chapter 8.4: Reviewing Key Concepts and Discussing Next
+                        Steps for Further Learning
                       </li>
-                      <li>Chapter 8: Summary </li>
-                      <li>Chapter 8: Quiz </li>
+                      <li>Chapter 8.5: Summary</li>
+                      <li>Chapter 8.6: Quiz</li>
                     </ul>
                   </AccordionContent>
                 </AccordionItem>

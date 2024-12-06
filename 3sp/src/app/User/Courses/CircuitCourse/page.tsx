@@ -12,7 +12,7 @@ const CircuitCourseData: CourseData = {
       title: "Week 1: Introduction; Software Downloads and Online Resources",
       chapters: [
         {
-          title: "Chapter 1: Introduction",
+          title: "Chapter 1.1: Introduction",
           content: `
             <h2 class="text-2xl font-bold">Welcome to Microcontroller & Circuit Design</h2>
             <p class="mt-4">This course is designed to equip you with the essential skills needed to build reliable prototypes. You'll learn to program microcontrollers using C++, design circuits, and solder components effectively.</p>
@@ -28,7 +28,7 @@ const CircuitCourseData: CourseData = {
         },
         {
           title:
-            "Chapter 2: Setting up Arduino IDE and Understanding Its Interface",
+            "Chapter 1.2: Setting up Arduino IDE and Understanding Its Interface",
           content: `
             <h2 class="text-2xl font-bold">Arduino IDE Setup</h2>
             <p class="mt-4">The Arduino Integrated Development Environment (IDE) is a crucial tool for programming microcontrollers. This chapter guides you through the installation and navigation of the Arduino IDE.</p>
@@ -58,7 +58,7 @@ const CircuitCourseData: CourseData = {
         },
         {
           title:
-            "Chapter 3: Exploring Online Resources and Communities for Support",
+            "Chapter 1.3: Exploring Online Resources and Communities for Support",
           content: `
             <h2 class="text-2xl font-bold">Leveraging Online Resources</h2>
             <p class="mt-4">Engaging with online communities and utilizing available resources can significantly enhance your learning experience. This chapter introduces you to valuable platforms and tools.</p>
@@ -81,7 +81,7 @@ const CircuitCourseData: CourseData = {
         },
         {
           title:
-            "Chapter 4: Familiarizing with Hardware Setup and Connectivity Basics",
+            "Chapter 1.4: Familiarizing with Hardware Setup and Connectivity Basics",
           content: `
             <h2 class="text-2xl font-bold">Hardware Setup Essentials</h2>
             <p class="mt-4">A proper hardware setup is vital for successful circuit design and microcontroller programming. This chapter covers the basics of hardware connectivity.</p>
@@ -108,7 +108,7 @@ const CircuitCourseData: CourseData = {
           videoUrl: "https://example.com/week1-chapter4-video",
         },
         {
-          title: "Chapter 5: Summary",
+          title: "Chapter 1.5: Summary",
           content: `
             <h2 class="text-2xl font-bold">Week 1 Summary: Introduction</h2>
             <p class="mt-4">In the first week, we've covered the foundational aspects of Microcontroller & Circuit Design:</p>
@@ -120,15 +120,13 @@ const CircuitCourseData: CourseData = {
             </ul>
             <p class="mt-4">These topics lay the groundwork for the upcoming weeks, where we'll delve deeper into electrical components, microcontroller programming, and advanced circuit design.</p>
           `,
-          videoUrl: "https://example.com/week1-chapter5-video",
         },
         {
-          title: "Chapter 6: Quiz",
+          title: "Chapter 1.6: Quiz",
           content: `
             <h2 class="text-2xl font-bold">Test Your Understanding</h2>
             <p class="mt-4">Assess your grasp of the key concepts from Week 1.</p>
           `,
-          videoUrl: "https://example.com/week1-chapter6-video",
           quiz: {
             question: "What is the primary purpose of the Arduino IDE?",
             options: [
@@ -147,7 +145,7 @@ const CircuitCourseData: CourseData = {
       title: "Week 2: Electrical Components",
       chapters: [
         {
-          title: "Chapter 1: Introduction",
+          title: "Chapter 2.1: Introduction",
           content: `
             <h2 class="text-2xl font-bold">Understanding Electrical Components</h2>
             <p class="mt-4">This week focuses on identifying and understanding essential electrical components used in circuit design.</p>
@@ -162,7 +160,7 @@ const CircuitCourseData: CourseData = {
         },
         {
           title:
-            "Chapter 2: Identifying and Understanding Resistors, Capacitors, and Diodes",
+            "Chapter 2.2: Identifying and Understanding Resistors, Capacitors, and Diodes",
           content: `
             <h2 class="text-2xl font-bold">Core Electronic Components</h2>
             <p class="mt-4">Resistors, capacitors, and diodes are fundamental components in electronic circuits. Understanding their functions and characteristics is crucial for effective circuit design.</p>
@@ -191,7 +189,7 @@ const CircuitCourseData: CourseData = {
         },
         {
           title:
-            "Chapter 3: Safely Using Breadboards and Power Supplies in Circuits",
+            "Chapter 2.3: Safely Using Breadboards and Power Supplies in Circuits",
           content: `
             <h2 class="text-2xl font-bold">Breadboards and Power Management</h2>
             <p class="mt-4">Proper usage of breadboards and power supplies ensures safe and efficient circuit construction.</p>
@@ -218,7 +216,7 @@ const CircuitCourseData: CourseData = {
         },
         {
           title:
-            "Chapter 4: Basic Troubleshooting Techniques for Faulty Components",
+            "Chapter 2.4: Basic Troubleshooting Techniques for Faulty Components",
           content: `
             <h2 class="text-2xl font-bold">Diagnosing Circuit Issues</h2>
             <p class="mt-4">Troubleshooting is a critical skill in circuit design, enabling you to identify and fix issues effectively.</p>
@@ -247,7 +245,7 @@ const CircuitCourseData: CourseData = {
           videoUrl: "https://example.com/week2-chapter4-video",
         },
         {
-          title: "Chapter 5: Summary",
+          title: "Chapter 2.5: Summary",
           content: `
             <h2 class="text-2xl font-bold">Week 2 Summary: Electrical Components</h2>
             <p class="mt-4">This week, we've delved into:</p>
@@ -258,15 +256,13 @@ const CircuitCourseData: CourseData = {
             </ul>
             <p class="mt-4">These foundational skills are essential as we advance to more complex topics in microcontroller programming and advanced circuitry.</p>
           `,
-          videoUrl: "https://example.com/week2-chapter5-video",
         },
         {
-          title: "Chapter 6: Quiz",
+          title: "Chapter 2.6: Quiz",
           content: `
             <h2 class="text-2xl font-bold">Test Your Understanding</h2>
             <p class="mt-4">Assess your grasp of the key concepts from Week 2.</p>
           `,
-          videoUrl: "https://example.com/week2-chapter6-video",
           quiz: {
             question:
               "What is the primary function of a resistor in a circuit?",
@@ -286,7 +282,7 @@ const CircuitCourseData: CourseData = {
       title: "Week 3: Programming A Microcontroller",
       chapters: [
         {
-          title: "Chapter 1: Introduction",
+          title: "Chapter 3.1: Introduction",
           content: `
             <h2 class="text-2xl font-bold">Programming Fundamentals</h2>
             <p class="mt-4">This week focuses on writing and uploading simple C++ programs to microcontrollers. You'll explore data types, variables, logic control structures, and the use of functions to organize your code.</p>
@@ -302,7 +298,7 @@ const CircuitCourseData: CourseData = {
         },
         {
           title:
-            "Chapter 2: Writing and Uploading Simple C++ Programs to Microcontrollers",
+            "Chapter 3.2: Writing and Uploading Simple C++ Programs to Microcontrollers",
           content: `
             <h2 class="text-2xl font-bold">Getting Started with C++ Programming</h2>
             <p class="mt-4">In this chapter, you'll learn how to write basic C++ programs and upload them to your microcontroller using the Arduino IDE.</p>
@@ -341,7 +337,7 @@ const CircuitCourseData: CourseData = {
         },
         {
           title:
-            "Chapter 3: Understanding Data Types, Variables, and Logic Control Structures",
+            "Chapter 3.3: Understanding Data Types, Variables, and Logic Control Structures",
           content: `
             <h2 class="text-2xl font-bold">Core Programming Concepts</h2>
             <p class="mt-4">This chapter delves into the fundamental aspects of C++ programming, including data types, variables, and control structures that dictate the flow of your programs.</p>
@@ -414,7 +410,7 @@ const CircuitCourseData: CourseData = {
         },
         {
           title:
-            "Chapter 4: Using Functions to Organize Code for Complex Operations",
+            "Chapter 3.4: Using Functions to Organize Code for Complex Operations",
           content: `
             <h2 class="text-2xl font-bold">Modular Programming with Functions</h2>
             <p class="mt-4">Functions help in organizing code into reusable blocks, making programs more manageable and scalable.</p>
@@ -482,7 +478,7 @@ const CircuitCourseData: CourseData = {
           videoUrl: "https://example.com/week3-chapter4-video",
         },
         {
-          title: "Chapter 5: Summary",
+          title: "Chapter 3.5: Summary",
           content: `
             <h2 class="text-2xl font-bold">Week 3 Summary: Programming A Microcontroller</h2>
             <p class="mt-4">This week, we've explored:</p>
@@ -494,15 +490,13 @@ const CircuitCourseData: CourseData = {
             </ul>
             <p class="mt-4">These programming fundamentals are essential for developing more advanced microcontroller applications in the coming weeks.</p>
           `,
-          videoUrl: "https://example.com/week3-chapter5-video",
         },
         {
-          title: "Chapter 6: Quiz",
+          title: "Chapter 3.6: Quiz",
           content: `
             <h2 class="text-2xl font-bold">Test Your Understanding</h2>
             <p class="mt-4">Assess your grasp of the key concepts from Week 3.</p>
           `,
-          videoUrl: "https://example.com/week3-chapter6-video",
           quiz: {
             question: "What is the purpose of a function in programming?",
             options: [
@@ -521,7 +515,7 @@ const CircuitCourseData: CourseData = {
       title: "Week 4: Circuit Basics",
       chapters: [
         {
-          title: "Chapter 1: Introduction",
+          title: "Chapter 4.1: Introduction",
           content: `
             <h2 class="text-2xl font-bold">Building Basic Circuits</h2>
             <p class="mt-4">This week introduces you to constructing simple circuits using LEDs, resistors, and switches. You'll also learn about fundamental electrical relationships and safely testing circuits.</p>
@@ -536,7 +530,7 @@ const CircuitCourseData: CourseData = {
         },
         {
           title:
-            "Chapter 2: Building Basic Circuits with LEDs, Resistors, and Switches",
+            "Chapter 4.2: Building Basic Circuits with LEDs, Resistors, and Switches",
           content: `
             <h2 class="text-2xl font-bold">Hands-On Circuit Construction</h2>
             <p class="mt-4">Learn how to assemble basic circuits that incorporate LEDs, resistors, and switches. This practical exercise reinforces your understanding of component functions and circuit behavior.</p>
@@ -572,7 +566,7 @@ const CircuitCourseData: CourseData = {
         },
         {
           title:
-            "Chapter 3: Understanding Voltage, Current, and Resistance Relationships",
+            "Chapter 4.3: Understanding Voltage, Current, and Resistance Relationships",
           content: `
             <h2 class="text-2xl font-bold">Ohm's Law and Electrical Fundamentals</h2>
             <p class="mt-4">A solid understanding of voltage, current, and resistance is essential for designing and analyzing circuits. This chapter covers Ohm's Law and how these parameters interrelate.</p>
@@ -619,7 +613,7 @@ const CircuitCourseData: CourseData = {
           videoUrl: "https://example.com/week4-chapter3-video",
         },
         {
-          title: "Chapter 4: Safely Testing Circuits with a Multimeter",
+          title: "Chapter 4.4: Safely Testing Circuits with a Multimeter",
           content: `
             <h2 class="text-2xl font-bold">Using a Multimeter for Circuit Diagnostics</h2>
             <p class="mt-4">A multimeter is an essential tool for testing and diagnosing electrical circuits. This chapter covers the safe and effective use of a multimeter in your projects.</p>
@@ -664,7 +658,7 @@ const CircuitCourseData: CourseData = {
           videoUrl: "https://example.com/week4-chapter4-video",
         },
         {
-          title: "Chapter 5: Summary",
+          title: "Chapter 4.5: Summary",
           content: `
             <h2 class="text-2xl font-bold">Week 4 Summary: Circuit Basics</h2>
             <p class="mt-4">This week, we've covered:</p>
@@ -675,15 +669,13 @@ const CircuitCourseData: CourseData = {
             </ul>
             <p class="mt-4">These skills are foundational for more advanced circuit designs and microcontroller integrations in the upcoming weeks.</p>
           `,
-          videoUrl: "https://example.com/week4-chapter5-video",
         },
         {
-          title: "Chapter 6: Quiz",
+          title: "Chapter 4.6: Quiz",
           content: `
             <h2 class="text-2xl font-bold">Test Your Understanding</h2>
             <p class="mt-4">Assess your grasp of the key concepts from Week 4.</p>
           `,
-          videoUrl: "https://example.com/week4-chapter6-video",
           quiz: {
             question: "What does Ohm's Law state?",
             options: [
@@ -702,7 +694,7 @@ const CircuitCourseData: CourseData = {
       title: "Week 5: Advanced Circuit Schematics",
       chapters: [
         {
-          title: "Chapter 1: Introduction",
+          title: "Chapter 5.1: Introduction",
           content: `
             <h2 class="text-2xl font-bold">Designing Complex Circuit Diagrams</h2>
             <p class="mt-4">This week focuses on designing and analyzing advanced circuit diagrams, creating PCB layouts, and integrating sensors and actuators for interactive systems.</p>
@@ -716,7 +708,7 @@ const CircuitCourseData: CourseData = {
           videoUrl: "https://example.com/week5-chapter1-video",
         },
         {
-          title: "Chapter 2: Designing and Analyzing Complex Circuit Diagrams",
+          title: "Chapter 5.2: Designing and Analyzing Complex Circuit Diagrams",
           content: `
             <h2 class="text-2xl font-bold">Advanced Circuit Design Techniques</h2>
             <p class="mt-4">Learn to create detailed circuit diagrams that incorporate multiple components and complex functionalities. Proper schematic design is essential for successful circuit implementation.</p>
@@ -748,7 +740,7 @@ const CircuitCourseData: CourseData = {
           videoUrl: "https://example.com/week5-chapter2-video",
         },
         {
-          title: "Chapter 3: Creating PCB Layouts for Advanced Projects",
+          title: "Chapter 5.3: Creating PCB Layouts for Advanced Projects",
           content: `
             <h2 class="text-2xl font-bold">From Schematic to Physical Board</h2>
             <p class="mt-4">Printed Circuit Boards (PCBs) provide a durable and organized way to assemble complex circuits. This chapter guides you through the process of creating PCB layouts.</p>
@@ -774,7 +766,7 @@ const CircuitCourseData: CourseData = {
         },
         {
           title:
-            "Chapter 4: Integrating Sensors and Actuators for Interactive Systems",
+            "Chapter 5.4: Integrating Sensors and Actuators for Interactive Systems",
           content: `
             <h2 class="text-2xl font-bold">Enhancing Functionality with Sensors and Actuators</h2>
             <p class="mt-4">Sensors and actuators enable your systems to interact with the environment. This chapter explores their integration into your circuits.</p>
@@ -805,7 +797,7 @@ const CircuitCourseData: CourseData = {
           videoUrl: "https://example.com/week5-chapter4-video",
         },
         {
-          title: "Chapter 5: Summary",
+          title: "Chapter 5.5: Summary",
           content: `
             <h2 class="text-2xl font-bold">Week 5 Summary: Advanced Circuit Schematics</h2>
             <p class="mt-4">This week, we've explored:</p>
@@ -816,15 +808,13 @@ const CircuitCourseData: CourseData = {
             </ul>
             <p class="mt-4">These advanced skills are pivotal for developing sophisticated prototypes and transitioning from breadboard-based circuits to permanent PCB designs.</p>
           `,
-          videoUrl: "https://example.com/week5-chapter5-video",
         },
         {
-          title: "Chapter 6: Quiz",
+          title: "Chapter 5.6: Quiz",
           content: `
             <h2 class="text-2xl font-bold">Test Your Understanding</h2>
             <p class="mt-4">Assess your grasp of the key concepts from Week 5.</p>
           `,
-          videoUrl: "https://example.com/week5-chapter6-video",
           quiz: {
             question: "What is the primary purpose of creating a PCB layout?",
             options: [
@@ -843,7 +833,7 @@ const CircuitCourseData: CourseData = {
       title: "Week 6: Circuit Designs",
       chapters: [
         {
-          title: "Chapter 1: Introduction",
+          title: "Chapter 6.1: Introduction",
           content: `
             <h2 class="text-2xl font-bold">Enhancing Circuit Design Skills</h2>
             <p class="mt-4">This week focuses on using software tools for PCB design and simulation, testing and refining circuits on breadboards, and exploring best practices for prototype assembly.</p>
@@ -858,7 +848,7 @@ const CircuitCourseData: CourseData = {
         },
         {
           title:
-            "Chapter 2: Using Software Tools for PCB Design and Simulation",
+            "Chapter 6.2: Using Software Tools for PCB Design and Simulation",
           content: `
             <h2 class="text-2xl font-bold">Advanced PCB Design and Simulation</h2>
             <p class="mt-4">Leveraging software tools like KiCad and Eagle enhances your ability to design intricate PCBs and simulate their behavior before physical implementation.</p>
@@ -893,7 +883,7 @@ const CircuitCourseData: CourseData = {
           videoUrl: "https://example.com/week6-chapter2-video",
         },
         {
-          title: "Chapter 3: Testing and Refining Circuits on Breadboards",
+          title: "Chapter 6.3: Testing and Refining Circuits on Breadboards",
           content: `
             <h2 class="text-2xl font-bold">Iterative Circuit Development</h2>
             <p class="mt-4">Testing circuits on breadboards allows for rapid prototyping and refinement before committing to a permanent PCB design. This chapter covers effective strategies for testing and optimizing your circuits.</p>
@@ -924,7 +914,7 @@ const CircuitCourseData: CourseData = {
           videoUrl: "https://example.com/week6-chapter3-video",
         },
         {
-          title: "Chapter 4: Exploring Best Practices for Prototype Assembly",
+          title: "Chapter 6.4: Exploring Best Practices for Prototype Assembly",
           content: `
             <h2 class="text-2xl font-bold">Assembling Reliable Prototypes</h2>
             <p class="mt-4">Following best practices in prototype assembly ensures the longevity and functionality of your circuits. This chapter outlines essential techniques and tips for effective assembly.</p>
@@ -956,7 +946,7 @@ const CircuitCourseData: CourseData = {
           videoUrl: "https://example.com/week6-chapter4-video",
         },
         {
-          title: "Chapter 5: Summary",
+          title: "Chapter 6.5: Summary",
           content: `
             <h2 class="text-2xl font-bold">Week 6 Summary: Circuit Designs</h2>
             <p class="mt-4">This week, we've explored:</p>
@@ -967,15 +957,13 @@ const CircuitCourseData: CourseData = {
             </ul>
             <p class="mt-4">These advanced design and assembly skills are critical for developing sophisticated electronic systems and transitioning from prototype to production-ready designs.</p>
           `,
-          videoUrl: "https://example.com/week6-chapter5-video",
         },
         {
-          title: "Chapter 6: Quiz",
+          title: "Chapter 6.6: Quiz",
           content: `
             <h2 class="text-2xl font-bold">Test Your Understanding</h2>
             <p class="mt-4">Assess your grasp of the key concepts from Week 6.</p>
           `,
-          videoUrl: "https://example.com/week6-chapter6-video",
           quiz: {
             question:
               "What is the primary purpose of simulation tools in PCB design?",
@@ -995,7 +983,7 @@ const CircuitCourseData: CourseData = {
       title: "Week 7: Combining Hardware and Software",
       chapters: [
         {
-          title: "Chapter 1: Introduction",
+          title: "Chapter 7.1: Introduction",
           content: `
             <h2 class="text-2xl font-bold">Integrating Hardware with Software Logic</h2>
             <p class="mt-4">This week focuses on synchronizing hardware components with software logic to create functional and interactive systems. You'll learn to integrate sensors and actuators with microcontroller code and debug integrated systems effectively.</p>
@@ -1010,7 +998,7 @@ const CircuitCourseData: CourseData = {
         },
         {
           title:
-            "Chapter 2: Integrating Sensors and Actuators with Microcontroller Code",
+            "Chapter 7.2: Integrating Sensors and Actuators with Microcontroller Code",
           content: `
             <h2 class="text-2xl font-bold">Enhancing System Interactivity</h2>
             <p class="mt-4">Integrating sensors and actuators with your microcontroller allows your system to interact with the environment and perform specific actions based on input data.</p>
@@ -1053,7 +1041,7 @@ const CircuitCourseData: CourseData = {
         },
         {
           title:
-            "Chapter 3: Synchronizing Hardware Functionality with Software Logic",
+            "Chapter 7.3: Synchronizing Hardware Functionality with Software Logic",
           content: `
             <h2 class="text-2xl font-bold">Coordinating Hardware and Software</h2>
             <p class="mt-4">Effective synchronization between hardware components and software logic ensures seamless operation and responsiveness in your systems.</p>
@@ -1102,7 +1090,7 @@ const CircuitCourseData: CourseData = {
           videoUrl: "https://example.com/week7-chapter3-video",
         },
         {
-          title: "Chapter 4: Debugging Issues in Integrated Systems",
+          title: "Chapter 7.4: Debugging Issues in Integrated Systems",
           content: `
             <h2 class="text-2xl font-bold">Effective Debugging Strategies</h2>
             <p class="mt-4">Debugging integrated systems can be challenging due to the interaction between hardware and software. This chapter provides strategies to identify and resolve issues efficiently.</p>
@@ -1133,7 +1121,7 @@ const CircuitCourseData: CourseData = {
           videoUrl: "https://example.com/week7-chapter4-video",
         },
         {
-          title: "Chapter 5: Summary",
+          title: "Chapter 7.5: Summary",
           content: `
             <h2 class="text-2xl font-bold">Week 7 Summary: Combining Hardware and Software</h2>
             <p class="mt-4">This week, we've delved into:</p>
@@ -1144,15 +1132,13 @@ const CircuitCourseData: CourseData = {
             </ul>
             <p class="mt-4">These skills are essential for creating sophisticated and responsive electronic projects, bridging the gap between hardware design and software programming.</p>
           `,
-          videoUrl: "https://example.com/week7-chapter5-video",
         },
         {
-          title: "Chapter 6: Quiz",
+          title: "Chapter 7.6: Quiz",
           content: `
             <h2 class="text-2xl font-bold">Final Assessment</h2>
             <p class="mt-4">Test your comprehensive understanding of the concepts covered throughout the course.</p>
           `,
-          videoUrl: "https://example.com/week7-chapter6-video",
           quiz: {
             question:
               "Which debugging technique involves outputting messages to monitor sensor values?",
@@ -1172,7 +1158,7 @@ const CircuitCourseData: CourseData = {
       title: "Week 8: Final Project and Review",
       chapters: [
         {
-          title: "Chapter 1: Introduction",
+          title: "Chapter 8.1: Introduction",
           content: `
             <h2 class="text-2xl font-bold">Final Project Development</h2>
             <p class="mt-4">In the final week, you'll develop a comprehensive project that integrates all the skills learned throughout the course. This project will showcase your ability to design, build, and program a functional prototype.</p>
@@ -1195,7 +1181,7 @@ const CircuitCourseData: CourseData = {
           videoUrl: "https://example.com/week8-chapter1-video",
         },
         {
-          title: "Chapter 2: Developing a Comprehensive Project",
+          title: "Chapter 8.2: Developing a Comprehensive Project",
           content: `
             <h2 class="text-2xl font-bold">Building Your Final Project</h2>
             <p class="mt-4">This chapter guides you through the process of developing a comprehensive project, integrating all the concepts learned throughout the course.</p>
@@ -1232,7 +1218,7 @@ const CircuitCourseData: CourseData = {
         },
         {
           title:
-            "Chapter 3: Presenting the Project with a Focus on Design and Functionality",
+            "Chapter 8.3: Presenting the Project with a Focus on Design and Functionality",
           content: `
             <h2 class="text-2xl font-bold">Showcasing Your Work</h2>
             <p class="mt-4">Effectively presenting your final project highlights your understanding and application of microcontroller programming and circuit design principles.</p>
@@ -1267,7 +1253,7 @@ const CircuitCourseData: CourseData = {
         },
         {
           title:
-            "Chapter 4: Reviewing Key Concepts and Discussing Next Steps for Further Learning",
+            "Chapter 8.4: Reviewing Key Concepts and Discussing Next Steps for Further Learning",
           content: `
             <h2 class="text-2xl font-bold">Course Review and Future Directions</h2>
             <p class="mt-4">As we conclude the course, it's important to review the key concepts learned and explore avenues for further development in microcontroller programming and circuit design.</p>
@@ -1302,7 +1288,7 @@ const CircuitCourseData: CourseData = {
           videoUrl: "https://example.com/week8-chapter4-video",
         },
         {
-          title: "Chapter 5: Summary",
+          title: "Chapter 8.5: Summary",
           content: `
             <h2 class="text-2xl font-bold">Week 8 Summary: Final Project and Review</h2>
             <p class="mt-4">In this final week, we've focused on:</p>
@@ -1313,15 +1299,13 @@ const CircuitCourseData: CourseData = {
             </ul>
             <p class="mt-4">Completing the final project demonstrates your proficiency in microcontroller programming and circuit design, preparing you for more advanced challenges in electronics and embedded systems.</p>
           `,
-          videoUrl: "https://example.com/week8-chapter5-video",
         },
         {
-          title: "Chapter 6: Quiz",
+          title: "Chapter 8.6: Quiz",
           content: `
             <h2 class="text-2xl font-bold">Final Quiz</h2>
             <p class="mt-4">Assess your comprehensive understanding of the concepts covered throughout the course.</p>
           `,
-          videoUrl: "https://example.com/week8-chapter6-video",
           quiz: {
             question:
               "Which of the following best describes the purpose of integrating sensors and actuators in a microcontroller-based system?",

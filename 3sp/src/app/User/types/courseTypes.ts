@@ -12,7 +12,7 @@ export interface Week {
 export interface Chapter {
     title: string;
     content: string;
-    videoUrl: string;
+    videoUrl?: string;
     quiz?: Quiz;
   }
   

@@ -115,9 +115,9 @@ export default function EnhancedCourseOverviewComponent() {
                   industrial applications.
                 </p>
                 <ul className="list-disc pl-5 space-y-2">
-                  <li>Duration: 8 weeks</li>
+                  <li>Duration: 5 weeks</li>
                   <li>Difficulty: Beginner to Intermediate</li>
-                  <li>Prerequisites: Basic computer skills</li>
+                  <li>Prerequisites: Basic Note Taking Skills</li>
                 </ul>
               </CardContent>
             </Card>
@@ -131,17 +131,17 @@ export default function EnhancedCourseOverviewComponent() {
                   </AccordionTrigger>
                   <AccordionContent>
                     <ul className="list-disc pl-5 space-y-2">
-                      <li>Chapter 1: Introduction</li>
+                      <li>Chapter 1.1: Introduction</li>
                       <li>
-                        Chapter 1: Understanding the properties of caffeine and
-                        its natural sources
+                        Chapter 1.2: Understanding the Properties of Caffeine and
+                        Its Natural Sources
                       </li>
                       <li>
-                        Chapter 1: Introduction to lab safety protocols and
-                        proper equipment handling
+                        Chapter 1.3: Introduction to Lab Safety Protocols and
+                        Proper Equipment Handling
                       </li>
-                      <li>Chapter 1: Summary </li>
-                      <li>Chapter 1: Quiz </li>
+                      <li>Chapter 1.4: Summary </li>
+                      <li>Chapter 1.5: Quiz </li>
                     </ul>
                   </AccordionContent>
                 </AccordionItem>
@@ -151,21 +151,21 @@ export default function EnhancedCourseOverviewComponent() {
                   </AccordionTrigger>
                   <AccordionContent>
                     <ul className="list-disc pl-5 space-y-2">
-                      <li>Chapter 2: Introduction</li>
+                      <li>Chapter 2.1: Introduction</li>
                       <li>
-                        Chapter 2: Selecting and handling solvents safely in the
-                        lab
+                        Chapter 2.2: Selecting and Handling Solvents Safely in the
+                        Lab
                       </li>
                       <li>
-                        Chapter 2: Step-by-step caffeine extraction using
-                        liquid-liquid methods
+                        Chapter 2.3: Step-by-Step Caffeine Extraction Using
+                        Liquid-Liquid Methods
                       </li>
                       <li>
-                        Chapter 2: Importance of using fume hoods and personal
-                        protective equipment
+                        Chapter 2.4: Importance of Using Fume Hoods and Personal
+                        Protective Equipment
                       </li>
-                      <li>Chapter 2: Summary </li>
-                      <li>Chapter 2: Quiz </li>
+                      <li>Chapter 2.5: Summary </li>
+                      <li>Chapter 2.6: Quiz </li>
                     </ul>
                   </AccordionContent>
                 </AccordionItem>
@@ -175,17 +175,17 @@ export default function EnhancedCourseOverviewComponent() {
                   </AccordionTrigger>
                   <AccordionContent>
                     <ul className="list-disc pl-5 space-y-2">
-                      <li>Chapter 3: Introduction</li>
+                      <li>Chapter 3.1: Introduction</li>
                       <li>
-                        Chapter 3: Safely separating impurities from extracted
-                        caffeine
+                        Chapter 3.2: Safely Separating Impurities from Extracted
+                        Caffeine
                       </li>
                       <li>
-                        Chapter 3: Proper disposal of chemical waste in
-                        accordance with safety guidelines
+                        Chapter 3.3: Proper Disposal of Chemical Waste in
+                        Accordance with Safety Guidelines
                       </li>
-                      <li>Chapter 3: Summary </li>
-                      <li>Chapter 3: Quiz </li>
+                      <li>Chapter 3.4: Summary </li>
+                      <li>Chapter 3.5: Quiz </li>
                     </ul>
                   </AccordionContent>
                 </AccordionItem>
@@ -195,17 +195,17 @@ export default function EnhancedCourseOverviewComponent() {
                   </AccordionTrigger>
                   <AccordionContent>
                     <ul className="list-disc pl-5 space-y-2">
-                      <li>Chapter 4: Introduction</li>
+                      <li>Chapter 4.1: Introduction</li>
                       <li>
-                        Chapter 4: Using chromatography and spectroscopy to
-                        analyze caffeine purity
+                        Chapter 4.2: Using Chromatography and Spectroscopy to
+                        Analyze Caffeine Purity
                       </li>
                       <li>
-                        Chapter 4: Maintaining precision and accuracy in lab
-                        measurements
+                        Chapter 4.3: Maintaining Precision and Accuracy in Lab
+                        Measurements
                       </li>
-                      <li>Chapter 4: Summary </li>
-                      <li>Chapter 4: Quiz </li>
+                      <li>Chapter 4.4: Summary </li>
+                      <li>Chapter 4.5: Quiz </li>
                     </ul>
                   </AccordionContent>
                 </AccordionItem>
@@ -215,21 +215,25 @@ export default function EnhancedCourseOverviewComponent() {
                   </AccordionTrigger>
                   <AccordionContent>
                     <ul className="list-disc pl-5 space-y-2">
-                      <li>Chapter 5: Introduction</li>
+                      <li>Chapter 5.1: Introduction</li>
                       <li>
-                        Chapter 5: Designing and performing a comprehensive
-                        caffeine extraction project
+                        Chapter 5.2: Designing and Performing a Comprehensive
+                        Caffeine Extraction Project
                       </li>
                       <li>
-                        Chapter 5: Reviewing and applying all safety protocols
-                        in the final procedure
+                        Chapter 5.3: Reviewing and Applying All Safety Protocols
+                        in the Final Procedure
                       </li>
                       <li>
-                        Chapter 5: Presenting results with an emphasis on safety
-                        compliance
+                        Chapter 5.4: Caffeine Extraction Without the Use of
+                        Carcinogenic Chemicals
                       </li>
-                      <li>Chapter 5: Summary </li>
-                      <li>Chapter 5: Quiz </li>
+                      <li>
+                        Chapter 5.5: Presenting Results with an Emphasis on
+                        Safety Compliance
+                      </li>
+                      <li>Chapter 5.6: Summary </li>
+                      <li>Chapter 5.7: Quiz </li>
                     </ul>
                   </AccordionContent>
                 </AccordionItem>

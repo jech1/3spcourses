@@ -123,19 +123,21 @@ export default function WritingOverview() {
                   </AccordionTrigger>
                   <AccordionContent>
                     <ul className="list-disc pl-5 space-y-2">
-                      <li>Chapter 1: Introduction</li>
+                      <li>Chapter 1.1: Introduction</li>
                       <li>
-                        Chapter 1: Understanding the purpose of scientific
-                        writing
+                        Chapter 1.2: Understanding the Purpose of Scientific
+                        Writing
                       </li>
-                      <li>Chapter 1: Key components of a research paper</li>
+                      <li>Chapter 1.3: Key Components of a Research Paper</li>
                       <li>
-                        Chapter 1: Differences between academic and general
-                        writing styles
+                        Chapter 1.4: Differences Between Academic and General
+                        Writing Styles
                       </li>
-                      <li>Chapter 1: Planning and organizing your writing</li>
-                      <li>Chapter 1: Summary</li>
-                      <li>Chapter 1: Quiz</li>
+                      <li>
+                        Chapter 1.5: Planning and Organizing Your Writing
+                      </li>
+                      <li>Chapter 1.6: Summary</li>
+                      <li>Chapter 1.7: Quiz</li>
                     </ul>
                   </AccordionContent>
                 </AccordionItem>
@@ -146,15 +148,16 @@ export default function WritingOverview() {
                   </AccordionTrigger>
                   <AccordionContent>
                     <ul className="list-disc pl-5 space-y-2">
-                      <li>Chapter 2: Introduction</li>
+                      <li>Chapter 2.1: Introduction</li>
                       <li>
-                        Chapter 2: Identifying research gaps and formulating
-                        questions
+                        Chapter 2.2: Identifying Research Gaps and Formulating
+                        Questions
                       </li>
-                      <li>Chapter 2: Writing clear and testable hypotheses</li>
-                      <li>Chapter 2: Responsive design principles</li>
-                      <li>Chapter 2: Summary</li>
-                      <li>Chapter 2: Quiz</li>
+                      <li>
+                        Chapter 2.3: Writing Clear and Testable Hypotheses
+                      </li>
+                      <li>Chapter 2.4: Summary</li>
+                      <li>Chapter 2.5: Quiz</li>
                     </ul>
                   </AccordionContent>
                 </AccordionItem>
@@ -165,17 +168,19 @@ export default function WritingOverview() {
                   </AccordionTrigger>
                   <AccordionContent>
                     <ul className="list-disc pl-5 space-y-2">
-                      <li>Chapter 3: Introduction</li>
+                      <li>Chapter 3.1: Introduction</li>
                       <li>
-                        Chapter 3: Conducting a thorough literature review
+                        Chapter 3.2: Conducting a Thorough Literature Review
                       </li>
-                      <li>Chapter 3: Summarizing and synthesizing sources</li>
                       <li>
-                        Chapter 3: Proper citation techniques and avoiding
-                        plagiarism
+                        Chapter 3.3: Summarizing and Synthesizing Sources
                       </li>
-                      <li>Chapter 3: Summary</li>
-                      <li>Chapter 3: Quiz</li>
+                      <li>
+                        Chapter 3.4: Proper Citation Techniques and Avoiding
+                        Plagiarism
+                      </li>
+                      <li>Chapter 3.5: Summary</li>
+                      <li>Chapter 3.6: Quiz</li>
                     </ul>
                   </AccordionContent>
                 </AccordionItem>
@@ -186,14 +191,16 @@ export default function WritingOverview() {
                   </AccordionTrigger>
                   <AccordionContent>
                     <ul className="list-disc pl-5 space-y-2">
-                      <li>Chapter 4: Introduction</li>
+                      <li>Chapter 4.1: Introduction</li>
                       <li>
-                        Chapter 4: Describing methodologies clearly and
-                        concisely
+                        Chapter 4.2: Describing Methodologies Clearly and
+                        Concisely
                       </li>
-                      <li>Chapter 4: Writing an accurate results section</li>
-                      <li>Chapter 4: Summary</li>
-                      <li>Chapter 4: Quiz</li>
+                      <li>
+                        Chapter 4.3: Writing an Accurate Results Section
+                      </li>
+                      <li>Chapter 4.4: Summary</li>
+                      <li>Chapter 4.5: Quiz</li>
                     </ul>
                   </AccordionContent>
                 </AccordionItem>
@@ -204,15 +211,19 @@ export default function WritingOverview() {
                   </AccordionTrigger>
                   <AccordionContent>
                     <ul className="list-disc pl-5 space-y-2">
-                      <li>Chapter 5: Introduction</li>
-                      <li>Chapter 5: Interpreting and analyzing results</li>
+                      <li>Chapter 5.1: Introduction</li>
                       <li>
-                        Chapter 5: Linking findings to existing literature
+                        Chapter 5.2: Interpreting Results and Drawing
+                        Conclusions
                       </li>
-                      <li>Chapter 5: Addressing study limitations</li>
-                      <li>Chapter 5: Proposing future research directions</li>
-                      <li>Chapter 5: Summary</li>
-                      <li>Chapter 5: Quiz</li>
+                      <li>
+                        Chapter 5.3: Discussing Implications and Limitations
+                      </li>
+                      <li>
+                        Chapter 5.4: Suggesting Areas for Future Research
+                      </li>
+                      <li>Chapter 5.5: Summary</li>
+                      <li>Chapter 5.6: Quiz</li>
                     </ul>
                   </AccordionContent>
                 </AccordionItem>
@@ -223,16 +234,19 @@ export default function WritingOverview() {
                   </AccordionTrigger>
                   <AccordionContent>
                     <ul className="list-disc pl-5 space-y-2">
-                      <li>Chapter 6: Introduction</li>
+                      <li>Chapter 6.1: Introduction</li>
                       <li>
-                        Chapter 6: Understanding the structure of a grant
-                        proposal
+                        Chapter 6.2: Understanding Funding Agencies and
+                        Requirements
                       </li>
                       <li>
-                        Chapter 6: Writing compelling abstracts and objectives
+                        Chapter 6.3: Components of a Successful Grant Proposal
                       </li>
-                      <li>Chapter 6: Summary</li>
-                      <li>Chapter 6: Quiz</li>
+                      <li>
+                        Chapter 6.4: Writing Persuasively and Effectively
+                      </li>
+                      <li>Chapter 6.5: Summary</li>
+                      <li>Chapter 6.6: Quiz</li>
                     </ul>
                   </AccordionContent>
                 </AccordionItem>
@@ -243,23 +257,35 @@ export default function WritingOverview() {
                   </AccordionTrigger>
                   <AccordionContent>
                     <ul className="list-disc pl-5 space-y-2">
-                      <li>Chapter 7: Introduction</li>
+                      <li>Chapter 7.1: Introduction</li>
                       <li>
-                        Chapter 7: Strategies for self-editing and revising
+                        Chapter 7.2: Effective Revising and Editing Techniques
                       </li>
                       <li>
-                        Chapter 7: Enhancing clarity and readability in writing
+                        Chapter 7.3: Understanding the Peer Review Process
                       </li>
                       <li>
-                        Chapter 7: Responding to reviewer feedback
-                        professionally
+                        Chapter 7.4: Responding to Feedback and Revisions
                       </li>
+                      <li>Chapter 7.5: Summary</li>
+                      <li>Chapter 7.6: Final Quiz</li>
+                    </ul>
+                  </AccordionContent>
+                </AccordionItem>
+                {/* Final Week */}
+                <AccordionItem value="week8">
+                  <AccordionTrigger>
+                    Final Week: Research and Grant Proposal Assignments
+                  </AccordionTrigger>
+                  <AccordionContent>
+                    <ul className="list-disc pl-5 space-y-2">
+                      <li>Chapter 8.1: Introduction to Final Assignments</li>
                       <li>
-                        Chapter 7: Finalizing and submitting your paper or
-                        proposal
+                        Chapter 8.2: First Draft of Grant Proposal Assignment
                       </li>
-                      <li>Chapter 7: Summary</li>
-                      <li>Chapter 7: Quiz</li>
+                      <li>Chapter 8.3: Final Paper</li>
+                      <li>Chapter 8.4: Submissions</li>
+                      <li>Chapter 8.5: Final Remarks</li>
                     </ul>
                   </AccordionContent>
                 </AccordionItem>
