@@ -79,7 +79,7 @@ export default function LoginPage() {
           )}
 
           <p className="text-center text-gray-600 mb-6">
-            Please log in with your Bergen.edu email to continue.
+            Please log in with your me.bergen.edu email to continue.
           </p>
           <Button
             onClick={handleSignIn}
