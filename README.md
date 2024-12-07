@@ -21,8 +21,6 @@ The 3SP Courses web application is designed to display and manage course informa
 
 ## Technology Stack
 
-[List the technologies you plan to use, for example:]
-
 - Frontend: [React, Tailwind, CSS]
 - Backend: [Node.js, Python]
 - Database: [AWS DynamoDB]
