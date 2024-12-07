@@ -1,5 +1,6 @@
 "use client";
 
+import TakeCourseButton from "@/components/TakeCourseButton";
 import { useRef, useEffect } from "react";
 import { motion, useAnimationFrame, useMotionValue } from "framer-motion";
 import Image from "next/image";
@@ -81,12 +82,6 @@ function AnimatedImageCarousel() {
 
 export default function EnhancedCourseOverviewComponent() {
   const router = useRouter(); // Initialize the router here
-
-  // redirect user to the login page with a redirect query
-  // makes them log in before being able to see the course.
-  const handleTakeCourse = () => {
-    router.push("/Login?redirect=/User/Courses/CADCourse");
-  };
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -344,9 +339,7 @@ export default function EnhancedCourseOverviewComponent() {
             </section>
 
             <div className="text-center">
-              <Button size="lg" onClick={handleTakeCourse}>
-                Take Course
-              </Button>
+              <TakeCourseButton redirectUrl="/User/Courses/CADCourse" />
             </div>
           </div>
         </div>

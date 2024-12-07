@@ -18,6 +18,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import TakeCourseButton from "@/components/TakeCourseButton";
 
 const images = [
   {
@@ -133,9 +134,7 @@ export default function WritingOverview() {
                         Chapter 1.4: Differences Between Academic and General
                         Writing Styles
                       </li>
-                      <li>
-                        Chapter 1.5: Planning and Organizing Your Writing
-                      </li>
+                      <li>Chapter 1.5: Planning and Organizing Your Writing</li>
                       <li>Chapter 1.6: Summary</li>
                       <li>Chapter 1.7: Quiz</li>
                     </ul>
@@ -172,9 +171,7 @@ export default function WritingOverview() {
                       <li>
                         Chapter 3.2: Conducting a Thorough Literature Review
                       </li>
-                      <li>
-                        Chapter 3.3: Summarizing and Synthesizing Sources
-                      </li>
+                      <li>Chapter 3.3: Summarizing and Synthesizing Sources</li>
                       <li>
                         Chapter 3.4: Proper Citation Techniques and Avoiding
                         Plagiarism
@@ -196,9 +193,7 @@ export default function WritingOverview() {
                         Chapter 4.2: Describing Methodologies Clearly and
                         Concisely
                       </li>
-                      <li>
-                        Chapter 4.3: Writing an Accurate Results Section
-                      </li>
+                      <li>Chapter 4.3: Writing an Accurate Results Section</li>
                       <li>Chapter 4.4: Summary</li>
                       <li>Chapter 4.5: Quiz</li>
                     </ul>
@@ -219,9 +214,7 @@ export default function WritingOverview() {
                       <li>
                         Chapter 5.3: Discussing Implications and Limitations
                       </li>
-                      <li>
-                        Chapter 5.4: Suggesting Areas for Future Research
-                      </li>
+                      <li>Chapter 5.4: Suggesting Areas for Future Research</li>
                       <li>Chapter 5.5: Summary</li>
                       <li>Chapter 5.6: Quiz</li>
                     </ul>
@@ -242,9 +235,7 @@ export default function WritingOverview() {
                       <li>
                         Chapter 6.3: Components of a Successful Grant Proposal
                       </li>
-                      <li>
-                        Chapter 6.4: Writing Persuasively and Effectively
-                      </li>
+                      <li>Chapter 6.4: Writing Persuasively and Effectively</li>
                       <li>Chapter 6.5: Summary</li>
                       <li>Chapter 6.6: Quiz</li>
                     </ul>
@@ -264,9 +255,7 @@ export default function WritingOverview() {
                       <li>
                         Chapter 7.3: Understanding the Peer Review Process
                       </li>
-                      <li>
-                        Chapter 7.4: Responding to Feedback and Revisions
-                      </li>
+                      <li>Chapter 7.4: Responding to Feedback and Revisions</li>
                       <li>Chapter 7.5: Summary</li>
                       <li>Chapter 7.6: Final Quiz</li>
                     </ul>
@@ -293,12 +282,7 @@ export default function WritingOverview() {
             </section>
 
             <div className="text-center">
-              <Button
-                size="lg"
-                onClick={() => router.push("/User/Courses/WritingCourse")}
-              >
-                Take Course
-              </Button>
+              <TakeCourseButton redirectUrl="/User/Courses/WritingCourse" />
             </div>
           </div>
         </div>

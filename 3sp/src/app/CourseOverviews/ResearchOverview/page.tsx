@@ -18,6 +18,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import TakeCourseButton from "@/components/TakeCourseButton";
 
 const images = [
   {
@@ -155,9 +156,12 @@ export default function EnhancedCourseOverviewComponent() {
                     <ul className="list-disc pl-5 space-y-2">
                       <li>Chapter 2.1: Introduction</li>
                       <li>
-                        Chapter 2.2: Identifying research problems and objectives
+                        Chapter 2.2: Identifying research problems and
+                        objectives
                       </li>
-                      <li>Chapter 2.3: Crafting clear and testable hypotheses</li>
+                      <li>
+                        Chapter 2.3: Crafting clear and testable hypotheses
+                      </li>
                       <li>Chapter 2.4: Summary</li>
                       <li>Chapter 2.5: Quiz</li>
                     </ul>
@@ -197,7 +201,9 @@ export default function EnhancedCourseOverviewComponent() {
                   <AccordionContent>
                     <ul className="list-disc pl-5 space-y-2">
                       <li>Chapter 4.1: Introduction</li>
-                      <li>Chapter 4.2: Conducting interviews and focus groups</li>
+                      <li>
+                        Chapter 4.2: Conducting interviews and focus groups
+                      </li>
                       <li>Chapter 4.3: Observational research techniques</li>
                       <li>
                         Chapter 4.4: Analyzing and interpreting qualitative data
@@ -239,7 +245,8 @@ export default function EnhancedCourseOverviewComponent() {
                     <ul className="list-disc pl-5 space-y-2">
                       <li>Chapter 6.1: Introduction</li>
                       <li>
-                        Chapter 6.2: Choosing the right tools for data collection
+                        Chapter 6.2: Choosing the right tools for data
+                        collection
                       </li>
                       <li>
                         Chapter 6.3: Organizing and analyzing data effectively
@@ -263,7 +270,8 @@ export default function EnhancedCourseOverviewComponent() {
                     <ul className="list-disc pl-5 space-y-2">
                       <li>Chapter 7.1: Introduction</li>
                       <li>
-                        Chapter 7.2: Structuring a research report or presentation
+                        Chapter 7.2: Structuring a research report or
+                        presentation
                       </li>
                       <li>
                         Chapter 7.3: Visualizing data with charts, graphs, and
@@ -282,12 +290,7 @@ export default function EnhancedCourseOverviewComponent() {
             </section>
 
             <div className="text-center">
-              <Button
-                size="lg"
-                onClick={() => router.push("/User/Courses/ResearchCourse")}
-              >
-                Take Course
-              </Button>
+              <TakeCourseButton redirectUrl="/User/Courses/ResearchCourse" />
             </div>
           </div>
         </div>

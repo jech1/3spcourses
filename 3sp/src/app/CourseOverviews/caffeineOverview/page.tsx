@@ -20,6 +20,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import TakeCourseButton from "@/components/TakeCourseButton";
 
 const images = [
   {
@@ -133,8 +134,8 @@ export default function EnhancedCourseOverviewComponent() {
                     <ul className="list-disc pl-5 space-y-2">
                       <li>Chapter 1.1: Introduction</li>
                       <li>
-                        Chapter 1.2: Understanding the Properties of Caffeine and
-                        Its Natural Sources
+                        Chapter 1.2: Understanding the Properties of Caffeine
+                        and Its Natural Sources
                       </li>
                       <li>
                         Chapter 1.3: Introduction to Lab Safety Protocols and
@@ -153,8 +154,8 @@ export default function EnhancedCourseOverviewComponent() {
                     <ul className="list-disc pl-5 space-y-2">
                       <li>Chapter 2.1: Introduction</li>
                       <li>
-                        Chapter 2.2: Selecting and Handling Solvents Safely in the
-                        Lab
+                        Chapter 2.2: Selecting and Handling Solvents Safely in
+                        the Lab
                       </li>
                       <li>
                         Chapter 2.3: Step-by-Step Caffeine Extraction Using
@@ -241,12 +242,7 @@ export default function EnhancedCourseOverviewComponent() {
             </section>
 
             <div className="text-center">
-              <Button
-                size="lg"
-                onClick={() => router.push("/User/Courses/CaffineCourse")}
-              >
-                Take Course
-              </Button>
+              <TakeCourseButton redirectUrl="/User/Courses/CaffineCourse" />
             </div>
           </div>
         </div>

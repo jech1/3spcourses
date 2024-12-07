@@ -19,13 +19,17 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import TakeCourseButton from "@/components/TakeCourseButton";
 
 const images = [
   {
     src: "/Scientific Writing Badge (1).png?height=500&width=500",
     alt: "Scientific Writing Badge",
   },
-  { src: "/circuitbadge.png?height=500&width=500", alt: "Circuit Design Badge" },
+  {
+    src: "/circuitbadge.png?height=500&width=500",
+    alt: "Circuit Design Badge",
+  },
   { src: "/researchbadge.png?height=500&width=500", alt: "Research Badge" },
   { src: "/CADbadge (1).png?height=500&width=500", alt: "CAD Design Badge" },
   { src: "/c++badge.png?height=500&width=500", alt: "C++ Programming Badge" },
@@ -132,8 +136,8 @@ export default function EnhancedCourseOverviewComponent() {
                     <ul className="list-disc pl-5 space-y-2">
                       <li>Chapter 1.1: Introduction</li>
                       <li>
-                        Chapter 1.2: Setting up Arduino IDE and Understanding Its
-                        Interface
+                        Chapter 1.2: Setting up Arduino IDE and Understanding
+                        Its Interface
                       </li>
                       <li>
                         Chapter 1.3: Exploring Online Resources and Communities
@@ -180,16 +184,16 @@ export default function EnhancedCourseOverviewComponent() {
                     <ul className="list-disc pl-5 space-y-2">
                       <li>Chapter 3.1: Introduction</li>
                       <li>
-                        Chapter 3.2: Writing and Uploading Simple C++ Programs to
-                        Microcontrollers
+                        Chapter 3.2: Writing and Uploading Simple C++ Programs
+                        to Microcontrollers
                       </li>
                       <li>
                         Chapter 3.3: Understanding Data Types, Variables, and
                         Logic Control Structures
                       </li>
                       <li>
-                        Chapter 3.4: Using Functions to Organize Code for Complex
-                        Operations
+                        Chapter 3.4: Using Functions to Organize Code for
+                        Complex Operations
                       </li>
                       <li>Chapter 3.5: Summary</li>
                       <li>Chapter 3.6: Quiz</li>
@@ -254,7 +258,8 @@ export default function EnhancedCourseOverviewComponent() {
                         Simulation
                       </li>
                       <li>
-                        Chapter 6.3: Testing and Refining Circuits on Breadboards
+                        Chapter 6.3: Testing and Refining Circuits on
+                        Breadboards
                       </li>
                       <li>
                         Chapter 6.4: Exploring Best Practices for Prototype
@@ -295,12 +300,10 @@ export default function EnhancedCourseOverviewComponent() {
                   <AccordionContent>
                     <ul className="list-disc pl-5 space-y-2">
                       <li>Chapter 8.1: Introduction</li>
+                      <li>Chapter 8.2: Developing a Comprehensive Project</li>
                       <li>
-                        Chapter 8.2: Developing a Comprehensive Project
-                      </li>
-                      <li>
-                        Chapter 8.3: Presenting the Project with a Focus on Design
-                        and Functionality
+                        Chapter 8.3: Presenting the Project with a Focus on
+                        Design and Functionality
                       </li>
                       <li>
                         Chapter 8.4: Reviewing Key Concepts and Discussing Next
@@ -315,12 +318,7 @@ export default function EnhancedCourseOverviewComponent() {
             </section>
 
             <div className="text-center">
-              <Button
-                size="lg"
-                onClick={() => router.push("/User/Courses/CircuitCourse")}
-              >
-                Take Course
-              </Button>
+              <TakeCourseButton redirectUrl="/User/Courses/CircuitCourse" />
             </div>
           </div>
         </div>

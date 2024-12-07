@@ -19,6 +19,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import TakeCourseButton from "@/components/TakeCourseButton";
 
 const images = [
   {
@@ -139,8 +140,7 @@ export default function EnhancedCourseOverviewComponent() {
                         1.3 Introduction to the terminal and basic commands
                       </li>
                       <li>
-                        1.4 Understanding variables, data types, and
-                        constants
+                        1.4 Understanding variables, data types, and constants
                       </li>
                       <li>1.5 Producing outputs and handling user input</li>
                       <li>1.6 Summary</li>
@@ -155,16 +155,14 @@ export default function EnhancedCourseOverviewComponent() {
                   <AccordionContent>
                     <ul className="list-disc pl-5 space-y-2">
                       <li>2.1 Introduction</li>
-                      <li>
-                        2.2 Introduction to arrays and their importance
-                      </li>
-                      <li>
-                        2.3 Declaring, initializing, and accessing arrays
-                      </li>
+                      <li>2.2 Introduction to arrays and their importance</li>
+                      <li>2.3 Declaring, initializing, and accessing arrays</li>
                       <li>
                         2.4 Multi-dimensional arrays and their applications
                       </li>
-                      <li>2.5 Common array operations like searching and sorting</li>
+                      <li>
+                        2.5 Common array operations like searching and sorting
+                      </li>
                       <li>2.6 Summary</li>
                       <li>2.7 Quiz</li>
                     </ul>
@@ -178,11 +176,10 @@ export default function EnhancedCourseOverviewComponent() {
                     <ul className="list-disc pl-5 space-y-2">
                       <li>3.1 Introduction</li>
                       <li>3.2 Defining and calling functions</li>
+                      <li>3.3 Function arguments, return types, and scope</li>
                       <li>
-                        3.3 Function arguments, return types, and scope
-                      </li>
-                      <li>
-                        3.4 Breaking programs into modules for better organization
+                        3.4 Breaking programs into modules for better
+                        organization
                       </li>
                       <li>
                         3.5 Benefits of modular programming for scalability
@@ -200,14 +197,14 @@ export default function EnhancedCourseOverviewComponent() {
                     <ul className="list-disc pl-5 space-y-2">
                       <li>4.1 Introduction</li>
                       <li>
-                        4.2 Combining arrays with functions to solve complex problems
+                        4.2 Combining arrays with functions to solve complex
+                        problems
                       </li>
                       <li>
-                        4.3 Building small modular projects using all covered concepts
+                        4.3 Building small modular projects using all covered
+                        concepts
                       </li>
-                      <li>
-                        4.4 Debugging and refining code for efficiency
-                      </li>
+                      <li>4.4 Debugging and refining code for efficiency</li>
                       <li>4.5 Summary</li>
                       <li>4.6 Quiz</li>
                     </ul>
@@ -224,13 +221,16 @@ export default function EnhancedCourseOverviewComponent() {
                         5.2 Introduction to Arduino IDE and basic hardware setup
                       </li>
                       <li>
-                        5.3 Writing and uploading C++ programs to microcontrollers
+                        5.3 Writing and uploading C++ programs to
+                        microcontrollers
                       </li>
                       <li>
-                        5.4 Reading input from sensors and controlling output devices
+                        5.4 Reading input from sensors and controlling output
+                        devices
                       </li>
                       <li>
-                        5.5 Exploring practical applications with hardware integration
+                        5.5 Exploring practical applications with hardware
+                        integration
                       </li>
                       <li>5.6 Summary</li>
                       <li>5.7 Quiz</li>
@@ -249,9 +249,7 @@ export default function EnhancedCourseOverviewComponent() {
                         6.3 Using file streams for data storage and retrieval
                       </li>
                       <li>6.4 Error handling in file operations</li>
-                      <li>
-                        6.5 Building programs that save and load data
-                      </li>
+                      <li>6.5 Building programs that save and load data</li>
                       <li>6.6 Summary</li>
                       <li>6.7 Quiz</li>
                     </ul>
@@ -263,16 +261,19 @@ export default function EnhancedCourseOverviewComponent() {
                     <ul className="list-disc pl-5 space-y-2">
                       <li>7.1 Introduction</li>
                       <li>
-                        7.2 Designing and implementing a comprehensive program that combines all concepts
+                        7.2 Designing and implementing a comprehensive program
+                        that combines all concepts
                       </li>
                       <li>
-                        7.3 Integrating hardware (optional for those with access to microcontrollers)
+                        7.3 Integrating hardware (optional for those with access
+                        to microcontrollers)
                       </li>
                       <li>
                         7.4 Debugging, testing, and presenting the final project
                       </li>
                       <li>
-                        7.5 Best practices for future learning and advanced topics
+                        7.5 Best practices for future learning and advanced
+                        topics
                       </li>
                       <li>7.6 Summary</li>
                       <li>7.7 Quiz</li>
@@ -283,12 +284,7 @@ export default function EnhancedCourseOverviewComponent() {
             </section>
 
             <div className="text-center">
-              <Button
-                size="lg"
-                onClick={() => router.push("/User/Courses/CppCourse")}
-              >
-                Take Course
-              </Button>
+              <TakeCourseButton redirectUrl="/User/Courses/CppCourse" />
             </div>
           </div>
         </div>
