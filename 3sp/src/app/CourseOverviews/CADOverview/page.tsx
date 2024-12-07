@@ -25,7 +25,10 @@ const images = [
     src: "/Scientific Writing Badge (1).png?height=500&width=500",
     alt: "Scientific Writing Badge",
   },
-  { src: "/circuitbadge.png?height=500&width=500", alt: "Circuit Design Badge" },
+  {
+    src: "/circuitbadge.png?height=500&width=500",
+    alt: "Circuit Design Badge",
+  },
   { src: "/researchbadge.png?height=500&width=500", alt: "Research Badge" },
   { src: "/CADbadge (1).png?height=500&width=500", alt: "CAD Design Badge" },
   { src: "/c++badge.png?height=500&width=500", alt: "C++ Programming Badge" },
@@ -78,6 +81,12 @@ function AnimatedImageCarousel() {
 
 export default function EnhancedCourseOverviewComponent() {
   const router = useRouter(); // Initialize the router here
+
+  // redirect user to the login page with a redirect query
+  // makes them log in before being able to see the course.
+  const handleTakeCourse = () => {
+    router.push("/Login?redirect=/User/Courses/CADCourse");
+  };
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -140,8 +149,8 @@ export default function EnhancedCourseOverviewComponent() {
                         Chapter 1.3: Overview of the CAD interface and tools
                       </li>
                       <li>
-                        Chapter 1.4: Understanding design principles and sketching
-                        basics
+                        Chapter 1.4: Understanding design principles and
+                        sketching basics
                       </li>
                       <li>
                         Chapter 1.5: Creating simple 2D sketches and extrusions
@@ -161,12 +170,12 @@ export default function EnhancedCourseOverviewComponent() {
                     <ul className="list-disc pl-5 space-y-2">
                       <li>Chapter 2.1: Introduction</li>
                       <li>
-                        Chapter 2.2: Working with primitives like cubes, spheres,
-                        and cylinders
+                        Chapter 2.2: Working with primitives like cubes,
+                        spheres, and cylinders
                       </li>
                       <li>
-                        Chapter 2.3: Modifying shapes using extrude, revolve, and
-                        loft tools
+                        Chapter 2.3: Modifying shapes using extrude, revolve,
+                        and loft tools
                       </li>
                       <li>
                         Chapter 2.4: Combining and subtracting shapes (Boolean
@@ -197,7 +206,8 @@ export default function EnhancedCourseOverviewComponent() {
                         renders
                       </li>
                       <li>
-                        Chapter 3.4: Exporting high-quality images and animations
+                        Chapter 3.4: Exporting high-quality images and
+                        animations
                       </li>
                       <li>Chapter 3.5: Summary </li>
                       <li>Chapter 3.6: Quiz </li>
@@ -214,8 +224,8 @@ export default function EnhancedCourseOverviewComponent() {
                     <ul className="list-disc pl-5 space-y-2">
                       <li>Chapter 4.1: Introduction</li>
                       <li>
-                        Chapter 4.2: Preparing models for 3D printing with slicing
-                        software
+                        Chapter 4.2: Preparing models for 3D printing with
+                        slicing software
                       </li>
                       <li>
                         Chapter 4.3: Troubleshooting and refining designs for
@@ -238,14 +248,15 @@ export default function EnhancedCourseOverviewComponent() {
                     <ul className="list-disc pl-5 space-y-2">
                       <li>Chapter 5.1: Introduction</li>
                       <li>
-                        Chapter 5.2: Developing a complete design from concept to
-                        final render
+                        Chapter 5.2: Developing a complete design from concept
+                        to final render
                       </li>
                       <li>
                         Chapter 5.3: Incorporating advanced modeling techniques
                       </li>
                       <li>
-                        Chapter 5.4: Presenting and documenting the design process
+                        Chapter 5.4: Presenting and documenting the design
+                        process
                       </li>
                       <li>Chapter 5.5: Summary </li>
                       <li>Chapter 5.6: Quiz </li>
@@ -288,16 +299,16 @@ export default function EnhancedCourseOverviewComponent() {
                     <ul className="list-disc pl-5 space-y-2">
                       <li>Chapter 7.1: Introduction</li>
                       <li>
-                        Chapter 7.2: Writing and Uploading Simple C++ Programs to
-                        Microcontrollers
+                        Chapter 7.2: Writing and Uploading Simple C++ Programs
+                        to Microcontrollers
                       </li>
                       <li>
                         Chapter 7.3: Understanding Data Types, Variables, and
                         Logic Control Structures
                       </li>
                       <li>
-                        Chapter 7.4: Using Functions to Organize Code for Complex
-                        Operations
+                        Chapter 7.4: Using Functions to Organize Code for
+                        Complex Operations
                       </li>
                       <li>Chapter 7.5: Summary </li>
                       <li>Chapter 7.6: Quiz </li>
@@ -333,10 +344,7 @@ export default function EnhancedCourseOverviewComponent() {
             </section>
 
             <div className="text-center">
-              <Button
-                size="lg"
-                onClick={() => router.push("/User/Courses/CADCourse")}
-              >
+              <Button size="lg" onClick={handleTakeCourse}>
                 Take Course
               </Button>
             </div>
