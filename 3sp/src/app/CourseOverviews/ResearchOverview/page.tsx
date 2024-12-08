@@ -78,6 +78,7 @@ function AnimatedImageCarousel() {
 
 export default function EnhancedCourseOverviewComponent() {
   //const router = useRouter(); // Initialize router here
+  //const router = useRouter(); // Initialize router here
 
   return (
     <div className="min-h-screen flex flex-col">
