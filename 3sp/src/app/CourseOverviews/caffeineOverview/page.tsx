@@ -4,9 +4,9 @@ import { useRef, useEffect } from "react";
 import { motion, useAnimationFrame, useMotionValue } from "framer-motion";
 import Image from "next/image";
 //import Link from "next/link";
-import { useRouter } from "next/navigation"; // Ensure useRouter is imported
+//import { useRouter } from "next/navigation"; // Ensure useRouter is imported
 
-import { Button } from "@/components/ui/button";
+//import { Button } from "@/components/ui/button";
 import {
   Card,
   CardContent,
@@ -79,7 +79,7 @@ function AnimatedImageCarousel() {
 }
 
 export default function EnhancedCourseOverviewComponent() {
-  const router = useRouter(); // Initialize the router here
+  //const router = useRouter(); // Initialize the router here
 
   return (
     <div className="min-h-screen flex flex-col">
