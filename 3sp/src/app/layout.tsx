@@ -68,10 +68,11 @@ export default function RootLayout({
                         </Link>
                       </li>
                       <li>
-                        <Link href="#" className="hover:underline">
-                          Admin
+                        <Link href="Merged_document.png" className="hover:underline">
+                        Terms and conditions
                         </Link>
                       </li>
+                
                     </ul>
                   </div>
                   <div>
