@@ -18,6 +18,7 @@ export default function Header({
 
   // Default navigation to Profile if no custom handler is provided
   const handleProfileClick = () => {
+    console.log("Navigating to /profile via the Profile button");
     if (onProfileClick) {
       onProfileClick();
     } else {
@@ -28,15 +29,25 @@ export default function Header({
   return (
     <header className="bg-white text-black py-4 px-6 flex justify-between items-center shadow-md sticky top-0 z-50">
       {/* Home Button with Logo */}
-      <Link href="/" aria-label="Go to Homepage" className="flex items-center">
-        <Image
-          src="/3splogowbg (1).png" // Adjust path as necessary
-          alt="Home"
-          width={125}
-          height={32}
-          className="cursor-pointer"
-        />
-      </Link>
+      <div
+        onClick={() => {
+          console.log("Navigating to /User/Dashboard via the 3SP logo");
+        }}
+      >
+        <Link
+          href="/User/Dashboard"
+          aria-label="Go to Homepage"
+          className="flex items-center"
+        >
+          <Image
+            src="/3splogowbg (1).png" // Adjust path as necessary
+            alt="Home"
+            width={125}
+            height={32}
+            className="cursor-pointer"
+          />
+        </Link>
+      </div>
 
       {/* Additional Links */}
       <nav className="flex items-center space-x-4">
