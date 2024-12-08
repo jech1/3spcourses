@@ -3,8 +3,8 @@
 import { useRef } from "react";
 import { motion, useAnimationFrame, useMotionValue } from "framer-motion";
 import Image from "next/image";
-import { useRouter } from "next/navigation"; // Import useRouter
-import { Button } from "@/components/ui/button";
+// import { useRouter } from "next/navigation"; // Import useRouter
+// import { Button } from "@/components/ui/button";
 import {
   Card,
   CardContent,
@@ -72,7 +72,7 @@ function AnimatedImageCarousel() {
 }
 
 export default function WritingOverview() {
-  const router = useRouter(); // Initialize the router
+  // const router = useRouter(); // Initialize the router
 
   return (
     <div className="min-h-screen flex flex-col">
