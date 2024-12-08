@@ -1,4 +1,7 @@
+"use client";
+
 import { Inter } from "next/font/google";
+import { usePathname } from "next/navigation";
 import SessionProviderWrapper from "./SessionProviderWrapper"; // Import the wrapper
 import "./global.css";
 import { Button } from "@/components/ui/button";
@@ -6,16 +9,13 @@ import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata = {
-  title: "3SP Course Platform",
-  description: "Learn programming with 3SP",
-};
-
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
+  const currentPath = usePathname();
+
   return (
     <html lang="en">
       <body className={inter.className}>
@@ -25,11 +25,16 @@ export default function RootLayout({
               <Link href="/" className="text-2xl font-bold">
                 3SP Course Platform
               </Link>
-              <Link href="/Login">
-                <Button className="bg-white text-[#11001C] hover:bg-gray-200 px-6 py-2 rounded-md">
-                  Login
-                </Button>
-              </Link>
+
+              {/* Conditional for Login Button */}
+              {/* If the current path is not /Login, show the Login button */}
+              {currentPath !== "/Login" && (
+                <Link href="/Login">
+                  <Button className="bg-white text-[#11001C] hover:bg-gray-200 px-6 py-2 rounded-md">
+                    Login
+                  </Button>
+                </Link>
+              )}
             </header>
             {children}
           </div>
