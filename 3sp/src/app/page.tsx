@@ -76,6 +76,7 @@ export default function Home() {
               width={300}
               height={300}
               className="mx-auto mb-8"
+              priority // Load this image first
             />
             <h1 className="text-4xl font-bold mb-4">Welcome to 3SP Courses!</h1>
             <p className="text-xl max-w-2xl mx-auto mb-8">
