@@ -22,7 +22,7 @@ export default function Header({
     if (onProfileClick) {
       onProfileClick();
     } else {
-      router.push("/profile");
+      router.push("/User/Dashboard");
     }
   };
 

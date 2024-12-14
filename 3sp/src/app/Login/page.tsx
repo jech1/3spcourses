@@ -14,6 +14,8 @@ import {
 
 console.log("Login Page Loaded"); // Initial log to confirm the page is rendering
 
+
+
 export default function LoginPage() {
   // Read the `error` parameter from the query string
   const searchParams = useSearchParams();
@@ -44,6 +46,8 @@ export default function LoginPage() {
     }
   };
 
+
+    
   return (
     <div className="min-h-screen bg-gradient-to-b from-[#632a88] to-white flex items-center justify-center px-4 sm:px-6 lg:px-8">
       <Card className="w-full max-w-md">
