@@ -54,7 +54,7 @@ const courses = [
   },
   {
     id: 6,
-    slug: "caffeineCourse",
+    slug: "CaffineCourse",
     name: "Caffeine Extraction",
     description: "Master the fundamentals of research in a lab.",
     image: "/3spCaffinelogo.png?height=100&width=200",

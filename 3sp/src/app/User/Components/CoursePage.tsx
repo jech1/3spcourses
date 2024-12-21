@@ -15,7 +15,11 @@ function getTotalChapters(courseData: CourseData): number {
   return courseData.weeks.reduce((sum, week) => sum + week.chapters.length, 0);
 }
 
-function getCurrentChapterNumber(courseData: CourseData, currentWeek: number, currentChapter: number): number {
+function getCurrentChapterNumber(
+  courseData: CourseData,
+  currentWeek: number,
+  currentChapter: number
+): number {
   let chaptersBefore = 0;
   for (let i = 0; i < currentWeek; i++) {
     chaptersBefore += courseData.weeks[i].chapters.length;
@@ -23,9 +27,17 @@ function getCurrentChapterNumber(courseData: CourseData, currentWeek: number, cu
   return chaptersBefore + currentChapter + 1; // 1-based
 }
 
-function calculateProgress(courseData: CourseData, currentWeek: number, currentChapter: number): number {
+function calculateProgress(
+  courseData: CourseData,
+  currentWeek: number,
+  currentChapter: number
+): number {
   const totalChapters = getTotalChapters(courseData);
-  const currentChapterNumber = getCurrentChapterNumber(courseData, currentWeek, currentChapter);
+  const currentChapterNumber = getCurrentChapterNumber(
+    courseData,
+    currentWeek,
+    currentChapter
+  );
   return (currentChapterNumber / totalChapters) * 100;
 }
 
@@ -47,7 +59,11 @@ async function loadUserData(userId: string) {
 }
 
 // Save user data via POST /user
-async function saveUserData(userId: string, profile: unknown, coursesData: unknown) {
+async function saveUserData(
+  userId: string,
+  profile: unknown,
+  coursesData: unknown
+) {
   const payload = {
     userId,
     profile,
@@ -71,27 +87,30 @@ export default function CoursePage({ courseData }: { courseData: CourseData }) {
   const { data: session } = useSession();
   const userId = session?.user?.id;
 
-  const {
-    currentWeek,
-    currentChapter,
-    navigateToChapter,
-  } = useCourseLogic(courseData);
+  const { currentWeek, currentChapter, navigateToChapter } =
+    useCourseLogic(courseData);
 
   const courseSlug = courseData.title.replace(/\s+/g, "_");
 
   // We'll store user profile and courses progress from DB
   const [profile, setProfile] = useState({});
-  const [coursesProgress, setCoursesProgress] = useState<{ [slug: string]: { currentWeek: number; currentChapter: number } }>({});
+  const [coursesProgress, setCoursesProgress] = useState<{
+    [slug: string]: { currentWeek: number; currentChapter: number };
+  }>({});
 
-  const currentChapterData = courseData.weeks[currentWeek]?.chapters[currentChapter];
+  const currentChapterData =
+    courseData.weeks[currentWeek]?.chapters[currentChapter];
   const currentQuiz = currentChapterData?.quiz;
-  
+
   const isFirstChapter = currentWeek === 0 && currentChapter === 0;
   const isLastChapter =
     currentWeek === courseData.weeks.length - 1 &&
     currentChapter === courseData.weeks[currentWeek].chapters.length - 1;
 
   const previousChapter = () => {
+    // Scroll to the top each time the button is clicked
+    window.scrollTo(0, 0);
+
     if (currentChapter > 0) {
       navigateToChapter(currentWeek, currentChapter - 1);
     } else if (currentWeek > 0) {
@@ -105,6 +124,9 @@ export default function CoursePage({ courseData }: { courseData: CourseData }) {
   };
 
   const nextChapter = () => {
+    // Scroll to the top each time the button is clicked
+    window.scrollTo(0, 0);
+
     const currentWeekData = courseData.weeks[currentWeek];
     if (currentWeekData && currentChapter < currentWeekData.chapters.length - 1) {
       navigateToChapter(currentWeek, currentChapter + 1);
@@ -130,7 +152,8 @@ export default function CoursePage({ courseData }: { courseData: CourseData }) {
 
         // If we have saved position for this course, navigate to it
         if (loadedCoursesProgress[courseSlug]) {
-          const { currentWeek: savedWeek, currentChapter: savedChapter } = loadedCoursesProgress[courseSlug];
+          const { currentWeek: savedWeek, currentChapter: savedChapter } =
+            loadedCoursesProgress[courseSlug];
           navigateToChapter(savedWeek, savedChapter);
         }
       } else {
@@ -172,15 +195,21 @@ export default function CoursePage({ courseData }: { courseData: CourseData }) {
           <h3 className="text-2xl font-semibold mb-4">
             {currentChapterData?.title}
           </h3>
-          <Button
-            variant="outline"
-            className="mb-6"
-            onClick={() =>
-              window.open(currentChapterData?.videoUrl ?? "", "_blank")
-            }
-          >
-            <Play className="h-4 w-4 mr-2" /> Watch Video
-          </Button>
+
+          {/* Only show button if there is a valid videoUrl */}
+          {currentChapterData?.videoUrl && (
+            <Button
+              variant="outline"
+              // Darker styling with a darker hover effect
+              className="mb-6 bg-gray-200 text-black hover:bg-gray-300"
+              onClick={() =>
+                window.open(currentChapterData?.videoUrl ?? "", "_blank")
+              }
+            >
+              <Play className="h-4 w-4 mr-2" /> Watch Video
+            </Button>
+          )}
+
           <div
             className="prose max-w-none"
             dangerouslySetInnerHTML={{
