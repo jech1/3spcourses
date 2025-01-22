@@ -21,14 +21,57 @@ const ResearchCourseData: CourseData = {
               <li><strong>Week 1:</strong> Introduction to Research Methods</li>
               <li><strong>Week 2:</strong> Formulating Research Questions and Hypotheses</li>
               <li><strong>Week 3:</strong> Quantitative Research Methods</li>
+              <li><strong>Week 4:</strong> Qualitative Research Methods </li>
+              <li><strong>Week 5:</strong> Mixed-Methods Research</li>
+              <li><strong>Week 6:</strong> Data Collection and Analysis</li>
+              <li><strong>Week 7:</strong> Reporting & Presenting Research Findings</li>
+            </ul>
+            <h3 class="text-xl font-semibold mt-6">Assignments:</h3>
+            <h2 class="text-2xl font-bold">Welcome to Research Methods & Analytics</h2>
+            <p class="mt-4">Research methods are the backbone of any scientific inquiry. This week, we'll explore the fundamental concepts that underpin effective research practices.</p>
+
+            <h3 class="text-xl font-semibold mt-6">Course Overview:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li><strong>Week 1:</strong> Introduction to Research Methods</li>
+              <li><strong>Week 2:</strong> Formulating Research Questions and Hypotheses</li>
+              <li><strong>Week 3:</strong> Quantitative Research Methods</li>
               <li><strong>Week 4:</strong> Qualitative Research Methods</li>
               <li><strong>Week 5:</strong> Mixed-Methods Research</li>
               <li><strong>Week 6:</strong> Data Collection and Analysis</li>
               <li><strong>Week 7:</strong> Reporting and Presenting Research Findings</li>
             </ul>
-            <div class="mt-6">
-              <img src="/researchlogo3sp.png" alt="Course structure diagram" width="500" height="300" />
-            </div>
+
+            <h3 class="text-xl font-semibold mt-6">Assignments:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li>
+                <strong>First Primary Paper Assessment:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>The first primary article assignment is due on 3/1, 4/1, 5/1 (due online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline">Click Here</a>).</li>
+                  <li><a href="https://docs.google.com/forms/d/15WC0Dnk3w0uXmHbGSarU1E1EQWtcDKg4J_vWAsaSdcU/edit#:~:text=https%3A//docs.google.com/document/d/1NylLZ3z%2DgtNnSLKVMWnE8yiyO6XeUzyW/edit?usp=sharing" class="text-blue-500 underline">Primary Paper Review Instructions</a></li>
+                  <li><a href="https://docs.google.com/document/d/1KtL6lD9afCsoKjCukEkAdA5CqbQ61pXlQv0A_wxlLKc/edit?usp=sharing" class="text-blue-500 underline">Primary Paper Written Example One</a></li>
+                </ul>
+              </li>
+              <li>
+                <strong>Second Primary Paper Review Assessment:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>The second primary article assignment is due on 3/1, 4/1, 5/1 (due online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline">Click Here</a>).</li>
+                  <li><a href="https://docs.google.com/document/d/1NylLZ3z-gtNnSLKVMWnE8yiyO6XeUzyW/edit?usp=sharing" class="text-blue-500 underline">Second Primary Paper Review Instructions</a></li>
+                  <li><a href="https://docs.google.com/document/d/1kmFjSnXmEVKCmZDq61NeAGuEdEnQc0--/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Second Primary Paper Written Example Two</a></li>
+                </ul>
+              </li>
+              <li>
+                <strong>Lab Report / Publications Assessment:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>The assignment is due on 3/15, 4/15, 5/15 (due online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline">Click Here</a>).</li>
+                  <li><a href="https://docs.google.com/document/d/1gcb2QrzsQdIWVkULTIWrBDFx_1A8GBd_vxERKSNz7RI/edit?usp=sharing" class="text-blue-500 underline">Lab Report Review Instructions</a></li>
+                  <li><a href="https://docs.google.com/document/d/1KtL6lD9afCsoKjCukEkAdA5CqbQ61pXlQv0A_wxlLKc/edit?usp=sharing" class="text-blue-500 underline">Lab Report Example One</a></li>
+                  <li><a href="https://docs.google.com/document/d/1kmFjSnXmEVKCmZDq61NeAGuEdEnQc0--/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Lab Report Example Two</a></li>
+                  <li><a href="https://docs.google.com/document/d/1CAdx0bqoQvPDa_hw30aCJ1eVwKhByLlLhUpXbIfbppg/edit?usp=sharing" class="text-blue-500 underline">Lab Report Example Three</a></li>
+                </ul>
+              </li>
+            </ul>
+
+            
           `,
           videoUrl: "https://example.com/week1-intro",
         },
@@ -262,6 +305,50 @@ const ResearchCourseData: CourseData = {
               <li>Learn about different quantitative research designs.</li>
               <li>Explore data collection and analysis techniques.</li>
             </ul>
+                        <h2 class="text-2xl font-bold">Welcome to Research Methods & Analytics</h2>
+            <p class="mt-4">Research methods are the backbone of any scientific inquiry. This week, we'll explore the fundamental concepts that underpin effective research practices.</p>
+
+            <h3 class="text-xl font-semibold mt-6">Course Overview:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li><strong>Week 1:</strong> Introduction to Research Methods</li>
+              <li><strong>Week 2:</strong> Formulating Research Questions and Hypotheses</li>
+              <li><strong>Week 3:</strong> Quantitative Research Methods</li>
+              <li><strong>Week 4:</strong> Qualitative Research Methods</li>
+              <li><strong>Week 5:</strong> Mixed-Methods Research</li>
+              <li><strong>Week 6:</strong> Data Collection and Analysis</li>
+              <li><strong>Week 7:</strong> Reporting and Presenting Research Findings</li>
+            </ul>
+
+            <h3 class="text-xl font-semibold mt-6">Assignments:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li>
+                <strong>First Primary Paper Assessment:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>The first primary article assignment is due on 3/1, 4/1, 5/1 (due online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline">Click Here</a>).</li>
+                  <li><a href="https://docs.google.com/forms/d/15WC0Dnk3w0uXmHbGSarU1E1EQWtcDKg4J_vWAsaSdcU/edit#:~:text=https%3A//docs.google.com/document/d/1NylLZ3z%2DgtNnSLKVMWnE8yiyO6XeUzyW/edit?usp=sharing" class="text-blue-500 underline">Primary Paper Review Instructions</a></li>
+                  <li><a href="https://docs.google.com/document/d/1KtL6lD9afCsoKjCukEkAdA5CqbQ61pXlQv0A_wxlLKc/edit?usp=sharing" class="text-blue-500 underline">Primary Paper Written Example One</a></li>
+                </ul>
+              </li>
+              <li>
+                <strong>Second Primary Paper Review Assessment:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>The second primary article assignment is due on 3/1, 4/1, 5/1 (due online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline">Click Here</a>).</li>
+                  <li><a href="https://docs.google.com/document/d/1NylLZ3z-gtNnSLKVMWnE8yiyO6XeUzyW/edit?usp=sharing" class="text-blue-500 underline">Second Primary Paper Review Instructions</a></li>
+                  <li><a href="https://docs.google.com/document/d/1kmFjSnXmEVKCmZDq61NeAGuEdEnQc0--/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Second Primary Paper Written Example Two</a></li>
+                </ul>
+              </li>
+              <li>
+                <strong>Lab Report / Publications Assessment:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>The assignment is due on 3/15, 4/15, 5/15 (due online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline">Click Here</a>).</li>
+                  <li><a href="https://docs.google.com/document/d/1gcb2QrzsQdIWVkULTIWrBDFx_1A8GBd_vxERKSNz7RI/edit?usp=sharing" class="text-blue-500 underline">Lab Report Review Instructions</a></li>
+                  <li><a href="https://docs.google.com/document/d/1KtL6lD9afCsoKjCukEkAdA5CqbQ61pXlQv0A_wxlLKc/edit?usp=sharing" class="text-blue-500 underline">Lab Report Example One</a></li>
+                  <li><a href="https://docs.google.com/document/d/1kmFjSnXmEVKCmZDq61NeAGuEdEnQc0--/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Lab Report Example Two</a></li>
+                  <li><a href="https://docs.google.com/document/d/1CAdx0bqoQvPDa_hw30aCJ1eVwKhByLlLhUpXbIfbppg/edit?usp=sharing" class="text-blue-500 underline">Lab Report Example Three</a></li>
+                </ul>
+              </li>
+            </ul>
+
           `,
           videoUrl: "https://example.com/week3-intro",
         },
@@ -362,6 +449,50 @@ const ResearchCourseData: CourseData = {
               <li>Data collection methods and statistical analysis techniques.</li>
             </ul>
             <p class="mt-4">These concepts are essential for conducting rigorous and reliable quantitative research studies.</p>
+                        <h2 class="text-2xl font-bold">Welcome to Research Methods & Analytics</h2>
+            <p class="mt-4">Research methods are the backbone of any scientific inquiry. This week, we'll explore the fundamental concepts that underpin effective research practices.</p>
+
+            <h3 class="text-xl font-semibold mt-6">Course Overview:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li><strong>Week 1:</strong> Introduction to Research Methods</li>
+              <li><strong>Week 2:</strong> Formulating Research Questions and Hypotheses</li>
+              <li><strong>Week 3:</strong> Quantitative Research Methods</li>
+              <li><strong>Week 4:</strong> Qualitative Research Methods</li>
+              <li><strong>Week 5:</strong> Mixed-Methods Research</li>
+              <li><strong>Week 6:</strong> Data Collection and Analysis</li>
+              <li><strong>Week 7:</strong> Reporting and Presenting Research Findings</li>
+            </ul>
+
+            <h3 class="text-xl font-semibold mt-6">Assignments:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li>
+                <strong>First Primary Paper Assessment:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>The first primary article assignment is due on 3/1, 4/1, 5/1 (due online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline">Click Here</a>).</li>
+                  <li><a href="https://docs.google.com/forms/d/15WC0Dnk3w0uXmHbGSarU1E1EQWtcDKg4J_vWAsaSdcU/edit#:~:text=https%3A//docs.google.com/document/d/1NylLZ3z%2DgtNnSLKVMWnE8yiyO6XeUzyW/edit?usp=sharing" class="text-blue-500 underline">Primary Paper Review Instructions</a></li>
+                  <li><a href="https://docs.google.com/document/d/1KtL6lD9afCsoKjCukEkAdA5CqbQ61pXlQv0A_wxlLKc/edit?usp=sharing" class="text-blue-500 underline">Primary Paper Written Example One</a></li>
+                </ul>
+              </li>
+              <li>
+                <strong>Second Primary Paper Review Assessment:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>The second primary article assignment is due on 3/1, 4/1, 5/1 (due online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline">Click Here</a>).</li>
+                  <li><a href="https://docs.google.com/document/d/1NylLZ3z-gtNnSLKVMWnE8yiyO6XeUzyW/edit?usp=sharing" class="text-blue-500 underline">Second Primary Paper Review Instructions</a></li>
+                  <li><a href="https://docs.google.com/document/d/1kmFjSnXmEVKCmZDq61NeAGuEdEnQc0--/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Second Primary Paper Written Example Two</a></li>
+                </ul>
+              </li>
+              <li>
+                <strong>Lab Report / Publications Assessment:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>The assignment is due on 3/15, 4/15, 5/15 (due online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline">Click Here</a>).</li>
+                  <li><a href="https://docs.google.com/document/d/1gcb2QrzsQdIWVkULTIWrBDFx_1A8GBd_vxERKSNz7RI/edit?usp=sharing" class="text-blue-500 underline">Lab Report Review Instructions</a></li>
+                  <li><a href="https://docs.google.com/document/d/1KtL6lD9afCsoKjCukEkAdA5CqbQ61pXlQv0A_wxlLKc/edit?usp=sharing" class="text-blue-500 underline">Lab Report Example One</a></li>
+                  <li><a href="https://docs.google.com/document/d/1kmFjSnXmEVKCmZDq61NeAGuEdEnQc0--/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Lab Report Example Two</a></li>
+                  <li><a href="https://docs.google.com/document/d/1CAdx0bqoQvPDa_hw30aCJ1eVwKhByLlLhUpXbIfbppg/edit?usp=sharing" class="text-blue-500 underline">Lab Report Example Three</a></li>
+                </ul>
+              </li>
+            </ul>
+
           `,
           // videoUrl removed
         },
@@ -831,6 +962,50 @@ const ResearchCourseData: CourseData = {
               <li>Understand best practices for presenting data and findings.</li>
               <li>Explore strategies for effective oral presentations.</li>
             </ul>
+                        <h2 class="text-2xl font-bold">Welcome to Research Methods & Analytics</h2>
+            <p class="mt-4">Research methods are the backbone of any scientific inquiry. This week, we'll explore the fundamental concepts that underpin effective research practices.</p>
+
+            <h3 class="text-xl font-semibold mt-6">Course Overview:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li><strong>Week 1:</strong> Introduction to Research Methods</li>
+              <li><strong>Week 2:</strong> Formulating Research Questions and Hypotheses</li>
+              <li><strong>Week 3:</strong> Quantitative Research Methods</li>
+              <li><strong>Week 4:</strong> Qualitative Research Methods</li>
+              <li><strong>Week 5:</strong> Mixed-Methods Research</li>
+              <li><strong>Week 6:</strong> Data Collection and Analysis</li>
+              <li><strong>Week 7:</strong> Reporting and Presenting Research Findings</li>
+            </ul>
+
+            <h3 class="text-xl font-semibold mt-6">Assignments:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li>
+                <strong>First Primary Paper Assessment:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>The first primary article assignment is due on 3/1, 4/1, 5/1 (due online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline">Click Here</a>).</li>
+                  <li><a href="https://docs.google.com/forms/d/15WC0Dnk3w0uXmHbGSarU1E1EQWtcDKg4J_vWAsaSdcU/edit#:~:text=https%3A//docs.google.com/document/d/1NylLZ3z%2DgtNnSLKVMWnE8yiyO6XeUzyW/edit?usp=sharing" class="text-blue-500 underline">Primary Paper Review Instructions</a></li>
+                  <li><a href="https://docs.google.com/document/d/1KtL6lD9afCsoKjCukEkAdA5CqbQ61pXlQv0A_wxlLKc/edit?usp=sharing" class="text-blue-500 underline">Primary Paper Written Example One</a></li>
+                </ul>
+              </li>
+              <li>
+                <strong>Second Primary Paper Review Assessment:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>The second primary article assignment is due on 3/1, 4/1, 5/1 (due online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline">Click Here</a>).</li>
+                  <li><a href="https://docs.google.com/document/d/1NylLZ3z-gtNnSLKVMWnE8yiyO6XeUzyW/edit?usp=sharing" class="text-blue-500 underline">Second Primary Paper Review Instructions</a></li>
+                  <li><a href="https://docs.google.com/document/d/1kmFjSnXmEVKCmZDq61NeAGuEdEnQc0--/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Second Primary Paper Written Example Two</a></li>
+                </ul>
+              </li>
+              <li>
+                <strong>Lab Report / Publications Assessment:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>The assignment is due on 3/15, 4/15, 5/15 (due online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline">Click Here</a>).</li>
+                  <li><a href="https://docs.google.com/document/d/1gcb2QrzsQdIWVkULTIWrBDFx_1A8GBd_vxERKSNz7RI/edit?usp=sharing" class="text-blue-500 underline">Lab Report Review Instructions</a></li>
+                  <li><a href="https://docs.google.com/document/d/1KtL6lD9afCsoKjCukEkAdA5CqbQ61pXlQv0A_wxlLKc/edit?usp=sharing" class="text-blue-500 underline">Lab Report Example One</a></li>
+                  <li><a href="https://docs.google.com/document/d/1kmFjSnXmEVKCmZDq61NeAGuEdEnQc0--/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Lab Report Example Two</a></li>
+                  <li><a href="https://docs.google.com/document/d/1CAdx0bqoQvPDa_hw30aCJ1eVwKhByLlLhUpXbIfbppg/edit?usp=sharing" class="text-blue-500 underline">Lab Report Example Three</a></li>
+                </ul>
+              </li>
+            </ul>
+
           `,
           videoUrl: "https://example.com/week7-intro",
         },
@@ -948,6 +1123,50 @@ const ResearchCourseData: CourseData = {
               <li>Strategies for delivering compelling oral and poster presentations.</li>
             </ul>
             <p class="mt-4">Mastering these skills ensures that your research is communicated effectively, enhancing its impact and reach within the academic community.</p>
+                        <h2 class="text-2xl font-bold">Welcome to Research Methods & Analytics</h2>
+            <p class="mt-4">Research methods are the backbone of any scientific inquiry. This week, we'll explore the fundamental concepts that underpin effective research practices.</p>
+
+            <h3 class="text-xl font-semibold mt-6">Course Overview:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li><strong>Week 1:</strong> Introduction to Research Methods</li>
+              <li><strong>Week 2:</strong> Formulating Research Questions and Hypotheses</li>
+              <li><strong>Week 3:</strong> Quantitative Research Methods</li>
+              <li><strong>Week 4:</strong> Qualitative Research Methods</li>
+              <li><strong>Week 5:</strong> Mixed-Methods Research</li>
+              <li><strong>Week 6:</strong> Data Collection and Analysis</li>
+              <li><strong>Week 7:</strong> Reporting and Presenting Research Findings</li>
+            </ul>
+
+            <h3 class="text-xl font-semibold mt-6">Assignments:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li>
+                <strong>First Primary Paper Assessment:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>The first primary article assignment is due on 3/1, 4/1, 5/1 (due online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline">Click Here</a>).</li>
+                  <li><a href="https://docs.google.com/forms/d/15WC0Dnk3w0uXmHbGSarU1E1EQWtcDKg4J_vWAsaSdcU/edit#:~:text=https%3A//docs.google.com/document/d/1NylLZ3z%2DgtNnSLKVMWnE8yiyO6XeUzyW/edit?usp=sharing" class="text-blue-500 underline">Primary Paper Review Instructions</a></li>
+                  <li><a href="https://docs.google.com/document/d/1KtL6lD9afCsoKjCukEkAdA5CqbQ61pXlQv0A_wxlLKc/edit?usp=sharing" class="text-blue-500 underline">Primary Paper Written Example One</a></li>
+                </ul>
+              </li>
+              <li>
+                <strong>Second Primary Paper Review Assessment:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>The second primary article assignment is due on 3/1, 4/1, 5/1 (due online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline">Click Here</a>).</li>
+                  <li><a href="https://docs.google.com/document/d/1NylLZ3z-gtNnSLKVMWnE8yiyO6XeUzyW/edit?usp=sharing" class="text-blue-500 underline">Second Primary Paper Review Instructions</a></li>
+                  <li><a href="https://docs.google.com/document/d/1kmFjSnXmEVKCmZDq61NeAGuEdEnQc0--/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Second Primary Paper Written Example Two</a></li>
+                </ul>
+              </li>
+              <li>
+                <strong>Lab Report / Publications Assessment:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>The assignment is due on 3/15, 4/15, 5/15 (due online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline">Click Here</a>).</li>
+                  <li><a href="https://docs.google.com/document/d/1gcb2QrzsQdIWVkULTIWrBDFx_1A8GBd_vxERKSNz7RI/edit?usp=sharing" class="text-blue-500 underline">Lab Report Review Instructions</a></li>
+                  <li><a href="https://docs.google.com/document/d/1KtL6lD9afCsoKjCukEkAdA5CqbQ61pXlQv0A_wxlLKc/edit?usp=sharing" class="text-blue-500 underline">Lab Report Example One</a></li>
+                  <li><a href="https://docs.google.com/document/d/1kmFjSnXmEVKCmZDq61NeAGuEdEnQc0--/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Lab Report Example Two</a></li>
+                  <li><a href="https://docs.google.com/document/d/1CAdx0bqoQvPDa_hw30aCJ1eVwKhByLlLhUpXbIfbppg/edit?usp=sharing" class="text-blue-500 underline">Lab Report Example Three</a></li>
+                </ul>
+              </li>
+            </ul>
+
           `,
           // videoUrl removed
         },

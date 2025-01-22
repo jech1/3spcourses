@@ -27,9 +27,7 @@ const CaffCourseData: CourseData = {
               <li>Understanding the properties of caffeine and its natural sources.</li>
               <li>Introduction to lab safety protocols and proper equipment handling.</li>
             </ul>
-            <div class="mt-6">
-              <img src="/caffeineextraction_logo.png" alt="Caffeine Extraction Course Structure Diagram" width="500" height="300" />
-            </div>
+            
           `,
           videoUrl: "https://example.com/week1-introduction"
         },

@@ -25,9 +25,35 @@ const WritingCourseData: CourseData = {
                 <li><strong>Week 6:</strong> Grant Proposal Writing</li>
                 <li><strong>Week 7:</strong> Revising, Editing, and Peer Review</li>
               </ul>
-              <div class="mt-6">
-                <img src="/researchlogo3sp.png" alt="Course structure diagram" width="500" height="300" />
-              </div>
+
+              <h3 class="text-xl font-semibold mt-6">Assignments:</h3>
+              <ul class="list-disc list-inside mt-2">
+                <li>
+                  <strong>First Primary Paper Assessment:</strong>
+                  <ul class="list-disc list-inside ml-6 mt-1">
+                    <li>The first primary article assignment is due on 3/1, 4/1, 5/1 (due online - <a href="https://forms.gle/RcwwWkX2zQ131aRP6" class="text-blue-500 underline">Click Here</a>).</li>
+                    <li><a href="https://docs.google.com/forms/d/15WC0Dnk3w0uXmHbGSarU1E1EQWtcDKg4J_vWAsaSdcU/edit#:~:text=https%3A//docs.google.com/document/d/1NylLZ3z%2DgtNnSLKVMWnE8yiyO6XeUzyW/edit%3Fusp%3Dsharing%26ouid%3D110583200227002215775%26rtpof%3Dtrue%26sd%3Dtrue" class="text-blue-500 underline">Primary Paper Review Instructions</a></li>
+                    <li><a href="https://docs.google.com/document/d/1uLhSkT2_rRzU04-e-ceyQzHw_Uby6Y9n/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Primary Paper Written Example One</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <strong>Second Primary Paper Review Assessment:</strong>
+                  <ul class="list-disc list-inside ml-6 mt-1">
+                    <li>The second primary article assignment is due on 3/1, 4/1, 5/1 (due online - <a href="https://forms.gle/RcwwWkX2zQ131aRP6" class="text-blue-500 underline">Click Here</a>).</li>
+                    <li><a href="https://docs.google.com/document/d/1NylLZ3z-gtNnSLKVMWnE8yiyO6XeUzyW/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Second Primary Paper Review Instructions</a></li>
+                    <li><a href="https://docs.google.com/document/d/1uLhSkT2_rRzU04-e-ceyQzHw_Uby6Y9n/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Second Primary Paper Written Example Two</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <strong>Grant Proposal Final Assessment:</strong>
+                  <ul class="list-disc list-inside ml-6 mt-1">
+                    <li>The assignment is due on 3/15, 4/15, 5/15 (due online - <a href="https://forms.gle/U8RKt9YsHpVeTxsPA" class="text-blue-500 underline">Click Here</a>).</li>
+                    <li><a href="https://docs.google.com/document/d/1Y-rlkNHIIXhVH77i6wD9HO-M0ITBPZUm/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Grant Proposal Review Instructions</a></li>
+                    <li><a href="https://docs.google.com/document/d/1Y-rlkNHIIXhVH77i6wD9HO-M0ITBPZUm/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Grant Proposal Example One</a></li>
+                  </ul>
+                </li>
+              </ul>
+                            
             `,
         },
         {
@@ -412,6 +438,33 @@ const WritingCourseData: CourseData = {
                 <li>Learn effective strategies for searching and selecting relevant literature.</li>
                 <li>Master techniques for summarizing and synthesizing sources.</li>
                 <li>Develop skills in citation management to avoid plagiarism.</li>
+              </ul>
+              <h3 class="text-xl font-semibold mt-6">Assignments:</h3>
+              <ul class="list-disc list-inside mt-2">
+                <li>
+                  <strong>First Primary Paper Assessment:</strong>
+                  <ul class="list-disc list-inside ml-6 mt-1">
+                    <li>The first primary article assignment is due on 3/1, 4/1, 5/1 (due online - <a href="https://forms.gle/RcwwWkX2zQ131aRP6" class="text-blue-500 underline">Click Here</a>).</li>
+                    <li><a href="https://docs.google.com/forms/d/15WC0Dnk3w0uXmHbGSarU1E1EQWtcDKg4J_vWAsaSdcU/edit#:~:text=https%3A//docs.google.com/document/d/1NylLZ3z%2DgtNnSLKVMWnE8yiyO6XeUzyW/edit%3Fusp%3Dsharing%26ouid%3D110583200227002215775%26rtpof%3Dtrue%26sd%3Dtrue" class="text-blue-500 underline">Primary Paper Review Instructions</a></li>
+                    <li><a href="https://docs.google.com/document/d/1uLhSkT2_rRzU04-e-ceyQzHw_Uby6Y9n/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Primary Paper Written Example One</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <strong>Second Primary Paper Review Assessment:</strong>
+                  <ul class="list-disc list-inside ml-6 mt-1">
+                    <li>The second primary article assignment is due on 3/1, 4/1, 5/1 (due online - <a href="https://forms.gle/RcwwWkX2zQ131aRP6" class="text-blue-500 underline">Click Here</a>).</li>
+                    <li><a href="https://docs.google.com/document/d/1NylLZ3z-gtNnSLKVMWnE8yiyO6XeUzyW/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Second Primary Paper Review Instructions</a></li>
+                    <li><a href="https://docs.google.com/document/d/1uLhSkT2_rRzU04-e-ceyQzHw_Uby6Y9n/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Second Primary Paper Written Example Two</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <strong>Grant Proposal Final Assessment:</strong>
+                  <ul class="list-disc list-inside ml-6 mt-1">
+                    <li>The assignment is due on 3/15, 4/15, 5/15 (due online - <a href="https://forms.gle/U8RKt9YsHpVeTxsPA" class="text-blue-500 underline">Click Here</a>).</li>
+                    <li><a href="https://docs.google.com/document/d/1Y-rlkNHIIXhVH77i6wD9HO-M0ITBPZUm/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Grant Proposal Review Instructions</a></li>
+                    <li><a href="https://docs.google.com/document/d/1Y-rlkNHIIXhVH77i6wD9HO-M0ITBPZUm/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Grant Proposal Example One</a></li>
+                  </ul>
+                </li>
               </ul>
             `,
         },
@@ -1058,6 +1111,33 @@ const WritingCourseData: CourseData = {
               <li><strong>Final Paper:</strong> Refine and submit the final version of your grant proposal.</li>
             </ul>
             <p class="mt-4">Both assignments will be assessed based on their adherence to scientific standards, clarity, originality, and overall quality.</p>
+            <h3 class="text-xl font-semibold mt-6">Assignments:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li>
+                <strong>First Primary Paper Assessment:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>The first primary article assignment is due on 3/1, 4/1, 5/1 (due online - <a href="https://forms.gle/RcwwWkX2zQ131aRP6" class="text-blue-500 underline">Click Here</a>).</li>
+                  <li><a href="https://docs.google.com/forms/d/15WC0Dnk3w0uXmHbGSarU1E1EQWtcDKg4J_vWAsaSdcU/edit#:~:text=https%3A//docs.google.com/document/d/1NylLZ3z%2DgtNnSLKVMWnE8yiyO6XeUzyW/edit%3Fusp%3Dsharing%26ouid%3D110583200227002215775%26rtpof%3Dtrue%26sd%3Dtrue" class="text-blue-500 underline">Primary Paper Review Instructions</a></li>
+                  <li><a href="https://docs.google.com/document/d/1uLhSkT2_rRzU04-e-ceyQzHw_Uby6Y9n/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Primary Paper Written Example One</a></li>
+                </ul>
+              </li>
+              <li>
+                <strong>Second Primary Paper Review Assessment:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>The second primary article assignment is due on 3/1, 4/1, 5/1 (due online - <a href="https://forms.gle/RcwwWkX2zQ131aRP6" class="text-blue-500 underline">Click Here</a>).</li>
+                  <li><a href="https://docs.google.com/document/d/1NylLZ3z-gtNnSLKVMWnE8yiyO6XeUzyW/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Second Primary Paper Review Instructions</a></li>
+                  <li><a href="https://docs.google.com/document/d/1uLhSkT2_rRzU04-e-ceyQzHw_Uby6Y9n/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Second Primary Paper Written Example Two</a></li>
+                </ul>
+              </li>
+              <li>
+                <strong>Grant Proposal Final Assessment:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>The assignment is due on 3/15, 4/15, 5/15 (due online - <a href="https://forms.gle/U8RKt9YsHpVeTxsPA" class="text-blue-500 underline">Click Here</a>).</li>
+                  <li><a href="https://docs.google.com/document/d/1Y-rlkNHIIXhVH77i6wD9HO-M0ITBPZUm/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Grant Proposal Review Instructions</a></li>
+                  <li><a href="https://docs.google.com/document/d/1Y-rlkNHIIXhVH77i6wD9HO-M0ITBPZUm/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Grant Proposal Example One</a></li>
+                </ul>
+              </li>
+            </ul>
           `,
         },
         {
@@ -1171,6 +1251,33 @@ const WritingCourseData: CourseData = {
             <p class="mt-4">The skills you've developed in this course are essential for your academic and professional journey. Whether you're pursuing further studies, engaging in research, or entering the professional world, effective scientific writing and grant proposal skills will be invaluable.</p>
             <h3 class="text-xl font-semibold mt-6">Stay Connected:</h3>
             <p class="mt-4">Feel free to reach out with any questions or for further guidance as you continue to develop your research projects. Best of luck in all your future endeavors!</p>
+            <h3 class="text-xl font-semibold mt-6">Assignments:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li>
+                <strong>First Primary Paper Assessment:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>The first primary article assignment is due on 3/1, 4/1, 5/1 (due online - <a href="https://forms.gle/RcwwWkX2zQ131aRP6" class="text-blue-500 underline">Click Here</a>).</li>
+                  <li><a href="https://docs.google.com/forms/d/15WC0Dnk3w0uXmHbGSarU1E1EQWtcDKg4J_vWAsaSdcU/edit#:~:text=https%3A//docs.google.com/document/d/1NylLZ3z%2DgtNnSLKVMWnE8yiyO6XeUzyW/edit%3Fusp%3Dsharing%26ouid%3D110583200227002215775%26rtpof%3Dtrue%26sd%3Dtrue" class="text-blue-500 underline">Primary Paper Review Instructions</a></li>
+                  <li><a href="https://docs.google.com/document/d/1uLhSkT2_rRzU04-e-ceyQzHw_Uby6Y9n/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Primary Paper Written Example One</a></li>
+                </ul>
+              </li>
+              <li>
+                <strong>Second Primary Paper Review Assessment:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>The second primary article assignment is due on 3/1, 4/1, 5/1 (due online - <a href="https://forms.gle/RcwwWkX2zQ131aRP6" class="text-blue-500 underline">Click Here</a>).</li>
+                  <li><a href="https://docs.google.com/document/d/1NylLZ3z-gtNnSLKVMWnE8yiyO6XeUzyW/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Second Primary Paper Review Instructions</a></li>
+                  <li><a href="https://docs.google.com/document/d/1uLhSkT2_rRzU04-e-ceyQzHw_Uby6Y9n/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Second Primary Paper Written Example Two</a></li>
+                </ul>
+              </li>
+              <li>
+                <strong>Grant Proposal Final Assessment:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>The assignment is due on 3/15, 4/15, 5/15 (due online - <a href="https://forms.gle/U8RKt9YsHpVeTxsPA" class="text-blue-500 underline">Click Here</a>).</li>
+                  <li><a href="https://docs.google.com/document/d/1Y-rlkNHIIXhVH77i6wD9HO-M0ITBPZUm/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Grant Proposal Review Instructions</a></li>
+                  <li><a href="https://docs.google.com/document/d/1Y-rlkNHIIXhVH77i6wD9HO-M0ITBPZUm/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Grant Proposal Example One</a></li>
+                </ul>
+              </li>
+            </ul>
           `,
         },
       ],

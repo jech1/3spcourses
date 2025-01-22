@@ -43,7 +43,7 @@ const courses = [
   {
     id: 4,
     slug: "CppCourse",
-    name: "C++ Coding",
+    name: "C++ Project Design",
     description: "Understand programming concepts and write efficient code.",
     image: "/3spc++logo.png?height=100&width=200",
     progress: 0,
@@ -58,7 +58,7 @@ const courses = [
   },
   {
     id: 6,
-    slug: "caffeineCourse",
+    slug: "CaffineCourse",
     name: "Caffeine Extraction",
     description: "Master the fundamentals of research in a lab.",
     image: "/3spCaffinelogo.png?height=100&width=200",

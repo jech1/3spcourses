@@ -38,8 +38,7 @@ const CppCourseData: CourseData = {
             <ul class="list-disc list-inside mt-2">
               <li><strong>Install Visual Studio Code:</strong> Download and install VS Code from the official website.</li>
               <li><strong>Install C++ Extensions:</strong> Add extensions like C/C++ by Microsoft for code editing and debugging.</li>
-              <li><strong>Configure Compiler:</strong> Install GCC or Clang and set up environment variables to use the compiler from the terminal.</li>
-              <li><strong>Set Up Debugging:</strong> Configure the debugger in VS Code to work with your compiler.</li>
+              <li><strong>Resource:</strong> Full Course by freecodecamp.org can be reached here https://youtu.be/vLnPwxZdW4Y?si=C32gWXTCtNTHZSzi and checkout there website for more. </li>
             </ul>
             <h3 class="text-xl font-semibold mt-6">Example Configuration:</h3>
             <pre class="bg-gray-100 p-4 rounded">
@@ -152,6 +151,8 @@ const CppCourseData: CourseData = {
     
         std::cout &lt;&lt; "Name: " &lt;&lt; name &lt;&lt; ", Age: " &lt;&lt; age &lt;&lt; std::endl;
         return 0;
+
+    
     }
             </pre>
           `,
@@ -1150,7 +1151,7 @@ const CppCourseData: CourseData = {
     },
     // Week 6
     {
-      title: "Week 6: File Handling in C++",
+      title: "Week 6: File Handling in C++ (Optional to learn for badge)",
       chapters: [
         {
           title: "6.1 Introduction",
@@ -1420,17 +1421,16 @@ const CppCourseData: CourseData = {
     },
     // Week 7
     {
-      title: "Week 7: Final Project",
+      title: "Week 7: Final Project **Badge Information***",
       chapters: [
         {
           title: "7.1 Introduction",
           content: `
             <h2 class="text-2xl font-bold">Developing Your Comprehensive Project</h2>
-            <p class="mt-4">The final project is an opportunity to apply all the concepts you've learned throughout the course. You'll design and implement a comprehensive C++ program that integrates arrays, functions, file handling, and, optionally, hardware interaction with Arduino.</p>
+            <p class="mt-4">The final project is an opportunity to apply all the concepts you've learned throughout the course. You'll design and implement a comprehensive C++ program that integrates arrays and functions.</p>
             <h3 class="text-xl font-semibold mt-6">Objectives:</h3>
             <ul class="list-disc list-inside mt-2">
               <li>Design a program that combines multiple C++ concepts.</li>
-              <li>Integrate hardware components if desired.</li>
               <li>Implement best coding practices for readability and efficiency.</li>
               <li>Debug and test your program to ensure functionality.</li>
               <li>Prepare to present your project, highlighting key features and design choices.</li>
@@ -1446,23 +1446,23 @@ const CppCourseData: CourseData = {
             <h3 class="text-xl font-semibold mt-6">Steps to Develop Your Project:</h3>
             <ul class="list-disc list-inside mt-2">
               <li><strong>Identify the Project Scope:</strong> Define what your program will do and its key features.</li>
-              <li><strong>Design the Program Structure:</strong> Outline the main modules, functions, and data structures.</li>
+              <li><strong>Design the Program Structure:</strong> Outline the main modules, functions, and possible data structures.</li>
               <li><strong>Implement the Code:</strong> Write the C++ code, ensuring modularity and reusability.</li>
-              <li><strong>Test and Debug:</strong> Rigorously test your program to identify and fix bugs.</li>
-              <li><strong>Document Your Code:</strong> Add comments and documentation for clarity.</li>
+              <li><strong>Test and Debug:</strong> Rigorously test your program to identify and fix logical bugs or syntax errors.</li>
+              <li><strong>Document Your Code:</strong> Add comments to your code using // and documentation your code using github.</li>
             </ul>
             <h3 class="text-xl font-semibold mt-6">Example Project Ideas:</h3>
             <ul class="list-disc list-inside mt-2">
               <li><strong>Inventory Management System:</strong> Track products, quantities, and orders using arrays and file handling.</li>
               <li><strong>Personal Finance Tracker:</strong> Manage income and expenses, calculate budgets, and generate reports.</li>
               <li><strong>Library Management System:</strong> Handle book records, user information, and borrowing transactions.</li>
-              <li><strong>Sensor Data Logger (Optional Hardware Integration):</strong> Collect data from sensors via Arduino and store it using C++ programs.</li>
+              <li><strong>Sensor Data Logger (Optional But Highly Recommended For Acceptance Into 3SP Hardware Integration):</strong> Collect data from sensors via Arduino and store it using C++ programs.</li>
             </ul>
           `,
           videoUrl: "https://example.com/week7-design-implement-project",
         },
         {
-          title: "7.3 Integrating Hardware (Optional for Those with Access to Microcontrollers)",
+          title: "7.3 Integrating Hardware (Optional for Those with Access to Microcontrollers But Highly Recommended To Be Accepted Into 3SP)",
           content: `
             <h2 class="text-2xl font-bold">Enhancing Projects with Hardware</h2>
             <p class="mt-4">If you have access to Arduino or other microcontrollers, integrating hardware components can add functionality and interactivity to your projects.</p>
@@ -1507,17 +1507,10 @@ const CppCourseData: CourseData = {
           videoUrl: "https://example.com/week7-integrating-hardware",
         },
         {
-          title: "7.4 Debugging, Testing, and Presenting the Final Project",
+          title: "7.4 Debugging, Testing, and Presenting the Final Project ***IMPORTANT SLIDE***",
           content: `
             <h2 class="text-2xl font-bold">Finalizing Your Project</h2>
             <p class="mt-4">Once your project is implemented, it's crucial to thoroughly test and debug it to ensure it functions as intended. This chapter also covers best practices for presenting your final project.</p>
-            <h3 class="text-xl font-semibold mt-6">Debugging Techniques:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>Use print statements to monitor variable values and program flow.</li>
-              <li>Employ debugging tools to step through code and inspect states.</li>
-              <li>Conduct code reviews to identify logical errors and inefficiencies.</li>
-              <li>Test individual modules before integrating them into the main program.</li>
-            </ul>
             <h3 class="text-xl font-semibold mt-6">Testing Your Program:</h3>
             <ul class="list-disc list-inside mt-2">
               <li>Develop test cases to cover various scenarios and edge cases.</li>
@@ -1525,10 +1518,13 @@ const CppCourseData: CourseData = {
               <li>Validate user inputs to prevent unexpected behavior.</li>
               <li>Optimize performance by analyzing and improving code efficiency.</li>
             </ul>
-            <h3 class="text-xl font-semibold mt-6">Presenting Your Final Project:</h3>
+            <h3 class="text-xl font-semibold mt-6">You Will Be Required to Present Your Final Project on 3/15/25 at Bergen Community College in Paramus New Jersey in the STEM Center, You must be a Bergen Student. If completed and judged satasfactory you will be given your C++ Badge: </h3>
             <ul class="list-disc list-inside mt-2">
-              <li><strong>Prepare a Demonstration:</strong> Showcase the features and functionalities of your project.</li>
-              <li><strong>Create Documentation:</strong> Include a README file, user manual, and code comments.</li>
+              <li>(Reach out to make accomidations for Scheduling if needed email:jrodriguez154929@me.bergen.edu)</li>
+              <li><strong>Prepare a Slideshow Via Powerpoint or Google Slides:</strong>Between 5-10 Slides talking about your projects goal and meaning.</li>
+              <li><strong>Due Date:</strong> 3/15/25</li>
+              <li><strong>Prepare a Demonstration:</strong> Showcase the features and functionalities of your project fully working on your device.</li>
+              <li><strong>Create Documentation on Github:</strong> Include a README file, user manual, and code comments.</li>
               <li><strong>Highlight Key Features:</strong> Explain the design choices and how different concepts were integrated.</li>
               <li><strong>Be Prepared for Questions:</strong> Anticipate queries regarding your project and its implementation.</li>
             </ul>
@@ -1578,8 +1574,6 @@ const CppCourseData: CourseData = {
               <li>Deep dive into Object-Oriented Programming and design patterns.</li>
               <li>Study advanced data structures and implement them in C++.</li>
               <li>Learn about memory management techniques and smart pointers.</li>
-              <li>Explore multithreading to write concurrent programs.</li>
-              <li>Master the Standard Template Library (STL) for efficient coding.</li>
               <li>Build complex projects that integrate multiple advanced concepts.</li>
             </ol>
           `,
@@ -1597,6 +1591,18 @@ const CppCourseData: CourseData = {
               <li>Presenting your final project, highlighting key features and design choices.</li>
               <li>Exploring best practices for continued learning and advanced C++ topics.</li>
             </ul>
+
+            <h3 class="text-xl font-semibold mt-6">You Will Be Required to Present Your Final Project on 3/15/25 at Bergen Community College in Paramus New Jersey in the STEM Center, You must be a Bergen Student. If completed and judged satasfactory you will be given your C++ Badge: </h3>
+            <ul class="list-disc list-inside mt-2">
+              <li>(Reach out to make accomidations for Scheduling if needed email:jrodriguez154929@me.bergen.edu)</li>
+              <li><strong>Prepare a Slideshow Via Powerpoint or Google Slides:</strong>Between 5-10 Slides talking about your projects goal and meaning.</li>
+              <li><strong>Due Date:</strong> 3/15/25</li>
+              <li><strong>Prepare a Demonstration:</strong> Showcase the features and functionalities of your project fully working on your device.</li>
+              <li><strong>Create Documentation on Github:</strong> Include a README file, user manual, and code comments.</li>
+              <li><strong>Highlight Key Features:</strong> Explain the design choices and how different concepts were integrated.</li>
+              <li><strong>Be Prepared for Questions:</strong> Anticipate queries regarding your project and its implementation.</li>
+            </ul>
+
             <p class="mt-4">Completing the final project showcases your ability to apply all the concepts learned throughout the course, preparing you for more advanced programming challenges.</p>
           `,
           // Removed videoUrl from Summary
