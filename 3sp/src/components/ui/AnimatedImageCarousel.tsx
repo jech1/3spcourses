@@ -6,14 +6,14 @@ import Image from "next/image";
 
 const images = [
   {
-    src: "/Scientific Writing Badge (1).png?height=500&width=500",
+    src: "/SWB.png?height=500&width=500",
     alt: "Image 1",
   },
-  { src: "/circuitbadge.png?height=500&width=500", alt: "Image 2" },
-  { src: "/researchbadge.png?height=500&width=500", alt: "Image 3" },
-  { src: "/CADbadge (1).png?height=500&width=500", alt: "Image 4" },
-  { src: "/c++badge.png?height=500&width=500", alt: "Image 5" },
-  { src: "/caffeinebadge.png?height=500&width=500", alt: "Image 6" },
+  { src: "/MCDB.png?height=500&width=500", alt: "Image 2" },
+  { src: "/RMB.png?height=500&width=500", alt: "Image 3" },
+  { src: "/CADB.png?height=500&width=500", alt: "Image 4" },
+  { src: "/CppPD.png?height=500&width=500", alt: "Image 5" },
+  { src: "/CELS.png?height=500&width=500", alt: "Image 6" },
 ];
 
 export default function AnimatedImageCarousel() {

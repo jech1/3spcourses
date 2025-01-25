@@ -22,14 +22,14 @@ import TakeCourseButton from "@/components/TakeCourseButton";
 
 const images = [
   {
-    src: "/Scientific Writing Badge (1).png",
-    alt: "Scientific Writing Badge",
+    src: "/SWB.png?height=500&width=500",
+    alt: "Image 1",
   },
-  { src: "/circuitbadge.png", alt: "Circuit Badge" },
-  { src: "/researchbadge.png", alt: "Research Badge" },
-  { src: "/CADbadge (1).png", alt: "CAD Badge" },
-  { src: "/c++badge.png", alt: "C++ Badge" },
-  { src: "/caffeinebadge.png", alt: "Caffeine Badge" },
+  { src: "/MCDB.png?height=500&width=500", alt: "Image 2" },
+  { src: "/RMB.png?height=500&width=500", alt: "Image 3" },
+  { src: "/CADB.png?height=500&width=500", alt: "Image 4" },
+  { src: "/CppPD.png?height=500&width=500", alt: "Image 5" },
+  { src: "/CELS.png?height=500&width=500", alt: "Image 6" },
 ];
 
 function AnimatedImageCarousel() {
@@ -116,7 +116,7 @@ export default function EnhancedCourseOverviewComponent() {
                   clarity and impact.
                 </p>
                 <ul className="list-disc pl-5 space-y-2">
-                  <li>Duration: 8 weeks</li>
+                  <li>Duration: 7 weeks</li>
                   <li>Difficulty: Intermediate</li>
                   <li>Prerequisites: Basic Writing skills</li>
                 </ul>

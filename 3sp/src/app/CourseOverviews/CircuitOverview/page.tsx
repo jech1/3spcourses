@@ -23,17 +23,14 @@ import TakeCourseButton from "@/components/TakeCourseButton";
 
 const images = [
   {
-    src: "/Scientific Writing Badge (1).png?height=500&width=500",
-    alt: "Scientific Writing Badge",
+    src: "/SWB.png?height=500&width=500",
+    alt: "Image 1",
   },
-  {
-    src: "/circuitbadge.png?height=500&width=500",
-    alt: "Circuit Design Badge",
-  },
-  { src: "/researchbadge.png?height=500&width=500", alt: "Research Badge" },
-  { src: "/CADbadge (1).png?height=500&width=500", alt: "CAD Design Badge" },
-  { src: "/c++badge.png?height=500&width=500", alt: "C++ Programming Badge" },
-  { src: "/caffeinebadge.png?height=500&width=500", alt: "Caffeine Badge" },
+  { src: "/MCDB.png?height=500&width=500", alt: "Image 2" },
+  { src: "/RMB.png?height=500&width=500", alt: "Image 3" },
+  { src: "/CADB.png?height=500&width=500", alt: "Image 4" },
+  { src: "/CppPD.png?height=500&width=500", alt: "Image 5" },
+  { src: "/CELS.png?height=500&width=500", alt: "Image 6" },
 ];
 
 function AnimatedImageCarousel() {
