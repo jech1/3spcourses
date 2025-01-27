@@ -100,7 +100,7 @@ export default function RootLayout({
                       <li>
                         Contact Makers:{" "}
                         <a
-                          href="https://www.courseplatform.com"
+                          href="https://www.bitmedia0.webflow.io"
                           className="hover:underline"
                         >
                           www.JMR-JE.com

@@ -63,13 +63,13 @@ export default function Dashboard() {
     <div className="min-h-screen bg-gray-100 relative overflow-hidden">
       {/* Subtle background animation */}
       <div
-        className="absolute inset-0 bg-gradient-to-b from-purple-600 to-transparent opacity-20 animate-pulse"
+        className="absolute inset-0 bg-gradient-to-b from-purple-600 to-transparent opacity-20 animate-pulse  z-0 pointer-events-none"
         style={{ animationDuration: "3s" }}
       ></div>
 
-      <main className="container mx-auto px-4 py-8 relative z-10">
+      <main className="container mx-auto px-0 py-8 relative z-10">
         {/* Smaller Welcome Card */}
-        <Card className="mb-16 py-6 px-6 bg-white/80 backdrop-blur-sm text-center">
+        <Card className="mb-16 py-9 px-6 bg-white/80 backdrop-blur-sm text-center">
           <CardHeader className="p-0 pb-4">
             <CardTitle className="text-3xl font-bold">
               Welcome to 3SP Courses, {session.user?.name}!
@@ -83,24 +83,24 @@ export default function Dashboard() {
         </Card>
 
         {/* Courses Section */}
-        <h1 className="text-2xl font-bold text-gray-800 mb-12 text-center">
+        <h1 className="text-4xl font-bold text-gray-800 mt-40 mb-12 text-center">
           Your Courses
         </h1>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {courses.map((course) => (
             <CourseCard key={course.id} {...course} />
           ))}
         </div>
 
         {/* Additional Useful Information Section - increased margin-top */}
-        <section className="mt-20 p-6 bg-white/80 backdrop-blur-sm rounded-md">
+        <section className="mt-40 p-6 bg-white/80 backdrop-blur-sm rounded-md">
           <h2 className="text-2xl font-semibold mb-4 text-center">
             Useful Information
           </h2>
           <p className="text-center text-gray-700">
             Here are a few tips and resources to help you succeed in 3SP:
           </p>
-          <ul className="mt-4 list-disc list-inside text-gray-600">
+          <ul className=" mt-4 list-disc list-inside text-gray-600">
             <li>Check your course pages regularly for new lessons.</li>
             <li>Connect with mentors and peers for group study sessions.</li>
             <li>Use the discussion forums to ask questions or share insights.</li>
@@ -109,76 +109,72 @@ export default function Dashboard() {
         </section>
       </main>
 
-      {/* Footer */}
+      {/* Footer: Show only if not on User routes */}
       {!isUserRoute && (
-        <footer className="bg-gray-100 text-gray-600 py-12 mt-20 border-t border-gray-300">
-          <div className="container mx-auto px-4 grid gap-8 md:grid-cols-2">
-            <div>
-              <h3 className="text-lg font-semibold mb-4">Resources</h3>
-              <ul className="space-y-2">
-                <li>
-                  <Link
-                    href="CoursesPathways.png"
-                    className="hover:underline"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Badges Pathways
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="hover:underline">
-                    FAQ
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="Merged_document.png"
-                    className="hover:underline"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Terms and conditions
-                  </Link>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
-              <ul className="space-y-2">
-                <li>
-                  Email:{" "}
-                  <a
-                    href="mailto:jrodriguez154929@me.bergen.edu"
-                    className="hover:underline"
-                  >
-                    3spSupport@bergen.edu (Press link to email)
-                  </a>
-                </li>
-                <li>
-                  Website:{" "}
-                  <a
-                    href="https://www.bergen.edu"
-                    className="hover:underline"
-                  >
-                    www.bergen.edu
-                  </a>
-                </li>
-                <li>Made by: Jordan Rodriguez &amp; Jacob Echeverry</li>
-                <li>
-                  Contact Makers:{" "}
-                  <a
-                    href="https://www.courseplatform.com"
-                    className="hover:underline"
-                  >
-                    www.JMR-JE.com
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </footer>
-      )}
+              <footer className="bg-gray-100 text-gray-600 py-12">
+                <div className="container mx-auto px-4 grid gap-8 md:grid-cols-2">
+                  <div>
+                    <h3 className="text-lg font-semibold mb-4">Resources</h3>
+                    <ul className="space-y-2">
+                      <li>
+                        <Link
+                          href="CoursesPathways.png"
+                          className="hover:underline"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Badges Pathways
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="#" className="hover:underline">
+                          FAQ
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="Merged_document.png" className="hover:underline">
+                        Terms and conditions
+                        </Link>
+                      </li>
+                
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
+                    <ul className="space-y-2">
+                      <li>
+                        Email:{" "}
+                        <a
+                          href="mailto:jrodriguez154929@me.bergen.edu"
+                          className="hover:underline"
+                        >
+                          3spSupport@bergen.edu (Press link to email)
+                        </a>
+                      </li>
+                      <li>
+                        Website:{" "}
+                        <a
+                          href="https://www.bergen.edu"
+                          className="hover:underline"
+                        >
+                          www.bergen.edu
+                        </a>
+                      </li>
+                      <li>Made by: Jordan Rodriguez & Jacob Echeverry</li>
+                      <li>
+                        Visit:{" "}
+                        <a
+                          href="https://bitmedia0.webflow.io"
+                          className="hover:underline"
+                        >
+                          www.JMR-JE.com
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </footer>
+            )}
     </div>
   );
 }
