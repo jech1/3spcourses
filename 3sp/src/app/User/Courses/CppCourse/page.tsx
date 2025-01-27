@@ -45,7 +45,7 @@ const CppCourseData: CourseData = {
     // tasks.json
             </pre>
           `,
-          videoUrl: "https://example.com/week1-setup-vscode",
+      //    videoUrl: "https://example.com/week1-setup-vscode",
         },
         {
           title: "1.3 Introduction to the Terminal and Basic Commands",
@@ -75,7 +75,7 @@ const CppCourseData: CourseData = {
     g++ main.cpp -o main
             </pre>
           `,
-          videoUrl: "https://example.com/week1-terminal-commands",
+      //    videoUrl: "https://example.com/week1-terminal-commands",
         },
         {
           title: "1.4 Understanding Variables, Data Types, and Constants",
@@ -105,7 +105,7 @@ const CppCourseData: CourseData = {
     const int MAX_USERS = 100;
             </pre>
           `,
-          videoUrl: "https://example.com/week1-variables-data-types",
+     //     videoUrl: "https://example.com/week1-variables-data-types",
         },
         {
           title: "1.5 Producing Outputs and Handling User Input",
@@ -156,7 +156,7 @@ const CppCourseData: CourseData = {
     }
             </pre>
           `,
-          videoUrl: "https://example.com/week1-io",
+      //    videoUrl: "https://example.com/week1-io",
         },
         {
           title: "1.6 Summary",
@@ -228,7 +228,7 @@ const CppCourseData: CourseData = {
             <h3 class="text-xl font-semibold mt-6">Example Scenario:</h3>
             <p class="mt-2">Storing the grades of students in a class allows you to perform operations like calculating the average grade or identifying the highest and lowest scores.</p>
           `,
-          videoUrl: "https://example.com/week2-intro-arrays",
+     //     videoUrl: "https://example.com/week2-intro-arrays",
         },
         {
           title: "2.3 Declaring, Initializing, and Accessing Arrays",
@@ -271,7 +271,7 @@ const CppCourseData: CourseData = {
     }
             </pre>
           `,
-          videoUrl: "https://example.com/week2-declaring-initializing",
+       //   videoUrl: "https://example.com/week2-declaring-initializing",
         },
         {
           title: "2.4 Multi-Dimensional Arrays and Their Applications",
@@ -304,7 +304,7 @@ const CppCourseData: CourseData = {
               <li>Managing multi-dimensional game boards or grids.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week2-multi-dimensional-arrays",
+       //   videoUrl: "https://example.com/week2-multi-dimensional-arrays",
         },
         {
           title: "2.5 Common Array Operations: Searching and Sorting",
@@ -409,7 +409,7 @@ const CppCourseData: CourseData = {
     }
             </pre>
           `,
-          videoUrl: "https://example.com/week2-searching-sorting",
+    //      videoUrl: "https://example.com/week2-searching-sorting",
         },
         {
           title: "2.6 Summary",
@@ -432,7 +432,7 @@ const CppCourseData: CourseData = {
             <h2 class="text-2xl font-bold">Test Your Understanding</h2>
             <p class="mt-4">Assess your grasp of the key concepts from this week.</p>
           `,
-          // Removed videoUrl from Quiz
+        // Removed videoUrl from Quiz
           quiz: {
             question:
               "How do you declare a two-dimensional array of integers with 3 rows and 4 columns in C++?",
@@ -511,7 +511,7 @@ const CppCourseData: CourseData = {
     }
             </pre>
           `,
-          videoUrl: "https://example.com/week3-defining-calling-functions",
+       //   videoUrl: "https://example.com/week3-defining-calling-functions",
         },
         {
           title: "3.3 Function Arguments, Return Types, and Scope",
@@ -556,7 +556,7 @@ const CppCourseData: CourseData = {
     }
             </pre>
           `,
-          videoUrl: "https://example.com/week3-arguments-return-scope",
+      //    videoUrl: "https://example.com/week3-arguments-return-scope",
         },
         {
           title: "3.4 Breaking Programs into Modules for Better Organization",
@@ -601,7 +601,7 @@ const CppCourseData: CourseData = {
     }
             </pre>
           `,
-          videoUrl: "https://example.com/week3-modular-programming",
+     //     videoUrl: "https://example.com/week3-modular-programming",
         },
         {
           title: "3.5 Benefits of Modular Programming for Scalability",
@@ -618,7 +618,7 @@ const CppCourseData: CourseData = {
             <h3 class="text-xl font-semibold mt-6">Example Scenario:</h3>
             <p class="mt-2">In a large-scale application like an e-commerce platform, different modules can handle user authentication, product management, order processing, and payment integration independently.</p>
           `,
-          videoUrl: "https://example.com/week3-benefits-scalability",
+      //    videoUrl: "https://example.com/week3-benefits-scalability",
         },
         {
           title: "3.6 Summary",
@@ -719,7 +719,7 @@ const CppCourseData: CourseData = {
     }
             </pre>
           `,
-          videoUrl: "https://example.com/week4-combining-arrays-functions",
+      //    videoUrl: "https://example.com/week4-combining-arrays-functions",
         },
         {
           title: "4.3 Building Small Modular Projects Using All Covered Concepts",
@@ -822,7 +822,7 @@ const CppCourseData: CourseData = {
     }
             </pre>
           `,
-          videoUrl: "https://example.com/week4-integrating-concepts",
+     //     videoUrl: "https://example.com/week4-integrating-concepts",
         },
         {
           title: "4.4 Debugging and Refining Code for Efficiency",
@@ -875,7 +875,7 @@ const CppCourseData: CourseData = {
     }
             </pre>
           `,
-          videoUrl: "https://example.com/week4-debugging-refining",
+     //     videoUrl: "https://example.com/week4-debugging-refining",
         },
         {
           title: "4.5 Summary",
@@ -953,7 +953,7 @@ const CppCourseData: CourseData = {
             <h3 class="text-xl font-semibold mt-6">Example Setup:</h3>
             <p class="mt-2">Connect an LED to the Arduino board using a resistor and jumper wires. This setup will be used in the upcoming programming exercises.</p>
           `,
-          videoUrl: "https://example.com/week5-arduino-ide-setup",
+      //    videoUrl: "https://example.com/week5-arduino-ide-setup",
         },
         {
           title: "5.3 Writing and Uploading C++ Programs to Microcontrollers",
@@ -997,7 +997,7 @@ const CppCourseData: CourseData = {
     }
             </pre>
           `,
-          videoUrl: "https://example.com/week5-writing-uploading",
+      //    videoUrl: "https://example.com/week5-writing-uploading",
         },
         {
           title: "5.4 Reading Input from Sensors and Controlling Output Devices",
@@ -1066,7 +1066,7 @@ const CppCourseData: CourseData = {
     }
             </pre>
           `,
-          videoUrl: "https://example.com/week5-reading-controlling",
+      //    videoUrl: "https://example.com/week5-reading-controlling",
         },
         {
           title: "5.5 Exploring Practical Applications with Hardware Integration",
@@ -1111,7 +1111,7 @@ const CppCourseData: CourseData = {
             </pre>
             <p class="mt-2">This system uses a moisture sensor to detect dry soil and activates a water pump to hydrate the plant automatically.</p>
           `,
-          videoUrl: "https://example.com/week5-practical-applications",
+      //    videoUrl: "https://example.com/week5-practical-applications",
         },
         {
           title: "5.6 Summary",
@@ -1212,7 +1212,7 @@ const CppCourseData: CourseData = {
     }
             </pre>
           `,
-          videoUrl: "https://example.com/week6-reading-writing-files",
+     //     videoUrl: "https://example.com/week6-reading-writing-files",
         },
         {
           title: "6.3 Using File Streams for Data Storage and Retrieval",
@@ -1284,7 +1284,7 @@ const CppCourseData: CourseData = {
     }
             </pre>
           `,
-          videoUrl: "https://example.com/week6-file-streams",
+      //    videoUrl: "https://example.com/week6-file-streams",
         },
         {
           title: "6.4 Error Handling in File Operations",
@@ -1339,7 +1339,7 @@ const CppCourseData: CourseData = {
     }
             </pre>
           `,
-          videoUrl: "https://example.com/week6-error-handling",
+    //      videoUrl: "https://example.com/week6-error-handling",
         },
         {
           title: "6.5 Building Programs That Save and Load Data",
@@ -1382,7 +1382,7 @@ const CppCourseData: CourseData = {
     }
             </pre>
           `,
-          videoUrl: "https://example.com/week6-save-load-data",
+      //    videoUrl: "https://example.com/week6-save-load-data",
         },
         {
           title: "6.6 Summary",
@@ -1459,7 +1459,7 @@ const CppCourseData: CourseData = {
               <li><strong>Sensor Data Logger (Optional But Highly Recommended For Acceptance Into 3SP Hardware Integration):</strong> Collect data from sensors via Arduino and store it using C++ programs.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week7-design-implement-project",
+      //    videoUrl: "https://example.com/week7-design-implement-project",
         },
         {
           title: "7.3 Integrating Hardware (Optional for Those with Access to Microcontrollers But Highly Recommended To Be Accepted Into 3SP)",
@@ -1504,7 +1504,7 @@ const CppCourseData: CourseData = {
             </pre>
             <p class="mt-2">In a real-world scenario, you would replace the placeholders with actual sensor readings and actuator controls using Arduino libraries.</p>
           `,
-          videoUrl: "https://example.com/week7-integrating-hardware",
+      //    videoUrl: "https://example.com/week7-integrating-hardware",
         },
         {
           title: "7.4 Debugging, Testing, and Presenting the Final Project ***IMPORTANT SLIDE***",
@@ -1537,7 +1537,7 @@ const CppCourseData: CourseData = {
               <li><strong>Conclusion:</strong> Summarize the project's achievements and potential future enhancements.</li>
             </ol>
           `,
-          videoUrl: "https://example.com/week7-debugging-testing-presentation",
+        //  videoUrl: "https://example.com/week7-debugging-testing-presentation",
         },
         {
           title: "7.5 Best Practices for Future Learning and Advanced Topics",
@@ -1577,7 +1577,7 @@ const CppCourseData: CourseData = {
               <li>Build complex projects that integrate multiple advanced concepts.</li>
             </ol>
           `,
-          videoUrl: "https://example.com/week7-best-practices",
+          //videoUrl: "https://example.com/week7-best-practices",
         },
         {
           title: "7.6 Summary",
