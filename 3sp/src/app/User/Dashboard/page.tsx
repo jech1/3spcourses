@@ -1,14 +1,25 @@
 "use client";
-
 import { useState, useEffect } from "react";
-import { useSession } from "next-auth/react"; // For authentication
 import ProfileField from "../Components/ProfileField";
 import CourseCard from "../Components/CourseCard";
+import {
+  saveUserProfile,
+  //fetchUserData,
+  updateCourseProgress,
+} from "../../../helpers/dynamoHelpers"; // Import helpers
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import Link from "next/link";
+import { useSession } from "next-auth/react"; // For user session
+import { UserRecord } from "../types/courseTypes";
 
-const API_BASE = "https://jov63tfe7i.execute-api.us-east-1.amazonaws.com/v1";
+// Function to format labels for profile fields
+const formatLabel = (label: string) => {
+  return label
+    .replace(/([A-Z])/g, " $1") // Add space before uppercase letters
+    .toLowerCase() // Convert all to lowercase
+    .replace(/\b\w/g, (char) => char.toUpperCase()) // Capitalize the first letter of each word
+    .trim(); // Remove any unnecessary whitespace
+};
 
 // Sample courses array. We'll rely on API data for progress.
 const courses = [
@@ -62,52 +73,12 @@ const courses = [
   },
 ];
 
-const formatLabel = (label: string) => {
-  return label
-    .replace(/([A-Z])/g, " $1")
-    .toLowerCase()
-    .replace(/\b\w/g, (char) => char.toUpperCase())
-    .trim();
-};
-
-// Load user data from API
-async function loadUserData(userId: string) {
-  const res = await fetch(`${API_BASE}/user/${userId}`);
-  if (res.ok) {
-    return await res.json();
-  } else if (res.status === 404) {
-    // No user data yet
-    return null;
-  } else {
-    console.error("Error loading user data:", await res.text());
-    return null;
-  }
-}
-
-// Save user data via POST /user
-async function saveUserData(userId: string, profile: unknown, coursesData: unknown) {
-  const payload = {
-    userId,
-    profile,
-    coursesProgress: coursesData,
-  };
-
-  const res = await fetch(`${API_BASE}/user`, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify(payload),
-  });
-
-  if (!res.ok) {
-    console.error("Error saving user data:", await res.text());
-  } else {
-    console.log("User data saved successfully");
-  }
-}
-
 export default function Dashboard() {
   const { data: session } = useSession();
-  const userId = session?.user?.id; // Possibly undefined if user not logged in
+  const userId = session?.user?.email;
+  // debugging session and userId
+  console.log("Session Data:", session);
+  console.log("Extracted userId:", userId);
 
   const [profile, setProfile] = useState({
     firstName: "",
@@ -118,7 +89,9 @@ export default function Dashboard() {
     graduationDate: "",
   });
   const [isProfileSubmitted, setIsProfileSubmitted] = useState(false);
-  const [coursesProgress, setCoursesProgress] = useState<{ [slug: string]: number }>({});
+  const [coursesProgress, setCoursesProgress] = useState<{
+    [slug: string]: number;
+  }>({});
   const [displayCourses, setDisplayCourses] = useState(courses);
 
   const handleProfileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -127,47 +100,125 @@ export default function Dashboard() {
   };
 
   const handleProfileSubmit = async () => {
-    setIsProfileSubmitted(true);
-    console.log("Profile updated:", profile);
     if (!userId) {
-      console.warn("No userId, cannot save user data");
+      console.warn("No user ID found, cannot save profile.");
       return;
     }
-    // Here userId is known to be defined, so we can use userId!:
-    await saveUserData(userId!, profile, coursesProgress);
+    try {
+      await saveUserProfile(userId, profile);
+      console.log("Profile successfully saved.");
+      setIsProfileSubmitted(true);
+    } catch (error) {
+      console.error("Failed to save profile:", error);
+      alert("Could not save profile. Please try again.");
+    }
   };
 
-  const isUserRoute = false; // Adjust logic if needed
+  const handleProgressUpdate = async (
+    courseSlug: string,
+    newProgress: number
+  ) => {
+    if (!userId) return;
+
+    try {
+      await updateCourseProgress(userId, courseSlug, newProgress);
+      setCoursesProgress((prev) => ({ ...prev, [courseSlug]: newProgress }));
+    } catch (error) {
+      console.error(`Failed to update progress for ${courseSlug}:`, error);
+    }
+  };
 
   useEffect(() => {
-    if (!userId) return; // If no user logged in, don't fetch
+    if (!userId) {
+      console.error("No userId provided");
+      return;
+    }
 
-    async function initUserData() {
-      const userData = await loadUserData(userId!);
-      if (userData) {
-        // Populate profile and courses progress
-        if (userData.profile) {
-          setProfile(userData.profile);
-          setIsProfileSubmitted(true);
+    async function loadUserData() {
+      try {
+        // Log the API URL and userId for debugging
+        console.log("Fetching user data for userId:", userId);
+        const apiUrl = `/api/user/userData?userId=${userId}`;
+        console.log("API URL:", apiUrl);
+
+        // Fetch user data via API route
+        const res = await fetch(apiUrl);
+
+        // Check for fetch errors
+        if (!res.ok) {
+          const errorText = await res.text(); // Get server error message if available
+          throw new Error(
+            `Failed to fetch user data: ${res.status} ${res.statusText} - ${errorText}`
+          );
         }
 
-        const loadedCoursesProgress = userData.coursesProgress || {};
-        const updated = displayCourses.map((course) => {
-          const prog = loadedCoursesProgress[course.slug] || course.progress;
-          return { ...course, progress: prog };
-        });
+        // Parse response
+        const userDataArray = await res.json();
+        console.log("Fetched user data:", userDataArray);
 
-        setDisplayCourses(updated);
-        setCoursesProgress(loadedCoursesProgress);
-      } else {
-        // No user data found
-        console.log("No existing user data, starting fresh.");
+        if (userDataArray && userDataArray.length > 0) {
+          // Extract profile data
+          const profileData = userDataArray.find(
+            (record: UserRecord) => record.courseId === "Profile"
+          );
+          console.log("Extracted Profile data:", profileData);
+
+          if (profileData) {
+            console.log("Profile data:", profileData);
+            setProfile({
+              firstName: profileData.firstName || "",
+              lastName: profileData.lastName || "",
+              school: profileData.school || "",
+              major: profileData.major || "",
+              studentId: profileData.studentId || "",
+              graduationDate: profileData.graduationDate || "",
+            });
+            setIsProfileSubmitted(true);
+          } else {
+            console.log("No profile data found.");
+          }
+
+          // Extract course progress data
+          const courseProgressData = userDataArray.filter(
+            (record: UserRecord) => record.courseId !== "Profile"
+          );
+
+          console.log("Course progress data:", courseProgressData);
+
+          const loadedCoursesProgress: { [key: string]: number } =
+            courseProgressData.reduce(
+              (acc: { [key: string]: number }, record: UserRecord) => {
+                acc[record.courseId] = record.progress || 0;
+                return acc;
+              },
+              {}
+            );
+
+          console.log("Loaded courses progress:", loadedCoursesProgress);
+
+          const updatedCourses = displayCourses.map((course) => ({
+            ...course,
+            progress: loadedCoursesProgress[course.slug] || 0,
+          }));
+
+          console.log("Updated courses with progress:", updatedCourses);
+
+          setDisplayCourses(updatedCourses);
+          setCoursesProgress(loadedCoursesProgress);
+        } else {
+          console.log("No existing user data found.");
+        }
+      } catch (error) {
+        if (error instanceof Error) {
+          console.error("Error loading user data:", error.message);
+        } else {
+          console.error("Error loading user data:", error);
+        }
       }
     }
 
-    initUserData();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [userId]);
+    loadUserData();
+  }, [userId, displayCourses]);
 
   if (!session) {
     return <div>Please sign in to view your dashboard.</div>;
@@ -175,10 +226,6 @@ export default function Dashboard() {
 
   return (
     <div className="min-h-screen bg-gray-100 relative overflow-hidden">
-      <div
-        className="absolute inset-0 bg-gradient-to-b from-purple-600 to-transparent opacity-20 animate-pulse"
-        style={{ animationDuration: "3s" }}
-      ></div>
       <main className="container mx-auto px-4 py-8 relative z-10">
         <Card className="mb-8 p-4 bg-white/80 backdrop-blur-sm">
           <CardHeader className="p-0 pb-4">
@@ -201,82 +248,23 @@ export default function Dashboard() {
             </div>
           </CardContent>
           <Button onClick={handleProfileSubmit} className="mt-4 w-full">
-            {isProfileSubmitted ? "Update" : "Submit"}
+            {isProfileSubmitted ? "Update Profile" : "Submit Profile"}
           </Button>
         </Card>
-
         <h1 className="text-3xl font-bold text-gray-800 mb-8">Your Courses</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {displayCourses.map((course) => (
-            <CourseCard key={course.id} {...course} />
+            <CourseCard
+              key={course.id}
+              {...course}
+              progress={coursesProgress[course.slug] || 0}
+              onProgressChange={(newProgress) =>
+                handleProgressUpdate(course.slug, newProgress)
+              }
+            />
           ))}
         </div>
       </main>
-
-      {!isUserRoute && (
-        <footer className="bg-gray-100 text-gray-600 py-12 mt-20 border-t border-gray-300">
-          <div className="container mx-auto px-4 grid gap-8 md:grid-cols-2">
-            <div>
-              <h3 className="text-lg font-semibold mb-4">Resources</h3>
-              <ul className="space-y-2">
-                <li>
-                  <Link
-                    href="CoursesPathways.png"
-                    className="hover:underline"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Badges Pathways
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="hover:underline">
-                    FAQ
-                  </Link>
-                </li>
-                <li>
-                  <Link href="Merged_document.png" className="hover:underline">
-                    Terms and conditions
-                  </Link>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
-              <ul className="space-y-2">
-                <li>
-                  Email:{" "}
-                  <a
-                    href="mailto:jrodriguez154929@me.bergen.edu"
-                    className="hover:underline"
-                  >
-                    3spSupport@bergen.edu (Press link to email)
-                  </a>
-                </li>
-                <li>
-                  Website:{" "}
-                  <a
-                    href="https://www.bergen.edu"
-                    className="hover:underline"
-                  >
-                    www.bergen.edu
-                  </a>
-                </li>
-                <li>Made by: Jordan Rodriguez & Jacob Echeverry</li>
-                <li>
-                  Contact Makers:{" "}
-                  <a
-                    href="https://www.courseplatform.com"
-                    className="hover:underline"
-                  >
-                    www.JMR-JE.com
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </footer>
-      )}
     </div>
   );
 }
