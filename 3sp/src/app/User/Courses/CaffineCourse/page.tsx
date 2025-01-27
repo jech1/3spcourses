@@ -11,7 +11,10 @@ import { CourseData } from "../../types/courseTypes";
 
 // Complete course data with all weeks and chapters
 const CaffCourseData: CourseData = {
-  title: "Caffeine Extraction",
+  title: `<div style="text-align: center; margin-bottom: 3rem;">
+    Caffeine Extraction
+  </div>`,
+
   weeks: [
     // Week 1
     {
