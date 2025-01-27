@@ -1,16 +1,11 @@
 "use client";
 
-import { useState, useEffect } from "react";
-import { useSession } from "next-auth/react"; // For authentication
-import ProfileField from "../Components/ProfileField";
+import { useSession } from "next-auth/react";
+import Link from "next/link";
 import CourseCard from "../Components/CourseCard";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import Link from "next/link";
 
-const API_BASE = "https://jov63tfe7i.execute-api.us-east-1.amazonaws.com/v1";
-
-// Sample courses array. We'll rely on API data for progress.
+// Sample courses array
 const courses = [
   {
     id: 1,
@@ -18,7 +13,6 @@ const courses = [
     name: "Scientific Writing & Grant Proposal",
     description: "Enhance your capabilities as a writer.",
     image: "/writinglogo3SP.png?height=200&width=400",
-    progress: 0,
   },
   {
     id: 2,
@@ -26,7 +20,6 @@ const courses = [
     name: "Research Methods & Analytics",
     description: "Master the basics of research.",
     image: "/researchlogo3sp.png?height=100&width=200",
-    progress: 0,
   },
   {
     id: 3,
@@ -34,7 +27,6 @@ const courses = [
     name: "Microcontroller & Circuit Design",
     description: "Learn to build reliable prototypes.",
     image: "/3spcircuitlogo.png?height=100&width=200",
-    progress: 0,
   },
   {
     id: 4,
@@ -42,7 +34,6 @@ const courses = [
     name: "C++ Project Design",
     description: "Understand programming concepts and write efficient code.",
     image: "/3spc++logo.png?height=100&width=200",
-    progress: 0,
   },
   {
     id: 5,
@@ -50,7 +41,6 @@ const courses = [
     name: "3D Modeling CAD",
     description: "Learn the principles of CAD and develop your own models.",
     image: "/3spCADlogo.png?height=100&width=200",
-    progress: 0,
   },
   {
     id: 6,
@@ -58,116 +48,12 @@ const courses = [
     name: "Caffeine Extraction",
     description: "Master the fundamentals of research in a lab.",
     image: "/3spCaffinelogo.png?height=100&width=200",
-    progress: 0,
   },
 ];
 
-const formatLabel = (label: string) => {
-  return label
-    .replace(/([A-Z])/g, " $1")
-    .toLowerCase()
-    .replace(/\b\w/g, (char) => char.toUpperCase())
-    .trim();
-};
-
-// Load user data from API
-async function loadUserData(userId: string) {
-  const res = await fetch(`${API_BASE}/user/${userId}`);
-  if (res.ok) {
-    return await res.json();
-  } else if (res.status === 404) {
-    // No user data yet
-    return null;
-  } else {
-    console.error("Error loading user data:", await res.text());
-    return null;
-  }
-}
-
-// Save user data via POST /user
-async function saveUserData(userId: string, profile: unknown, coursesData: unknown) {
-  const payload = {
-    userId,
-    profile,
-    coursesProgress: coursesData,
-  };
-
-  const res = await fetch(`${API_BASE}/user`, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify(payload),
-  });
-
-  if (!res.ok) {
-    console.error("Error saving user data:", await res.text());
-  } else {
-    console.log("User data saved successfully");
-  }
-}
-
 export default function Dashboard() {
   const { data: session } = useSession();
-  const userId = session?.user?.id; // Possibly undefined if user not logged in
-
-  const [profile, setProfile] = useState({
-    firstName: "",
-    lastName: "",
-    school: "",
-    major: "",
-    studentId: "",
-    graduationDate: "",
-  });
-  const [isProfileSubmitted, setIsProfileSubmitted] = useState(false);
-  const [coursesProgress, setCoursesProgress] = useState<{ [slug: string]: number }>({});
-  const [displayCourses, setDisplayCourses] = useState(courses);
-
-  const handleProfileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const { name, value } = e.target;
-    setProfile((prev) => ({ ...prev, [name]: value }));
-  };
-
-  const handleProfileSubmit = async () => {
-    setIsProfileSubmitted(true);
-    console.log("Profile updated:", profile);
-    if (!userId) {
-      console.warn("No userId, cannot save user data");
-      return;
-    }
-    // Here userId is known to be defined, so we can use userId!:
-    await saveUserData(userId!, profile, coursesProgress);
-  };
-
-  const isUserRoute = false; // Adjust logic if needed
-
-  useEffect(() => {
-    if (!userId) return; // If no user logged in, don't fetch
-
-    async function initUserData() {
-      const userData = await loadUserData(userId!);
-      if (userData) {
-        // Populate profile and courses progress
-        if (userData.profile) {
-          setProfile(userData.profile);
-          setIsProfileSubmitted(true);
-        }
-
-        const loadedCoursesProgress = userData.coursesProgress || {};
-        const updated = displayCourses.map((course) => {
-          const prog = loadedCoursesProgress[course.slug] || course.progress;
-          return { ...course, progress: prog };
-        });
-
-        setDisplayCourses(updated);
-        setCoursesProgress(loadedCoursesProgress);
-      } else {
-        // No user data found
-        console.log("No existing user data, starting fresh.");
-      }
-    }
-
-    initUserData();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [userId]);
+  const isUserRoute = false;
 
   if (!session) {
     return <div>Please sign in to view your dashboard.</div>;
@@ -175,44 +61,55 @@ export default function Dashboard() {
 
   return (
     <div className="min-h-screen bg-gray-100 relative overflow-hidden">
+      {/* Subtle background animation */}
       <div
         className="absolute inset-0 bg-gradient-to-b from-purple-600 to-transparent opacity-20 animate-pulse"
         style={{ animationDuration: "3s" }}
       ></div>
+
       <main className="container mx-auto px-4 py-8 relative z-10">
-        <Card className="mb-8 p-4 bg-white/80 backdrop-blur-sm">
+        {/* Smaller Welcome Card */}
+        <Card className="mb-16 py-6 px-6 bg-white/80 backdrop-blur-sm text-center">
           <CardHeader className="p-0 pb-4">
-            <CardTitle className="text-xl">Your Profile</CardTitle>
+            <CardTitle className="text-3xl font-bold">
+              Welcome to 3SP Courses, {session.user?.name}!
+            </CardTitle>
           </CardHeader>
           <CardContent className="p-0">
-            <div className="grid grid-cols-2 gap-4">
-              {Object.keys(profile).map((key) => (
-                <ProfileField
-                  key={key}
-                  name={key}
-                  label={formatLabel(key)}
-                  value={profile[key as keyof typeof profile]}
-                  isEditable={!isProfileSubmitted}
-                  onChange={handleProfileChange}
-                  onEdit={() => setIsProfileSubmitted(false)}
-                  type={key === "graduationDate" ? "date" : "text"}
-                />
-              ))}
-            </div>
+            <p className="text-lg text-gray-700 mt-2">
+              We’re excited to have you here. Explore the courses below to begin!
+            </p>
           </CardContent>
-          <Button onClick={handleProfileSubmit} className="mt-4 w-full">
-            {isProfileSubmitted ? "Update" : "Submit"}
-          </Button>
         </Card>
 
-        <h1 className="text-3xl font-bold text-gray-800 mb-8">Your Courses</h1>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {displayCourses.map((course) => (
+        {/* Courses Section */}
+        <h1 className="text-2xl font-bold text-gray-800 mb-12 text-center">
+          Your Courses
+        </h1>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+          {courses.map((course) => (
             <CourseCard key={course.id} {...course} />
           ))}
         </div>
+
+        {/* Additional Useful Information Section - increased margin-top */}
+        <section className="mt-20 p-6 bg-white/80 backdrop-blur-sm rounded-md">
+          <h2 className="text-2xl font-semibold mb-4 text-center">
+            Useful Information
+          </h2>
+          <p className="text-center text-gray-700">
+            Here are a few tips and resources to help you succeed in 3SP:
+          </p>
+          <ul className="mt-4 list-disc list-inside text-gray-600">
+            <li>Check your course pages regularly for new lessons.</li>
+            <li>Connect with mentors and peers for group study sessions.</li>
+            <li>Use the discussion forums to ask questions or share insights.</li>
+            <li>Track your own progress and set personal learning goals.</li>
+          </ul>
+        </section>
       </main>
 
+      {/* Footer */}
       {!isUserRoute && (
         <footer className="bg-gray-100 text-gray-600 py-12 mt-20 border-t border-gray-300">
           <div className="container mx-auto px-4 grid gap-8 md:grid-cols-2">
@@ -235,7 +132,12 @@ export default function Dashboard() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="Merged_document.png" className="hover:underline">
+                  <Link
+                    href="Merged_document.png"
+                    className="hover:underline"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Terms and conditions
                   </Link>
                 </li>
@@ -262,7 +164,7 @@ export default function Dashboard() {
                     www.bergen.edu
                   </a>
                 </li>
-                <li>Made by: Jordan Rodriguez & Jacob Echeverry</li>
+                <li>Made by: Jordan Rodriguez &amp; Jacob Echeverry</li>
                 <li>
                   Contact Makers:{" "}
                   <a
