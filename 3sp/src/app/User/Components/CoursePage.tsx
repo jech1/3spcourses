@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { useSession } from "next-auth/react";
 import { useCourseLogic } from "../hooks/useCourseLogic";
 import ProgressBar from "./progressBar";
@@ -10,7 +10,9 @@ import { CourseData } from "../types/courseTypes";
 import { Button } from "@/components/ui/button";
 import { Play } from "lucide-react";
 
+// ----------------------
 // Helper functions for progress calculation
+// ----------------------
 function getTotalChapters(courseData: CourseData): number {
   return courseData.weeks.reduce((sum, week) => sum + week.chapters.length, 0);
 }
@@ -41,74 +43,33 @@ function calculateProgress(
   return (currentChapterNumber / totalChapters) * 100;
 }
 
-// API constants
-const API_BASE = "https://jov63tfe7i.execute-api.us-east-1.amazonaws.com";
-
-// Load user data from API
-async function loadUserData(userId: string) {
-  const res = await fetch(`${API_BASE}/user/${userId}`);
-  if (res.ok) {
-    return await res.json();
-  } else if (res.status === 404) {
-    // No user data
-    return null;
-  } else {
-    console.error("Error loading user data:", await res.text());
-    return null;
-  }
-}
-
-// Save user data via POST /user
-async function saveUserData(
-  userId: string,
-  profile: unknown,
-  coursesData: unknown
-) {
-  const payload = {
-    userId,
-    profile,
-    coursesProgress: coursesData,
-  };
-
-  const res = await fetch(`${API_BASE}/user`, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify(payload),
-  });
-
-  if (!res.ok) {
-    console.error("Error saving user data:", await res.text());
-  } else {
-    console.log("User data saved successfully");
-  }
-}
-
+// ----------------------
+// Main Course Component
+// ----------------------
 export default function CoursePage({ courseData }: { courseData: CourseData }) {
   const { data: session } = useSession();
-  const userId = session?.user?.id;
 
-  const { currentWeek, currentChapter, navigateToChapter } =
-    useCourseLogic(courseData);
+  // The custom hook provides our currentWeek/currentChapter logic
+  const { currentWeek, currentChapter, navigateToChapter } = useCourseLogic(courseData);
 
-  const courseSlug = courseData.title.replace(/\s+/g, "_");
+  // Track the user's quiz state
+  const [quizAnswer, setQuizAnswer] = useState<number | null>(null);
+  const [showQuizResult, setShowQuizResult] = useState(false);
 
-  // We'll store user profile and courses progress from DB
-  const [profile, setProfile] = useState({});
-  const [coursesProgress, setCoursesProgress] = useState<{
-    [slug: string]: { currentWeek: number; currentChapter: number };
-  }>({});
-
+  // Identify the current chapter data (content, quiz, video, etc.)
   const currentChapterData =
     courseData.weeks[currentWeek]?.chapters[currentChapter];
   const currentQuiz = currentChapterData?.quiz;
 
+  // Figure out if we are at the first or last chapter
   const isFirstChapter = currentWeek === 0 && currentChapter === 0;
   const isLastChapter =
     currentWeek === courseData.weeks.length - 1 &&
     currentChapter === courseData.weeks[currentWeek].chapters.length - 1;
 
+  // Navigation handlers
   const previousChapter = () => {
-    // Scroll to the top each time the button is clicked
+    // Scroll to the top
     window.scrollTo(0, 0);
 
     if (currentChapter > 0) {
@@ -124,7 +85,7 @@ export default function CoursePage({ courseData }: { courseData: CourseData }) {
   };
 
   const nextChapter = () => {
-    // Scroll to the top each time the button is clicked
+    // Scroll to the top
     window.scrollTo(0, 0);
 
     const currentWeekData = courseData.weeks[currentWeek];
@@ -135,57 +96,19 @@ export default function CoursePage({ courseData }: { courseData: CourseData }) {
     }
   };
 
-  const [quizAnswer, setQuizAnswer] = useState<number | null>(null);
-  const [showQuizResult, setShowQuizResult] = useState(false);
-
+  // Compute overall course progress
   const progress = calculateProgress(courseData, currentWeek, currentChapter);
 
-  // On mount, load user data from DynamoDB if logged in
-  useEffect(() => {
-    if (!userId) return;
-    async function initUserData() {
-      const userData = await loadUserData(userId!);
-      if (userData) {
-        setProfile(userData.profile || {});
-        const loadedCoursesProgress = userData.coursesProgress || {};
-        setCoursesProgress(loadedCoursesProgress);
-
-        // If we have saved position for this course, navigate to it
-        if (loadedCoursesProgress[courseSlug]) {
-          const { currentWeek: savedWeek, currentChapter: savedChapter } =
-            loadedCoursesProgress[courseSlug];
-          navigateToChapter(savedWeek, savedChapter);
-        }
-      } else {
-        console.log("No existing user data found, starting fresh.");
-      }
-    }
-    initUserData();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [userId, courseSlug]);
-
-  // Whenever currentWeek or currentChapter changes, save updated position to DynamoDB
-  useEffect(() => {
-    if (!userId) return;
-    // Update coursesProgress with the new position for this course
-    const updatedCoursesProgress = {
-      ...coursesProgress,
-      [courseSlug]: { currentWeek, currentChapter },
-    };
-    setCoursesProgress(updatedCoursesProgress);
-
-    // Save to DynamoDB
-    saveUserData(userId!, profile, updatedCoursesProgress);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [currentWeek, currentChapter]);
-
+  // If the user is not signed in, block access
   if (!session) {
     return <div>Please sign in to view this course.</div>;
   }
 
   return (
     <div className="flex flex-col min-h-screen">
+      {/* Top progress bar remains the same */}
       <ProgressBar progress={progress} />
+
       <div className="flex-grow">
         <div className="p-6">
           <h1 className="text-4xl font-extrabold mb-6">{courseData.title}</h1>
@@ -196,11 +119,10 @@ export default function CoursePage({ courseData }: { courseData: CourseData }) {
             {currentChapterData?.title}
           </h3>
 
-          {/* Only show button if there is a valid videoUrl */}
+          {/* Watch Video button (only if videoUrl is present) */}
           {currentChapterData?.videoUrl && (
             <Button
               variant="outline"
-              // Darker styling with a darker hover effect
               className="mb-6 bg-gray-200 text-black hover:bg-gray-300"
               onClick={() =>
                 window.open(currentChapterData?.videoUrl ?? "", "_blank")
@@ -210,6 +132,7 @@ export default function CoursePage({ courseData }: { courseData: CourseData }) {
             </Button>
           )}
 
+          {/* Chapter content */}
           <div
             className="prose max-w-none"
             dangerouslySetInnerHTML={{
@@ -217,6 +140,7 @@ export default function CoursePage({ courseData }: { courseData: CourseData }) {
             }}
           />
 
+          {/* Optional Quiz */}
           {currentQuiz && (
             <Quiz
               quizData={currentQuiz}
@@ -228,6 +152,8 @@ export default function CoursePage({ courseData }: { courseData: CourseData }) {
           )}
         </div>
       </div>
+
+      {/* Navigation buttons at the bottom */}
       <NavigationButtons
         isFirstChapter={isFirstChapter}
         isLastChapter={isLastChapter}
