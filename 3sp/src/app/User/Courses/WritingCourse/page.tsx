@@ -1102,7 +1102,7 @@ const WritingCourseData: CourseData = {
       title: "Final Week: Research and Grant Proposal Assignments",
       chapters: [
         {
-          title: "Chapter 8.1: Introduction to Final Assignments",
+          title: "Chapter 8: Introduction to Final Assignments",
           content: `
             <h2 class="text-2xl font-bold">Introduction to Final Assignments</h2>
             <p class="mt-4">As we conclude the course, you'll engage in two major assignments: the first draft of your grant proposal and the final paper. These assignments are designed to synthesize your learning and demonstrate your ability to conduct and present scientific research effectively.</p>
@@ -1142,116 +1142,10 @@ const WritingCourseData: CourseData = {
           `,
         },
         {
-          title: "Chapter 8.2: First Draft of Grant Proposal Assignment",
-          content: `
-            <h2 class="text-2xl font-bold">First Draft of Grant Proposal</h2>
-            <p class="mt-4">This assignment requires you to submit the first draft of your grant proposal. The draft will be evaluated to provide feedback that will help you improve your final submission.</p>
-            <h3 class="text-xl font-semibold mt-6">Assignment Components:</h3>
-            <ol class="list-decimal list-inside mt-2">
-              <li>
-                <strong>Research and Grant Proposal</strong> (Total: <strong>125 Points</strong>)
-                <ul class="list-disc list-inside mt-2">
-                  <li><strong>Research and Grant Proposal Paper:</strong> 100 Points</li>
-                  <li><strong>Peer Review:</strong> 25 Points</li>
-                </ul>
-              </li>
-            </ol>
-            <h3 class="text-xl font-semibold mt-6">Grading Criteria:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li><strong>Literature Review (30 Points):</strong> Comprehensive review of at least 10 recent scientific studies relevant to your topic. Demonstrates understanding and logical extension of existing knowledge.</li>
-              <li><strong>Experimental Design (40 Points):</strong> Detailed and precise description of your proposed experiments. Includes methodology, controls, variables, and data collection plans.</li>
-              <li><strong>Possible Outcomes (20 Points):</strong> Clear outline of potential results and their implications. Discusses how each outcome supports or refutes your hypotheses.</li>
-              <li><strong>Formatting and Citations (15 Points):</strong> Proper APA or Chicago citation style. Clear and professional formatting, free of grammatical and typographical errors.</li>
-              <li><strong>Peer Review Participation (25 Points):</strong> Constructive feedback provided to at least two peers. Demonstrates engagement and understanding of grant proposal standards.</li>
-            </ul>
-            <h3 class="text-xl font-semibold mt-6">Submission Guidelines:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li><strong>Due Date:</strong> November 21, 2024 (004) or November 22, 2024 (005) by 11:59 PM.</li>
-              <li><strong>Format:</strong> Microsoft Word or PDF.</li>
-              <li><strong>Submission:</strong> Upload to Canvas and submit a printed copy to the instructor.</li>
-              <li><strong>Late Submissions:</strong> No late submissions will be accepted. A zero will be assigned for late papers.</li>
-            </ul>
-            <h3 class="text-xl font-semibold mt-6">Important Notes:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>Ensure your paper is free from plagiarism. Properly cite all sources.</li>
-              <li>Only group leaders should submit the grant proposals. Individual submissions will not be graded.</li>
-              <li>Maintain high standards of grammar and spelling. Papers with significant errors may receive a failing grade.</li>
-            </ul>
-          `,
-        },
-        {
-          title: "Chapter 8.3: Final Paper",
-          content: `
-            <h2 class="text-2xl font-bold">Final Paper</h2>
-            <p class="mt-4">The final paper is a polished version of your grant proposal, incorporating feedback received from the first draft and peer reviews. This submission should reflect a high level of professionalism and scientific rigor.</p>
-            <h3 class="text-xl font-semibold mt-6">Assignment Components:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li><strong>Final Grant Proposal:</strong> 125 Points</li>
-            </ul>
-            <h3 class="text-xl font-semibold mt-6">Grading Criteria:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li><strong>Enhanced Literature Review (30 Points):</strong> Incorporates additional studies and addresses feedback from the first draft.</li>
-              <li><strong>Refined Experimental Design (40 Points):</strong> Improved clarity and detail based on initial feedback. Demonstrates feasibility and robustness.</li>
-              <li><strong>Comprehensive Possible Outcomes (20 Points):</strong> Thorough discussion of potential results and their implications.</li>
-              <li><strong>Formatting and Citations (15 Points):</strong> Adheres strictly to APA or Chicago style. Free from grammatical and typographical errors.</li>
-            </ul>
-            <h3 class="text-xl font-semibold mt-6">Submission Guidelines:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li><strong>Due Date:</strong> December 17, 2024 by 11:59 PM.</li>
-              <li><strong>Format:</strong> Microsoft Word or PDF.</li>
-              <li><strong>Submission:</strong> Upload to Canvas and submit a printed copy to the instructor.</li>
-              <li><strong>Late Submissions:</strong> No late submissions will be accepted. A zero will be assigned for late papers.</li>
-            </ul>
-            <h3 class="text-xl font-semibold mt-6">Important Notes:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>Ensure your final paper addresses all feedback from the first draft and peer reviews.</li>
-              <li>Only group leaders should submit the final grant proposals. Individual submissions will not be graded.</li>
-              <li>Maintain impeccable standards of grammar and spelling. Papers with significant errors may receive a failing grade.</li>
-            </ul>
-          `,
-        },
-        {
-          title: "Chapter 8.4: Submissions",
-          content: `
-            <h2 class="text-2xl font-bold">Submissions</h2>
-            <p class="mt-4">All final assignments must adhere to the following submission guidelines to ensure proper grading and feedback.</p>
-            <h3 class="text-xl font-semibold mt-6">Submission Steps:</h3>
-            <ol class="list-decimal list-inside mt-2">
-              <li><strong>Digital Submission:</strong> Upload your final paper as a Microsoft Word document or PDF to Canvas by the specified due date.</li>
-              <li><strong>Printed Submission:</strong> Bring a printed copy of your final paper to class on December 17, 2024.</li>
-              <li><strong>Drop-Off Location:</strong> Submit the printed copy at the STEM Center located on the BCC Paramus Campus.</li>
-            </ol>
-            <h3 class="text-xl font-semibold mt-6">Important Guidelines:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>Only group leaders are responsible for submitting the grant proposals. Ensure that your group's submission is complete and accurate.</li>
-              <li>Papers must be neatly printed and free from any markings that could impede readability.</li>
-              <li>Ensure that both digital and printed copies are identical and properly formatted.</li>
-              <li>Late submissions will not be accepted under any circumstances.</li>
-            </ul>
-            <h3 class="text-xl font-semibold mt-6">Technical Requirements:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>Save your document in Microsoft Word (.docx) or PDF format to preserve formatting.</li>
-              <li>Double-check all citations and references for accuracy and consistency.</li>
-              <li>Use the university's approved citation style (APA or Chicago) throughout your paper.</li>
-            </ul>
-          `,
-        },
-        {
-          title: "Chapter 8.5: Final Remarks",
+          title: "Chapter 8: Final Remarks",
           content: `
             <h2 class="text-2xl font-bold">Final Remarks</h2>
             <p class="mt-4">Congratulations on reaching the end of the Scientific Writing & Grant Proposal course! Your dedication and hard work have culminated in the development of comprehensive grant proposals that showcase your ability to conduct and present scientific research.</p>
-            <h3 class="text-xl font-semibold mt-6">Final Assignments:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li><strong>First Draft of Grant Proposal:</strong> Submitted by November 21/22, 2024.</li>
-              <li><strong>Final Grant Proposal:</strong> Submitted by December 17, 2024.</li>
-            </ul>
-            <h3 class="text-xl font-semibold mt-6">Feedback and Evaluation:</h3>
-            <p class="mt-4">You will receive detailed feedback on both drafts to help you improve your scientific writing and proposal development skills. Take this feedback seriously to enhance your final submission.</p>
-            <h3 class="text-xl font-semibold mt-6">Looking Forward:</h3>
-            <p class="mt-4">The skills you've developed in this course are essential for your academic and professional journey. Whether you're pursuing further studies, engaging in research, or entering the professional world, effective scientific writing and grant proposal skills will be invaluable.</p>
-            <h3 class="text-xl font-semibold mt-6">Stay Connected:</h3>
-            <p class="mt-4">Feel free to reach out with any questions or for further guidance as you continue to develop your research projects. Best of luck in all your future endeavors!</p>
             <h3 class="text-xl font-semibold mt-6">Assignments:</h3>
               <ul class="list-disc list-inside mt-2">
                 <li>
@@ -1279,6 +1173,13 @@ const WritingCourseData: CourseData = {
                   </ul>
                 </li>
               </ul>
+            <h3 class="text-xl font-semibold mt-6">Feedback and Evaluation:</h3>
+            <p class="mt-4">You will receive detailed feedback on both drafts to help you improve your scientific writing and proposal development skills. Take this feedback seriously to enhance your final submission.</p>
+            <h3 class="text-xl font-semibold mt-6">Looking Forward:</h3>
+            <p class="mt-4">The skills you've developed in this course are essential for your academic and professional journey. Whether you're pursuing further studies, engaging in research, or entering the professional world, effective scientific writing and grant proposal skills will be invaluable.</p>
+            <h3 class="text-xl font-semibold mt-6">Stay Connected:</h3>
+            <p class="mt-4">Feel free to reach out with any questions or for further guidance as you continue to develop your research projects. Best of luck in all your future endeavors!</p>
+            
           `,
         },
       ],
