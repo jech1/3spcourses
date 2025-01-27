@@ -98,9 +98,9 @@ export default function RootLayout({
                       </li>
                       <li>Made by: Jordan Rodriguez & Jacob Echeverry</li>
                       <li>
-                        Contact Makers:{" "}
+                      Visit:{" "}
                         <a
-                          href="https://www.bitmedia0.webflow.io"
+                          href="https://bitmedia0.webflow.io"
                           className="hover:underline"
                         >
                           www.JMR-JE.com
