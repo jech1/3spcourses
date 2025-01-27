@@ -13,6 +13,7 @@ interface CourseCardProps {
   description: string;
   image: string;
   progress: number;
+  onProgressChange?: (newProgress: number) => void; // Optional prop for progress updates
 }
 
 export default function CourseCard({
@@ -21,7 +22,15 @@ export default function CourseCard({
   description,
   image,
   progress,
+  onProgressChange, // Include onProgressChange prop
 }: CourseCardProps) {
+  // Handles changes to course progress if onProgressChange is provided
+  const handleProgress = (newProgress: number) => {
+    if (onProgressChange) {
+      onProgressChange(newProgress);
+    }
+  };
+
   return (
     <Card className="flex flex-col bg-white/80 backdrop-blur-sm">
       <CardHeader className="flex-row gap-4 items-center">
@@ -61,6 +70,15 @@ export default function CourseCard({
               {progress > 0 ? "Continue" : "Start"} Course
             </Button>
           </Link>
+          {/* Example usage for progress change */}
+          {onProgressChange && (
+            <Button
+              onClick={() => handleProgress(progress + 10)} // Simulate progress update
+              className="mt-2"
+            >
+              Update Progress
+            </Button>
+          )}
         </div>
       </CardContent>
     </Card>

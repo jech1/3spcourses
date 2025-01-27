@@ -16,4 +16,5 @@ export default withAuth({
 
 export const config = {
   matcher: ["/User/:path*"], // Protect all routes under /User
+  // test: /\/User\/.*/,
 };
