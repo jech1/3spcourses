@@ -23,14 +23,14 @@ import TakeCourseButton from "@/components/TakeCourseButton";
 
 const images = [
   {
-    src: "/Scientific Writing Badge (1).png?height=500&width=500",
+    src: "/SWB.png?height=500&width=500",
     alt: "Image 1",
   },
-  { src: "/circuitbadge.png?height=500&width=500", alt: "Image 2" },
-  { src: "/researchbadge.png?height=500&width=500", alt: "Image 3" },
-  { src: "/CADbadge (1).png?height=500&width=500", alt: "Image 4" },
-  { src: "/c++badge.png?height=500&width=500", alt: "Image 5" },
-  { src: "/caffeinebadge.png?height=500&width=500", alt: "Image 6" },
+  { src: "/MCDB.png?height=500&width=500", alt: "Image 2" },
+  { src: "/RMB.png?height=500&width=500", alt: "Image 3" },
+  { src: "/CADB.png?height=500&width=500", alt: "Image 4" },
+  { src: "/CppPD.png?height=500&width=500", alt: "Image 5" },
+  { src: "/CELS.png?height=500&width=500", alt: "Image 6" },
 ];
 
 function AnimatedImageCarousel() {
@@ -90,7 +90,7 @@ export default function EnhancedCourseOverviewComponent() {
           ></div>
           <div className="container mx-auto px-4 py-12 space-y-36 mt-0">
             <section className="text-center space-y-4">
-              <h1 className="text-4xl font-bold text-white">C++ Coding</h1>
+              <h1 className="text-4xl font-bold text-white">C++ Project Design</h1>
               <p className="text-xl text-white max-w-2xl mx-auto">
                 Understand programming concepts and write efficient code using
                 one of the most utilized languages worldwide.
@@ -115,7 +115,7 @@ export default function EnhancedCourseOverviewComponent() {
                   integrates all learned skills.
                 </p>
                 <ul className="list-disc pl-5 space-y-2">
-                  <li>Duration: 8 weeks</li>
+                  <li>Duration: 7 weeks</li>
                   <li>Difficulty: Beginner to Associate </li>
                   <li>Prerequisites: Basic coding skills</li>
                 </ul>

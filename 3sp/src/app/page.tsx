@@ -40,7 +40,7 @@ const courses = [
   {
     id: 4,
     slug: "CppOverview",
-    name: "C++ Coding",
+    name: "C++ Project Design",
     description:
       "Understand programming concepts and write efficient code using one of the most utilized languages worldwide.",
     image: "/3spc++logo.png?height=100&width=200",

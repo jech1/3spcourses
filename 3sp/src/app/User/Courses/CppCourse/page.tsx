@@ -38,15 +38,14 @@ const CppCourseData: CourseData = {
             <ul class="list-disc list-inside mt-2">
               <li><strong>Install Visual Studio Code:</strong> Download and install VS Code from the official website.</li>
               <li><strong>Install C++ Extensions:</strong> Add extensions like C/C++ by Microsoft for code editing and debugging.</li>
-              <li><strong>Configure Compiler:</strong> Install GCC or Clang and set up environment variables to use the compiler from the terminal.</li>
-              <li><strong>Set Up Debugging:</strong> Configure the debugger in VS Code to work with your compiler.</li>
+              <li><strong>Resource:</strong> Full Course by freecodecamp.org can be reached here https://youtu.be/vLnPwxZdW4Y?si=C32gWXTCtNTHZSzi and checkout there website for more. </li>
             </ul>
             <h3 class="text-xl font-semibold mt-6">Example Configuration:</h3>
             <pre class="bg-gray-100 p-4 rounded">
     // tasks.json
             </pre>
           `,
-          videoUrl: "https://example.com/week1-setup-vscode",
+      //    videoUrl: "https://example.com/week1-setup-vscode",
         },
         {
           title: "1.3 Introduction to the Terminal and Basic Commands",
@@ -76,7 +75,7 @@ const CppCourseData: CourseData = {
     g++ main.cpp -o main
             </pre>
           `,
-          videoUrl: "https://example.com/week1-terminal-commands",
+      //    videoUrl: "https://example.com/week1-terminal-commands",
         },
         {
           title: "1.4 Understanding Variables, Data Types, and Constants",
@@ -106,7 +105,7 @@ const CppCourseData: CourseData = {
     const int MAX_USERS = 100;
             </pre>
           `,
-          videoUrl: "https://example.com/week1-variables-data-types",
+     //     videoUrl: "https://example.com/week1-variables-data-types",
         },
         {
           title: "1.5 Producing Outputs and Handling User Input",
@@ -152,10 +151,12 @@ const CppCourseData: CourseData = {
     
         std::cout &lt;&lt; "Name: " &lt;&lt; name &lt;&lt; ", Age: " &lt;&lt; age &lt;&lt; std::endl;
         return 0;
+
+    
     }
             </pre>
           `,
-          videoUrl: "https://example.com/week1-io",
+      //    videoUrl: "https://example.com/week1-io",
         },
         {
           title: "1.6 Summary",
@@ -227,7 +228,7 @@ const CppCourseData: CourseData = {
             <h3 class="text-xl font-semibold mt-6">Example Scenario:</h3>
             <p class="mt-2">Storing the grades of students in a class allows you to perform operations like calculating the average grade or identifying the highest and lowest scores.</p>
           `,
-          videoUrl: "https://example.com/week2-intro-arrays",
+     //     videoUrl: "https://example.com/week2-intro-arrays",
         },
         {
           title: "2.3 Declaring, Initializing, and Accessing Arrays",
@@ -270,7 +271,7 @@ const CppCourseData: CourseData = {
     }
             </pre>
           `,
-          videoUrl: "https://example.com/week2-declaring-initializing",
+       //   videoUrl: "https://example.com/week2-declaring-initializing",
         },
         {
           title: "2.4 Multi-Dimensional Arrays and Their Applications",
@@ -303,7 +304,7 @@ const CppCourseData: CourseData = {
               <li>Managing multi-dimensional game boards or grids.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week2-multi-dimensional-arrays",
+       //   videoUrl: "https://example.com/week2-multi-dimensional-arrays",
         },
         {
           title: "2.5 Common Array Operations: Searching and Sorting",
@@ -408,7 +409,7 @@ const CppCourseData: CourseData = {
     }
             </pre>
           `,
-          videoUrl: "https://example.com/week2-searching-sorting",
+    //      videoUrl: "https://example.com/week2-searching-sorting",
         },
         {
           title: "2.6 Summary",
@@ -431,7 +432,7 @@ const CppCourseData: CourseData = {
             <h2 class="text-2xl font-bold">Test Your Understanding</h2>
             <p class="mt-4">Assess your grasp of the key concepts from this week.</p>
           `,
-          // Removed videoUrl from Quiz
+        // Removed videoUrl from Quiz
           quiz: {
             question:
               "How do you declare a two-dimensional array of integers with 3 rows and 4 columns in C++?",
@@ -510,7 +511,7 @@ const CppCourseData: CourseData = {
     }
             </pre>
           `,
-          videoUrl: "https://example.com/week3-defining-calling-functions",
+       //   videoUrl: "https://example.com/week3-defining-calling-functions",
         },
         {
           title: "3.3 Function Arguments, Return Types, and Scope",
@@ -555,7 +556,7 @@ const CppCourseData: CourseData = {
     }
             </pre>
           `,
-          videoUrl: "https://example.com/week3-arguments-return-scope",
+      //    videoUrl: "https://example.com/week3-arguments-return-scope",
         },
         {
           title: "3.4 Breaking Programs into Modules for Better Organization",
@@ -600,7 +601,7 @@ const CppCourseData: CourseData = {
     }
             </pre>
           `,
-          videoUrl: "https://example.com/week3-modular-programming",
+     //     videoUrl: "https://example.com/week3-modular-programming",
         },
         {
           title: "3.5 Benefits of Modular Programming for Scalability",
@@ -617,7 +618,7 @@ const CppCourseData: CourseData = {
             <h3 class="text-xl font-semibold mt-6">Example Scenario:</h3>
             <p class="mt-2">In a large-scale application like an e-commerce platform, different modules can handle user authentication, product management, order processing, and payment integration independently.</p>
           `,
-          videoUrl: "https://example.com/week3-benefits-scalability",
+      //    videoUrl: "https://example.com/week3-benefits-scalability",
         },
         {
           title: "3.6 Summary",
@@ -718,7 +719,7 @@ const CppCourseData: CourseData = {
     }
             </pre>
           `,
-          videoUrl: "https://example.com/week4-combining-arrays-functions",
+      //    videoUrl: "https://example.com/week4-combining-arrays-functions",
         },
         {
           title: "4.3 Building Small Modular Projects Using All Covered Concepts",
@@ -821,7 +822,7 @@ const CppCourseData: CourseData = {
     }
             </pre>
           `,
-          videoUrl: "https://example.com/week4-integrating-concepts",
+     //     videoUrl: "https://example.com/week4-integrating-concepts",
         },
         {
           title: "4.4 Debugging and Refining Code for Efficiency",
@@ -874,7 +875,7 @@ const CppCourseData: CourseData = {
     }
             </pre>
           `,
-          videoUrl: "https://example.com/week4-debugging-refining",
+     //     videoUrl: "https://example.com/week4-debugging-refining",
         },
         {
           title: "4.5 Summary",
@@ -952,7 +953,7 @@ const CppCourseData: CourseData = {
             <h3 class="text-xl font-semibold mt-6">Example Setup:</h3>
             <p class="mt-2">Connect an LED to the Arduino board using a resistor and jumper wires. This setup will be used in the upcoming programming exercises.</p>
           `,
-          videoUrl: "https://example.com/week5-arduino-ide-setup",
+      //    videoUrl: "https://example.com/week5-arduino-ide-setup",
         },
         {
           title: "5.3 Writing and Uploading C++ Programs to Microcontrollers",
@@ -996,7 +997,7 @@ const CppCourseData: CourseData = {
     }
             </pre>
           `,
-          videoUrl: "https://example.com/week5-writing-uploading",
+      //    videoUrl: "https://example.com/week5-writing-uploading",
         },
         {
           title: "5.4 Reading Input from Sensors and Controlling Output Devices",
@@ -1065,7 +1066,7 @@ const CppCourseData: CourseData = {
     }
             </pre>
           `,
-          videoUrl: "https://example.com/week5-reading-controlling",
+      //    videoUrl: "https://example.com/week5-reading-controlling",
         },
         {
           title: "5.5 Exploring Practical Applications with Hardware Integration",
@@ -1110,7 +1111,7 @@ const CppCourseData: CourseData = {
             </pre>
             <p class="mt-2">This system uses a moisture sensor to detect dry soil and activates a water pump to hydrate the plant automatically.</p>
           `,
-          videoUrl: "https://example.com/week5-practical-applications",
+      //    videoUrl: "https://example.com/week5-practical-applications",
         },
         {
           title: "5.6 Summary",
@@ -1150,7 +1151,7 @@ const CppCourseData: CourseData = {
     },
     // Week 6
     {
-      title: "Week 6: File Handling in C++",
+      title: "Week 6: File Handling in C++ (Optional to learn for badge)",
       chapters: [
         {
           title: "6.1 Introduction",
@@ -1211,7 +1212,7 @@ const CppCourseData: CourseData = {
     }
             </pre>
           `,
-          videoUrl: "https://example.com/week6-reading-writing-files",
+     //     videoUrl: "https://example.com/week6-reading-writing-files",
         },
         {
           title: "6.3 Using File Streams for Data Storage and Retrieval",
@@ -1283,7 +1284,7 @@ const CppCourseData: CourseData = {
     }
             </pre>
           `,
-          videoUrl: "https://example.com/week6-file-streams",
+      //    videoUrl: "https://example.com/week6-file-streams",
         },
         {
           title: "6.4 Error Handling in File Operations",
@@ -1338,7 +1339,7 @@ const CppCourseData: CourseData = {
     }
             </pre>
           `,
-          videoUrl: "https://example.com/week6-error-handling",
+    //      videoUrl: "https://example.com/week6-error-handling",
         },
         {
           title: "6.5 Building Programs That Save and Load Data",
@@ -1381,7 +1382,7 @@ const CppCourseData: CourseData = {
     }
             </pre>
           `,
-          videoUrl: "https://example.com/week6-save-load-data",
+      //    videoUrl: "https://example.com/week6-save-load-data",
         },
         {
           title: "6.6 Summary",
@@ -1420,17 +1421,16 @@ const CppCourseData: CourseData = {
     },
     // Week 7
     {
-      title: "Week 7: Final Project",
+      title: "Week 7: Final Project **Badge Information***",
       chapters: [
         {
           title: "7.1 Introduction",
           content: `
             <h2 class="text-2xl font-bold">Developing Your Comprehensive Project</h2>
-            <p class="mt-4">The final project is an opportunity to apply all the concepts you've learned throughout the course. You'll design and implement a comprehensive C++ program that integrates arrays, functions, file handling, and, optionally, hardware interaction with Arduino.</p>
+            <p class="mt-4">The final project is an opportunity to apply all the concepts you've learned throughout the course. You'll design and implement a comprehensive C++ program that integrates arrays and functions.</p>
             <h3 class="text-xl font-semibold mt-6">Objectives:</h3>
             <ul class="list-disc list-inside mt-2">
               <li>Design a program that combines multiple C++ concepts.</li>
-              <li>Integrate hardware components if desired.</li>
               <li>Implement best coding practices for readability and efficiency.</li>
               <li>Debug and test your program to ensure functionality.</li>
               <li>Prepare to present your project, highlighting key features and design choices.</li>
@@ -1446,23 +1446,23 @@ const CppCourseData: CourseData = {
             <h3 class="text-xl font-semibold mt-6">Steps to Develop Your Project:</h3>
             <ul class="list-disc list-inside mt-2">
               <li><strong>Identify the Project Scope:</strong> Define what your program will do and its key features.</li>
-              <li><strong>Design the Program Structure:</strong> Outline the main modules, functions, and data structures.</li>
+              <li><strong>Design the Program Structure:</strong> Outline the main modules, functions, and possible data structures.</li>
               <li><strong>Implement the Code:</strong> Write the C++ code, ensuring modularity and reusability.</li>
-              <li><strong>Test and Debug:</strong> Rigorously test your program to identify and fix bugs.</li>
-              <li><strong>Document Your Code:</strong> Add comments and documentation for clarity.</li>
+              <li><strong>Test and Debug:</strong> Rigorously test your program to identify and fix logical bugs or syntax errors.</li>
+              <li><strong>Document Your Code:</strong> Add comments to your code using // and documentation your code using github.</li>
             </ul>
             <h3 class="text-xl font-semibold mt-6">Example Project Ideas:</h3>
             <ul class="list-disc list-inside mt-2">
               <li><strong>Inventory Management System:</strong> Track products, quantities, and orders using arrays and file handling.</li>
               <li><strong>Personal Finance Tracker:</strong> Manage income and expenses, calculate budgets, and generate reports.</li>
               <li><strong>Library Management System:</strong> Handle book records, user information, and borrowing transactions.</li>
-              <li><strong>Sensor Data Logger (Optional Hardware Integration):</strong> Collect data from sensors via Arduino and store it using C++ programs.</li>
+              <li><strong>Sensor Data Logger (Optional But Highly Recommended For Acceptance Into 3SP Hardware Integration):</strong> Collect data from sensors via Arduino and store it using C++ programs.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week7-design-implement-project",
+      //    videoUrl: "https://example.com/week7-design-implement-project",
         },
         {
-          title: "7.3 Integrating Hardware (Optional for Those with Access to Microcontrollers)",
+          title: "7.3 Integrating Hardware (Optional for Those with Access to Microcontrollers But Highly Recommended To Be Accepted Into 3SP)",
           content: `
             <h2 class="text-2xl font-bold">Enhancing Projects with Hardware</h2>
             <p class="mt-4">If you have access to Arduino or other microcontrollers, integrating hardware components can add functionality and interactivity to your projects.</p>
@@ -1504,20 +1504,13 @@ const CppCourseData: CourseData = {
             </pre>
             <p class="mt-2">In a real-world scenario, you would replace the placeholders with actual sensor readings and actuator controls using Arduino libraries.</p>
           `,
-          videoUrl: "https://example.com/week7-integrating-hardware",
+      //    videoUrl: "https://example.com/week7-integrating-hardware",
         },
         {
-          title: "7.4 Debugging, Testing, and Presenting the Final Project",
+          title: "7.4 Debugging, Testing, and Presenting the Final Project ***IMPORTANT SLIDE***",
           content: `
             <h2 class="text-2xl font-bold">Finalizing Your Project</h2>
             <p class="mt-4">Once your project is implemented, it's crucial to thoroughly test and debug it to ensure it functions as intended. This chapter also covers best practices for presenting your final project.</p>
-            <h3 class="text-xl font-semibold mt-6">Debugging Techniques:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>Use print statements to monitor variable values and program flow.</li>
-              <li>Employ debugging tools to step through code and inspect states.</li>
-              <li>Conduct code reviews to identify logical errors and inefficiencies.</li>
-              <li>Test individual modules before integrating them into the main program.</li>
-            </ul>
             <h3 class="text-xl font-semibold mt-6">Testing Your Program:</h3>
             <ul class="list-disc list-inside mt-2">
               <li>Develop test cases to cover various scenarios and edge cases.</li>
@@ -1525,10 +1518,13 @@ const CppCourseData: CourseData = {
               <li>Validate user inputs to prevent unexpected behavior.</li>
               <li>Optimize performance by analyzing and improving code efficiency.</li>
             </ul>
-            <h3 class="text-xl font-semibold mt-6">Presenting Your Final Project:</h3>
+            <h3 class="text-xl font-semibold mt-6">You Will Be Required to Present Your Final Project on 3/15/25 at Bergen Community College in Paramus New Jersey in the STEM Center, You must be a Bergen Student. If completed and judged satasfactory you will be given your C++ Badge: </h3>
             <ul class="list-disc list-inside mt-2">
-              <li><strong>Prepare a Demonstration:</strong> Showcase the features and functionalities of your project.</li>
-              <li><strong>Create Documentation:</strong> Include a README file, user manual, and code comments.</li>
+              <li>(Reach out to make accomidations for Scheduling if needed email:jrodriguez154929@me.bergen.edu)</li>
+              <li><strong>Prepare a Slideshow Via Powerpoint or Google Slides:</strong>Between 5-10 Slides talking about your projects goal and meaning.</li>
+              <li><strong>Due Date:</strong> 3/15/25</li>
+              <li><strong>Prepare a Demonstration:</strong> Showcase the features and functionalities of your project fully working on your device.</li>
+              <li><strong>Create Documentation on Github:</strong> Include a README file, user manual, and code comments.</li>
               <li><strong>Highlight Key Features:</strong> Explain the design choices and how different concepts were integrated.</li>
               <li><strong>Be Prepared for Questions:</strong> Anticipate queries regarding your project and its implementation.</li>
             </ul>
@@ -1541,7 +1537,7 @@ const CppCourseData: CourseData = {
               <li><strong>Conclusion:</strong> Summarize the project's achievements and potential future enhancements.</li>
             </ol>
           `,
-          videoUrl: "https://example.com/week7-debugging-testing-presentation",
+        //  videoUrl: "https://example.com/week7-debugging-testing-presentation",
         },
         {
           title: "7.5 Best Practices for Future Learning and Advanced Topics",
@@ -1578,12 +1574,10 @@ const CppCourseData: CourseData = {
               <li>Deep dive into Object-Oriented Programming and design patterns.</li>
               <li>Study advanced data structures and implement them in C++.</li>
               <li>Learn about memory management techniques and smart pointers.</li>
-              <li>Explore multithreading to write concurrent programs.</li>
-              <li>Master the Standard Template Library (STL) for efficient coding.</li>
               <li>Build complex projects that integrate multiple advanced concepts.</li>
             </ol>
           `,
-          videoUrl: "https://example.com/week7-best-practices",
+          //videoUrl: "https://example.com/week7-best-practices",
         },
         {
           title: "7.6 Summary",
@@ -1597,6 +1591,18 @@ const CppCourseData: CourseData = {
               <li>Presenting your final project, highlighting key features and design choices.</li>
               <li>Exploring best practices for continued learning and advanced C++ topics.</li>
             </ul>
+
+            <h3 class="text-xl font-semibold mt-6">You Will Be Required to Present Your Final Project on 3/15/25 at Bergen Community College in Paramus New Jersey in the STEM Center, You must be a Bergen Student. If completed and judged satasfactory you will be given your C++ Badge: </h3>
+            <ul class="list-disc list-inside mt-2">
+              <li>(Reach out to make accomidations for Scheduling if needed email:jrodriguez154929@me.bergen.edu)</li>
+              <li><strong>Prepare a Slideshow Via Powerpoint or Google Slides:</strong>Between 5-10 Slides talking about your projects goal and meaning.</li>
+              <li><strong>Due Date:</strong> 3/15/25</li>
+              <li><strong>Prepare a Demonstration:</strong> Showcase the features and functionalities of your project fully working on your device.</li>
+              <li><strong>Create Documentation on Github:</strong> Include a README file, user manual, and code comments.</li>
+              <li><strong>Highlight Key Features:</strong> Explain the design choices and how different concepts were integrated.</li>
+              <li><strong>Be Prepared for Questions:</strong> Anticipate queries regarding your project and its implementation.</li>
+            </ul>
+
             <p class="mt-4">Completing the final project showcases your ability to apply all the concepts learned throughout the course, preparing you for more advanced programming challenges.</p>
           `,
           // Removed videoUrl from Summary

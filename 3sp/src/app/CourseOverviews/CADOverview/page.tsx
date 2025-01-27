@@ -23,17 +23,14 @@ import {
 
 const images = [
   {
-    src: "/Scientific Writing Badge (1).png?height=500&width=500",
-    alt: "Scientific Writing Badge",
+    src: "/SWB.png?height=500&width=500",
+    alt: "Image 1",
   },
-  {
-    src: "/circuitbadge.png?height=500&width=500",
-    alt: "Circuit Design Badge",
-  },
-  { src: "/researchbadge.png?height=500&width=500", alt: "Research Badge" },
-  { src: "/CADbadge (1).png?height=500&width=500", alt: "CAD Design Badge" },
-  { src: "/c++badge.png?height=500&width=500", alt: "C++ Programming Badge" },
-  { src: "/caffeinebadge.png?height=500&width=500", alt: "Caffeine Badge" },
+  { src: "/MCDB.png?height=500&width=500", alt: "Image 2" },
+  { src: "/RMB.png?height=500&width=500", alt: "Image 3" },
+  { src: "/CADB.png?height=500&width=500", alt: "Image 4" },
+  { src: "/CppPD.png?height=500&width=500", alt: "Image 5" },
+  { src: "/CELS.png?height=500&width=500", alt: "Image 6" },
 ];
 
 function AnimatedImageCarousel() {
@@ -119,7 +116,7 @@ export default function EnhancedCourseOverviewComponent() {
                   bring their ideas to life.
                 </p>
                 <ul className="list-disc pl-5 space-y-2">
-                  <li>Duration: 8 weeks</li>
+                  <li>Duration: 5 weeks</li>
                   <li>Difficulty: Beginner to Intermediate</li>
                   <li>Prerequisites: Basic computer skills</li>
                 </ul>
@@ -255,83 +252,6 @@ export default function EnhancedCourseOverviewComponent() {
                       </li>
                       <li>Chapter 5.5: Summary </li>
                       <li>Chapter 5.6: Quiz </li>
-                    </ul>
-                  </AccordionContent>
-                </AccordionItem>
-
-                {/* Week 6 */}
-                <AccordionItem value="week6">
-                  <AccordionTrigger>
-                    Week 6: Electrical Components and Safety
-                  </AccordionTrigger>
-                  <AccordionContent>
-                    <ul className="list-disc pl-5 space-y-2">
-                      <li>Chapter 6.1: Introduction</li>
-                      <li>
-                        Chapter 6.2: Identifying and Understanding Resistors,
-                        Capacitors, and Diodes
-                      </li>
-                      <li>
-                        Chapter 6.3: Safely Using Breadboards and Power Supplies
-                        in Circuits
-                      </li>
-                      <li>
-                        Chapter 6.4: Basic Troubleshooting Techniques for Faulty
-                        Components
-                      </li>
-                      <li>Chapter 6.5: Summary </li>
-                      <li>Chapter 6.6: Quiz </li>
-                    </ul>
-                  </AccordionContent>
-                </AccordionItem>
-
-                {/* Week 7 */}
-                <AccordionItem value="week7">
-                  <AccordionTrigger>
-                    Week 7: Programming a Microcontroller
-                  </AccordionTrigger>
-                  <AccordionContent>
-                    <ul className="list-disc pl-5 space-y-2">
-                      <li>Chapter 7.1: Introduction</li>
-                      <li>
-                        Chapter 7.2: Writing and Uploading Simple C++ Programs
-                        to Microcontrollers
-                      </li>
-                      <li>
-                        Chapter 7.3: Understanding Data Types, Variables, and
-                        Logic Control Structures
-                      </li>
-                      <li>
-                        Chapter 7.4: Using Functions to Organize Code for
-                        Complex Operations
-                      </li>
-                      <li>Chapter 7.5: Summary </li>
-                      <li>Chapter 7.6: Quiz </li>
-                    </ul>
-                  </AccordionContent>
-                </AccordionItem>
-
-                {/* Week 8 */}
-                <AccordionItem value="week8">
-                  <AccordionTrigger>
-                    Week 8: Combining Hardware and Software
-                  </AccordionTrigger>
-                  <AccordionContent>
-                    <ul className="list-disc pl-5 space-y-2">
-                      <li>Chapter 8.1: Introduction</li>
-                      <li>
-                        Chapter 8.2: Integrating Sensors and Actuators with
-                        Microcontroller Code
-                      </li>
-                      <li>
-                        Chapter 8.3: Synchronizing Hardware Functionality with
-                        Software Logic
-                      </li>
-                      <li>
-                        Chapter 8.4: Debugging Issues in Integrated Systems
-                      </li>
-                      <li>Chapter 8.5: Summary </li>
-                      <li>Chapter 8.6: Quiz </li>
                     </ul>
                   </AccordionContent>
                 </AccordionItem>

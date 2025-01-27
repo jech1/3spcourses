@@ -21,16 +21,59 @@ const ResearchCourseData: CourseData = {
               <li><strong>Week 1:</strong> Introduction to Research Methods</li>
               <li><strong>Week 2:</strong> Formulating Research Questions and Hypotheses</li>
               <li><strong>Week 3:</strong> Quantitative Research Methods</li>
+              <li><strong>Week 4:</strong> Qualitative Research Methods </li>
+              <li><strong>Week 5:</strong> Mixed-Methods Research</li>
+              <li><strong>Week 6:</strong> Data Collection and Analysis</li>
+              <li><strong>Week 7:</strong> Reporting & Presenting Research Findings</li>
+            </ul>
+            <h3 class="text-xl font-semibold mt-6">Assignments:</h3>
+            <h2 class="text-2xl font-bold">Welcome to Research Methods & Analytics</h2>
+            <p class="mt-4">Research methods are the backbone of any scientific inquiry. This week, we'll explore the fundamental concepts that underpin effective research practices.</p>
+
+            <h3 class="text-xl font-semibold mt-6">Course Overview:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li><strong>Week 1:</strong> Introduction to Research Methods</li>
+              <li><strong>Week 2:</strong> Formulating Research Questions and Hypotheses</li>
+              <li><strong>Week 3:</strong> Quantitative Research Methods</li>
               <li><strong>Week 4:</strong> Qualitative Research Methods</li>
               <li><strong>Week 5:</strong> Mixed-Methods Research</li>
               <li><strong>Week 6:</strong> Data Collection and Analysis</li>
               <li><strong>Week 7:</strong> Reporting and Presenting Research Findings</li>
             </ul>
-            <div class="mt-6">
-              <img src="/researchlogo3sp.png" alt="Course structure diagram" width="500" height="300" />
-            </div>
+
+            <h3 class="text-xl font-semibold mt-6">Assignments:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li>
+                <strong>First Primary Paper Assessment:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>The first primary article assignment is due on 3/1, 4/1, 5/1 (due online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline">Click Here</a>).</li>
+                  <li><a href="https://docs.google.com/forms/d/15WC0Dnk3w0uXmHbGSarU1E1EQWtcDKg4J_vWAsaSdcU/edit#:~:text=https%3A//docs.google.com/document/d/1NylLZ3z%2DgtNnSLKVMWnE8yiyO6XeUzyW/edit?usp=sharing" class="text-blue-500 underline">Primary Paper Review Instructions</a></li>
+                  <li><a href="https://docs.google.com/document/d/1KtL6lD9afCsoKjCukEkAdA5CqbQ61pXlQv0A_wxlLKc/edit?usp=sharing" class="text-blue-500 underline">Primary Paper Written Example One</a></li>
+                </ul>
+              </li>
+              <li>
+                <strong>Second Primary Paper Review Assessment:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>The second primary article assignment is due on 3/1, 4/1, 5/1 (due online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline">Click Here</a>).</li>
+                  <li><a href="https://docs.google.com/document/d/1NylLZ3z-gtNnSLKVMWnE8yiyO6XeUzyW/edit?usp=sharing" class="text-blue-500 underline">Second Primary Paper Review Instructions</a></li>
+                  <li><a href="https://docs.google.com/document/d/1kmFjSnXmEVKCmZDq61NeAGuEdEnQc0--/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Second Primary Paper Written Example Two</a></li>
+                </ul>
+              </li>
+              <li>
+                <strong>Lab Report / Publications Assessment:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>The assignment is due on 3/15, 4/15, 5/15 (due online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline">Click Here</a>).</li>
+                  <li><a href="https://docs.google.com/document/d/1gcb2QrzsQdIWVkULTIWrBDFx_1A8GBd_vxERKSNz7RI/edit?usp=sharing" class="text-blue-500 underline">Lab Report Review Instructions</a></li>
+                  <li><a href="https://docs.google.com/document/d/1KtL6lD9afCsoKjCukEkAdA5CqbQ61pXlQv0A_wxlLKc/edit?usp=sharing" class="text-blue-500 underline">Lab Report Example One</a></li>
+                  <li><a href="https://docs.google.com/document/d/1kmFjSnXmEVKCmZDq61NeAGuEdEnQc0--/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Lab Report Example Two</a></li>
+                  <li><a href="https://docs.google.com/document/d/1Oa-8nCDHAYwBGZqPLE1gJhZ1JhKDJQfk3t_4Ojkf0q4/edit?usp=sharing" class="text-blue-500 underline">Lab Report Checklist And Guide</a></li>
+                </ul>
+              </li>
+            </ul>
+
+            
           `,
-          videoUrl: "https://example.com/week1-intro",
+          //videoUrl: "https://example.com/week1-intro",
         },
         {
           title: "Chapter 1.2: Understanding the Purpose of Research Methods",
@@ -50,7 +93,7 @@ const ResearchCourseData: CourseData = {
               <li><strong>Applied Research:</strong> Seeks to solve practical problems.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week1-purpose",
+          //videoUrl: "https://example.com/week1-purpose",
         },
         {
           title: "Chapter 1.3: Key Concepts: Reliability, Validity, and Ethics",
@@ -75,7 +118,7 @@ const ResearchCourseData: CourseData = {
               <li><strong>Integrity:</strong> Maintaining honesty and transparency in conducting and reporting research.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week1-key-concepts",
+          //videoUrl: "https://example.com/week1-key-concepts",
         },
         {
           title: "Chapter 1.4: Summary",
@@ -128,7 +171,7 @@ const ResearchCourseData: CourseData = {
               <li>Develop testable hypotheses.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week2-intro",
+         // videoUrl: "https://example.com/week2-intro",
         },
         {
           title: "Chapter 2.2: Identifying Research Gaps and Formulating Questions",
@@ -160,7 +203,7 @@ const ResearchCourseData: CourseData = {
               <li>Consider the feasibility of researching the question.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week2-identifying-gaps",
+        //  videoUrl: "https://example.com/week2-identifying-gaps",
         },
         {
           title: "Chapter 2.3: Writing Clear and Testable Hypotheses",
@@ -202,18 +245,10 @@ const ResearchCourseData: CourseData = {
               <li>Ensure your hypothesis is grounded in theory or existing literature.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week2-writing-hypotheses",
+        //  videoUrl: "https://example.com/week2-writing-hypotheses",
         },
         {
-          title: "Chapter 2.4: Responsive Design Principles",
-          content: `
-            <h2 class="text-2xl font-bold">Note: This Chapter May Be Misplaced</h2>
-            <p class="mt-4">It seems there might be an error in the chapter listing. "Responsive Design Principles" typically pertains to web design, which may not align with the context of research methods. If this chapter is intended, please provide additional details or confirm its inclusion.</p>
-          `,
-          videoUrl: "https://example.com/week2-responsive-design",
-        },
-        {
-          title: "Chapter 2.5: Summary",
+          title: "Chapter 2.4: Summary",
           content: `
             <h2 class="text-2xl font-bold">Week 2 Summary: Formulating Research Questions and Hypotheses</h2>
             <p class="mt-4">This week, we've focused on:</p>
@@ -227,7 +262,7 @@ const ResearchCourseData: CourseData = {
           // videoUrl removed
         },
         {
-          title: "Chapter 2.6: Quiz",
+          title: "Chapter 2.5: Quiz",
           content: `
             <h2 class="text-2xl font-bold">Test Your Understanding</h2>
             <p class="mt-4">Assess your grasp of the key concepts from this week.</p>
@@ -262,8 +297,40 @@ const ResearchCourseData: CourseData = {
               <li>Learn about different quantitative research designs.</li>
               <li>Explore data collection and analysis techniques.</li>
             </ul>
+            
+
+            <h3 class="text-xl font-semibold mt-6">Assignments:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li>
+                <strong>First Primary Paper Assessment:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>The first primary article assignment is due on 3/1, 4/1, 5/1 (due online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline">Click Here</a>).</li>
+                  <li><a href="https://docs.google.com/forms/d/15WC0Dnk3w0uXmHbGSarU1E1EQWtcDKg4J_vWAsaSdcU/edit#:~:text=https%3A//docs.google.com/document/d/1NylLZ3z%2DgtNnSLKVMWnE8yiyO6XeUzyW/edit?usp=sharing" class="text-blue-500 underline">Primary Paper Review Instructions</a></li>
+                  <li><a href="https://docs.google.com/document/d/1KtL6lD9afCsoKjCukEkAdA5CqbQ61pXlQv0A_wxlLKc/edit?usp=sharing" class="text-blue-500 underline">Primary Paper Written Example One</a></li>
+                </ul>
+              </li>
+              <li>
+                <strong>Second Primary Paper Review Assessment:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>The second primary article assignment is due on 3/1, 4/1, 5/1 (due online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline">Click Here</a>).</li>
+                  <li><a href="https://docs.google.com/document/d/1NylLZ3z-gtNnSLKVMWnE8yiyO6XeUzyW/edit?usp=sharing" class="text-blue-500 underline">Second Primary Paper Review Instructions</a></li>
+                  <li><a href="https://docs.google.com/document/d/1kmFjSnXmEVKCmZDq61NeAGuEdEnQc0--/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Second Primary Paper Written Example Two</a></li>
+                </ul>
+              </li>
+              <li>
+                <strong>Lab Report / Publications Assessment:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>The assignment is due on 3/15, 4/15, 5/15 (due online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline">Click Here</a>).</li>
+                  <li><a href="https://docs.google.com/document/d/1gcb2QrzsQdIWVkULTIWrBDFx_1A8GBd_vxERKSNz7RI/edit?usp=sharing" class="text-blue-500 underline">Lab Report Review Instructions</a></li>
+                  <li><a href="https://docs.google.com/document/d/1KtL6lD9afCsoKjCukEkAdA5CqbQ61pXlQv0A_wxlLKc/edit?usp=sharing" class="text-blue-500 underline">Lab Report Example One</a></li>
+                  <li><a href="https://docs.google.com/document/d/1kmFjSnXmEVKCmZDq61NeAGuEdEnQc0--/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Lab Report Example Two</a></li>
+                  <li><a href="https://docs.google.com/document/d/1Oa-8nCDHAYwBGZqPLE1gJhZ1JhKDJQfk3t_4Ojkf0q4/edit?usp=sharing" class="text-blue-500 underline">Lab Report Checklist And Guide</a></li>
+                </ul>
+              </li>
+            </ul>
+
           `,
-          videoUrl: "https://example.com/week3-intro",
+       //   videoUrl: "https://example.com/week3-intro",
         },
         {
           title: "Chapter 3.2: Experimental Design and Control",
@@ -290,7 +357,7 @@ const ResearchCourseData: CourseData = {
             <h3 class="text-xl font-semibold mt-6">Example:</h3>
             <p class="mt-4">"To determine the effect of study environment on productivity, participants will be randomly assigned to either a quiet study room (IV) or a noisy study room (IV). Productivity (DV) will be measured by the number of tasks completed."</p>
           `,
-          videoUrl: "https://example.com/week3-experimental-design",
+       //   videoUrl: "https://example.com/week3-experimental-design",
         },
         {
           title: "Chapter 3.3: Survey Design and Measurement",
@@ -318,7 +385,7 @@ const ResearchCourseData: CourseData = {
             <h3 class="text-xl font-semibold mt-6">Example Survey Question:</h3>
             <p class="mt-4">"On a scale of 1 to 5, how satisfied are you with your current study environment?"</p>
           `,
-          videoUrl: "https://example.com/week3-survey-design",
+      //    videoUrl: "https://example.com/week3-survey-design",
         },
         {
           title: "Chapter 3.4: Data Collection and Analysis Techniques",
@@ -348,7 +415,7 @@ const ResearchCourseData: CourseData = {
             <h3 class="text-xl font-semibold mt-6">Example:</h3>
             <p class="mt-4">"A multiple regression analysis will be conducted to determine the impact of study time, attendance, and extracurricular activities on academic performance."</p>
           `,
-          videoUrl: "https://example.com/week3-data-analysis",
+      //    videoUrl: "https://example.com/week3-data-analysis",
         },
         {
           title: "Chapter 3.5: Summary",
@@ -361,7 +428,38 @@ const ResearchCourseData: CourseData = {
               <li>Effective survey design and measurement techniques.</li>
               <li>Data collection methods and statistical analysis techniques.</li>
             </ul>
-            <p class="mt-4">These concepts are essential for conducting rigorous and reliable quantitative research studies.</p>
+            
+
+            <h3 class="text-xl font-semibold mt-6">Assignments:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li>
+                <strong>First Primary Paper Assessment:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>The first primary article assignment is due on 3/1, 4/1, 5/1 (due online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline">Click Here</a>).</li>
+                  <li><a href="https://docs.google.com/forms/d/15WC0Dnk3w0uXmHbGSarU1E1EQWtcDKg4J_vWAsaSdcU/edit#:~:text=https%3A//docs.google.com/document/d/1NylLZ3z%2DgtNnSLKVMWnE8yiyO6XeUzyW/edit?usp=sharing" class="text-blue-500 underline">Primary Paper Review Instructions</a></li>
+                  <li><a href="https://docs.google.com/document/d/1KtL6lD9afCsoKjCukEkAdA5CqbQ61pXlQv0A_wxlLKc/edit?usp=sharing" class="text-blue-500 underline">Primary Paper Written Example One</a></li>
+                </ul>
+              </li>
+              <li>
+                <strong>Second Primary Paper Review Assessment:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>The second primary article assignment is due on 3/1, 4/1, 5/1 (due online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline">Click Here</a>).</li>
+                  <li><a href="https://docs.google.com/document/d/1NylLZ3z-gtNnSLKVMWnE8yiyO6XeUzyW/edit?usp=sharing" class="text-blue-500 underline">Second Primary Paper Review Instructions</a></li>
+                  <li><a href="https://docs.google.com/document/d/1kmFjSnXmEVKCmZDq61NeAGuEdEnQc0--/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Second Primary Paper Written Example Two</a></li>
+                </ul>
+              </li>
+              <li>
+                <strong>Lab Report / Publications Assessment:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>The assignment is due on 3/15, 4/15, 5/15 (due online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline">Click Here</a>).</li>
+                  <li><a href="https://docs.google.com/document/d/1gcb2QrzsQdIWVkULTIWrBDFx_1A8GBd_vxERKSNz7RI/edit?usp=sharing" class="text-blue-500 underline">Lab Report Review Instructions</a></li>
+                  <li><a href="https://docs.google.com/document/d/1KtL6lD9afCsoKjCukEkAdA5CqbQ61pXlQv0A_wxlLKc/edit?usp=sharing" class="text-blue-500 underline">Lab Report Example One</a></li>
+                  <li><a href="https://docs.google.com/document/d/1kmFjSnXmEVKCmZDq61NeAGuEdEnQc0--/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Lab Report Example Two</a></li>
+                  <li><a href="https://docs.google.com/document/d/1Oa-8nCDHAYwBGZqPLE1gJhZ1JhKDJQfk3t_4Ojkf0q4/edit?usp=sharing" class="text-blue-500 underline">Lab Report Checklist And Guide</a></li>
+                </ul>
+              </li>
+            </ul>
+
           `,
           // videoUrl removed
         },
@@ -402,7 +500,7 @@ const ResearchCourseData: CourseData = {
               <li>Explore data collection and analysis techniques specific to qualitative methods.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week4-intro",
+       //   videoUrl: "https://example.com/week4-intro",
         },
         {
           title: "Chapter 4.2: Case Study and Ethnography Approaches",
@@ -436,7 +534,7 @@ const ResearchCourseData: CourseData = {
               <li>Difficulties in generalizing findings.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week4-case-study-ethnography",
+      //    videoUrl: "https://example.com/week4-case-study-ethnography",
         },
         {
           title: "Chapter 4.3: Interview and Focus Group Techniques",
@@ -470,7 +568,7 @@ const ResearchCourseData: CourseData = {
               <li>Probe deeper when necessary to gain comprehensive insights.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week4-interview-focus-groups",
+       //   videoUrl: "https://example.com/week4-interview-focus-groups",
         },
         {
           title: "Chapter 4.4: Analyzing Qualitative Data: Thematic Analysis",
@@ -499,7 +597,7 @@ const ResearchCourseData: CourseData = {
               <li>Maintain a balance between identifying patterns and honoring individual experiences.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week4-thematic-analysis",
+      //    videoUrl: "https://example.com/week4-thematic-analysis",
         },
         {
           title: "Chapter 4.5: Summary",
@@ -553,7 +651,7 @@ const ResearchCourseData: CourseData = {
               <li>Explore strategies for integrating quantitative and qualitative data.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week5-intro",
+     //     videoUrl: "https://example.com/week5-intro",
         },
         {
           title: "Chapter 5.2: Types of Mixed-Methods Designs",
@@ -583,7 +681,7 @@ const ResearchCourseData: CourseData = {
             <h3 class="text-xl font-semibold mt-6">Example:</h3>
             <p class="mt-4">"A convergent parallel design will be used to collect survey data and conduct focus groups simultaneously to understand the impact of remote work on employee productivity."</p>
           `,
-          videoUrl: "https://example.com/week5-mixed-methods-designs",
+     //     videoUrl: "https://example.com/week5-mixed-methods-designs",
         },
         {
           title: "Chapter 5.3: Integrating Quantitative and Qualitative Data",
@@ -605,7 +703,7 @@ const ResearchCourseData: CourseData = {
             <h3 class="text-xl font-semibold mt-6">Example:</h3>
             <p class="mt-4">"The survey results indicated a positive correlation between remote work and job satisfaction. Focus group discussions revealed that flexible schedules and reduced commute times were key factors contributing to this satisfaction."</p>
           `,
-          videoUrl: "https://example.com/week5-data-integration",
+     //     videoUrl: "https://example.com/week5-data-integration",
         },
         {
           title: "Chapter 5.4: Benefits and Limitations of Mixed-Methods Research",
@@ -633,7 +731,7 @@ const ResearchCourseData: CourseData = {
             <h3 class="text-xl font-semibold mt-6">Example:</h3>
             <p class="mt-4">"To evaluate the effectiveness of a new teaching method, quantitative data from test scores will be complemented with qualitative feedback from student interviews."</p>
           `,
-          videoUrl: "https://example.com/week5-benefits-limitations",
+       //   videoUrl: "https://example.com/week5-benefits-limitations",
         },
         {
           title: "Chapter 5.5: Summary",
@@ -687,7 +785,7 @@ const ResearchCourseData: CourseData = {
               <li>Explore statistical and analytical techniques for data analysis.</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week6-intro",
+          //videoUrl: "https://example.com/week6-intro",
         },
         {
           title:
@@ -722,7 +820,7 @@ const ResearchCourseData: CourseData = {
             <h3 class="text-xl font-semibold mt-6">Example:</h3>
             <p class="mt-4">"A survey will be distributed to 500 university students to assess their study habits and academic performance. Additionally, in-depth interviews will be conducted with 20 students to explore the challenges they face."</p>
           `,
-          videoUrl: "https://example.com/week6-data-collection-methods",
+          //videoUrl: "https://example.com/week6-data-collection-methods",
         },
         {
           title: "Chapter 6.3: Data Management and Organization",
@@ -750,7 +848,7 @@ const ResearchCourseData: CourseData = {
             <h3 class="text-xl font-semibold mt-6">Example:</h3>
             <p class="mt-4">"All survey responses will be stored in encrypted files on a secure server with access restricted to the research team. Backup copies will be maintained daily to prevent data loss."</p>
           `,
-          videoUrl: "https://example.com/week6-data-management",
+          //videoUrl: "https://example.com/week6-data-management",
         },
         {
           title: "Chapter 6.4: Statistical Analysis Techniques",
@@ -779,7 +877,7 @@ const ResearchCourseData: CourseData = {
             <h3 class="text-xl font-semibold mt-6">Example:</h3>
             <p class="mt-4">"A multiple regression analysis will be conducted to determine the impact of study time, attendance, and extracurricular activities on academic performance."</p>
           `,
-          videoUrl: "https://example.com/week6-statistical-analysis",
+          //videoUrl: "https://example.com/week6-statistical-analysis",
         },
         {
           title: "Chapter 6.5: Summary",
@@ -831,8 +929,40 @@ const ResearchCourseData: CourseData = {
               <li>Understand best practices for presenting data and findings.</li>
               <li>Explore strategies for effective oral presentations.</li>
             </ul>
+                        
+
+            <h3 class="text-xl font-semibold mt-6">Assignments:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li>
+                <strong>First Primary Paper Assessment:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>The first primary article assignment is due on 3/1, 4/1, 5/1 (due online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline">Click Here</a>).</li>
+                  <li><a href="https://docs.google.com/forms/d/15WC0Dnk3w0uXmHbGSarU1E1EQWtcDKg4J_vWAsaSdcU/edit#:~:text=https%3A//docs.google.com/document/d/1NylLZ3z%2DgtNnSLKVMWnE8yiyO6XeUzyW/edit?usp=sharing" class="text-blue-500 underline">Primary Paper Review Instructions</a></li>
+                  <li><a href="https://docs.google.com/document/d/1KtL6lD9afCsoKjCukEkAdA5CqbQ61pXlQv0A_wxlLKc/edit?usp=sharing" class="text-blue-500 underline">Primary Paper Written Example One</a></li>
+                </ul>
+              </li>
+              <li>
+                <strong>Second Primary Paper Review Assessment:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>The second primary article assignment is due on 3/1, 4/1, 5/1 (due online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline">Click Here</a>).</li>
+                  <li><a href="https://docs.google.com/document/d/1NylLZ3z-gtNnSLKVMWnE8yiyO6XeUzyW/edit?usp=sharing" class="text-blue-500 underline">Second Primary Paper Review Instructions</a></li>
+                  <li><a href="https://docs.google.com/document/d/1kmFjSnXmEVKCmZDq61NeAGuEdEnQc0--/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Second Primary Paper Written Example Two</a></li>
+                </ul>
+              </li>
+              <li>
+                <strong>Lab Report / Publications Assessment:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>The assignment is due on 3/15, 4/15, 5/15 (due online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline">Click Here</a>).</li>
+                  <li><a href="https://docs.google.com/document/d/1gcb2QrzsQdIWVkULTIWrBDFx_1A8GBd_vxERKSNz7RI/edit?usp=sharing" class="text-blue-500 underline">Lab Report Review Instructions</a></li>
+                  <li><a href="https://docs.google.com/document/d/1KtL6lD9afCsoKjCukEkAdA5CqbQ61pXlQv0A_wxlLKc/edit?usp=sharing" class="text-blue-500 underline">Lab Report Example One</a></li>
+                  <li><a href="https://docs.google.com/document/d/1kmFjSnXmEVKCmZDq61NeAGuEdEnQc0--/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Lab Report Example Two</a></li>
+                  <li><a href="https://docs.google.com/document/d/1Oa-8nCDHAYwBGZqPLE1gJhZ1JhKDJQfk3t_4Ojkf0q4/edit?usp=sharing" class="text-blue-500 underline">Lab Report Checklist And Guide</a></li>
+                </ul>
+              </li>
+            </ul>
+
           `,
-          videoUrl: "https://example.com/week7-intro",
+      //    videoUrl: "https://example.com/week7-intro",
         },
         {
           title: "Chapter 7.2: Structuring Research Reports and Academic Papers",
@@ -875,7 +1005,7 @@ const ResearchCourseData: CourseData = {
               <li>Data analysis procedures</li>
             </ul>
           `,
-          videoUrl: "https://example.com/week7-structuring-reports",
+          //videoUrl: "https://example.com/week7-structuring-reports",
         },
         {
           title: "Chapter 7.3: Presenting Data and Findings Effectively",
@@ -904,7 +1034,7 @@ const ResearchCourseData: CourseData = {
             <h3 class="text-xl font-semibold mt-6">Example:</h3>
             <p class="mt-4">"Figure 2 illustrates the positive correlation between study hours and exam scores, indicating that increased study time is associated with higher academic performance."</p>
           `,
-          videoUrl: "https://example.com/week7-presenting-data",
+          //videoUrl: "https://example.com/week7-presenting-data",
         },
         {
           title: "Chapter 7.4: Effective Oral and Poster Presentations",
@@ -935,7 +1065,7 @@ const ResearchCourseData: CourseData = {
             <h3 class="text-xl font-semibold mt-6">Example:</h3>
             <p class="mt-4">"During your oral presentation, begin with a brief introduction to your research question, followed by an overview of your methodology. Use slides to display key graphs and data points, and conclude by discussing the implications of your findings."</p>
           `,
-          videoUrl: "https://example.com/week7-presentation",
+          //videoUrl: "https://example.com/week7-presentation",
         },
         {
           title: "Chapter 7.5: Summary",
@@ -947,7 +1077,38 @@ const ResearchCourseData: CourseData = {
               <li>Effective techniques for presenting data through visuals and written descriptions.</li>
               <li>Strategies for delivering compelling oral and poster presentations.</li>
             </ul>
-            <p class="mt-4">Mastering these skills ensures that your research is communicated effectively, enhancing its impact and reach within the academic community.</p>
+            
+
+            <h3 class="text-xl font-semibold mt-6">Assignments:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li>
+                <strong>First Primary Paper Assessment:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>The first primary article assignment is due on 3/1, 4/1, 5/1 (due online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline">Click Here</a>).</li>
+                  <li><a href="https://docs.google.com/forms/d/15WC0Dnk3w0uXmHbGSarU1E1EQWtcDKg4J_vWAsaSdcU/edit#:~:text=https%3A//docs.google.com/document/d/1NylLZ3z%2DgtNnSLKVMWnE8yiyO6XeUzyW/edit?usp=sharing" class="text-blue-500 underline">Primary Paper Review Instructions</a></li>
+                  <li><a href="https://docs.google.com/document/d/1KtL6lD9afCsoKjCukEkAdA5CqbQ61pXlQv0A_wxlLKc/edit?usp=sharing" class="text-blue-500 underline">Primary Paper Written Example One</a></li>
+                </ul>
+              </li>
+              <li>
+                <strong>Second Primary Paper Review Assessment:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>The second primary article assignment is due on 3/1, 4/1, 5/1 (due online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline">Click Here</a>).</li>
+                  <li><a href="https://docs.google.com/document/d/1NylLZ3z-gtNnSLKVMWnE8yiyO6XeUzyW/edit?usp=sharing" class="text-blue-500 underline">Second Primary Paper Review Instructions</a></li>
+                  <li><a href="https://docs.google.com/document/d/1kmFjSnXmEVKCmZDq61NeAGuEdEnQc0--/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Second Primary Paper Written Example Two</a></li>
+                </ul>
+              </li>
+              <li>
+                <strong>Lab Report / Publications Assessment:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>The assignment is due on 3/15, 4/15, 5/15 (due online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline">Click Here</a>).</li>
+                  <li><a href="https://docs.google.com/document/d/1gcb2QrzsQdIWVkULTIWrBDFx_1A8GBd_vxERKSNz7RI/edit?usp=sharing" class="text-blue-500 underline">Lab Report Review Instructions</a></li>
+                  <li><a href="https://docs.google.com/document/d/1KtL6lD9afCsoKjCukEkAdA5CqbQ61pXlQv0A_wxlLKc/edit?usp=sharing" class="text-blue-500 underline">Lab Report Example One</a></li>
+                  <li><a href="https://docs.google.com/document/d/1kmFjSnXmEVKCmZDq61NeAGuEdEnQc0--/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Lab Report Example Two</a></li>
+                  <li><a href="https://docs.google.com/document/d/1Oa-8nCDHAYwBGZqPLE1gJhZ1JhKDJQfk3t_4Ojkf0q4/edit?usp=sharing" class="text-blue-500 underline">Lab Report Checklist And Guide</a></li>
+                </ul>
+              </li>
+            </ul>
+
           `,
           // videoUrl removed
         },
