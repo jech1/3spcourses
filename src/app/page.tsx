@@ -43,7 +43,7 @@ const courses = [
     name: "C++ Project Design",
     description:
       "Understand programming concepts and write efficient code using one of the most utilized languages worldwide.",
-    image: "/3spc++logo.png?height=100&width=200",
+    image: "/3spc++logo.png?height=100&width=200", 
   },
   {
     id: 5,
@@ -58,7 +58,7 @@ const courses = [
     slug: "caffeineOverview",
     name: "Caffeine Extraction",
     description:
-      "Master the fundamentals of research in a lab by Extracting Caffeine.",
+      "Master the fundamentals of research in a lab by Extracting Caffeine. ",
     image: "/3spCaffinelogo.png?height=100&width=200",
   },
 ];
