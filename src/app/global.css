@@ -104,3 +104,26 @@
     margin-top: 1.5rem !important;
   }
 }
+
+/* Responsive styles for smaller devices (phones) */
+@layer base {
+  @media (max-width: 640px) {
+    html {
+      font-size: 14px; /* Adjusts the base font size for mobile devices */
+    }
+
+    .course-page-layout .custom-spacing .prose h2 {
+      margin-top: 2rem !important; /* Reduced spacing for smaller screens */
+    }
+
+    .course-page-layout .custom-spacing .prose h3 {
+      margin-top: 1.5rem !important;
+    }
+
+    .course-page-layout .custom-spacing .prose p,
+    .course-page-layout .custom-spacing .prose ul,
+    .course-page-layout .custom-spacing .prose ol {
+      margin-top: 1rem !important;
+    }
+  }
+}
