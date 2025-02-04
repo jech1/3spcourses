@@ -33,7 +33,7 @@ const courses = [
     slug: "CppCourse",
     name: "C++ Project Design",
     description: "Understand programming concepts and write efficient code.",
-    image: "/3spc++logo.png?height=100&width=200",
+    image: "/3spC++logo.png?height=100&width=200",
   },
   {
     id: 5,
