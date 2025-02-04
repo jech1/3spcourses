@@ -56,7 +56,7 @@ export default function RootLayout({
                       <li>
                         <Link
                           href="CoursesPathways.png"
-                          className="hover:underline"
+                          className="hover:underline hover:text-blue-700"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
@@ -64,16 +64,21 @@ export default function RootLayout({
                         </Link>
                       </li>
                       <li>
-                        <Link href="#" className="hover:underline">
+                        <Link
+                          href="#"
+                          className="hover:underline hover:text-blue-700"
+                        >
                           FAQ
                         </Link>
                       </li>
                       <li>
-                        <Link href="Merged_document.png" className="hover:underline">
-                        Terms and conditions
+                        <Link
+                          href="Merged_document.png"
+                          className="hover:underline hover:text-blue-700"
+                        >
+                          Terms and conditions
                         </Link>
                       </li>
-                
                     </ul>
                   </div>
                   <div>
@@ -83,26 +88,26 @@ export default function RootLayout({
                         Email:{" "}
                         <a
                           href="mailto:jrodriguez154929@me.bergen.edu"
-                          className="hover:underline"
+                          className="hover:underline hover:text-blue-700"
                         >
-                          3spSupport@bergen.edu (Press link to email)
+                          3spSupport@bergen.edu
                         </a>
                       </li>
                       <li>
                         Website:{" "}
                         <a
                           href="https://www.bergen.edu"
-                          className="hover:underline"
+                          className="hover:underline hover:text-blue-700"
                         >
                           www.bergen.edu
                         </a>
                       </li>
                       <li>Made by: Jordan Rodriguez & Jacob Echeverry</li>
                       <li>
-                      Visit:{" "}
+                        Visit:{" "}
                         <a
                           href="https://bitmedia0.webflow.io"
-                          className="hover:underline"
+                          className="hover:underline hover:text-blue-700"
                         >
                           www.JMR-JE.com
                         </a>
