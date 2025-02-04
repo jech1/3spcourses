@@ -5,7 +5,7 @@ import { CourseData } from "../../types/courseTypes";
 
 // Complete course data with all weeks and chapters
 const CppCourseData: CourseData = {
-  title: "C++ Coding",
+  title: "C++ Project Design",
   weeks: [
     // Week 1
     {
