@@ -6,6 +6,7 @@ import SessionProviderWrapper from "./SessionProviderWrapper"; // Import the wra
 import "./global.css";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+//import { Analytics } from "@vercel/analytics/react"
 
 const inter = Inter({ subsets: ["latin"] });
 
