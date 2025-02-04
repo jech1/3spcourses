@@ -29,7 +29,7 @@ export default function AnimatedImageCarousel() {
       if (xValue <= -containerWidth) {
         x.set(0);
       } else {
-        x.set(xValue - 2); // Adjust this value to change the speed
+        x.set(xValue - 1); // Adjust this value to change the speed higher the faster
       }
     }
   });
