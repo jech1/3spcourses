@@ -1,5 +1,6 @@
 "use client";
 
+import { Suspense } from "react";
 import { signIn } from "next-auth/react";
 import { useSearchParams, useRouter } from "next/navigation";
 import Image from "next/image";
@@ -12,21 +13,17 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 
-console.log("Login Page Loaded"); // Initial log to confirm the page is rendering
+console.log("Login Page Loaded"); // Debugging: Confirm the page renders
 
-
-
-export default function LoginPage() {
-  // Read the `error` parameter from the query string
+// Child component to handle useSearchParams safely inside Suspense
+const LoginPageContent = () => {
   const searchParams = useSearchParams();
   const error = searchParams.get("error");
-  console.log("Error query parameter:", error); // Log the error query parameter value
+  console.log("Error query parameter:", error); // Debugging
 
-  // Initialize the useRouter hook
   const router = useRouter();
 
-  //error handling
-  // Handle navigation back to home with error logging
+  // Navigate back to home
   const handleBackToHome = () => {
     try {
       console.log("Navigating back to home...");
@@ -36,7 +33,7 @@ export default function LoginPage() {
     }
   };
 
-  // Handle sign-in with error logging
+  // Google sign-in handler
   const handleSignIn = () => {
     try {
       console.log("Initiating Google sign-in...");
@@ -46,8 +43,6 @@ export default function LoginPage() {
     }
   };
 
-
-    
   return (
     <div className="min-h-screen bg-gradient-to-b from-[#632a88] to-white flex items-center justify-center px-4 sm:px-6 lg:px-8">
       <Card className="w-full max-w-md">
@@ -77,8 +72,7 @@ export default function LoginPage() {
                   You must log in with an @me.bergen.edu email address.
                 </span>
               </div>
-              {console.warn("Access Denied: Non-@me.bergen.edu email used")}{" "}
-              {/* Warn on invalid email */}
+              {console.warn("Access Denied: Non-@me.bergen.edu email used")}
             </>
           )}
 
@@ -102,4 +96,15 @@ export default function LoginPage() {
       </Card>
     </div>
   );
-}
+};
+
+// Wrapper Component to handle Suspense
+const LoginPage = () => {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <LoginPageContent />
+    </Suspense>
+  );
+};
+
+export default LoginPage;
