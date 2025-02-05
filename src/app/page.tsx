@@ -1,5 +1,6 @@
 "use client";
 
+//import { useRouter } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
 import AnimatedImageCarousel from "../components/ui/AnimatedImageCarousel";
@@ -43,7 +44,7 @@ const courses = [
     name: "C++ Project Design",
     description:
       "Understand programming concepts and write efficient code using one of the most utilized languages worldwide.",
-    image: "/3spC++logo.png?height=100&width=200", 
+    image: "/3spC++logo.png?height=100&width=200",
   },
   {
     id: 5,
@@ -64,6 +65,7 @@ const courses = [
 ];
 
 export default function Home() {
+  //const router = useRouter();
   return (
     <div className="min-h-screen flex flex-col">
       <main className="flex-grow">
@@ -84,19 +86,14 @@ export default function Home() {
               grow, and succeed in the world of technology as a Stem Student
               Scholar.
             </p>
-            <a
-              href="CoursesPathways.png"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:underline"
-            >
+            <Link href="/CoursePathways">
               <Button
                 size="lg"
                 className="bg-white text-[#11001C] hover:bg-gray-100"
               >
                 Explore Pathways
               </Button>
-            </a>
+            </Link>
           </div>
         </section>
 
