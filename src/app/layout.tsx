@@ -55,10 +55,8 @@ export default function RootLayout({
                     <ul className="space-y-2">
                       <li>
                         <Link
-                          href="CoursesPathways.png"
+                          href="/CoursePathways"
                           className="hover:underline hover:text-blue-700"
-                          target="_blank"
-                          rel="noopener noreferrer"
                         >
                           Badges Pathways
                         </Link>
@@ -73,10 +71,10 @@ export default function RootLayout({
                       </li>
                       <li>
                         <Link
-                          href="Merged_document.png"
+                          href="/TermsConditions"
                           className="hover:underline hover:text-blue-700"
                         >
-                          Terms and conditions
+                          Terms and Conditions
                         </Link>
                       </li>
                     </ul>
