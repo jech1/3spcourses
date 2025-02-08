@@ -52,7 +52,7 @@ export default function CoursePathways() {
       description:
         "Used for developing performance-critical applications like video games, system software, or simulations requiring computational power.",
       leadsTo: "Computer Science projects",
-      badge: "/cppPD.png",
+      badge: "/CppPD.png",
       badgeColor: "purple",
     },
   ];
