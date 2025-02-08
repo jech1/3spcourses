@@ -1,6 +1,7 @@
 "use client";
 
 import { Inter } from "next/font/google";
+import Image from "next/image";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -11,7 +12,7 @@ export default function CoursePathways() {
       description:
         "Used for creating mechanical systems and hardware prototypes, such as IoT devices or engineering projects.",
       leadsTo: "Electrical Engineering projects",
-      badge: "/3spcourses/3spcourses/public/circuitbadge.png",
+      badge: "/MCDB.png",
       badgeColor: "orange",
     },
     {
@@ -19,7 +20,7 @@ export default function CoursePathways() {
       description:
         "Essential for documenting research findings, drafting technical reports, and publishing articles in academic journals or professional settings.",
       leadsTo: "Multidisciplinary projects",
-      badge: "/3spcourses/public/Scientific Writing Badge (1).png",
+      badge: "/SWB.png",
       badgeColor: "purple",
     },
     {
@@ -27,7 +28,7 @@ export default function CoursePathways() {
       description:
         "Applied in designing detailed mechanical components, creating architectural blueprints, or visualizing concepts in engineering projects.",
       leadsTo: "Engineering projects",
-      badge: "/3spcourses/3spcourses/public/CADbadge (1).png",
+      badge: "/CADB.png",
       badgeColor: "orange",
     },
     {
@@ -35,7 +36,7 @@ export default function CoursePathways() {
       description:
         "Utilized to design experiments, collect and analyze data, and validate findings in various scientific and technical investigations.",
       leadsTo: "Multidisciplinary projects",
-      badge: "/3spcourses/public/Researchbadge.png",
+      badge: "/RMB.png",
       badgeColor: "purple",
     },
     {
@@ -43,7 +44,7 @@ export default function CoursePathways() {
       description:
         "Conducted to study chemical processes, develop purification techniques, or explore applications in food science and pharmaceuticals.",
       leadsTo: "Biology and Chemistry projects",
-      badge: "/3spcourses/public/c++badge.png",
+      badge: "/CELS.png",
       badgeColor: "orange",
     },
     {
@@ -51,7 +52,7 @@ export default function CoursePathways() {
       description:
         "Used for developing performance-critical applications like video games, system software, or simulations requiring computational power.",
       leadsTo: "Computer Science projects",
-      badge: "/3spcourses/public/c++badge.png",
+      badge: "/cppPD.png",
       badgeColor: "purple",
     },
   ];
@@ -76,18 +77,18 @@ export default function CoursePathways() {
                 >
                   <div className="p-6">
                     <div className="flex items-start gap-4">
-                      <div className="w-24 h-24 relative shrink-0">
-                        <div
-                          className={`absolute inset-0 rounded-full ${
-                            course.badgeColor === "orange"
-                              ? "bg-gradient-to-br from-orange-200 to-orange-400"
-                              : "bg-gradient-to-br from-[#632a88] to-purple-400"
-                          } opacity-20`}
+                      <div className="w-32 h-32 relative shrink-0 flex items-center justify-center">
+                        <Image
+                          src={course.badge || "/placeholder.svg"}
+                          alt={`${course.title} badge`}
+                          fill
+                          sizes="(max-width: 768px) 500px, 500px"
+                          className="rounded-full object-cover"
+                          priority
                         />
-                        <div className="absolute -left-1/2 bottom-0 w-full h-1/2 bg-[#632a88] rounded-r-full transform -rotate-12" />
                       </div>
 
-                      <div className="space-y-2">
+                      <div className="space-y-2 flex-1">
                         <h3 className="font-bold text-lg">{course.title}</h3>
                         <p className="text-sm text-gray-600">
                           {course.description}
