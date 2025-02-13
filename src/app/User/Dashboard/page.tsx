@@ -38,8 +38,8 @@ const courses = [
   {
     id: 5,
     slug: "CADCourse",
-    name: "3D Modeling CAD",
-    description: "Learn the principles of CAD and develop your own models.",
+    name: "3D Printing & CAD with Onshape",
+    description: "Learn the principles of CAD and develop your own 3D printed models.",
     image: "/3spCADlogo.png?height=100&width=200",
   },
   {

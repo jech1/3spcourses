@@ -14,7 +14,9 @@ const handler = NextAuth({
   },
   callbacks: {
     async signIn({ profile }) {
-      if (profile?.email?.endsWith("@me.bergen.edu")) {
+      if (profile?.email?.endsWith("@me.bergen.edu" || "ctully1.bergen.edu" || "tsnyder@bergen.edu" 
+        || "jrodriguez154929@me.bergen.edu" 
+      )) {
         return true;
       }
       return false;

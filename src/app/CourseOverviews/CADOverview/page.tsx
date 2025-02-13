@@ -91,10 +91,10 @@ export default function EnhancedCourseOverviewComponent() {
           <div className="container mx-auto px-4 py-12 space-y-36 mt-0">
             <section className="text-center space-y-4">
               <h1 className="text-4xl font-bold text-white">
-                3D Modeling & CAD
+              3D Printing & CAD with Onshape
               </h1>
               <p className="text-xl text-white max-w-2xl mx-auto">
-                Learn the principles of CAD and how to develop your own models
+                Learn the principles of CAD and how to develop your own 3D printed models
                 through Onshape.
               </p>
             </section>
@@ -109,14 +109,14 @@ export default function EnhancedCourseOverviewComponent() {
               <CardContent>
                 <p className="mb-4">
                   This course provides a practical introduction to
-                  Computer-Aided Design (CAD) and 3D modeling, teaching students
+                  Computer-Aided Design (CAD) and 3D printing, teaching students
                   to design, modify, and visualize objects for various
                   applications. From mastering essential CAD tools to creating
-                  complex 3D models, students will gain hands-on experience to
+                  3D models, students will gain hands-on experience to
                   bring their ideas to life.
                 </p>
                 <ul className="list-disc pl-5 space-y-2">
-                  <li>Duration: 5 weeks</li>
+                  <li>Duration: 4 weeks</li>
                   <li>Difficulty: Beginner to Intermediate</li>
                   <li>Prerequisites: Basic computer skills</li>
                 </ul>
@@ -129,20 +129,22 @@ export default function EnhancedCourseOverviewComponent() {
                 {/* Week 1 */}
                 <AccordionItem value="week1">
                   <AccordionTrigger>
-                    Week 1: Introduction to CAD and Software Setup
+                    Week 1: Getting Started with Onshape and 3D Printing
                   </AccordionTrigger>
                   <AccordionContent>
                     <ul className="list-disc pl-5 space-y-2">
-                      <li>Chapter 1.1: Introduction</li>
-                      <li>
-                        Chapter 1.2: Setting up the CAD environment in Onshape
+                      <li>Chapter 1.1: Introduction to CAD & 3D Printing
                       </li>
                       <li>
-                        Chapter 1.3: Overview of the CAD interface and tools
+                        Chapter 1.2: Setting Up Onshape
                       </li>
                       <li>
-                        Chapter 1.4: Understanding design principles and
-                        sketching basics
+                        Chapter 1.3: Introduction to 3D Printing Basics
+
+                      </li>
+                      <li>
+                        Chapter 1.4: Summary of Week 1
+
                       </li>
                       <li>
                         Chapter 1.5: Creating simple 2D sketches and extrusions

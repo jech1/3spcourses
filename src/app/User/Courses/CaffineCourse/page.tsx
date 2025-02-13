@@ -15,105 +15,144 @@ const CaffCourseData: CourseData = {
 
   weeks: [
     // Week 1
-    {
-      title: "Week 1: Introduction to Caffeine and Lab Safety",
-      chapters: [
-        {
-          title: "1.1 Introduction",
-          content: `
-            <h2 class="text-2xl font-bold">Welcome to Caffeine Extraction</h2>
-            <p class="mt-4">Embark on your journey to master the fundamentals of research in a lab setting by learning the science behind caffeine extraction. This course emphasizes lab safety, chemical handling, and precise extraction techniques.</p>
-            <h3 class="text-xl font-semibold mt-6">Course Overview:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>Understanding the properties of caffeine and its natural sources.</li>
-              <li>Introduction to lab safety protocols and proper equipment handling.</li>
-            </ul>
-            
-          `,
-          videoUrl: "https://example.com/week1-introduction"
-        },
-        {
-          title: "1.2 Understanding Caffeine Extraction Methods",
-          content: `
-            <h2 class="text-2xl font-bold">Caffeine Extraction Methods</h2>
-            <p class="mt-4">Explore the various methods used to extract caffeine from natural sources, focusing on their principles, applications, and effectiveness.</p>
-            <h3 class="text-xl font-semibold mt-6">Extraction Techniques:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>Solvent-Based Extraction</li>
-              <li>Steam Distillation</li>
-              <li>Supercritical Fluid Extraction</li>
-            </ul>
-            <h3 class="text-xl font-semibold mt-6">Factors Influencing Extraction Efficiency:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>Choice of solvent</li>
-              <li>Temperature and pressure conditions</li>
-              <li>Extraction time</li>
-            </ul>
-          `,
-          videoUrl: "https://example.com/week1-extraction-methods"
-        },
-        {
-          title: "1.3 Basic Lab Safety Protocols and Proper Equipment Handling",
-          content: `
-            <h2 class="text-2xl font-bold">Lab Safety and Equipment Handling</h2>
-            <p class="mt-4">Learn essential lab safety practices to protect yourself and maintain a safe working environment.</p>
-            <h3 class="text-xl font-semibold mt-6">Personal Protective Equipment (PPE):</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>Safety goggles</li>
-              <li>Lab coats</li>
-              <li>Gloves</li>
-              <li>Closed-toe shoes</li>
-            </ul>
-            <h3 class="text-xl font-semibold mt-6">Chemical Handling:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>Proper storage of chemicals</li>
-              <li>Labeling containers accurately</li>
-              <li>Understanding Material Safety Data Sheets (MSDS)</li>
-            </ul>
-            <h3 class="text-xl font-semibold mt-6">Equipment Handling:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>Using fume hoods correctly</li>
-              <li>Operating laboratory instruments safely</li>
-              <li>Maintenance and cleaning of equipment</li>
-            </ul>
-          `,
-          videoUrl: "https://example.com/week1-lab-safety"
-
-        },
-        {
-          title: "1.4 Summary",
-          content: `
-            <h2 class="text-2xl font-bold">Week 1 Summary: Introduction to Caffeine and Lab Safety</h2>
-            <p class="mt-4">This week, you've learned:</p>
-            <ul class="list-disc list-inside mt-2">
-              <li>The properties and natural sources of caffeine.</li>
-              <li>Essential lab safety protocols and proper equipment handling techniques.</li>
-              <li>Various methods of caffeine extraction and factors affecting their efficiency.</li>
-            </ul>
-            <p class="mt-4">These foundational concepts are crucial as you begin your journey into the science of caffeine extraction.</p>
-          `,
-
-        },
-        {
-          title: "1.5 Quiz",
-          content: `
-            <h2 class="text-2xl font-bold">Test Your Understanding</h2>
-            <p class="mt-4">Assess your grasp of the key concepts from this week.</p>
-          `,
-          quiz: {
-            question: "Which of the following is NOT a natural source of caffeine?",
-            options: [
-              "Coffee beans",
-              "Tea leaves",
-              "Cacao pods",
-              "Sugar cane"
-            ],
-            correctAnswer: 3
-
+      {
+        title: "Week 1: Introduction to Caffeine and Lab Safety",
+        chapters: [
+          {
+            title: "1.1 Introduction",
+            content: `
+              <h2 class="text-2xl font-bold">Slide 1: Welcome to Caffeine Extraction</h2>
+              <p class="mt-4"><strong>Objective:</strong> Begin your journey into the science of caffeine extraction by understanding its significance and scope.</p>
+              <h3 class="text-xl font-semibold mt-6">What You Will Learn:</h3>
+              <ul class="list-disc list-inside mt-2">
+                <li>Basic properties of caffeine and its natural sources.</li>
+                <li>An overview of extraction processes and their applications.</li>
+                <li>The importance of lab safety and proper chemical handling.</li>
+              </ul>
+              <h3 class="text-xl font-semibold mt-6">Step-by-Step Instructions:</h3>
+              <ol class="list-decimal list-inside mt-2">
+                <li>Read through this slide to grasp the course overview.</li>
+                <li>Note key terms such as <em>caffeine properties</em>, <em>extraction methods</em>, and <em>lab safety</em>.</li>
+                <li>Prepare your lab notebook to record essential points and any questions.</li>
+              </ol>
+              <p class="mt-4"><em>Tip:</em> Keep this slide accessible as it will serve as a reference throughout the course.</p>
+              <p class="mt-4">
+                <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
+                  Click here for additional details and assessment info.
+                </a>
+              </p>
+            `,
+            videoUrl: "https://example.com/week1-introduction"
           },
-        },
-      ],
-    },
+          {
+            title: "1.2 Understanding Caffeine Extraction Methods",
+            content: `
+              <h2 class="text-2xl font-bold">Slide 2: Caffeine Extraction Methods</h2>
+              <p class="mt-4"><strong>Objective:</strong> Explore the various techniques used to extract caffeine and understand their underlying principles.</p>
+              <h3 class="text-xl font-semibold mt-6">Extraction Techniques:</h3>
+              <ul class="list-disc list-inside mt-2">
+                <li>Solvent-Based Extraction</li>
+                <li>Steam Distillation</li>
+                <li>Supercritical Fluid Extraction</li>
+              </ul>
+              <h3 class="text-xl font-semibold mt-6">Step-by-Step Instructions:</h3>
+              <ol class="list-decimal list-inside mt-2">
+                <li>Review each extraction method and understand its advantages and limitations.</li>
+                <li>Note how factors such as solvent choice, temperature, and pressure affect extraction efficiency.</li>
+                <li>Record your observations and questions in your lab notebook.</li>
+              </ol>
+              <p class="mt-4"><em>Tip:</em> Compare the techniques to determine which method is most suitable for specific applications.</p>
+              <p class="mt-4">
+                <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
+                  Click here for additional details and assessment info.
+                </a>
+              </p>
+            `,
+            videoUrl: "https://example.com/week1-extraction-methods"
+          },
+          {
+            title: "1.3 Basic Lab Safety Protocols and Proper Equipment Handling",
+            content: `
+              <h2 class="text-2xl font-bold">Slide 3: Lab Safety and Equipment Handling</h2>
+              <p class="mt-4"><strong>Objective:</strong> Learn essential lab safety practices and proper handling of equipment used in caffeine extraction.</p>
+              <h3 class="text-xl font-semibold mt-6">Key Safety Practices:</h3>
+              <ul class="list-disc list-inside mt-2">
+                <li>Wearing Personal Protective Equipment (PPE): safety goggles, lab coats, gloves, and closed-toe shoes.</li>
+                <li>Safe chemical handling: correct storage, accurate labeling, and understanding Material Safety Data Sheets (MSDS).</li>
+                <li>Proper equipment handling: using fume hoods, operating lab instruments, and maintaining a clean workspace.</li>
+              </ul>
+              <h3 class="text-xl font-semibold mt-6">Step-by-Step Instructions:</h3>
+              <ol class="list-decimal list-inside mt-2">
+                <li>Review the list of required PPE and ensure all items are available.</li>
+                <li>Watch the safety demonstration video to see proper chemical and equipment handling.</li>
+                <li>Set up your lab workspace following these safety protocols.</li>
+                <li>Document your observations and any questions regarding lab safety.</li>
+              </ol>
+              <p class="mt-4"><em>Tip:</em> Always prioritize safety—review these protocols before starting any experiment.</p>
+              <p class="mt-4">
+                <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
+                  Click here for additional details and assessment info.
+                </a>
+              </p>
+            `,
+            videoUrl: "https://example.com/week1-lab-safety"
+          },
+          {
+            title: "1.4 Summary",
+            content: `
+              <h2 class="text-2xl font-bold">Slide 4: Week 1 Summary</h2>
+              <p class="mt-4"><strong>Review:</strong> Recap the key points covered this week regarding caffeine properties, extraction methods, and lab safety.</p>
+              <ul class="list-disc list-inside mt-2">
+                <li>Understanding the natural sources and properties of caffeine.</li>
+                <li>An overview of various extraction methods and the factors influencing their efficiency.</li>
+                <li>Essential lab safety protocols and proper equipment handling practices.</li>
+              </ul>
+              <h3 class="text-xl font-semibold mt-6">Final Assessment Preparation:</h3>
+              <ol class="list-decimal list-inside mt-2">
+                <li>Review all the slides and your notes.</li>
+                <li>Create a concise summary of what you've learned in your lab notebook.</li>
+                <li>Begin brainstorming ideas for your final extraction project.</li>
+              </ol>
+              <p class="mt-4"><em>Tip:</em> A detailed summary will form the backbone of your final project and help reinforce your understanding.</p>
+              <p class="mt-4">
+                <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
+                  Click here for additional details and assessment info.
+                </a>
+              </p>
+            `,
+          },
+          {
+            title: "1.5 Quiz",
+            content: `
+              <h2 class="text-2xl font-bold">Slide 5: Quiz - Caffeine Extraction Fundamentals</h2>
+              <p class="mt-4"><strong>Objective:</strong> Assess your understanding of caffeine properties, extraction methods, and lab safety protocols.</p>
+              <h3 class="text-xl font-semibold mt-6">Steps to Answer:</h3>
+              <ol class="list-decimal list-inside mt-2">
+                <li>Review the concepts presented in Slides 1 through 4.</li>
+                <li>Reflect on how each element contributes to a safe and effective extraction process.</li>
+                <li>Select the answer that best summarizes the key principles.</li>
+              </ol>
+              <p class="mt-4"><em>Tip:</em> Take your time and refer back to your notes if needed before answering.</p>
+              <p class="mt-4">
+                <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
+                  Click here for additional details and assessment info.
+                </a>
+              </p>
+            `,
+            quiz: {
+              question: "Which of the following is NOT a natural source of caffeine?",
+              options: [
+                "Coffee beans",
+                "Tea leaves",
+                "Cacao pods",
+                "Sugar cane"
+              ],
+              correctAnswer: 3
+            }
+          }
+        ],
+      },
+
     // Week 2
     {
       title: "Week 2: Solvent-Based Extraction Techniques",
@@ -121,130 +160,174 @@ const CaffCourseData: CourseData = {
         {
           title: "2.1 Introduction",
           content: `
-            <h2 class="text-2xl font-bold">Solvent-Based Extraction Methods</h2>
-            <p class="mt-4">Dive into the various solvent-based techniques used for extracting caffeine from natural sources.</p>
-            <h3 class="text-xl font-semibold mt-6">Course Overview:</h3>
+            <h2 class="text-2xl font-bold">Slide 1: Introduction to Solvent-Based Extraction Techniques</h2>
+            <p class="mt-4"><strong>Objective:</strong> Understand the principles behind using solvents to extract caffeine and the role this technique plays in laboratory research.</p>
+            <h3 class="text-xl font-semibold mt-6">What You Will Learn:</h3>
             <ul class="list-disc list-inside mt-2">
-              <li>Selecting and handling solvents safely in the lab.</li>
-              <li>Step-by-step caffeine extraction using liquid-liquid methods.</li>
-              <li>Importance of using fume hoods and personal protective equipment.</li>
-              <li>Proper disposal of chemicals to maintain a clean and safe workplace.</li>
+              <li>The basic concept of solvent-based extraction and its advantages.</li>
+              <li>Key solvent properties such as polarity, boiling point, and toxicity.</li>
+              <li>An overview of how these properties influence extraction efficiency.</li>
             </ul>
+            <h3 class="text-xl font-semibold mt-6">Step-by-Step Instructions:</h3>
+            <ol class="list-decimal list-inside mt-2">
+              <li>Review the theoretical background on solvent extraction from your course materials.</li>
+              <li>Familiarize yourself with common solvents used in caffeine extraction (e.g., ethyl acetate, methanol, hexane, ethanol).</li>
+              <li>Note how each solvent’s properties affect the extraction process.</li>
+              <li>Record key points and any questions in your lab notebook.</li>
+            </ol>
+            <p class="mt-4"><em>Tip:</em> Understanding solvent properties is essential for optimizing extraction efficiency in later experiments.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" 
+                 target="_blank" class="text-blue-600 underline">
+                Click here for additional details and assessment info.
+              </a>
+            </p>
           `,
           videoUrl: "https://example.com/week2-intro"
-
         },
         {
           title: "2.2 Delving into Lab Safety",
           content: `
-            <h2 class="text-2xl font-bold">Advanced Lab Safety Practices</h2>
-            <p class="mt-4">Enhance your understanding of lab safety, focusing on Personal Protective Equipment (PPE), ventilation systems, fume hoods, maintaining a tidy workspace, and proper disposal of chemicals.</p>
-            <h3 class="text-xl font-semibold mt-6">Personal Protective Equipment (PPE):</h3>
+            <h2 class="text-2xl font-bold">Slide 2: Advanced Lab Safety for Solvent Extraction</h2>
+            <p class="mt-4"><strong>Objective:</strong> Enhance your understanding of lab safety, specifically when handling solvents during caffeine extraction.</p>
+            <h3 class="text-xl font-semibold mt-6">Key Safety Protocols:</h3>
             <ul class="list-disc list-inside mt-2">
-              <li>Types of PPE and their appropriate usage.</li>
-              <li>Ensuring proper fit and maintenance of PPE.</li>
+              <li>Proper use of Personal Protective Equipment (PPE): gloves, safety goggles, lab coats, and closed-toe shoes.</li>
+              <li>Safe handling and storage of volatile and potentially toxic solvents.</li>
+              <li>Effective use of fume hoods and ventilation systems to minimize exposure.</li>
+              <li>Guidelines for proper disposal of solvent waste.</li>
             </ul>
-            <h3 class="text-xl font-semibold mt-6">Ventilation Systems and Fume Hoods:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>Function and importance of fume hoods in the lab.</li>
-              <li>Best practices for using ventilation systems effectively.</li>
-            </ul>
-            <h3 class="text-xl font-semibold mt-6">Maintaining a Tidy and Clean Workspace:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>Organizing lab equipment and materials.</li>
-              <li>Regular cleaning schedules to prevent contamination.</li>
-            </ul>
-            <h3 class="text-xl font-semibold mt-6">Proper Disposal of Chemicals:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>Segregating hazardous and non-hazardous waste.</li>
-              <li>Following institutional and governmental disposal guidelines.</li>
-              <li>Using designated containers for different types of chemical waste.</li>
-            </ul>
+            <h3 class="text-xl font-semibold mt-6">Step-by-Step Instructions:</h3>
+            <ol class="list-decimal list-inside mt-2">
+              <li>Review the lab safety guidelines in your manual and watch the provided safety demonstration video.</li>
+              <li>Set up your lab workspace with all required PPE and ensure that the fume hood is operational.</li>
+              <li>Practice proper storage and labeling of solvents as instructed.</li>
+              <li>Document any questions or uncertainties about solvent handling for later discussion.</li>
+            </ol>
+            <p class="mt-4"><em>Tip:</em> Always confirm that your safety equipment is in proper working order before beginning any experiment.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" 
+                 target="_blank" class="text-blue-600 underline">
+                Click here for additional details and assessment info.
+              </a>
+            </p>
           `,
           videoUrl: "https://example.com/week2-lab-safety"
-
         },
         {
           title: "2.3 Selecting and Handling Solvents in the Lab",
           content: `
-            <h2 class="text-2xl font-bold">Choosing and Managing Solvents</h2>
-            <p class="mt-4">Understand the criteria for selecting appropriate solvents and learn safe handling practices in the laboratory.</p>
-            <h3 class="text-xl font-semibold mt-6">Solvent Properties:</h3>
+            <h2 class="text-2xl font-bold">Slide 3: Selecting and Handling Solvents</h2>
+            <p class="mt-4"><strong>Objective:</strong> Learn how to choose the appropriate solvent for caffeine extraction and handle it safely in the laboratory.</p>
+            <h3 class="text-xl font-semibold mt-6">Criteria for Solvent Selection:</h3>
             <ul class="list-disc list-inside mt-2">
-              <li>Polarity</li>
-              <li>Boiling point</li>
-              <li>Volatility</li>
-              <li>Toxicity</li>
+              <li><strong>Polarity:</strong> Determines the solvent's ability to dissolve caffeine.</li>
+              <li><strong>Boiling Point:</strong> Affects the ease of solvent removal after extraction.</li>
+              <li><strong>Volatility & Toxicity:</strong> Impacts user safety and environmental considerations.</li>
             </ul>
-            <h3 class="text-xl font-semibold mt-6">Safe Handling Practices:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>Proper storage and labeling of solvents.</li>
-              <li>Using appropriate PPE when handling solvents.</li>
-              <li>Working in well-ventilated areas or fume hoods.</li>
-            </ul>
-            <h3 class="text-xl font-semibold mt-6">Common Solvents for Caffeine Extraction:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>Ethyl acetate</li>
-              <li>Methanol</li>
-              <li>Hexane</li>
-              <li>Ethanol</li>
-            </ul>
+            <h3 class="text-xl font-semibold mt-6">Step-by-Step Instructions:</h3>
+            <ol class="list-decimal list-inside mt-2">
+              <li>Consult your lab manual and reference materials to review the properties of common solvents.</li>
+              <li>Compare solvents such as ethyl acetate, methanol, hexane, and ethanol based on their polarity, boiling point, and safety profiles.</li>
+              <li>Select a solvent that meets your extraction requirements while adhering to lab safety protocols.</li>
+              <li>Prepare and properly label the solvent container following standard lab procedures.</li>
+            </ol>
+            <p class="mt-4"><em>Tip:</em> Write down your solvent selection rationale—it can be a valuable reference when optimizing extraction conditions.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" 
+                 target="_blank" class="text-blue-600 underline">
+                Click here for additional details and assessment info.
+              </a>
+            </p>
           `,
           videoUrl: "https://example.com/week2-selecting-solvents"
         },
         {
           title: "2.4 Liquid-Liquid Extraction Guide",
           content: `
-            <h2 class="text-2xl font-bold">Executing Liquid-Liquid Extraction</h2>
-            <p class="mt-4">Learn the detailed procedure for extracting caffeine using liquid-liquid extraction techniques.</p>
-            <h3 class="text-xl font-semibold mt-6">Procedure:</h3>
+            <h2 class="text-2xl font-bold">Slide 4: Liquid-Liquid Extraction Procedure</h2>
+            <p class="mt-4"><strong>Objective:</strong> Execute the liquid-liquid extraction process to isolate caffeine effectively.</p>
+            <h3 class="text-xl font-semibold mt-6">Procedure Overview:</h3>
             <ol class="list-decimal list-inside mt-2">
-              <li>Prepare the caffeine-containing material (e.g., tea leaves).</li>
-              <li>Mix the material with a suitable solvent.</li>
-              <li>Allow the mixture to separate into two distinct layers.</li>
-              <li>Collect the solvent layer containing the extracted caffeine.</li>
-              <li>Evaporate the solvent to obtain purified caffeine.</li>
+              <li>Prepare the caffeine-containing material (e.g., grind tea leaves or coffee beans).</li>
+              <li>Mix the material with the selected solvent in a clean, labeled container.</li>
+              <li>Agitate the mixture to facilitate the dissolution of caffeine into the solvent.</li>
+              <li>Allow the mixture to settle, forming two distinct layers.</li>
+              <li>Carefully separate and collect the solvent layer that contains the extracted caffeine.</li>
+              <li>Evaporate the solvent under controlled conditions to recover purified caffeine.</li>
             </ol>
             <h3 class="text-xl font-semibold mt-6">Key Considerations:</h3>
             <ul class="list-disc list-inside mt-2">
-              <li>Ensuring complete separation of layers.</li>
-              <li>Avoiding contamination during the extraction process.</li>
-              <li>Optimizing solvent-to-material ratios for maximum yield.</li>
+              <li>Ensure complete layer separation to maximize yield.</li>
+              <li>Avoid cross-contamination by using clean tools and containers.</li>
+              <li>Monitor solvent-to-material ratios to optimize extraction efficiency.</li>
             </ul>
+            <p class="mt-4"><em>Tip:</em> Maintain detailed records of your procedure to improve and repeat the process in future experiments.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" 
+                 target="_blank" class="text-blue-600 underline">
+                Click here for additional details and assessment info.
+              </a>
+            </p>
           `,
           videoUrl: "https://example.com/week2-liquid-liquid-extraction"
         },
         {
           title: "2.5 Summary",
           content: `
-            <h2 class="text-2xl font-bold">Week 2 Summary: Solvent-Based Extraction Techniques</h2>
-            <p class="mt-4">This week, you've explored:</p>
+            <h2 class="text-2xl font-bold">Slide 5: Week 2 Summary</h2>
+            <p class="mt-4"><strong>Review:</strong> Recap the key concepts and steps for solvent-based caffeine extraction covered this week.</p>
             <ul class="list-disc list-inside mt-2">
-              <li>Advanced lab safety practices including PPE, ventilation, and waste management.</li>
-              <li>Selection and safe handling of solvents for caffeine extraction.</li>
-              <li>Step-by-step liquid-liquid extraction procedures.</li>
-              <li>Proper disposal of chemicals to maintain a clean and safe laboratory environment.</li>
+              <li>Understanding the principles and advantages of solvent-based extraction.</li>
+              <li>Advanced lab safety protocols for handling volatile solvents.</li>
+              <li>Criteria for selecting the proper solvent for optimal extraction.</li>
+              <li>A detailed, step-by-step liquid-liquid extraction procedure.</li>
             </ul>
-            <p class="mt-4">These techniques are fundamental for effective and safe caffeine extraction, laying the groundwork for more advanced topics in the coming weeks.</p>
+            <h3 class="text-xl font-semibold mt-6">Final Assessment Preparation:</h3>
+            <ol class="list-decimal list-inside mt-2">
+              <li>Review all the slides and your lab notes from this week.</li>
+              <li>Create a concise summary highlighting the extraction process and safety measures.</li>
+              <li>Prepare any questions or discussion points for your next lab session.</li>
+            </ol>
+            <p class="mt-4"><em>Tip:</em> A thorough summary helps reinforce your learning and serves as a reference for future experiments.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" 
+                 target="_blank" class="text-blue-600 underline">
+                Click here for additional details and assessment info.
+              </a>
+            </p>
           `,
         },
         {
           title: "2.6 Quiz",
           content: `
-            <h2 class="text-2xl font-bold">Test Your Understanding</h2>
-            <p class="mt-4">Assess your grasp of the key concepts from this week.</p>
+            <h2 class="text-2xl font-bold">Slide 6: Quiz - Solvent-Based Extraction Techniques</h2>
+            <p class="mt-4"><strong>Objective:</strong> Evaluate your understanding of the extraction methods, solvent handling, and lab safety practices covered this week.</p>
+            <h3 class="text-xl font-semibold mt-6">Steps to Answer:</h3>
+            <ol class="list-decimal list-inside mt-2">
+              <li>Review the key points from Slides 1 through 5.</li>
+              <li>Reflect on the criteria for solvent selection and the importance of safety in handling them.</li>
+              <li>Select the answer that best summarizes the critical factor in a successful solvent-based extraction.</li>
+            </ol>
+            <p class="mt-4"><em>Tip:</em> Revisit any slides that are unclear before attempting the quiz.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" 
+                 target="_blank" class="text-blue-600 underline">
+                Click here for additional details and assessment info.
+              </a>
+            </p>
           `,
           quiz: {
-            question: "What is the primary purpose of using a fume hood during solvent-based extraction?",
+            question: "What is the primary factor in selecting a solvent for caffeine extraction?",
             options: [
-              "To increase the temperature of the solvent",
-              "To ventilate hazardous fumes away from the user",
-              "To provide additional lighting",
-              "To store excess solvents safely"
+              "Its boiling point",
+              "Its polarity and ability to dissolve caffeine",
+              "Its cost",
+              "Its color and odor"
             ],
             correctAnswer: 1
-          },
-        },
+          }
+        }
       ],
     },
     // Week 3
@@ -254,101 +337,154 @@ const CaffCourseData: CourseData = {
         {
           title: "3.1 Introduction",
           content: `
-            <h2 class="text-2xl font-bold">Ensuring Purity and Safe Waste Disposal</h2>
-            <p class="mt-4">This week focuses on purifying extracted caffeine and managing chemical waste responsibly.</p>
-            <h3 class="text-xl font-semibold mt-6">Course Overview:</h3>
+            <h2 class="text-2xl font-bold">Slide 1: Introduction to Purification and Waste Management</h2>
+            <p class="mt-4"><strong>Objective:</strong> Understand the importance of purifying extracted caffeine and managing chemical waste safely.</p>
+            <h3 class="text-xl font-semibold mt-6">What You Will Learn:</h3>
             <ul class="list-disc list-inside mt-2">
-              <li>Safely separating impurities from extracted caffeine.</li>
-              <li>Proper disposal of chemical waste in accordance with safety guidelines.</li>
+              <li>The purpose of purification in enhancing caffeine quality.</li>
+              <li>Common purification techniques such as crystallization and recrystallization.</li>
+              <li>Fundamental principles of safe waste management in a lab setting.</li>
             </ul>
+            <h3 class="text-xl font-semibold mt-6">Step-by-Step Instructions:</h3>
+            <ol class="list-decimal list-inside mt-2">
+              <li>Read through the purification overview to understand its role in research.</li>
+              <li>Take note of the common methods used to remove impurities from your extract.</li>
+              <li>Begin preparing your lab notebook for documenting purification steps and safety measures.</li>
+            </ol>
+            <p class="mt-4"><em>Tip:</em> A clear understanding of these concepts is crucial for maintaining the quality and safety of your lab work.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" 
+                 target="_blank" class="text-blue-600 underline">
+                Click here for additional details and assessment info.
+              </a>
+            </p>
           `,
           videoUrl: "https://example.com/week3-intro"
         },
         {
           title: "3.2 Safely Separating Impurities from Extracted Caffeine",
           content: `
-            <h2 class="text-2xl font-bold">Purification Techniques</h2>
-            <p class="mt-4">Learn effective methods to purify extracted caffeine, ensuring high purity levels for further use or analysis.</p>
-            <h3 class="text-xl font-semibold mt-6">Techniques:</h3>
+            <h2 class="text-2xl font-bold">Slide 2: Purification Techniques</h2>
+            <p class="mt-4"><strong>Objective:</strong> Learn how to purify extracted caffeine by separating impurities using methods like crystallization, recrystallization, and distillation.</p>
+            <h3 class="text-xl font-semibold mt-6">Purification Methods:</h3>
             <ul class="list-disc list-inside mt-2">
-              <li>Crystallization to remove impurities.</li>
-              <li>Recrystallization for enhanced purity.</li>
-              <li>Distillation to separate components based on boiling points.</li>
-              <li>Filtration to eliminate solid contaminants.</li>
+              <li><strong>Crystallization:</strong> Allows impurities to be excluded as the caffeine crystallizes out.</li>
+              <li><strong>Recrystallization:</strong> Enhances purity by dissolving and reprecipitating the compound.</li>
+              <li><strong>Distillation:</strong> Separates components based on differences in boiling points.</li>
+              <li><strong>Filtration:</strong> Removes solid contaminants from liquid extracts.</li>
             </ul>
-            <h3 class="text-xl font-semibold mt-6">Process Steps:</h3>
+            <h3 class="text-xl font-semibold mt-6">Step-by-Step Instructions:</h3>
             <ol class="list-decimal list-inside mt-2">
-              <li>Prepare the crude caffeine extract.</li>
-              <li>Apply the chosen purification technique.</li>
-              <li>Monitor the process to ensure effective impurity removal.</li>
-              <li>Collect and dry the purified caffeine.</li>
+              <li>Prepare your crude caffeine extract following your standard procedure.</li>
+              <li>Select an appropriate purification method based on your sample’s properties.</li>
+              <li>Follow the specific steps of the chosen method:
+                <ul class="list-disc list-inside">
+                  <li>For crystallization, cool the solution gradually to promote pure crystal formation.</li>
+                  <li>For distillation, set up your apparatus and carefully monitor temperature control.</li>
+                </ul>
+              </li>
+              <li>Document the process, noting temperatures, timings, and observations.</li>
+              <li>Collect and dry the purified caffeine for further analysis.</li>
             </ol>
-            <h3 class="text-xl font-semibold mt-6">Quality Assurance:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>Testing purity using analytical methods.</li>
-              <li>Ensuring consistency in purification results.</li>
-              <li>Documenting the purification process for reproducibility.</li>
-            </ul>
+            <p class="mt-4"><em>Tip:</em> Maintaining detailed records during purification helps optimize future experiments.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" 
+                 target="_blank" class="text-blue-600 underline">
+                Click here for additional details and assessment info.
+              </a>
+            </p>
           `,
           videoUrl: "https://example.com/week3-purification-techniques"
         },
         {
           title: "3.3 Proper Disposal of Chemical Waste in Accordance with Safety Guidelines",
           content: `
-            <h2 class="text-2xl font-bold">Responsible Waste Management</h2>
-            <p class="mt-4">Understand the protocols for disposing of chemical waste safely to protect the environment and maintain lab safety.</p>
-            <h3 class="text-xl font-semibold mt-6">Waste Segregation:</h3>
+            <h2 class="text-2xl font-bold">Slide 3: Responsible Waste Management</h2>
+            <p class="mt-4"><strong>Objective:</strong> Learn safe and environmentally responsible methods for disposing of chemical waste.</p>
+            <h3 class="text-xl font-semibold mt-6">Key Waste Management Practices:</h3>
             <ul class="list-disc list-inside mt-2">
-              <li>Separating organic solvents from aqueous waste.</li>
-              <li>Identifying hazardous vs. non-hazardous waste.</li>
-              <li>Using appropriate containers for different waste types.</li>
+              <li>Segregating hazardous waste from non-hazardous waste.</li>
+              <li>Using appropriate, labeled containers for different types of waste.</li>
+              <li>Following institutional and governmental disposal guidelines.</li>
+              <li>Ensuring that waste is stored safely until it can be properly disposed of.</li>
             </ul>
-            <h3 class="text-xl font-semibold mt-6">Disposal Methods:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>Recycling solvents where possible.</li>
-              <li>Utilizing designated disposal services for hazardous waste.</li>
-              <li>Following institutional and governmental regulations.</li>
-            </ul>
-            <h3 class="text-xl font-semibold mt-6">Safety Precautions:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>Wearing appropriate PPE during waste handling.</li>
-              <li>Labeling waste containers clearly.</li>
-              <li>Storing waste in designated areas away from active experiments.</li>
-            </ul>
+            <h3 class="text-xl font-semibold mt-6">Step-by-Step Instructions:</h3>
+            <ol class="list-decimal list-inside mt-2">
+              <li>Review the lab’s chemical waste disposal procedures and guidelines.</li>
+              <li>Identify and segregate waste materials from your purification process.</li>
+              <li>Label all waste containers clearly with the type of waste and date.</li>
+              <li>Place waste in designated storage areas until it can be safely disposed of.</li>
+              <li>Document all waste disposal actions in your lab logbook.</li>
+            </ol>
+            <p class="mt-4"><em>Tip:</em> Proper waste management protects both the environment and your health. Always follow safety guidelines precisely.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" 
+                 target="_blank" class="text-blue-600 underline">
+                Click here for additional details and assessment info.
+              </a>
+            </p>
           `,
           videoUrl: "https://example.com/week3-waste-management"
         },
         {
           title: "3.4 Summary",
           content: `
-            <h2 class="text-2xl font-bold">Week 3 Summary: Purification and Waste Management</h2>
-            <p class="mt-4">This week, you've learned:</p>
+            <h2 class="text-2xl font-bold">Slide 4: Week 3 Summary</h2>
+            <p class="mt-4"><strong>Review:</strong> Recap the key purification and waste management practices covered this week.</p>
             <ul class="list-disc list-inside mt-2">
-              <li>Effective purification techniques to ensure high-purity caffeine.</li>
-              <li>Responsible chemical waste disposal practices in compliance with safety guidelines.</li>
+              <li>Effective techniques for purifying caffeine to enhance its quality.</li>
+              <li>Detailed procedures for methods such as crystallization and distillation.</li>
+              <li>Proper and safe disposal of chemical waste in accordance with lab guidelines.</li>
             </ul>
-            <p class="mt-4">These skills are essential for maintaining the integrity of your research and ensuring a safe laboratory environment.</p>
+            <h3 class="text-xl font-semibold mt-6">Final Assessment Preparation:</h3>
+            <ol class="list-decimal list-inside mt-2">
+              <li>Review all slides and consolidate your lab notes.</li>
+              <li>Create a concise summary of the purification process and waste management protocols.</li>
+              <li>Prepare any questions you have for further discussion or clarification.</li>
+            </ol>
+            <p class="mt-4"><em>Tip:</em> A well-documented summary will reinforce your understanding and serve as a useful reference for future projects.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" 
+                 target="_blank" class="text-blue-600 underline">
+                Click here for additional details and assessment info.
+              </a>
+            </p>
           `,
         },
         {
           title: "3.5 Quiz",
           content: `
-            <h2 class="text-2xl font-bold">Test Your Understanding</h2>
-            <p class="mt-4">Assess your grasp of the key concepts from this week.</p>
+            <h2 class="text-2xl font-bold">Slide 5: Quiz - Purification and Waste Management</h2>
+            <p class="mt-4"><strong>Objective:</strong> Evaluate your understanding of the purification techniques and waste disposal practices covered in this week’s lessons.</p>
+            <h3 class="text-xl font-semibold mt-6">Steps to Answer:</h3>
+            <ol class="list-decimal list-inside mt-2">
+              <li>Review the key points from Slides 1 through 4.</li>
+              <li>Consider the importance of each purification method and safety protocol.</li>
+              <li>Select the answer that best encapsulates the critical aspect of these processes.</li>
+            </ol>
+            <p class="mt-4"><em>Tip:</em> If you are unsure, revisit your notes or rewatch the demonstration videos before attempting the quiz.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" 
+                 target="_blank" class="text-blue-600 underline">
+                Click here for additional details and assessment info.
+              </a>
+            </p>
           `,
           quiz: {
-            question: "Which purification technique involves dissolving a solid in a solvent and then allowing it to recrystallize?",
+            question: "Which purification technique involves dissolving a compound in a solvent and then allowing it to form purer crystals upon cooling?",
             options: [
               "Filtration",
-              "Distillation",
               "Crystallization",
-              "Evaporation"
+              "Distillation",
+              "Centrifugation"
             ],
-            correctAnswer: 2
-          },
-        },
+            correctAnswer: 1
+          }
+        }
       ],
     },
+
+    
     // Week 4
     {
       title: "Week 4: Advanced Analytical Techniques",
@@ -356,271 +492,368 @@ const CaffCourseData: CourseData = {
         {
           title: "4.1 Introduction",
           content: `
-            <h2 class="text-2xl font-bold">Analyzing Caffeine Purity</h2>
-            <p class="mt-4">This week, we'll delve into advanced analytical techniques to assess the purity of extracted caffeine, including High-Pressure Liquid Chromatography (HPLC) and Infrared (IR) Spectroscopy.</p>
-            <h3 class="text-xl font-semibold mt-6">Course Overview:</h3>
+            <h2 class="text-2xl font-bold">Slide 1: Introduction to Advanced Analytical Techniques</h2>
+            <p class="mt-4"><strong>Objective:</strong> Understand the role of advanced analytical methods in evaluating the purity and quality of extracted caffeine.</p>
+            <h3 class="text-xl font-semibold mt-6">What You Will Learn:</h3>
             <ul class="list-disc list-inside mt-2">
-              <li>Utilizing High-Pressure Liquid Chromatography (HPLC) to analyze caffeine purity.</li>
-              <li>Mastering HPLC techniques to ensure accurate results with a comprehensive maintenance guide.</li>
-              <li>Applying IR Spectroscopy for further analysis of caffeine purity, including maintenance protocols.</li>
-              <li>Best practices for maintaining analytical equipment.</li>
+              <li>An overview of High-Pressure Liquid Chromatography (HPLC) and Infrared (IR) Spectroscopy.</li>
+              <li>How these techniques contribute to quality control in caffeine extraction.</li>
+              <li>The importance of instrument calibration, maintenance, and data interpretation.</li>
             </ul>
+            <h3 class="text-xl font-semibold mt-6">Step-by-Step Instructions:</h3>
+            <ol class="list-decimal list-inside mt-2">
+              <li>Read through the theoretical background on HPLC and IR Spectroscopy provided in your course materials.</li>
+              <li>Note key concepts such as separation, detection, calibration, and spectral analysis.</li>
+              <li>Prepare your lab notebook to document all procedures, observations, and instrument settings.</li>
+            </ol>
+            <p class="mt-4"><em>Tip:</em> This introduction lays the foundation for the detailed procedures in the following slides, so review it carefully.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" 
+                 target="_blank" class="text-blue-600 underline">
+                Click here for additional details and assessment info.
+              </a>
+            </p>
           `,
           videoUrl: "https://example.com/week4-intro"
         },
         {
           title: "4.2 Utilizing High-Pressure Liquid Chromatography (HPLC) to Analyze Caffeine Purity",
           content: `
-            <h2 class="text-2xl font-bold">High-Pressure Liquid Chromatography (HPLC)</h2>
-            <p class="mt-4">Learn how to use HPLC to determine the purity of caffeine samples with precision and accuracy.</p>
-            <h3 class="text-xl font-semibold mt-6">HPLC Principles:</h3>
+            <h2 class="text-2xl font-bold">Slide 2: High-Pressure Liquid Chromatography (HPLC)</h2>
+            <p class="mt-4"><strong>Objective:</strong> Learn how to operate the HPLC system to separate and quantify components in your caffeine sample.</p>
+            <h3 class="text-xl font-semibold mt-6">Key Concepts:</h3>
             <ul class="list-disc list-inside mt-2">
-              <li>Separation based on interactions between analytes and the stationary phase.</li>
-              <li>Detection methods and their sensitivity.</li>
-              <li>Calibration and quantification.</li>
+              <li>Understanding the interaction between the stationary and mobile phases.</li>
+              <li>Calibration techniques, sample injection, and detection methods.</li>
+              <li>Interpreting chromatograms to assess caffeine purity.</li>
             </ul>
-            <h3 class="text-xl font-semibold mt-6">Operational Steps:</h3>
+            <h3 class="text-xl font-semibold mt-6">Step-by-Step Instructions:</h3>
             <ol class="list-decimal list-inside mt-2">
-              <li>Sample preparation and injection.</li>
-              <li>Selecting appropriate columns and mobile phases.</li>
-              <li>Running the HPLC system and monitoring results.</li>
-              <li>Interpreting chromatograms to assess purity.</li>
+              <li>Prepare your caffeine sample according to the lab protocol.</li>
+              <li>Calibrate the HPLC instrument using standard solutions as described in your manual.</li>
+              <li>Select the appropriate column and mobile phase for your analysis.</li>
+              <li>Inject the sample and monitor the chromatogram for characteristic peaks.</li>
+              <li>Record the retention times and peak areas for data analysis.</li>
             </ol>
-            <h3 class="text-xl font-semibold mt-6">Maintenance Guide:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>Regular cleaning of HPLC columns.</li>
-              <li>Monitoring and replacing worn-out components.</li>
-              <li>Ensuring system integrity and calibration.</li>
-            </ul>
+            <p class="mt-4"><em>Tip:</em> Carefully document all instrument settings and observations to aid in troubleshooting and future analyses.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" 
+                 target="_blank" class="text-blue-600 underline">
+                Click here for additional details and assessment info.
+              </a>
+            </p>
           `,
           videoUrl: "https://example.com/week4-hplc-analysis"
         },
         {
           title: "4.3 Mastering HPLC Techniques to Ensure Accurate Results",
           content: `
-            <h2 class="text-2xl font-bold">Advanced HPLC Techniques</h2>
-            <p class="mt-4">Enhance your HPLC skills to achieve consistent and reliable results in caffeine purity analysis.</p>
-            <h3 class="text-xl font-semibold mt-6">Technique Optimization:</h3>
+            <h2 class="text-2xl font-bold">Slide 3: Advanced HPLC Techniques</h2>
+            <p class="mt-4"><strong>Objective:</strong> Enhance your HPLC skills by mastering techniques for optimizing separation and resolving common analytical challenges.</p>
+            <h3 class="text-xl font-semibold mt-6">Advanced Techniques Include:</h3>
             <ul class="list-disc list-inside mt-2">
-              <li>Adjusting flow rates and temperature for optimal separation.</li>
-              <li>Choosing the right detector settings.</li>
-              <li>Implementing gradient elution for complex mixtures.</li>
+              <li>Adjusting flow rates and temperature settings for optimal separation.</li>
+              <li>Implementing gradient elution to handle complex mixtures.</li>
+              <li>Troubleshooting issues such as peak tailing, baseline noise, and solvent contamination.</li>
             </ul>
-            <h3 class="text-xl font-semibold mt-6">Troubleshooting Common Issues:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>Peak tailing and broadening</li>
-              <li>Baseline noise and drift</li>
-              <li>Solvent compatibility and contamination</li>
-            </ul>
-            <h3 class="text-xl font-semibold mt-6">Maintenance Procedures:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>Daily, weekly, and monthly maintenance tasks.</li>
-              <li>Preventative measures to extend equipment lifespan.</li>
-              <li>Documentation and record-keeping for maintenance activities.</li>
-            </ul>
+            <h3 class="text-xl font-semibold mt-6">Step-by-Step Instructions:</h3>
+            <ol class="list-decimal list-inside mt-2">
+              <li>Record your baseline HPLC settings before making adjustments.</li>
+              <li>Experiment with different flow rates and temperature settings, noting the impact on peak resolution.</li>
+              <li>Adjust the gradient profile if needed to improve separation.</li>
+              <li>Document any issues and the steps taken to resolve them.</li>
+            </ol>
+            <p class="mt-4"><em>Tip:</em> Detailed logs of your adjustments and outcomes will help refine your method and support reproducibility.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" 
+                 target="_blank" class="text-blue-600 underline">
+                Click here for additional details and assessment info.
+              </a>
+            </p>
           `,
           videoUrl: "https://example.com/week4-hplc-techniques"
         },
         {
           title: "4.4 IR Spectroscopy to Further Analyze Caffeine Purity",
           content: `
-            <h2 class="text-2xl font-bold">Infrared (IR) Spectroscopy</h2>
-            <p class="mt-4">Utilize IR Spectroscopy to gain deeper insights into the molecular structure and purity of caffeine samples.</p>
-            <h3 class="text-xl font-semibold mt-6">IR Spectroscopy Basics:</h3>
+            <h2 class="text-2xl font-bold">Slide 4: Infrared (IR) Spectroscopy</h2>
+            <p class="mt-4"><strong>Objective:</strong> Use IR Spectroscopy to obtain detailed molecular information and confirm the purity of your caffeine sample.</p>
+            <h3 class="text-xl font-semibold mt-6">Key Concepts:</h3>
             <ul class="list-disc list-inside mt-2">
-              <li>Principles of IR Spectroscopy.</li>
-              <li>Interpreting IR spectra.</li>
-              <li>Identifying functional groups in caffeine.</li>
+              <li>Fundamentals of IR absorption and how molecules interact with infrared light.</li>
+              <li>Interpreting IR spectra to identify functional groups in caffeine.</li>
+              <li>Calibration and maintenance of the IR spectrometer for consistent results.</li>
             </ul>
-            <h3 class="text-xl font-semibold mt-6">Operational Steps:</h3>
+            <h3 class="text-xl font-semibold mt-6">Step-by-Step Instructions:</h3>
             <ol class="list-decimal list-inside mt-2">
-              <li>Sample preparation and mounting.</li>
-              <li>Calibrating the IR spectrometer.</li>
-              <li>Running scans and collecting data.</li>
-              <li>Analyzing spectral data to determine purity.</li>
+              <li>Prepare your caffeine sample following the standard procedure for IR analysis.</li>
+              <li>Mount the sample properly on the IR spectrometer.</li>
+              <li>Calibrate the instrument using reference standards.</li>
+              <li>Run the scan and collect the IR spectrum.</li>
+              <li>Analyze the spectrum to identify key absorption peaks that confirm caffeine’s molecular structure and purity.</li>
             </ol>
-            <h3 class="text-xl font-semibold mt-6">Maintenance Procedures:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>Cleaning optical components.</li>
-              <li>Regular calibration and verification of instrument accuracy.</li>
-              <li>Handling and storage of samples to prevent contamination.</li>
-            </ul>
+            <p class="mt-4"><em>Tip:</em> Compare your spectrum with known reference spectra to validate your results.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" 
+                 target="_blank" class="text-blue-600 underline">
+                Click here for additional details and assessment info.
+              </a>
+            </p>
           `,
           videoUrl: "https://example.com/week4-ir-spectroscopy"
         },
         {
           title: "4.5 Summary",
           content: `
-            <h2 class="text-2xl font-bold">Week 4 Summary: Advanced Analytical Techniques</h2>
-            <p class="mt-4">This week, you've learned:</p>
+            <h2 class="text-2xl font-bold">Slide 5: Week 4 Summary</h2>
+            <p class="mt-4"><strong>Review:</strong> Recap the advanced analytical techniques discussed this week and their role in ensuring the purity of your extracted caffeine.</p>
             <ul class="list-disc list-inside mt-2">
-              <li>Utilizing High-Pressure Liquid Chromatography (HPLC) for caffeine purity analysis.</li>
-              <li>Mastering advanced HPLC techniques to ensure accurate and consistent results.</li>
-              <li>Applying Infrared (IR) Spectroscopy for detailed molecular analysis of caffeine.</li>
-              <li>Best practices for maintaining and troubleshooting analytical equipment.</li>
+              <li>Utilizing HPLC to separate and quantify caffeine with precision.</li>
+              <li>Optimizing HPLC methods through advanced techniques and troubleshooting.</li>
+              <li>Employing IR Spectroscopy to confirm molecular structure and purity.</li>
+              <li>Understanding the critical importance of instrument calibration and maintenance.</li>
             </ul>
-            <p class="mt-4">These analytical skills are essential for verifying the purity of your extracted caffeine and ensuring the reliability of your research findings.</p>
+            <h3 class="text-xl font-semibold mt-6">Final Assessment Preparation:</h3>
+            <ol class="list-decimal list-inside mt-2">
+              <li>Review all slides and consolidate your lab notes from the week.</li>
+              <li>Create a summary of each analytical method and its significance in quality control.</li>
+              <li>Prepare any questions or discussion points for your next lab session.</li>
+            </ol>
+            <p class="mt-4"><em>Tip:</em> A comprehensive summary reinforces your learning and serves as a valuable reference for future experiments and your final project.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" 
+                 target="_blank" class="text-blue-600 underline">
+                Click here for additional details and assessment info.
+              </a>
+            </p>
           `,
         },
         {
           title: "4.6 Quiz",
           content: `
-            <h2 class="text-2xl font-bold">Test Your Understanding</h2>
-            <p class="mt-4">Assess your grasp of the key concepts from this week.</p>
+            <h2 class="text-2xl font-bold">Slide 6: Quiz - Advanced Analytical Techniques</h2>
+            <p class="mt-4"><strong>Objective:</strong> Evaluate your understanding of the advanced analytical techniques used to assess caffeine purity.</p>
+            <h3 class="text-xl font-semibold mt-6">Steps to Answer:</h3>
+            <ol class="list-decimal list-inside mt-2">
+              <li>Review all key points from Slides 1 through 5.</li>
+              <li>Reflect on how each analytical method contributes to quality control.</li>
+              <li>Select the answer that best captures the critical role of these techniques.</li>
+            </ol>
+            <p class="mt-4"><em>Tip:</em> Revisit your lab notes and demonstration videos if needed before taking the quiz.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" 
+                 target="_blank" class="text-blue-600 underline">
+                Click here for additional details and assessment info.
+              </a>
+            </p>
           `,
           quiz: {
-            question: "What is the primary purpose of using High-Pressure Liquid Chromatography (HPLC) in caffeine analysis?",
+            question: "What is the primary purpose of using IR Spectroscopy in caffeine analysis?",
             options: [
-              "To increase the boiling point of solvents",
-              "To determine the molecular weight of caffeine",
-              "To separate and quantify components in a mixture",
-              "To visualize caffeine crystals"
+              "To separate caffeine from impurities",
+              "To determine the molecular structure and confirm purity",
+              "To calibrate the HPLC instrument",
+              "To monitor the evaporation of solvents"
             ],
-            correctAnswer: 2
-          },
-        },
+            correctAnswer: 1
+          }
+        }
       ],
     },
+    
     // Week 5
     {
       title: "Week 5: Final Extraction Project and Safety Assessment",
-  chapters: [
-    {
-      title: "5.1 Introduction",
-      content: `
-        <h2 class="text-2xl font-bold">Designing and Performing a Comprehensive Caffeine Extraction Project</h2>
-        <p class="mt-4">In this week, you'll apply all the skills you've learned to design and execute a complete caffeine extraction project, ensuring adherence to safety protocols.</p>
-        <h3 class="text-xl font-semibold mt-6">Course Overview:</h3>
-        <ul class="list-disc list-inside mt-2">
-          <li>Designing and performing a comprehensive caffeine extraction project.</li>
-          <li>Reviewing and applying all safety protocols in the final procedure.</li>
-          <li>Presenting results with an emphasis on safety compliance.</li>
-        </ul>
-      `,
-      videoUrl: "https://example.com/week5-intro",
-    },
-    {
-      title: "5.2 Designing and Performing a Comprehensive Caffeine Extraction Project",
-      content: `
-        <h2 class="text-2xl font-bold">Project Planning and Execution</h2>
-        <p class="mt-4">Plan and execute a detailed caffeine extraction project that integrates all the techniques and safety measures learned throughout the course.</p>
-        <h3 class="text-xl font-semibold mt-6">Project Steps:</h3>
-        <ol class="list-decimal list-inside mt-2">
-          <li>Define the project objectives and desired outcomes.</li>
-          <li>Design the extraction process using appropriate solvents and techniques.</li>
-          <li>Assemble the necessary equipment and prepare the laboratory workspace.</li>
-          <li>Conduct the extraction, purification, and analysis steps.</li>
-          <li>Document each phase of the project meticulously.</li>
-        </ol>
-        <h3 class="text-xl font-semibold mt-6">Integration of Skills:</h3>
-        <ul class="list-disc list-inside mt-2">
-          <li>Applying solvent-based extraction techniques.</li>
-          <li>Ensuring purity through analytical methods.</li>
-          <li>Maintaining lab safety throughout the project.</li>
-        </ul>
-      `,
-      videoUrl: "https://example.com/week5-project-design",
-    },
-    {
-      title: "5.3 Reviewing and Applying All Safety Protocols in the Final Procedure",
-      content: `
-        <h2 class="text-2xl font-bold">Comprehensive Safety Implementation</h2>
-        <p class="mt-4">Ensure that all safety protocols are rigorously followed during the final extraction project to prevent accidents and maintain a safe lab environment.</p>
-        <h3 class="text-xl font-semibold mt-6">Safety Review:</h3>
-        <ul class="list-disc list-inside mt-2">
-          <li>Revisiting PPE requirements and proper usage.</li>
-          <li>Ensuring correct handling and storage of chemicals.</li>
-          <li>Reviewing emergency procedures and equipment locations.</li>
-        </ul>
-        <h3 class="text-xl font-semibold mt-6">Applying Safety Protocols:</h3>
-        <ul class="list-disc list-inside mt-2">
-          <li>Setting up the workspace with all necessary safety measures.</li>
-          <li>Conducting risk assessments before starting experiments.</li>
-          <li>Monitoring the project for adherence to safety guidelines.</li>
-        </ul>
-      `,
-      videoUrl: "https://example.com/week5-safety-review",
-    },
-    {
-      title: "5.4 Caffeine Extraction Without the Use of Carcinogenic Chemicals",
-      content: `
-        <h2 class="text-2xl font-bold">Green Chemistry Approaches to Caffeine Extraction</h2>
-        <p class="mt-4">Explore environmentally friendly methods for extracting caffeine without relying on carcinogenic chemicals, ensuring safety and sustainability in your laboratory practices.</p>
-        <h3 class="text-xl font-semibold mt-6">Alternative Solvent Selection:</h3>
-        <ul class="list-disc list-inside mt-2">
-          <li>Introduction to green solvents and their benefits.</li>
-          <li>Comparing traditional and green solvents for efficiency and safety.</li>
-          <li>Evaluating the environmental impact of solvent choices.</li>
-        </ul>
-        <h3 class="text-xl font-semibold mt-6">Implementing Green Extraction Techniques:</h3>
-        <ul class="list-disc list-inside mt-2">
-          <li>Microwave-Assisted Extraction (MAE) as a green alternative.</li>
-          <li>Supercritical Fluid Extraction (SFE) with CO2.</li>
-          <li>Using Deep Eutectic Solvents (DES) for sustainable extraction.</li>
-        </ul>
-        <h3 class="text-xl font-semibold mt-6">Benefits of Non-Toxic Extraction Processes:</h3>
-        <ul class="list-disc list-inside mt-2">
-          <li>Enhancing laboratory safety.</li>
-          <li>Reducing environmental footprint.</li>
-          <li>Improving product purity and quality.</li>
-        </ul>
-      `,
-      videoUrl: "https://example.com/week5-green-extraction",
-    },
-    {
-      title: "5.5 Presenting Results with an Emphasis on Safety Compliance",
-      content: `
-        <h2 class="text-2xl font-bold">Effective Communication of Your Project</h2>
-        <p class="mt-4">Learn how to present your project findings effectively, highlighting both the results and the safety measures implemented.</p>
-        <h3 class="text-xl font-semibold mt-6">Presentation Techniques:</h3>
-        <ul class="list-disc list-inside mt-2">
-          <li>Creating clear and organized presentation slides.</li>
-          <li>Demonstrating the extraction process through visuals and demonstrations.</li>
-          <li>Highlighting safety compliance and how it was maintained throughout the project.</li>
-        </ul>
-        <h3 class="text-xl font-semibold mt-6">Documentation:</h3>
-        <ul class="list-disc list-inside mt-2">
-          <li>Preparing a detailed project report.</li>
-          <li>Including data analysis, observations, and conclusions.</li>
-          <li>Documenting safety procedures and any incidents encountered.</li>
-        </ul>
-      `,
-      videoUrl: "https://example.com/week5-presentation",
-    },
-    {
-      title: "5.6 Summary",
-      content: `
-        <h2 class="text-2xl font-bold">Week 5 Summary: Final Extraction Project and Safety Assessment</h2>
-        <p class="mt-4">This week, you've accomplished:</p>
-        <ul class="list-disc list-inside mt-2">
-          <li>Designed and performed a comprehensive caffeine extraction project.</li>
-          <li>Applied all safety protocols rigorously throughout the project.</li>
-          <li>Implemented green chemistry approaches to ensure safe and sustainable extraction.</li>
-          <li>Presented your results with a focus on safety compliance and effective communication.</li>
-        </ul>
-        <p class="mt-4">Congratulations on completing the **Caffeine Extraction** course! Your hands-on experience and adherence to safety standards prepare you for both academic and industrial research applications.</p>
-      `,
-    },
-    {
-      title: "5.7 Quiz",
-      content: `
-        <h2 class="text-2xl font-bold">Final Quiz: Final Extraction Project and Safety Assessment</h2>
-        <p class="mt-4">Assess your comprehensive understanding of the concepts covered throughout the course.</p>
-      `,
-      quiz: {
-        question:
-          "Why is it important to use a fume hood during solvent-based extraction projects?",
-        options: [
-          "To increase the speed of evaporation",
-          "To protect the environment from chemical spills",
-          "To ventilate hazardous fumes and protect the user from inhalation",
-          "To enhance the purity of the extracted caffeine",
-        ],
-        correctAnswer: 2,
-          },
+      chapters: [
+        {
+          title: "5.1 Introduction",
+          content: `
+            <h2 class="text-2xl font-bold">Slide 1: Introduction to Your Final Project</h2>
+            <p class="mt-4"><strong>Objective:</strong> Learn how to integrate all the skills from the course into a comprehensive caffeine extraction project while ensuring laboratory safety.</p>
+            <h3 class="text-xl font-semibold mt-6">What You Will Do:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li>Review the final project guidelines and objectives.</li>
+              <li>Understand the deliverables: a complete extraction process, documentation, and safety assessment.</li>
+              <li>Outline the project phases—from initial concept to final presentation.</li>
+            </ul>
+            <h3 class="text-xl font-semibold mt-6">Step-by-Step Instructions:</h3>
+            <ol class="list-decimal list-inside mt-2">
+              <li>Carefully read the final project brief provided in your course materials.</li>
+              <li>Identify the key techniques (solvent extraction, purification, waste management, and safety protocols) that you will incorporate.</li>
+              <li>Create a detailed timeline and checklist to manage each project phase.</li>
+              <li>Prepare your lab notebook to document every step of the process.</li>
+            </ol>
+            <p class="mt-4"><em>Tip:</em> Start early and iterate on your design concept to refine both your extraction technique and safety practices.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
+                Click here for additional details and assessment info.
+              </a>
+            </p>
+          `,
+          videoUrl: "https://example.com/week5-intro"
         },
+        {
+          title: "5.2 Designing and Performing a Comprehensive Caffeine Extraction Project",
+          content: `
+            <h2 class="text-2xl font-bold">Slide 2: Project Planning and Execution</h2>
+            <p class="mt-4"><strong>Objective:</strong> Plan and execute a detailed extraction project that integrates all the course techniques and safety measures.</p>
+            <h3 class="text-xl font-semibold mt-6">Project Phases:</h3>
+            <ol class="list-decimal list-inside mt-2">
+              <li><strong>Concept Development:</strong> Brainstorm, sketch, and outline your extraction process.</li>
+              <li><strong>Process Design:</strong> Choose solvents, determine purification methods, and map safety checkpoints.</li>
+              <li><strong>Execution:</strong> Set up your lab, run the extraction, and monitor each step carefully.</li>
+              <li><strong>Documentation:</strong> Record every detail—from equipment settings to observations—throughout the project.</li>
+            </ol>
+            <h3 class="text-xl font-semibold mt-6">Integration of Skills:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li>Applying solvent-based extraction techniques learned in Week 2.</li>
+              <li>Utilizing purification methods from Week 3 for optimal product quality.</li>
+              <li>Maintaining strict adherence to lab safety protocols.</li>
+            </ul>
+            <p class="mt-4"><em>Tip:</em> Keep a visual record (photos or screenshots) of each stage for inclusion in your final report.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
+                Click here for additional details and assessment info.
+              </a>
+            </p>
+          `,
+          videoUrl: "https://example.com/week5-project-design"
+        },
+        {
+          title: "5.3 Reviewing and Applying All Safety Protocols in the Final Procedure",
+          content: `
+            <h2 class="text-2xl font-bold">Slide 3: Comprehensive Safety Implementation</h2>
+            <p class="mt-4"><strong>Objective:</strong> Ensure rigorous application of all safety protocols during your extraction project.</p>
+            <h3 class="text-xl font-semibold mt-6">Safety Focus Areas:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li>Reviewing and confirming PPE requirements and proper usage.</li>
+              <li>Ensuring safe chemical handling and proper storage practices.</li>
+              <li>Conducting risk assessments and emergency procedure drills.</li>
+            </ul>
+            <h3 class="text-xl font-semibold mt-6">Step-by-Step Safety Checks:</h3>
+            <ol class="list-decimal list-inside mt-2">
+              <li>Verify that all lab equipment and safety gear are in optimal condition.</li>
+              <li>Set up your workspace with clear safety signage and properly labeled chemicals.</li>
+              <li>Conduct a pre-experiment safety audit with your team.</li>
+              <li>Monitor and document safety compliance throughout the extraction process.</li>
+            </ol>
+            <p class="mt-4"><em>Tip:</em> Regular safety reviews not only protect you but also enhance the credibility of your final project.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
+                Click here for additional details and assessment info.
+              </a>
+            </p>
+          `,
+          videoUrl: "https://example.com/week5-safety-review"
+        },
+        {
+          title: "5.4 Caffeine Extraction Without the Use of Carcinogenic Chemicals",
+          content: `
+            <h2 class="text-2xl font-bold">Slide 4: Green Chemistry Approaches</h2>
+            <p class="mt-4"><strong>Objective:</strong> Explore sustainable, non-toxic alternatives for caffeine extraction that minimize environmental and health risks.</p>
+            <h3 class="text-xl font-semibold mt-6">Alternative Methods:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li>Microwave-Assisted Extraction (MAE)</li>
+              <li>Supercritical Fluid Extraction (SFE) using CO₂</li>
+              <li>Deep Eutectic Solvents (DES) for eco-friendly extraction</li>
+            </ul>
+            <h3 class="text-xl font-semibold mt-6">Benefits:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li>Reduced exposure to carcinogenic chemicals</li>
+              <li>Lower environmental impact</li>
+              <li>Enhanced safety in the laboratory</li>
+            </ul>
+            <h3 class="text-xl font-semibold mt-6">Step-by-Step Implementation:</h3>
+            <ol class="list-decimal list-inside mt-2">
+              <li>Research and select an alternative solvent or method based on your project needs.</li>
+              <li>Review the experimental setup for the chosen green extraction technique.</li>
+              <li>Integrate this method into your overall project plan and note any adjustments required.</li>
+              <li>Document the performance of the green extraction method compared to traditional techniques.</li>
+            </ol>
+            <p class="mt-4"><em>Tip:</em> A comparative analysis of green vs. traditional methods can add significant value to your project report.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
+                Click here for additional details and assessment info.
+              </a>
+            </p>
+          `,
+          videoUrl: "https://example.com/week5-green-extraction"
+        },
+        {
+          title: "5.5 Presenting Results with an Emphasis on Safety Compliance",
+          content: `
+            <h2 class="text-2xl font-bold">Slide 5: Effective Project Presentation</h2>
+            <p class="mt-4"><strong>Objective:</strong> Learn to communicate your project outcomes clearly, with a focus on both technical results and adherence to safety protocols.</p>
+            <h3 class="text-xl font-semibold mt-6">Presentation Strategies:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li>Create clear, organized slides summarizing each phase of your project.</li>
+              <li>Use visual aids (photos, graphs, and charts) to illustrate key data and safety checkpoints.</li>
+              <li>Highlight how safety protocols were implemented and monitored throughout your experiment.</li>
+            </ul>
+            <h3 class="text-xl font-semibold mt-6">Documentation:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li>Compile a comprehensive project report including methodology, results, and safety assessments.</li>
+              <li>Include detailed observations, troubleshooting logs, and reflections on process improvements.</li>
+            </ul>
+            <p class="mt-4"><em>Tip:</em> A well-documented presentation not only demonstrates technical expertise but also underscores your commitment to lab safety.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
+                Click here for additional details and assessment info.
+              </a>
+            </p>
+          `,
+          videoUrl: "https://example.com/week5-presentation"
+        },
+        {
+          title: "5.6 Summary",
+          content: `
+            <h2 class="text-2xl font-bold">Slide 6: Week 5 Summary</h2>
+            <p class="mt-4"><strong>Review:</strong> Recap the final extraction project, emphasizing both the technical execution and safety measures employed throughout the process.</p>
+            <ul class="list-disc list-inside mt-2">
+              <li>Completed a comprehensive caffeine extraction project using both traditional and green chemistry methods.</li>
+              <li>Ensured strict adherence to lab safety protocols and documented each safety measure.</li>
+              <li>Effectively presented your project outcomes with clear data and safety assessments.</li>
+            </ul>
+            <p class="mt-4">This final project showcases your ability to integrate advanced extraction techniques with rigorous safety standards, preparing you for further academic or industrial research.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
+                Click here for additional details and assessment info.
+              </a>
+            </p>
+          `,
+        },
+        {
+          title: "5.7 Quiz",
+          content: `
+            <h2 class="text-2xl font-bold">Slide 7: Final Quiz - Comprehensive Extraction Project</h2>
+            <p class="mt-4"><strong>Objective:</strong> Evaluate your understanding of the entire final project process—from design through execution and presentation.</p>
+            <h3 class="text-xl font-semibold mt-6">Steps to Answer:</h3>
+            <ol class="list-decimal list-inside mt-2">
+              <li>Review all the slides from Slides 1 to 6.</li>
+              <li>Reflect on how each phase contributed to both the technical success and safety of your project.</li>
+              <li>Select the answer that best captures the critical element for overall project success.</li>
+            </ol>
+            <p class="mt-4"><em>Tip:</em> Revisit your project documentation and safety records if you need to refresh your memory before taking the quiz.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
+                Click here for additional details and assessment info.
+              </a>
+            </p>
+          `,
+          quiz: {
+            question: "Which aspect of the final extraction project is most critical for ensuring both technical success and safety compliance?",
+            options: [
+              "Concept development and brainstorming",
+              "Rigorous application of safety protocols during the extraction process",
+              "Advanced extraction techniques alone",
+              "High-quality presentation of the results"
+            ],
+            correctAnswer: 1
+          }
+        }
       ],
     },
+    
     //add weeks here if you want to 
   ],
 };

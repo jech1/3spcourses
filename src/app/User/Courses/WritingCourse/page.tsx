@@ -8,1182 +8,815 @@ const WritingCourseData: CourseData = {
   title: "Scientific Writing & Grant Proposal",
   weeks: [
     {
-      title: "Week 1: Introduction to Scientific Writing",
+      title: "Week 1: Foundations of Scientific Writing",
       chapters: [
         {
-          title: "Chapter 1.1: Introduction",
+          title: "1.1 Introduction",
           content: `
-              <h2 class="text-2xl font-bold">Welcome to Scientific Writing & Grant Proposal</h2>
-              <p class="mt-4">Scientific writing is a crucial skill for researchers, academics, and professionals in various scientific fields. This course will guide you through the intricacies of effective scientific communication, from crafting research papers to writing compelling grant proposals.</p>
-              <h3 class="text-xl font-semibold mt-6">Course Overview:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li><strong>Week 1:</strong> Introduction to Scientific Writing</li>
-                <li><strong>Week 2:</strong> Crafting Research Questions and Hypotheses</li>
-                <li><strong>Week 3:</strong> Literature Review and Citation Management</li>
-                <li><strong>Week 4:</strong> Writing Methods and Results Sections</li>
-                <li><strong>Week 5:</strong> Crafting a Strong Discussion Section</li>
-                <li><strong>Week 6:</strong> Grant Proposal Writing</li>
-                <li><strong>Week 7:</strong> Revising, Editing, and Peer Review</li>
-              </ul>
-
-              <h3 class="text-xl font-semibold mt-6">Assignments:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>
-                  <strong>First Primary Paper Assessment:</strong>
-                  <ul class="list-disc list-inside ml-6 mt-1">
-                    <li>The first primary article assignment is due on 3/1, 4/1, 5/1 (due online - <a href="https://forms.gle/RcwwWkX2zQ131aRP6" class="text-blue-500 underline">Click Here</a>).</li>
-                    <li><a href="https://docs.google.com/document/d/1NylLZ3z-gtNnSLKVMWnE8yiyO6XeUzyW/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Primary Paper Review Instructions</a></li>
-                    <li><a href="https://docs.google.com/document/d/1uLhSkT2_rRzU04-e-ceyQzHw_Uby6Y9n/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Primary Paper Written Example One</a></li>
-                  </ul>
-                </li>
-                <li>
-                  <strong>Second Primary Paper Review Assessment:</strong>
-                  <ul class="list-disc list-inside ml-6 mt-1">
-                    <li>The second primary article assignment is due on 3/1, 4/1, 5/1 (due online - <a href="https://forms.gle/RcwwWkX2zQ131aRP6" class="text-blue-500 underline">Click Here</a>).</li>
-                    <li><a href="https://docs.google.com/document/d/1BlIKF7_2OVcZl7Gv8UPsRmFIG8tGIaVY/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Second Primary Paper Review Instructions</a></li>
-                    <li><a href="https://docs.google.com/document/d/1um8jqJv9XGkY-_WqP_j8M4M3tnfWD_Qs/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Second Primary Paper Written Example Two</a></li>
-                  </ul>
-                </li>
-                <li>
-                  <strong>Grant Proposal Final Assessment:</strong>
-                  <ul class="list-disc list-inside ml-6 mt-1">
-                    <li>The assignment is due on 3/15, 4/15, 5/15 (due online - <a href="https://forms.gle/U8RKt9YsHpVeTxsPA" class="text-blue-500 underline">Click Here</a>).</li>
-                    <li><a href="https://docs.google.com/document/d/1k7ktEblxvvN0AmL1VE7Krt5qbneKEf4z/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Grant Proposal Review Instructions</a></li>
-                    <li><a href="https://docs.google.com/document/d/1Y-rlkNHIIXhVH77i6wD9HO-M0ITBPZUm/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Grant Proposal Example One</a></li>
-                  </ul>
-                </li>
-              </ul>
-                            
-            `,
+            <h2 class="text-2xl font-bold">Slide 1: Introduction to Scientific Writing</h2>
+            <p class="mt-4"><strong>Objective:</strong> Understand the purpose of scientific writing and its critical role in advancing knowledge across disciplines.</p>
+            <h3 class="text-xl font-semibold mt-6">Key Concepts:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li>The importance of clear, precise, and reproducible writing in science.</li>
+              <li>How scientific writing communicates original research and supports peer review and publication.</li>
+              <li>Standards and expectations at an Ivy League level.</li>
+            </ul>
+            <p class="mt-4"><em>Tip:</em> Strong scientific writing not only informs but also persuades and inspires further inquiry.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/1NylLZ3z-gtNnSLKVMWnE8yiyO6XeUzyW/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
+                Click here for additional details and assessment info.
+              </a>
+            </p>
+          `,
+          videoUrl: "https://example.com/week1-introduction"
         },
         {
-          title: "Chapter 1.2: Understanding the Purpose of Scientific Writing",
+          title: "1.2 Structure of a Research Paper",
           content: `
-              <h2 class="text-2xl font-bold">The Purpose of Scientific Writing</h2>
-              <p class="mt-4">Scientific writing serves multiple crucial purposes in the academic and research world:</p>
-              <ul class="list-disc list-inside mt-2">
-                <li>Communicate research findings effectively</li>
-                <li>Contribute to the body of scientific knowledge</li>
-                <li>Facilitate peer review and collaboration</li>
-                <li>Secure funding through grant proposals</li>
-              </ul>
-              <h3 class="text-xl font-semibold mt-6">Key Characteristics of Scientific Writing:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li><strong>Clarity:</strong> Present information in a clear and concise manner.</li>
-                <li><strong>Objectivity:</strong> Maintain neutrality and avoid personal bias.</li>
-                <li><strong>Accuracy:</strong> Provide precise and correct data and references.</li>
-                <li><strong>Evidence-based:</strong> Support statements with empirical data.</li>
-              </ul>
-              <p class="mt-4">Throughout this course, we'll delve deeper into each of these characteristics and learn how to apply them effectively in your writing.</p>
-            `,
+            <h2 class="text-2xl font-bold">Slide 2: Understanding the IMRaD Format</h2>
+            <p class="mt-4"><strong>Objective:</strong> Deep dive into the structure of a research paper using the IMRaD format and additional components such as the Abstract, References, and Acknowledgments.</p>
+            <h3 class="text-xl font-semibold mt-6">Components of IMRaD:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li><strong>Introduction:</strong> Provides background and states the research question.</li>
+              <li><strong>Methods:</strong> Details the experimental design and procedures.</li>
+              <li><strong>Results:</strong> Presents the findings objectively.</li>
+              <li><strong>Discussion:</strong> Interprets results and contextualizes them within existing literature.</li>
+              <li>Additional sections: Abstract, References, and Acknowledgments are also critical.</li>
+            </ul>
+            <p class="mt-4"><em>Tip:</em> Familiarize yourself with published high-impact articles to see how these components are executed at an Ivy League standard.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/1NylLZ3z-gtNnSLKVMWnE8yiyO6XeUzyW/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
+                Click here for additional details and assessment info.
+              </a>
+            </p>
+          `,
+          videoUrl: "https://example.com/week1-imrad"
         },
         {
-          title: "Chapter 1.3: Key Components of a Research Paper",
+          title: "1.3 Academic vs. General Writing",
           content: `
-              <h2 class="text-2xl font-bold">Understanding the Structure</h2>
-              <p class="mt-4">A typical scientific research paper follows a standardized structure, often referred to as IMRaD:</p>
-              <ul class="list-disc list-inside mt-2">
-                <li><strong>Introduction:</strong> Presents the research question and background.</li>
-                <li><strong>Methods:</strong> Describes how the research was conducted.</li>
-                <li><strong>Results:</strong> Reports the findings.</li>
-                <li><strong>Discussion:</strong> Interprets the results and their implications.</li>
-              </ul>
-              <h3 class="text-xl font-semibold mt-6">Additional Components:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li><strong>Abstract:</strong> A brief summary of the entire paper.</li>
-                <li><strong>References:</strong> List of sources cited in the paper.</li>
-                <li><strong>Acknowledgments:</strong> Credits to contributors and funding sources.</li>
-              </ul>
-              <p class="mt-4">Understanding this structure is essential for organizing your paper effectively.</p>
-              <h3 class="text-xl font-semibold mt-6">Example Layout:</h3>
-              <table class="w-full border border-gray-500 mt-4">
-                <thead>
-                  <tr>
-                    <th class="border border-gray-500 px-4 py-2 bg-gray-100">Section</th>
-                    <th class="border border-gray-500 px-4 py-2 bg-gray-100">Content</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td class="border border-gray-500 px-4 py-2">Abstract</td>
-                    <td class="border border-gray-500 px-4 py-2">Summary of the study including purpose, methods, results, and conclusions.</td>
-                  </tr>
-                  <tr>
-                    <td class="border border-gray-500 px-4 py-2">Introduction</td>
-                    <td class="border border-gray-500 px-4 py-2">Background information, research question, and objectives.</td>
-                  </tr>
-                  <tr>
-                    <td class="border border-gray-500 px-4 py-2">Methods</td>
-                    <td class="border border-gray-500 px-4 py-2">Detailed description of procedures and materials used.</td>
-                  </tr>
-                  <tr>
-                    <td class="border border-gray-500 px-4 py-2">Results</td>
-                    <td class="border border-gray-500 px-4 py-2">Presentation of data and findings.</td>
-                  </tr>
-                  <tr>
-                    <td class="border border-gray-500 px-4 py-2">Discussion</td>
-                    <td class="border border-gray-500 px-4 py-2">Interpretation of results, implications, and conclusions.</td>
-                  </tr>
-                  <tr>
-                    <td class="border border-gray-500 px-4 py-2">References</td>
-                    <td class="border border-gray-500 px-4 py-2">List of all sources cited in the paper.</td>
-                  </tr>
-                </tbody>
-              </table>
-            `,
+            <h2 class="text-2xl font-bold">Slide 3: Academic vs. General Writing</h2>
+            <p class="mt-4"><strong>Objective:</strong> Understand the key differences between academic writing and general writing in tone, audience, and purpose.</p>
+            <h3 class="text-xl font-semibold mt-6">Key Differences:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li><strong>Academic Writing:</strong> Formal tone, precise language, objective, evidence-based.</li>
+              <li><strong>General Writing:</strong> More conversational, subjective, and accessible to a broader audience.</li>
+            </ul>
+            <p class="mt-4"><em>Tip:</em> Maintaining a formal, objective tone is essential for scientific credibility.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/1NylLZ3z-gtNnSLKVMWnE8yiyO6XeUzyW/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
+                Click here for additional details and assessment info.
+              </a>
+            </p>
+          `,
+          videoUrl: "https://example.com/week1-academic-vs-general"
         },
         {
-          title: "Chapter 1.4: Differences Between Academic and General Writing Styles",
+          title: "1.4 Planning & Organizing Your Manuscript",
           content: `
-              <h2 class="text-2xl font-bold">Academic vs. General Writing</h2>
-              <p class="mt-4">Academic writing differs from general writing in several key ways:</p>
-              <h3 class="text-xl font-semibold mt-6">Formality:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>Academic writing uses formal language and avoids colloquialisms.</li>
-                <li>General writing may be more conversational and accessible.</li>
-              </ul>
-              <h3 class="text-xl font-semibold mt-6">Objectivity:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>Academic writing emphasizes objectivity and evidence-based arguments.</li>
-                <li>General writing can include personal opinions and anecdotes.</li>
-              </ul>
-              <h3 class="text-xl font-semibold mt-6">Audience:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>Academic writing targets scholars and professionals in the field.</li>
-                <li>General writing aims for a broader audience.</li>
-              </ul>
-              <h3 class="text-xl font-semibold mt-6">Purpose:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>Academic writing seeks to inform, analyze, or contribute to scholarly discourse.</li>
-                <li>General writing can entertain, inform, or persuade.</li>
-              </ul>
-              <h3 class="text-xl font-semibold mt-6">Examples:</h3>
-              <table class="w-full border border-gray-500 mt-4">
-                <thead>
-                  <tr>
-                    <th class="border border-gray-500 px-4 py-2 bg-gray-100">Aspect</th>
-                    <th class="border border-gray-500 px-4 py-2 bg-gray-100">Academic Writing</th>
-                    <th class="border border-gray-500 px-4 py-2 bg-gray-100">General Writing</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td class="border border-gray-500 px-4 py-2">Language</td>
-                    <td class="border border-gray-500 px-4 py-2">Formal, technical terms</td>
-                    <td class="border border-gray-500 px-4 py-2">Informal, everyday language</td>
-                  </tr>
-                  <tr>
-                    <td class="border border-gray-500 px-4 py-2">Tone</td>
-                    <td class="border border-gray-500 px-4 py-2">Objective, neutral</td>
-                    <td class="border border-gray-500 px-4 py-2">Subjective, personal</td>
-                  </tr>
-                  <tr>
-                    <td class="border border-gray-500 px-4 py-2">Structure</td>
-                    <td class="border border-gray-500 px-4 py-2">Structured with headings and citations</td>
-                    <td class="border border-gray-500 px-4 py-2">Flexible, may not include citations</td>
-                  </tr>
-                </tbody>
-              </table>
-              <h3 class="text-xl font-semibold mt-6">Summary:</h3>
-              <p class="mt-4">Recognizing these differences helps in adopting the appropriate style for your scientific writing.</p>
-            `,
+            <h2 class="text-2xl font-bold">Slide 4: Planning & Organizing</h2>
+            <p class="mt-4"><strong>Objective:</strong> Learn strategies for outlining and structuring your manuscript to ensure clarity and coherence.</p>
+            <h3 class="text-xl font-semibold mt-6">Strategies:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li>Develop a detailed outline based on the IMRaD format.</li>
+              <li>Organize your literature review, methodology, results, and discussion logically.</li>
+              <li>Plan your writing schedule and revision process.</li>
+            </ul>
+            <p class="mt-4"><em>Tip:</em> A well-organized manuscript not only improves readability but also enhances the persuasiveness of your arguments.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/1NylLZ3z-gtNnSLKVMWnE8yiyO6XeUzyW/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
+                Click here for additional details and assessment info.
+              </a>
+            </p>
+          `,
+          videoUrl: "https://example.com/week1-planning-organizing"
         },
         {
-          title: "Chapter 1.5: Planning and Organizing Your Writing",
+          title: "1.5 Quiz: IMRaD & Academic Writing Principles",
           content: `
-              <h2 class="text-2xl font-bold">Effective Planning Strategies</h2>
-              <p class="mt-4">Proper planning and organization are essential for coherent and impactful scientific writing. Here are some steps to guide you:</p>
-              <h3 class="text-xl font-semibold mt-6">1. Understand the Assignment or Purpose:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>Clarify the objectives and requirements of your paper.</li>
-                <li>Identify the target audience and their expectations.</li>
-              </ul>
-              <h3 class="text-xl font-semibold mt-6">2. Conduct Preliminary Research:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>Gather background information on your topic.</li>
-                <li>Identify key themes and gaps in the literature.</li>
-              </ul>
-              <h3 class="text-xl font-semibold mt-6">3. Create an Outline:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>Organize your main ideas and supporting points.</li>
-                <li>Use headings and subheadings to structure your paper.</li>
-              </ul>
-              <h3 class="text-xl font-semibold mt-6">4. Set a Writing Schedule:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>Allocate time for research, writing, and revisions.</li>
-                <li>Set realistic goals and deadlines.</li>
-              </ul>
-              <h3 class="text-xl font-semibold mt-6">5. Use Writing Tools:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>Leverage software like reference managers and project planners.</li>
-                <li>Utilize templates or style guides specific to your discipline.</li>
-              </ul>
-              <h3 class="text-xl font-semibold mt-6">Example Outline:</h3>
-                <p class="mt-4"><strong>I. Introduction</strong></p>
-                <ul class="list-disc list-inside mt-2">
-                <li>Background of the study</li>
-                <li>Statement of the problem</li>
-                <li>Research objectives</li>
-                <li>Research questions/hypotheses</li>
-                </ul>
-                <p class="mt-4"><strong>II. Literature Review</strong></p>
-                <ul class="list-disc list-inside mt-2">
-                <li>Theoretical framework</li>
-                <li>Previous studies</li>
-                <li>Identified gaps</li>
-                <li>Summary of key findings</li>
-                </ul>
-                <p class="mt-4"><strong>III. Methodology</strong></p>
-                <ul class="list-disc list-inside mt-2">
-                <li>Research design</li>
-                <li>Data collection methods</li>
-                <li>Data analysis procedures</li>
-                <li>Ethical considerations</li>
-                </ul>
-                <p class="mt-4"><strong>IV. Results</strong></p>
-                <ul class="list-disc list-inside mt-2">
-                <li>Presentation of data</li>
-                <li>Statistical analyses</li>
-                <li>Key findings</li>
-                </ul>
-                <p class="mt-4"><strong>V. Discussion</strong></p>
-                <ul class="list-disc list-inside mt-2">
-                <li>Interpretation of results</li>
-                <li>Comparison with existing literature</li>
-                <li>Implications of the study</li>
-                </ul>
-                <p class="mt-4"><strong>VI. Conclusion</strong></p>
-                <ul class="list-disc list-inside mt-2">
-                <li>Summary of findings</li>
-                <li>Limitations of the study</li>
-                <li>Recommendations for future research</li>
-                </ul>
-                <p class="mt-4"><strong>VII. References</strong></p>
-                <ul class="list-disc list-inside mt-2">
-                <li>List of all sources cited</li>
-                </ul>
-              <h3 class="text-xl font-semibold mt-6">Summary:</h3>
-              <p class="mt-4">Effective planning and organization streamline the writing process and enhance the clarity of your scientific paper.</p>
-            `,
-        },
-        {
-          title: "Chapter 1.6: Summary",
-          content: `
-              <h2 class="text-2xl font-bold">Week 1 Summary: Introduction to Scientific Writing</h2>
-              <p class="mt-4">This week, we've covered the fundamentals of scientific writing:</p>
-              <ul class="list-disc list-inside mt-2">
-                <li>The purpose and importance of scientific writing.</li>
-                <li>Key components of a research paper (IMRaD structure).</li>
-                <li>Differences between academic and general writing styles.</li>
-                <li>Strategies for planning and organizing your writing.</li>
-              </ul>
-              <p class="mt-4">These foundational concepts will support your progress throughout the course as we delve deeper into each aspect of scientific writing.</p>
-            `,
-        },
-        {
-          title: "Chapter 1.7: Quiz",
-          content: `
-              <h2 class="text-2xl font-bold">Test Your Understanding</h2>
-              <p class="mt-4">Assess your grasp of the key concepts from this week.</p>
-            `,
+            <h2 class="text-2xl font-bold">Slide 5: Quiz - Understanding IMRaD Structure</h2>
+            <p class="mt-4"><strong>Objective:</strong> Test your understanding of the IMRaD structure and the principles of academic writing.</p>
+            <h3 class="text-xl font-semibold mt-6">Quiz Task:</h3>
+            <ol class="list-decimal list-inside mt-2">
+              <li>Review the components of a research paper (IMRaD).</li>
+              <li>Identify the purpose of each section.</li>
+              <li>Explain key differences between academic and general writing.</li>
+            </ol>
+            <p class="mt-4"><em>Tip:</em> A thorough understanding of these components is essential for producing high-quality scientific manuscripts.</p>
+          `,
           quiz: {
-            question:
-              "Which section of a research paper is typically NOT part of the IMRaD structure?",
-            options: ["Introduction", "Methods", "Discussion", "Abstract"],
-            correctAnswer: 3,
-          },
-        },
-      ],
-    },
-    {
-      title: "Week 2: Crafting Research Questions and Hypotheses",
-      chapters: [
-        {
-          title: "Chapter 2.1: Introduction",
-          content: `
-              <h2 class="text-2xl font-bold">The Foundation of Scientific Inquiry</h2>
-              <p class="mt-4">Research questions and hypotheses are central to the scientific method. They define the focus of your study and guide your research design and analysis.</p>
-              <h3 class="text-xl font-semibold mt-6">Learning Objectives:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>Understand how to identify research gaps.</li>
-                <li>Learn how to formulate clear research questions.</li>
-                <li>Develop testable hypotheses.</li>
-              </ul>
-            `,
-        },
-        {
-          title: "Chapter 2.2: Identifying Research Gaps and Formulating Questions",
-          content: `
-              <h2 class="text-2xl font-bold">Finding Your Research Niche</h2>
-              <p class="mt-4">Identifying research gaps involves reviewing existing literature to find areas that are under-explored or contentious. Here's how to proceed:</p>
-              <h3 class="text-xl font-semibold mt-6">1. Conduct a Literature Review:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>Read extensively on your topic of interest.</li>
-                <li>Note recurring themes and contradictions.</li>
-              </ul>
-              <h3 class="text-xl font-semibold mt-6">2. Identify Under-Researched Areas:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>Look for topics with limited studies.</li>
-                <li>Find questions raised but not answered in previous research.</li>
-              </ul>
-              <h3 class="text-xl font-semibold mt-6">3. Formulate Your Research Question:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>Ensure it's specific, measurable, and achievable.</li>
-                <li>Align it with identified research gaps.</li>
-              </ul>
-              <h3 class="text-xl font-semibold mt-6">Example:</h3>
-              <p class="mt-4"><strong>Research Gap:</strong> Limited studies on the impact of social media on adolescent mental health in rural areas.</p>
-              <p><strong>Research Question:</strong> What is the effect of social media use on the mental health of adolescents in rural communities?</p>
-              <h3 class="text-xl font-semibold mt-6">Tips:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>Ensure your question is clear and focused.</li>
-                <li>Avoid overly broad or vague questions.</li>
-                <li>Consider the feasibility of researching the question.</li>
-              </ul>
-            `,
-        },
-        {
-          title: "Chapter 2.3: Writing Clear and Testable Hypotheses",
-          content: `
-              <h2 class="text-2xl font-bold">Formulating Your Hypotheses</h2>
-              <p class="mt-4">A hypothesis is a tentative explanation or prediction that can be tested through research. Here's how to write effective hypotheses:</p>
-              <h3 class="text-xl font-semibold mt-6">1. Start with Your Research Question:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>Transform your question into a statement that predicts an outcome.</li>
-              </ul>
-              <h3 class="text-xl font-semibold mt-6">2. Ensure It's Testable:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>Use measurable variables.</li>
-                <li>Avoid subjective terms that can't be quantified.</li>
-              </ul>
-              <h3 class="text-xl font-semibold mt-6">3. Make It Specific:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>Clearly define the relationship between variables.</li>
-                <li>State the expected direction of the relationship (e.g., increases, decreases).</li>
-              </ul>
-              <h3 class="text-xl font-semibold mt-6">Example:</h3>
-              <p class="mt-4"><strong>Research Question:</strong> Does increased screen time affect sleep quality among teenagers?</p>
-              <p><strong>Hypothesis:</strong> Teenagers who spend more than 3 hours per day on screens will have poorer sleep quality compared to those who spend less time.</p>
-              <h3 class="text-xl font-semibold mt-6">Null and Alternative Hypotheses:</h3>
-              <p class="mt-4">In statistical testing, we often use:</p>
-              <ul class="list-disc list-inside mt-2">
-                <li><strong>Null Hypothesis (H<sub>0</sub>):</strong> No effect or relationship exists.</li>
-                <li><strong>Alternative Hypothesis (H<sub>A</sub>):</strong> An effect or relationship exists.</li>
-              </ul>
-              <p class="mt-4"><strong>Example:</strong></p>
-              <ul class="list-disc list-inside mt-2">
-                <li><strong>H<sub>0</sub>:</strong> Screen time does not affect sleep quality among teenagers.</li>
-                <li><strong>H<sub>A</sub>:</strong> Increased screen time negatively affects sleep quality among teenagers.</li>
-              </ul>
-              <h3 class="text-xl font-semibold mt-6">Avoiding Common Mistakes:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>Don't make hypotheses that are too broad or not testable.</li>
-                <li>Avoid using non-measurable terms.</li>
-                <li>Ensure your hypothesis is grounded in theory or existing literature.</li>
-              </ul>
-            `,
-        },
-        {
-          title: "Chapter 2.4: Summary",
-          content: `
-              <h2 class="text-2xl font-bold">Week 2 Summary: Crafting Research Questions and Hypotheses</h2>
-              <p class="mt-4">This week, we've focused on:</p>
-              <ul class="list-disc list-inside mt-2">
-                <li>Identifying research gaps through literature review.</li>
-                <li>Formulating clear and focused research questions.</li>
-                <li>Writing testable hypotheses.</li>
-              </ul>
-              <p class="mt-4">These skills are essential for designing a solid research study and contributing meaningful knowledge to your field.</p>
-            `,
-        },
-        {
-          title: "Chapter 2.5: Quiz",
-          content: `
-              <h2 class="text-2xl font-bold">Test Your Understanding</h2>
-              <p class="mt-4">Assess your grasp of the key concepts from this week.</p>
-            `,
-          quiz: {
-            question:
-              "Which of the following is a characteristic of a good research question?",
+            question: "Which of the following best describes the purpose of the 'Methods' section in a research paper?",
             options: [
-              "It is broad and general.",
-              "It is specific and measurable.",
-              "It is based on personal opinion.",
-              "It cannot be tested.",
+              "To provide background and context for the study.",
+              "To detail the procedures and techniques used in the study so that it can be replicated.",
+              "To discuss the implications of the research findings.",
+              "To review the literature related to the study topic."
             ],
-            correctAnswer: 1,
-          },
+            correctAnswer: 1
+          }
         },
-        // Remove the misplaced chapter if necessary
-        // {
-        //   title: "Chapter 2.6: Responsive Design Principles",
-        //   content: `
-        //       <h2 class="text-2xl font-bold">Note: This Chapter May Be Misplaced</h2>
-        //       <p class="mt-4">It seems there might be an error in the chapter listing. "Responsive Design Principles" typically pertains to web design, which may not align with the context of scientific writing. If this chapter is intended, please provide additional details or confirm its inclusion.</p>
-        //     `,
-        // },
+        {
+          title: "1.6 Assignments",
+          content: `
+            <h2 class="text-2xl font-bold">Slide 6: Assignments & Due Dates</h2>
+            <h3 class="text-xl font-semibold mt-6">Key Assignments:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li>
+                <strong>First Primary Paper Assessment:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>The first primary article assignment is due on <strong>3/1, 4/1, 5/1</strong> (submit online - <a href="https://forms.gle/RcwwWkX2zQ131aRP6" class="text-blue-500 underline" target="_blank">Click Here</a>).</li>
+                  <li><a href="https://docs.google.com/document/d/1NylLZ3z-gtNnSLKVMWnE8yiyO6XeUzyW/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Primary Paper Review Instructions</a></li>
+                  <li><a href="https://docs.google.com/document/d/1uLhSkT2_rRzU04-e-ceyQzHw_Uby6Y9n/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Primary Paper Written Example One</a></li>
+                </ul>
+              </li>
+              <li>
+                <strong>Second Primary Paper Review Assessment:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>The second primary article assignment is due on <strong>3/1, 4/1, 5/1</strong> (submit online - <a href="https://forms.gle/RcwwWkX2zQ131aRP6" class="text-blue-500 underline" target="_blank">Click Here</a>).</li>
+                  <li><a href="https://docs.google.com/document/d/1BlIKF7_2OVcZl7Gv8UPsRmFIG8tGIaVY/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Second Primary Paper Review Instructions</a></li>
+                  <li><a href="https://docs.google.com/document/d/1um8jqJv9XGkY-_WqP_j8M4M3tnfWD_Qs/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Second Primary Paper Written Example Two</a></li>
+                </ul>
+              </li>
+              <li>
+                <strong>Grant Proposal Final Assessment:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>The grant proposal assignment is due on <strong>3/15, 4/15, 5/15</strong> (submit online - <a href="https://forms.gle/U8RKt9YsHpVeTxsPA" class="text-blue-500 underline" target="_blank">Click Here</a>).</li>
+                  <li><a href="https://docs.google.com/document/d/1k7ktEblxvvN0AmL1VE7Krt5qbneKEf4z/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Grant Proposal Review Instructions</a></li>
+                  <li><a href="https://docs.google.com/document/d/1Y-rlkNHIIXhVH77i6wD9HO-M0ITBPZUm/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Grant Proposal Example One</a></li>
+                </ul>
+              </li>
+            </ul>
+            <p class="mt-4"><strong>Important:</strong> Attendance at a 3SP Information Session at Bergen Community College is required to receive your badge.</p>
+          `,
+        }
       ],
     },
+    
     {
-      title: "Week 3: Literature Review and Citation Management",
+      title: "Week 2: Crafting Research Questions & Hypotheses",
       chapters: [
         {
-          title: "Chapter 3.1: Introduction",
+          title: "2.1 Introduction",
           content: `
-              <h2 class="text-2xl font-bold">The Importance of Literature Review and Citation Management</h2>
-              <p class="mt-4">A well-conducted literature review is the foundation of any research project. It helps you understand the current state of knowledge, identify gaps, and position your research within the existing body of work.</p>
-              <h3 class="text-xl font-semibold mt-6">Objectives:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>Understand the purpose of a literature review.</li>
-                <li>Learn effective strategies for searching and selecting relevant literature.</li>
-                <li>Master techniques for summarizing and synthesizing sources.</li>
-                <li>Develop skills in citation management to avoid plagiarism.</li>
-              </ul>
-
-              <h3 class="text-xl font-semibold mt-6">Assignments:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>
-                  <strong>First Primary Paper Assessment:</strong>
-                  <ul class="list-disc list-inside ml-6 mt-1">
-                    <li>The first primary article assignment is due on 3/1, 4/1, 5/1 (due online - <a href="https://forms.gle/RcwwWkX2zQ131aRP6" class="text-blue-500 underline">Click Here</a>).</li>
-                    <li><a href="https://docs.google.com/document/d/1NylLZ3z-gtNnSLKVMWnE8yiyO6XeUzyW/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Primary Paper Review Instructions</a></li>
-                    <li><a href="https://docs.google.com/document/d/1uLhSkT2_rRzU04-e-ceyQzHw_Uby6Y9n/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Primary Paper Written Example One</a></li>
-                  </ul>
-                </li>
-                <li>
-                  <strong>Second Primary Paper Review Assessment:</strong>
-                  <ul class="list-disc list-inside ml-6 mt-1">
-                    <li>The second primary article assignment is due on 3/1, 4/1, 5/1 (due online - <a href="https://forms.gle/RcwwWkX2zQ131aRP6" class="text-blue-500 underline">Click Here</a>).</li>
-                    <li><a href="https://docs.google.com/document/d/1BlIKF7_2OVcZl7Gv8UPsRmFIG8tGIaVY/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Second Primary Paper Review Instructions</a></li>
-                    <li><a href="https://docs.google.com/document/d/1um8jqJv9XGkY-_WqP_j8M4M3tnfWD_Qs/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Second Primary Paper Written Example Two</a></li>
-                  </ul>
-                </li>
-                <li>
-                  <strong>Grant Proposal Final Assessment:</strong>
-                  <ul class="list-disc list-inside ml-6 mt-1">
-                    <li>The assignment is due on 3/15, 4/15, 5/15 (due online - <a href="https://forms.gle/U8RKt9YsHpVeTxsPA" class="text-blue-500 underline">Click Here</a>).</li>
-                    <li><a href="https://docs.google.com/document/d/1k7ktEblxvvN0AmL1VE7Krt5qbneKEf4z/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Grant Proposal Review Instructions</a></li>
-                    <li><a href="https://docs.google.com/document/d/1Y-rlkNHIIXhVH77i6wD9HO-M0ITBPZUm/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Grant Proposal Example One</a></li>
-                  </ul>
-                </li>
-              </ul>
-            `,
+            <h2 class="text-2xl font-bold">Slide 1: The Role of Research Questions & Hypotheses</h2>
+            <p class="mt-4"><strong>Objective:</strong> Understand how research questions and hypotheses serve as the foundation of scientific inquiry.</p>
+            <h3 class="text-xl font-semibold mt-6">Key Points:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li>Research questions define the scope and direction of a study.</li>
+              <li>Hypotheses offer testable predictions about relationships between variables.</li>
+              <li>They drive the research process by focusing inquiry and guiding methodology.</li>
+            </ul>
+            <p class="mt-4"><em>Tip:</em> A well-crafted research question and hypothesis set the stage for meaningful, focused research.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/YourResearchQuestionIntroURL" target="_blank" class="text-blue-600 underline">
+                Click here for additional details and assessment info.
+              </a>
+            </p>
+          `,
+          videoUrl: "https://example.com/week2-introduction"
         },
         {
-          title: "Chapter 3.2: Conducting a Thorough Literature Review",
+          title: "2.2 Identifying Research Gaps",
           content: `
-              <h2 class="text-2xl font-bold">Steps to an Effective Literature Review</h2>
-              <p class="mt-4">A comprehensive literature review involves several key steps:</p>
-              <h3 class="text-xl font-semibold mt-6">1. Define Your Research Topic:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>Clearly articulate your research question or hypothesis.</li>
-                <li>Identify keywords and phrases related to your topic.</li>
-              </ul>
-              <h3 class="text-xl font-semibold mt-6">2. Search for Literature:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>Use academic databases like PubMed, Google Scholar, and JSTOR.</li>
-                <li>Apply search filters to narrow down results.</li>
-              </ul>
-              <h3 class="text-xl font-semibold mt-6">3. Evaluate Sources:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>Assess the credibility and relevance of each source.</li>
-                <li>Prioritize peer-reviewed journals and reputable publications.</li>
-              </ul>
-              <h3 class="text-xl font-semibold mt-6">4. Organize Your Findings:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>Group studies by themes, methodologies, or findings.</li>
-                <li>Use reference management tools to keep track of sources.</li>
-              </ul>
-              <h3 class="text-xl font-semibold mt-6">5. Identify Gaps and Trends:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>Look for areas that lack research or have conflicting results.</li>
-                <li>Note emerging trends and new methodologies in the field.</li>
-              </ul>
-              <h3 class="text-xl font-semibold mt-6">Tips:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>Stay organized by taking detailed notes.</li>
-                <li>Regularly update your literature review as new studies are published.</li>
-              </ul>
-            `,
+            <h2 class="text-2xl font-bold">Slide 2: Identifying Research Gaps</h2>
+            <p class="mt-4"><strong>Objective:</strong> Learn techniques for conducting literature reviews and identifying under-explored areas in the scientific literature.</p>
+            <h3 class="text-xl font-semibold mt-6">Techniques:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li>Systematic literature review methods using databases and search tools.</li>
+              <li>Utilizing frameworks such as PRISMA to organize and synthesize research findings.</li>
+              <li>Analyzing existing studies to uncover gaps or inconsistencies in current knowledge.</li>
+            </ul>
+            <p class="mt-4"><em>Tip:</em> A thorough literature review is key to uncovering research gaps that can lead to innovative study designs.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/YourResearchGapsURL" target="_blank" class="text-blue-600 underline">
+                Click here for additional details and assessment info.
+              </a>
+            </p>
+          `,
+          videoUrl: "https://example.com/week2-research-gaps"
         },
         {
-          title: "Chapter 3.3: Summarizing and Synthesizing Sources",
+          title: "2.3 Formulating Hypotheses",
           content: `
-              <h2 class="text-2xl font-bold">From Individual Studies to a Cohesive Narrative</h2>
-              <p class="mt-4">Summarizing and synthesizing are essential skills for creating a literature review that offers value to your readers.</p>
-              <h3 class="text-xl font-semibold mt-6">Summarizing:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>Briefly state the main points of a single source.</li>
-                <li>Focus on the purpose, methodology, results, and conclusions.</li>
-              </ul>
-              <h3 class="text-xl font-semibold mt-6">Synthesizing:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>Combine information from multiple sources to identify patterns.</li>
-                <li>Highlight agreements, contradictions, and gaps among studies.</li>
-              </ul>
-              <h3 class="text-xl font-semibold mt-6">Techniques:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>Create thematic categories to group similar findings.</li>
-                <li>Use tables or charts to compare and contrast studies.</li>
-                <li>Paraphrase information in your own words to avoid plagiarism.</li>
-              </ul>
-              <h3 class="text-xl font-semibold mt-6">Example:</h3>
-              <p class="mt-4">"Several studies (Smith, 2020; Johnson, 2019) have found a positive correlation between X and Y, suggesting that..."</p>
-              <h3 class="text-xl font-semibold mt-6">Avoiding Common Mistakes:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>Don't simply list studies without connecting them.</li>
-                <li>Avoid bias by presenting multiple perspectives.</li>
-                <li>Ensure that your synthesis supports your research question.</li>
-              </ul>
-            `,
+            <h2 class="text-2xl font-bold">Slide 3: Crafting Clear, Testable Hypotheses</h2>
+            <p class="mt-4"><strong>Objective:</strong> Develop skills to write clear, testable hypotheses, including null, alternative, and directional hypotheses.</p>
+            <h3 class="text-xl font-semibold mt-6">Key Components:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li><strong>Null Hypothesis (H₀):</strong> States that there is no effect or relationship.</li>
+              <li><strong>Alternative Hypothesis (H₁):</strong> Proposes a specific effect or relationship.</li>
+              <li><strong>Directional vs. Non-Directional:</strong> Determines whether the hypothesis specifies the direction of the effect.</li>
+            </ul>
+            <h3 class="text-xl font-semibold mt-6">Step-by-Step Instructions:</h3>
+            <ol class="list-decimal list-inside mt-2">
+              <li>Review a sample research question and identify the variables involved.</li>
+              <li>Determine an appropriate null hypothesis and alternative hypothesis.</li>
+              <li>Decide whether your hypothesis is directional or non-directional, based on your literature review.</li>
+            </ol>
+            <p class="mt-4"><em>Tip:</em> Clarity and specificity in your hypotheses will enhance the focus and testability of your research.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/YourHypothesesURL" target="_blank" class="text-blue-600 underline">
+                Click here for additional details and assessment info.
+              </a>
+            </p>
+          `,
+          videoUrl: "https://example.com/week2-hypotheses"
         },
         {
-          title: "Chapter 3.4: Proper Citation Techniques and Avoiding Plagiarism",
+          title: "2.4 Peer Review Simulation",
           content: `
-              <h2 class="text-2xl font-bold">Ethical Writing Practices</h2>
-              <p class="mt-4">Proper citation is crucial to acknowledge others' work and avoid plagiarism.</p>
-              <h3 class="text-xl font-semibold mt-6">Understanding Plagiarism:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>Using someone else's work without proper acknowledgment.</li>
-                <li>Includes copying text, ideas, images, or data.</li>
-              </ul>
-              <h3 class="text-xl font-semibold mt-6">Citation Styles:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li><strong>APA:</strong> Common in social sciences.</li>
-                <li><strong>MLA:</strong> Used in humanities.</li>
-                <li><strong>Chicago:</strong> Preferred in history and some sciences.</li>
-              </ul>
-              <h3 class="text-xl font-semibold mt-6">Best Practices:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>Cite all sources of information, whether paraphrased or quoted.</li>
-                <li>Use quotation marks for direct quotes.</li>
-                <li>Include page numbers for specific references.</li>
-              </ul>
-              <h3 class="text-xl font-semibold mt-6">Using Citation Management Tools:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>Software like Zotero, Mendeley, or EndNote can help organize citations.</li>
-                <li>They allow you to insert citations and generate bibliographies automatically.</li>
-              </ul>
-              <h3 class="text-xl font-semibold mt-6">Avoiding Self-Plagiarism:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>Do not reuse your own previous work without citation.</li>
-                <li>Always check with your institution's guidelines.</li>
-              </ul>
-            `,
+            <h2 class="text-2xl font-bold">Slide 4: Peer Review Simulation</h2>
+            <p class="mt-4"><strong>Objective:</strong> Engage in a simulated peer review session to critique a peer's research question and hypothesis.</p>
+            <h3 class="text-xl font-semibold mt-6">Simulation Steps:</h3>
+            <ol class="list-decimal list-inside mt-2">
+              <li>Exchange research questions and hypotheses with a peer.</li>
+              <li>Use a structured checklist to assess clarity, relevance, and testability.</li>
+              <li>Provide constructive feedback and discuss possible improvements.</li>
+            </ol>
+            <p class="mt-4"><em>Tip:</em> Constructive peer feedback is invaluable for refining your own research ideas.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/YourPeerReviewURL" target="_blank" class="text-blue-600 underline">
+                Click here for additional peer review simulation details.
+              </a>
+            </p>
+          `,
+          videoUrl: "https://example.com/week2-peer-review"
         },
         {
-          title: "Chapter 3.5: Summary",
+          title: "2.5 Quiz: Hypothesis Formulation & Research Gap Identification",
           content: `
-              <h2 class="text-2xl font-bold">Week 3 Summary: Literature Review and Citation Management</h2>
-              <p class="mt-4">This week, you've learned:</p>
-              <ul class="list-disc list-inside mt-2">
-                <li>The purpose and importance of conducting a literature review.</li>
-                <li>Effective strategies for searching and evaluating literature.</li>
-                <li>Techniques for summarizing and synthesizing multiple sources.</li>
-                <li>Proper citation methods to maintain academic integrity.</li>
-              </ul>
-              <p class="mt-4">These skills will help you build a solid foundation for your research and ensure that your work is ethically sound.</p>
-            `,
-        },
-        {
-          title: "Chapter 3.6: Quiz",
-          content: `
-              <h2 class="text-2xl font-bold">Test Your Understanding</h2>
-              <p class="mt-4">Assess your grasp of the key concepts from this week.</p>
-            `,
+            <h2 class="text-2xl font-bold">Slide 5: Quiz - Research Questions & Hypotheses</h2>
+            <p class="mt-4"><strong>Objective:</strong> Test your understanding of formulating research questions, identifying research gaps, and writing clear hypotheses.</p>
+            <h3 class="text-xl font-semibold mt-6">Quiz Task:</h3>
+            <ol class="list-decimal list-inside mt-2">
+              <li>Review a set of sample research questions and hypotheses.</li>
+              <li>Identify which research question is most clearly defined and which hypothesis best addresses a research gap.</li>
+              <li>Provide a brief explanation for your selections.</li>
+            </ol>
+            <p class="mt-4"><em>Tip:</em> A well-defined research question paired with a testable hypothesis is the cornerstone of rigorous scientific inquiry.</p>
+          `,
           quiz: {
-            question:
-              "Which of the following practices helps you avoid plagiarism?",
+            question: "What is the primary purpose of formulating a clear, testable hypothesis in research?",
             options: [
-              "Using direct quotes without quotation marks",
-              "Paraphrasing information and providing a citation",
-              "Copying and pasting text from a source",
-              "Submitting the same work for different assignments without disclosure",
+              "To provide a basis for statistical analysis.",
+              "To guide the research design and data collection.",
+              "To impress peer reviewers with complexity.",
+              "To eliminate the need for a literature review."
             ],
-            correctAnswer: 1,
-          },
+            correctAnswer: 1
+          }
         },
+        {
+          title: "2.6 Assignments",
+          content: `
+            <h2 class="text-2xl font-bold">Slide 6: Assignments & Practice Assessment</h2>
+            <h3 class="text-xl font-semibold mt-6">Key Assignments:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li>
+                <strong>Research Question Development:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>Practice developing a well-defined research question and corresponding hypothesis based on a literature review.</li>
+                  <li>This is a practice assessment for self-evaluation and will not be graded.</li>
+                  <li>Review the following resources:
+                    <ul class="list-disc list-inside ml-6 mt-1">
+                      <li><a href="https://forms.gle/RcwwWkX2zQ131aRP6" class="text-blue-500 underline" target="_blank">Click Here</a> (Primary Paper Assessment Submission Form – Practice)</li>
+                      <li><a href="https://docs.google.com/document/d/1NylLZ3z-gtNnSLKVMWnE8yiyO6XeUzyW/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Primary Paper Review Instructions</a></li>
+                      <li><a href="https://docs.google.com/document/d/1uLhSkT2_rRzU04-e-ceyQzHw_Uby6Y9n/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Primary Paper Written Example One</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Second Primary Paper Review Assessment:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>The second primary article assessment is also a practice exercise (non-graded) due on 3/1, 4/1, 5/1.</li>
+                  <li>Review the resources below:
+                    <ul class="list-disc list-inside ml-6 mt-1">
+                      <li><a href="https://forms.gle/RcwwWkX2zQ131aRP6" class="text-blue-500 underline" target="_blank">Click Here</a> (Submission Form – Practice)</li>
+                      <li><a href="https://docs.google.com/document/d/1BlIKF7_2OVcZl7Gv8UPsRmFIG8tGIaVY/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Second Primary Paper Review Instructions</a></li>
+                      <li><a href="https://docs.google.com/document/d/1um8jqJv9XGkY-_WqP_j8M4M3tnfWD_Qs/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Second Primary Paper Written Example Two</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Grant Proposal Final Assessment:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>This assignment is a practice exercise (non-graded) due on 3/15, 4/15, 5/15.</li>
+                  <li>Review the following resources:
+                    <ul class="list-disc list-inside ml-6 mt-1">
+                      <li><a href="https://forms.gle/U8RKt9YsHpVeTxsPA" class="text-blue-500 underline" target="_blank">Click Here</a> (Submission Form – Practice)</li>
+                      <li><a href="https://docs.google.com/document/d/1k7ktEblxvvN0AmL1VE7Krt5qbneKEf4z/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Grant Proposal Review Instructions</a></li>
+                      <li><a href="https://docs.google.com/document/d/1Y-rlkNHIIXhVH77i6wD9HO-M0ITBPZUm/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Grant Proposal Example One</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <p class="mt-4"><strong>Important:</strong> Remember, you must attend a 3SP Information Session at Bergen Community College to receive your badge.</p>
+          `,
+          videoUrl: "https://example.com/week2-assignments"
+        }
       ],
     },
+    
+    {
+      title: "Week 3: Writing Methods & Results Sections",
+      chapters: [
+        {
+          title: "3.1 Introduction",
+          content: `
+            <h2 class="text-2xl font-bold">Slide 1: The Importance of Methods & Results</h2>
+            <p class="mt-4"><strong>Objective:</strong> Understand why reproducibility and clarity in the methods and results sections are vital for scientific integrity and credibility.</p>
+            <h3 class="text-xl font-semibold mt-6">Key Points:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li>Reproducibility ensures that research findings can be independently verified.</li>
+              <li>Clarity in methods allows readers to replicate your study.</li>
+              <li>Effective presentation of results supports transparent data interpretation.</li>
+            </ul>
+            <p class="mt-4"><em>Tip:</em> Clear methods and results sections are the backbone of a robust scientific paper.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/YourMethodsIntroURL" target="_blank" class="text-blue-600 underline">
+                Click here for additional details and assessment info.
+              </a>
+            </p>
+          `,
+          videoUrl: "https://example.com/week3-introduction"
+        },
+        {
+          title: "3.2 Describing Methodologies",
+          content: `
+            <h2 class="text-2xl font-bold">Slide 2: Writing Detailed Methods</h2>
+            <p class="mt-4"><strong>Objective:</strong> Learn how to write detailed and replicable methods sections that enable other researchers to reproduce your work.</p>
+            <h3 class="text-xl font-semibold mt-6">Key Techniques:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li>Describe the experimental design and protocols in clear, concise language.</li>
+              <li>Include precise details such as sample size, materials, procedures, and statistical analyses.</li>
+              <li>Maintain a logical flow that mirrors the actual research process.</li>
+            </ul>
+            <p class="mt-4"><em>Tip:</em> Providing comprehensive methodological details is critical for reproducibility.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/YourMethodsDetailsURL" target="_blank" class="text-blue-600 underline">
+                Click here for additional methodology writing guidelines.
+              </a>
+            </p>
+          `,
+          videoUrl: "https://example.com/week3-methods"
+        },
+        {
+          title: "3.3 Presenting Results",
+          content: `
+            <h2 class="text-2xl font-bold">Slide 3: Effective Presentation of Results</h2>
+            <p class="mt-4"><strong>Objective:</strong> Explore best practices for presenting research findings using tables, graphs, and figures.</p>
+            <h3 class="text-xl font-semibold mt-6">Key Elements:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li>Use tables to organize data for easy comparison.</li>
+              <li>Create graphs and figures that clearly illustrate trends and relationships.</li>
+              <li>Ensure that all visuals are properly labeled and include legends, titles, and units of measure.</li>
+            </ul>
+            <p class="mt-4"><em>Tip:</em> Visual representations of data can enhance understanding and impact, so pay close attention to design details.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/YourResultsPresentationURL" target="_blank" class="text-blue-600 underline">
+                Click here for additional results presentation guidelines.
+              </a>
+            </p>
+          `,
+          videoUrl: "https://example.com/week3-results"
+        },
+        {
+          title: "3.4 Data Visualization",
+          content: `
+            <h2 class="text-2xl font-bold">Slide 4: Advanced Data Visualization</h2>
+            <p class="mt-4"><strong>Objective:</strong> Master the principles of data visualization as advocated by Edward Tufte, and learn how to create publication-ready visuals using tools like ggplot2 or Tableau.</p>
+            <h3 class="text-xl font-semibold mt-6">Key Principles:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li><strong>Tufte’s Data-Ink Ratio:</strong> Minimize non-essential ink to maximize clarity.</li>
+              <li>Create visuals that are both aesthetically pleasing and scientifically accurate.</li>
+              <li>Use color, scale, and annotations effectively to guide the viewer’s understanding.</li>
+            </ul>
+            <p class="mt-4"><em>Tip:</em> Publication-ready visuals are crucial for effectively communicating complex data insights.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/YourDataVisualizationURL" target="_blank" class="text-blue-600 underline">
+                Click here for additional data visualization guidelines.
+              </a>
+            </p>
+          `,
+          videoUrl: "https://example.com/week3-data-visualization"
+        },
+        {
+          title: "3.5 Quiz: Methods & Results Best Practices",
+          content: `
+            <h2 class="text-2xl font-bold">Slide 5: Quiz - Evaluating Methods & Results Sections</h2>
+            <p class="mt-4"><strong>Objective:</strong> Test your understanding of the key principles for writing methods and results sections.</p>
+            <h3 class="text-xl font-semibold mt-6">Quiz Task:</h3>
+            <ol class="list-decimal list-inside mt-2">
+              <li>Review sample methods and results sections.</li>
+              <li>Identify which components best contribute to clarity and reproducibility.</li>
+              <li>Explain the role of effective data visualization in enhancing the presentation of results.</li>
+            </ol>
+            <p class="mt-4"><em>Tip:</em> A well-crafted methods and results section is the cornerstone of credible scientific writing.</p>
+          `,
+          quiz: {
+            question: "Which element is most critical for ensuring the reproducibility of a research study?",
+            options: [
+              "A comprehensive literature review",
+              "A clearly written and detailed methods section",
+              "The inclusion of high-quality visuals",
+              "An engaging discussion section"
+            ],
+            correctAnswer: 1
+          }
+        },
+        {
+          title: "3.6 Assignments",
+          content: `
+            <h2 class="text-2xl font-bold">Slide 6: Assignments & Practice Assessment</h2>
+            <h3 class="text-xl font-semibold mt-6">Key Assignment: Methods & Results Draft</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li>
+                <strong>Methods & Results Draft:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>Write a methods and results section for a mock study, including at least one data visualization (table, graph, or figure).</li>
+                  <li>This is a practice assessment intended to hone your skills and will not be graded.</li>
+                  <li>Review and utilize the provided guidelines for structuring your draft.</li>
+                </ul>
+              </li>
+            </ul>
+            <p class="mt-4"><strong>Note:</strong> While this assignment is practice-only, it is essential that you follow the Ivy League standards in structure, clarity, and reproducibility.</p>
+          `,
+          videoUrl: "https://example.com/week3-assignments"
+        }
+      ],
+    },
+    
     // Week 4
     {
-      title: "Week 4: Writing Methods and Results Sections",
+      title: "Week 4: Crafting Discussions & Conclusions",
       chapters: [
         {
-          title: "Chapter 4.1: Introduction",
+          title: "4.1 Introduction",
           content: `
-              <h2 class="text-2xl font-bold">Presenting Your Research Process and Findings</h2>
-              <p class="mt-4">The Methods and Results sections are critical components of your research paper, providing transparency and credibility to your study.</p>
-              <h3 class="text-xl font-semibold mt-6">Objectives:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>Learn how to describe your research methodology effectively.</li>
-                <li>Understand how to present your results clearly and accurately.</li>
-                <li>Recognize the importance of reproducibility in research.</li>
-              </ul>
-            `,
+            <h2 class="text-2xl font-bold">Slide 1: The Role of the Discussion Section</h2>
+            <p class="mt-4"><strong>Objective:</strong> Understand how the discussion section interprets results, contextualizes findings, and connects your study to the broader literature.</p>
+            <h3 class="text-xl font-semibold mt-6">Key Points:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li>The discussion links your findings back to your research questions and hypotheses.</li>
+              <li>It contextualizes results within existing literature and theory.</li>
+              <li>A strong discussion provides a narrative that explains the significance of your results.</li>
+            </ul>
+            <p class="mt-4"><em>Tip:</em> Think of the discussion as the "story" of your research—how your findings contribute to the field.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/YourDiscussionIntroURL" target="_blank" class="text-blue-600 underline">
+                Click here for additional details and assessment info.
+              </a>
+            </p>
+          `,
+          videoUrl: "https://example.com/week4-introduction"
         },
         {
-          title: "Chapter 4.2: Describing Methodologies Clearly and Concisely",
+          title: "4.2 Interpreting Results",
           content: `
-              <h2 class="text-2xl font-bold">Crafting the Methods Section</h2>
-              <p class="mt-4">The Methods section should provide enough detail for another researcher to replicate your study.</p>
-              <h3 class="text-xl font-semibold mt-6">Key Components:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li><strong>Participants or Subjects:</strong> Describe who or what was studied.</li>
-                <li><strong>Materials and Instruments:</strong> Detail any equipment, surveys, or tools used.</li>
-                <li><strong>Procedure:</strong> Explain the steps taken during the research.</li>
-                <li><strong>Data Analysis:</strong> Outline the statistical or analytical methods applied.</li>
-              </ul>
-              <h3 class="text-xl font-semibold mt-6">Writing Tips:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>Use past tense since the research has been conducted.</li>
-                <li>Be precise and avoid unnecessary details.</li>
-                <li>Include ethical approvals and consent if applicable.</li>
-              </ul>
-              <h3 class="text-xl font-semibold mt-6">Example Excerpt:</h3>
-              <p class="mt-4">"A total of 200 participants were recruited from the university. Participants completed a survey consisting of 50 questions assessing their study habits. Data were analyzed using SPSS version 25."</p>
-            `,
+            <h2 class="text-2xl font-bold">Slide 2: Interpreting Your Results</h2>
+            <p class="mt-4"><strong>Objective:</strong> Learn how to link your findings to your original hypotheses and to the existing body of literature.</p>
+            <h3 class="text-xl font-semibold mt-6">Key Concepts:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li>Compare your results to your expected outcomes.</li>
+              <li>Discuss how your data supports or refutes your hypotheses.</li>
+              <li>Integrate previous studies and theoretical frameworks to contextualize your findings.</li>
+            </ul>
+            <p class="mt-4"><em>Tip:</em> Use clear, precise language to show how your results fit within the larger scientific conversation.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/YourInterpretingResultsURL" target="_blank" class="text-blue-600 underline">
+                Click here for additional details and assessment info.
+              </a>
+            </p>
+          `,
+          videoUrl: "https://example.com/week4-interpreting-results"
         },
         {
-          title: "Chapter 4.3: Writing an Accurate Results Section",
+          title: "4.3 Discussing Implications",
           content: `
-              <h2 class="text-2xl font-bold">Presenting Your Findings</h2>
-              <p class="mt-4">The Results section should report your findings without interpretation.</p>
-              <h3 class="text-xl font-semibold mt-6">Structure:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>Present results in a logical order, often following the sequence of your research questions or hypotheses.</li>
-                <li>Use tables, graphs, and figures to illustrate key data.</li>
-                <li>Include both positive and negative results.</li>
-              </ul>
-              <h3 class="text-xl font-semibold mt-6">Writing Tips:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>Be clear and concise; avoid redundancy.</li>
-                <li>Do not interpret or explain the results—that belongs in the Discussion section.</li>
-                <li>Ensure all tables and figures are properly labeled and referenced in the text.</li>
-              </ul>
-              <h3 class="text-xl font-semibold mt-6">Example Excerpt:</h3>
-              <p class="mt-4">"The analysis revealed a significant correlation between study time and exam scores (r = 0.65, p &lt; 0.01). Participants who studied more than 10 hours per week scored, on average, 15% higher than those who studied less."</p>
-            `,
+            <h2 class="text-2xl font-bold">Slide 3: Discussing Implications</h2>
+            <p class="mt-4"><strong>Objective:</strong> Explore the theoretical, practical, and policy implications of your research findings.</p>
+            <h3 class="text-xl font-semibold mt-6">Key Areas:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li><strong>Theoretical Implications:</strong> How do your findings advance or challenge existing theories?</li>
+              <li><strong>Practical Implications:</strong> What practical applications or interventions can be derived from your results?</li>
+              <li><strong>Policy Implications:</strong> How might your findings influence public policy or guidelines?</li>
+            </ul>
+            <p class="mt-4"><em>Tip:</em> Clearly articulate the broader impact of your research beyond the immediate study.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/YourImplicationsURL" target="_blank" class="text-blue-600 underline">
+                Click here for additional details and assessment info.
+              </a>
+            </p>
+          `,
+          videoUrl: "https://example.com/week4-implications"
         },
         {
-          title: "Chapter 4.4: Summary",
+          title: "4.4 Addressing Limitations",
           content: `
-              <h2 class="text-2xl font-bold">Week 4 Summary: Writing Methods and Results Sections</h2>
-              <p class="mt-4">This week, you've learned how to:</p>
-              <ul class="list-disc list-inside mt-2">
-                <li>Describe your research methodology in detail to ensure reproducibility.</li>
-                <li>Present your findings clearly and accurately without interpretation.</li>
-                <li>Use visuals like tables and figures effectively.</li>
-              </ul>
-              <p class="mt-4">Mastering these sections enhances the credibility and reliability of your research.</p>
-            `,
+            <h2 class="text-2xl font-bold">Slide 4: Addressing Limitations</h2>
+            <p class="mt-4"><strong>Objective:</strong> Learn how to critically acknowledge the limitations of your study and suggest areas for future research.</p>
+            <h3 class="text-xl font-semibold mt-6">Key Elements:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li>Identify and discuss potential weaknesses in your study design or methodology.</li>
+              <li>Explain how these limitations might affect the interpretation of your results.</li>
+              <li>Offer suggestions for how future studies could address these limitations.</li>
+            </ul>
+            <p class="mt-4"><em>Tip:</em> Being transparent about limitations demonstrates your critical thinking and commitment to research integrity.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/YourLimitationsURL" target="_blank" class="text-blue-600 underline">
+                Click here for additional details and assessment info.
+              </a>
+            </p>
+          `,
+          videoUrl: "https://example.com/week4-limitations"
         },
         {
-          title: "Chapter 4.5: Quiz",
+          title: "4.5 Quiz: Understanding Discussion Components",
           content: `
-              <h2 class="text-2xl font-bold">Test Your Understanding</h2>
-              <p class="mt-4">Assess your grasp of the key concepts from this week.</p>
-            `,
+            <h2 class="text-2xl font-bold">Slide 5: Quiz - Discussion & Conclusion Components</h2>
+            <p class="mt-4"><strong>Objective:</strong> Test your understanding of the essential elements of a discussion section in a scientific manuscript.</p>
+            <h3 class="text-xl font-semibold mt-6">Quiz Task:</h3>
+            <ol class="list-decimal list-inside mt-2">
+              <li>Review the key functions of the discussion section.</li>
+              <li>Identify how the discussion links findings to hypotheses and literature.</li>
+              <li>Explain the importance of addressing limitations and discussing implications.</li>
+            </ol>
+            <p class="mt-4"><em>Tip:</em> A clear and comprehensive discussion section is crucial for scientific impact.</p>
+          `,
           quiz: {
-            question:
-              "Which of the following should NOT be included in the Results section?",
+            question: "What is the primary purpose of the discussion section in a research paper?",
             options: [
-              "Descriptive statistics",
-              "Interpretation of the results",
-              "Presentation of data",
-              "Figures and tables",
+              "To present raw data without interpretation.",
+              "To critically interpret results, relate them to the literature, and discuss their implications and limitations.",
+              "To provide an exhaustive review of previous studies.",
+              "To list all experimental procedures."
             ],
-            correctAnswer: 1,
-          },
+            correctAnswer: 1
+          }
         },
+        {
+          title: "4.6 Assignments",
+          content: `
+            <h2 class="text-2xl font-bold">Slide 6: Assignments & Due Dates</h2>
+            <h3 class="text-xl font-semibold mt-6">Key Assignment: Discussion Section Draft</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li>
+                <strong>Discussion Section Draft:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>Write a discussion section for your mock study, including:
+                    <ul class="list-disc list-inside ml-6 mt-1">
+                      <li>Interpretation of results and linkage to hypotheses.</li>
+                      <li>Implications of your findings (theoretical, practical, and policy).</li>
+                      <li>Limitations of your study and suggestions for future research.</li>
+                    </ul>
+                  </li>
+                  <li>This is a practice assignment to help you refine your writing skills and is not graded.</li>
+                </ul>
+              </li>
+              <li>
+                <strong>Mandatory Session:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>Attendance at a 3SP Information Session at Bergen Community College is required to receive your badge.</li>
+                </ul>
+              </li>
+            </ul>
+          `,
+          videoUrl: "https://example.com/week4-assignments"
+        }
       ],
     },
+    
+     
     // Week 5
     {
-      title: "Week 5: Crafting a Strong Discussion Section",
+      title: "Week 5: Grant Proposal Writing & Peer Review",
       chapters: [
         {
-          title: "Chapter 5.1: Introduction",
+          title: "5.1 Introduction",
           content: `
-              <h2 class="text-2xl font-bold">Interpreting Your Findings</h2>
-              <p class="mt-4">The Discussion section is where you interpret your results, discuss their implications, and place them in the context of existing research.</p>
-              <h3 class="text-xl font-semibold mt-6">Objectives:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>Understand the purpose of the Discussion section.</li>
-                <li>Learn how to relate your findings to the research question and hypotheses.</li>
-                <li>Recognize how to acknowledge limitations and suggest future research.</li>
-              </ul>
-            `,
+            <h2 class="text-2xl font-bold">Slide 1: The Importance of Grant Proposals</h2>
+            <p class="mt-4"><strong>Objective:</strong> Understand the crucial role grant proposals play in securing funding for research projects and advancing scientific inquiry.</p>
+            <h3 class="text-xl font-semibold mt-6">Key Points:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li>Grant proposals articulate your research vision and justify the need for funding.</li>
+              <li>They demonstrate the feasibility, impact, and innovation of your project.</li>
+              <li>A compelling proposal aligns with funder priorities and emphasizes translational impact.</li>
+            </ul>
+            <p class="mt-4"><em>Tip:</em> A strong proposal not only details your methodology but also tells a persuasive story about your research’s potential impact.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/YourGrantProposalIntroURL" target="_blank" class="text-blue-600 underline">
+                Click here for additional proposal introduction details.
+              </a>
+            </p>
+          `,
+          videoUrl: "https://example.com/week5-introduction"
         },
         {
-          title: "Chapter 5.2: Interpreting Results and Drawing Conclusions",
+          title: "5.2 Components of a Grant Proposal",
           content: `
-              <h2 class="text-2xl font-bold">Making Sense of Your Data</h2>
-              <p class="mt-4">In this chapter, we'll explore how to interpret your results effectively.</p>
-              <h3 class="text-xl font-semibold mt-6">Key Steps:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li><strong>Restate Your Research Question:</strong> Begin by reminding readers of the purpose of your study.</li>
-                <li><strong>Summarize Key Findings:</strong> Highlight the most important results without repeating the Results section.</li>
-                <li><strong>Interpret the Findings:</strong> Explain what the results mean in the context of your research question.</li>
-                <li><strong>Compare with Existing Literature:</strong> Discuss how your findings align or contrast with previous studies.</li>
-              </ul>
-              <h3 class="text-xl font-semibold mt-6">Writing Tips:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>Use clear and concise language to explain complex ideas.</li>
-                <li>Avoid introducing new results or data in this section.</li>
-                <li>Be honest and objective in your interpretation.</li>
-              </ul>
-              <h3 class="text-xl font-semibold mt-6">Example Excerpt:</h3>
-              <p class="mt-4">"Our findings suggest that increased screen time is significantly associated with reduced sleep quality among teenagers, supporting the hypothesis and aligning with Smith's (2020) study on digital media impact."</p>
-            `,
+            <h2 class="text-2xl font-bold">Slide 2: Essential Components</h2>
+            <p class="mt-4"><strong>Objective:</strong> Break down the key sections of a grant proposal: Abstract, Introduction, Objectives, Methodology, Budget, and Expected Outcomes.</p>
+            <h3 class="text-xl font-semibold mt-6">Components Overview:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li><strong>Abstract:</strong> A concise summary of the proposal.</li>
+              <li><strong>Introduction:</strong> Background and rationale for the project.</li>
+              <li><strong>Objectives:</strong> Clear, measurable goals.</li>
+              <li><strong>Methodology:</strong> Detailed research design and procedures.</li>
+              <li><strong>Budget:</strong> A realistic and justified cost breakdown.</li>
+              <li><strong>Expected Outcomes:</strong> The anticipated impact and benefits of the research.</li>
+            </ul>
+            <p class="mt-4"><em>Tip:</em> Each component must be well-articulated to convince reviewers of your project’s merit.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/YourGrantComponentsURL" target="_blank" class="text-blue-600 underline">
+                Click here for additional component details.
+              </a>
+            </p>
+          `,
+          videoUrl: "https://example.com/week5-components"
         },
         {
-          title: "Chapter 5.3: Discussing Implications and Limitations",
+          title: "5.3 Writing Persuasively",
           content: `
-              <h2 class="text-2xl font-bold">Acknowledging the Bigger Picture</h2>
-              <p class="mt-4">Discussing the implications and limitations provides context and credibility to your research.</p>
-              <h3 class="text-xl font-semibold mt-6">Implications:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li><strong>Theoretical Implications:</strong> How do your findings contribute to existing theories or models?</li>
-                <li><strong>Practical Implications:</strong> What are the real-world applications of your research?</li>
-                <li><strong>Policy Implications:</strong> Can your findings inform policy decisions?</li>
-              </ul>
-              <h3 class="text-xl font-semibold mt-6">Limitations:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>Address any methodological constraints (e.g., sample size, measurement errors).</li>
-                <li>Acknowledge any biases or confounding variables.</li>
-                <li>Explain how these limitations affect the interpretation of your results.</li>
-              </ul>
-              <h3 class="text-xl font-semibold mt-6">Writing Tips:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>Be transparent but avoid undermining your study.</li>
-                <li>Discuss limitations in a way that highlights the need for further research.</li>
-              </ul>
-              <h3 class="text-xl font-semibold mt-6">Example Excerpt:</h3>
-              <p class="mt-4">"While our study provides valuable insights into adolescent sleep patterns, the reliance on self-reported data may introduce bias. Future research could employ objective sleep tracking to validate these findings."</p>
-            `,
+            <h2 class="text-2xl font-bold">Slide 3: Crafting a Compelling Narrative</h2>
+            <p class="mt-4"><strong>Objective:</strong> Develop persuasive writing strategies that align your proposal with funder priorities and effectively communicate the translational impact of your research.</p>
+            <h3 class="text-xl font-semibold mt-6">Strategies:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li>Adopt a clear, confident tone and structure your argument logically.</li>
+              <li>Highlight innovation and real-world impact.</li>
+              <li>Tailor your language to address the interests and priorities of potential funders.</li>
+            </ul>
+            <p class="mt-4"><em>Tip:</em> Persuasive writing is about clarity and focus; ensure your proposal tells a coherent and compelling story.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/YourPersuasiveWritingURL" target="_blank" class="text-blue-600 underline">
+                Click here for additional persuasive writing guidelines.
+              </a>
+            </p>
+          `,
+          videoUrl: "https://example.com/week5-writing-persuasively"
         },
         {
-          title: "Chapter 5.4: Suggesting Areas for Future Research",
+          title: "5.4 Peer Review & Revisions",
           content: `
-              <h2 class="text-2xl font-bold">Looking Ahead</h2>
-              <p class="mt-4">Suggesting future research areas demonstrates the ongoing relevance of your topic.</p>
-              <h3 class="text-xl font-semibold mt-6">How to Identify Future Research Directions:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>Consider the limitations you've acknowledged.</li>
-                <li>Identify unanswered questions or new questions raised by your findings.</li>
-                <li>Look for emerging trends or technologies that could impact the field.</li>
-              </ul>
-              <h3 class="text-xl font-semibold mt-6">Writing Tips:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>Be specific about what future research should address.</li>
-                <li>Explain how addressing these areas could advance understanding.</li>
-              </ul>
-              <h3 class="text-xl font-semibold mt-6">Example Excerpt:</h3>
-              <p class="mt-4">"Future studies should explore the impact of specific types of social media content on sleep quality, as well as potential moderating factors such as physical activity levels."</p>
-            `,
+            <h2 class="text-2xl font-bold">Slide 4: Peer Review Simulation</h2>
+            <p class="mt-4"><strong>Objective:</strong> Simulate a grant review panel to provide and receive constructive feedback on your proposal.</p>
+            <h3 class="text-xl font-semibold mt-6">Process Overview:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li>Exchange draft proposals with peers.</li>
+              <li>Use a structured checklist to critique each section of the proposal.</li>
+              <li>Engage in a panel discussion to refine your proposal further.</li>
+            </ul>
+            <p class="mt-4"><em>Tip:</em> Constructive feedback is key to enhancing the clarity, feasibility, and impact of your proposal.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/YourPeerReviewGuidelinesURL" target="_blank" class="text-blue-600 underline">
+                Click here for additional peer review and revision guidelines.
+              </a>
+            </p>
+          `,
+          videoUrl: "https://example.com/week5-peer-review"
         },
         {
-          title: "Chapter 5.5: Summary",
+          title: "5.5 Quiz: Grant Proposal Components & Persuasive Writing",
           content: `
-              <h2 class="text-2xl font-bold">Week 5 Summary: Crafting a Strong Discussion Section</h2>
-              <p class="mt-4">This week, we've focused on:</p>
-              <ul class="list-disc list-inside mt-2">
-                <li>Interpreting your results in the context of your research question.</li>
-                <li>Discussing the implications of your findings.</li>
-                <li>Acknowledging limitations and how they affect your study.</li>
-                <li>Suggesting areas for future research to continue the scholarly conversation.</li>
-              </ul>
-              <p class="mt-4">A well-crafted Discussion section strengthens the overall impact of your research paper.</p>
-            `,
-        },
-        {
-          title: "Chapter 5.6: Quiz",
-          content: `
-              <h2 class="text-2xl font-bold">Test Your Understanding</h2>
-              <p class="mt-4">Assess your grasp of the key concepts from this week.</p>
-            `,
+            <h2 class="text-2xl font-bold">Slide 5: Quiz - Evaluating Grant Proposals</h2>
+            <p class="mt-4"><strong>Objective:</strong> Test your understanding of grant proposal components and persuasive writing techniques.</p>
+            <h3 class="text-xl font-semibold mt-6">Quiz Task:</h3>
+            <ol class="list-decimal list-inside mt-2">
+              <li>Review sample grant proposals and identify the strengths and weaknesses in each component.</li>
+              <li>Explain how persuasive writing can enhance the proposal's appeal to funders.</li>
+              <li>Answer multiple-choice questions based on the material covered.</li>
+            </ol>
+            <p class="mt-4"><em>Tip:</em> A deep understanding of each component and effective persuasive techniques is essential for a successful grant proposal.</p>
+          `,
           quiz: {
-            question:
-              "Which of the following should NOT be included in the Discussion section?",
+            question: "Which component of a grant proposal is primarily responsible for outlining the feasibility and methodology of the proposed research?",
             options: [
-              "Interpretation of results",
-              "Detailed data and statistics",
-              "Implications of findings",
-              "Suggestions for future research",
+              "Abstract",
+              "Introduction",
+              "Methodology",
+              "Budget"
             ],
-            correctAnswer: 1,
-          },
+            correctAnswer: 2
+          }
         },
+        {
+          title: "5.6 Assignments",
+          content: `
+            <h2 class="text-2xl font-bold">Slide 6: Assignments & Due Dates</h2>
+            <h3 class="text-xl font-semibold mt-6">Key Assignments:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li>
+                <strong>Grant Proposal Draft:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>Submit a draft grant proposal for a research project, including a literature review, experimental design, and budget.</li>
+                  <li>Due on <strong>3/15, 4/15, and 5/15</strong> via the online submission portal (<a href="https://forms.gle/U8RKt9YsHpVeTxsPA" class="text-blue-500 underline" target="_blank">Click Here</a>).</li>
+                </ul>
+              </li>
+              <li>
+                <strong>Peer Review Exercise:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>Provide detailed feedback on a peer’s grant proposal draft.</li>
+                  <li>This exercise is designed to enhance your critical review skills and will be submitted via your online portal.</li>
+                </ul>
+              </li>
+            </ul>
+            <p class="mt-4"><strong>Important:</strong> Ensure you attend a 3SP Information Session at Bergen Community College to receive your badge.</p>
+          `,
+          videoUrl: "https://example.com/week5-assignments"
+        }
       ],
     },
+    
     // Week 6
     {
-      title: "Week 6: Grant Proposal Writing",
+      title: "Week 6: Capstone & Peer Review – Final Submissions and Reflections",
       chapters: [
         {
-          title: "Chapter 6.1: Introduction",
+          title: "6.1 Final Research Paper Submission",
           content: `
-              <h2 class="text-2xl font-bold">Securing Funding for Your Research</h2>
-              <p class="mt-4">Writing a compelling grant proposal is essential for obtaining funding. This week, we'll explore how to craft proposals that stand out to funding agencies.</p>
-              <h3 class="text-xl font-semibold mt-6">Objectives:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>Understand the components of a grant proposal.</li>
-                <li>Learn how to tailor your proposal to specific funding agencies.</li>
-                <li>Develop skills to articulate the significance and feasibility of your research.</li>
-              </ul>
-            `,
-        },
-        {
-          title: "Chapter 6.2: Understanding Funding Agencies and Requirements",
-          content: `
-              <h2 class="text-2xl font-bold">Aligning with Funder Priorities</h2>
-              <p class="mt-4">Different funding agencies have specific missions and priorities. Understanding these is crucial to tailor your proposal effectively.</p>
-              <h3 class="text-xl font-semibold mt-6">Researching Funding Agencies:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>Review the agency's mission statement and strategic plan.</li>
-                <li>Examine previously funded projects to identify trends.</li>
-                <li>Contact program officers for insights and clarification.</li>
-              </ul>
-              <h3 class="text-xl font-semibold mt-6">Understanding Requirements:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>Read the funding announcement carefully.</li>
-                <li>Note eligibility criteria, deadlines, and submission guidelines.</li>
-                <li>Pay attention to formatting and documentation requirements.</li>
-              </ul>
-              <h3 class="text-xl font-semibold mt-6">Tailoring Your Proposal:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>Align your research objectives with the funder's priorities.</li>
-                <li>Use terminology that resonates with the agency's mission.</li>
-              </ul>
-            `,
-        },
-        {
-          title: "Chapter 6.3: Components of a Successful Grant Proposal",
-          content: `
-              <h2 class="text-2xl font-bold">Building Blocks of Your Proposal</h2>
-              <p class="mt-4">A typical grant proposal includes several key components:</p>
-              <h3 class="text-xl font-semibold mt-6">1. Abstract or Executive Summary:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>A concise overview of your project.</li>
-                <li>Highlights objectives, methods, and significance.</li>
-              </ul>
-              <h3 class="text-xl font-semibold mt-6">2. Introduction or Background:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>Sets the context for your research.</li>
-                <li>Discusses the problem and its importance.</li>
-              </ul>
-              <h3 class="text-xl font-semibold mt-6">3. Objectives or Specific Aims:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>Clearly state what you intend to accomplish.</li>
-                <li>Objectives should be specific, measurable, and achievable.</li>
-              </ul>
-              <h3 class="text-xl font-semibold mt-6">4. Methodology:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>Detailed plan of how you will conduct the research.</li>
-                <li>Include timelines, resources, and personnel involved.</li>
-              </ul>
-              <h3 class="text-xl font-semibold mt-6">5. Budget and Justification:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>Itemized list of expenses.</li>
-                <li>Explanation of why each expense is necessary.</li>
-              </ul>
-              <h3 class="text-xl font-semibold mt-6">6. Expected Outcomes and Impact:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>Discuss potential results and their significance.</li>
-                <li>Highlight how the project aligns with the funder's goals.</li>
-              </ul>
-              <h3 class="text-xl font-semibold mt-6">7. References:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>Cite all sources used in your proposal.</li>
-              </ul>
-            `,
-        },
-        {
-          title: "Chapter 6.4: Writing Persuasively and Effectively",
-          content: `
-              <h2 class="text-2xl font-bold">Convincing Funders of Your Project's Merit</h2>
-              <p class="mt-4">Your writing style plays a significant role in persuading funders to support your project.</p>
-              <h3 class="text-xl font-semibold mt-6">Strategies for Persuasive Writing:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li><strong>Clarity:</strong> Use clear and concise language.</li>
-                <li><strong>Focus on Significance:</strong> Emphasize the importance of your project.</li>
-                <li><strong>Demonstrate Feasibility:</strong> Show that your project is achievable.</li>
-                <li><strong>Highlight Innovation:</strong> Explain how your project is novel or fills a gap.</li>
-              </ul>
-              <h3 class="text-xl font-semibold mt-6">Common Mistakes to Avoid:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>Avoid jargon that may not be understood by reviewers.</li>
-                <li>Do not make unsupported claims.</li>
-                <li>Ensure consistency throughout the proposal.</li>
-              </ul>
-              <h3 class="text-xl font-semibold mt-6">Example Phraseology:</h3>
-              <p class="mt-4">"This project addresses a critical need in the field of public health by developing a scalable intervention that can reduce the incidence of disease X among vulnerable populations."</p>
-            `,
-        },
-        {
-          title: "Chapter 6.5: Summary",
-          content: `
-              <h2 class="text-2xl font-bold">Week 6 Summary: Grant Proposal Writing</h2>
-              <p class="mt-4">This week, we've explored:</p>
-              <ul class="list-disc list-inside mt-2">
-                <li>The importance of understanding funding agencies and aligning your proposal with their priorities.</li>
-                <li>The key components that make up a successful grant proposal.</li>
-                <li>Strategies for writing persuasively to convince funders of your project's merit.</li>
-              </ul>
-              <p class="mt-4">Applying these principles increases your chances of securing funding for your research.</p>
-            `,
-        },
-        {
-          title: "Chapter 6.6: Quiz",
-          content: `
-              <h2 class="text-2xl font-bold">Test Your Understanding</h2>
-              <p class="mt-4">Assess your grasp of the key concepts from this week.</p>
-            `,
-          quiz: {
-            question:
-              "Which of the following is NOT typically a component of a grant proposal?",
-            options: [
-              "Abstract or Executive Summary",
-              "Literature Review",
-              "Budget and Justification",
-              "Methodology",
-            ],
-            correctAnswer: 1,
-          },
-        },
-      ],
-    },
-    // Week 7
-    {
-      title: "Week 7: Revising, Editing, and Peer Review",
-      chapters: [
-        {
-          title: "Chapter 7.1: Introduction",
-          content: `
-              <h2 class="text-2xl font-bold">Refining Your Work for Publication</h2>
-              <p class="mt-4">The final week focuses on the crucial steps of revising, editing, and understanding the peer review process. These steps are essential to ensure your work is polished and ready for publication.</p>
-              <h3 class="text-xl font-semibold mt-6">Objectives:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>Learn effective strategies for revising and editing your manuscript.</li>
-                <li>Understand the importance of peer review and how to navigate it.</li>
-                <li>Develop skills to respond constructively to feedback.</li>
-              </ul>
-            `,
-        },
-        {
-          title: "Chapter 7.2: Effective Revising and Editing Techniques",
-          content: `
-              <h2 class="text-2xl font-bold">Polishing Your Manuscript</h2>
-              <p class="mt-4">Revising and editing are iterative processes that enhance the clarity, coherence, and overall quality of your manuscript.</p>
-              <h3 class="text-xl font-semibold mt-6">Revising vs. Editing:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li><strong>Revising:</strong> Focuses on content, structure, and flow. It involves making substantial changes to improve arguments and organization.</li>
-                <li><strong>Editing:</strong> Involves refining language, grammar, and style. It's about polishing the text to ensure readability and correctness.</li>
-              </ul>
-              <h3 class="text-xl font-semibold mt-6">Strategies for Effective Revision:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li><strong>Take a Break:</strong> Step away from your manuscript for a few days to gain fresh perspective.</li>
-                <li><strong>Review Structure:</strong> Ensure that your paper follows a logical flow and that each section transitions smoothly.</li>
-                <li><strong>Check for Consistency:</strong> Verify that terminology, formatting, and citations are consistent throughout.</li>
-                <li><strong>Focus on Clarity:</strong> Simplify complex sentences and clarify ambiguous statements.</li>
-              </ul>
-              <h3 class="text-xl font-semibold mt-6">Editing Tips:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>Read your manuscript aloud to catch errors and awkward phrasing.</li>
-                <li>Use grammar and spell-check tools but don't rely solely on them.</li>
-                <li>Pay attention to common problem areas like passive voice and wordiness.</li>
-                <li>Consider hiring a professional editor if necessary.</li>
-              </ul>
-              <h3 class="text-xl font-semibold mt-6">Example Checklist:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>Are all sources properly cited?</li>
-                <li>Does each paragraph have a clear main idea?</li>
-                <li>Have you eliminated unnecessary jargon?</li>
-                <li>Is the abstract concise and informative?</li>
-              </ul>
-            `,
-        },
-        {
-          title: "Chapter 7.3: Understanding the Peer Review Process",
-          content: `
-              <h2 class="text-2xl font-bold">Navigating Peer Review</h2>
-              <p class="mt-4">Peer review is a fundamental part of scholarly publishing, ensuring the quality and integrity of academic work.</p>
-              <h3 class="text-xl font-semibold mt-6">What is Peer Review?</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>A process where experts in the field evaluate your manuscript.</li>
-                <li>Aims to validate research quality, originality, and significance.</li>
-              </ul>
-              <h3 class="text-xl font-semibold mt-6">Types of Peer Review:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li><strong>Single-blind:</strong> Reviewers know the author's identity, but authors don't know the reviewers.</li>
-                <li><strong>Double-blind:</strong> Both authors and reviewers are anonymous to each other.</li>
-                <li><strong>Open Review:</strong> Identities are known to both parties, and sometimes reviews are published alongside the article.</li>
-              </ul>
-              <h3 class="text-xl font-semibold mt-6">The Peer Review Process:</h3>
-              <ol class="list-decimal list-inside mt-2">
-                <li><strong>Submission:</strong> You submit your manuscript to a journal.</li>
-                <li><strong>Initial Screening:</strong> The editor assesses the manuscript for suitability.</li>
-                <li><strong>Reviewer Assignment:</strong> The editor selects reviewers with relevant expertise.</li>
-                <li><strong>Review Period:</strong> Reviewers evaluate the manuscript and provide feedback.</li>
-                <li><strong>Decision:</strong> The editor makes a decision based on reviewers' comments (accept, revise, or reject).</li>
-              </ol>
-              <h3 class="text-xl font-semibold mt-6">Tips:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>Choose a journal that aligns with your research scope.</li>
-                <li>Follow the journal's submission guidelines meticulously.</li>
-                <li>Be prepared for multiple rounds of revision.</li>
-              </ul>
-            `,
-        },
-        {
-          title: "Chapter 7.4: Responding to Feedback and Revisions",
-          content: `
-              <h2 class="text-2xl font-bold">Embracing Constructive Criticism</h2>
-              <p class="mt-4">Responding effectively to reviewers' comments is crucial for the success of your manuscript.</p>
-              <h3 class="text-xl font-semibold mt-6">Receiving Feedback:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>Stay open-minded and avoid taking criticism personally.</li>
-                <li>Read all comments carefully and thoroughly.</li>
-                <li>Identify common themes in the feedback.</li>
-              </ul>
-              <h3 class="text-xl font-semibold mt-6">Preparing Your Response:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li><strong>Create a Response Document:</strong> Address each comment point by point.</li>
-                <li><strong>Be Respectful and Professional:</strong> Thank reviewers for their insights.</li>
-                <li><strong>Provide Clear Justifications:</strong> If you disagree with a comment, explain your reasoning logically.</li>
-                <li><strong>Highlight Changes:</strong> Indicate where revisions have been made in the manuscript.</li>
-              </ul>
-              <h3 class="text-xl font-semibold mt-6">Example Response Format:</h3>
-              <p class="mt-4"><strong>Reviewer Comment:</strong> "The sample size seems insufficient to support the conclusions."</p>
-              <p><strong>Author Response:</strong> "Thank you for this observation. We have expanded the sample size by including additional participants, as detailed on page 12."</p>
-              <h3 class="text-xl font-semibold mt-6">Tips for Effective Revisions:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>Prioritize significant comments that impact the validity of your work.</li>
-                <li>Ensure that your revisions enhance the overall quality of the manuscript.</li>
-                <li>Keep track of all changes for transparency.</li>
-              </ul>
-            `,
-        },
-        {
-          title: "Chapter 7.5: Summary",
-          content: `
-              <h2 class="text-2xl font-bold">Week 7 Summary: Revising, Editing, and Peer Review</h2>
-              <p class="mt-4">In this final week, we've covered:</p>
-              <ul class="list-disc list-inside mt-2">
-                <li>Effective techniques for revising and editing your manuscript to enhance clarity and coherence.</li>
-                <li>An in-depth understanding of the peer review process and its significance in academic publishing.</li>
-                <li>Strategies for responding constructively to feedback and making necessary revisions.</li>
-              </ul>
-              <p class="mt-4">Mastering these skills ensures that your research is presented in the best possible light and increases the likelihood of publication success.</p>
-            `,
-        },
-        {
-          title: "Chapter 7.6: Final Quiz",
-          content: `
-              <h2 class="text-2xl font-bold">Final Assessment</h2>
-              <p class="mt-4">Test your comprehensive understanding of the concepts covered throughout the course.</p>
-            `,
-          quiz: {
-            question:
-              "Which of the following is the most appropriate way to respond to a reviewer's criticism you disagree with?",
-            options: [
-              "Ignore the comment and make no changes.",
-              "Argue that the reviewer is incorrect without providing evidence.",
-              "Thank the reviewer and provide a reasoned explanation for your position.",
-              "Complain to the editor about the reviewer's feedback.",
-            ],
-            correctAnswer: 2,
-          },
-        },
-      ],
-    },
-    {
-      title: "Final Week: Research and Grant Proposal Assignments",
-      chapters: [
-        {
-          title: "Chapter 8: Introduction to Final Assignments",
-          content: `
-            <h2 class="text-2xl font-bold">Introduction to Final Assignments</h2>
-            <p class="mt-4">As we conclude the course, you'll engage in two major assignments: the first draft of your grant proposal and the final paper. These assignments are designed to synthesize your learning and demonstrate your ability to conduct and present scientific research effectively.</p>
-            <h3 class="text-xl font-semibold mt-6">Assignment Overview:</h3>
+            <h2 class="text-2xl font-bold">Slide 1: Final Research Paper Submission</h2>
+            <p class="mt-4"><strong>Objective:</strong> Refine and submit your complete research paper by incorporating feedback from peers and instructors.</p>
+            <h3 class="text-xl font-semibold mt-6">Key Actions:</h3>
             <ul class="list-disc list-inside mt-2">
-              <li><strong>First Draft of Grant Proposal:</strong> Develop a comprehensive grant proposal outlining your experimental idea.</li>
-              <li><strong>Final Paper:</strong> Refine and submit the final version of your grant proposal.</li>
+              <li>Review all feedback received during the course.</li>
+              <li>Revise your paper to improve clarity, coherence, and adherence to scientific writing standards.</li>
+              <li>Ensure that your manuscript is formatted according to Ivy League guidelines.</li>
+              <li>Submit the final version electronically before the deadline.</li>
             </ul>
-            <p class="mt-4">Both assignments will be assessed based on their adherence to scientific standards, clarity, originality, and overall quality.</p>
-            <h3 class="text-xl font-semibold mt-6">Assignments:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>
-                  <strong>First Primary Paper Assessment:</strong>
-                  <ul class="list-disc list-inside ml-6 mt-1">
-                    <li>The first primary article assignment is due on 3/1, 4/1, 5/1 (due online - <a href="https://forms.gle/RcwwWkX2zQ131aRP6" class="text-blue-500 underline">Click Here</a>).</li>
-                    <li><a href="https://docs.google.com/document/d/1NylLZ3z-gtNnSLKVMWnE8yiyO6XeUzyW/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Primary Paper Review Instructions</a></li>
-                    <li><a href="https://docs.google.com/document/d/1uLhSkT2_rRzU04-e-ceyQzHw_Uby6Y9n/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Primary Paper Written Example One</a></li>
-                  </ul>
-                </li>
-                <li>
-                  <strong>Second Primary Paper Review Assessment:</strong>
-                  <ul class="list-disc list-inside ml-6 mt-1">
-                    <li>The second primary article assignment is due on 3/1, 4/1, 5/1 (due online - <a href="https://forms.gle/RcwwWkX2zQ131aRP6" class="text-blue-500 underline">Click Here</a>).</li>
-                    <li><a href="https://docs.google.com/document/d/1BlIKF7_2OVcZl7Gv8UPsRmFIG8tGIaVY/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Second Primary Paper Review Instructions</a></li>
-                    <li><a href="https://docs.google.com/document/d/1um8jqJv9XGkY-_WqP_j8M4M3tnfWD_Qs/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Second Primary Paper Written Example Two</a></li>
-                  </ul>
-                </li>
-                <li>
-                  <strong>Grant Proposal Final Assessment:</strong>
-                  <ul class="list-disc list-inside ml-6 mt-1">
-                    <li>The assignment is due on 3/15, 4/15, 5/15 (due online - <a href="https://forms.gle/U8RKt9YsHpVeTxsPA" class="text-blue-500 underline">Click Here</a>).</li>
-                    <li><a href="https://docs.google.com/document/d/1k7ktEblxvvN0AmL1VE7Krt5qbneKEf4z/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Grant Proposal Review Instructions</a></li>
-                    <li><a href="https://docs.google.com/document/d/1Y-rlkNHIIXhVH77i6wD9HO-M0ITBPZUm/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Grant Proposal Example One</a></li>
-                  </ul>
-                </li>
-              </ul>
+            <p class="mt-4"><em>Tip:</em> Thorough revision and attention to detail in your final paper will demonstrate your growth and mastery of scientific writing.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/YourFinalResearchPaperSubmissionURL" target="_blank" class="text-blue-600 underline">
+                Click here for additional guidelines.
+              </a>
+            </p>
           `,
+          videoUrl: "https://example.com/week6-final-research-paper"
         },
         {
-          title: "Chapter 8: Final Remarks",
+          title: "6.2 Final Grant Proposal Submission",
           content: `
-            <h2 class="text-2xl font-bold">Final Remarks</h2>
-            <p class="mt-4">Congratulations on reaching the end of the Scientific Writing & Grant Proposal course! Your dedication and hard work have culminated in the development of comprehensive grant proposals that showcase your ability to conduct and present scientific research.</p>
-            <h3 class="text-xl font-semibold mt-6">Assignments:</h3>
-              <ul class="list-disc list-inside mt-2">
-                <li>
-                  <strong>First Primary Paper Assessment:</strong>
-                  <ul class="list-disc list-inside ml-6 mt-1">
-                    <li>The first primary article assignment is due on 3/1, 4/1, 5/1 (due online - <a href="https://forms.gle/RcwwWkX2zQ131aRP6" class="text-blue-500 underline">Click Here</a>).</li>
-                    <li><a href="https://docs.google.com/document/d/1NylLZ3z-gtNnSLKVMWnE8yiyO6XeUzyW/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Primary Paper Review Instructions</a></li>
-                    <li><a href="https://docs.google.com/document/d/1uLhSkT2_rRzU04-e-ceyQzHw_Uby6Y9n/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Primary Paper Written Example One</a></li>
-                  </ul>
-                </li>
-                <li>
-                  <strong>Second Primary Paper Review Assessment:</strong>
-                  <ul class="list-disc list-inside ml-6 mt-1">
-                    <li>The second primary article assignment is due on 3/1, 4/1, 5/1 (due online - <a href="https://forms.gle/RcwwWkX2zQ131aRP6" class="text-blue-500 underline">Click Here</a>).</li>
-                    <li><a href="https://docs.google.com/document/d/1BlIKF7_2OVcZl7Gv8UPsRmFIG8tGIaVY/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Second Primary Paper Review Instructions</a></li>
-                    <li><a href="https://docs.google.com/document/d/1um8jqJv9XGkY-_WqP_j8M4M3tnfWD_Qs/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Second Primary Paper Written Example Two</a></li>
-                  </ul>
-                </li>
-                <li>
-                  <strong>Grant Proposal Final Assessment:</strong>
-                  <ul class="list-disc list-inside ml-6 mt-1">
-                    <li>The assignment is due on 3/15, 4/15, 5/15 (due online - <a href="https://forms.gle/U8RKt9YsHpVeTxsPA" class="text-blue-500 underline">Click Here</a>).</li>
-                    <li><a href="https://docs.google.com/document/d/1k7ktEblxvvN0AmL1VE7Krt5qbneKEf4z/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Grant Proposal Review Instructions</a></li>
-                    <li><a href="https://docs.google.com/document/d/1Y-rlkNHIIXhVH77i6wD9HO-M0ITBPZUm/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Grant Proposal Example One</a></li>
-                  </ul>
-                </li>
-              </ul>
-            <h3 class="text-xl font-semibold mt-6">Feedback and Evaluation:</h3>
-            <p class="mt-4">You will receive detailed feedback on both drafts to help you improve your scientific writing and proposal development skills. Take this feedback seriously to enhance your final submission.</p>
-            <h3 class="text-xl font-semibold mt-6">Looking Forward:</h3>
-            <p class="mt-4">The skills you've developed in this course are essential for your academic and professional journey. Whether you're pursuing further studies, engaging in research, or entering the professional world, effective scientific writing and grant proposal skills will be invaluable.</p>
-            <h3 class="text-xl font-semibold mt-6">Stay Connected:</h3>
-            <p class="mt-4">Feel free to reach out with any questions or for further guidance as you continue to develop your research projects. Best of luck in all your future endeavors!</p>
-            
+            <h2 class="text-2xl font-bold">Slide 2: Final Grant Proposal Submission</h2>
+            <p class="mt-4"><strong>Objective:</strong> Finalize and submit your grant proposal, ensuring that it meets all formatting, content, and budget requirements.</p>
+            <h3 class="text-xl font-semibold mt-6">Key Actions:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li>Incorporate peer and instructor feedback to enhance your proposal’s clarity and persuasiveness.</li>
+              <li>Double-check all components, including abstract, objectives, methodology, budget, and expected outcomes.</li>
+              <li>Submit the final proposal via the designated online submission portal.</li>
+            </ul>
+            <p class="mt-4"><em>Tip:</em> A well-structured and persuasive grant proposal is key to securing research funding.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/YourFinalGrantProposalSubmissionURL" target="_blank" class="text-blue-600 underline">
+                Click here for additional grant proposal submission guidelines.
+              </a>
+            </p>
           `,
+          videoUrl: "https://example.com/week6-final-grant-proposal"
         },
+        {
+          title: "6.3 Final Peer Review Session",
+          content: `
+            <h2 class="text-2xl font-bold">Slide 3: Final Peer Review Session</h2>
+            <p class="mt-4"><strong>Objective:</strong> Participate in a final peer review session to critique and provide feedback on your peers' submissions and refine your own work.</p>
+            <h3 class="text-xl font-semibold mt-6">Key Actions:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li>Engage in a structured review process using provided checklists.</li>
+              <li>Offer constructive feedback on both the research paper and grant proposal drafts.</li>
+              <li>Incorporate insights from the peer review to make final revisions.</li>
+            </ul>
+            <p class="mt-4"><em>Tip:</em> Constructive criticism from peers is invaluable for finalizing your work and ensuring its overall quality.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/YourFinalPeerReviewGuidelinesURL" target="_blank" class="text-blue-600 underline">
+                Click here for additional peer review session guidelines.
+              </a>
+            </p>
+          `,
+          videoUrl: "https://example.com/week6-peer-review-session"
+        },
+        {
+          title: "6.4 Capstone Reflection & Course Summary",
+          content: `
+            <h2 class="text-2xl font-bold">Slide 4: Capstone Reflection & Course Summary</h2>
+            <p class="mt-4"><strong>Objective:</strong> Reflect on your growth as a scientific writer and researcher, summarizing key lessons learned throughout the course.</p>
+            <h3 class="text-xl font-semibold mt-6">Reflection Points:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li>Discuss the improvements in your writing, methodology, and critical analysis skills.</li>
+              <li>Highlight how feedback and peer review sessions helped refine your work.</li>
+              <li>Consider the challenges you faced and how you overcame them.</li>
+              <li>Plan for your future development as a researcher and scientific writer.</li>
+            </ul>
+            <p class="mt-4"><em>Tip:</em> A reflective summary not only consolidates your learning but also guides your ongoing professional development.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/YourCapstoneReflectionURL" target="_blank" class="text-blue-600 underline">
+                Click here for additional reflection and summary guidelines.
+              </a>
+            </p>
+          `,
+          videoUrl: "https://example.com/week6-reflection-summary"
+        }
       ],
     },
+    
   ],
 };// You can now close the courseData object if it's the last week
 

@@ -9,1130 +9,820 @@ const ResearchCourseData: CourseData = {
   weeks: [
     // Week 1
     {
-      title: "Week 1: Introduction to Research Methods",
+      title: "Week 1: Foundations of Methodological Rigor",
       chapters: [
         {
-          title: "Chapter 1.1: Introduction",
+          title: "1.1 Introduction",
           content: `
-            <h2 class="text-2xl font-bold">Welcome to Research Methods & Analytics</h2>
-            <p class="mt-4">Research methods are the backbone of any scientific inquiry. This week, we'll explore the fundamental concepts that underpin effective research practices.</p>
-            <h3 class="text-xl font-semibold mt-6">Course Overview:</h3>
+            <h2 class="text-2xl font-bold">Slide 1: Introduction to Methodological Rigor</h2>
+            <p class="mt-4"><strong>Objective:</strong> Explore Ivy League standards for research design, reproducibility, and ethical frameworks including IRB, HIPAA, and the Belmont Report.</p>
+            <h3 class="text-xl font-semibold mt-6">Key Topics:</h3>
             <ul class="list-disc list-inside mt-2">
-              <li><strong>Week 1:</strong> Introduction to Research Methods</li>
-              <li><strong>Week 2:</strong> Formulating Research Questions and Hypotheses</li>
-              <li><strong>Week 3:</strong> Quantitative Research Methods</li>
-              <li><strong>Week 4:</strong> Qualitative Research Methods </li>
-              <li><strong>Week 5:</strong> Mixed-Methods Research</li>
-              <li><strong>Week 6:</strong> Data Collection and Analysis</li>
-              <li><strong>Week 7:</strong> Reporting & Presenting Research Findings</li>
+              <li>High standards for research design and reproducibility.</li>
+              <li>Understanding ethical frameworks and guidelines (IRB, HIPAA, Belmont Report).</li>
             </ul>
-            <h3 class="text-xl font-semibold mt-6">Assignments:</h3>
-            <h2 class="text-2xl font-bold">Welcome to Research Methods & Analytics</h2>
-            <p class="mt-4">Research methods are the backbone of any scientific inquiry. This week, we'll explore the fundamental concepts that underpin effective research practices.</p>
-
-            <h3 class="text-xl font-semibold mt-6">Course Overview:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li><strong>Week 1:</strong> Introduction to Research Methods</li>
-              <li><strong>Week 2:</strong> Formulating Research Questions and Hypotheses</li>
-              <li><strong>Week 3:</strong> Quantitative Research Methods</li>
-              <li><strong>Week 4:</strong> Qualitative Research Methods</li>
-              <li><strong>Week 5:</strong> Mixed-Methods Research</li>
-              <li><strong>Week 6:</strong> Data Collection and Analysis</li>
-              <li><strong>Week 7:</strong> Reporting and Presenting Research Findings</li>
-            </ul>
-
-            <h3 class="text-xl font-semibold mt-6">Assignments:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>
-                <strong>First Primary Paper Assessment:</strong>
-                <ul class="list-disc list-inside ml-6 mt-1">
-                  <li>The first primary article assignment is due on 3/1, 4/1, 5/1 (due online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline">Click Here</a>).</li>
-                  <li><a href="https://docs.google.com/forms/d/15WC0Dnk3w0uXmHbGSarU1E1EQWtcDKg4J_vWAsaSdcU/edit#:~:text=https%3A//docs.google.com/document/d/1NylLZ3z%2DgtNnSLKVMWnE8yiyO6XeUzyW/edit?usp=sharing" class="text-blue-500 underline">Primary Paper Review Instructions</a></li>
-                  <li><a href="https://docs.google.com/document/d/1KtL6lD9afCsoKjCukEkAdA5CqbQ61pXlQv0A_wxlLKc/edit?usp=sharing" class="text-blue-500 underline">Primary Paper Written Example One</a></li>
-                </ul>
-              </li>
-              <li>
-                <strong>Second Primary Paper Review Assessment:</strong>
-                <ul class="list-disc list-inside ml-6 mt-1">
-                  <li>The second primary article assignment is due on 3/1, 4/1, 5/1 (due online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline">Click Here</a>).</li>
-                  <li><a href="https://docs.google.com/document/d/1NylLZ3z-gtNnSLKVMWnE8yiyO6XeUzyW/edit?usp=sharing" class="text-blue-500 underline">Second Primary Paper Review Instructions</a></li>
-                  <li><a href="https://docs.google.com/document/d/1kmFjSnXmEVKCmZDq61NeAGuEdEnQc0--/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Second Primary Paper Written Example Two</a></li>
-                </ul>
-              </li>
-              <li>
-                <strong>Lab Report / Publications Assessment:</strong>
-                <ul class="list-disc list-inside ml-6 mt-1">
-                  <li>The assignment is due on 3/15, 4/15, 5/15 (due online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline">Click Here</a>).</li>
-                  <li><a href="https://docs.google.com/document/d/1gcb2QrzsQdIWVkULTIWrBDFx_1A8GBd_vxERKSNz7RI/edit?usp=sharing" class="text-blue-500 underline">Lab Report Review Instructions</a></li>
-                  <li><a href="https://docs.google.com/document/d/1KtL6lD9afCsoKjCukEkAdA5CqbQ61pXlQv0A_wxlLKc/edit?usp=sharing" class="text-blue-500 underline">Lab Report Example One</a></li>
-                  <li><a href="https://docs.google.com/document/d/1kmFjSnXmEVKCmZDq61NeAGuEdEnQc0--/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Lab Report Example Two</a></li>
-                  <li><a href="https://docs.google.com/document/d/1Oa-8nCDHAYwBGZqPLE1gJhZ1JhKDJQfk3t_4Ojkf0q4/edit?usp=sharing" class="text-blue-500 underline">Lab Report Checklist And Guide</a></li>
-                </ul>
-              </li>
-            </ul>
-
-            
+            <h3 class="text-xl font-semibold mt-6">Step-by-Step:</h3>
+            <ol class="list-decimal list-inside mt-2">
+              <li>Review key ethical documents and their importance.</li>
+              <li>Examine case studies that exemplify methodological rigor.</li>
+              <li>Discuss how reproducibility impacts research credibility.</li>
+            </ol>
+            <p class="mt-4"><em>Tip:</em> A strong foundation in ethical and methodological principles is essential for conducting impactful research.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" 
+                 target="_blank" class="text-blue-600 underline">
+                Click here for additional details and assessment info.
+              </a>
+            </p>
           `,
-          //videoUrl: "https://example.com/week1-intro",
+          videoUrl: "https://example.com/week1-introduction"
         },
         {
-          title: "Chapter 1.2: Understanding the Purpose of Research Methods",
+          title: "1.2 Defining Research Gaps",
           content: `
-            <h2 class="text-2xl font-bold">The Purpose of Research Methods</h2>
-            <p class="mt-4">Research methods are essential for systematically investigating questions and generating reliable knowledge. They provide a structured approach to collecting and analyzing data.</p>
-            <h3 class="text-xl font-semibold mt-6">Key Purposes:</h3>
+            <h2 class="text-2xl font-bold">Slide 2: Identifying Research Gaps</h2>
+            <p class="mt-4"><strong>Objective:</strong> Learn systematic approaches to literature synthesis and gap identification using tools like PRISMA.</p>
+            <h3 class="text-xl font-semibold mt-6">Key Steps:</h3>
             <ul class="list-disc list-inside mt-2">
-              <li>To answer specific research questions.</li>
-              <li>To test hypotheses and theories.</li>
-              <li>To ensure the validity and reliability of findings.</li>
-              <li>To facilitate replication and verification of results.</li>
+              <li>Utilize databases and systematic review protocols.</li>
+              <li>Apply PRISMA guidelines for literature synthesis.</li>
+              <li>Identify conflicting findings and research gaps.</li>
             </ul>
-            <h3 class="text-xl font-semibold mt-6">Types of Research:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li><strong>Basic Research:</strong> Aims to expand knowledge without immediate practical applications.</li>
-              <li><strong>Applied Research:</strong> Seeks to solve practical problems.</li>
-            </ul>
+            <h3 class="text-xl font-semibold mt-6">Step-by-Step:</h3>
+            <ol class="list-decimal list-inside mt-2">
+              <li>Search for relevant literature using major academic databases.</li>
+              <li>Follow the PRISMA checklist to record and screen studies.</li>
+              <li>Discuss your findings to identify gaps in the research.</li>
+            </ol>
+            <p class="mt-4"><em>Tip:</em> A clearly defined research gap is the first step in producing original and impactful research.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" 
+                 target="_blank" class="text-blue-600 underline">
+                Click here for additional details and assessment info.
+              </a>
+            </p>
           `,
-          //videoUrl: "https://example.com/week1-purpose",
+          videoUrl: "https://example.com/week1-research-gaps"
         },
         {
-          title: "Chapter 1.3: Key Concepts: Reliability, Validity, and Ethics",
+          title: "1.3 Hypothesis Crafting",
           content: `
-            <h2 class="text-2xl font-bold">Essential Research Concepts</h2>
-            <p class="mt-4">Understanding reliability, validity, and ethics is crucial for conducting robust and ethical research.</p>
-            <h3 class="text-xl font-semibold mt-6">Reliability:</h3>
+            <h2 class="text-2xl font-bold">Slide 3: Crafting Your Research Hypothesis</h2>
+            <p class="mt-4"><strong>Objective:</strong> Develop the ability to create clear, testable hypotheses by operationalizing variables.</p>
+            <h3 class="text-xl font-semibold mt-6">Key Points:</h3>
             <ul class="list-disc list-inside mt-2">
-              <li><strong>Definition:</strong> The consistency of a measurement tool.</li>
-              <li><strong>Types:</strong> Test-retest reliability, inter-rater reliability, internal consistency.</li>
+              <li>Formulating Null and Alternative Hypotheses.</li>
+              <li>Understanding directional versus non-directional hypotheses.</li>
+              <li>Operationalizing abstract concepts into measurable variables.</li>
             </ul>
-            <h3 class="text-xl font-semibold mt-6">Validity:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li><strong>Definition:</strong> The extent to which a tool measures what it is intended to measure.</li>
-              <li><strong>Types:</strong> Content validity, construct validity, criterion validity.</li>
-            </ul>
-            <h3 class="text-xl font-semibold mt-6">Ethics in Research:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li><strong>Informed Consent:</strong> Participants must be fully informed about the study and consent to participate.</li>
-              <li><strong>Confidentiality:</strong> Protecting the privacy of participants.</li>
-              <li><strong>Avoiding Harm:</strong> Ensuring that research does not cause physical or psychological harm.</li>
-              <li><strong>Integrity:</strong> Maintaining honesty and transparency in conducting and reporting research.</li>
-            </ul>
+            <h3 class="text-xl font-semibold mt-6">Step-by-Step:</h3>
+            <ol class="list-decimal list-inside mt-2">
+              <li>Define your research question clearly.</li>
+              <li>Decide on a null hypothesis and an alternative hypothesis.</li>
+              <li>Specify whether your hypothesis is directional or non-directional.</li>
+              <li>Translate theoretical concepts into operational variables.</li>
+            </ol>
+            <p class="mt-4"><em>Tip:</em> A precise hypothesis sets the stage for effective research and accurate testing.</p>
           `,
-          //videoUrl: "https://example.com/week1-key-concepts",
+          videoUrl: "https://example.com/week1-hypothesis-crafting"
         },
         {
-          title: "Chapter 1.4: Summary",
+          title: "1.4 Peer Review Foundations",
           content: `
-            <h2 class="text-2xl font-bold">Week 1 Summary: Introduction to Research Methods</h2>
-            <p class="mt-4">In this week, we've covered:</p>
-            <ul class="list-disc list-inside mt-2">
-              <li>The fundamental purpose and importance of research methods.</li>
-              <li>Different types of research and their applications.</li>
-              <li>Key concepts including reliability, validity, and ethics in research.</li>
-            </ul>
-            <p class="mt-4">These foundational concepts will support your understanding as we delve deeper into specific research methodologies in the coming weeks.</p>
-          `,
-          // videoUrl removed
-        },
-        {
-          title: "Chapter 1.5: Quiz",
-          content: `
-            <h2 class="text-2xl font-bold">Test Your Understanding</h2>
-            <p class="mt-4">Assess your grasp of the key concepts from this week.</p>
-          `,
-          // videoUrl removed
-          quiz: {
-            question:
-              "Which of the following best describes validity in research?",
-            options: [
-              "The consistency of a measurement tool.",
-              "The extent to which a tool measures what it is intended to measure.",
-              "The ethical considerations in conducting research.",
-              "The ability to replicate study results.",
-            ],
-            correctAnswer: 1,
-          },
-        },
-      ],
-    },
-    // Week 2
-    {
-      title: "Week 2: Formulating Research Questions and Hypotheses",
-      chapters: [
-        {
-          title: "Chapter 2.1: Introduction",
-          content: `
-            <h2 class="text-2xl font-bold">The Foundation of Scientific Inquiry</h2>
-            <p class="mt-4">Research questions and hypotheses are central to the scientific method. They define the focus of your study and guide your research design and analysis.</p>
-            <h3 class="text-xl font-semibold mt-6">Objectives:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>Understand how to identify research gaps.</li>
-              <li>Learn how to formulate clear research questions.</li>
-              <li>Develop testable hypotheses.</li>
-            </ul>
-          `,
-         // videoUrl: "https://example.com/week2-intro",
-        },
-        {
-          title: "Chapter 2.2: Identifying Research Gaps and Formulating Questions",
-          content: `
-            <h2 class="text-2xl font-bold">Finding Your Research Niche</h2>
-            <p class="mt-4">Identifying research gaps involves reviewing existing literature to find areas that are under-explored or contentious. Here's how to proceed:</p>
-            <h3 class="text-xl font-semibold mt-6">1. Conduct a Literature Review:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>Read extensively on your topic of interest.</li>
-              <li>Note recurring themes and contradictions.</li>
-            </ul>
-            <h3 class="text-xl font-semibold mt-6">2. Identify Under-Researched Areas:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>Look for topics with limited studies.</li>
-              <li>Find questions raised but not answered in previous research.</li>
-            </ul>
-            <h3 class="text-xl font-semibold mt-6">3. Formulate Your Research Question:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>Ensure it's specific, measurable, and achievable.</li>
-              <li>Align it with identified research gaps.</li>
-            </ul>
-            <h3 class="text-xl font-semibold mt-6">Example:</h3>
-            <p class="mt-4"><strong>Research Gap:</strong> Limited studies on the impact of social media on adolescent mental health in rural areas.</p>
-            <p><strong>Research Question:</strong> What is the effect of social media use on the mental health of adolescents in rural communities?</p>
-            <h3 class="text-xl font-semibold mt-6">Tips:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>Ensure your question is clear and focused.</li>
-              <li>Avoid overly broad or vague questions.</li>
-              <li>Consider the feasibility of researching the question.</li>
-            </ul>
-          `,
-        //  videoUrl: "https://example.com/week2-identifying-gaps",
-        },
-        {
-          title: "Chapter 2.3: Writing Clear and Testable Hypotheses",
-          content: `
-            <h2 class="text-2xl font-bold">Formulating Your Hypotheses</h2>
-            <p class="mt-4">A hypothesis is a tentative explanation or prediction that can be tested through research. Here's how to write effective hypotheses:</p>
-            <h3 class="text-xl font-semibold mt-6">1. Start with Your Research Question:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>Transform your question into a statement that predicts an outcome.</li>
-            </ul>
-            <h3 class="text-xl font-semibold mt-6">2. Ensure It's Testable:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>Use measurable variables.</li>
-              <li>Avoid subjective terms that can't be quantified.</li>
-            </ul>
-            <h3 class="text-xl font-semibold mt-6">3. Make It Specific:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>Clearly define the relationship between variables.</li>
-              <li>State the expected direction of the relationship (e.g., increases, decreases).</li>
-            </ul>
-            <h3 class="text-xl font-semibold mt-6">Example:</h3>
-            <p class="mt-4"><strong>Research Question:</strong> Does increased screen time affect sleep quality among teenagers?</p>
-            <p><strong>Hypothesis:</strong> Teenagers who spend more than 3 hours per day on screens will have poorer sleep quality compared to those who spend less time.</p>
-            <h3 class="text-xl font-semibold mt-6">Null and Alternative Hypotheses:</h3>
-            <p class="mt-4">In statistical testing, we often use:</p>
-            <ul class="list-disc list-inside mt-2">
-              <li><strong>Null Hypothesis (H<sub>0</sub>):</strong> No effect or relationship exists.</li>
-              <li><strong>Alternative Hypothesis (H<sub>A</sub>):</strong> An effect or relationship exists.</li>
-            </ul>
-            <p class="mt-4"><strong>Example:</strong></p>
-            <ul class="list-disc list-inside mt-2">
-              <li><strong>H<sub>0</sub>:</strong> Screen time does not affect sleep quality among teenagers.</li>
-              <li><strong>H<sub>A</sub>:</strong> Increased screen time negatively affects sleep quality among teenagers.</li>
-            </ul>
-            <h3 class="text-xl font-semibold mt-6">Avoiding Common Mistakes:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>Don't make hypotheses that are too broad or not testable.</li>
-              <li>Avoid using non-measurable terms.</li>
-              <li>Ensure your hypothesis is grounded in theory or existing literature.</li>
-            </ul>
-          `,
-        //  videoUrl: "https://example.com/week2-writing-hypotheses",
-        },
-        {
-          title: "Chapter 2.4: Summary",
-          content: `
-            <h2 class="text-2xl font-bold">Week 2 Summary: Formulating Research Questions and Hypotheses</h2>
-            <p class="mt-4">This week, we've focused on:</p>
-            <ul class="list-disc list-inside mt-2">
-              <li>Identifying research gaps through literature review.</li>
-              <li>Formulating clear and focused research questions.</li>
-              <li>Writing testable hypotheses.</li>
-            </ul>
-            <p class="mt-4">These skills are essential for designing a solid research study and contributing meaningful knowledge to your field.</p>
-          `,
-          // videoUrl removed
-        },
-        {
-          title: "Chapter 2.5: Quiz",
-          content: `
-            <h2 class="text-2xl font-bold">Test Your Understanding</h2>
-            <p class="mt-4">Assess your grasp of the key concepts from this week.</p>
-          `,
-          // videoUrl removed
-          quiz: {
-            question:
-              "Which of the following is a characteristic of a good research question?",
-            options: [
-              "It is broad and general.",
-              "It is specific and measurable.",
-              "It is based on personal opinion.",
-              "It cannot be tested.",
-            ],
-            correctAnswer: 1,
-          },
-        },
-      ],
-    },
-    // Week 3
-    {
-      title: "Week 3: Quantitative Research Methods",
-      chapters: [
-        {
-          title: "Chapter 3.1: Introduction",
-          content: `
-            <h2 class="text-2xl font-bold">Exploring Quantitative Research</h2>
-            <p class="mt-4">Quantitative research involves the collection and analysis of numerical data to identify patterns, relationships, and trends.</p>
-            <h3 class="text-xl font-semibold mt-6">Objectives:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>Understand the principles of quantitative research.</li>
-              <li>Learn about different quantitative research designs.</li>
-              <li>Explore data collection and analysis techniques.</li>
-            </ul>
-            
-
-            <h3 class="text-xl font-semibold mt-6">Assignments:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>
-                <strong>First Primary Paper Assessment:</strong>
-                <ul class="list-disc list-inside ml-6 mt-1">
-                  <li>The first primary article assignment is due on 3/1, 4/1, 5/1 (due online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline">Click Here</a>).</li>
-                  <li><a href="https://docs.google.com/forms/d/15WC0Dnk3w0uXmHbGSarU1E1EQWtcDKg4J_vWAsaSdcU/edit#:~:text=https%3A//docs.google.com/document/d/1NylLZ3z%2DgtNnSLKVMWnE8yiyO6XeUzyW/edit?usp=sharing" class="text-blue-500 underline">Primary Paper Review Instructions</a></li>
-                  <li><a href="https://docs.google.com/document/d/1KtL6lD9afCsoKjCukEkAdA5CqbQ61pXlQv0A_wxlLKc/edit?usp=sharing" class="text-blue-500 underline">Primary Paper Written Example One</a></li>
-                </ul>
-              </li>
-              <li>
-                <strong>Second Primary Paper Review Assessment:</strong>
-                <ul class="list-disc list-inside ml-6 mt-1">
-                  <li>The second primary article assignment is due on 3/1, 4/1, 5/1 (due online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline">Click Here</a>).</li>
-                  <li><a href="https://docs.google.com/document/d/1NylLZ3z-gtNnSLKVMWnE8yiyO6XeUzyW/edit?usp=sharing" class="text-blue-500 underline">Second Primary Paper Review Instructions</a></li>
-                  <li><a href="https://docs.google.com/document/d/1kmFjSnXmEVKCmZDq61NeAGuEdEnQc0--/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Second Primary Paper Written Example Two</a></li>
-                </ul>
-              </li>
-              <li>
-                <strong>Lab Report / Publications Assessment:</strong>
-                <ul class="list-disc list-inside ml-6 mt-1">
-                  <li>The assignment is due on 3/15, 4/15, 5/15 (due online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline">Click Here</a>).</li>
-                  <li><a href="https://docs.google.com/document/d/1gcb2QrzsQdIWVkULTIWrBDFx_1A8GBd_vxERKSNz7RI/edit?usp=sharing" class="text-blue-500 underline">Lab Report Review Instructions</a></li>
-                  <li><a href="https://docs.google.com/document/d/1KtL6lD9afCsoKjCukEkAdA5CqbQ61pXlQv0A_wxlLKc/edit?usp=sharing" class="text-blue-500 underline">Lab Report Example One</a></li>
-                  <li><a href="https://docs.google.com/document/d/1kmFjSnXmEVKCmZDq61NeAGuEdEnQc0--/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Lab Report Example Two</a></li>
-                  <li><a href="https://docs.google.com/document/d/1Oa-8nCDHAYwBGZqPLE1gJhZ1JhKDJQfk3t_4Ojkf0q4/edit?usp=sharing" class="text-blue-500 underline">Lab Report Checklist And Guide</a></li>
-                </ul>
-              </li>
-            </ul>
-
-          `,
-       //   videoUrl: "https://example.com/week3-intro",
-        },
-        {
-          title: "Chapter 3.2: Experimental Design and Control",
-          content: `
-            <h2 class="text-2xl font-bold">Structuring Your Experiments</h2>
-            <p class="mt-4">Experimental design is crucial for establishing cause-and-effect relationships in quantitative research.</p>
+            <h2 class="text-2xl font-bold">Slide 4: Understanding Peer Review</h2>
+            <p class="mt-4"><strong>Objective:</strong> Learn the structure and importance of high-impact journal articles and the peer review process.</p>
             <h3 class="text-xl font-semibold mt-6">Key Components:</h3>
             <ul class="list-disc list-inside mt-2">
-              <li><strong>Independent Variable (IV):</strong> The variable you manipulate.</li>
-              <li><strong>Dependent Variable (DV):</strong> The variable you measure.</li>
-              <li><strong>Control Variables:</strong> Variables kept constant to prevent confounding.</li>
+              <li>Anatomy of a research article: Abstract, Introduction, Methods, Results, Discussion, Conclusion.</li>
+              <li>Importance of clear reporting and rigorous methodology.</li>
+              <li>Role of peer review in maintaining research quality.</li>
             </ul>
-            <h3 class="text-xl font-semibold mt-6">Types of Experimental Designs:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li><strong>Between-Subjects Design:</strong> Different groups receive different treatments.</li>
-              <li><strong>Within-Subjects Design:</strong> The same group receives all treatments.</li>
-              <li><strong>Factorial Design:</strong> Examines the effects of two or more IVs simultaneously.</li>
-            </ul>
-            <h3 class="text-xl font-semibold mt-6">Randomization and Control:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>Randomly assign participants to control for selection bias.</li>
-              <li>Implement control groups to establish baseline measurements.</li>
-            </ul>
-            <h3 class="text-xl font-semibold mt-6">Example:</h3>
-            <p class="mt-4">"To determine the effect of study environment on productivity, participants will be randomly assigned to either a quiet study room (IV) or a noisy study room (IV). Productivity (DV) will be measured by the number of tasks completed."</p>
+            <h3 class="text-xl font-semibold mt-6">Step-by-Step:</h3>
+            <ol class="list-decimal list-inside mt-2">
+              <li>Examine examples of high-impact articles from top journals.</li>
+              <li>Identify key elements that contribute to a well-reported study.</li>
+              <li>Discuss how peer review enhances research integrity.</li>
+            </ol>
+            <p class="mt-4"><em>Tip:</em> Understanding the peer review process is crucial for improving your own research design and writing.</p>
           `,
-       //   videoUrl: "https://example.com/week3-experimental-design",
+          videoUrl: "https://example.com/week1-peer-review"
         },
         {
-          title: "Chapter 3.3: Survey Design and Measurement",
+          title: "1.5 Quiz: Critically Appraise a Flawed Study Design",
           content: `
-            <h2 class="text-2xl font-bold">Creating Effective Surveys</h2>
-            <p class="mt-4">Surveys are a common tool in quantitative research for collecting data from participants.</p>
-            <h3 class="text-xl font-semibold mt-6">Steps in Survey Design:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li><strong>Define Objectives:</strong> Clearly state what you aim to measure.</li>
-              <li><strong>Question Development:</strong> Craft clear, unbiased, and relevant questions.</li>
-              <li><strong>Response Formats:</strong> Choose appropriate formats (e.g., Likert scales, multiple-choice).</li>
-              <li><strong>Pilot Testing:</strong> Test the survey on a small group to identify issues.</li>
-            </ul>
-            <h3 class="text-xl font-semibold mt-6">Types of Questions:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li><strong>Closed-Ended:</strong> Provide specific response options.</li>
-              <li><strong>Open-Ended:</strong> Allow participants to respond in their own words.</li>
-              <li><strong>Likert Scale:</strong> Measure attitudes or opinions on a scale (e.g., 1-5).</li>
-            </ul>
-            <h3 class="text-xl font-semibold mt-6">Ensuring Reliability and Validity:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li><strong>Reliability:</strong> Ensure consistency in responses.</li>
-              <li><strong>Validity:</strong> Ensure the survey measures what it intends to measure.</li>
-            </ul>
-            <h3 class="text-xl font-semibold mt-6">Example Survey Question:</h3>
-            <p class="mt-4">"On a scale of 1 to 5, how satisfied are you with your current study environment?"</p>
+            <h2 class="text-2xl font-bold">Slide 5: Quiz - Study Design Critique</h2>
+            <p class="mt-4"><strong>Objective:</strong> Apply your understanding of research methodology by critiquing a flawed study design.</p>
+            <h3 class="text-xl font-semibold mt-6">Task:</h3>
+            <ol class="list-decimal list-inside mt-2">
+              <li>Read the provided case study of a flawed study design.</li>
+              <li>Identify weaknesses in hypothesis formulation, methodology, and ethical considerations.</li>
+              <li>Write a brief critique highlighting the flaws and suggesting improvements.</li>
+            </ol>
+            <p class="mt-4"><em>Tip:</em> Focus on clarity, reproducibility, and ethical considerations when critiquing the study design.</p>
           `,
-      //    videoUrl: "https://example.com/week3-survey-design",
+          quiz: {
+            question: "Which of the following is a critical flaw in a study that fails to clearly define its research hypothesis?",
+            options: [
+              "Ambiguous results and difficulty in measuring outcomes.",
+              "Enhanced exploratory potential.",
+              "Elimination of the need for statistical analysis.",
+              "Increased reproducibility."
+            ],
+            correctAnswer: 0
+          }
         },
         {
-          title: "Chapter 3.4: Data Collection and Analysis Techniques",
+          title: "1.6 Assignments",
           content: `
-            <h2 class="text-2xl font-bold">Gathering and Interpreting Data</h2>
-            <p class="mt-4">Effective data collection and analysis are critical for producing meaningful research findings.</p>
-            <h3 class="text-xl font-semibold mt-6">Data Collection Methods:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li><strong>Surveys and Questionnaires:</strong> Gather large amounts of data efficiently.</li>
-              <li><strong>Experiments:</strong> Manipulate variables to observe effects.</li>
-              <li><strong>Observations:</strong> Record behaviors or phenomena as they occur.</li>
-              <li><strong>Secondary Data:</strong> Utilize existing data from previous studies or databases.</li>
-            </ul>
-            <h3 class="text-xl font-semibold mt-6">Data Analysis Techniques:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li><strong>Descriptive Statistics:</strong> Summarize data using means, medians, modes, and standard deviations.</li>
-              <li><strong>Inferential Statistics:</strong> Make predictions or inferences about a population based on sample data.</li>
-              <li><strong>Correlation Analysis:</strong> Assess the relationship between two variables.</li>
-              <li><strong>Regression Analysis:</strong> Examine the relationship between dependent and independent variables.</li>
-              <li><strong>ANOVA (Analysis of Variance):</strong> Compare means across multiple groups.</li>
-            </ul>
-            <h3 class="text-xl font-semibold mt-6">Using Statistical Software:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>Software like SPSS, R, or Python can facilitate complex data analyses.</li>
-              <li>Ensure proficiency in the chosen tool to perform accurate analyses.</li>
-            </ul>
-            <h3 class="text-xl font-semibold mt-6">Example:</h3>
-            <p class="mt-4">"A multiple regression analysis will be conducted to determine the impact of study time, attendance, and extracurricular activities on academic performance."</p>
-          `,
-      //    videoUrl: "https://example.com/week3-data-analysis",
-        },
-        {
-          title: "Chapter 3.5: Summary",
-          content: `
-            <h2 class="text-2xl font-bold">Week 3 Summary: Quantitative Research Methods</h2>
-            <p class="mt-4">This week, you've explored:</p>
-            <ul class="list-disc list-inside mt-2">
-              <li>The fundamentals of quantitative research and its importance.</li>
-              <li>Various experimental designs and the role of control variables.</li>
-              <li>Effective survey design and measurement techniques.</li>
-              <li>Data collection methods and statistical analysis techniques.</li>
-            </ul>
-            
-
             <h3 class="text-xl font-semibold mt-6">Assignments:</h3>
             <ul class="list-disc list-inside mt-2">
               <li>
                 <strong>First Primary Paper Assessment:</strong>
                 <ul class="list-disc list-inside ml-6 mt-1">
-                  <li>The first primary article assignment is due on 3/1, 4/1, 5/1 (due online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline">Click Here</a>).</li>
-                  <li><a href="https://docs.google.com/forms/d/15WC0Dnk3w0uXmHbGSarU1E1EQWtcDKg4J_vWAsaSdcU/edit#:~:text=https%3A//docs.google.com/document/d/1NylLZ3z%2DgtNnSLKVMWnE8yiyO6XeUzyW/edit?usp=sharing" class="text-blue-500 underline">Primary Paper Review Instructions</a></li>
-                  <li><a href="https://docs.google.com/document/d/1KtL6lD9afCsoKjCukEkAdA5CqbQ61pXlQv0A_wxlLKc/edit?usp=sharing" class="text-blue-500 underline">Primary Paper Written Example One</a></li>
+                  <li>The first primary article assignment is due on <strong>3/1, 4/1, 5/1</strong> (due online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline" target="_blank">Click Here</a>).</li>
+                  <li><a href="https://docs.google.com/forms/d/15WC0Dnk3w0uXmHbGSarU1E1EQWtcDKg4J_vWAsaSdcU/edit#:~:text=https%3A//docs.google.com/document/d/1NylLZ3z%2DgtNnSLKVMWnE8yiyO6XeUzyW/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Primary Paper Review Instructions</a></li>
+                  <li><a href="https://docs.google.com/document/d/1KtL6lD9afCsoKjCukEkAdA5CqbQ61pXlQv0A_wxlLKc/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Primary Paper Written Example One</a></li>
                 </ul>
               </li>
               <li>
                 <strong>Second Primary Paper Review Assessment:</strong>
                 <ul class="list-disc list-inside ml-6 mt-1">
-                  <li>The second primary article assignment is due on 3/1, 4/1, 5/1 (due online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline">Click Here</a>).</li>
-                  <li><a href="https://docs.google.com/document/d/1NylLZ3z-gtNnSLKVMWnE8yiyO6XeUzyW/edit?usp=sharing" class="text-blue-500 underline">Second Primary Paper Review Instructions</a></li>
-                  <li><a href="https://docs.google.com/document/d/1kmFjSnXmEVKCmZDq61NeAGuEdEnQc0--/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Second Primary Paper Written Example Two</a></li>
+                  <li>The second primary article assignment is due on <strong>3/1, 4/1, 5/1</strong> (due online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline" target="_blank">Click Here</a>).</li>
+                  <li><a href="https://docs.google.com/document/d/1NylLZ3z-gtNnSLKVMWnE8yiyO6XeUzyW/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Second Primary Paper Review Instructions</a></li>
+                  <li><a href="https://docs.google.com/document/d/1kmFjSnXmEVKCmZDq61NeAGuEdEnQc0--/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Second Primary Paper Written Example Two</a></li>
                 </ul>
               </li>
               <li>
                 <strong>Lab Report / Publications Assessment:</strong>
                 <ul class="list-disc list-inside ml-6 mt-1">
-                  <li>The assignment is due on 3/15, 4/15, 5/15 (due online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline">Click Here</a>).</li>
-                  <li><a href="https://docs.google.com/document/d/1gcb2QrzsQdIWVkULTIWrBDFx_1A8GBd_vxERKSNz7RI/edit?usp=sharing" class="text-blue-500 underline">Lab Report Review Instructions</a></li>
-                  <li><a href="https://docs.google.com/document/d/1KtL6lD9afCsoKjCukEkAdA5CqbQ61pXlQv0A_wxlLKc/edit?usp=sharing" class="text-blue-500 underline">Lab Report Example One</a></li>
-                  <li><a href="https://docs.google.com/document/d/1kmFjSnXmEVKCmZDq61NeAGuEdEnQc0--/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Lab Report Example Two</a></li>
-                  <li><a href="https://docs.google.com/document/d/1Oa-8nCDHAYwBGZqPLE1gJhZ1JhKDJQfk3t_4Ojkf0q4/edit?usp=sharing" class="text-blue-500 underline">Lab Report Checklist And Guide</a></li>
+                  <li>The assignment is due on <strong>3/15, 4/15, 5/15</strong> (due online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline" target="_blank">Click Here</a>).</li>
+                  <li><a href="https://docs.google.com/document/d/1gcb2QrzsQdIWVkULTIWrBDFx_1A8GBd_vxERKSNz7RI/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Lab Report Review Instructions</a></li>
+                  <li><a href="https://docs.google.com/document/d/1KtL6lD9afCsoKjCukEkAdA5CqbQ61pXlQv0A_wxlLKc/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Lab Report Example One</a></li>
+                  <li><a href="https://docs.google.com/document/d/1kmFjSnXmEVKCmZDq61NeAGuEdEnQc0--/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Lab Report Example Two</a></li>
+                  <li><a href="https://docs.google.com/document/d/1Oa-8nCDHAYwBGZqPLE1gJhZ1JhKDJQfk3t_4Ojkf0q4/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Lab Report Checklist And Guide</a></li>
                 </ul>
               </li>
             </ul>
-
           `,
-          // videoUrl removed
-        },
-        {
-          title: "Chapter 3.6: Quiz",
-          content: `
-            <h2 class="text-2xl font-bold">Test Your Understanding</h2>
-            <p class="mt-4">Assess your grasp of the key concepts from this week.</p>
-          `,
-          // videoUrl removed
-          quiz: {
-            question:
-              "Which statistical method is used to assess the relationship between two continuous variables?",
-            options: [
-              "ANOVA",
-              "Chi-Square Test",
-              "Pearson Correlation",
-              "T-Test",
-            ],
-            correctAnswer: 2,
-          },
-        },
+        }
       ],
     },
+    
+
+    
+    // Week 2
+    {
+      title: "Week 2: Quantitative Precision & Statistical Mastery",
+      chapters: [
+        {
+          title: "2.1 Experimental Design",
+          content: `
+            <h2 class="text-2xl font-bold">Slide 1: Foundations of Experimental Design</h2>
+            <p class="mt-4"><strong>Objective:</strong> Learn the essentials of experimental design including Randomized Controlled Trials (RCTs), blinding, counterbalancing, and power analysis using tools like G*Power.</p>
+            <h3 class="text-xl font-semibold mt-6">Key Concepts:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li><strong>RCTs:</strong> Minimize bias through random assignment.</li>
+              <li><strong>Blinding:</strong> Conceal group allocation to reduce bias.</li>
+              <li><strong>Counterbalancing:</strong> Control order effects in repeated measures.</li>
+              <li><strong>Power Analysis:</strong> Calculate the needed sample size with G*Power.</li>
+            </ul>
+            <h3 class="text-xl font-semibold mt-6">Step-by-Step Instructions:</h3>
+            <ol class="list-decimal list-inside mt-2">
+              <li>Define your research question and determine if an RCT is suitable.</li>
+              <li>Plan the design including blinding and counterbalancing strategies.</li>
+              <li>Perform power analysis using G*Power to calculate sample size.</li>
+              <li>Document design choices and ethical considerations.</li>
+            </ol>
+            <p class="mt-4"><em>Tip:</em> A robust experimental design minimizes bias and strengthens your study’s validity.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" 
+                 target="_blank" class="text-blue-600 underline">
+                Click here for additional details and assessment info.
+              </a>
+            </p>
+          `,
+          videoUrl: "https://example.com/week2-experimental-design"
+        },
+        {
+          title: "2.2 Advanced Survey Design",
+          content: `
+            <h2 class="text-2xl font-bold">Slide 2: Advanced Survey Design Techniques</h2>
+            <p class="mt-4"><strong>Objective:</strong> Master advanced survey methods including Likert validation, cognitive interviewing, and REDCap optimization.</p>
+            <h3 class="text-xl font-semibold mt-6">Key Techniques:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li><strong>Likert Scale Validation:</strong> Ensure reliability of survey items.</li>
+              <li><strong>Cognitive Interviewing:</strong> Pre-test questions to reduce misinterpretation.</li>
+              <li><strong>REDCap Optimization:</strong> Streamline data collection and management.</li>
+            </ul>
+            <h3 class="text-xl font-semibold mt-6">Step-by-Step Instructions:</h3>
+            <ol class="list-decimal list-inside mt-2">
+              <li>Draft survey questions aligned with your research goals.</li>
+              <li>Conduct cognitive interviews to refine questions.</li>
+              <li>Validate Likert items statistically.</li>
+              <li>Set up and optimize data collection using REDCap.</li>
+            </ol>
+            <p class="mt-4"><em>Tip:</em> A well-designed survey increases data quality and study validity.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" 
+                 target="_blank" class="text-blue-600 underline">
+                Click here for additional details and assessment info.
+              </a>
+            </p>
+          `,
+          videoUrl: "https://example.com/week2-survey-design"
+        },
+        {
+          title: "2.3 Statistical Inference",
+          content: `
+            <h2 class="text-2xl font-bold">Slide 3: Statistical Inference Techniques</h2>
+            <p class="mt-4"><strong>Objective:</strong> Apply advanced statistical methods such as multivariate regression, ANCOVA, and bootstrapping to analyze your data.</p>
+            <h3 class="text-xl font-semibold mt-6">Key Methods:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li><strong>Multivariate Regression:</strong> Evaluate the influence of multiple variables.</li>
+              <li><strong>ANCOVA:</strong> Adjust for covariates to isolate treatment effects.</li>
+              <li><strong>Bootstrapping:</strong> Use resampling techniques to validate your estimates in SPSS or R.</li>
+            </ul>
+            <h3 class="text-xl font-semibold mt-6">Step-by-Step Instructions:</h3>
+            <ol class="list-decimal list-inside mt-2">
+              <li>Identify your dependent and independent variables.</li>
+              <li>Run multivariate regression analysis to assess relationships.</li>
+              <li>Use ANCOVA to control for confounding variables.</li>
+              <li>Apply bootstrapping methods to test the stability of your findings.</li>
+            </ol>
+            <p class="mt-4"><em>Tip:</em> Statistical inference is critical for drawing valid, data-driven conclusions from your research.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" 
+                 target="_blank" class="text-blue-600 underline">
+                Click here for additional details and assessment info.
+              </a>
+            </p>
+          `,
+          videoUrl: "https://example.com/week2-statistical-inference"
+        },
+        {
+          title: "2.4 Data Visualization",
+          content: `
+            <h2 class="text-2xl font-bold">Slide 4: Data Visualization Principles</h2>
+            <p class="mt-4"><strong>Objective:</strong> Create publication-ready figures that clearly and accurately represent your data using tools such as ggplot2 and Tableau.</p>
+            <h3 class="text-xl font-semibold mt-6">Key Principles:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li><strong>Tufte’s Data-Ink Ratio:</strong> Prioritize essential visual elements to communicate data effectively.</li>
+              <li><strong>Tool Selection:</strong> Use ggplot2 in R or Tableau for dynamic and precise visualizations.</li>
+            </ul>
+            <h3 class="text-xl font-semibold mt-6">Step-by-Step Instructions:</h3>
+            <ol class="list-decimal list-inside mt-2">
+              <li>Study exemplary figures from high-impact journals.</li>
+              <li>Learn the basics of your chosen visualization tool through tutorials.</li>
+              <li>Create a figure that summarizes your dataset effectively.</li>
+              <li>Refine your visualization to ensure clarity and accuracy.</li>
+            </ol>
+            <p class="mt-4"><em>Tip:</em> Effective data visualization enhances the impact and credibility of your research findings.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" 
+                 target="_blank" class="text-blue-600 underline">
+                Click here for additional details and assessment info.
+              </a>
+            </p>
+          `,
+          videoUrl: "https://example.com/week2-data-visualization"
+        },
+        {
+          title: "2.5 Quiz: Interpreting Regression Outputs with Interaction Terms",
+          content: `
+            <h2 class="text-2xl font-bold">Slide 5: Quiz - Statistical Interpretation</h2>
+            <p class="mt-4"><strong>Objective:</strong> Evaluate your ability to interpret regression outputs that include interaction terms.</p>
+            <h3 class="text-xl font-semibold mt-6">Quiz Task:</h3>
+            <ol class="list-decimal list-inside mt-2">
+              <li>Examine a sample regression output featuring interaction terms.</li>
+              <li>Identify the meaning of the interaction coefficient.</li>
+              <li>Write a brief interpretation of how the interaction term modifies the effect of independent variables.</li>
+            </ol>
+            <p class="mt-4"><em>Tip:</em> Interaction terms reveal that the effect of one independent variable is influenced by the level of another.</p>
+          `,
+          quiz: {
+            question: "In a regression model with an interaction term, what does a significant interaction indicate?",
+            options: [
+              "No effect of the independent variables.",
+              "The effect of one independent variable depends on the level of another.",
+              "A perfect linear relationship among variables.",
+              "The model is overfit."
+            ],
+            correctAnswer: 1
+          }
+        },
+        {
+          title: "2.6 Assignments",
+          content: `
+            <h2 class="text-2xl font-bold">Slide 6: Assignments & Due Dates</h2>
+            <h3 class="text-xl font-semibold mt-6">Assignments:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li>
+                <strong>First Primary Paper Assessment:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>The first primary article assignment is due on <strong>3/1, 4/1, 5/1</strong> (due online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline" target="_blank">Click Here</a>).</li>
+                  <li><a href="https://docs.google.com/forms/d/15WC0Dnk3w0uXmHbGSarU1E1EQWtcDKg4J_vWAsaSdcU/edit#:~:text=https%3A//docs.google.com/document/d/1NylLZ3z%2DgtNnSLKVMWnE8yiyO6XeUzyW/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Primary Paper Review Instructions</a></li>
+                  <li><a href="https://docs.google.com/document/d/1KtL6lD9afCsoKjCukEkAdA5CqbQ61pXlQv0A_wxlLKc/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Primary Paper Written Example One</a></li>
+                </ul>
+              </li>
+              <li>
+                <strong>Second Primary Paper Review Assessment:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>The second primary article assignment is due on <strong>3/1, 4/1, 5/1</strong> (due online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline" target="_blank">Click Here</a>).</li>
+                  <li><a href="https://docs.google.com/document/d/1NylLZ3z-gtNnSLKVMWnE8yiyO6XeUzyW/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Second Primary Paper Review Instructions</a></li>
+                  <li><a href="https://docs.google.com/document/d/1kmFjSnXmEVKCmZDq61NeAGuEdEnQc0--/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Second Primary Paper Written Example Two</a></li>
+                </ul>
+              </li>
+              <li>
+                <strong>Lab Report / Publications Assessment:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>The assignment is due on <strong>3/15, 4/15, 5/15</strong> (due online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline" target="_blank">Click Here</a>).</li>
+                  <li><a href="https://docs.google.com/document/d/1gcb2QrzsQdIWVkULTIWrBDFx_1A8GBd_vxERKSNz7RI/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Lab Report Review Instructions</a></li>
+                  <li><a href="https://docs.google.com/document/d/1KtL6lD9afCsoKjCukEkAdA5CqbQ61pXlQv0A_wxlLKc/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Lab Report Example One</a></li>
+                  <li><a href="https://docs.google.com/document/d/1kmFjSnXmEVKCmZDq61NeAGuEdEnQc0--/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Lab Report Example Two</a></li>
+                  <li><a href="https://docs.google.com/document/d/1Oa-8nCDHAYwBGZqPLE1gJhZ1JhKDJQfk3t_4Ojkf0q4/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Lab Report Checklist And Guide</a></li>
+                </ul>
+              </li>
+            </ul>
+          `,
+        }
+      ],
+    },
+    
+    
+    
+    // Week 3
+    {
+      title: "Week 3: Qualitative Depth & Thematic Sophistication",
+      chapters: [
+        {
+          title: "3.1 Ethnographic Excellence",
+          content: `
+            <h2 class="text-2xl font-bold">Slide 1: Ethnographic Excellence</h2>
+            <p class="mt-4"><strong>Objective:</strong> Develop a deep understanding of ethnographic research through thick description, reflexivity, and detailed field notes (e.g., using NVivo).</p>
+            <h3 class="text-xl font-semibold mt-6">Key Concepts:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li><strong>Thick Description:</strong> Provide rich, contextual details that capture the complexity of social phenomena.</li>
+              <li><strong>Reflexivity:</strong> Reflect on your own biases and document how they may influence your observations.</li>
+              <li><strong>Field Notes:</strong> Systematically record observations to support in-depth qualitative analysis.</li>
+            </ul>
+            <h3 class="text-xl font-semibold mt-6">Step-by-Step Instructions:</h3>
+            <ol class="list-decimal list-inside mt-2">
+              <li>Examine exemplary ethnographic studies to observe effective thick description.</li>
+              <li>Practice taking detailed field notes during a mock observation session.</li>
+              <li>Reflect on your own biases and record them as part of your reflexivity notes.</li>
+            </ol>
+            <p class="mt-4"><em>Tip:</em> Consistent and reflective field notes are essential for credible qualitative analysis.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/YourEthnographyDetailsURL" target="_blank" class="text-blue-600 underline">
+                Click here for additional details and assessment info.
+              </a>
+            </p>
+          `,
+          videoUrl: "https://example.com/week3-ethnography"
+        },
+        {
+          title: "3.2 Interview Mastery",
+          content: `
+            <h2 class="text-2xl font-bold">Slide 2: Mastering Qualitative Interviews</h2>
+            <p class="mt-4"><strong>Objective:</strong> Learn advanced qualitative interviewing techniques, including phenomenological interviewing, laddering, and ensuring intercoder reliability.</p>
+            <h3 class="text-xl font-semibold mt-6">Key Techniques:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li><strong>Phenomenological Interviewing:</strong> Focus on capturing participants’ lived experiences.</li>
+              <li><strong>Laddering Techniques:</strong> Use successive probing questions to uncover deeper insights.</li>
+              <li><strong>Intercoder Reliability:</strong> Calibrate your coding with peers for consistent analysis.</li>
+            </ul>
+            <h3 class="text-xl font-semibold mt-6">Step-by-Step Instructions:</h3>
+            <ol class="list-decimal list-inside mt-2">
+              <li>Conduct practice interviews using open-ended questions.</li>
+              <li>Apply laddering techniques by asking “why” after each response.</li>
+              <li>Discuss your coding decisions with peers to ensure consistency.</li>
+            </ol>
+            <p class="mt-4"><em>Tip:</em> Effective interviewing relies on active listening and probing for detailed responses.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/YourInterviewDetailsURL" target="_blank" class="text-blue-600 underline">
+                Click here for additional details and assessment info.
+              </a>
+            </p>
+          `,
+          videoUrl: "https://example.com/week3-interviews"
+        },
+        {
+          title: "3.3 Thematic Analysis",
+          content: `
+            <h2 class="text-2xl font-bold">Slide 3: Thematic Analysis & Coding</h2>
+            <p class="mt-4"><strong>Objective:</strong> Master the process of coding qualitative data by developing a codebook, applying axial coding, and conducting member checking.</p>
+            <h3 class="text-xl font-semibold mt-6">Key Steps:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li><strong>Codebook Development:</strong> Create a systematic guide for coding your data.</li>
+              <li><strong>Axial Coding:</strong> Organize related codes into broader themes.</li>
+              <li><strong>Member Checking:</strong> Validate your findings by seeking feedback from study participants.</li>
+            </ul>
+            <h3 class="text-xl font-semibold mt-6">Step-by-Step Instructions:</h3>
+            <ol class="list-decimal list-inside mt-2">
+              <li>Start with open coding on a raw interview transcript.</li>
+              <li>Develop an initial codebook with definitions and examples.</li>
+              <li>Apply axial coding to consolidate similar codes into themes.</li>
+              <li>Share your coded data with participants for validation.</li>
+            </ol>
+            <p class="mt-4"><em>Tip:</em> A rigorous thematic analysis enhances both the validity and reliability of your qualitative research findings.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/YourThematicAnalysisURL" target="_blank" class="text-blue-600 underline">
+                Click here for additional details and assessment info.
+              </a>
+            </p>
+          `,
+          videoUrl: "https://example.com/week3-thematic-analysis"
+        },
+        {
+          title: "3.4 Mixed-Methods Triangulation",
+          content: `
+            <h2 class="text-2xl font-bold">Slide 4: Integrating Quantitative & Qualitative Data</h2>
+            <p class="mt-4"><strong>Objective:</strong> Learn how to enhance the depth of your research by integrating quantitative and qualitative data through triangulation.</p>
+            <h3 class="text-xl font-semibold mt-6">Key Concepts:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li><strong>Triangulation:</strong> Validate findings by comparing multiple data sources and methods.</li>
+              <li>Use integration matrices to map converging and diverging data.</li>
+            </ul>
+            <h3 class="text-xl font-semibold mt-6">Step-by-Step Instructions:</h3>
+            <ol class="list-decimal list-inside mt-2">
+              <li>Collect both quantitative and qualitative data relevant to your research.</li>
+              <li>Create a matrix to compare findings across data sources.</li>
+              <li>Analyze the matrix to draw comprehensive conclusions from multiple perspectives.</li>
+            </ol>
+            <p class="mt-4"><em>Tip:</em> Triangulation strengthens the credibility of your research by ensuring your findings are supported by diverse evidence.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/YourTriangulationURL" target="_blank" class="text-blue-600 underline">
+                Click here for additional details and assessment info.
+              </a>
+            </p>
+          `,
+          videoUrl: "https://example.com/week3-triangulation"
+        },
+        {
+          title: "3.5 Quiz: Coding Raw Interview Transcripts for Emergent Themes",
+          content: `
+            <h2 class="text-2xl font-bold">Slide 5: Quiz - Qualitative Coding Challenge</h2>
+            <p class="mt-4"><strong>Objective:</strong> Evaluate your ability to code raw interview transcripts and identify emergent themes.</p>
+            <h3 class="text-xl font-semibold mt-6">Quiz Task:</h3>
+            <ol class="list-decimal list-inside mt-2">
+              <li>Review a provided raw interview transcript.</li>
+              <li>Assign codes to key phrases and statements that reveal underlying themes.</li>
+              <li>Write a brief interpretation of the emergent themes based on your coding.</li>
+            </ol>
+            <p class="mt-4"><em>Tip:</em> Look for recurring patterns and significant insights that highlight the depth of the participant's experience.</p>
+          `,
+          quiz: {
+            question: "In qualitative research, what is the primary purpose of coding?",
+            options: [
+              "To assign numerical values for statistical analysis.",
+              "To organize and categorize data into meaningful themes.",
+              "To automatically generate analysis algorithms.",
+              "To translate qualitative data into quantitative measures."
+            ],
+            correctAnswer: 1
+          }
+        },
+        {
+          title: "3.6 Assignments",
+          content: `
+            <h2 class="text-2xl font-bold">Slide 6: Assignments & Due Dates</h2>
+            <h3 class="text-xl font-semibold mt-6">Assignments:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li>
+                <strong>First Primary Paper Assessment:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>The first primary article assignment is due on <strong>3/1, 4/1, 5/1</strong> (due online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline" target="_blank">Click Here</a>).</li>
+                  <li><a href="https://docs.google.com/forms/d/15WC0Dnk3w0uXmHbGSarU1E1EQWtcDKg4J_vWAsaSdcU/edit#:~:text=https%3A//docs.google.com/document/d/1NylLZ3z%2DgtNnSLKVMWnE8yiyO6XeUzyW/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Primary Paper Review Instructions</a></li>
+                  <li><a href="https://docs.google.com/document/d/1KtL6lD9afCsoKjCukEkAdA5CqbQ61pXlQv0A_wxlLKc/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Primary Paper Written Example One</a></li>
+                </ul>
+              </li>
+              <li>
+                <strong>Second Primary Paper Review Assessment:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>The second primary article assignment is due on <strong>3/1, 4/1, 5/1</strong> (due online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline" target="_blank">Click Here</a>).</li>
+                  <li><a href="https://docs.google.com/document/d/1NylLZ3z-gtNnSLKVMWnE8yiyO6XeUzyW/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Second Primary Paper Review Instructions</a></li>
+                  <li><a href="https://docs.google.com/document/d/1kmFjSnXmEVKCmZDq61NeAGuEdEnQc0--/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Second Primary Paper Written Example Two</a></li>
+                </ul>
+              </li>
+              <li>
+                <strong>Lab Report / Publications Assessment:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>The assignment is due on <strong>3/15, 4/15, 5/15</strong> (due online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline" target="_blank">Click Here</a>).</li>
+                  <li><a href="https://docs.google.com/document/d/1gcb2QrzsQdIWVkULTIWrBDFx_1A8GBd_vxERKSNz7RI/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Lab Report Review Instructions</a></li>
+                  <li><a href="https://docs.google.com/document/d/1KtL6lD9afCsoKjCukEkAdA5CqbQ61pXlQv0A_wxlLKc/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Lab Report Example One</a></li>
+                  <li><a href="https://docs.google.com/document/d/1kmFjSnXmEVKCmZDq61NeAGuEdEnQc0--/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Lab Report Example Two</a></li>
+                  <li><a href="https://docs.google.com/document/d/1Oa-8nCDHAYwBGZqPLE1gJhZ1JhKDJQfk3t_4Ojkf0q4/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Lab Report Checklist And Guide</a></li>
+                </ul>
+              </li>
+            </ul>
+          `,
+        }
+      ],
+    },
+    
+    
+    
     // Week 4
     {
-      title: "Week 4: Qualitative Research Methods",
+      title: "Week 4: Analytic Peer Review & Replication",
       chapters: [
         {
-          title: "Chapter 4.1: Introduction",
+          title: "4.1 Critical Appraisal",
           content: `
-            <h2 class="text-2xl font-bold">Diving into Qualitative Research</h2>
-            <p class="mt-4">Qualitative research focuses on understanding phenomena from a subjective, contextual, and in-depth perspective.</p>
-            <h3 class="text-xl font-semibold mt-6">Objectives:</h3>
+            <h2 class="text-2xl font-bold">Slide 1: Critical Appraisal of Research Studies</h2>
+            <p class="mt-4"><strong>Objective:</strong> Learn to evaluate research studies using established guidelines like CONSORT for trials and STROBE for observational studies.</p>
+            <h3 class="text-xl font-semibold mt-6">Key Frameworks:</h3>
             <ul class="list-disc list-inside mt-2">
-              <li>Understand the principles of qualitative research.</li>
-              <li>Learn about different qualitative research designs.</li>
-              <li>Explore data collection and analysis techniques specific to qualitative methods.</li>
+              <li><strong>CONSORT Guidelines:</strong> Ensure clear and complete reporting in randomized controlled trials.</li>
+              <li><strong>STROBE Guidelines:</strong> Enhance transparency in observational studies.</li>
             </ul>
-          `,
-       //   videoUrl: "https://example.com/week4-intro",
-        },
-        {
-          title: "Chapter 4.2: Case Study and Ethnography Approaches",
-          content: `
-            <h2 class="text-2xl font-bold">In-Depth Exploration of Contextual Phenomena</h2>
-            <p class="mt-4">Case studies and ethnographies are qualitative research designs that provide comprehensive insights into specific contexts or groups.</p>
-            <h3 class="text-xl font-semibold mt-6">Case Study:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>Focuses on a single case or a small number of cases.</li>
-              <li>Provides detailed analysis within its real-life context.</li>
-              <li>Useful for exploring complex issues and generating hypotheses.</li>
-            </ul>
-            <h3 class="text-xl font-semibold mt-6">Ethnography:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>Involves immersive observation of a culture or group.</li>
-              <li>Aims to understand social interactions, behaviors, and perceptions.</li>
-              <li>Often conducted over extended periods to gain deep insights.</li>
-            </ul>
-            <h3 class="text-xl font-semibold mt-6">Example:</h3>
-            <p class="mt-4">"An ethnographic study of remote rural communities to understand the impact of digital technologies on daily life."</p>
-            <h3 class="text-xl font-semibold mt-6">Advantages:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>Provides rich, detailed data.</li>
-              <li>Captures the complexity of human behavior.</li>
-              <li>Allows for the exploration of new areas where little is known.</li>
-            </ul>
-            <h3 class="text-xl font-semibold mt-6">Challenges:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>Time-consuming and resource-intensive.</li>
-              <li>Potential for researcher bias.</li>
-              <li>Difficulties in generalizing findings.</li>
-            </ul>
-          `,
-      //    videoUrl: "https://example.com/week4-case-study-ethnography",
-        },
-        {
-          title: "Chapter 4.3: Interview and Focus Group Techniques",
-          content: `
-            <h2 class="text-2xl font-bold">Gathering In-Depth Perspectives</h2>
-            <p class="mt-4">Interviews and focus groups are primary data collection methods in qualitative research that provide deep insights into participants' thoughts and experiences.</p>
-            <h3 class="text-xl font-semibold mt-6">Individual Interviews:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>Conducted one-on-one with participants.</li>
-              <li>Can be structured, semi-structured, or unstructured.</li>
-              <li>Allows for exploring personal experiences and perspectives.</li>
-            </ul>
-            <h3 class="text-xl font-semibold mt-6">Focus Groups:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>Conducted with a group of participants simultaneously.</li>
-              <li>Encourages interaction and discussion among participants.</li>
-              <li>Useful for exploring collective views and social dynamics.</li>
-            </ul>
-            <h3 class="text-xl font-semibold mt-6">Developing Effective Questions:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>Use open-ended questions to elicit detailed responses.</li>
-              <li>Avoid leading or biased questions.</li>
-              <li>Ensure questions align with research objectives.</li>
-            </ul>
-            <h3 class="text-xl font-semibold mt-6">Example Interview Question:</h3>
-            <p class="mt-4">"Can you describe your experience with using online collaboration tools in your daily work?"</p>
-            <h3 class="text-xl font-semibold mt-6">Tips for Conducting Interviews and Focus Groups:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>Establish rapport and create a comfortable environment.</li>
-              <li>Be an active listener and avoid interrupting.</li>
-              <li>Probe deeper when necessary to gain comprehensive insights.</li>
-            </ul>
-          `,
-       //   videoUrl: "https://example.com/week4-interview-focus-groups",
-        },
-        {
-          title: "Chapter 4.4: Analyzing Qualitative Data: Thematic Analysis",
-          content: `
-            <h2 class="text-2xl font-bold">Identifying Patterns and Themes</h2>
-            <p class="mt-4">Thematic analysis is a method for identifying, analyzing, and reporting patterns (themes) within qualitative data.</p>
-            <h3 class="text-xl font-semibold mt-6">Steps in Thematic Analysis:</h3>
+            <h3 class="text-xl font-semibold mt-6">Step-by-Step Instructions:</h3>
             <ol class="list-decimal list-inside mt-2">
-              <li><strong>Familiarization:</strong> Read and re-read the data to become intimately familiar with its content.</li>
-              <li><strong>Generating Initial Codes:</strong> Systematically code interesting features of the data across the entire dataset.</li>
-              <li><strong>Searching for Themes:</strong> Collate codes into potential themes, gathering all data relevant to each potential theme.</li>
-              <li><strong>Reviewing Themes:</strong> Check if the themes work in relation to the coded extracts and the entire dataset.</li>
-              <li><strong>Defining and Naming Themes:</strong> Refine the specifics of each theme and generate clear definitions and names.</li>
-              <li><strong>Producing the Report:</strong> Select vivid, compelling extract examples and relate the analysis back to the research question and literature.</li>
+              <li>Review the CONSORT and STROBE checklists.</li>
+              <li>Examine published articles adhering to these guidelines.</li>
+              <li>Practice critiquing a sample study by assessing its compliance with each checklist item.</li>
             </ol>
-            <h3 class="text-xl font-semibold mt-6">Example Themes:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li><strong>Access to Technology:</strong> Participants discuss the availability and accessibility of digital tools.</li>
-              <li><strong>Impact on Communication:</strong> Insights into how technology affects interpersonal interactions.</li>
-              <li><strong>Challenges Faced:</strong> Barriers and difficulties encountered in using technology.</li>
-            </ul>
-            <h3 class="text-xl font-semibold mt-6">Tips for Effective Thematic Analysis:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>Be open to unexpected themes emerging from the data.</li>
-              <li>Ensure themes are distinct and not overly overlapping.</li>
-              <li>Maintain a balance between identifying patterns and honoring individual experiences.</li>
-            </ul>
+            <p class="mt-4"><em>Tip:</em> A systematic appraisal ensures that you capture all aspects of study quality.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" 
+                 target="_blank" class="text-blue-600 underline">
+                Click here for additional critical appraisal details.
+              </a>
+            </p>
           `,
-      //    videoUrl: "https://example.com/week4-thematic-analysis",
+          videoUrl: "https://example.com/week4-critical-appraisal"
         },
         {
-          title: "Chapter 4.5: Summary",
+          title: "4.2 Reproducibility Crisis",
           content: `
-            <h2 class="text-2xl font-bold">Week 4 Summary: Qualitative Research Methods</h2>
-            <p class="mt-4">This week, you've explored:</p>
+            <h2 class="text-2xl font-bold">Slide 2: Addressing the Reproducibility Crisis</h2>
+            <p class="mt-4"><strong>Objective:</strong> Explore strategies to enhance reproducibility through pre-registration, OSF workflows, and FAIR data principles.</p>
+            <h3 class="text-xl font-semibold mt-6">Key Strategies:</h3>
             <ul class="list-disc list-inside mt-2">
-              <li>The principles and importance of qualitative research.</li>
-              <li>Diverse qualitative research designs like case studies and ethnographies.</li>
-              <li>Effective data collection methods including interviews and focus groups.</li>
-              <li>Techniques for analyzing qualitative data using thematic analysis.</li>
+              <li><strong>Pre-registration:</strong> Document your study design and analysis plan before data collection.</li>
+              <li><strong>OSF Workflows:</strong> Use the Open Science Framework for transparent research processes.</li>
+              <li><strong>FAIR Principles:</strong> Ensure your data is Findable, Accessible, Interoperable, and Reusable.</li>
             </ul>
-            <p class="mt-4">These methodologies provide deep insights and understanding of complex phenomena in various contexts.</p>
+            <h3 class="text-xl font-semibold mt-6">Step-by-Step Instructions:</h3>
+            <ol class="list-decimal list-inside mt-2">
+              <li>Learn how to pre-register your study on platforms like OSF.</li>
+              <li>Examine examples of transparent workflows.</li>
+              <li>Discuss how FAIR data practices enhance reproducibility.</li>
+            </ol>
+            <p class="mt-4"><em>Tip:</em> Embracing reproducibility strengthens both the ethical and scientific integrity of your research.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" 
+                 target="_blank" class="text-blue-600 underline">
+                Click here for additional reproducibility guidelines.
+              </a>
+            </p>
           `,
-          // videoUrl removed
+          videoUrl: "https://example.com/week4-reproducibility"
         },
         {
-          title: "Chapter 4.6: Quiz",
+          title: "4.3 Peer Review Simulation",
           content: `
-            <h2 class="text-2xl font-bold">Test Your Understanding</h2>
-            <p class="mt-4">Assess your grasp of the key concepts from this week.</p>
+            <h2 class="text-2xl font-bold">Slide 3: Simulating Peer Review</h2>
+            <p class="mt-4"><strong>Objective:</strong> Engage in a simulated peer review process modeled after high-impact journals like NEJM.</p>
+            <h3 class="text-xl font-semibold mt-6">Key Activities:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li>Critically review a sample manuscript using a structured checklist.</li>
+              <li>Participate in dual-reviewer calibration to ensure consistent evaluation.</li>
+              <li>Identify strengths and weaknesses in research design and methodology.</li>
+            </ul>
+            <h3 class="text-xl font-semibold mt-6">Step-by-Step Instructions:</h3>
+            <ol class="list-decimal list-inside mt-2">
+              <li>Examine a NEJM-style manuscript provided in your materials.</li>
+              <li>Use the CONSORT/STROBE checklist to guide your critique.</li>
+              <li>Discuss your findings with a peer to calibrate your review.</li>
+            </ol>
+            <p class="mt-4"><em>Tip:</em> Collaborative peer review refines your critical appraisal skills and prepares you for real-world academic evaluation.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" 
+                 target="_blank" class="text-blue-600 underline">
+                Click here for additional peer review simulation details.
+              </a>
+            </p>
           `,
-          // videoUrl removed
+          videoUrl: "https://example.com/week4-peer-review-simulation"
+        },
+        {
+          title: "4.4 Grant Panel Roleplay",
+          content: `
+            <h2 class="text-2xl font-bold">Slide 4: Grant Proposal Review Simulation</h2>
+            <p class="mt-4"><strong>Objective:</strong> Experience the role of a grant panel member by critically reviewing an NSF-style proposal with a focus on budget justification.</p>
+            <h3 class="text-xl font-semibold mt-6">Key Activities:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li>Examine an NSF-style proposal with detailed budget sections.</li>
+              <li>Critique the methodology and budget justification for clarity and feasibility.</li>
+              <li>Engage in roleplay sessions with peers to simulate a grant panel discussion.</li>
+            </ul>
+            <h3 class="text-xl font-semibold mt-6">Step-by-Step Instructions:</h3>
+            <ol class="list-decimal list-inside mt-2">
+              <li>Review the sample proposal provided in your materials.</li>
+              <li>Analyze the budget section for realism and justification.</li>
+              <li>Discuss potential improvements and how the proposal aligns with funding priorities.</li>
+              <li>Participate in a simulated discussion as a grant reviewer.</li>
+            </ol>
+            <p class="mt-4"><em>Tip:</em> A detailed and critical budget analysis is key to ensuring the feasibility and impact of a research proposal.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" 
+                 target="_blank" class="text-blue-600 underline">
+                Click here for additional grant roleplay guidelines.
+              </a>
+            </p>
+          `,
+          videoUrl: "https://example.com/week4-grant-panel-roleplay"
+        },
+        {
+          title: "4.5 Quiz: Red Teaming a Methodology Section",
+          content: `
+            <h2 class="text-2xl font-bold">Slide 5: Quiz - Methodology Red Teaming</h2>
+            <p class="mt-4"><strong>Objective:</strong> Critically assess a provided methodology section to identify validity threats.</p>
+            <h3 class="text-xl font-semibold mt-6">Quiz Task:</h3>
+            <ol class="list-decimal list-inside mt-2">
+              <li>Read the sample methodology section with intentional flaws.</li>
+              <li>Identify potential validity threats such as uncontrolled confounding or measurement errors.</li>
+              <li>Write a brief critique outlining the flaws and suggesting improvements.</li>
+            </ol>
+            <p class="mt-4"><em>Tip:</em> Focus on clarity, reproducibility, and ethical rigor when evaluating methodology sections.</p>
+          `,
           quiz: {
-            question:
-              "Which qualitative research design involves immersive observation of a culture or group?",
+            question: "Which of the following is a common validity threat when failing to control for confounding variables?",
             options: [
-              "Case Study",
-              "Ethnography",
-              "Grounded Theory",
-              "Phenomenology",
+              "Over-sampling the target population",
+              "Failure to adjust for external influences on the outcome",
+              "Excessive data transparency",
+              "Rigorous use of control groups"
             ],
-            correctAnswer: 1,
-          },
+            correctAnswer: 1
+          }
         },
+        {
+          title: "4.6 Assignments",
+          content: `
+            <h2 class="text-2xl font-bold">Slide 6: Assignments & Due Dates</h2>
+            <h3 class="text-xl font-semibold mt-6">Assignments:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li>
+                <strong>First Primary Paper Assessment:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>Due on <strong>3/1, 4/1, 5/1</strong> (submit online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline" target="_blank">Click Here</a>).</li>
+                  <li><a href="https://docs.google.com/forms/d/15WC0Dnk3w0uXmHbGSarU1E1EQWtcDKg4J_vWAsaSdcU/edit#:~:text=https%3A//docs.google.com/document/d/1NylLZ3z%2DgtNnSLKVMWnE8yiyO6XeUzyW/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Primary Paper Review Instructions</a></li>
+                  <li><a href="https://docs.google.com/document/d/1KtL6lD9afCsoKjCukEkAdA5CqbQ61pXlQv0A_wxlLKc/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Primary Paper Written Example One</a></li>
+                </ul>
+              </li>
+              <li>
+                <strong>Second Primary Paper Review Assessment:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>Due on <strong>3/1, 4/1, 5/1</strong> (submit online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline" target="_blank">Click Here</a>).</li>
+                  <li><a href="https://docs.google.com/document/d/1NylLZ3z-gtNnSLKVMWnE8yiyO6XeUzyW/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Second Primary Paper Review Instructions</a></li>
+                  <li><a href="https://docs.google.com/document/d/1kmFjSnXmEVKCmZDq61NeAGuEdEnQc0--/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Second Primary Paper Written Example Two</a></li>
+                </ul>
+              </li>
+              <li>
+                <strong>Lab Report / Publications Assessment:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>Due on <strong>3/15, 4/15, 5/15</strong> (submit online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline" target="_blank">Click Here</a>).</li>
+                  <li><a href="https://docs.google.com/document/d/1gcb2QrzsQdIWVkULTIWrBDFx_1A8GBd_vxERKSNz7RI/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Lab Report Review Instructions</a></li>
+                  <li><a href="https://docs.google.com/document/d/1KtL6lD9afCsoKjCukEkAdA5CqbQ61pXlQv0A_wxlLKc/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Lab Report Example One</a></li>
+                  <li><a href="https://docs.google.com/document/d/1kmFjSnXmEVKCmZDq61NeAGuEdEnQc0--/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Lab Report Example Two</a></li>
+                  <li><a href="https://docs.google.com/document/d/1Oa-8nCDHAYwBGZqPLE1gJhZ1JhKDJQfk3t_4Ojkf0q4/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Lab Report Checklist And Guide</a></li>
+                </ul>
+              </li>
+            </ul>
+          `,
+        }
       ],
     },
+    
+    
+
+    
     // Week 5
     {
-      title: "Week 5: Mixed-Methods Research",
+      title: "Week 5: Capstone Defense & Translational Impact",
       chapters: [
         {
-          title: "Chapter 5.1: Introduction",
+          title: "5.1 Final Project Workshop",
           content: `
-            <h2 class="text-2xl font-bold">Integrating Quantitative and Qualitative Approaches</h2>
-            <p class="mt-4">Mixed-methods research combines quantitative and qualitative approaches to provide a comprehensive understanding of research problems.</p>
-            <h3 class="text-xl font-semibold mt-6">Objectives:</h3>
+            <h2 class="text-2xl font-bold">Slide 1: Final Project Workshop</h2>
+            <p class="mt-4"><strong>Objective:</strong> Refine your full research protocol through iterative peer feedback.</p>
+            <h3 class="text-xl font-semibold mt-6">Workshop Activities:</h3>
             <ul class="list-disc list-inside mt-2">
-              <li>Understand the rationale behind mixed-methods research.</li>
-              <li>Learn about different mixed-methods designs.</li>
-              <li>Explore strategies for integrating quantitative and qualitative data.</li>
+              <li>Develop a comprehensive draft of your research protocol, including design, methodology, and ethical considerations.</li>
+              <li>Engage in small-group sessions to provide and receive structured feedback.</li>
+              <li>Use evaluation tools (e.g., CONSORT/STROBE checklists) to ensure methodological rigor.</li>
+              <li>Revise your protocol iteratively based on feedback.</li>
             </ul>
+            <h3 class="text-xl font-semibold mt-6">Due Dates & Submission:</h3>
+            <p class="mt-2"><strong>Deadline:</strong> Your draft is due on <strong>3/15, 4/15, and 5/15</strong> via the online submission portal (<a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline" target="_blank">Click Here</a>).</p>
+            <p class="mt-4"><em>Tip:</em> Document every revision to demonstrate the evolution of your research protocol.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/YourFinalProjectGuidelinesURL" target="_blank" class="text-blue-600 underline">
+                Click here for additional project workshop guidelines.
+              </a>
+            </p>
           `,
-     //     videoUrl: "https://example.com/week5-intro",
+          videoUrl: "https://example.com/week5-project-workshop"
         },
         {
-          title: "Chapter 5.2: Types of Mixed-Methods Designs",
+          title: "5.2 Journal Club",
           content: `
-            <h2 class="text-2xl font-bold">Structuring Your Research Approach</h2>
-            <p class="mt-4">Mixed-methods research can be structured in various ways to best address the research questions.</p>
-            <h3 class="text-xl font-semibold mt-6">1. Convergent Parallel Design:</h3>
+            <h2 class="text-2xl font-bold">Slide 2: Journal Club Critique</h2>
+            <p class="mt-4"><strong>Objective:</strong> Engage in a live critique of high-impact journal articles (e.g., Nature/Science) with a faculty discussant.</p>
+            <h3 class="text-xl font-semibold mt-6">Key Activities:</h3>
             <ul class="list-disc list-inside mt-2">
-              <li>Quantitative and qualitative data are collected simultaneously.</li>
-              <li>Data are analyzed separately and then merged for interpretation.</li>
+              <li>Pre-read a selected high-impact paper and prepare a detailed critique.</li>
+              <li>Identify strengths and weaknesses in research design, methodology, and reporting.</li>
+              <li>Participate in a live discussion with peers and a faculty discussant to refine your critique.</li>
             </ul>
-            <h3 class="text-xl font-semibold mt-6">2. Explanatory Sequential Design:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>Quantitative data are collected and analyzed first.</li>
-              <li>Qualitative data are collected subsequently to explain or elaborate on the quantitative findings.</li>
-            </ul>
-            <h3 class="text-xl font-semibold mt-6">3. Exploratory Sequential Design:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>Qualitative data are collected and analyzed first.</li>
-              <li>Quantitative data are collected subsequently to test or generalize the qualitative findings.</li>
-            </ul>
-            <h3 class="text-xl font-semibold mt-6">4. Embedded Design:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>One data type is nested within a larger design.</li>
-              <li>Used when one data type provides supplemental information to the other.</li>
-            </ul>
-            <h3 class="text-xl font-semibold mt-6">Example:</h3>
-            <p class="mt-4">"A convergent parallel design will be used to collect survey data and conduct focus groups simultaneously to understand the impact of remote work on employee productivity."</p>
+            <h3 class="text-xl font-semibold mt-6">Due Dates & Submission:</h3>
+            <p class="mt-2"><strong>Deadline:</strong> Journal club critiques are due on <strong>3/1, 4/1, and 5/1</strong> via the online portal (<a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline" target="_blank">Click Here</a>).</p>
+            <p class="mt-4"><em>Tip:</em> Prepare your critique thoroughly to engage effectively during the live session.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/YourJournalClubGuidelinesURL" target="_blank" class="text-blue-600 underline">
+                Click here for additional journal club guidelines.
+              </a>
+            </p>
           `,
-     //     videoUrl: "https://example.com/week5-mixed-methods-designs",
+          videoUrl: "https://example.com/week5-journal-club"
         },
         {
-          title: "Chapter 5.3: Integrating Quantitative and Qualitative Data",
+          title: "5.3 Translational Pitch",
           content: `
-            <h2 class="text-2xl font-bold">Merging Data for Comprehensive Insights</h2>
-            <p class="mt-4">Integration is a critical step in mixed-methods research, ensuring that quantitative and qualitative data complement each other.</p>
-            <h3 class="text-xl font-semibold mt-6">Techniques for Data Integration:</h3>
+            <h2 class="text-2xl font-bold">Slide 3: Translational Pitch</h2>
+            <p class="mt-4"><strong>Objective:</strong> Present your research findings to a mock panel of stakeholders (clinicians, policymakers) to demonstrate the real-world impact of your study.</p>
+            <h3 class="text-xl font-semibold mt-6">Key Components:</h3>
             <ul class="list-disc list-inside mt-2">
-              <li><strong>Data Transformation:</strong> Convert qualitative data into quantitative formats or vice versa.</li>
-              <li><strong>Joint Displays:</strong> Use tables or figures to juxtapose quantitative and qualitative findings.</li>
-              <li><strong>Interpretive Integration:</strong> Synthesize findings narratively to provide a unified interpretation.</li>
+              <li>Create a concise pitch deck (5-10 slides) that outlines your research question, methodology, key findings, and translational implications.</li>
+              <li>Practice delivering your pitch and anticipate critical questions regarding the practical applications of your research.</li>
             </ul>
-            <h3 class="text-xl font-semibold mt-6">Challenges:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>Ensuring methodological compatibility.</li>
-              <li>Managing the complexity of data merging.</li>
-              <li>Maintaining coherence in the integrated findings.</li>
-            </ul>
-            <h3 class="text-xl font-semibold mt-6">Example:</h3>
-            <p class="mt-4">"The survey results indicated a positive correlation between remote work and job satisfaction. Focus group discussions revealed that flexible schedules and reduced commute times were key factors contributing to this satisfaction."</p>
+            <h3 class="text-xl font-semibold mt-6">Due Dates & Submission:</h3>
+            <p class="mt-2"><strong>Deadline:</strong> Translational pitch slides and presentation are due on <strong>3/15, 4/15, and 5/15</strong> (submit online via <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline" target="_blank">Click Here</a>).</p>
+            <p class="mt-4"><em>Tip:</em> A compelling pitch should clearly communicate both data and its broader impact.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/YourTranslationalPitchGuidelinesURL" target="_blank" class="text-blue-600 underline">
+                Click here for additional pitch guidelines.
+              </a>
+            </p>
           `,
-     //     videoUrl: "https://example.com/week5-data-integration",
+          videoUrl: "https://example.com/week5-translational-pitch"
         },
         {
-          title: "Chapter 5.4: Benefits and Limitations of Mixed-Methods Research",
+          title: "5.4 Ivy League Viva",
           content: `
-            <h2 class="text-2xl font-bold">Evaluating the Approach</h2>
-            <p class="mt-4">While mixed-methods research offers comprehensive insights, it's essential to understand its advantages and potential drawbacks.</p>
-            <h3 class="text-xl font-semibold mt-6">Benefits:</h3>
+            <h2 class="text-2xl font-bold">Slide 4: Ivy League Viva Defense</h2>
+            <p class="mt-4"><strong>Objective:</strong> Defend your research methodology before a panel by addressing counterfactuals and potential critiques.</p>
+            <h3 class="text-xl font-semibold mt-6">Key Aspects:</h3>
             <ul class="list-disc list-inside mt-2">
-              <li>Provides a more complete understanding by combining numerical trends with in-depth perspectives.</li>
-              <li>Enhances the validity of results through triangulation.</li>
-              <li>Allows for exploration of complex research questions.</li>
+              <li>Prepare a detailed explanation of your research design, methodology, and ethical considerations.</li>
+              <li>Anticipate and respond to potential counterarguments and weaknesses in your protocol.</li>
+              <li>Participate in a viva-style defense with faculty and peer reviewers.</li>
             </ul>
-            <h3 class="text-xl font-semibold mt-6">Limitations:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>Time-consuming and resource-intensive.</li>
-              <li>Requires proficiency in both quantitative and qualitative methods.</li>
-              <li>Complexity in data integration and analysis.</li>
-            </ul>
-            <h3 class="text-xl font-semibold mt-6">When to Use Mixed-Methods:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>When addressing multifaceted research questions.</li>
-              <li>When needing to validate qualitative findings with quantitative data or vice versa.</li>
-              <li>When exploring new areas where both numerical data and in-depth insights are valuable.</li>
-            </ul>
-            <h3 class="text-xl font-semibold mt-6">Example:</h3>
-            <p class="mt-4">"To evaluate the effectiveness of a new teaching method, quantitative data from test scores will be complemented with qualitative feedback from student interviews."</p>
+            <h3 class="text-xl font-semibold mt-6">Step-by-Step Instructions:</h3>
+            <ol class="list-decimal list-inside mt-2">
+              <li>Review your full research protocol and note areas of potential vulnerability.</li>
+              <li>Develop clear, concise responses to common critiques.</li>
+              <li>Engage in mock viva sessions with peers to refine your defense strategy.</li>
+              <li>Incorporate feedback to strengthen your final presentation.</li>
+            </ol>
+            <p class="mt-4"><em>Tip:</em> A well-prepared defense showcases your deep understanding of your research and your ability to critically evaluate your own work.</p>
+            <p class="mt-4">
+              <a href="https://docs.google.com/document/d/YourVivaGuidelinesURL" target="_blank" class="text-blue-600 underline">
+                Click here for additional viva defense guidelines.
+              </a>
+            </p>
           `,
-       //   videoUrl: "https://example.com/week5-benefits-limitations",
+          videoUrl: "https://example.com/week5-viva-defense"
         },
         {
-          title: "Chapter 5.5: Summary",
+          title: "5.5 Quiz: Ethical Dilemma Resolution",
           content: `
-            <h2 class="text-2xl font-bold">Week 5 Summary: Mixed-Methods Research</h2>
-            <p class="mt-4">This week, you've learned about:</p>
-            <ul class="list-disc list-inside mt-2">
-              <li>The rationale and benefits of integrating quantitative and qualitative approaches.</li>
-              <li>Various mixed-methods research designs and their applications.</li>
-              <li>Techniques for effectively merging and interpreting diverse data types.</li>
-              <li>The advantages and challenges associated with mixed-methods research.</li>
-            </ul>
-            <p class="mt-4">Mastering mixed-methods approaches allows for a more nuanced and comprehensive exploration of research questions.</p>
+            <h2 class="text-2xl font-bold">Slide 5: Quiz - Ethical Dilemma Resolution</h2>
+            <p class="mt-4"><strong>Objective:</strong> Assess your ability to resolve ethical dilemmas encountered in research, such as handling data anomalies in clinical trials.</p>
+            <h3 class="text-xl font-semibold mt-6">Quiz Task:</h3>
+            <ol class="list-decimal list-inside mt-2">
+              <li>Review a provided case scenario involving significant data anomalies.</li>
+              <li>Identify the ethical challenges presented in the scenario.</li>
+              <li>Write a brief explanation of the most ethical course of action and justify your decision.</li>
+            </ol>
+            <p class="mt-4"><em>Tip:</em> Prioritize transparency, integrity, and participant welfare when addressing ethical dilemmas.</p>
           `,
-          // videoUrl removed
-        },
-        {
-          title: "Chapter 5.6: Quiz",
-          content: `
-            <h2 class="text-2xl font-bold">Test Your Understanding</h2>
-            <p class="mt-4">Assess your grasp of the key concepts from this week.</p>
-          `,
-          // videoUrl removed
           quiz: {
-            question:
-              "Which mixed-methods design involves collecting qualitative data after quantitative data to explain the quantitative findings?",
+            question: "If you discover significant data anomalies in a clinical trial, what is the most ethical course of action?",
             options: [
-              "Convergent Parallel Design",
-              "Explanatory Sequential Design",
-              "Exploratory Sequential Design",
-              "Embedded Design",
+              "Ignore the anomalies to preserve the study's outcomes.",
+              "Report the anomalies to the ethics board and adjust the analysis accordingly.",
+              "Alter the data to remove the anomalies.",
+              "Discredit the entire study without further investigation."
             ],
-            correctAnswer: 1,
-          },
-        },
+            correctAnswer: 1
+          }
+        }
       ],
-    },
-    // Week 6
-    {
-      title: "Week 6: Data Collection and Analysis",
-      chapters: [
-        {
-          title: "Chapter 6.1: Introduction",
-          content: `
-            <h2 class="text-2xl font-bold">Gathering and Analyzing Research Data</h2>
-            <p class="mt-4">Effective data collection and analysis are pivotal for generating valid and reliable research findings.</p>
-            <h3 class="text-xl font-semibold mt-6">Objectives:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>Understand various data collection methods.</li>
-              <li>Learn about data management and organization.</li>
-              <li>Explore statistical and analytical techniques for data analysis.</li>
-            </ul>
-          `,
-          //videoUrl: "https://example.com/week6-intro",
-        },
-        {
-          title:
-            "Chapter 6.2: Data Collection Methods: Surveys, Interviews, and Observations",
-          content: `
-            <h2 class="text-2xl font-bold">Choosing the Right Method</h2>
-            <p class="mt-4">Selecting appropriate data collection methods is essential to address your research questions effectively.</p>
-            <h3 class="text-xl font-semibold mt-6">1. Surveys:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>Efficient for collecting data from large populations.</li>
-              <li>Can include various question types (e.g., Likert scales, multiple-choice).</li>
-              <li>Useful for gathering standardized information.</li>
-            </ul>
-            <h3 class="text-xl font-semibold mt-6">2. Interviews:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>Provide in-depth insights into participants' experiences and perspectives.</li>
-              <li>Can be structured, semi-structured, or unstructured.</li>
-              <li>Allow for exploration of complex topics.</li>
-            </ul>
-            <h3 class="text-xl font-semibold mt-6">3. Observations:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>Involve systematically watching and recording behaviors or events.</li>
-              <li>Can be participant or non-participant observations.</li>
-              <li>Useful for studying interactions in natural settings.</li>
-            </ul>
-            <h3 class="text-xl font-semibold mt-6">4. Secondary Data:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>Utilize existing datasets from previous research or databases.</li>
-              <li>Cost-effective and time-saving.</li>
-              <li>Important to assess the relevance and quality of secondary data.</li>
-            </ul>
-            <h3 class="text-xl font-semibold mt-6">Example:</h3>
-            <p class="mt-4">"A survey will be distributed to 500 university students to assess their study habits and academic performance. Additionally, in-depth interviews will be conducted with 20 students to explore the challenges they face."</p>
-          `,
-          //videoUrl: "https://example.com/week6-data-collection-methods",
-        },
-        {
-          title: "Chapter 6.3: Data Management and Organization",
-          content: `
-            <h2 class="text-2xl font-bold">Keeping Your Data Organized</h2>
-            <p class="mt-4">Proper data management ensures that your data remains accessible, secure, and ready for analysis.</p>
-            <h3 class="text-xl font-semibold mt-6">Best Practices:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li><strong>Data Storage:</strong> Use reliable storage solutions like cloud services or external hard drives.</li>
-              <li><strong>Backup Regularly:</strong> Prevent data loss by maintaining multiple copies of your data.</li>
-              <li><strong>Organize Files:</strong> Create a clear and consistent folder structure with descriptive file names.</li>
-              <li><strong>Data Cleaning:</strong> Remove duplicates, correct errors, and handle missing data before analysis.</li>
-              <li><strong>Documentation:</strong> Keep detailed records of data collection procedures, coding schemes, and analysis steps.</li>
-            </ul>
-            <h3 class="text-xl font-semibold mt-6">Using Data Management Tools:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>Software like Excel, SPSS, R, or NVivo can aid in data organization and analysis.</li>
-              <li>Reference management tools (e.g., Zotero, Mendeley) help in organizing sources and citations.</li>
-            </ul>
-            <h3 class="text-xl font-semibold mt-6">Ethical Considerations:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>Ensure data privacy and confidentiality, especially when handling sensitive information.</li>
-              <li>Follow institutional guidelines and legal requirements for data storage and sharing.</li>
-            </ul>
-            <h3 class="text-xl font-semibold mt-6">Example:</h3>
-            <p class="mt-4">"All survey responses will be stored in encrypted files on a secure server with access restricted to the research team. Backup copies will be maintained daily to prevent data loss."</p>
-          `,
-          //videoUrl: "https://example.com/week6-data-management",
-        },
-        {
-          title: "Chapter 6.4: Statistical Analysis Techniques",
-          content: `
-            <h2 class="text-2xl font-bold">Analyzing Your Data Effectively</h2>
-            <p class="mt-4">Selecting appropriate statistical techniques is crucial for accurately interpreting your quantitative data.</p>
-            <h3 class="text-xl font-semibold mt-6">Descriptive Statistics:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li><strong>Mean, Median, Mode:</strong> Measure central tendency.</li>
-              <li><strong>Standard Deviation:</strong> Measure data dispersion.</li>
-              <li><strong>Frequency Distributions:</strong> Show how often each value occurs.</li>
-            </ul>
-            <h3 class="text-xl font-semibold mt-6">Inferential Statistics:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li><strong>T-Tests:</strong> Compare means between two groups.</li>
-              <li><strong>ANOVA (Analysis of Variance):</strong> Compare means among three or more groups.</li>
-              <li><strong>Correlation Analysis:</strong> Assess the relationship between two variables.</li>
-              <li><strong>Regression Analysis:</strong> Examine the predictive relationship between variables.</li>
-              <li><strong>Chi-Square Test:</strong> Test the association between categorical variables.</li>
-            </ul>
-            <h3 class="text-xl font-semibold mt-6">Using Statistical Software:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>Software like SPSS, R, or Python's statistical libraries can perform complex analyses.</li>
-              <li>Ensure accurate data entry and coding to facilitate correct analyses.</li>
-            </ul>
-            <h3 class="text-xl font-semibold mt-6">Example:</h3>
-            <p class="mt-4">"A multiple regression analysis will be conducted to determine the impact of study time, attendance, and extracurricular activities on academic performance."</p>
-          `,
-          //videoUrl: "https://example.com/week6-statistical-analysis",
-        },
-        {
-          title: "Chapter 6.5: Summary",
-          content: `
-            <h2 class="text-2xl font-bold">Week 6 Summary: Data Collection and Analysis</h2>
-            <p class="mt-4">This week, you've delved into:</p>
-            <ul class="list-disc list-inside mt-2">
-              <li>Various data collection methods including surveys, interviews, and observations.</li>
-              <li>Best practices for data management and organization.</li>
-              <li>Statistical and analytical techniques for quantitative data analysis.</li>
-            </ul>
-            <p class="mt-4">Mastering these areas ensures that your research data is both robust and insightful, laying the groundwork for meaningful findings.</p>
-          `,
-          // videoUrl removed
-        },
-        {
-          title: "Chapter 6.6: Quiz",
-          content: `
-            <h2 class="text-2xl font-bold">Test Your Understanding</h2>
-            <p class="mt-4">Assess your grasp of the key concepts from this week.</p>
-          `,
-          // videoUrl removed
-          quiz: {
-            question:
-              "Which statistical test is used to compare the means of three or more groups?",
-            options: [
-              "T-Test",
-              "ANOVA",
-              "Chi-Square Test",
-              "Pearson Correlation",
-            ],
-            correctAnswer: 1,
-          },
-        },
-      ],
-    },
-    // Week 7
-    {
-      title: "Week 7: Reporting and Presenting Research Findings",
-      chapters: [
-        {
-          title: "Chapter 7.1: Introduction",
-          content: `
-            <h2 class="text-2xl font-bold">Communicating Your Research Effectively</h2>
-            <p class="mt-4">Reporting and presenting research findings is the final step in the research process, ensuring that your work contributes to the broader academic community.</p>
-            <h3 class="text-xl font-semibold mt-6">Objectives:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>Learn how to structure research reports and papers.</li>
-              <li>Understand best practices for presenting data and findings.</li>
-              <li>Explore strategies for effective oral presentations.</li>
-            </ul>
-                        
-
-            <h3 class="text-xl font-semibold mt-6">Assignments:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>
-                <strong>First Primary Paper Assessment:</strong>
-                <ul class="list-disc list-inside ml-6 mt-1">
-                  <li>The first primary article assignment is due on 3/1, 4/1, 5/1 (due online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline">Click Here</a>).</li>
-                  <li><a href="https://docs.google.com/forms/d/15WC0Dnk3w0uXmHbGSarU1E1EQWtcDKg4J_vWAsaSdcU/edit#:~:text=https%3A//docs.google.com/document/d/1NylLZ3z%2DgtNnSLKVMWnE8yiyO6XeUzyW/edit?usp=sharing" class="text-blue-500 underline">Primary Paper Review Instructions</a></li>
-                  <li><a href="https://docs.google.com/document/d/1KtL6lD9afCsoKjCukEkAdA5CqbQ61pXlQv0A_wxlLKc/edit?usp=sharing" class="text-blue-500 underline">Primary Paper Written Example One</a></li>
-                </ul>
-              </li>
-              <li>
-                <strong>Second Primary Paper Review Assessment:</strong>
-                <ul class="list-disc list-inside ml-6 mt-1">
-                  <li>The second primary article assignment is due on 3/1, 4/1, 5/1 (due online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline">Click Here</a>).</li>
-                  <li><a href="https://docs.google.com/document/d/1NylLZ3z-gtNnSLKVMWnE8yiyO6XeUzyW/edit?usp=sharing" class="text-blue-500 underline">Second Primary Paper Review Instructions</a></li>
-                  <li><a href="https://docs.google.com/document/d/1kmFjSnXmEVKCmZDq61NeAGuEdEnQc0--/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Second Primary Paper Written Example Two</a></li>
-                </ul>
-              </li>
-              <li>
-                <strong>Lab Report / Publications Assessment:</strong>
-                <ul class="list-disc list-inside ml-6 mt-1">
-                  <li>The assignment is due on 3/15, 4/15, 5/15 (due online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline">Click Here</a>).</li>
-                  <li><a href="https://docs.google.com/document/d/1gcb2QrzsQdIWVkULTIWrBDFx_1A8GBd_vxERKSNz7RI/edit?usp=sharing" class="text-blue-500 underline">Lab Report Review Instructions</a></li>
-                  <li><a href="https://docs.google.com/document/d/1KtL6lD9afCsoKjCukEkAdA5CqbQ61pXlQv0A_wxlLKc/edit?usp=sharing" class="text-blue-500 underline">Lab Report Example One</a></li>
-                  <li><a href="https://docs.google.com/document/d/1kmFjSnXmEVKCmZDq61NeAGuEdEnQc0--/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Lab Report Example Two</a></li>
-                  <li><a href="https://docs.google.com/document/d/1Oa-8nCDHAYwBGZqPLE1gJhZ1JhKDJQfk3t_4Ojkf0q4/edit?usp=sharing" class="text-blue-500 underline">Lab Report Checklist And Guide</a></li>
-                </ul>
-              </li>
-            </ul>
-
-          `,
-      //    videoUrl: "https://example.com/week7-intro",
-        },
-        {
-          title: "Chapter 7.2: Structuring Research Reports and Academic Papers",
-          content: `
-            <h2 class="text-2xl font-bold">Organizing Your Written Work</h2>
-            <p class="mt-4">A well-structured research report or academic paper enhances readability and ensures that your arguments are presented logically.</p>
-            <h3 class="text-xl font-semibold mt-6">Typical Structure:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li><strong>Title Page:</strong> Includes the title, author(s), affiliation, and date.</li>
-              <li><strong>Abstract:</strong> A brief summary of the research, including objectives, methods, results, and conclusions.</li>
-              <li><strong>Introduction:</strong> Presents the research question, background, and objectives.</li>
-              <li><strong>Literature Review:</strong> Summarizes existing research related to the topic.</li>
-              <li><strong>Methodology:</strong> Details the research design, data collection, and analysis methods.</li>
-              <li><strong>Results:</strong> Presents the findings of the study.</li>
-              <li><strong>Discussion:</strong> Interprets the results, discusses implications, and acknowledges limitations.</li>
-              <li><strong>Conclusion:</strong> Summarizes the main findings and suggests future research directions.</li>
-              <li><strong>References:</strong> Lists all sources cited in the paper.</li>
-            </ul>
-            <h3 class="text-xl font-semibold mt-6">Writing Tips:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>Maintain a clear and logical flow between sections.</li>
-              <li>Use headings and subheadings to guide the reader.</li>
-              <li>Ensure consistency in terminology and formatting.</li>
-            </ul>
-            <h3 class="text-xl font-semibold mt-6">Example Structure:</h3>
-            <p class="mt-4"><strong>I. Introduction</strong></p>
-            <ul class="list-disc list-inside mt-2">
-              <li>Background of the study</li>
-              <li>Research question and objectives</li>
-            </ul>
-            <p class="mt-4"><strong>II. Literature Review</strong></p>
-            <ul class="list-disc list-inside mt-2">
-              <li>Summary of existing research</li>
-              <li>Identification of research gaps</li>
-            </ul>
-            <p class="mt-4"><strong>III. Methodology</strong></p>
-            <ul class="list-disc list-inside mt-2">
-              <li>Research design and approach</li>
-              <li>Data collection methods</li>
-              <li>Data analysis procedures</li>
-            </ul>
-          `,
-          //videoUrl: "https://example.com/week7-structuring-reports",
-        },
-        {
-          title: "Chapter 7.3: Presenting Data and Findings Effectively",
-          content: `
-            <h2 class="text-2xl font-bold">Visualizing Your Results</h2>
-            <p class="mt-4">Effective presentation of data enhances the clarity and impact of your findings.</p>
-            <h3 class="text-xl font-semibold mt-6">Data Visualization Techniques:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li><strong>Tables:</strong> Organize numerical data for easy comparison.</li>
-              <li><strong>Graphs and Charts:</strong> Visual representations like bar graphs, line charts, and pie charts illustrate trends and relationships.</li>
-              <li><strong>Figures:</strong> Include images, diagrams, or models to depict complex information.</li>
-            </ul>
-            <h3 class="text-xl font-semibold mt-6">Best Practices:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>Ensure all visuals are clearly labeled and referenced in the text.</li>
-              <li>Keep designs simple and avoid clutter.</li>
-              <li>Use consistent formatting and color schemes.</li>
-              <li>Provide descriptive captions that explain the content of the visual.</li>
-            </ul>
-            <h3 class="text-xl font-semibold mt-6">Interpreting Findings:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>Present findings objectively without bias.</li>
-              <li>Highlight significant patterns, trends, and relationships.</li>
-              <li>Link the findings back to the research questions and objectives.</li>
-            </ul>
-            <h3 class="text-xl font-semibold mt-6">Example:</h3>
-            <p class="mt-4">"Figure 2 illustrates the positive correlation between study hours and exam scores, indicating that increased study time is associated with higher academic performance."</p>
-          `,
-          //videoUrl: "https://example.com/week7-presenting-data",
-        },
-        {
-          title: "Chapter 7.4: Effective Oral and Poster Presentations",
-          content: `
-            <h2 class="text-2xl font-bold">Communicating Research Visually and Verbally</h2>
-            <p class="mt-4">Oral and poster presentations are essential for sharing your research with the academic community.</p>
-            <h3 class="text-xl font-semibold mt-6">Oral Presentations:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li><strong>Structure:</strong> Introduction, methodology, results, discussion, and conclusion.</li>
-              <li><strong>Visual Aids:</strong> Use slides to support your speech with visuals like charts and images.</li>
-              <li><strong>Delivery:</strong> Maintain eye contact, use clear and concise language, and engage the audience.</li>
-              <li><strong>Time Management:</strong> Adhere to the allotted time to cover all key points effectively.</li>
-            </ul>
-            <h3 class="text-xl font-semibold mt-6">Poster Presentations:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li><strong>Design:</strong> Create a visually appealing layout with clear headings and organized sections.</li>
-              <li><strong>Content:</strong> Include essential elements like introduction, methods, results, and conclusions succinctly.</li>
-              <li><strong>Interactivity:</strong> Be prepared to discuss your poster with viewers and answer questions.</li>
-              <li><strong>Accessibility:</strong> Ensure text is legible from a distance and visuals are easy to interpret.</li>
-            </ul>
-            <h3 class="text-xl font-semibold mt-6">Tips for Success:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>Practice your presentation multiple times to build confidence.</li>
-              <li>Seek feedback from peers or mentors before the actual presentation.</li>
-              <li>Be prepared to elaborate on any part of your research during discussions.</li>
-              <li>Keep your audience engaged by highlighting the significance and implications of your findings.</li>
-            </ul>
-            <h3 class="text-xl font-semibold mt-6">Example:</h3>
-            <p class="mt-4">"During your oral presentation, begin with a brief introduction to your research question, followed by an overview of your methodology. Use slides to display key graphs and data points, and conclude by discussing the implications of your findings."</p>
-          `,
-          //videoUrl: "https://example.com/week7-presentation",
-        },
-        {
-          title: "Chapter 7.5: Summary",
-          content: `
-            <h2 class="text-2xl font-bold">Week 7 Summary: Reporting and Presenting Research Findings</h2>
-            <p class="mt-4">In this final week, you've covered:</p>
-            <ul class="list-disc list-inside mt-2">
-              <li>Structuring research reports and academic papers for clarity and coherence.</li>
-              <li>Effective techniques for presenting data through visuals and written descriptions.</li>
-              <li>Strategies for delivering compelling oral and poster presentations.</li>
-            </ul>
-            
-
-            <h3 class="text-xl font-semibold mt-6">Assignments:</h3>
-            <ul class="list-disc list-inside mt-2">
-              <li>
-                <strong>First Primary Paper Assessment:</strong>
-                <ul class="list-disc list-inside ml-6 mt-1">
-                  <li>The first primary article assignment is due on 3/1, 4/1, 5/1 (due online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline">Click Here</a>).</li>
-                  <li><a href="https://docs.google.com/forms/d/15WC0Dnk3w0uXmHbGSarU1E1EQWtcDKg4J_vWAsaSdcU/edit#:~:text=https%3A//docs.google.com/document/d/1NylLZ3z%2DgtNnSLKVMWnE8yiyO6XeUzyW/edit?usp=sharing" class="text-blue-500 underline">Primary Paper Review Instructions</a></li>
-                  <li><a href="https://docs.google.com/document/d/1KtL6lD9afCsoKjCukEkAdA5CqbQ61pXlQv0A_wxlLKc/edit?usp=sharing" class="text-blue-500 underline">Primary Paper Written Example One</a></li>
-                </ul>
-              </li>
-              <li>
-                <strong>Second Primary Paper Review Assessment:</strong>
-                <ul class="list-disc list-inside ml-6 mt-1">
-                  <li>The second primary article assignment is due on 3/1, 4/1, 5/1 (due online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline">Click Here</a>).</li>
-                  <li><a href="https://docs.google.com/document/d/1NylLZ3z-gtNnSLKVMWnE8yiyO6XeUzyW/edit?usp=sharing" class="text-blue-500 underline">Second Primary Paper Review Instructions</a></li>
-                  <li><a href="https://docs.google.com/document/d/1kmFjSnXmEVKCmZDq61NeAGuEdEnQc0--/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Second Primary Paper Written Example Two</a></li>
-                </ul>
-              </li>
-              <li>
-                <strong>Lab Report / Publications Assessment:</strong>
-                <ul class="list-disc list-inside ml-6 mt-1">
-                  <li>The assignment is due on 3/15, 4/15, 5/15 (due online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline">Click Here</a>).</li>
-                  <li><a href="https://docs.google.com/document/d/1gcb2QrzsQdIWVkULTIWrBDFx_1A8GBd_vxERKSNz7RI/edit?usp=sharing" class="text-blue-500 underline">Lab Report Review Instructions</a></li>
-                  <li><a href="https://docs.google.com/document/d/1KtL6lD9afCsoKjCukEkAdA5CqbQ61pXlQv0A_wxlLKc/edit?usp=sharing" class="text-blue-500 underline">Lab Report Example One</a></li>
-                  <li><a href="https://docs.google.com/document/d/1kmFjSnXmEVKCmZDq61NeAGuEdEnQc0--/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline">Lab Report Example Two</a></li>
-                  <li><a href="https://docs.google.com/document/d/1Oa-8nCDHAYwBGZqPLE1gJhZ1JhKDJQfk3t_4Ojkf0q4/edit?usp=sharing" class="text-blue-500 underline">Lab Report Checklist And Guide</a></li>
-                </ul>
-              </li>
-            </ul>
-
-          `,
-          // videoUrl removed
-        },
-        {
-          title: "Chapter 7.6: Quiz",
-          content: `
-            <h2 class="text-2xl font-bold">Test Your Understanding</h2>
-            <p class="mt-4">Assess your comprehensive understanding of the concepts covered throughout the course.</p>
-          `,
-          // videoUrl removed
-          quiz: {
-            question:
-              "Which of the following is NOT a key component of an effective oral presentation?",
-            options: [
-              "Clear and concise language",
-              "Engaging visual aids",
-              "Reading directly from your slides",
-              "Maintaining eye contact with the audience",
-            ],
-            correctAnswer: 2,
-          },
-        },
-      ],
-    },
+    }
+    
   ],
 };
 
