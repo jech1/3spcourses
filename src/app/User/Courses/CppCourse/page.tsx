@@ -38,12 +38,12 @@ const CppCourseData: CourseData = {
             </ol>
             <p class="mt-4"><em>Tip:</em> Understanding different programming languages helps you choose the right tool for each task.</p>
             <p class="mt-4">
-              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
+              <a href="https://docs.google.com/document/d/1dgDI1aH11zY4366y_izNvJ1WNQmKDATEaOE3sI_fsdw/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
                 Click here for additional details and assessment info.
               </a>
             </p>
           `,
-          videoUrl: "https://example.com/week1-language-overview"
+          //videoUrl: "https://example.com/week1-language-overview"
         },
         {
           title: "1.2 Overview of Frameworks, Tools, and GitHub",
@@ -66,12 +66,12 @@ const CppCourseData: CourseData = {
             </ol>
             <p class="mt-4"><em>Tip:</em> Familiarize yourself with GitHub early—it will be an essential tool throughout your coding journey.</p>
             <p class="mt-4">
-              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
+              <a href="https://docs.google.com/document/d/1dgDI1aH11zY4366y_izNvJ1WNQmKDATEaOE3sI_fsdw/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
                 Click here for additional details and assessment info.
               </a>
             </p>
           `,
-          videoUrl: "https://example.com/week1-frameworks-tools"
+          //videoUrl: "https://example.com/week1-frameworks-tools"
         },
         {
           title: "1.3 Main Branches of Computer Science",
@@ -94,12 +94,12 @@ const CppCourseData: CourseData = {
             </ol>
             <p class="mt-4"><em>Tip:</em> Knowing the broad spectrum of computer science can help you decide which area to specialize in later on.</p>
             <p class="mt-4">
-              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
+              <a href="https://docs.google.com/document/d/1dgDI1aH11zY4366y_izNvJ1WNQmKDATEaOE3sI_fsdw/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
                 Click here for additional details and assessment info.
               </a>
             </p>
           `,
-          videoUrl: "https://example.com/week1-branches"
+          //videoUrl: "https://example.com/week1-branches"
         },
         {
           title: "1.4 What This Course Will Cover",
@@ -121,12 +121,12 @@ const CppCourseData: CourseData = {
             </ol>
             <p class="mt-4"><em>Tip:</em> A clear roadmap of the course helps you stay organized and track your progress.</p>
             <p class="mt-4">
-              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
+              <a href="https://docs.google.com/document/d/1dgDI1aH11zY4366y_izNvJ1WNQmKDATEaOE3sI_fsdw/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
                 Click here for additional details and assessment info.
               </a>
             </p>
           `,
-          videoUrl: "https://example.com/week1-course-content"
+          //videoUrl: "https://example.com/week1-course-content"
         },
         {
           title: "1.5 Introduction to the Terminal",
@@ -150,12 +150,12 @@ const CppCourseData: CourseData = {
             </ol>
             <p class="mt-4"><em>Tip:</em> Mastering the terminal early will streamline your workflow as you work on more complex projects.</p>
             <p class="mt-4">
-              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
+              <a href="https://docs.google.com/document/d/1dgDI1aH11zY4366y_izNvJ1WNQmKDATEaOE3sI_fsdw/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
                 Click here for additional details and assessment info.
               </a>
             </p>
           `,
-          videoUrl: "https://example.com/week1-terminal"
+          //videoUrl: "https://example.com/week1-terminal"
         },
         {
           title: "1.6 Summary",
@@ -171,7 +171,7 @@ const CppCourseData: CourseData = {
             </ul>
             <p class="mt-4">These foundational concepts will serve as the building blocks for your programming journey and prepare you for more advanced topics in future weeks.</p>
             <p class="mt-4">
-              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
+              <a href="https://docs.google.com/document/d/1dgDI1aH11zY4366y_izNvJ1WNQmKDATEaOE3sI_fsdw/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
                 Click here for additional details and assessment info.
               </a>
             </p>
@@ -229,12 +229,12 @@ const CppCourseData: CourseData = {
             <p class="mt-4">Remember to always include <code>using namespace std;</code> at the top of your code so you don’t have to prefix everything with <code>std::</code>.</p>
             <p class="mt-4"><em>Tip:</em> Think of syntax as grammar in a human language—it ensures your ideas are communicated clearly to the computer.</p>
             <p class="mt-4">
-              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
+              <a href="https://docs.google.com/document/d/1dgDI1aH11zY4366y_izNvJ1WNQmKDATEaOE3sI_fsdw/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
                 Click here for additional details and assessment info.
               </a>
             </p>
           `,
-          videoUrl: "https://example.com/week2-syntax-datatypes"
+          //videoUrl: "https://example.com/week2-syntax-datatypes"
         },
         {
           title: "2.2 Input and Output: Using cin and cout",
@@ -265,12 +265,12 @@ const CppCourseData: CourseData = {
             </pre>
             <p class="mt-4"><em>Tip:</em> Using <code>using namespace std;</code> keeps your code clean by avoiding repetitive <code>std::</code> prefixes.</p>
             <p class="mt-4">
-              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
+              <a href="https://docs.google.com/document/d/1dgDI1aH11zY4366y_izNvJ1WNQmKDATEaOE3sI_fsdw/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
                 Click here for additional details and assessment info.
               </a>
             </p>
           `,
-          videoUrl: "https://example.com/week2-cin-cout"
+          //videoUrl: "https://example.com/week2-cin-cout"
         },
         {
           title: "2.3 Arithmetic Operations and Variables",
@@ -301,12 +301,12 @@ const CppCourseData: CourseData = {
             </pre>
             <p class="mt-4"><em>Tip:</em> Arithmetic is the basis for many algorithms. Practice by modifying values and observing changes in output.</p>
             <p class="mt-4">
-              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
+              <a href="https://docs.google.com/document/d/1dgDI1aH11zY4366y_izNvJ1WNQmKDATEaOE3sI_fsdw/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
                 Click here for additional details and assessment info.
               </a>
             </p>
           `,
-          videoUrl: "https://example.com/week2-arithmetic"
+          //videoUrl: "https://example.com/week2-arithmetic"
         },
         {
           title: "2.4 Introduction to Functions: Declaration, Definition, and Calling",
@@ -342,12 +342,12 @@ const CppCourseData: CourseData = {
             <p class="mt-4"><em>Note:</em> If you define the function above <code>main()</code>, you don't need a separate declaration.</p>
             <p class="mt-4"><em>Tip:</em> Functions help break down complex tasks into manageable pieces and promote code reuse.</p>
             <p class="mt-4">
-              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
+              <a href="https://docs.google.com/document/d/1dgDI1aH11zY4366y_izNvJ1WNQmKDATEaOE3sI_fsdw/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
                 Click here for additional details and assessment info.
               </a>
             </p>
           `,
-          videoUrl: "https://example.com/week2-functions"
+          //videoUrl: "https://example.com/week2-functions"
         },
         {
           title: "2.5 Summary",
@@ -362,7 +362,7 @@ const CppCourseData: CourseData = {
             </ul>
             <p class="mt-4">These concepts are the foundation for all programming tasks and will support more advanced topics in future weeks.</p>
             <p class="mt-4">
-              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
+              <a href="https://docs.google.com/document/d/1dgDI1aH11zY4366y_izNvJ1WNQmKDATEaOE3sI_fsdw/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
                 Click here for additional details and assessment info.
               </a>
             </p>
@@ -418,12 +418,12 @@ const CppCourseData: CourseData = {
         </ol>
         <p class="mt-4"><em>Tip:</em> Use pass by reference for large data structures to avoid unnecessary copying.</p>
         <p class="mt-4">
-          <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
+          <a href="https://docs.google.com/document/d/1dgDI1aH11zY4366y_izNvJ1WNQmKDATEaOE3sI_fsdw/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
             Click here for additional details and assessment info.
           </a>
         </p>
       `,
-      videoUrl: "https://example.com/week3-intro-functions"
+      //videoUrl: "https://example.com/week3-intro-functions"
     },
     {
       title: "3.2 Deep Dive: Passing by Value vs. Passing by Reference",
@@ -441,12 +441,12 @@ const CppCourseData: CourseData = {
         </ul>
         <p class="mt-4"><em>Tip:</em> Consider using <code>const</code> with references to prevent unintended modifications.</p>
         <p class="mt-4">
-          <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
+          <a href="https://docs.google.com/document/d/1dgDI1aH11zY4366y_izNvJ1WNQmKDATEaOE3sI_fsdw/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
             Click here for additional details and assessment info.
           </a>
         </p>
       `,
-      videoUrl: "https://example.com/week3-pass-by-value-reference"
+      //videoUrl: "https://example.com/week3-pass-by-value-reference"
     },
     {
       title: "3.3 Best Practices for Parameter Passing",
@@ -461,12 +461,12 @@ const CppCourseData: CourseData = {
         </ul>
         <p class="mt-4"><em>Tip:</em> Evaluate data size and mutability to choose the most efficient method.</p>
         <p class="mt-4">
-          <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
+          <a href="https://docs.google.com/document/d/1dgDI1aH11zY4366y_izNvJ1WNQmKDATEaOE3sI_fsdw/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
             Click here for additional details and assessment info.
           </a>
         </p>
       `,
-      videoUrl: "https://example.com/week3-best-practices"
+      //videoUrl: "https://example.com/week3-best-practices"
     },
     {
       title: "3.4 Introduction to Arrays and Their Use in Functions",
@@ -481,12 +481,12 @@ const CppCourseData: CourseData = {
         </ul>
         <p class="mt-4"><em>Tip:</em> Arrays are essential for handling sequences of data; understanding their use in functions is crucial.</p>
         <p class="mt-4">
-          <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
+          <a href="https://docs.google.com/document/d/1dgDI1aH11zY4366y_izNvJ1WNQmKDATEaOE3sI_fsdw/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
             Click here for additional details and assessment info.
           </a>
         </p>
       `,
-      videoUrl: "https://example.com/week3-arrays-intro"
+      //videoUrl: "https://example.com/week3-arrays-intro"
     },
     {
       title: "3.5 Example Walkthrough: Functions, Parameter Passing, and Arrays",
@@ -536,12 +536,12 @@ int main() {
         </pre>
         <p class="mt-4"><em>Tip:</em> Comments in the code explain each line, helping you understand the logic and flow.</p>
         <p class="mt-4">
-          <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
+          <a href="https://docs.google.com/document/d/1dgDI1aH11zY4366y_izNvJ1WNQmKDATEaOE3sI_fsdw/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
             Click here for additional details and assessment info.
           </a>
         </p>
       `,
-      videoUrl: "https://example.com/week3-example-walkthrough"
+      //videoUrl: "https://example.com/week3-example-walkthrough"
     },
     {
       title: "3.6 Summary",
@@ -557,7 +557,7 @@ int main() {
         </ul>
         <p class="mt-4">Mastering these concepts is essential for writing efficient and maintainable C++ code.</p>
         <p class="mt-4">
-          <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
+          <a href="https://docs.google.com/document/d/1dgDI1aH11zY4366y_izNvJ1WNQmKDATEaOE3sI_fsdw/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
             Click here for additional details and assessment info.
           </a>
         </p>
@@ -627,12 +627,12 @@ int main() {
             </pre>
             <p class="mt-4"><em>Tip:</em> Structures are the building blocks for organizing complex data. They allow you to bundle related information together.</p>
             <p class="mt-4">
-              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
+              <a href="https://docs.google.com/document/d/1dgDI1aH11zY4366y_izNvJ1WNQmKDATEaOE3sI_fsdw/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
                 Click here for additional details and assessment info.
               </a>
             </p>
           `,
-          videoUrl: "https://example.com/week4-intro-structures"
+          //videoUrl: "https://example.com/week4-intro-structures"
         },
         {
           title: "4.2 Passing Structures by Value and by Reference",
@@ -693,12 +693,12 @@ int main() {
             </pre>
             <p class="mt-4"><em>Tip:</em> When working with large structures, passing by reference avoids unnecessary copying and improves performance.</p>
             <p class="mt-4">
-              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
+              <a href="https://docs.google.com/document/d/1dgDI1aH11zY4366y_izNvJ1WNQmKDATEaOE3sI_fsdw/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
                 Click here for additional details and assessment info.
               </a>
             </p>
           `,
-          videoUrl: "https://example.com/week4-structure-passing"
+          //videoUrl: "https://example.com/week4-structure-passing"
         },
         {
           title: "4.3 Mini Project: Combining Arrays, Functions, and Structures",
@@ -766,12 +766,12 @@ int main() {
             </pre>
             <p class="mt-4"><em>Tip:</em> Integrating multiple programming concepts into one project helps reinforce your understanding and prepares you for complex real-world applications.</p>
             <p class="mt-4">
-              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
+              <a href="https://docs.google.com/document/d/1dgDI1aH11zY4366y_izNvJ1WNQmKDATEaOE3sI_fsdw/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
                 Click here for additional details and assessment info.
               </a>
             </p>
           `,
-          videoUrl: "https://example.com/week4-mini-project"
+          //videoUrl: "https://example.com/week4-mini-project"
         },
         {
           title: "4.4 Summary",
@@ -785,7 +785,7 @@ int main() {
             </ul>
             <p class="mt-4">These final programming concepts integrate many of the skills you've developed and prepare you for even more advanced projects.</p>
             <p class="mt-4">
-              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
+              <a href="https://docs.google.com/document/d/1dgDI1aH11zY4366y_izNvJ1WNQmKDATEaOE3sI_fsdw/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
                 Click here for additional details and assessment info.
               </a>
             </p>
@@ -853,11 +853,11 @@ int main() {
             </pre>
             <p class="mt-4"><em>Tip:</em> Experiment by changing the delay values to modify the blink rate.</p>
             <p class="mt-4">
-              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" 
+              <a href="https://docs.google.com/document/d/1dgDI1aH11zY4366y_izNvJ1WNQmKDATEaOE3sI_fsdw/edit?usp=sharing" 
                  target="_blank" class="text-blue-600 underline">Click here for additional details and assessment info.</a>
             </p>
           `,
-          videoUrl: "https://example.com/week5-arduino-intro"
+          //videoUrl: "https://example.com/week5-arduino-intro"
         },
         {
           title: "5.2 Utilizing Arduino Libraries",
@@ -888,11 +888,11 @@ int main() {
             </pre>
             <p class="mt-4"><em>Tip:</em> Use the Library Manager to easily install and update the libraries you need.</p>
             <p class="mt-4">
-              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" 
+              <a href="https://docs.google.com/document/d/1dgDI1aH11zY4366y_izNvJ1WNQmKDATEaOE3sI_fsdw/edit?usp=sharing" 
                  target="_blank" class="text-blue-600 underline">Click here for additional details and assessment info.</a>
             </p>
           `,
-          videoUrl: "https://example.com/week5-arduino-libraries"
+          //videoUrl: "https://example.com/week5-arduino-libraries"
         },
         {
           title: "5.3 File Handling in Arduino: Using the SD Library",
@@ -938,11 +938,11 @@ int main() {
             </pre>
             <p class="mt-4"><em>Tip:</em> Ensure your SD card module is correctly connected and use the Library Manager to install the SD library.</p>
             <p class="mt-4">
-              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" 
+              <a href="https://docs.google.com/document/d/1dgDI1aH11zY4366y_izNvJ1WNQmKDATEaOE3sI_fsdw/edit?usp=sharing" 
                  target="_blank" class="text-blue-600 underline">Click here for additional details and assessment info.</a>
             </p>
           `,
-          videoUrl: "https://example.com/week5-file-handling"
+          //videoUrl: "https://example.com/week5-file-handling"
         },
         {
           title: "5.4 Configuring the Arduino IDE: Board, COM Port, and Library Manager",
@@ -957,11 +957,11 @@ int main() {
             </ul>
             <p class="mt-4"><em>Tip:</em> Verifying board and port settings at the top left of the IDE ensures your code uploads to the correct device.</p>
             <p class="mt-4">
-              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" 
+              <a href="https://docs.google.com/document/d/1dgDI1aH11zY4366y_izNvJ1WNQmKDATEaOE3sI_fsdw/edit?usp=sharing" 
                  target="_blank" class="text-blue-600 underline">Click here for additional details and assessment info.</a>
             </p>
           `,
-          videoUrl: "https://example.com/week5-configure-ide"
+          //videoUrl: "https://example.com/week5-configure-ide"
         },
         {
           title: "5.5 Summary and Quiz",
@@ -976,7 +976,7 @@ int main() {
             </ul>
             <p class="mt-4">These skills will enable you to develop interactive hardware projects and extend the functionality of your code using external libraries.</p>
             <p class="mt-4">
-              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" 
+              <a href="https://docs.google.com/document/d/1dgDI1aH11zY4366y_izNvJ1WNQmKDATEaOE3sI_fsdw/edit?usp=sharing" 
                  target="_blank" class="text-blue-600 underline">Click here for additional details and assessment info.</a>
             </p>
             <h2 class="text-2xl font-bold mt-6">Slide 6: Quiz - Arduino Code Concepts</h2>
@@ -990,16 +990,16 @@ int main() {
             </ol>
             <p class="mt-4"><em>Tip:</em> Revisiting your notes on board configuration and library installation will help reinforce these concepts.</p>
             <p class="mt-4">
-              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" 
+              <a href="https://docs.google.com/document/d/1dgDI1aH11zY4366y_izNvJ1WNQmKDATEaOE3sI_fsdw/edit?usp=sharing" 
                  target="_blank" class="text-blue-600 underline">Click here for additional details and assessment info.</a>
             </p>
             <pre class="bg-gray-100 p-4 rounded">
     /* Quiz Answer Example:
-    The Library Manager in the Arduino IDE is used to search for, install, and update libraries. These libraries extend the functionality of your projects by providing pre-written code for interfacing with various hardware components.
+    The Library Manager in the Arduino IDE is used to search for, install, and update libraries.
     */
             </pre>
           `,
-          videoUrl: "https://example.com/week5-summary-quiz"
+          //videoUrl: "https://example.com/week5-summary-quiz"
         }
       ],
     },
@@ -1037,13 +1037,13 @@ int main() {
             </pre>
             <p class="mt-4"><em>Tip:</em> Use debugging tools and print statements (cout) to trace errors, and analyze loops to determine their Big O complexity.</p>
             <p class="mt-4">
-              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" 
+              <a href="https://docs.google.com/document/d/1dgDI1aH11zY4366y_izNvJ1WNQmKDATEaOE3sI_fsdw/edit?usp=sharing" 
                  target="_blank" class="text-blue-600 underline">
                 Click here for additional details and assessment info.
               </a>
             </p>
           `,
-          videoUrl: "https://example.com/week6-debugging-bigO"
+          //videoUrl: "https://example.com/week6-debugging-bigO"
         },
         {
           title: "6.2 Controlling Electronics: Servos and Motors",
@@ -1078,13 +1078,13 @@ int main() {
             </pre>
             <p class="mt-4"><em>Tip:</em> Experiment with different angles and delays to see how the servo responds.</p>
             <p class="mt-4">
-              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" 
+              <a href="https://docs.google.com/document/d/1dgDI1aH11zY4366y_izNvJ1WNQmKDATEaOE3sI_fsdw/edit?usp=sharing" 
                  target="_blank" class="text-blue-600 underline">
                 Click here for additional details and assessment info.
               </a>
             </p>
           `,
-          videoUrl: "https://example.com/week6-servos-motors"
+          //videoUrl: "https://example.com/week6-servos-motors"
         },
         {
           title: "6.3 Advanced Communication: Serial Monitor, WiFi, and ESP32 Integration",
@@ -1132,13 +1132,13 @@ int main() {
             </pre>
             <p class="mt-4"><em>Tip:</em> Customize this example to connect multiple ESP32 boards by assigning unique identifiers or network roles.</p>
             <p class="mt-4">
-              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" 
+              <a href="https://docs.google.com/document/d/1dgDI1aH11zY4366y_izNvJ1WNQmKDATEaOE3sI_fsdw/edit?usp=sharing" 
                  target="_blank" class="text-blue-600 underline">
                 Click here for additional details and assessment info.
               </a>
             </p>
           `,
-          videoUrl: "https://example.com/week6-wifi-esp32"
+          //videoUrl: "https://example.com/week6-wifi-esp32"
         },
         {
           title: "6.4 Microcontrollers and Resources for Further Learning",
@@ -1168,13 +1168,13 @@ int main() {
             </ol>
             <p class="mt-4"><em>Tip:</em> A comprehensive understanding of available microcontrollers and resources will empower you to build more innovative projects.</p>
             <p class="mt-4">
-              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" 
+              <a href="https://docs.google.com/document/d/1dgDI1aH11zY4366y_izNvJ1WNQmKDATEaOE3sI_fsdw/edit?usp=sharing" 
                  target="_blank" class="text-blue-600 underline">
                 Click here for additional details and assessment info.
               </a>
             </p>
           `,
-          videoUrl: "https://example.com/week6-microcontrollers"
+          //videoUrl: "https://example.com/week6-microcontrollers"
         }
       ],
     },
@@ -1208,7 +1208,7 @@ int main() {
               </a>
             </p>
           `,
-          videoUrl: "https://example.com/week7-overview"
+          //videoUrl: "https://example.com/week7-overview"
         },
         {
           title: "7.2 C++ Programming Project Guidelines",
@@ -1235,7 +1235,7 @@ int main() {
               </a>
             </p>
           `,
-          videoUrl: "https://example.com/week7-cpp-project"
+          //videoUrl: "https://example.com/week7-cpp-project"
         },
         {
           title: "7.3 Arduino Project Guidelines",
@@ -1262,7 +1262,7 @@ int main() {
               </a>
             </p>
           `,
-          videoUrl: "https://example.com/week7-arduino-project"
+          //videoUrl: "https://example.com/week7-arduino-project"
         },
         {
           title: "7.4 Final Project Evaluation Criteria",
@@ -1278,12 +1278,12 @@ int main() {
             </ul>
             <p class="mt-4"><em>Tip:</em> Review these criteria carefully and ensure that your project meets every requirement before the evaluation day.</p>
             <p class="mt-4">
-              <a href="https://docs.google.com/document/d/YourFinalEvaluationCriteriaURL" target="_blank" class="text-blue-600 underline">
+              <a href="https://docs.google.com/document/d/1dgDI1aH11zY4366y_izNvJ1WNQmKDATEaOE3sI_fsdw/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
                 Click here for detailed final project evaluation guidelines.
               </a>
             </p>
           `,
-          videoUrl: "https://example.com/week7-evaluation-criteria"
+          //videoUrl: "https://example.com/week7-evaluation-criteria"
         },
         {
           title: "7.5 Final Project Summary and Quiz",
@@ -1297,7 +1297,7 @@ int main() {
             </ul>
             <p class="mt-4">Prepare thoroughly, ensuring all components or code dependencies are tested and working ahead of the evaluation.</p>
             <p class="mt-4">
-              <a href="https://docs.google.com/document/d/YourFinalProjectSummaryURL" target="_blank" class="text-blue-600 underline">
+              <a href="https://docs.google.com/document/d/1dgDI1aH11zY4366y_izNvJ1WNQmKDATEaOE3sI_fsdw/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
                 Click here for additional final project details and assessment info.
               </a>
             </p>

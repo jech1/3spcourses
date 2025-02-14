@@ -5,7 +5,6 @@ import { motion, useAnimationFrame, useMotionValue } from "framer-motion";
 import Image from "next/image";
 //import Link from "next/link";
 //import { useRouter } from "next/navigation"; // Ensure useRouter is imported
-
 //import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -23,10 +22,7 @@ import {
 import TakeCourseButton from "@/components/TakeCourseButton";
 
 const images = [
-  {
-    src: "/SWB.png?height=500&width=500",
-    alt: "Image 1",
-  },
+  { src: "/SWB.png?height=500&width=500", alt: "Image 1" },
   { src: "/MCDB.png?height=500&width=500", alt: "Image 2" },
   { src: "/RMB.png?height=500&width=500", alt: "Image 3" },
   { src: "/CADB.png?height=500&width=500", alt: "Image 4" },
@@ -42,11 +38,10 @@ function AnimatedImageCarousel() {
     if (containerRef.current) {
       const xValue = x.get();
       const containerWidth = containerRef.current.scrollWidth / 2;
-
       if (xValue <= -containerWidth) {
         x.set(0);
       } else {
-        x.set(xValue - 2); // Adjust this value to change the speed
+        x.set(xValue - 2); // Adjust speed by changing this value
       }
     }
   });
@@ -79,8 +74,6 @@ function AnimatedImageCarousel() {
 }
 
 export default function EnhancedCourseOverviewComponent() {
-  //const router = useRouter(); // Initialize the router here
-
   return (
     <div className="min-h-screen flex flex-col">
       <main className="flex-grow">
@@ -95,7 +88,7 @@ export default function EnhancedCourseOverviewComponent() {
                 Caffeine Extraction
               </h1>
               <p className="text-xl text-white max-w-2xl mx-auto">
-                Master the fundamentals of research
+                Master the fundamentals of research and lab safety in caffeine extraction.
               </p>
             </section>
 
@@ -103,17 +96,14 @@ export default function EnhancedCourseOverviewComponent() {
               <CardHeader>
                 <CardTitle>3SP Course Overview</CardTitle>
                 <CardDescription>
-                  Master the fundamentals of research in a lab by Extracting
-                  Caffeine.
+                  Master the fundamentals of lab research by extracting caffeine.
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="mb-4">
-                  This course emphasizes the science and lab safety practices
-                  involved in caffeine extraction. Students will learn how to
-                  safely handle chemicals, perform extractions, and analyze the
-                  purity of caffeine, preparing them for both academic and
-                  industrial applications.
+                  This course emphasizes the science and lab safety practices involved in caffeine extraction.
+                  Students will learn how to safely handle chemicals, perform extractions, purify caffeine, and manage waste,
+                  preparing them for both academic and industrial applications.
                 </p>
                 <ul className="list-disc pl-5 space-y-2">
                   <li>Duration: 5 weeks</li>
@@ -128,113 +118,76 @@ export default function EnhancedCourseOverviewComponent() {
               <Accordion type="single" collapsible className="w-full">
                 <AccordionItem value="week1">
                   <AccordionTrigger>
-                    Week 1: Introduction to Caffeine and Lab Safety{" "}
+                    Week 1: Introduction to Caffeine and Lab Safety
                   </AccordionTrigger>
                   <AccordionContent>
                     <ul className="list-disc pl-5 space-y-2">
                       <li>Chapter 1.1: Introduction</li>
-                      <li>
-                        Chapter 1.2: Understanding the Properties of Caffeine
-                        and Its Natural Sources
-                      </li>
-                      <li>
-                        Chapter 1.3: Introduction to Lab Safety Protocols and
-                        Proper Equipment Handling
-                      </li>
-                      <li>Chapter 1.4: Summary </li>
-                      <li>Chapter 1.5: Quiz </li>
+                      <li>Chapter 1.2: Understanding Caffeine Extraction Methods</li>
+                      <li>Chapter 1.3: Basic Lab Safety Protocols and Proper Equipment Handling</li>
+                      <li>Chapter 1.4: Summary</li>
+                      <li>Chapter 1.5: Quiz</li>
+                      <li>Chapter 1.6: Assignment Submission</li>
                     </ul>
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="week2">
                   <AccordionTrigger>
-                    Week 2: Solvent-Based Extraction Techniques{" "}
+                    Week 2: Solvent-Based Extraction Techniques
                   </AccordionTrigger>
                   <AccordionContent>
                     <ul className="list-disc pl-5 space-y-2">
                       <li>Chapter 2.1: Introduction</li>
-                      <li>
-                        Chapter 2.2: Selecting and Handling Solvents Safely in
-                        the Lab
-                      </li>
-                      <li>
-                        Chapter 2.3: Step-by-Step Caffeine Extraction Using
-                        Liquid-Liquid Methods
-                      </li>
-                      <li>
-                        Chapter 2.4: Importance of Using Fume Hoods and Personal
-                        Protective Equipment
-                      </li>
-                      <li>Chapter 2.5: Summary </li>
-                      <li>Chapter 2.6: Quiz </li>
+                      <li>Chapter 2.2: Delving into Lab Safety</li>
+                      <li>Chapter 2.3: Selecting and Handling Solvents in the Lab</li>
+                      <li>Chapter 2.4: Liquid-Liquid Extraction Guide</li>
+                      <li>Chapter 2.5: Summary</li>
+                      <li>Chapter 2.6: Quiz</li>
                     </ul>
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="week3">
                   <AccordionTrigger>
-                    Week 3: Purification and Waste Management{" "}
+                    Week 3: Purification and Waste Management
                   </AccordionTrigger>
                   <AccordionContent>
                     <ul className="list-disc pl-5 space-y-2">
                       <li>Chapter 3.1: Introduction</li>
-                      <li>
-                        Chapter 3.2: Safely Separating Impurities from Extracted
-                        Caffeine
-                      </li>
-                      <li>
-                        Chapter 3.3: Proper Disposal of Chemical Waste in
-                        Accordance with Safety Guidelines
-                      </li>
-                      <li>Chapter 3.4: Summary </li>
-                      <li>Chapter 3.5: Quiz </li>
+                      <li>Chapter 3.2: Safely Separating Impurities from Extracted Caffeine</li>
+                      <li>Chapter 3.3: Proper Disposal of Chemical Waste in Accordance with Safety Guidelines</li>
+                      <li>Chapter 3.4: Summary</li>
+                      <li>Chapter 3.5: Quiz</li>
                     </ul>
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="week4">
                   <AccordionTrigger>
-                    Week 4: Analytical Techniques and Lab Accuracy{" "}
+                    Week 4: Advanced Analytical Techniques and Lab Accuracy
                   </AccordionTrigger>
                   <AccordionContent>
                     <ul className="list-disc pl-5 space-y-2">
                       <li>Chapter 4.1: Introduction</li>
-                      <li>
-                        Chapter 4.2: Using Chromatography and Spectroscopy to
-                        Analyze Caffeine Purity
-                      </li>
-                      <li>
-                        Chapter 4.3: Maintaining Precision and Accuracy in Lab
-                        Measurements
-                      </li>
-                      <li>Chapter 4.4: Summary </li>
-                      <li>Chapter 4.5: Quiz </li>
+                      <li>Chapter 4.2: Utilizing HPLC to Analyze Caffeine Purity</li>
+                      <li>Chapter 4.3: Mastering HPLC Techniques to Ensure Accurate Results</li>
+                      <li>Chapter 4.4: IR Spectroscopy to Further Analyze Caffeine Purity</li>
+                      <li>Chapter 4.5: Summary</li>
+                      <li>Chapter 4.6: Quiz</li>
                     </ul>
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="week5">
                   <AccordionTrigger>
-                    Week 5: Final Extraction Project and Safety Assessment{" "}
+                    Week 5: Final Extraction Project and Safety Assessment
                   </AccordionTrigger>
                   <AccordionContent>
                     <ul className="list-disc pl-5 space-y-2">
                       <li>Chapter 5.1: Introduction</li>
-                      <li>
-                        Chapter 5.2: Designing and Performing a Comprehensive
-                        Caffeine Extraction Project
-                      </li>
-                      <li>
-                        Chapter 5.3: Reviewing and Applying All Safety Protocols
-                        in the Final Procedure
-                      </li>
-                      <li>
-                        Chapter 5.4: Caffeine Extraction Without the Use of
-                        Carcinogenic Chemicals
-                      </li>
-                      <li>
-                        Chapter 5.5: Presenting Results with an Emphasis on
-                        Safety Compliance
-                      </li>
-                      <li>Chapter 5.6: Summary </li>
-                      <li>Chapter 5.7: Quiz </li>
+                      <li>Chapter 5.2: Designing and Performing a Comprehensive Caffeine Extraction Project</li>
+                      <li>Chapter 5.3: Reviewing and Applying All Safety Protocols in the Final Procedure</li>
+                      <li>Chapter 5.4: Caffeine Extraction Without the Use of Carcinogenic Chemicals</li>
+                      <li>Chapter 5.5: Presenting Results with an Emphasis on Safety Compliance</li>
+                      <li>Chapter 5.6: Summary</li>
+                      <li>Chapter 5.7: Quiz</li>
                     </ul>
                   </AccordionContent>
                 </AccordionItem>

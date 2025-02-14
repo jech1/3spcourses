@@ -42,7 +42,7 @@ const CaffCourseData: CourseData = {
                 </a>
               </p>
             `,
-            videoUrl: "https://example.com/week1-introduction"
+            //videoUrl: "https://example.com/week1-introduction"
           },
           {
             title: "1.2 Understanding Caffeine Extraction Methods",
@@ -68,7 +68,7 @@ const CaffCourseData: CourseData = {
                 </a>
               </p>
             `,
-            videoUrl: "https://example.com/week1-extraction-methods"
+            //videoUrl: "https://example.com/week1-extraction-methods"
           },
           {
             title: "1.3 Basic Lab Safety Protocols and Proper Equipment Handling",
@@ -95,7 +95,7 @@ const CaffCourseData: CourseData = {
                 </a>
               </p>
             `,
-            videoUrl: "https://example.com/week1-lab-safety"
+            //videoUrl: "https://example.com/week1-lab-safety"
           },
           {
             title: "1.4 Summary",
@@ -183,7 +183,7 @@ const CaffCourseData: CourseData = {
               </a>
             </p>
           `,
-          videoUrl: "https://example.com/week2-intro"
+          //videoUrl: "https://example.com/week2-intro"
         },
         {
           title: "2.2 Delving into Lab Safety",
@@ -212,7 +212,7 @@ const CaffCourseData: CourseData = {
               </a>
             </p>
           `,
-          videoUrl: "https://example.com/week2-lab-safety"
+          //videoUrl: "https://example.com/week2-lab-safety"
         },
         {
           title: "2.3 Selecting and Handling Solvents in the Lab",
@@ -240,7 +240,7 @@ const CaffCourseData: CourseData = {
               </a>
             </p>
           `,
-          videoUrl: "https://example.com/week2-selecting-solvents"
+          //videoUrl: "https://example.com/week2-selecting-solvents"
         },
         {
           title: "2.4 Liquid-Liquid Extraction Guide",
@@ -270,7 +270,7 @@ const CaffCourseData: CourseData = {
               </a>
             </p>
           `,
-          videoUrl: "https://example.com/week2-liquid-liquid-extraction"
+          //videoUrl: "https://example.com/week2-liquid-liquid-extraction"
         },
         {
           title: "2.5 Summary",
@@ -359,7 +359,7 @@ const CaffCourseData: CourseData = {
               </a>
             </p>
           `,
-          videoUrl: "https://example.com/week3-intro"
+          //videoUrl: "https://example.com/week3-intro"
         },
         {
           title: "3.2 Safely Separating Impurities from Extracted Caffeine",
@@ -394,7 +394,7 @@ const CaffCourseData: CourseData = {
               </a>
             </p>
           `,
-          videoUrl: "https://example.com/week3-purification-techniques"
+          //videoUrl: "https://example.com/week3-purification-techniques"
         },
         {
           title: "3.3 Proper Disposal of Chemical Waste in Accordance with Safety Guidelines",
@@ -424,7 +424,7 @@ const CaffCourseData: CourseData = {
               </a>
             </p>
           `,
-          videoUrl: "https://example.com/week3-waste-management"
+          //videoUrl: "https://example.com/week3-waste-management"
         },
         {
           title: "3.4 Summary",
@@ -514,7 +514,7 @@ const CaffCourseData: CourseData = {
               </a>
             </p>
           `,
-          videoUrl: "https://example.com/week4-intro"
+          //videoUrl: "https://example.com/week4-intro"
         },
         {
           title: "4.2 Utilizing High-Pressure Liquid Chromatography (HPLC) to Analyze Caffeine Purity",
@@ -543,7 +543,7 @@ const CaffCourseData: CourseData = {
               </a>
             </p>
           `,
-          videoUrl: "https://example.com/week4-hplc-analysis"
+          //videoUrl: "https://example.com/week4-hplc-analysis"
         },
         {
           title: "4.3 Mastering HPLC Techniques to Ensure Accurate Results",
@@ -571,7 +571,7 @@ const CaffCourseData: CourseData = {
               </a>
             </p>
           `,
-          videoUrl: "https://example.com/week4-hplc-techniques"
+          //videoUrl: "https://example.com/week4-hplc-techniques"
         },
         {
           title: "4.4 IR Spectroscopy to Further Analyze Caffeine Purity",
@@ -600,7 +600,7 @@ const CaffCourseData: CourseData = {
               </a>
             </p>
           `,
-          videoUrl: "https://example.com/week4-ir-spectroscopy"
+          //videoUrl: "https://example.com/week4-ir-spectroscopy"
         },
         {
           title: "4.5 Summary",
@@ -690,7 +690,7 @@ const CaffCourseData: CourseData = {
               </a>
             </p>
           `,
-          videoUrl: "https://example.com/week5-intro"
+          //videoUrl: "https://example.com/week5-intro"
         },
         {
           title: "5.2 Designing and Performing a Comprehensive Caffeine Extraction Project",
@@ -717,7 +717,7 @@ const CaffCourseData: CourseData = {
               </a>
             </p>
           `,
-          videoUrl: "https://example.com/week5-project-design"
+          //videoUrl: "https://example.com/week5-project-design"
         },
         {
           title: "5.3 Reviewing and Applying All Safety Protocols in the Final Procedure",
@@ -744,7 +744,7 @@ const CaffCourseData: CourseData = {
               </a>
             </p>
           `,
-          videoUrl: "https://example.com/week5-safety-review"
+          //videoUrl: "https://example.com/week5-safety-review"
         },
         {
           title: "5.4 Caffeine Extraction Without the Use of Carcinogenic Chemicals",
@@ -777,7 +777,7 @@ const CaffCourseData: CourseData = {
               </a>
             </p>
           `,
-          videoUrl: "https://example.com/week5-green-extraction"
+          //videoUrl: "https://example.com/week5-green-extraction"
         },
         {
           title: "5.5 Presenting Results with an Emphasis on Safety Compliance",
@@ -802,7 +802,7 @@ const CaffCourseData: CourseData = {
               </a>
             </p>
           `,
-          videoUrl: "https://example.com/week5-presentation"
+          //videoUrl: "https://example.com/week5-presentation"
         },
         {
           title: "5.6 Summary",

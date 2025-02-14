@@ -23,11 +23,9 @@ const CircuitCourseData: CourseData = {
               <li>Circuits form the foundation of all electronic systems.</li>
             </ul>
             <p class="mt-4"><em>Tip:</em> Think of a circuit as a pathway that completes a loop, allowing energy to flow continuously.</p>
-            <p class="mt-4">
-              <img src="https://example.com/simple-circuit-diagram.png" alt="Simple Circuit Diagram" style="max-width:100%; height:auto;">
-            </p>
+            
           `,
-          videoUrl: "https://example.com/week1-introduction-to-circuits"
+          //videoUrl: "https://example.com/week1-introduction-to-circuits"
         },
         {
           title: "1.2 Materials & Wiring Basics",
@@ -42,7 +40,7 @@ const CircuitCourseData: CourseData = {
             </ul>
             <p class="mt-4"><em>Tip:</em> Using the correct wiring practices is critical for both circuit efficiency and safety.</p>
           `,
-          videoUrl: "https://example.com/week1-materials-wiring"
+          //videoUrl: "https://example.com/week1-materials-wiring"
         },
         {
           title: "1.3 Electrical Properties",
@@ -57,7 +55,7 @@ const CircuitCourseData: CourseData = {
             </ul>
             <p class="mt-4"><em>Tip:</em> Master these properties to effectively design and troubleshoot circuits.</p>
           `,
-          videoUrl: "https://example.com/week1-electrical-properties"
+          //videoUrl: "https://example.com/week1-electrical-properties"
         },
         {
           title: "1.4 Reading Circuit Diagrams",
@@ -72,7 +70,7 @@ const CircuitCourseData: CourseData = {
             </ul>
             <p class="mt-4"><em>Tip:</em> Practice reading different schematics to build your confidence in interpreting technical diagrams.</p>
           `,
-          videoUrl: "https://example.com/week1-circuit-diagrams"
+          //videoUrl: "https://example.com/week1-circuit-diagrams"
         },
         {
           title: "1.5 Breadboarding Fundamentals",
@@ -87,7 +85,7 @@ const CircuitCourseData: CourseData = {
             </ul>
             <p class="mt-4"><em>Tip:</em> Breadboarding is an essential skill for testing and iterating circuit designs quickly.</p>
           `,
-          videoUrl: "https://example.com/week1-breadboarding"
+          //videoUrl: "https://example.com/week1-breadboarding"
         },
         {
           title: "1.6 The Physics of Electricity",
@@ -102,7 +100,7 @@ const CircuitCourseData: CourseData = {
             </ul>
             <p class="mt-4"><em>Tip:</em> A strong foundation in the physics of electricity enhances your ability to design and troubleshoot circuits effectively.</p>
           `,
-          videoUrl: "https://example.com/week1-physics-electricity"
+          //videoUrl: "https://example.com/week1-physics-electricity"
         },
         {
           title: "1.7 Quiz: Foundations of Circuits & Wiring",
@@ -134,13 +132,13 @@ const CircuitCourseData: CourseData = {
               <li>Build a simple circuit on a breadboard (e.g., an LED blinking circuit).</li>
               <li>Document your circuit assembly process, including a clear diagram and photographs of your setup.</li>
               <li>Describe the materials used, wiring techniques, and safety practices followed.</li>
-              <li>Submit your lab report using the following online submission form:
+              <li>Submit your assignment using the following Link:
                 <a href="https://docs.google.com/document/d/102HvjMR2fsDhhiWrwZiaSoFYWUggAkppgXHxnVV0s4I/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Submission Form</a>.
               </li>
             </ul>
             <p class="mt-4"><em>Tip:</em> Clear documentation and detailed diagrams will showcase your practical understanding and adherence to safety protocols.</p>
           `,
-          videoUrl: "https://example.com/week1-assignment-submission"
+          //videoUrl: "https://example.com/week1-assignment-submission"
         }
       ]
     },
@@ -161,16 +159,14 @@ const CircuitCourseData: CourseData = {
               <li>In switching applications, it controls the flow of current between its collector and emitter based on a small current at its base.</li>
             </ul>
             <p class="mt-4"><em>Tip:</em> Visualize a transistor as a controlled gate that opens or closes to allow current flow.</p>
+            
             <p class="mt-4">
-              <img src="https://example.com/transistor-diagram.png" alt="Transistor Diagram" style="max-width:100%; height:auto;">
-            </p>
-            <p class="mt-4">
-              <a href="https://docs.google.com/document/d/YourTransistorDetailsURL" target="_blank" class="text-blue-600 underline">
-                Click here for additional transistor details.
-              </a>
+              <li>Submit your assignment using the following Link:
+                <a href="https://docs.google.com/document/d/102HvjMR2fsDhhiWrwZiaSoFYWUggAkppgXHxnVV0s4I/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Submission Form</a>.
+              </li>
             </p>
           `,
-          videoUrl: "https://example.com/week2-transistors"
+          //videoUrl: "https://example.com/week2-transistors"
         },
         {
           title: "2.2 Digital Logic Components",
@@ -183,16 +179,14 @@ const CircuitCourseData: CourseData = {
               <li>Switches control the state (ON/OFF) within these circuits.</li>
             </ul>
             <p class="mt-4"><em>Tip:</em> Mastery of digital logic is key to designing complex electronic systems.</p>
+            
             <p class="mt-4">
-              <img src="https://example.com/digital-logic-diagram.png" alt="Digital Logic Diagram" style="max-width:100%; height:auto;">
-            </p>
-            <p class="mt-4">
-              <a href="https://docs.google.com/document/d/YourDigitalLogicDetailsURL" target="_blank" class="text-blue-600 underline">
-                Click here for additional digital logic details.
-              </a>
+              <li>Submit your assignment using the following Link:
+                <a href="https://docs.google.com/document/d/102HvjMR2fsDhhiWrwZiaSoFYWUggAkppgXHxnVV0s4I/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Submission Form</a>.
+              </li>
             </p>
           `,
-          videoUrl: "https://example.com/week2-digital-logic"
+          //videoUrl: "https://example.com/week2-digital-logic"
         },
         {
           title: "2.3 Diodes and LEDs",
@@ -205,11 +199,11 @@ const CircuitCourseData: CourseData = {
               <li><strong>LEDs (Light Emitting Diodes):</strong> Convert electrical energy into light, serving as indicators.</li>
             </ul>
             <p class="mt-4"><em>Tip:</em> Ensure proper polarity when installing diodes and LEDs to avoid damage.</p>
-            <p class="mt-4">
-              <img src="https://example.com/diode-led-diagram.png" alt="Diode and LED Diagram" style="max-width:100%; height:auto;">
-            </p>
+            <li>Submit your assignment using the following Link:
+                <a href="https://docs.google.com/document/d/102HvjMR2fsDhhiWrwZiaSoFYWUggAkppgXHxnVV0s4I/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Submission Form</a>.
+              </li>
           `,
-          videoUrl: "https://example.com/week2-diodes-leds"
+          //videoUrl: "https://example.com/week2-diodes-leds"
         },
         {
           title: "2.4 Resistors & Current Control",
@@ -222,11 +216,11 @@ const CircuitCourseData: CourseData = {
               <li>Understanding Ohm's Law is crucial for calculating appropriate resistor values.</li>
             </ul>
             <p class="mt-4"><em>Tip:</em> Resistors are vital for preventing overcurrent conditions that can damage components.</p>
-            <p class="mt-4">
-              <img src="https://example.com/resistor-diagram.png" alt="Resistor Diagram" style="max-width:100%; height:auto;">
-            </p>
+            <li>Submit your assignment using the following Link:
+                <a href="https://docs.google.com/document/d/102HvjMR2fsDhhiWrwZiaSoFYWUggAkppgXHxnVV0s4I/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Submission Form</a>.
+              </li>
           `,
-          videoUrl: "https://example.com/week2-resistors"
+          //videoUrl: "https://example.com/week2-resistors"
         },
         {
           title: "2.5 Capacitors & Inductors",
@@ -239,11 +233,11 @@ const CircuitCourseData: CourseData = {
               <li><strong>Inductors:</strong> Store energy in a magnetic field and are used in filtering, tuning, and energy storage applications.</li>
             </ul>
             <p class="mt-4"><em>Tip:</em> Understanding these components is essential for designing circuits with proper timing and energy management.</p>
-            <p class="mt-4">
-              <img src="https://example.com/capacitor-inductor-diagram.png" alt="Capacitors and Inductors Diagram" style="max-width:100%; height:auto;">
-            </p>
+            <li>Submit your assignment using the following Link:
+                <a href="https://docs.google.com/document/d/102HvjMR2fsDhhiWrwZiaSoFYWUggAkppgXHxnVV0s4I/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Submission Form</a>.
+              </li>
           `,
-          videoUrl: "https://example.com/week2-capacitors-inductors"
+          //videoUrl: "https://example.com/week2-capacitors-inductors"
         },
         {
           title: "2.6 Integrating Components",
@@ -257,11 +251,11 @@ const CircuitCourseData: CourseData = {
               <li>Assemble the components on a breadboard for rapid prototyping and testing.</li>
             </ul>
             <p class="mt-4"><em>Tip:</em> Effective integration is the key to creating reliable circuits that perform their intended functions.</p>
-            <p class="mt-4">
-              <img src="https://example.com/integrated-circuit-diagram.png" alt="Integrated Circuit Diagram" style="max-width:100%; height:auto;">
-            </p>
+            <li>Submit your assignment using the following Link:
+                <a href="https://docs.google.com/document/d/102HvjMR2fsDhhiWrwZiaSoFYWUggAkppgXHxnVV0s4I/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Submission Form</a>.
+              </li>
           `,
-          videoUrl: "https://example.com/week2-integrating-components"
+          //videoUrl: "https://example.com/week2-integrating-components"
         },
         {
           title: "2.7 Quiz: Electrical Components & Functionality",
@@ -302,11 +296,11 @@ const CircuitCourseData: CourseData = {
               <li>Introduction to connectivity modules like Bluetooth and Wi‑Fi for device communication.</li>
             </ul>
             <p class="mt-4"><em>Tip:</em> Familiarize yourself with each type of module, as they are the building blocks of interactive projects.</p>
-            <p class="mt-4">
-              <img src="https://example.com/hardware-modules.png" alt="Hardware Modules Diagram" style="max-width:100%; height:auto;">
-            </p>
+            <li>Submit your assignment using the following Link:
+                <a href="https://docs.google.com/document/d/102HvjMR2fsDhhiWrwZiaSoFYWUggAkppgXHxnVV0s4I/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Submission Form</a>.
+              </li>
           `,
-          videoUrl: "https://example.com/week3-hardware-modules"
+          //videoUrl: "https://example.com/week3-hardware-modules"
         },
         {
           title: "3.2 Sensor Applications",
@@ -320,11 +314,11 @@ const CircuitCourseData: CourseData = {
               <li>Motion sensors detect movement to trigger events.</li>
             </ul>
             <p class="mt-4"><em>Tip:</em> Understanding sensor outputs is crucial for processing data and automating responses in your projects.</p>
-            <p class="mt-4">
-              <img src="https://example.com/sensor-applications.png" alt="Sensor Applications Diagram" style="max-width:100%; height:auto;">
-            </p>
+            <li>Submit your assignment using the following Link:
+                <a href="https://docs.google.com/document/d/102HvjMR2fsDhhiWrwZiaSoFYWUggAkppgXHxnVV0s4I/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Submission Form</a>.
+              </li>
           `,
-          videoUrl: "https://example.com/week3-sensor-applications"
+          //videoUrl: "https://example.com/week3-sensor-applications"
         },
         {
           title: "3.3 Actuators and Servos",
@@ -338,11 +332,11 @@ const CircuitCourseData: CourseData = {
               <li>DC motors offer continuous rotation for varied applications.</li>
             </ul>
             <p class="mt-4"><em>Tip:</em> Ensure that you match the actuator type with your project requirements to achieve the desired motion control.</p>
-            <p class="mt-4">
-              <img src="https://example.com/actuators-servos.png" alt="Actuators and Servos Diagram" style="max-width:100%; height:auto;">
-            </p>
+            <li>Submit your assignment using the following Link:
+                <a href="https://docs.google.com/document/d/102HvjMR2fsDhhiWrwZiaSoFYWUggAkppgXHxnVV0s4I/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Submission Form</a>.
+              </li>
           `,
-          videoUrl: "https://example.com/week3-actuators-servos"
+          //videoUrl: "https://example.com/week3-actuators-servos"
         },
         {
           title: "3.4 Communication Modules",
@@ -356,11 +350,11 @@ const CircuitCourseData: CourseData = {
               <li>Integration of communication modules is essential for IoT projects and remote monitoring.</li>
             </ul>
             <p class="mt-4"><em>Tip:</em> Choose the appropriate module based on the range and data requirements of your project.</p>
-            <p class="mt-4">
-              <img src="https://example.com/communication-modules.png" alt="Communication Modules Diagram" style="max-width:100%; height:auto;">
-            </p>
+            <li>Submit your assignment using the following Link:
+                <a href="https://docs.google.com/document/d/102HvjMR2fsDhhiWrwZiaSoFYWUggAkppgXHxnVV0s4I/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Submission Form</a>.
+              </li>
           `,
-          videoUrl: "https://example.com/week3-communication-modules"
+          //videoUrl: "https://example.com/week3-communication-modules"
         },
         {
           title: "3.5 Power Management",
@@ -374,11 +368,11 @@ const CircuitCourseData: CourseData = {
               <li>Implementing power-saving strategies for long-term operation.</li>
             </ul>
             <p class="mt-4"><em>Tip:</em> Efficient power management is critical for both portable and stationary electronic projects.</p>
-            <p class="mt-4">
-              <img src="https://example.com/power-management.png" alt="Power Management Diagram" style="max-width:100%; height:auto;">
-            </p>
+            <li>Submit your assignment using the following Link:
+                <a href="https://docs.google.com/document/d/102HvjMR2fsDhhiWrwZiaSoFYWUggAkppgXHxnVV0s4I/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Submission Form</a>.
+              </li>
           `,
-          videoUrl: "https://example.com/week3-power-management"
+          //videoUrl: "https://example.com/week3-power-management"
         },
         {
           title: "3.6 Advanced Circuit Design",
@@ -392,11 +386,11 @@ const CircuitCourseData: CourseData = {
               <li>Test and troubleshoot integrated circuits using breadboarding and simulation tools.</li>
             </ul>
             <p class="mt-4"><em>Tip:</em> Advanced circuit design requires careful planning and iterative testing to achieve a reliable final product.</p>
-            <p class="mt-4">
-              <img src="https://example.com/advanced-circuit-design.png" alt="Advanced Circuit Design Diagram" style="max-width:100%; height:auto;">
-            </p>
+            <li>Submit your assignment using the following Link:
+                <a href="https://docs.google.com/document/d/102HvjMR2fsDhhiWrwZiaSoFYWUggAkppgXHxnVV0s4I/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Submission Form</a>.
+              </li>
           `,
-          videoUrl: "https://example.com/week3-advanced-circuit-design"
+          //videoUrl: "https://example.com/week3-advanced-circuit-design"
         },
         {
           title: "3.7 Quiz: Integration of Hardware Components",
@@ -437,11 +431,11 @@ const CircuitCourseData: CourseData = {
               <li>Configure your board and COM port under the "Tools" menu.</li>
             </ul>
             <p class="mt-4"><em>Tip:</em> Ensure that your board and port settings are correct to avoid upload issues.</p>
-            <p class="mt-4">
-              <img src="https://example.com/arduino-ide-screenshot.png" alt="Arduino IDE Screenshot" style="max-width:100%; height:auto;">
-            </p>
+            <li>Submit your assignment using the following Link:
+                <a href="https://docs.google.com/document/d/102HvjMR2fsDhhiWrwZiaSoFYWUggAkppgXHxnVV0s4I/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Submission Form</a>.
+              </li>
           `,
-          videoUrl: "https://example.com/week4-arduino-ide"
+          //videoUrl: "https://example.com/week4-arduino-ide"
         },
         {
           title: "4.2 Programming Fundamentals",
@@ -456,7 +450,7 @@ const CircuitCourseData: CourseData = {
             </ul>
             <p class="mt-4"><em>Tip:</em> Start with simple examples to build a solid foundation in microcontroller programming.</p>
           `,
-          videoUrl: "https://example.com/week4-programming-fundamentals"
+          //videoUrl: "https://example.com/week4-programming-fundamentals"
         },
         {
           title: "4.3 Writing Your First Sketch",
@@ -471,11 +465,11 @@ const CircuitCourseData: CourseData = {
               <li>Monitor the serial output (if applicable) to verify successful operation.</li>
             </ol>
             <p class="mt-4"><em>Tip:</em> Experiment with modifying delay values or pin assignments to see real-time changes on your board.</p>
-            <p class="mt-4">
-              <img src="https://example.com/first-sketch-diagram.png" alt="LED Blink Sketch Diagram" style="max-width:100%; height:auto;">
-            </p>
+            <li>Submit your assignment using the following Link:
+                <a href="https://docs.google.com/document/d/102HvjMR2fsDhhiWrwZiaSoFYWUggAkppgXHxnVV0s4I/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Submission Form</a>.
+              </li>
           `,
-          videoUrl: "https://example.com/week4-first-sketch"
+          //videoUrl: "https://example.com/week4-first-sketch"
         },
         {
           title: "4.4 Hardware-Software Interface",
@@ -489,11 +483,11 @@ const CircuitCourseData: CourseData = {
               <li>Understanding signal flow from hardware to software and vice versa.</li>
             </ul>
             <p class="mt-4"><em>Tip:</em> A well-integrated hardware-software interface is the backbone of functional electronics projects.</p>
-            <p class="mt-4">
-              <img src="https://example.com/hardware-software-interface.png" alt="Hardware-Software Interface Diagram" style="max-width:100%; height:auto;">
-            </p>
+            <li>Submit your assignment using the following Link:
+                <a href="https://docs.google.com/document/d/102HvjMR2fsDhhiWrwZiaSoFYWUggAkppgXHxnVV0s4I/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Submission Form</a>.
+              </li>
           `,
-          videoUrl: "https://example.com/week4-hardware-interface"
+          //videoUrl: "https://example.com/week4-hardware-interface"
         },
         {
           title: "4.5 Debugging & Error Resolution",
@@ -509,7 +503,7 @@ const CircuitCourseData: CourseData = {
             </ul>
             <p class="mt-4"><em>Tip:</em> Patience and systematic troubleshooting are key to resolving issues efficiently.</p>
           `,
-          videoUrl: "https://example.com/week4-debugging"
+          //videoUrl: "https://example.com/week4-debugging"
         },
         {
           title: "4.6 Guided Project Walkthrough",
@@ -523,11 +517,11 @@ const CircuitCourseData: CourseData = {
               <li>Review best practices in design, integration, and testing.</li>
             </ul>
             <p class="mt-4"><em>Tip:</em> Use this walkthrough as a template for your own projects and adapt it to your specific requirements.</p>
-            <p class="mt-4">
-              <img src="https://example.com/project-walkthrough-diagram.png" alt="Project Walkthrough Diagram" style="max-width:100%; height:auto;">
-            </p>
+            <li>Submit your assignment using the following Link:
+                <a href="https://docs.google.com/document/d/102HvjMR2fsDhhiWrwZiaSoFYWUggAkppgXHxnVV0s4I/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Submission Form</a>.
+              </li>
           `,
-          videoUrl: "https://example.com/week4-guided-project"
+          //videoUrl: "https://example.com/week4-guided-project"
         },
         {
           title: "4.7 Quiz: Arduino IDE Integration",
@@ -569,7 +563,7 @@ const CircuitCourseData: CourseData = {
             </ul>
             <p class="mt-4"><em>Tip:</em> A thorough project plan sets the stage for a successful capstone by clarifying your goals and the steps needed to achieve them.</p>
           `,
-          videoUrl: "https://example.com/week5-project-planning"
+          //videoUrl: "https://example.com/week5-project-planning"
         },
         {
           title: "5.2 Detailed Circuit Design",
@@ -583,11 +577,9 @@ const CircuitCourseData: CourseData = {
               <li>Ensure proper integration by verifying component compatibility.</li>
             </ul>
             <p class="mt-4"><em>Tip:</em> Clear, well-documented schematics are essential for troubleshooting and future modifications.</p>
-            <p class="mt-4">
-              <img src="https://example.com/circuit-schematic.png" alt="Circuit Schematic Diagram" style="max-width:100%; height:auto;">
-            </p>
+            
           `,
-          videoUrl: "https://example.com/week5-circuit-design"
+          //videoUrl: "https://example.com/week5-circuit-design"
         },
         {
           title: "5.3 Assembly & Integration",
@@ -601,11 +593,11 @@ const CircuitCourseData: CourseData = {
               <li>Perform initial testing to ensure that the circuit functions as intended.</li>
             </ul>
             <p class="mt-4"><em>Tip:</em> Careful assembly and thorough testing during integration prevent future troubleshooting headaches.</p>
-            <p class="mt-4">
-              <img src="https://example.com/assembly-diagram.png" alt="Circuit Assembly Diagram" style="max-width:100%; height:auto;">
-            </p>
+            <li>Submit your assignment using the following Link:
+                <a href="https://docs.google.com/document/d/102HvjMR2fsDhhiWrwZiaSoFYWUggAkppgXHxnVV0s4I/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Submission Form</a>.
+              </li>
           `,
-          videoUrl: "https://example.com/week5-assembly"
+          //videoUrl: "https://example.com/week5-assembly"
         },
         {
           title: "5.4 Final Programming Implementation",
@@ -619,11 +611,11 @@ const CircuitCourseData: CourseData = {
               <li>Iterate your code based on testing feedback to optimize performance.</li>
             </ul>
             <p class="mt-4"><em>Tip:</em> Use the serial monitor and debugging techniques to verify that your code works seamlessly with your hardware.</p>
-            <p class="mt-4">
-              <img src="https://example.com/programming-code-diagram.png" alt="Programming Implementation Diagram" style="max-width:100%; height:auto;">
-            </p>
+            <li>Submit your assignment using the following Link:
+                <a href="https://docs.google.com/document/d/102HvjMR2fsDhhiWrwZiaSoFYWUggAkppgXHxnVV0s4I/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Submission Form</a>.
+              </li>
           `,
-          videoUrl: "https://example.com/week5-programming"
+          //videoUrl: "https://example.com/week5-programming"
         },
         {
           title: "5.5 Testing & Optimization",
@@ -638,7 +630,7 @@ const CircuitCourseData: CourseData = {
             </ul>
             <p class="mt-4"><em>Tip:</em> Document your testing process and improvements, as this information is critical for troubleshooting and future projects.</p>
           `,
-          videoUrl: "https://example.com/week5-testing"
+          //videoUrl: "https://example.com/week5-testing"
         },
         {
           title: "5.6 Peer Review & Feedback",
@@ -653,7 +645,7 @@ const CircuitCourseData: CourseData = {
             </ul>
             <p class="mt-4"><em>Tip:</em> Constructive peer feedback is a valuable tool for ensuring your final project meets high standards.</p>
           `,
-          videoUrl: "https://example.com/week5-peer-review"
+          //videoUrl: "https://example.com/week5-peer-review"
         },
         {
           title: "5.7 Quiz: Capstone Project Reflection",

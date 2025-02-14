@@ -4,9 +4,6 @@ import TakeCourseButton from "@/components/TakeCourseButton";
 import { useRef, useEffect } from "react";
 import { motion, useAnimationFrame, useMotionValue } from "framer-motion";
 import Image from "next/image";
-//import Link from "next/link";
-//import { useRouter } from "next/navigation"; // Ensure useRouter is imported
-//import { Button } from "@/components/ui/button";
 import {
   Card,
   CardContent,
@@ -22,10 +19,7 @@ import {
 } from "@/components/ui/accordion";
 
 const images = [
-  {
-    src: "/SWB.png?height=500&width=500",
-    alt: "Image 1",
-  },
+  { src: "/SWB.png?height=500&width=500", alt: "Image 1" },
   { src: "/MCDB.png?height=500&width=500", alt: "Image 2" },
   { src: "/RMB.png?height=500&width=500", alt: "Image 3" },
   { src: "/CADB.png?height=500&width=500", alt: "Image 4" },
@@ -41,7 +35,6 @@ function AnimatedImageCarousel() {
     if (containerRef.current) {
       const xValue = x.get();
       const containerWidth = containerRef.current.scrollWidth / 2;
-
       if (xValue <= -containerWidth) {
         x.set(0);
       } else {
@@ -78,8 +71,6 @@ function AnimatedImageCarousel() {
 }
 
 export default function EnhancedCourseOverviewComponent() {
-  //const router = useRouter(); // Initialize the router here
-
   return (
     <div className="min-h-screen flex flex-col">
       <main className="flex-grow">
@@ -91,11 +82,10 @@ export default function EnhancedCourseOverviewComponent() {
           <div className="container mx-auto px-4 py-12 space-y-36 mt-0">
             <section className="text-center space-y-4">
               <h1 className="text-4xl font-bold text-white">
-              3D Printing & CAD with Onshape
+                3D Printing & CAD with Onshape
               </h1>
               <p className="text-xl text-white max-w-2xl mx-auto">
-                Learn the principles of CAD and how to develop your own 3D printed models
-                through Onshape.
+                Learn the principles of CAD and how to develop your own 3D printed models through Onshape.
               </p>
             </section>
 
@@ -108,12 +98,7 @@ export default function EnhancedCourseOverviewComponent() {
               </CardHeader>
               <CardContent>
                 <p className="mb-4">
-                  This course provides a practical introduction to
-                  Computer-Aided Design (CAD) and 3D printing, teaching students
-                  to design, modify, and visualize objects for various
-                  applications. From mastering essential CAD tools to creating
-                  3D models, students will gain hands-on experience to
-                  bring their ideas to life.
+                  This course provides a practical introduction to Computer-Aided Design (CAD) and 3D printing, teaching students to design, modify, and visualize objects for various applications. From mastering essential CAD tools to creating 3D models, students will gain hands-on experience to bring their ideas to life.
                 </p>
                 <ul className="list-disc pl-5 space-y-2">
                   <li>Duration: 4 weeks</li>
@@ -129,28 +114,17 @@ export default function EnhancedCourseOverviewComponent() {
                 {/* Week 1 */}
                 <AccordionItem value="week1">
                   <AccordionTrigger>
-                    Week 1: Getting Started with Onshape and 3D Printing
+                    Week 1: Introduction to CAD and Software Setup
                   </AccordionTrigger>
                   <AccordionContent>
                     <ul className="list-disc pl-5 space-y-2">
-                      <li>Chapter 1.1: Introduction to CAD & 3D Printing
-                      </li>
-                      <li>
-                        Chapter 1.2: Setting Up Onshape
-                      </li>
-                      <li>
-                        Chapter 1.3: Introduction to 3D Printing Basics
-
-                      </li>
-                      <li>
-                        Chapter 1.4: Summary of Week 1
-
-                      </li>
-                      <li>
-                        Chapter 1.5: Creating simple 2D sketches and extrusions
-                      </li>
-                      <li>Chapter 1.6: Summary </li>
-                      <li>Chapter 1.7: Quiz </li>
+                      <li>Chapter 1.1: Introduction to CAD &amp; 3D Printing</li>
+                      <li>Chapter 1.2: Setting Up Onshape</li>
+                      <li>Chapter 1.3: Introduction to 3D Printing Basics</li>
+                      <li>Chapter 1.4: Summary of Week 1</li>
+                      <li>Chapter 1.5: Creating Simple 2D Sketches and Extrusions</li>
+                      <li>Chapter 1.6: Summary</li>
+                      <li>Chapter 1.7: Quiz</li>
                     </ul>
                   </AccordionContent>
                 </AccordionItem>
@@ -163,23 +137,12 @@ export default function EnhancedCourseOverviewComponent() {
                   <AccordionContent>
                     <ul className="list-disc pl-5 space-y-2">
                       <li>Chapter 2.1: Introduction</li>
-                      <li>
-                        Chapter 2.2: Working with primitives like cubes,
-                        spheres, and cylinders
-                      </li>
-                      <li>
-                        Chapter 2.3: Modifying shapes using extrude, revolve,
-                        and loft tools
-                      </li>
-                      <li>
-                        Chapter 2.4: Combining and subtracting shapes (Boolean
-                        operations)
-                      </li>
-                      <li>
-                        Chapter 2.5: Building simple 3D objects with precision
-                      </li>
-                      <li>Chapter 2.6: Summary </li>
-                      <li>Chapter 2.7: Quiz </li>
+                      <li>Chapter 2.2: Working with Primitives like Cubes, Spheres, and Cylinders</li>
+                      <li>Chapter 2.3: Modifying Shapes using Extrude, Revolve, and Loft Tools</li>
+                      <li>Chapter 2.4: Combining and Subtracting Shapes (Boolean Operations)</li>
+                      <li>Chapter 2.5: Building Simple 3D Objects with Precision</li>
+                      <li>Chapter 2.6: Summary</li>
+                      <li>Chapter 2.7: Quiz</li>
                     </ul>
                   </AccordionContent>
                 </AccordionItem>
@@ -192,19 +155,11 @@ export default function EnhancedCourseOverviewComponent() {
                   <AccordionContent>
                     <ul className="list-disc pl-5 space-y-2">
                       <li>Chapter 3.1: Introduction</li>
-                      <li>
-                        Chapter 3.2: Applying materials and textures to models
-                      </li>
-                      <li>
-                        Chapter 3.3: Setting up lighting and creating realistic
-                        renders
-                      </li>
-                      <li>
-                        Chapter 3.4: Exporting high-quality images and
-                        animations
-                      </li>
-                      <li>Chapter 3.5: Summary </li>
-                      <li>Chapter 3.6: Quiz </li>
+                      <li>Chapter 3.2: Applying Materials and Textures to Models</li>
+                      <li>Chapter 3.3: Setting up Lighting and Creating Realistic Renders</li>
+                      <li>Chapter 3.4: Exporting High-Quality Images and Animations</li>
+                      <li>Chapter 3.5: Summary</li>
+                      <li>Chapter 3.6: Quiz</li>
                     </ul>
                   </AccordionContent>
                 </AccordionItem>
@@ -217,43 +172,28 @@ export default function EnhancedCourseOverviewComponent() {
                   <AccordionContent>
                     <ul className="list-disc pl-5 space-y-2">
                       <li>Chapter 4.1: Introduction</li>
-                      <li>
-                        Chapter 4.2: Preparing models for 3D printing with
-                        slicing software
-                      </li>
-                      <li>
-                        Chapter 4.3: Troubleshooting and refining designs for
-                        printability
-                      </li>
-                      <li>
-                        Chapter 4.4: Understanding real-world applications of
-                        prototypes
-                      </li>
-                      <li>Chapter 4.5: Summary </li>
-                      <li>Chapter 4.6: Quiz </li>
+                      <li>Chapter 4.2: Preparing Models for 3D Printing with Slicing Software</li>
+                      <li>Chapter 4.3: Troubleshooting and Refining Designs for Printability</li>
+                      <li>Chapter 4.4: Understanding Real-World Applications of Prototypes</li>
+                      <li>Chapter 4.5: Summary</li>
+                      <li>Chapter 4.6: Quiz</li>
                     </ul>
                   </AccordionContent>
                 </AccordionItem>
 
                 {/* Week 5 */}
                 <AccordionItem value="week5">
-                  <AccordionTrigger>Week 5: Final Project</AccordionTrigger>
+                  <AccordionTrigger>
+                    Week 5: Final Project
+                  </AccordionTrigger>
                   <AccordionContent>
                     <ul className="list-disc pl-5 space-y-2">
                       <li>Chapter 5.1: Introduction</li>
-                      <li>
-                        Chapter 5.2: Developing a complete design from concept
-                        to final render
-                      </li>
-                      <li>
-                        Chapter 5.3: Incorporating advanced modeling techniques
-                      </li>
-                      <li>
-                        Chapter 5.4: Presenting and documenting the design
-                        process
-                      </li>
-                      <li>Chapter 5.5: Summary </li>
-                      <li>Chapter 5.6: Quiz </li>
+                      <li>Chapter 5.2: Developing a Complete Design from Concept to Final Render</li>
+                      <li>Chapter 5.3: Incorporating Advanced Modeling Techniques</li>
+                      <li>Chapter 5.4: Presenting and Documenting the Design Process</li>
+                      <li>Chapter 5.5: Summary</li>
+                      <li>Chapter 5.6: Quiz</li>
                     </ul>
                   </AccordionContent>
                 </AccordionItem>

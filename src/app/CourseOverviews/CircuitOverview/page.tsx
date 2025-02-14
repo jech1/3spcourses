@@ -3,9 +3,6 @@
 import { useRef, useEffect } from "react";
 import { motion, useAnimationFrame, useMotionValue } from "framer-motion";
 import Image from "next/image";
-//import Link from "next/link";
-//import { useRouter } from "next/navigation"; // Ensure useRouter is imported
-//import { Button } from "@/components/ui/button";
 import {
   Card,
   CardContent,
@@ -22,10 +19,7 @@ import {
 import TakeCourseButton from "@/components/TakeCourseButton";
 
 const images = [
-  {
-    src: "/SWB.png?height=500&width=500",
-    alt: "Image 1",
-  },
+  { src: "/SWB.png?height=500&width=500", alt: "Image 1" },
   { src: "/MCDB.png?height=500&width=500", alt: "Image 2" },
   { src: "/RMB.png?height=500&width=500", alt: "Image 3" },
   { src: "/CADB.png?height=500&width=500", alt: "Image 4" },
@@ -41,11 +35,10 @@ function AnimatedImageCarousel() {
     if (containerRef.current) {
       const xValue = x.get();
       const containerWidth = containerRef.current.scrollWidth / 2;
-
       if (xValue <= -containerWidth) {
         x.set(0);
       } else {
-        x.set(xValue - 2); // Adjust this value to change the speed
+        x.set(xValue - 2); // Adjust speed here if needed
       }
     }
   });
@@ -78,8 +71,6 @@ function AnimatedImageCarousel() {
 }
 
 export default function EnhancedCourseOverviewComponent() {
-  //const router = useRouter(); // Initialize the router here
-
   return (
     <div className="min-h-screen flex flex-col">
       <main className="flex-grow">
@@ -94,8 +85,7 @@ export default function EnhancedCourseOverviewComponent() {
                 Microcontroller & Circuit Design
               </h1>
               <p className="text-xl text-white max-w-2xl mx-auto">
-                Learn to build reliable prototypes with coding in C++, designing
-                circuits, and soldering components.
+                Learn to build reliable prototypes with coding in C++, designing circuits, and soldering components.
               </p>
             </section>
 
@@ -108,11 +98,7 @@ export default function EnhancedCourseOverviewComponent() {
               </CardHeader>
               <CardContent>
                 <p className="mb-4">
-                  This course introduces students to microcontroller programming
-                  and circuit design principles. Covering software setup,
-                  hardware components, and advanced circuitry, students will
-                  develop hands-on skills to create functional prototypes and
-                  systems.
+                  This course introduces students to microcontroller programming and circuit design principles. Covering software setup, hardware components, and advanced circuitry, students will develop hands-on skills to create functional prototypes and systems.
                 </p>
                 <ul className="list-disc pl-5 space-y-2">
                   <li>Duration: 8 weeks</li>
@@ -125,189 +111,104 @@ export default function EnhancedCourseOverviewComponent() {
             <section className="space-y-6">
               <h2 className="text-3xl font-semibold">Course Syllabus</h2>
               <Accordion type="single" collapsible className="w-full">
+                {/* Week 1 */}
                 <AccordionItem value="week1">
                   <AccordionTrigger>
-                    Week 1: Introduction, Software Setup, and Online Resources
+                    Week 1: Foundations of Circuits & Wiring
                   </AccordionTrigger>
                   <AccordionContent>
                     <ul className="list-disc pl-5 space-y-2">
-                      <li>Chapter 1.1: Introduction</li>
-                      <li>
-                        Chapter 1.2: Setting up Arduino IDE and Understanding
-                        Its Interface
-                      </li>
-                      <li>
-                        Chapter 1.3: Exploring Online Resources and Communities
-                        for Support
-                      </li>
-                      <li>
-                        Chapter 1.4: Familiarizing with Hardware Setup and
-                        Connectivity Basics
-                      </li>
-                      <li>Chapter 1.5: Summary</li>
-                      <li>Chapter 1.6: Quiz</li>
+                      <li>Chapter 1.1: Introduction to Circuits</li>
+                      <li>Chapter 1.2: Materials & Wiring Basics</li>
+                      <li>Chapter 1.3: Electrical Properties</li>
+                      <li>Chapter 1.4: Reading Circuit Diagrams</li>
+                      <li>Chapter 1.5: Breadboarding Fundamentals</li>
+                      <li>Chapter 1.6: The Physics of Electricity</li>
+                      <li>Chapter 1.7: Quiz: Foundations of Circuits & Wiring</li>
+                      <li>Chapter 1.8: Assignment Submission</li>
                     </ul>
                   </AccordionContent>
                 </AccordionItem>
+                {/* Week 2 */}
                 <AccordionItem value="week2">
                   <AccordionTrigger>
-                    Week 2: Electrical Components and Safety
+                    Week 2: Electrical Components & Functionality
                   </AccordionTrigger>
                   <AccordionContent>
                     <ul className="list-disc pl-5 space-y-2">
-                      <li>Chapter 2.1: Introduction</li>
-                      <li>
-                        Chapter 2.2: Identifying and Understanding Resistors,
-                        Capacitors, and Diodes
-                      </li>
-                      <li>
-                        Chapter 2.3: Safely Using Breadboards and Power Supplies
-                        in Circuits
-                      </li>
-                      <li>
-                        Chapter 2.4: Basic Troubleshooting Techniques for Faulty
-                        Components
-                      </li>
-                      <li>Chapter 2.5: Summary</li>
-                      <li>Chapter 2.6: Quiz</li>
+                      <li>Chapter 2.1: Transistors as Switches</li>
+                      <li>Chapter 2.2: Digital Logic Components</li>
+                      <li>Chapter 2.3: Diodes and LEDs</li>
+                      <li>Chapter 2.4: Resistors & Current Control</li>
+                      <li>Chapter 2.5: Capacitors & Inductors</li>
+                      <li>Chapter 2.6: Integrating Components</li>
+                      <li>Chapter 2.7: Quiz: Electrical Components & Functionality</li>
                     </ul>
                   </AccordionContent>
                 </AccordionItem>
+                {/* Week 3 */}
                 <AccordionItem value="week3">
                   <AccordionTrigger>
-                    Week 3: Programming a Microcontroller
+                    Week 3: Hardware Integration & Project Components
                   </AccordionTrigger>
                   <AccordionContent>
                     <ul className="list-disc pl-5 space-y-2">
-                      <li>Chapter 3.1: Introduction</li>
-                      <li>
-                        Chapter 3.2: Writing and Uploading Simple C++ Programs
-                        to Microcontrollers
-                      </li>
-                      <li>
-                        Chapter 3.3: Understanding Data Types, Variables, and
-                        Logic Control Structures
-                      </li>
-                      <li>
-                        Chapter 3.4: Using Functions to Organize Code for
-                        Complex Operations
-                      </li>
-                      <li>Chapter 3.5: Summary</li>
-                      <li>Chapter 3.6: Quiz</li>
+                      <li>Chapter 3.1: Overview of Hardware Modules</li>
+                      <li>Chapter 3.2: Sensor Applications</li>
+                      <li>Chapter 3.3: Actuators and Servos</li>
+                      <li>Chapter 3.4: Communication Modules</li>
+                      <li>Chapter 3.5: Power Management</li>
+                      <li>Chapter 3.6: Advanced Circuit Design</li>
+                      <li>Chapter 3.7: Quiz: Integration of Hardware Components</li>
                     </ul>
                   </AccordionContent>
                 </AccordionItem>
+                {/* Week 4 */}
                 <AccordionItem value="week4">
                   <AccordionTrigger>
-                    Week 4: Circuit Basics and Testing
+                    Week 4: Arduino IDE & Programming Integration
                   </AccordionTrigger>
                   <AccordionContent>
                     <ul className="list-disc pl-5 space-y-2">
-                      <li>Chapter 4.1: Introduction</li>
-                      <li>
-                        Chapter 4.2: Building Basic Circuits with LEDs,
-                        Resistors, and Switches
-                      </li>
-                      <li>
-                        Chapter 4.3: Understanding Voltage, Current, and
-                        Resistance Relationships
-                      </li>
-                      <li>
-                        Chapter 4.4: Safely Testing Circuits with a Multimeter
-                      </li>
-                      <li>Chapter 4.5: Summary</li>
-                      <li>Chapter 4.6: Quiz</li>
+                      <li>Chapter 4.1: Introduction to Arduino IDE</li>
+                      <li>Chapter 4.2: Programming Fundamentals</li>
+                      <li>Chapter 4.3: Writing Your First Sketch</li>
+                      <li>Chapter 4.4: Hardware-Software Interface</li>
+                      <li>Chapter 4.5: Debugging & Error Resolution</li>
+                      <li>Chapter 4.6: Guided Project Walkthrough</li>
+                      <li>Chapter 4.7: Quiz: Arduino IDE Integration</li>
                     </ul>
                   </AccordionContent>
                 </AccordionItem>
+                {/* Week 5 */}
                 <AccordionItem value="week5">
                   <AccordionTrigger>
-                    Week 5: Advanced Circuit Schematics
+                    Week 5: Capstone Project & Final Review
                   </AccordionTrigger>
                   <AccordionContent>
                     <ul className="list-disc pl-5 space-y-2">
-                      <li>Chapter 5.1: Introduction</li>
-                      <li>
-                        Chapter 5.2: Designing and Analyzing Complex Circuit
-                        Diagrams
-                      </li>
-                      <li>
-                        Chapter 5.3: Creating PCB Layouts for Advanced Projects
-                      </li>
-                      <li>
-                        Chapter 5.4: Integrating Sensors and Actuators for
-                        Interactive Systems
-                      </li>
-                      <li>Chapter 5.5: Summary</li>
-                      <li>Chapter 5.6: Quiz</li>
+                      <li>Chapter 5.1: Project Planning & Conceptualization</li>
+                      <li>Chapter 5.2: Detailed Circuit Design</li>
+                      <li>Chapter 5.3: Assembly & Integration</li>
+                      <li>Chapter 5.4: Final Programming Implementation</li>
+                      <li>Chapter 5.5: Testing & Optimization</li>
+                      <li>Chapter 5.6: Peer Review & Feedback</li>
+                      <li>Chapter 5.7: Quiz: Capstone Project Reflection</li>
                     </ul>
                   </AccordionContent>
                 </AccordionItem>
+                {/* Week 6 */}
                 <AccordionItem value="week6">
                   <AccordionTrigger>
-                    Week 6: Circuit Designs and Prototyping
+                    Week 6: Capstone & Peer Review – Final Submissions and Reflections
                   </AccordionTrigger>
                   <AccordionContent>
                     <ul className="list-disc pl-5 space-y-2">
-                      <li>Chapter 6.1: Introduction</li>
-                      <li>
-                        Chapter 6.2: Using Software Tools for PCB Design and
-                        Simulation
-                      </li>
-                      <li>
-                        Chapter 6.3: Testing and Refining Circuits on
-                        Breadboards
-                      </li>
-                      <li>
-                        Chapter 6.4: Exploring Best Practices for Prototype
-                        Assembly
-                      </li>
-                      <li>Chapter 6.5: Summary</li>
-                      <li>Chapter 6.6: Quiz</li>
-                    </ul>
-                  </AccordionContent>
-                </AccordionItem>
-                <AccordionItem value="week7">
-                  <AccordionTrigger>
-                    Week 7: Combining Hardware and Software
-                  </AccordionTrigger>
-                  <AccordionContent>
-                    <ul className="list-disc pl-5 space-y-2">
-                      <li>Chapter 7.1: Introduction</li>
-                      <li>
-                        Chapter 7.2: Integrating Sensors and Actuators with
-                        Microcontroller Code
-                      </li>
-                      <li>
-                        Chapter 7.3: Synchronizing Hardware Functionality with
-                        Software Logic
-                      </li>
-                      <li>
-                        Chapter 7.4: Debugging Issues in Integrated Systems
-                      </li>
-                      <li>Chapter 7.5: Summary</li>
-                      <li>Chapter 7.6: Quiz</li>
-                    </ul>
-                  </AccordionContent>
-                </AccordionItem>
-                <AccordionItem value="week8">
-                  <AccordionTrigger>
-                    Week 8: Final Project and Review
-                  </AccordionTrigger>
-                  <AccordionContent>
-                    <ul className="list-disc pl-5 space-y-2">
-                      <li>Chapter 8.1: Introduction</li>
-                      <li>Chapter 8.2: Developing a Comprehensive Project</li>
-                      <li>
-                        Chapter 8.3: Presenting the Project with a Focus on
-                        Design and Functionality
-                      </li>
-                      <li>
-                        Chapter 8.4: Reviewing Key Concepts and Discussing Next
-                        Steps for Further Learning
-                      </li>
-                      <li>Chapter 8.5: Summary</li>
-                      <li>Chapter 8.6: Quiz</li>
+                      <li>Chapter 6.1: Final Research Paper Submission</li>
+                      <li>Chapter 6.2: Final Grant Proposal Submission</li>
+                      <li>Chapter 6.3: Final Peer Review Session</li>
+                      <li>Chapter 6.4: Capstone Reflection & Course Summary</li>
+                      <li>Chapter 6.5: Final Assignments</li>
                     </ul>
                   </AccordionContent>
                 </AccordionItem>

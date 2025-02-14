@@ -28,7 +28,7 @@ const CADCourseData: CourseData = {
                 </ol>
                 <p class="mt-4"><em>Tip:</em> Keep a notebook of key points and steps to refer back to during your project work.</p>
                 <p class="mt-4">
-                  <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
+                  <a href="https://docs.google.com/document/d/1mdYmxzrTraHBUOACXeks3lQuA5tIA6yyH6LYw-UFI6w/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
                     Click here for additional details and assessment info.
                   </a>
                 </p>
@@ -55,7 +55,7 @@ const CADCourseData: CourseData = {
                 </ol>
                 <p class="mt-4"><em>Note:</em> Begin with the default settings; you can adjust your workspace later as you become more familiar.</p>
                 <p class="mt-4">
-                  <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
+                  <a href="https://docs.google.com/document/d/1mdYmxzrTraHBUOACXeks3lQuA5tIA6yyH6LYw-UFI6w/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
                     Click here for additional details and assessment info.
                   </a>
                 </p>
@@ -82,7 +82,7 @@ const CADCourseData: CourseData = {
                 </ol>
                 <p class="mt-4"><em>Tip:</em> Familiarize yourself with these areas to improve your workflow efficiency.</p>
                 <p class="mt-4">
-                  <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
+                  <a href="https://docs.google.com/document/d/1mdYmxzrTraHBUOACXeks3lQuA5tIA6yyH6LYw-UFI6w/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
                     Click here for additional details and assessment info.
                   </a>
                 </p>
@@ -110,7 +110,7 @@ const CADCourseData: CourseData = {
                 </ol>
                 <p class="mt-4"><em>Remember:</em> Mastering these basics is crucial for all future designs.</p>
                 <p class="mt-4">
-                  <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
+                  <a href="https://docs.google.com/document/d/1mdYmxzrTraHBUOACXeks3lQuA5tIA6yyH6LYw-UFI6w/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
                     Click here for additional details and assessment info.
                   </a>
                 </p>
@@ -133,7 +133,7 @@ const CADCourseData: CourseData = {
                 </ol>
                 <p class="mt-4"><em>Tip:</em> Experiment with different shapes and extrusion depths to build your confidence.</p>
                 <p class="mt-4">
-                  <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
+                  <a href="https://docs.google.com/document/d/1mdYmxzrTraHBUOACXeks3lQuA5tIA6yyH6LYw-UFI6w/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
                     Click here for additional details and assessment info.
                   </a>
                 </p>
@@ -160,7 +160,7 @@ const CADCourseData: CourseData = {
                 </ol>
                 <p class="mt-4"><em>Note:</em> Your final project will showcase your ability to create a complete model from scratch. Use this week’s lessons as your foundation.</p>
                 <p class="mt-4">
-                  <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
+                  <a href="https://docs.google.com/document/d/1mdYmxzrTraHBUOACXeks3lQuA5tIA6yyH6LYw-UFI6w/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
                     Click here for additional details and assessment info.
                   </a>
                 </p>
@@ -181,7 +181,7 @@ const CADCourseData: CourseData = {
                 </ol>
                 <p class="mt-4">Your answer will be evaluated, and feedback provided to reinforce your understanding.</p>
                 <p class="mt-4">
-                  <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
+                  <a href="https://docs.google.com/document/d/1mdYmxzrTraHBUOACXeks3lQuA5tIA6yyH6LYw-UFI6w/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
                     Click here for additional details and assessment info.
                   </a>
                 </p>
@@ -210,9 +210,9 @@ const CADCourseData: CourseData = {
             <h2 class="text-2xl font-bold">Mastering Basic 3D Modeling Techniques</h2>
             <p class="mt-4">In this week, we’ll focus on modeling simple 3D objects using basic shapes...</p>
             <p class="mt-4">It’s like working with building blocks: Start with a simple shape and then modify it to create something new and functional!</p>
-            <p class="mt-4"><a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">Click here for the Final Assessment, Due Dates, and Badge Information.</a></p>
+            <p class="mt-4"><a href="https://docs.google.com/document/d/1mdYmxzrTraHBUOACXeks3lQuA5tIA6yyH6LYw-UFI6w/edit?usp=sharing" target="_blank" class="text-blue-600 underline">Click here for the Final Assessment, Due Dates, and Badge Information.</a></p>
           `,
-          videoUrl: "https://example.com/week2-introduction",
+          //videoUrl: "https://example.com/week2-introduction",
         },
         {
           title: "Chapter 2.2: Working with Primitives like Cubes, Spheres, and Cylinders",
@@ -220,7 +220,7 @@ const CADCourseData: CourseData = {
             <h2 class="text-2xl font-bold">Working with Primitives</h2>
             <p class="mt-4">We will start by creating simple 3D objects such as cubes, spheres, and cylinders...</p>
             <p class="mt-4">These basic shapes are like the raw ingredients in cooking: You can combine them in various ways to create complex dishes (designs).</p>
-            <p class="mt-4"><a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">Click here for the Final Assessment, Due Dates, and Badge Information.</a></p>
+            <p class="mt-4"><a href="https://docs.google.com/document/d/1mdYmxzrTraHBUOACXeks3lQuA5tIA6yyH6LYw-UFI6w/edit?usp=sharing" target="_blank" class="text-blue-600 underline">Click here for the Final Assessment, Due Dates, and Badge Information.</a></p>
           `,
         },
         {
@@ -229,7 +229,7 @@ const CADCourseData: CourseData = {
             <h2 class="text-2xl font-bold">Using Extrude, Revolve, and Loft Tools</h2>
             <p class="mt-4">In this chapter, you’ll learn how to modify your shapes using the extrude, revolve, and loft tools...</p>
             <p class="mt-4">It’s like taking a flat piece of dough and rolling it, bending it, or stretching it into a custom shape.</p>
-            <p class="mt-4"><a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">Click here for the Final Assessment, Due Dates, and Badge Information.</a></p>
+            <p class="mt-4"><a href="https://docs.google.com/document/d/1mdYmxzrTraHBUOACXeks3lQuA5tIA6yyH6LYw-UFI6w/edit?usp=sharing" target="_blank" class="text-blue-600 underline">Click here for the Final Assessment, Due Dates, and Badge Information.</a></p>
           `,
         },
         {
@@ -238,7 +238,7 @@ const CADCourseData: CourseData = {
             <h2 class="text-2xl font-bold">Boolean Operations</h2>
             <p class="mt-4">Boolean operations allow you to combine or subtract shapes to create more complex designs...</p>
             <p class="mt-4">Imagine cutting pieces from a block of clay to form a unique sculpture. It’s all about refining the design!</p>
-            <p class="mt-4"><a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">Click here for the Final Assessment, Due Dates, and Badge Information.</a></p>
+            <p class="mt-4"><a href="https://docs.google.com/document/d/1mdYmxzrTraHBUOACXeks3lQuA5tIA6yyH6LYw-UFI6w/edit?usp=sharing" target="_blank" class="text-blue-600 underline">Click here for the Final Assessment, Due Dates, and Badge Information.</a></p>
           `,
         },
         {
@@ -247,7 +247,7 @@ const CADCourseData: CourseData = {
             <h2 class="text-2xl font-bold">Building with Precision</h2>
             <p class="mt-4">Precision is key in creating 3D models, so let’s focus on designing with accuracy...</p>
             <p class="mt-4">Just like measuring ingredients for a cake, precision ensures that all parts of your design fit perfectly together.</p>
-            <p class="mt-4"><a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">Click here for the Final Assessment, Due Dates, and Badge Information.</a></p>
+            <p class="mt-4"><a href="https://docs.google.com/document/d/1mdYmxzrTraHBUOACXeks3lQuA5tIA6yyH6LYw-UFI6w/edit?usp=sharing" target="_blank" class="text-blue-600 underline">Click here for the Final Assessment, Due Dates, and Badge Information.</a></p>
           `,
         },
         {
@@ -256,7 +256,7 @@ const CADCourseData: CourseData = {
             <h2 class="text-2xl font-bold">Recap of Week 2</h2>
             <p class="mt-4">This week, you learned how to build 3D objects with precision, using basic shapes and advanced modification tools...</p>
             <p class="mt-4">With these skills, you're now ready to design more intricate objects in the upcoming lessons.</p>
-            <p class="mt-4"><a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">Click here for the Final Assessment, Due Dates, and Badge Information.</a></p>
+            <p class="mt-4"><a href="https://docs.google.com/document/d/1mdYmxzrTraHBUOACXeks3lQuA5tIA6yyH6LYw-UFI6w/edit?usp=sharing" target="_blank" class="text-blue-600 underline">Click here for the Final Assessment, Due Dates, and Badge Information.</a></p>
           `,
           quiz: {
             question: "Which of the following is a benefit of using parametric modeling in CAD?",
@@ -294,7 +294,7 @@ const CADCourseData: CourseData = {
             </ol>
             <p class="mt-4"><em>Tip:</em> Write down key terms such as "materials," "textures," and "lighting" for reference.</p>
             <p class="mt-4">
-              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
+              <a href="https://docs.google.com/document/d/1mdYmxzrTraHBUOACXeks3lQuA5tIA6yyH6LYw-UFI6w/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
                 Click here for additional details and assessment info.
               </a>
             </p>
@@ -315,7 +315,7 @@ const CADCourseData: CourseData = {
             </ol>
             <p class="mt-4"><em>Tip:</em> Experiment with various materials to understand how each one interacts with light.</p>
             <p class="mt-4">
-              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
+              <a href="https://docs.google.com/document/d/1mdYmxzrTraHBUOACXeks3lQuA5tIA6yyH6LYw-UFI6w/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
                 Click here for additional details and assessment info.
               </a>
             </p>
@@ -337,7 +337,7 @@ const CADCourseData: CourseData = {
             </ol>
             <p class="mt-4"><em>Note:</em> Lighting can change the mood of your scene drastically. Try several configurations to see which one suits your model best.</p>
             <p class="mt-4">
-              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
+              <a href="https://docs.google.com/document/d/1mdYmxzrTraHBUOACXeks3lQuA5tIA6yyH6LYw-UFI6w/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
                 Click here for additional details and assessment info.
               </a>
             </p>
@@ -358,7 +358,7 @@ const CADCourseData: CourseData = {
             </ol>
             <p class="mt-4"><em>Tip:</em> Experiment with different export settings to determine the optimal quality for your needs.</p>
             <p class="mt-4">
-              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
+              <a href="https://docs.google.com/document/d/1mdYmxzrTraHBUOACXeks3lQuA5tIA6yyH6LYw-UFI6w/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
                 Click here for additional details and assessment info.
               </a>
             </p>
@@ -382,7 +382,7 @@ const CADCourseData: CourseData = {
             </ol>
             <p class="mt-4"><em>Note:</em> The skills you learned this week will be essential for showcasing your final projects.</p>
             <p class="mt-4">
-              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
+              <a href="https://docs.google.com/document/d/1mdYmxzrTraHBUOACXeks3lQuA5tIA6yyH6LYw-UFI6w/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
                 Click here for additional details and assessment info.
               </a>
             </p>
@@ -403,7 +403,7 @@ const CADCourseData: CourseData = {
             </ol>
             <p class="mt-4">Your answer will be evaluated, and you will receive detailed feedback to reinforce your learning.</p>
             <p class="mt-4">
-              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
+              <a href="https://docs.google.com/document/d/1mdYmxzrTraHBUOACXeks3lQuA5tIA6yyH6LYw-UFI6w/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
                 Click here for additional details and assessment info.
               </a>
             </p>
@@ -444,7 +444,7 @@ const CADCourseData: CourseData = {
             </ol>
             <p class="mt-4"><em>Tip:</em> Write down any questions you have about the printing process to research later.</p>
             <p class="mt-4">
-              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
+              <a href="https://docs.google.com/document/d/1mdYmxzrTraHBUOACXeks3lQuA5tIA6yyH6LYw-UFI6w/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
                 Click here for additional details and assessment info.
               </a>
             </p>
@@ -472,7 +472,7 @@ const CADCourseData: CourseData = {
             </ol>
             <p class="mt-4"><em>Tip:</em> Experiment with different settings to understand how each parameter affects print quality.</p>
             <p class="mt-4">
-              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
+              <a href="https://docs.google.com/document/d/1mdYmxzrTraHBUOACXeks3lQuA5tIA6yyH6LYw-UFI6w/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
                 Click here for additional details and assessment info.
               </a>
             </p>
@@ -499,7 +499,7 @@ const CADCourseData: CourseData = {
             </ol>
             <p class="mt-4"><em>Tip:</em> Keep a log of adjustments and outcomes to track what works best for your printer and model.</p>
             <p class="mt-4">
-              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
+              <a href="https://docs.google.com/document/d/1mdYmxzrTraHBUOACXeks3lQuA5tIA6yyH6LYw-UFI6w/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
                 Click here for additional details and assessment info.
               </a>
             </p>
@@ -525,7 +525,7 @@ const CADCourseData: CourseData = {
             </ol>
             <p class="mt-4"><em>Note:</em> Understanding real-world applications can help you better tailor your designs to meet industry needs.</p>
             <p class="mt-4">
-              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
+              <a href="https://docs.google.com/document/d/1mdYmxzrTraHBUOACXeks3lQuA5tIA6yyH6LYw-UFI6w/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
                 Click here for additional details and assessment info.
               </a>
             </p>
@@ -549,7 +549,7 @@ const CADCourseData: CourseData = {
             </ol>
             <p class="mt-4"><em>Note:</em> Your final project will integrate these prototyping techniques—use this recap to guide your planning.</p>
             <p class="mt-4">
-              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
+              <a href="https://docs.google.com/document/d/1mdYmxzrTraHBUOACXeks3lQuA5tIA6yyH6LYw-UFI6w/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
                 Click here for additional details and assessment info.
               </a>
             </p>
@@ -570,7 +570,7 @@ const CADCourseData: CourseData = {
             </ol>
             <p class="mt-4">Your answer will be reviewed and feedback provided to reinforce your learning.</p>
             <p class="mt-4">
-              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
+              <a href="https://docs.google.com/document/d/1mdYmxzrTraHBUOACXeks3lQuA5tIA6yyH6LYw-UFI6w/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
                 Click here for additional details and assessment info.
               </a>
             </p>
@@ -614,7 +614,7 @@ const CADCourseData: CourseData = {
             </ol>
             <p class="mt-4"><em>Tip:</em> Start early and iterate on your concept to refine your ideas over time.</p>
             <p class="mt-4">
-              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
+              <a href="https://docs.google.com/document/d/1mdYmxzrTraHBUOACXeks3lQuA5tIA6yyH6LYw-UFI6w/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
                 Click here for additional details and assessment info.
               </a>
             </p>
@@ -661,7 +661,7 @@ const CADCourseData: CourseData = {
             </ol>
             <p class="mt-4"><em>Tip:</em> Save multiple iterations to document your design evolution.</p>
             <p class="mt-4">
-              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
+              <a href="https://docs.google.com/document/d/1mdYmxzrTraHBUOACXeks3lQuA5tIA6yyH6LYw-UFI6w/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
                 Click here for additional details and assessment info.
               </a>
             </p>
@@ -689,7 +689,7 @@ const CADCourseData: CourseData = {
             </ol>
             <p class="mt-4"><em>Tip:</em> Document each advanced technique with screenshots and detailed notes for your portfolio.</p>
             <p class="mt-4">
-              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
+              <a href="https://docs.google.com/document/d/1mdYmxzrTraHBUOACXeks3lQuA5tIA6yyH6LYw-UFI6w/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
                 Click here for additional details and assessment info.
               </a>
             </p>
@@ -719,7 +719,7 @@ const CADCourseData: CourseData = {
             </ol>
             <p class="mt-4"><em>Tip:</em> A well-documented process not only demonstrates your technical ability but also your problem-solving and storytelling skills.</p>
             <p class="mt-4">
-              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
+              <a href="https://docs.google.com/document/d/1mdYmxzrTraHBUOACXeks3lQuA5tIA6yyH6LYw-UFI6w/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
                 Click here for additional details and assessment info.
               </a>
             </p>
@@ -745,7 +745,7 @@ const CADCourseData: CourseData = {
             </ol>
             <p class="mt-4"><em>Note:</em> This final project is the culmination of your learning journey—take pride in the comprehensive work you have accomplished.</p>
             <p class="mt-4">
-              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
+              <a href="https://docs.google.com/document/d/1mdYmxzrTraHBUOACXeks3lQuA5tIA6yyH6LYw-UFI6w/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
                 Click here for additional details and assessment info.
               </a>
             </p>
@@ -766,7 +766,7 @@ const CADCourseData: CourseData = {
             </ol>
             <p class="mt-4">Your answer will be evaluated, and detailed feedback will be provided to reinforce your understanding.</p>
             <p class="mt-4">
-              <a href="https://docs.google.com/document/d/1V2G0G06cyJDKKFyzV-BnPVOz5UbBVqgy1xxGxUp1e3Y/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
+              <a href="https://docs.google.com/document/d/1mdYmxzrTraHBUOACXeks3lQuA5tIA6yyH6LYw-UFI6w/edit?usp=sharing" target="_blank" class="text-blue-600 underline">
                 Click here for additional details and assessment info.
               </a>
             </p>

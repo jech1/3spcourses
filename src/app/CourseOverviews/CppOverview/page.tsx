@@ -127,22 +127,22 @@ export default function EnhancedCourseOverviewComponent() {
               <Accordion type="single" collapsible className="w-full">
                 <AccordionItem value="week1">
                   <AccordionTrigger>
-                    Week 1: Introduction to C++ and Development Environment{" "}
+                    Week 1: Introduction to Programming and Basic Concepts
+                    {" "}
                   </AccordionTrigger>
                   <AccordionContent>
                     <ul className="list-disc pl-5 space-y-2">
-                      <li>1.1 Introduction</li>
+                      <li>1.1 Overview of Programming Languages</li>
                       <li>
-                        1.2 Setting up Visual Studio Code and configuring the
-                        environment
+                        1.2 Overview of Frameworks, Tools, and GitHub
                       </li>
                       <li>
-                        1.3 Introduction to the terminal and basic commands
+                        1.3 Main Branches of Computer Science
                       </li>
                       <li>
-                        1.4 Understanding variables, data types, and constants
+                        1.4 What This Course Will Cover
                       </li>
-                      <li>1.5 Producing outputs and handling user input</li>
+                      <li>1.5 Introduction to the Terminal</li>
                       <li>1.6 Summary</li>
                       <li>1.7 Quiz</li>
                     </ul>
@@ -150,39 +150,39 @@ export default function EnhancedCourseOverviewComponent() {
                 </AccordionItem>
                 <AccordionItem value="week2">
                   <AccordionTrigger>
-                    Week 2: Working with Arrays{" "}
+                    Week 2: Basic Programming{" "}
                   </AccordionTrigger>
                   <AccordionContent>
                     <ul className="list-disc pl-5 space-y-2">
-                      <li>2.1 Introduction</li>
-                      <li>2.2 Introduction to arrays and their importance</li>
-                      <li>2.3 Declaring, initializing, and accessing arrays</li>
+                      <li>2.1 Understanding Programming Syntax and Data Types</li>
+                      <li>2.2 Input and Output: Using cin and cout</li>
+                      <li>2.3 Arithmetic Operations and Variables</li>
                       <li>
-                        2.4 Multi-dimensional arrays and their applications
+                        2.4 Introduction to Functions: Declaration, Definition, and Calling
+
                       </li>
                       <li>
-                        2.5 Common array operations like searching and sorting
+                        2.5 Summary
                       </li>
-                      <li>2.6 Summary</li>
-                      <li>2.7 Quiz</li>
+                      <li>2.6 Quiz</li>
                     </ul>
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="week3">
                   <AccordionTrigger>
-                    Week 3: Functions and Modular Programming{" "}
+                    Week 3: Advanced Programming Concepts{" "}
                   </AccordionTrigger>
                   <AccordionContent>
                     <ul className="list-disc pl-5 space-y-2">
-                      <li>3.1 Introduction</li>
-                      <li>3.2 Defining and calling functions</li>
-                      <li>3.3 Function arguments, return types, and scope</li>
+                      <li>3.1 Introduction to Functions and Parameter Passing</li>
+                      <li>3.2 Deep Dive: Passing by Value vs. Passing by Reference</li>
+                      <li>3.3 Best Practices for Parameter Passing</li>
                       <li>
-                        3.4 Breaking programs into modules for better
-                        organization
+                        3.4 Introduction to Arrays and Their Use in Functions
                       </li>
                       <li>
-                        3.5 Benefits of modular programming for scalability
+                        3.5 Example Walkthrough: Functions, Parameter Passing, and Arrays
+
                       </li>
                       <li>3.6 Summary</li>
                       <li>3.7 Quiz</li>
@@ -191,46 +191,41 @@ export default function EnhancedCourseOverviewComponent() {
                 </AccordionItem>
                 <AccordionItem value="week4">
                   <AccordionTrigger>
-                    Week 4: Integrating Concepts: Arrays, Functions, and Logic
+                    Week 4: Final Programming with Structures and Mini Project
                   </AccordionTrigger>
                   <AccordionContent>
                     <ul className="list-disc pl-5 space-y-2">
-                      <li>4.1 Introduction</li>
+                      <li>4.1 Introduction to Structures</li>
                       <li>
-                        4.2 Combining arrays with functions to solve complex
-                        problems
+                        4.2 Passing Structures by Value and by Reference
                       </li>
                       <li>
-                        4.3 Building small modular projects using all covered
-                        concepts
+                        4.3 Mini Project: Combining Arrays, Functions, and Structures
                       </li>
-                      <li>4.4 Debugging and refining code for efficiency</li>
-                      <li>4.5 Summary</li>
-                      <li>4.6 Quiz</li>
+                      <li>4.4 Summary</li>
+                      <li>4.5 Quiz</li>
+                      
                     </ul>
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="week5">
                   <AccordionTrigger>
-                    Week 5: Programming with Arduino and Microcontrollers{" "}
+                    Week 5: Arduino {" "}
                   </AccordionTrigger>
                   <AccordionContent>
                     <ul className="list-disc pl-5 space-y-2">
-                      <li>5.1 Introduction</li>
+                      <li>5.1 Introduction to the Arduino IDE</li>
                       <li>
-                        5.2 Introduction to Arduino IDE and basic hardware setup
+                        5.2 Utilizing Arduino Libraries
                       </li>
                       <li>
-                        5.3 Writing and uploading C++ programs to
-                        microcontrollers
+                        5.3 File Handling in Arduino: Using the SD Library
                       </li>
                       <li>
-                        5.4 Reading input from sensors and controlling output
-                        devices
+                        5.4 Configuring the Arduino IDE: Board, COM Port, and Library Manager
                       </li>
                       <li>
-                        5.5 Exploring practical applications with hardware
-                        integration
+                        5.5 Summary and Quiz
                       </li>
                       <li>5.6 Summary</li>
                       <li>5.7 Quiz</li>
@@ -239,44 +234,38 @@ export default function EnhancedCourseOverviewComponent() {
                 </AccordionItem>
                 <AccordionItem value="week6">
                   <AccordionTrigger>
-                    Week 6: File Handling in C++{" "}
+                    Week 6: Advanced Code Analysis, Debugging, and Microcontroller Integration{" "}
                   </AccordionTrigger>
                   <AccordionContent>
                     <ul className="list-disc pl-5 space-y-2">
-                      <li>6.1 Introduction</li>
-                      <li>6.2 Reading from and writing to files</li>
+                      <li>6.1 Code Analysis, Debugging, and Big O Notation</li>
+                      <li>6.2 Controlling Electronics: Servos and Motors</li>
                       <li>
-                        6.3 Using file streams for data storage and retrieval
+                        6.3 Advanced Communication: Serial Monitor, WiFi, and ESP32 Integration
                       </li>
-                      <li>6.4 Error handling in file operations</li>
-                      <li>6.5 Building programs that save and load data</li>
-                      <li>6.6 Summary</li>
-                      <li>6.7 Quiz</li>
+                      <li>6.4 Microcontrollers and Resources for Further Learning</li>
+                      
                     </ul>
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="week7">
-                  <AccordionTrigger>Week 7: Final Project </AccordionTrigger>
+                  <AccordionTrigger>Week 7: Final Project - Comprehensive Assessment </AccordionTrigger>
                   <AccordionContent>
                     <ul className="list-disc pl-5 space-y-2">
                       <li>7.1 Introduction</li>
                       <li>
-                        7.2 Designing and implementing a comprehensive program
-                        that combines all concepts
+                        7.2 C++ Programming Project Guidelines
                       </li>
                       <li>
-                        7.3 Integrating hardware (optional for those with access
-                        to microcontrollers)
+                        7.3 Arduino Project Guidelines
                       </li>
                       <li>
-                        7.4 Debugging, testing, and presenting the final project
+                        7.4 Final Project Evaluation Criteria
                       </li>
                       <li>
-                        7.5 Best practices for future learning and advanced
-                        topics
+                        7.5 Final Project Summary and Quiz
                       </li>
-                      <li>7.6 Summary</li>
-                      <li>7.7 Quiz</li>
+                     
                     </ul>
                   </AccordionContent>
                 </AccordionItem>

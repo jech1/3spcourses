@@ -35,7 +35,7 @@ const ResearchCourseData: CourseData = {
               </a>
             </p>
           `,
-          videoUrl: "https://example.com/week1-introduction"
+          //videoUrl: "https://example.com/week1-introduction"
         },
         {
           title: "1.2 Defining Research Gaps",
@@ -62,7 +62,7 @@ const ResearchCourseData: CourseData = {
               </a>
             </p>
           `,
-          videoUrl: "https://example.com/week1-research-gaps"
+          //videoUrl: "https://example.com/week1-research-gaps"
         },
         {
           title: "1.3 Hypothesis Crafting",
@@ -84,7 +84,7 @@ const ResearchCourseData: CourseData = {
             </ol>
             <p class="mt-4"><em>Tip:</em> A precise hypothesis sets the stage for effective research and accurate testing.</p>
           `,
-          videoUrl: "https://example.com/week1-hypothesis-crafting"
+          //videoUrl: "https://example.com/week1-hypothesis-crafting"
         },
         {
           title: "1.4 Peer Review Foundations",
@@ -105,7 +105,7 @@ const ResearchCourseData: CourseData = {
             </ol>
             <p class="mt-4"><em>Tip:</em> Understanding the peer review process is crucial for improving your own research design and writing.</p>
           `,
-          videoUrl: "https://example.com/week1-peer-review"
+          //videoUrl: "https://example.com/week1-peer-review"
         },
         {
           title: "1.5 Quiz: Critically Appraise a Flawed Study Design",
@@ -201,7 +201,7 @@ const ResearchCourseData: CourseData = {
               </a>
             </p>
           `,
-          videoUrl: "https://example.com/week2-experimental-design"
+          //videoUrl: "https://example.com/week2-experimental-design"
         },
         {
           title: "2.2 Advanced Survey Design",
@@ -229,7 +229,7 @@ const ResearchCourseData: CourseData = {
               </a>
             </p>
           `,
-          videoUrl: "https://example.com/week2-survey-design"
+          //videoUrl: "https://example.com/week2-survey-design"
         },
         {
           title: "2.3 Statistical Inference",
@@ -257,7 +257,7 @@ const ResearchCourseData: CourseData = {
               </a>
             </p>
           `,
-          videoUrl: "https://example.com/week2-statistical-inference"
+          //videoUrl: "https://example.com/week2-statistical-inference"
         },
         {
           title: "2.4 Data Visualization",
@@ -284,7 +284,7 @@ const ResearchCourseData: CourseData = {
               </a>
             </p>
           `,
-          videoUrl: "https://example.com/week2-data-visualization"
+          //videoUrl: "https://example.com/week2-data-visualization"
         },
         {
           title: "2.5 Quiz: Interpreting Regression Outputs with Interaction Terms",
@@ -378,7 +378,7 @@ const ResearchCourseData: CourseData = {
               </a>
             </p>
           `,
-          videoUrl: "https://example.com/week3-ethnography"
+          //videoUrl: "https://example.com/week3-ethnography"
         },
         {
           title: "3.2 Interview Mastery",
@@ -404,7 +404,7 @@ const ResearchCourseData: CourseData = {
               </a>
             </p>
           `,
-          videoUrl: "https://example.com/week3-interviews"
+          //videoUrl: "https://example.com/week3-interviews"
         },
         {
           title: "3.3 Thematic Analysis",
@@ -431,7 +431,7 @@ const ResearchCourseData: CourseData = {
               </a>
             </p>
           `,
-          videoUrl: "https://example.com/week3-thematic-analysis"
+          //videoUrl: "https://example.com/week3-thematic-analysis"
         },
         {
           title: "3.4 Mixed-Methods Triangulation",
@@ -456,7 +456,7 @@ const ResearchCourseData: CourseData = {
               </a>
             </p>
           `,
-          videoUrl: "https://example.com/week3-triangulation"
+          //videoUrl: "https://example.com/week3-triangulation"
         },
         {
           title: "3.5 Quiz: Coding Raw Interview Transcripts for Emergent Themes",
@@ -550,7 +550,7 @@ const ResearchCourseData: CourseData = {
               </a>
             </p>
           `,
-          videoUrl: "https://example.com/week4-critical-appraisal"
+          //videoUrl: "https://example.com/week4-critical-appraisal"
         },
         {
           title: "4.2 Reproducibility Crisis",
@@ -577,7 +577,7 @@ const ResearchCourseData: CourseData = {
               </a>
             </p>
           `,
-          videoUrl: "https://example.com/week4-reproducibility"
+          //videoUrl: "https://example.com/week4-reproducibility"
         },
         {
           title: "4.3 Peer Review Simulation",
@@ -604,7 +604,7 @@ const ResearchCourseData: CourseData = {
               </a>
             </p>
           `,
-          videoUrl: "https://example.com/week4-peer-review-simulation"
+          //videoUrl: "https://example.com/week4-peer-review-simulation"
         },
         {
           title: "4.4 Grant Panel Roleplay",
@@ -632,7 +632,7 @@ const ResearchCourseData: CourseData = {
               </a>
             </p>
           `,
-          videoUrl: "https://example.com/week4-grant-panel-roleplay"
+          //videoUrl: "https://example.com/week4-grant-panel-roleplay"
         },
         {
           title: "4.5 Quiz: Red Teaming a Methodology Section",
@@ -724,7 +724,7 @@ const ResearchCourseData: CourseData = {
               </a>
             </p>
           `,
-          videoUrl: "https://example.com/week5-project-workshop"
+          //videoUrl: "https://example.com/week5-project-workshop"
         },
         {
           title: "5.2 Journal Club",
@@ -746,7 +746,7 @@ const ResearchCourseData: CourseData = {
               </a>
             </p>
           `,
-          videoUrl: "https://example.com/week5-journal-club"
+          //videoUrl: "https://example.com/week5-journal-club"
         },
         {
           title: "5.3 Translational Pitch",
@@ -767,7 +767,7 @@ const ResearchCourseData: CourseData = {
               </a>
             </p>
           `,
-          videoUrl: "https://example.com/week5-translational-pitch"
+          //videoUrl: "https://example.com/week5-translational-pitch"
         },
         {
           title: "5.4 Ivy League Viva",
@@ -794,7 +794,7 @@ const ResearchCourseData: CourseData = {
               </a>
             </p>
           `,
-          videoUrl: "https://example.com/week5-viva-defense"
+          //videoUrl: "https://example.com/week5-viva-defense"
         },
         {
           title: "5.5 Quiz: Ethical Dilemma Resolution",
