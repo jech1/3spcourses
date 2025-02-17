@@ -155,11 +155,19 @@ const ResearchCourseData: CourseData = {
               <li>
                 <strong>Lab Report / Publications Assessment:</strong>
                 <ul class="list-disc list-inside ml-6 mt-1">
-                  <li>The assignment is due on <strong>3/15, 4/15, 5/15</strong> (due online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline" target="_blank">Click Here</a>).</li>
+                  <li>The assignment is due on <strong>3/1, 4/1, 5/1</strong> (due online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline" target="_blank">Click Here</a>).</li>
                   <li><a href="https://docs.google.com/document/d/1gcb2QrzsQdIWVkULTIWrBDFx_1A8GBd_vxERKSNz7RI/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Lab Report Review Instructions</a></li>
                   <li><a href="https://docs.google.com/document/d/1KtL6lD9afCsoKjCukEkAdA5CqbQ61pXlQv0A_wxlLKc/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Lab Report Example One</a></li>
                   <li><a href="https://docs.google.com/document/d/1kmFjSnXmEVKCmZDq61NeAGuEdEnQc0--/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Lab Report Example Two</a></li>
                   <li><a href="https://docs.google.com/document/d/1Oa-8nCDHAYwBGZqPLE1gJhZ1JhKDJQfk3t_4Ojkf0q4/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Lab Report Checklist And Guide</a></li>
+                </ul>
+              </li>
+              <li>
+                <strong>Second Primary Paper Review Assessment:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>The second primary article assignment is due on <strong>3/1, 4/1, 5/1</strong> (due online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline" target="_blank">Click Here</a>).</li>
+                  <li><a href="https://docs.google.com/document/d/1NylLZ3z-gtNnSLKVMWnE8yiyO6XeUzyW/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Second Primary Paper Review Instructions</a></li>
+                  <li><a href="https://docs.google.com/document/d/1kmFjSnXmEVKCmZDq61NeAGuEdEnQc0--/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Second Primary Paper Written Example Two</a></li>
                 </ul>
               </li>
             </ul>
@@ -335,7 +343,7 @@ const ResearchCourseData: CourseData = {
               <li>
                 <strong>Lab Report / Publications Assessment:</strong>
                 <ul class="list-disc list-inside ml-6 mt-1">
-                  <li>The assignment is due on <strong>3/15, 4/15, 5/15</strong> (due online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline" target="_blank">Click Here</a>).</li>
+                  <li>The assignment is due on <strong>3/1, 4/1, 5/1</strong> (due online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline" target="_blank">Click Here</a>).</li>
                   <li><a href="https://docs.google.com/document/d/1gcb2QrzsQdIWVkULTIWrBDFx_1A8GBd_vxERKSNz7RI/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Lab Report Review Instructions</a></li>
                   <li><a href="https://docs.google.com/document/d/1KtL6lD9afCsoKjCukEkAdA5CqbQ61pXlQv0A_wxlLKc/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Lab Report Example One</a></li>
                   <li><a href="https://docs.google.com/document/d/1kmFjSnXmEVKCmZDq61NeAGuEdEnQc0--/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Lab Report Example Two</a></li>
@@ -507,7 +515,7 @@ const ResearchCourseData: CourseData = {
               <li>
                 <strong>Lab Report / Publications Assessment:</strong>
                 <ul class="list-disc list-inside ml-6 mt-1">
-                  <li>The assignment is due on <strong>3/15, 4/15, 5/15</strong> (due online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline" target="_blank">Click Here</a>).</li>
+                  <li>The assignment is due on <strong>3/1, 4/1, 5/1</strong> (due online - <a href="https://forms.gle/5F8DtcDvEFMCbx9u8" class="text-blue-500 underline" target="_blank">Click Here</a>).</li>
                   <li><a href="https://docs.google.com/document/d/1gcb2QrzsQdIWVkULTIWrBDFx_1A8GBd_vxERKSNz7RI/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Lab Report Review Instructions</a></li>
                   <li><a href="https://docs.google.com/document/d/1KtL6lD9afCsoKjCukEkAdA5CqbQ61pXlQv0A_wxlLKc/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Lab Report Example One</a></li>
                   <li><a href="https://docs.google.com/document/d/1kmFjSnXmEVKCmZDq61NeAGuEdEnQc0--/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Lab Report Example Two</a></li>

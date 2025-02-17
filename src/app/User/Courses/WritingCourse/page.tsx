@@ -143,9 +143,23 @@ const WritingCourseData: CourseData = {
                 <strong>Grant Proposal Final Assessment:</strong>
                 <ul class="list-disc list-inside ml-6 mt-1">
                   <li>You may choose to submit either a lab report or a grant proposal as your final assignment. Both are due at the same time as the grant proposal.</li>
-                  <li>The assignment is due on <strong>3/15, 4/15, 5/15</strong> (submit online - <a href="https://forms.gle/U8RKt9YsHpVeTxsPA" class="text-blue-500 underline" target="_blank">Click Here</a>).</li>
+                  <li>The assignment is due on <strong>3/1, 4/1, 5/1</strong> (submit online - <a href="https://forms.gle/U8RKt9YsHpVeTxsPA" class="text-blue-500 underline" target="_blank">Click Here</a>).</li>
                   <li><a href="https://docs.google.com/document/d/1k7ktEblxvvN0AmL1VE7Krt5qbneKEf4z/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Grant Proposal Review Instructions</a></li>
                   <li><a href="https://docs.google.com/document/d/1Y-rlkNHIIXhVH77i6wD9HO-M0ITBPZUm/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Grant Proposal Example One</a></li>
+                </ul>
+              </li>
+              <li>
+                <strong>Lab Report Final Assessment:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>You may choose to submit either a lab report or a grant proposal as your final assignment. Both are due at the same time as the grant proposal.</li>
+                  <li>The assignment is due on <strong>3/1, 4/1, 5/1</strong> (submit online - <a href="https://docs.google.com/forms/d/e/1FAIpQLSdFS4YL-8CVnRuBxwihboM9cpPuXbC8kwkUAl4aybd_HPuwDA/viewform?usp=header" class="text-blue-500 underline" target="_blank">Click Here</a>).</li>
+                  <li><a href="https://docs.google.com/document/d/1YlbSC9btt2Ue2wjpeDTue5cnPy0a-CUP/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Lab Report Example One</a></li>
+                  <li><a href="https://docs.google.com/document/d/1qsKrzINuVglzoQ5dtfpEUMQAxm8WOaCLHi-40nuis00/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Lab Report Example Two</a></li>
+                  <li><a href="https://docs.google.com/document/d/1saiwbwYTzdjfLSwc_Hgo2V9tQ8cuOQb_/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Formal Lab Report Explanation and Grading Key </a></li>
+                  <li><a href="https://docs.google.com/document/d/165LFQsZbI8ru41P7WeQGjLMSbSTS03yY/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Teacher Notes - Lab Report Individual Requirements</a></li>
+                  <li><a href="https://docs.google.com/document/d/18HRpPUqxhGnybeCtZp9YdjQQ0-ijoUUi/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Materials and Methods Section for Each Lab Report</a></li>
+                  <li><a href="https://docs.google.com/document/d/1I-FwO4Vzymz-WnOcjnEhzzcGTS6Eh5Ek/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Hypothetical Lab Report Class Results</a></li>
+
                 </ul>
               </li>
             </ul>
@@ -289,11 +303,25 @@ const WritingCourseData: CourseData = {
                   <strong>Grant Proposal Final Assessment:</strong>
                   <ul class="list-disc list-inside ml-6 mt-1">
                     <li>You may choose to submit either a lab report or a grant proposal as your final assignment. Both are due at the same time as the grant proposal.</li>
-                    <li>The assignment is due on <strong>3/15, 4/15, 5/15</strong> (submit online - <a href="https://forms.gle/U8RKt9YsHpVeTxsPA" class="text-blue-500 underline" target="_blank">Click Here</a>).</li>
+                    <li>The assignment is due on <strong>3/1, 4/1, 5/1</strong> (submit online - <a href="https://forms.gle/U8RKt9YsHpVeTxsPA" class="text-blue-500 underline" target="_blank">Click Here</a>).</li>
                     <li><a href="https://docs.google.com/document/d/1k7ktEblxvvN0AmL1VE7Krt5qbneKEf4z/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Grant Proposal Review Instructions</a></li>
                     <li><a href="https://docs.google.com/document/d/1Y-rlkNHIIXhVH77i6wD9HO-M0ITBPZUm/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Grant Proposal Example One</a></li>
                   </ul>
                 </li>
+                <li>
+                <strong>Lab Report Final Assessment:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>You may choose to submit either a lab report or a grant proposal as your final assignment. Both are due at the same time as the grant proposal.</li>
+                  <li>The assignment is due on <strong>3/1, 4/1, 5/1</strong> (submit online - <a href="https://docs.google.com/forms/d/e/1FAIpQLSdFS4YL-8CVnRuBxwihboM9cpPuXbC8kwkUAl4aybd_HPuwDA/viewform?usp=header" class="text-blue-500 underline" target="_blank">Click Here</a>).</li>
+                  <li><a href="https://docs.google.com/document/d/1YlbSC9btt2Ue2wjpeDTue5cnPy0a-CUP/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Lab Report Example One</a></li>
+                  <li><a href="https://docs.google.com/document/d/1qsKrzINuVglzoQ5dtfpEUMQAxm8WOaCLHi-40nuis00/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Lab Report Example Two</a></li>
+                  <li><a href="https://docs.google.com/document/d/1saiwbwYTzdjfLSwc_Hgo2V9tQ8cuOQb_/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Formal Lab Report Explanation and Grading Key </a></li>
+                  <li><a href="https://docs.google.com/document/d/165LFQsZbI8ru41P7WeQGjLMSbSTS03yY/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Teacher Notes - Lab Report Individual Requirements</a></li>
+                  <li><a href="https://docs.google.com/document/d/18HRpPUqxhGnybeCtZp9YdjQQ0-ijoUUi/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Materials and Methods Section for Each Lab Report</a></li>
+                  <li><a href="https://docs.google.com/document/d/1I-FwO4Vzymz-WnOcjnEhzzcGTS6Eh5Ek/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Hypothetical Lab Report Class Results</a></li>
+
+                </ul>
+              </li>
               </ul>
               <p class="mt-4"><strong>Important:</strong> Attendance at a 3SP Information Session at Bergen Community College is required to receive your badge.</p>
               <p class="mt-4"><em>Lab Resources:</em> Lab data: <a href="https://docs.google.com/document/d/12lZNXUW17pE-UCbJILQd9nnXuA_ksedBwyvgIgKLjS4/edit?usp=sharing" class="text-blue-500 underline" target="_blank">click here</a>; Lab instructions: <a href="https://drive.google.com/file/d/1Cakcarue73JHPpBSsJSg4A-jiRTgp2yj/view?usp=sharing" class="text-blue-500 underline" target="_blank">click here</a>.
@@ -411,6 +439,20 @@ const WritingCourseData: CourseData = {
                     <li>Review the provided guidelines to ensure your draft meets Ivy League standards in clarity, structure, and reproducibility.</li>
                   </ul>
                 </li>
+                <li>
+                <strong>Lab Report Final Assessment:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>You may choose to submit either a lab report or a grant proposal as your final assignment. Both are due at the same time as the grant proposal.</li>
+                  <li>The assignment is due on <strong>3/1, 4/1, 5/1</strong> (submit online - <a href="https://docs.google.com/forms/d/e/1FAIpQLSdFS4YL-8CVnRuBxwihboM9cpPuXbC8kwkUAl4aybd_HPuwDA/viewform?usp=header" class="text-blue-500 underline" target="_blank">Click Here</a>).</li>
+                  <li><a href="https://docs.google.com/document/d/1YlbSC9btt2Ue2wjpeDTue5cnPy0a-CUP/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Lab Report Example One</a></li>
+                  <li><a href="https://docs.google.com/document/d/1qsKrzINuVglzoQ5dtfpEUMQAxm8WOaCLHi-40nuis00/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Lab Report Example Two</a></li>
+                  <li><a href="https://docs.google.com/document/d/1saiwbwYTzdjfLSwc_Hgo2V9tQ8cuOQb_/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Formal Lab Report Explanation and Grading Key </a></li>
+                  <li><a href="https://docs.google.com/document/d/165LFQsZbI8ru41P7WeQGjLMSbSTS03yY/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Teacher Notes - Lab Report Individual Requirements</a></li>
+                  <li><a href="https://docs.google.com/document/d/18HRpPUqxhGnybeCtZp9YdjQQ0-ijoUUi/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Materials and Methods Section for Each Lab Report</a></li>
+                  <li><a href="https://docs.google.com/document/d/1I-FwO4Vzymz-WnOcjnEhzzcGTS6Eh5Ek/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Hypothetical Lab Report Class Results</a></li>
+
+                </ul>
+              </li>
               </ul>
               <p class="mt-4"><em>Lab Resources:</em> Lab data: <a href="https://docs.google.com/document/d/12lZNXUW17pE-UCbJILQd9nnXuA_ksedBwyvgIgKLjS4/edit?usp=sharing" target="_blank" class="text-blue-500 underline">click here</a>; Lab instructions: <a href="https://drive.google.com/file/d/1Cakcarue73JHPpBSsJSg4A-jiRTgp2yj/view?usp=sharing" target="_blank" class="text-blue-500 underline">click here</a>.
             `,
@@ -537,6 +579,20 @@ const WritingCourseData: CourseData = {
                 <strong>Mandatory Session:</strong>
                 <ul class="list-disc list-inside ml-6 mt-1">
                   <li>Attendance at a 3SP Information Session at Bergen Community College is required to receive your badge.</li>
+                </ul>
+              </li>
+              <li>
+                <strong>Lab Report Final Assessment:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>You may choose to submit either a lab report or a grant proposal as your final assignment. Both are due at the same time as the grant proposal.</li>
+                  <li>The assignment is due on <strong>3/1, 4/1, 5/1</strong> (submit online - <a href="https://docs.google.com/forms/d/e/1FAIpQLSdFS4YL-8CVnRuBxwihboM9cpPuXbC8kwkUAl4aybd_HPuwDA/viewform?usp=header" class="text-blue-500 underline" target="_blank">Click Here</a>).</li>
+                  <li><a href="https://docs.google.com/document/d/1YlbSC9btt2Ue2wjpeDTue5cnPy0a-CUP/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Lab Report Example One</a></li>
+                  <li><a href="https://docs.google.com/document/d/1qsKrzINuVglzoQ5dtfpEUMQAxm8WOaCLHi-40nuis00/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Lab Report Example Two</a></li>
+                  <li><a href="https://docs.google.com/document/d/1saiwbwYTzdjfLSwc_Hgo2V9tQ8cuOQb_/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Formal Lab Report Explanation and Grading Key </a></li>
+                  <li><a href="https://docs.google.com/document/d/165LFQsZbI8ru41P7WeQGjLMSbSTS03yY/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Teacher Notes - Lab Report Individual Requirements</a></li>
+                  <li><a href="https://docs.google.com/document/d/18HRpPUqxhGnybeCtZp9YdjQQ0-ijoUUi/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Materials and Methods Section for Each Lab Report</a></li>
+                  <li><a href="https://docs.google.com/document/d/1I-FwO4Vzymz-WnOcjnEhzzcGTS6Eh5Ek/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Hypothetical Lab Report Class Results</a></li>
+
                 </ul>
               </li>
             </ul>
@@ -667,6 +723,20 @@ const WritingCourseData: CourseData = {
                   <li>This exercise is designed to enhance your critical review skills and will be submitted via your online portal.</li>
                 </ul>
               </li>
+              <li>
+                <strong>Lab Report Final Assessment:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>You may choose to submit either a lab report or a grant proposal as your final assignment. Both are due at the same time as the grant proposal.</li>
+                  <li>The assignment is due on <strong>3/1, 4/1, 5/1</strong> (submit online - <a href="https://docs.google.com/forms/d/e/1FAIpQLSdFS4YL-8CVnRuBxwihboM9cpPuXbC8kwkUAl4aybd_HPuwDA/viewform?usp=header" class="text-blue-500 underline" target="_blank">Click Here</a>).</li>
+                  <li><a href="https://docs.google.com/document/d/1YlbSC9btt2Ue2wjpeDTue5cnPy0a-CUP/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Lab Report Example One</a></li>
+                  <li><a href="https://docs.google.com/document/d/1qsKrzINuVglzoQ5dtfpEUMQAxm8WOaCLHi-40nuis00/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Lab Report Example Two</a></li>
+                  <li><a href="https://docs.google.com/document/d/1saiwbwYTzdjfLSwc_Hgo2V9tQ8cuOQb_/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Formal Lab Report Explanation and Grading Key </a></li>
+                  <li><a href="https://docs.google.com/document/d/165LFQsZbI8ru41P7WeQGjLMSbSTS03yY/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Teacher Notes - Lab Report Individual Requirements</a></li>
+                  <li><a href="https://docs.google.com/document/d/18HRpPUqxhGnybeCtZp9YdjQQ0-ijoUUi/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Materials and Methods Section for Each Lab Report</a></li>
+                  <li><a href="https://docs.google.com/document/d/1I-FwO4Vzymz-WnOcjnEhzzcGTS6Eh5Ek/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Hypothetical Lab Report Class Results</a></li>
+
+                </ul>
+              </li>
             </ul>
             <p class="mt-4"><strong>Important:</strong> Attendance at a 3SP Information Session at Bergen Community College is required to receive your badge.</p>
             <p class="mt-4"><em>Lab Resources:</em> Lab data: <a href="https://docs.google.com/document/d/12lZNXUW17pE-UCbJILQd9nnXuA_ksedBwyvgIgKLjS4/edit?usp=sharing" class="text-blue-500 underline" target="_blank">click here</a>; Lab instructions: <a href="https://drive.google.com/file/d/1Cakcarue73JHPpBSsJSg4A-jiRTgp2yj/view?usp=sharing" class="text-blue-500 underline" target="_blank">click here</a>.
@@ -774,9 +844,23 @@ const WritingCourseData: CourseData = {
                 <strong>Grant Proposal Final Assessment:</strong>
                 <ul class="list-disc list-inside ml-6 mt-1">
                   <li>You may choose to submit either a lab report or a grant proposal as your final assignment. Both are due at the same time as the grant proposal.</li>
-                  <li>The assignment is due on <strong>3/15, 4/15, 5/15</strong> (submit online - <a href="https://forms.gle/U8RKt9YsHpVeTxsPA" class="text-blue-500 underline" target="_blank">Click Here</a>).</li>
+                  <li>The assignment is due on <strong>3/1, 4/1, 5/1</strong> (submit online - <a href="https://forms.gle/U8RKt9YsHpVeTxsPA" class="text-blue-500 underline" target="_blank">Click Here</a>).</li>
                   <li><a href="https://docs.google.com/document/d/1k7ktEblxvvN0AmL1VE7Krt5qbneKEf4z/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Grant Proposal Review Instructions</a></li>
                   <li><a href="https://docs.google.com/document/d/1Y-rlkNHIIXhVH77i6wD9HO-M0ITBPZUm/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Grant Proposal Example One</a></li>
+                </ul>
+              </li>
+              <li>
+                <strong>Lab Report Final Assessment:</strong>
+                <ul class="list-disc list-inside ml-6 mt-1">
+                  <li>You may choose to submit either a lab report or a grant proposal as your final assignment. Both are due at the same time as the grant proposal.</li>
+                  <li>The assignment is due on <strong>3/1, 4/1, 5/1</strong> (submit online - <a href="https://docs.google.com/forms/d/e/1FAIpQLSdFS4YL-8CVnRuBxwihboM9cpPuXbC8kwkUAl4aybd_HPuwDA/viewform?usp=header" class="text-blue-500 underline" target="_blank">Click Here</a>).</li>
+                  <li><a href="https://docs.google.com/document/d/1YlbSC9btt2Ue2wjpeDTue5cnPy0a-CUP/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Lab Report Example One</a></li>
+                  <li><a href="https://docs.google.com/document/d/1qsKrzINuVglzoQ5dtfpEUMQAxm8WOaCLHi-40nuis00/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Lab Report Example Two</a></li>
+                  <li><a href="https://docs.google.com/document/d/1saiwbwYTzdjfLSwc_Hgo2V9tQ8cuOQb_/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Formal Lab Report Explanation and Grading Key </a></li>
+                  <li><a href="https://docs.google.com/document/d/165LFQsZbI8ru41P7WeQGjLMSbSTS03yY/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Teacher Notes - Lab Report Individual Requirements</a></li>
+                  <li><a href="https://docs.google.com/document/d/18HRpPUqxhGnybeCtZp9YdjQQ0-ijoUUi/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Materials and Methods Section for Each Lab Report</a></li>
+                  <li><a href="https://docs.google.com/document/d/1I-FwO4Vzymz-WnOcjnEhzzcGTS6Eh5Ek/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Hypothetical Lab Report Class Results</a></li>
+
                 </ul>
               </li>
             </ul>
