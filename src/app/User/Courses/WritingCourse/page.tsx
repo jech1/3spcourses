@@ -151,7 +151,7 @@ const WritingCourseData: CourseData = {
               <li>
                 <strong>Lab Report Final Assessment:</strong>
                 <ul class="list-disc list-inside ml-6 mt-1">
-                  <li>You may choose to submit either a lab report or a grant proposal as your final assignment. Both are due at the same time as the grant proposal.</li>
+                  <li>You may choose to submit either a lab report or a grant proposal as your final assignment.</li>
                   <li>The assignment is due on <strong>3/1, 4/1, 5/1</strong> (submit online - <a href="https://docs.google.com/forms/d/e/1FAIpQLSdFS4YL-8CVnRuBxwihboM9cpPuXbC8kwkUAl4aybd_HPuwDA/viewform?usp=header" class="text-blue-500 underline" target="_blank">Click Here</a>).</li>
                   <li><a href="https://docs.google.com/document/d/1YlbSC9btt2Ue2wjpeDTue5cnPy0a-CUP/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Lab Report Example One</a></li>
                   <li><a href="https://docs.google.com/document/d/1qsKrzINuVglzoQ5dtfpEUMQAxm8WOaCLHi-40nuis00/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Lab Report Example Two</a></li>
@@ -311,7 +311,7 @@ const WritingCourseData: CourseData = {
                 <li>
                 <strong>Lab Report Final Assessment:</strong>
                 <ul class="list-disc list-inside ml-6 mt-1">
-                  <li>You may choose to submit either a lab report or a grant proposal as your final assignment. Both are due at the same time as the grant proposal.</li>
+                  <li>You may choose to submit either a lab report or a grant proposal as your final assignment.</li>
                   <li>The assignment is due on <strong>3/1, 4/1, 5/1</strong> (submit online - <a href="https://docs.google.com/forms/d/e/1FAIpQLSdFS4YL-8CVnRuBxwihboM9cpPuXbC8kwkUAl4aybd_HPuwDA/viewform?usp=header" class="text-blue-500 underline" target="_blank">Click Here</a>).</li>
                   <li><a href="https://docs.google.com/document/d/1YlbSC9btt2Ue2wjpeDTue5cnPy0a-CUP/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Lab Report Example One</a></li>
                   <li><a href="https://docs.google.com/document/d/1qsKrzINuVglzoQ5dtfpEUMQAxm8WOaCLHi-40nuis00/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Lab Report Example Two</a></li>
@@ -442,7 +442,7 @@ const WritingCourseData: CourseData = {
                 <li>
                 <strong>Lab Report Final Assessment:</strong>
                 <ul class="list-disc list-inside ml-6 mt-1">
-                  <li>You may choose to submit either a lab report or a grant proposal as your final assignment. Both are due at the same time as the grant proposal.</li>
+                  <li>You may choose to submit either a lab report or a grant proposal as your final assignment.</li>
                   <li>The assignment is due on <strong>3/1, 4/1, 5/1</strong> (submit online - <a href="https://docs.google.com/forms/d/e/1FAIpQLSdFS4YL-8CVnRuBxwihboM9cpPuXbC8kwkUAl4aybd_HPuwDA/viewform?usp=header" class="text-blue-500 underline" target="_blank">Click Here</a>).</li>
                   <li><a href="https://docs.google.com/document/d/1YlbSC9btt2Ue2wjpeDTue5cnPy0a-CUP/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Lab Report Example One</a></li>
                   <li><a href="https://docs.google.com/document/d/1qsKrzINuVglzoQ5dtfpEUMQAxm8WOaCLHi-40nuis00/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Lab Report Example Two</a></li>
@@ -584,7 +584,7 @@ const WritingCourseData: CourseData = {
               <li>
                 <strong>Lab Report Final Assessment:</strong>
                 <ul class="list-disc list-inside ml-6 mt-1">
-                  <li>You may choose to submit either a lab report or a grant proposal as your final assignment. Both are due at the same time as the grant proposal.</li>
+                  <li>You may choose to submit either a lab report or a grant proposal as your final assignment.</li>
                   <li>The assignment is due on <strong>3/1, 4/1, 5/1</strong> (submit online - <a href="https://docs.google.com/forms/d/e/1FAIpQLSdFS4YL-8CVnRuBxwihboM9cpPuXbC8kwkUAl4aybd_HPuwDA/viewform?usp=header" class="text-blue-500 underline" target="_blank">Click Here</a>).</li>
                   <li><a href="https://docs.google.com/document/d/1YlbSC9btt2Ue2wjpeDTue5cnPy0a-CUP/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Lab Report Example One</a></li>
                   <li><a href="https://docs.google.com/document/d/1qsKrzINuVglzoQ5dtfpEUMQAxm8WOaCLHi-40nuis00/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Lab Report Example Two</a></li>
@@ -726,7 +726,7 @@ const WritingCourseData: CourseData = {
               <li>
                 <strong>Lab Report Final Assessment:</strong>
                 <ul class="list-disc list-inside ml-6 mt-1">
-                  <li>You may choose to submit either a lab report or a grant proposal as your final assignment. Both are due at the same time as the grant proposal.</li>
+                  <li>You may choose to submit either a lab report or a grant proposal as your final assignment.</li>
                   <li>The assignment is due on <strong>3/1, 4/1, 5/1</strong> (submit online - <a href="https://docs.google.com/forms/d/e/1FAIpQLSdFS4YL-8CVnRuBxwihboM9cpPuXbC8kwkUAl4aybd_HPuwDA/viewform?usp=header" class="text-blue-500 underline" target="_blank">Click Here</a>).</li>
                   <li><a href="https://docs.google.com/document/d/1YlbSC9btt2Ue2wjpeDTue5cnPy0a-CUP/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Lab Report Example One</a></li>
                   <li><a href="https://docs.google.com/document/d/1qsKrzINuVglzoQ5dtfpEUMQAxm8WOaCLHi-40nuis00/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Lab Report Example Two</a></li>
@@ -852,7 +852,7 @@ const WritingCourseData: CourseData = {
               <li>
                 <strong>Lab Report Final Assessment:</strong>
                 <ul class="list-disc list-inside ml-6 mt-1">
-                  <li>You may choose to submit either a lab report or a grant proposal as your final assignment. Both are due at the same time as the grant proposal.</li>
+                  <li>You may choose to submit either a lab report or a grant proposal as your final assignment.</li>
                   <li>The assignment is due on <strong>3/1, 4/1, 5/1</strong> (submit online - <a href="https://docs.google.com/forms/d/e/1FAIpQLSdFS4YL-8CVnRuBxwihboM9cpPuXbC8kwkUAl4aybd_HPuwDA/viewform?usp=header" class="text-blue-500 underline" target="_blank">Click Here</a>).</li>
                   <li><a href="https://docs.google.com/document/d/1YlbSC9btt2Ue2wjpeDTue5cnPy0a-CUP/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Lab Report Example One</a></li>
                   <li><a href="https://docs.google.com/document/d/1qsKrzINuVglzoQ5dtfpEUMQAxm8WOaCLHi-40nuis00/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Lab Report Example Two</a></li>
