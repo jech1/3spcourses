@@ -15,16 +15,24 @@ const handler = NextAuth({
   callbacks: {
     async signIn({ profile }) {
       const email = profile?.email;
-      if (
-        (email) ||
-        email === "ctully1@bergen.edu" ||
-        email === "jrodriguez154929@me.bergen.edu" ||
-        email === "tsnyder@bergen.edu" ||
-        email === "avillaroman150069@me.bergen.edu" ||
-        email === "aolarte154477@me.bergen.edu"
-      ) {
-        return true;
+
+      // Ensure email is not undefined and is a string
+      if (typeof email === 'string') {
+        // Only allow specific email addresses
+        const allowedEmails = [
+          "ctully1@bergen.edu",
+          "jrodriguez154929@me.bergen.edu",
+          "tsnyder@bergen.edu",
+          "avillaroman150069@me.bergen.edu",
+          "aolarte154477@me.bergen.edu"
+        ];
+
+        // Check if email is in the list of allowed emails
+        if (allowedEmails.includes(email)) {
+          return true;
+        }
       }
+
       return false;
     },
     async session({ session, token }) {
