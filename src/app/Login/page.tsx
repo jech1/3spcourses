@@ -67,9 +67,9 @@ const LoginPageContent = () => {
           {error === "AccessDenied" && (
             <>
               <div className="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative mb-6">
-                <strong className="font-bold">Access Denied: </strong>
+                <strong className="font-bold">Unauthorized Email: </strong>
                 <span className="block sm:inline">
-                  You must log in with an @me.bergen.edu email address.
+                  Please email tsnyder@bergen.edu for further instructions.
                 </span>
               </div>
               {console.warn("Access Denied: Non-@me.bergen.edu email used")}
