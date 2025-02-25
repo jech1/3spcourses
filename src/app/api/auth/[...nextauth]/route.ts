@@ -43,6 +43,7 @@ const handler = NextAuth({
               "pshajibaby@me.bergen.edu",
               "jperalta162934@me.bergen.edu",
               "tshahid@me.bergen.edu",
+              "msolowiej@me.bergen.edu",
         ];
 
         // Check if email is in the list of allowed emails
