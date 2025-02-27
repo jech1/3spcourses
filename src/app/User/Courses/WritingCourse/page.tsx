@@ -134,7 +134,7 @@ const WritingCourseData: CourseData = {
               <li>
                 <strong>Second Primary Paper Review Assessment:</strong>
                 <ul class="list-disc list-inside ml-6 mt-1">
-                  <li>The second primary article assignment is due on <strong>3/1, 4/1, 5/1</strong> (submit online - <a href="https://forms.gle/RcwwWkX2zQ131aRP6" class="text-blue-500 underline" target="_blank">Click Here</a>).</li>
+                  <li><a href="https://forms.gle/KWkDCmzN6x8MxFxP8" class="text-blue-500 underline" target="_blank">Click Here</a>).</li>
                   <li><a href="https://docs.google.com/document/d/1BlIKF7_2OVcZl7Gv8UPsRmFIG8tGIaVY/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Second Primary Paper Review Instructions</a></li>
                   <li><a href="https://docs.google.com/document/d/1um8jqJv9XGkY-_WqP_j8M4M3tnfWD_Qs/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Second Primary Paper Written Example Two</a></li>
                 </ul>
@@ -835,7 +835,7 @@ const WritingCourseData: CourseData = {
               <li>
                 <strong>Second Primary Paper Review Assessment:</strong>
                 <ul class="list-disc list-inside ml-6 mt-1">
-                  <li>The second primary article assignment is due on <strong>3/1, 4/1, 5/1</strong> (submit online - <a href="https://forms.gle/RcwwWkX2zQ131aRP6" class="text-blue-500 underline" target="_blank">Click Here</a>).</li>
+                  <li><a href="https://forms.gle/KWkDCmzN6x8MxFxP8" class="text-blue-500 underline" target="_blank">Click Here</a>).</li>
                   <li><a href="https://docs.google.com/document/d/1BlIKF7_2OVcZl7Gv8UPsRmFIG8tGIaVY/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Second Primary Paper Review Instructions</a></li>
                   <li><a href="https://docs.google.com/document/d/1um8jqJv9XGkY-_WqP_j8M4M3tnfWD_Qs/edit?usp=sharing&ouid=110583200227002215775&rtpof=true&sd=true" class="text-blue-500 underline" target="_blank">Second Primary Paper Written Example Two</a></li>
                 </ul>
