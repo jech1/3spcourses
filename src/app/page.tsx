@@ -91,7 +91,7 @@ export default function Home() {
                 size="lg"
                 className="bg-white text-[#11001C] hover:bg-gray-100"
               >
-                Explore Pathways
+                Explore Pathway
               </Button>
             </Link>
           </div>
