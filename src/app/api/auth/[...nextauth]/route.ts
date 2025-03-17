@@ -68,8 +68,7 @@ const handler = NextAuth({
               "mpham@me.bergen.edu",
               "lramirez170312@me.bergen.edu",
               "jseo164585@me.bergen.edu",
-
-
+              "llapitan158805@me.bergen.edu",
 
               
               
