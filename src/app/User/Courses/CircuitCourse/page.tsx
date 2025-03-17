@@ -1,5 +1,6 @@
 "use client";
 
+import Head from "next/head";
 import CoursePage from "../../Components/CoursePage";
 import { CourseData } from "../../types/courseTypes";
 
@@ -678,5 +679,14 @@ const CircuitCourseData: CourseData = {
 // The code below is necessary for the component to function correctly
 
 export default function CircuitCoursePage() {
-  return <CoursePage courseData={CircuitCourseData} />;
+  return (
+    <>
+      <Head>
+        <title>Microcontroller & Circuit Design Course</title>
+        <meta name="description" content="Learn about microcontroller and circuit design with hands-on projects, quizzes, and assignments." />
+      </Head>
+      <CoursePage courseData={CircuitCourseData} />
+    </>
+  );
 }
+

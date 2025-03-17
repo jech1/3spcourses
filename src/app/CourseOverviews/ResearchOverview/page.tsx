@@ -1,5 +1,6 @@
 "use client";
 
+import Head from "next/head";
 import { useRef, useEffect } from "react";
 import { motion, useAnimationFrame, useMotionValue } from "framer-motion";
 import Image from "next/image";
@@ -59,6 +60,14 @@ function AnimatedImageCarousel() {
 
   return (
     <div className="w-full overflow-hidden p-40">
+      <Head>
+        <title>Scientific Writing & Grant Proposal Overview - 3SP Courses</title>
+        <meta
+          name="description"
+          content="Explore the Scientific Writing & Grant Proposal course overview. Master the fundamentals of scientific writing, grant proposals, research papers, and academic presentations for academic and professional success."
+        />
+        <meta name="robots" content="index, follow" />
+      </Head>
       <motion.div ref={containerRef} className="flex space-x-4" style={{ x }}>
         {images.concat(images).map((image, index) => (
           <div key={index} className="flex-shrink-0">

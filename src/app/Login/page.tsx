@@ -1,5 +1,6 @@
 "use client";
 
+import Head from "next/head";
 import { Suspense } from "react";
 import { signIn } from "next-auth/react";
 import { useSearchParams, useRouter } from "next/navigation";
@@ -45,8 +46,22 @@ const LoginPageContent = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-[#632a88] to-white flex items-center justify-center px-4 sm:px-6 lg:px-8">
+      <Head>
+        <title>Login | 3SP Course Platform</title>
+        <meta name="description" content="Sign in to 3SP Course Platform to access your courses and dashboard. Please use your me.bergen.edu email to log in." />
+        <meta name="robots" content="noindex, nofollow" />
+        <meta property="og:title" content="Login | 3SP Course Platform" />
+        <meta property="og:description" content="Sign in to 3SP Course Platform to access your courses and dashboard. Please use your me.bergen.edu email to log in." />
+        <meta property="og:url" content="https://3spcourses.com/login" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Login | 3SP Course Platform" />
+        <meta name="twitter:description" content="Sign in to 3SP Course Platform to access your courses and dashboard. Please use your me.bergen.edu email to log in." />
+      </Head>
+
       <Card className="w-full max-w-md">
         {/* Header */}
+
         <CardHeader className="space-y-1">
           <div className="flex justify-center mb-4">
             <Image

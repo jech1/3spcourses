@@ -1,5 +1,6 @@
 "use client";
 
+import Head from "next/head";
 import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -7,6 +8,19 @@ const inter = Inter({ subsets: ["latin"] });
 export default function TermsAndConditions() {
   return (
     <div className={`min-h-screen flex flex-col ${inter.className}`}>
+      <Head>
+        <title>Terms and Conditions | 3SP Course Platform</title>
+        <meta name="description" content="Please read our terms and conditions carefully before using the services of 3SP Course Platform. This page outlines the rules for using our website, intellectual property, restrictions, and more." />
+        <meta name="robots" content="noindex, nofollow" />
+        <meta property="og:title" content="Terms and Conditions | 3SP Course Platform" />
+        <meta property="og:description" content="Please read our terms and conditions carefully before using the services of 3SP Course Platform. This page outlines the rules for using our website, intellectual property, restrictions, and more." />
+        <meta property="og:url" content="https://yourwebsite.com/terms-and-conditions" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Terms and Conditions | 3SP Course Platform" />
+        <meta name="twitter:description" content="Please read our terms and conditions carefully before using the services of 3SP Course Platform. This page outlines the rules for using our website, intellectual property, restrictions, and more." />
+      </Head>
+
       <main className="flex-grow">
         <section className="bg-gradient-to-b from-[#632a88] to-white text-white py-20">
           <div className="container mx-auto px-4 text-center">

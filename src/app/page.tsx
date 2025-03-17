@@ -1,6 +1,7 @@
 "use client";
 
 //import { useRouter } from "next/navigation";
+import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import AnimatedImageCarousel from "../components/ui/AnimatedImageCarousel";
@@ -68,6 +69,11 @@ export default function Home() {
   //const router = useRouter();
   return (
     <div className="min-h-screen flex flex-col">
+      <Head>
+        <title>3SP Courses - Empower Your Future with STEM Learning</title>
+        <meta name="description" content="Explore cutting-edge online courses designed to enhance your skills in STEM. Learn, grow, and succeed with 3SP Courses." />
+        <meta name="robots" content="index, follow" />
+      </Head>
       <main className="flex-grow">
         {/* Hero Section */}
         <section className="bg-gradient-to-b from-[#632a88] to-white text-white py-20">

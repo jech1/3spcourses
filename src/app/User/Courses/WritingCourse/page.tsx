@@ -1,5 +1,6 @@
 "use client";
 
+import Head from "next/head";
 import CoursePage from "../../Components/CoursePage";
 import { CourseData } from "../../types/courseTypes";
 
@@ -880,5 +881,15 @@ const WritingCourseData: CourseData = {
 // The code below is necessary for the component to function correctly
 
 export default function WritingCoursePage() {
-  return <CoursePage courseData={WritingCourseData} />;
+  return (
+    <>
+      <Head>
+        <title>Scientific Writing & Grant Proposal - 3SP Courses</title>
+        <meta name="description" content="Learn the fundamentals of scientific writing and grant proposal creation in this comprehensive course. Improve your writing skills and advance your research capabilities." />
+        <meta name="robots" content="index, follow" />
+      </Head>
+
+      <CoursePage courseData={WritingCourseData} />
+    </>
+  );
 }

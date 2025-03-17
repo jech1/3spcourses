@@ -1,5 +1,6 @@
 "use client";
 
+import Head from "next/head";
 import { Inter } from "next/font/google";
 import Image from "next/image";
 
@@ -59,6 +60,14 @@ export default function CoursePathways() {
 
   return (
     <div className={`min-h-screen flex flex-col ${inter.className}`}>
+      <Head>
+        <title>3SP Courses Pathways - Empower Your Future with Technology</title>
+        <meta
+          name="description"
+          content="Explore 3SP’s courses that empower STEM students to grow, succeed, and advance their careers in technology. Learn about each course and the pathways they offer."
+        />
+        <meta name="robots" content="index, follow" />
+      </Head>
       <main className="flex-grow">
         <section className="bg-gradient-to-b from-[#632a88] to-white text-white py-20">
           <div className="container mx-auto px-4 text-center">

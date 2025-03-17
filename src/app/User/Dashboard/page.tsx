@@ -1,9 +1,11 @@
 "use client";
 
+import Head from "next/head";
 import { useSession } from "next-auth/react";
 import Link from "next/link";
 import CourseCard from "../Components/CourseCard";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+
 
 // Sample courses array
 const courses = [
@@ -62,10 +64,18 @@ export default function Dashboard() {
   return (
     <div className="min-h-screen bg-gray-100 relative overflow-hidden">
       {/* Subtle background animation */}
+      <Head>
+        <title>3SP Courses - Your Dashboard</title>
+        <meta name="description" content="Welcome to your dashboard on 3SP Courses. Explore your enrolled courses and resources to enhance your STEM learning." />
+        <meta name="robots" content="index, follow" />
+      </Head>
+
       <div
         className="absolute inset-0 bg-gradient-to-b from-purple-600 to-transparent opacity-20 animate-pulse  z-0 pointer-events-none"
         style={{ animationDuration: "3s" }}
+
       ></div>
+
 
       <main className="container mx-auto px-0 py-8 relative z-10">
         {/* Smaller Welcome Card */}

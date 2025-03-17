@@ -1,5 +1,6 @@
 "use client";
 
+import Head from "next/head";
 // import { useState, useEffect, useCallback } from "react";
 // import { Button } from "@/components/ui/button";
 // import { ChevronLeft, ChevronRight, Play } from "lucide-react";
@@ -859,5 +860,18 @@ const CaffCourseData: CourseData = {
 };
 
 export default function CaffCoursePage() {
-  return <CoursePage courseData={CaffCourseData} />;
+  return (
+    <>
+      <Head>
+        <title>Caffeine Extraction Course</title>
+        <meta name="description" content="Learn the science of caffeine extraction, including methods, lab safety, purification techniques, and more." />
+      </Head>
+      <CoursePage courseData={CaffCourseData} />
+    </>
+  );
 }
+
+
+
+
+

@@ -1,5 +1,6 @@
 "use client";
 
+import Head from "next/head";
 import CoursePage from "../../Components/CoursePage";
 import { CourseData } from "../../types/courseTypes";
 
@@ -838,5 +839,16 @@ const ResearchCourseData: CourseData = {
 // The code below is necessary for the component to function correctly
 
 export default function ResearchCoursePage() {
-  return <CoursePage courseData={ResearchCourseData} />;
+  return (
+    <>
+      <Head>
+        <title>Research Methods & Analytics - 3SP Courses</title>
+        <meta name="description" content="Learn the fundamentals of research methods and analytics in this comprehensive course. Improve your research capabilities and analytical skills." />
+        <meta name="robots" content="index, follow" />
+      </Head>
+      
+      <CoursePage courseData={ResearchCourseData} />
+    </>
+  );
+  
 }

@@ -1,5 +1,6 @@
 "use client";
 
+import Head from "next/head";
 import CoursePage from "../../Components/CoursePage";
 import { CourseData } from "../../types/courseTypes";
 
@@ -1330,5 +1331,18 @@ int main() {
 // The code below is necessary for the component to function correctly
 
 export default function CppCoursePage() {
-  return <CoursePage courseData={CppCourseData} />;
+  return (
+    <>
+      <Head>
+        <title>C++ Project Design - Learn Advanced C++ Programming</title>
+        <meta 
+          name="description" 
+          content="Master advanced C++ concepts like programming languages, tools, frameworks, and GitHub, through structured lessons, projects, and quizzes." 
+        />
+        <meta name="robots" content="index, follow" />
+      </Head>
+      
+      <CoursePage courseData={CppCourseData} />
+    </>
+  );
 }

@@ -1,5 +1,6 @@
 import CoursePage from "../../Components/CoursePage";
 import { CourseData } from "../../types/courseTypes";
+import Head from "next/head";
 
 const CADCourseData: CourseData = {
   title: "3D Printing & CAD with Onshape",
@@ -792,5 +793,13 @@ const CADCourseData: CourseData = {
 };
 
 export default function CADCoursePage() {
-  return <CoursePage courseData={CADCourseData} />;
+  return (
+    <>
+      <Head>
+        <title>3D Printing & CAD with Onshape</title>
+        <meta name="description" content="Learn how to design and prototype using Onshape CAD software and 3D printing, from basic sketching to advanced modeling and rendering." />
+      </Head>
+      <CoursePage courseData={CADCourseData} />
+    </>
+  );
 }
