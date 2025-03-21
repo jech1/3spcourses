@@ -76,6 +76,7 @@ const handler = NextAuth({
               "gmetohu@me.bergen.edu",
               "abhaskarsharma@me.bergen.edu",
               "econcha146191@me.bergen.edu",
+              "dchiniaev@me.bergen.edu",
 
 
               
