@@ -90,6 +90,14 @@ const handler = NextAuth({
               "lhahn148555@me.bergen.edu",
               "mflores149134@me.bergen.edu",
               "pcarlton@me.bergen.edu",
+              "evurgun@me.bergen.edu",
+              "jharstead161061@me.bergen.edu",
+              "mmorahidalgo@me.bergen.edu",
+              "klatinoski@me.bergen.edu",
+              "jmok@me.bergen.edu",
+              "twoodside@me.bergen.edu",
+              "stos@me.bergen.edu",
+              "momran141269@me.bergen.edu",
 
               
 
