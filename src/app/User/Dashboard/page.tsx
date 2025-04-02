@@ -128,7 +128,7 @@ export default function Dashboard() {
                     <ul className="space-y-2">
                       <li>
                         <Link
-                          href="CoursesPathways.png"
+                          href="/CoursePathways"
                           className="hover:underline"
                           target="_blank"
                           rel="noopener noreferrer"
