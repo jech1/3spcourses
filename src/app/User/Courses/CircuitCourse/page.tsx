@@ -344,24 +344,60 @@ const CircuitCourseData: CourseData = {
           }
         },
         {
-          title: "1.8 Practice Assignment ",
+          title: "1.8 Practice Assignment",
           content: `
-            <h2 class="text-2xl font-bold">Slide 8: Practice Assignment </h2>
-            <p class="mt-4"><strong>Objective:</strong> Document and submit your lab report on the practical breadboarding exercise.</p>
+            <h2 class="text-2xl font-bold">Slide 8: Practice Assignment – Breadboarding & Documentation</h2>
+            <p class="mt-4"><strong>Objective:</strong> Reinforce foundational circuit concepts by building a real circuit on a breadboard and practicing technical documentation.</p>
+        
+            <h3 class="text-xl font-semibold mt-6">Overview:</h3>
+            <p>This practice assignment is <strong>not graded</strong> but is <strong>highly important</strong> for your skill development. It bridges the gap between theory and hands-on work, preparing you for real-world labs and future capstone projects. The goal is to practice building, documenting, and reflecting on your first breadboarded circuit — a vital skill in electrical engineering and embedded system design.</p>
+        
+            <h3 class="text-xl font-semibold mt-6">What You'll Learn by Doing This:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li>How to assemble a functional circuit from scratch using a breadboard</li>
+              <li>How to interpret and create simple wiring diagrams</li>
+              <li>Best practices in safety and proper component orientation</li>
+              <li>How to document your work visually and descriptively — just like engineers do</li>
+            </ul>
+        
             <h3 class="text-xl font-semibold mt-6">Instructions:</h3>
             <ul class="list-disc list-inside mt-2">
-              <li>Build a simple circuit on a breadboard (e.g., an LED blinking circuit).</li>
-              <li>Document your circuit assembly process, including a clear diagram and photographs of your setup.</li>
-              <li>Describe the materials used, wiring techniques, and safety practices followed.</li>
-              
-            </ul>
-            <p class="mt-4"><em>Tip:</em> Clear documentation and detailed diagrams will showcase your practical understanding and adherence to safety protocols.</p>
-          <li>Submition information and futher documentation for the final project can be found with the following Link:
-                <a href="https://docs.google.com/document/d/102HvjMR2fsDhhiWrwZiaSoFYWUggAkppgXHxnVV0s4I/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Submission Form</a>.
+              <li><strong>Build:</strong> Create a simple LED blink circuit on your breadboard using an Arduino, 1 LED, a 220Ω resistor, and jumper wires.</li>
+              <li><strong>Diagram:</strong> Sketch a clear diagram showing connections between the Arduino and each component. You may use drawing apps, Fritzing, or hand-draw it neatly on paper.</li>
+              <li><strong>Photograph:</strong> Take 1-2 clear pictures of your actual circuit from above and at an angle so all components are visible.</li>
+              <li><strong>Describe:</strong>
+                <ul class="ml-6 list-disc">
+                  <li>List the materials you used</li>
+                  <li>Explain how you decided where to place each wire/component</li>
+                  <li>Mention any challenges you encountered while wiring</li>
+                  <li>Include at least 2 safety steps you followed while powering or handling the circuit</li>
+                </ul>
               </li>
-            `,
+            </ul>
+        
+            <h3 class="text-xl font-semibold mt-6">Optional Enhancements:</h3>
+            <ul class="list-disc list-inside mt-2">
+              <li>Try modifying the code to blink the LED faster or slower</li>
+              <li>Add a pushbutton to control when the LED turns on</li>
+              <li>Use two LEDs and blink them in alternating patterns</li>
+            </ul>
+        
+            <h3 class="text-xl font-semibold mt-6">Reflection Prompt:</h3>
+            <p>Take 5–10 minutes to reflect in your notes: What did you learn from building this circuit? What would you do differently if you rebuilt it? Where do you still feel confused? This reflection is for your own growth and will help you identify questions to bring to class or office hours.</p>
+        
+            <h3 class="text-xl font-semibold mt-6">Why This Matters:</h3>
+            <p>In the field of electrical and computer engineering, documentation is everything. From lab notes to research reports to real-world debugging, clear records of your builds will help you succeed. Practicing now sets you up for success later — in this course and in future professional or academic projects.</p>
+        
+            <h3 class="text-xl font-semibold mt-6">Simple Summary:</h3>
+            <p>This assignment helps you practice what you learned in Week 1 — how circuits work, how to build them safely, and how to explain your process clearly. You’ll build a real LED circuit, take pictures of it, write down what you did, and reflect on the experience. It’s not graded, but it’s one of the most important things you can do to get comfortable with electronics early on. Doing this will make all the upcoming lessons easier to understand and more fun to complete.</p>
+        
+            <li>Submition information and further documentation for your final project can be found with the following Link:
+              <a href="https://docs.google.com/document/d/102HvjMR2fsDhhiWrwZiaSoFYWUggAkppgXHxnVV0s4I/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Submission Form</a>.
+            </li>
+          `,
           //videoUrl: "https://example.com/week1-assignment-submission"
         }
+        
       ]
     },
     
@@ -732,15 +768,69 @@ const CircuitCourseData: CourseData = {
         {
           title: "2.8 Practice Assignment",
           content: `
-            <h2 class="text-2xl font-bold">Slide 8: Quiz - Understanding Circuit Analysis</h2>
-            <p class="mt-4"><strong>Objective:</strong> Test your understanding of how to analyze and troubleshoot circuits, focusing on the importance of voltage and current levels.</p>
-            <h3 class="text-xl font-semibold mt-6">Quiz Question:</h3>
-            <p class="mt-2"><strong>Question:</strong> What is the primary purpose of voltage and current levels in a circuit? Provide an example.</p>
-            <p class="mt-4"><em>Tip:</em> Think about a simple circuit where a transistor acts as a switch, a resistor limits current, and a diode protects the circuit from reverse polarity.</p>
-          <li>Submition information and futher documentation can be found with the following Link:
-                <a href="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" class="text-blue-500 underline" target="_blank">Submission Form</a>.
-              </li>`,
-        },
+            <h2 class="text-2xl font-bold">Slide 8: Practice Assignment – Understanding Circuit Analysis</h2>
+            <p class="mt-4"><strong>Objective:</strong> Strengthen your ability to analyze circuits by recalling key concepts from both Week 1 and Week 2. This is a memory-boosting activity — no submission required — designed to reinforce long-term understanding.</p>
+        
+            <h3 class="text-xl font-semibold mt-6">Why This Is Important:</h3>
+            <p>To build real-world electronic systems, you need more than just wiring skills — you must be able to analyze what’s happening inside your circuit. This means understanding how components interact, how voltage and current behave, and how to spot issues before they become problems. This activity combines knowledge from <strong>Week 1: Foundations</strong> and <strong>Week 2: Components & Functionality</strong> to help you become a confident circuit builder and troubleshooter.</p>
+        
+            <h3 class="text-xl font-semibold mt-6">Core Challenge:</h3>
+            <p><strong>Scenario:</strong> You’ve built a simple circuit with the following components:</p>
+            <ul class="list-disc list-inside mt-2 ml-4">
+              <li>One transistor acting as a switch</li>
+              <li>An LED with a 220Ω resistor in series</li>
+              <li>A diode protecting the circuit from reverse polarity</li>
+              <li>A motion sensor that triggers the transistor’s base</li>
+            </ul>
+        
+            <p class="mt-4"><strong>Your Task:</strong> On paper or in your notebook, draw the circuit and answer the following:</p>
+            <ol class="list-decimal list-inside ml-4 mt-2">
+              <li>Which component in this circuit <em>controls</em> when current flows to the LED?</li>
+              <li>Why is the resistor placed before the LED, and what might happen if you remove it?</li>
+              <li>Explain what role the diode plays in terms of protecting the components.</li>
+              <li>Estimate the voltage drop across the LED. What’s left for the resistor?</li>
+              <li>Draw arrows showing current flow when the sensor detects motion.</li>
+            </ol>
+        
+            <h3 class="text-xl font-semibold mt-6">Recall Check: Week 1 Flash Questions</h3>
+            <ul class="list-disc list-inside mt-2 ml-4">
+              <li>✅ What is a circuit, and why must it be closed?</li>
+              <li>✅ What's the difference between a conductor and an insulator?</li>
+              <li>✅ What does Ohm’s Law help you calculate?</li>
+              <li>✅ What’s the unit of resistance?</li>
+              <li>✅ Which pin on a breadboard row connects to all others?</li>
+            </ul>
+        
+            <h3 class="text-xl font-semibold mt-6">Recall Check: Week 2 Flash Questions</h3>
+            <ul class="list-disc list-inside mt-2 ml-4">
+              <li>✅ What does a transistor do in switching mode?</li>
+              <li>✅ Name 2 logic gates and describe their behavior.</li>
+              <li>✅ What’s the main function of a capacitor in a circuit?</li>
+              <li>✅ How does an inductor store energy?</li>
+              <li>✅ What’s the importance of choosing the correct resistor value?</li>
+            </ul>
+        
+            <h3 class="text-xl font-semibold mt-6">Hands-On Review Task (Optional):</h3>
+            <p>Rebuild a small test circuit using any of these components you’ve covered:</p>
+            <ul class="list-disc list-inside ml-4">
+              <li>A diode + resistor + LED</li>
+              <li>One transistor as a switch, controlled by a pushbutton</li>
+              <li>Logic gate simulation (AND or NOT) using switches and LEDs (can be done with Tinkercad)</li>
+            </ul>
+            <p>Sketch your result, take notes on what worked and what didn’t, and reflect on how it connects to what you’ve learned so far.</p>
+        
+            <h3 class="text-xl font-semibold mt-6">Reflection Prompt:</h3>
+            <p>Write or speak out loud: What are 3 things you now understand better from this exercise? What’s 1 thing that still confuses you? (You can bring this question to the next session or office hours.)</p>
+        
+            <h3 class="text-xl font-semibold mt-6">Simple Summary:</h3>
+            <p>This practice assignment brings together everything you’ve learned about circuits, components, and how electricity flows. You’ll review how resistors protect LEDs, how transistors switch circuits on, and how capacitors and diodes behave. The questions are here to help you remember — not test you. Try the sketch, answer the questions, rebuild a circuit if you can, and reflect on what you've learned. Doing this now makes the rest of the course much easier and sets you up for a successful final project.</p>
+        
+            <li>Submition information and futher documentation for your final project can be found with the following Link:
+              <a href="https://docs.google.com/document/d/102HvjMR2fsDhhiWrwZiaSoFYWUggAkppgXHxnVV0s4I/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Submission Form</a>.
+            </li>
+          `,
+          //videoUrl: "https://example.com/week2-practice-review"
+        }        
       ]
     },
     
@@ -1089,7 +1179,59 @@ const CircuitCourseData: CourseData = {
             ],
             correctAnswer: 1
           }
+        },
+        {
+          title: "3.8 Practice Assignment",
+          content: `
+            <h2 class="text-2xl font-bold">Slide 8: Practice Assignment – Advanced Circuit Design & Integration</h2>
+            <p class="mt-4"><strong>Objective:</strong> Reinforce your understanding of advanced circuit design through practical integration of sensors, actuators, and communication modules. This assignment ties together lessons from Week 3 and prior weeks to help you build fully functional systems.</p>
+        
+            <h3 class="text-xl font-semibold mt-6">Why This Matters:</h3>
+            <p>By this point, you’ve learned about core components, wiring, sensors, actuators, and communication modules. Now it’s time to apply those pieces together and think like a systems engineer. This exercise is meant to help you practice building a multi-component setup that resembles real-world embedded systems. No submission is required, but practicing these skills will make your final project easier, faster, and more impressive.</p>
+        
+            <h3 class="text-xl font-semibold mt-6">Hands-On Integration Task:</h3>
+            <p><strong>Build a basic interactive system that includes:</strong></p>
+            <ul class="list-disc list-inside mt-2 ml-4">
+              <li>At least one <strong>sensor</strong> (e.g., temperature, light, or motion)</li>
+              <li>One <strong>actuator</strong> (e.g., LED, buzzer, or servo motor)</li>
+              <li>Optional: One <strong>communication module</strong> (e.g., Serial Monitor, or display like OLED or LCD)</li>
+            </ul>
+        
+            <p><strong>Example Concept:</strong> "Motion-Activated Light Alert System"</p>
+            <ul class="list-disc list-inside ml-6">
+              <li>PIR sensor detects movement → microcontroller activates LED + buzzer</li>
+              <li>Optional: Display “Motion Detected” on serial monitor or screen</li>
+            </ul>
+        
+            <h3 class="text-xl font-semibold mt-6">Documentation Checklist:</h3>
+            <ul class="list-disc list-inside mt-2 ml-4">
+              <li>Draw a labeled diagram of your circuit</li>
+              <li>List all components and pin connections</li>
+              <li>Include a short description of what your system does</li>
+              <li>Write or paste your code (use modular functions where possible)</li>
+              <li>Take a photo of your breadboarded circuit if you can</li>
+            </ul>
+        
+            <h3 class="text-xl font-semibold mt-6">Review & Reflect:</h3>
+            <ul class="list-disc list-inside ml-4">
+              <li> Which parts from <strong>Week 1</strong> did you use? (e.g., Ohm’s Law, breadboarding, circuit reading)</li>
+              <li> Which concepts from <strong>Week 2</strong> did you apply? (e.g., resistors, diodes, capacitors, transistors)</li>
+              <li> What did you learn about using sensors and modules from <strong>Week 3</strong>?</li>
+              <li> What part was hardest to debug or wire correctly?</li>
+            </ul>
+        
+            <p>Optional: Write a short paragraph in your notebook answering this question: <em>“If I had to redesign this system for the real world, what would I improve or change?”</em></p>
+        
+            <h3 class="text-xl font-semibold mt-6">Simple Summary:</h3>
+            <p>This assignment is your chance to practice combining everything you’ve learned so far. You'll build a real circuit using sensors and actuators, connect the parts properly, write clean code to control them, and reflect on the process. This mirrors how real products are built — sensors trigger actions, outputs respond, and the code connects them all. Practicing now helps you prepare for your final project and gives you confidence to build your own systems from scratch.</p>
+        
+            <li>Submition information and futher documentation for your final project can be found with the following Link:
+              <a href="https://docs.google.com/document/d/102HvjMR2fsDhhiWrwZiaSoFYWUggAkppgXHxnVV0s4I/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Submission Form</a>.
+            </li>
+          `,
+          //videoUrl: "https://example.com/week3-practice-integration"
         }
+        
       ]
     },
     
@@ -1456,7 +1598,73 @@ const CircuitCourseData: CourseData = {
             ],
             correctAnswer: 0
           }
-        }
+        },
+        {
+          title: "4.8 Practice Assignment",
+          content: `
+            <h2 class="text-2xl font-bold">Slide 8: Practice Assignment – Integrating Circuit Design & Code</h2>
+            <p class="mt-4"><strong>Objective:</strong> Reflect on how you've combined hardware and code using the Arduino IDE, while reviewing key concepts from Weeks 1 through 4 to reinforce your learning.</p>
+        
+            <h3 class="text-xl font-semibold mt-6">Why This Matters:</h3>
+            <p>When you build real projects, you’re not just writing code or wiring components — you're integrating both into one intelligent system. The Arduino IDE helps you do that by bridging your circuit with your logic. This assignment is designed to strengthen that connection and improve your long-term memory of key concepts. The best way to truly understand what you’ve learned is to recall it without looking — that’s how your brain strengthens those pathways.</p>
+        
+            <p class="mt-4"><strong>Try your best to answer the questions below from memory first.</strong> You can check your notes afterward, but the goal is to practice remembering what you’ve already learned — this makes future lessons easier and helps you feel more confident.</p>
+        
+            <h3 class="text-xl font-semibold mt-6">Hands-On Reflection:</h3>
+            <p>Think about the project or sketch you worked on in Week 4 (e.g., LED blink, sensor input, display output). Answer the following in your notes or notebook:</p>
+            <ul class="list-disc list-inside ml-4 mt-2">
+              <li>What did your circuit do? What components did it include?</li>
+              <li>How did the <code>setup()</code> and <code>loop()</code> functions control the system?</li>
+              <li>What was one issue you debugged — and how did you find the problem?</li>
+              <li>Did you use the serial monitor? If yes, how did it help you?</li>
+              <li>If you had to explain your sketch and circuit to someone new, how would you describe the flow from sensor → code → output?</li>
+            </ul>
+        
+            <h3 class="text-xl font-semibold mt-6">Memory Check: Week 1</h3>
+            <p><strong>Try answering these from memory:</strong></p>
+            <ul class="list-disc list-inside ml-4">
+              <li> What is a circuit, and what must happen for current to flow?</li>
+              <li> What’s the function of a resistor?</li>
+              <li> What’s the formula for Ohm’s Law?</li>
+              <li> How do you read a basic schematic diagram?</li>
+            </ul>
+        
+            <h3 class="text-xl font-semibold mt-6">Memory Check: Week 2</h3>
+            <ul class="list-disc list-inside ml-4">
+              <li> What does a transistor do in a circuit?</li>
+              <li> What’s the difference between a diode and an LED?</li>
+              <li> How do capacitors and inductors store energy differently?</li>
+              <li> What is the purpose of a logic gate like AND or OR?</li>
+            </ul>
+        
+            <h3 class="text-xl font-semibold mt-6">Memory Check: Week 3</h3>
+            <ul class="list-disc list-inside ml-4">
+              <li> What are sensors and actuators? Give an example of each.</li>
+              <li> How does a breadboard help in testing complex circuits?</li>
+              <li> What’s the purpose of a communication module like Bluetooth or Wi-Fi?</li>
+              <li> Why is power management important for long-term performance?</li>
+            </ul>
+        
+            <h3 class="text-xl font-semibold mt-6">Memory Check: Week 4</h3>
+            <ul class="list-disc list-inside ml-4">
+              <li> What are the two main functions in every Arduino sketch?</li>
+              <li> What does <code>pinMode()</code> do?</li>
+              <li> What tool do you use to print values to your screen for debugging?</li>
+              <li> Why should you modularize your code using functions?</li>
+            </ul>
+        
+            <h3 class="text-xl font-semibold mt-6">Wrap-Up Reflection:</h3>
+            <p>Write down 3 things you feel confident about after completing Weeks 1–4. Then write 1–2 questions or areas that still feel confusing. These reflections will help you focus your learning in Week 5 and can also be great discussion points in peer review.</p>
+        
+            <h3 class="text-xl font-semibold mt-6">Simple Summary:</h3>
+            <p>This assignment helps you connect the dots. You’ve learned how components work (Weeks 1–2), how they integrate into full systems (Week 3), and how to bring them alive with code (Week 4). Now you’re practicing how it all works together. Answering questions from memory makes the learning stick. This is how you go from a student to a real builder — someone who not only follows steps but truly understands what’s happening and why.</p>
+        
+            <li>Submition information and further documentation for your final project can be found with the following Link:
+              <a href="https://docs.google.com/document/d/102HvjMR2fsDhhiWrwZiaSoFYWUggAkppgXHxnVV0s4I/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Submission Form</a>.
+            </li>
+          `,
+          //videoUrl: "https://example.com/week4-practice-integration"
+        }        
       ]
     },
     
@@ -1776,7 +1984,75 @@ const CircuitCourseData: CourseData = {
             ],
             correctAnswer: 0
           }
-        }
+        },
+        {
+          title: "5.8 Practice Assignment: Capstone Project Reflection",
+          content: `
+            <h2 class="text-2xl font-bold">Slide 8: Practice Assignment – Capstone Project Reflection</h2>
+            <p class="mt-4"><strong>Objective:</strong> Reflect on your entire learning journey by evaluating the integration of circuit design and code in your capstone project. Consider what you’ve learned, what challenged you, and how your knowledge from Weeks 1 through 5 contributed to your success.</p>
+        
+            <h3 class="text-xl font-semibold mt-6">Why This Matters:</h3>
+            <p>Reflection is one of the most powerful tools for learning. By thinking critically about what worked and what didn’t, you deepen your understanding and improve your design mindset. This practice assignment is a space to look back, tie together everything you’ve learned, and recognize your progress as an engineer, builder, and problem solver.</p>
+        
+            <h3 class="text-xl font-semibold mt-6">Capstone Reflection Questions:</h3>
+            <ul class="list-disc list-inside ml-4">
+              <li> What was the most challenging part of your project — circuit wiring, coding, integration, or testing?</li>
+              <li> How did you solve that challenge? What strategies, tools, or knowledge helped?</li>
+              <li> How did your hardware (sensors, actuators, etc.) and software (Arduino sketch) work together?</li>
+              <li> What is one thing you would improve if you built the project again?</li>
+              <li> What feature are you most proud of? Why?</li>
+            </ul>
+        
+            <h3 class="text-xl font-semibold mt-6">Memory Check – Your Journey from Week 1 to Week 5</h3>
+            <p><strong>Try answering these without looking at notes first. Reflect and then review after.</strong></p>
+        
+            <h4 class="text-lg font-semibold mt-4">Week 1 – Circuit Foundations</h4>
+            <ul class="list-disc list-inside ml-4">
+              <li> What is a closed loop and why is it essential for current to flow?</li>
+              <li> What does Ohm’s Law calculate, and why is it important?</li>
+              <li> How does a breadboard help with prototyping?</li>
+            </ul>
+        
+            <h4 class="text-lg font-semibold mt-4">Week 2 – Components & Functionality</h4>
+            <ul class="list-disc list-inside ml-4">
+              <li> What role does a transistor play in switching a circuit?</li>
+              <li> How do capacitors and inductors differ in energy storage?</li>
+              <li> What precautions must you take when working with diodes and resistors?</li>
+            </ul>
+        
+            <h4 class="text-lg font-semibold mt-4">Week 3 – Hardware Integration</h4>
+            <ul class="list-disc list-inside ml-4">
+              <li> What’s the difference between a sensor and an actuator?</li>
+              <li> How do Wi-Fi or Bluetooth modules enable communication in a project?</li>
+              <li> Why is power management critical when combining components?</li>
+            </ul>
+        
+            <h4 class="text-lg font-semibold mt-4">Week 4 – Arduino Programming</h4>
+            <ul class="list-disc list-inside ml-4">
+              <li> What are the roles of <code>setup()</code> and <code>loop()</code> in an Arduino sketch?</li>
+              <li> How does the serial monitor help during debugging?</li>
+              <li> Why is modular code important for maintaining and improving your program?</li>
+            </ul>
+        
+            <h4 class="text-lg font-semibold mt-4">Week 5 – Capstone Execution</h4>
+            <ul class="list-disc list-inside ml-4">
+              <li> How did your planning (sketches, schematics, timeline) support your success?</li>
+              <li> What testing strategies did you use to validate your circuit and code?</li>
+              <li> What feedback or peer review suggestions helped improve your project?</li>
+            </ul>
+        
+            <h3 class="text-xl font-semibold mt-6">Final Self-Reflection Prompt:</h3>
+            <p><strong>Write 5–7 sentences in your notebook, answering this:</strong><br>“How has this course changed the way I think about electronics, design, and problem solving? What new skills do I feel confident in now — and what’s something I’m excited to build next?”</p>
+        
+            <h3 class="text-xl font-semibold mt-6">Simple Summary:</h3>
+            <p>This final practice assignment gives you a chance to celebrate everything you’ve accomplished and reflect on what you’ve learned. You’ve gone from building simple circuits to creating full systems that integrate sensors, code, logic, and output. Reflecting on this journey helps you understand not just what you did — but why it matters. This reflection makes your learning stick, boosts your confidence, and prepares you for even more advanced challenges ahead.</p>
+        
+            <li>Submition information and further documentation for your final project can be found with the following Link:
+              <a href="https://docs.google.com/document/d/102HvjMR2fsDhhiWrwZiaSoFYWUggAkppgXHxnVV0s4I/edit?usp=sharing" class="text-blue-500 underline" target="_blank">Submission Form</a>.
+            </li>
+          `,
+          //videoUrl: "https://example.com/week5-capstone-reflection"
+        }        
       ]
     }
     
